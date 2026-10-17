@@ -1,0 +1,26 @@
+{
+  "addr": "0x4c40e0",
+  "code": "__int64 sub_4C40E0()\n{\n  unsigned __int64 v1; // [xsp-20h] [xbp-20h]\n\n  if ( *(_DWORD *)sub_4C40E0 >> 26 == 5 /*0x4c420c*/\n    || *(_DWORD *)sub_4C40E0 >> 21 == 1697\n    || ((((((((loc_4C40E4 >> 10 == 3508160) << 31 >> 31) + ((loc_4C40E8 >> 10 == 3508160) << 31 >> 31)) << 31 >> 31) - 1) << 31 >> 31)\n       + ((loc_4C40E8 >> 10 != 3508160 || loc_4C40E4 >> 10 != 3508160) << 31 >> 31))\n      & 1) != 0 )\n  {\n    abort(); /*0x4c416c*/\n  }\n  v1 = linux_eabi_syscall(__NR_getpid); /*0x4c4114*/\n  if ( v1 >= 0xFFFFFFFFFFFFF001LL ) /*0x4c4124*/\n  {\n    *(_DWORD *)__errno() = -(int)v1; /*0x4c4140*/\n    return -1; /*0x4c4148*/\n  }\n  return v1; /*0x4c4164*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x4c40e0",
+      "name": "sub_4C40E0"
+    },
+    {
+      "addr": "0x4c40e4",
+      "name": "loc_4C40E4"
+    },
+    {
+      "addr": "0x4c40e8",
+      "name": "loc_4C40E8"
+    },
+    {
+      "addr": "0x78a5e0",
+      "name": ".__errno"
+    }
+  ]
+}

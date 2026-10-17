@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6cd77c\",\"code\":null,\"error\":\"Decompilation failed at 0x6cd77c\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6cd77c",
+      "code": null,
+      "error": "Decompilation failed at 0x6cd77c"
+    },
+    "isError": false
+  },
+  "id": 1
+}

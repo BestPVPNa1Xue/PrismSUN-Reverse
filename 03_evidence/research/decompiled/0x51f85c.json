@@ -1,0 +1,10 @@
+{
+  "addr": "0x51f85c",
+  "code": "__int64 __fastcall sub_51F85C(__int64 result, __int64 a2)\n{\n  __int64 v2; // x19\n  __int64 v3; // x20\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x51f874*/\n  HIDWORD(savedregs[2]) = 1143282330; /*0x51f880*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x51f888*/\n  while ( HIDWORD(savedregs[2]) != -914055923 ) /*0x51f8c4*/\n  {\n    if ( HIDWORD(savedregs[2]) == 1143282330 ) /*0x51f914*/\n    {\n      HIDWORD(savedregs[2]) = 1768497275; /*0x51f9a4*/\n    }\n    else\n    {\n      v2 = result; /*0x51f9d8*/\n      v3 = a2; /*0x51f9e4*/\n      sub_56C57C(a2, LOBYTE(savedregs[2]), a2); /*0x51f9ec*/\n      result = v2; /*0x51f9f0*/\n      a2 = v3; /*0x51f9f4*/\n      HIDWORD(savedregs[2]) = -914055923; /*0x51fa04*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x51fa0c*/\n  return result; /*0x51fa2c*/\n}",
+  "refs": [
+    {
+      "addr": "0x56c57c",
+      "name": "sub_56C57C"
+    }
+  ]
+}

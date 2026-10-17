@@ -1,0 +1,22 @@
+[
+  {
+    "path": "D:\\PrismSUN\\libprism-sun.so",
+    "length": 8030488,
+    "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4"
+  },
+  {
+    "path": "D:\\PrismSUN\\libprism-sun.so.i64",
+    "length": 76022000,
+    "sha256": "05e55a28cce9af99e810df76dc16d11b5cc087b5a2ac3f1f0fe38158e3dca9d1"
+  },
+  {
+    "path": "D:\\PrismSUN\\research\\prism-analysis.i64",
+    "length": 79825553,
+    "sha256": "8d428ffe939150dacf1c5dae621237766b3404b286917dbff6ac95bc12ef8b98"
+  },
+  {
+    "path": "D:\\PrismSUN\\research\\accessibility\\prism-accessibility.i64",
+    "length": 80972819,
+    "sha256": "7ecb74bb371d05845122f73262bb60915ef28329de6c455442827a876c5c7c00"
+  }
+]

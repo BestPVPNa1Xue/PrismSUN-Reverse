@@ -1,0 +1,68 @@
+{
+  "addr": "0x40fd54",
+  "asm": {
+    "name": "sub_40FD54",
+    "start_ea": "0x40fd54",
+    "segment": ".text",
+    "lines": [
+      {
+        "addr": "40fd54",
+        "instruction": "STP X29, X30, [SP,#-0x60]!",
+        "label": "sub_40FD54"
+      },
+      {
+        "addr": "40fd58",
+        "instruction": "STP X28, X27, [SP,#0x10]",
+        "label": "loc_40FD58"
+      },
+      {
+        "addr": "40fd5c",
+        "instruction": "STP X26, X25, [SP,#0x20]",
+        "label": "loc_40FD5C"
+      },
+      {
+        "addr": "40fd60",
+        "instruction": "STP X24, X23, [SP,#0x30]"
+      },
+      {
+        "addr": "40fd64",
+        "instruction": "STP X22, X21, [SP,#0x40]"
+      },
+      {
+        "addr": "40fd68",
+        "instruction": "STP X20, X19, [SP,#0x50]"
+      },
+      {
+        "addr": "40fd6c",
+        "instruction": "MOV X29, SP"
+      },
+      {
+        "addr": "40fd70",
+        "instruction": "SUB SP, SP, #0x110"
+      },
+      {
+        "addr": "40fd74",
+        "instruction": "MRS X8, TPIDR_EL0"
+      },
+      {
+        "addr": "40fd78",
+        "instruction": "LDR X8, [X8,#0x28]"
+      }
+    ],
+    "stack_frame": [
+      {
+        "name": "__saved_registers",
+        "offset": "0x110",
+        "size": "0x60",
+        "type": "_QWORD[12]"
+      }
+    ],
+    "return_type": "void",
+    "arguments": []
+  },
+  "instruction_count": 866,
+  "total_instructions": 866,
+  "cursor": {
+    "done": true
+  }
+}

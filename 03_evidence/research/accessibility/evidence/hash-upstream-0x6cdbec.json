@@ -1,0 +1,31 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6cdbec\",\"code\":\"__int64 __usercall sub_6CDBEC@<X0>(__int64 a1@<X8>)\\n{\\n  __int64 v2; // x0\\n  __int64 result; // x0\\n  __int64 savedregs; // [xsp+40h] [xbp+20h]\\n  int i; // [xsp+44h] [xbp+24h]\\n  __int64 savedregs_8; // [xsp+48h] [xbp+28h]\\n\\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6cdc10*/\\n  for ( i = -394345607; ; i = -631820676 ) /*0x6cdc1c*/\\n  {\\n    while ( i == -631820676 ) /*0x6cdc4c*/\\n    {\\n      v2 = sub_6DD89C(); /*0x6cdd70*/\\n      savedregs = ((__int64 (__fastcall *)(__int64))loc_6D14D4)(v2); /*0x6cdd78*/\\n      result = sub_6DD8A0(a1, savedregs); /*0x6cdd84*/\\n      i = 1795703520; /*0x6cdd94*/\\n    }\\n    if ( i != -394345607 ) /*0x6cdc60*/\\n      break; /*0x6cdc60*/\\n  }\\n  _ReadStatusReg(TPIDR_EL0); /*0x6cdd9c*/\\n  return result; /*0x6cddc0*/\\n}\",\"refs\":[{\"addr\":\"0x6dd89c\",\"name\":\"sub_6DD89C\"},{\"addr\":\"0x6d14d4\",\"name\":\"loc_6D14D4\"},{\"addr\":\"0x6dd8a0\",\"name\":\"sub_6DD8A0\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6cdbec",
+      "code": "__int64 __usercall sub_6CDBEC@<X0>(__int64 a1@<X8>)\n{\n  __int64 v2; // x0\n  __int64 result; // x0\n  __int64 savedregs; // [xsp+40h] [xbp+20h]\n  int i; // [xsp+44h] [xbp+24h]\n  __int64 savedregs_8; // [xsp+48h] [xbp+28h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6cdc10*/\n  for ( i = -394345607; ; i = -631820676 ) /*0x6cdc1c*/\n  {\n    while ( i == -631820676 ) /*0x6cdc4c*/\n    {\n      v2 = sub_6DD89C(); /*0x6cdd70*/\n      savedregs = ((__int64 (__fastcall *)(__int64))loc_6D14D4)(v2); /*0x6cdd78*/\n      result = sub_6DD8A0(a1, savedregs); /*0x6cdd84*/\n      i = 1795703520; /*0x6cdd94*/\n    }\n    if ( i != -394345607 ) /*0x6cdc60*/\n      break; /*0x6cdc60*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6cdd9c*/\n  return result; /*0x6cddc0*/\n}",
+      "refs": [
+        {
+          "addr": "0x6dd89c",
+          "name": "sub_6DD89C"
+        },
+        {
+          "addr": "0x6d14d4",
+          "name": "loc_6D14D4"
+        },
+        {
+          "addr": "0x6dd8a0",
+          "name": "sub_6DD8A0"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

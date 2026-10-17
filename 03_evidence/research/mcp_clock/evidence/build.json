@@ -1,0 +1,42 @@
+{
+  "outputs": [
+    {
+      "Path": "D:\\PrismSUN\\research\\mcp_clock\\build\\host\\prism_mcp_clock.exe",
+      "Hash": "E1A1CC0B625D530138D51BD1322A5628FFA68656E0AA184B3D0919E5A9D55644"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\mcp_clock\\build\\host\\unit_tests.exe",
+      "Hash": "F8BF80DEF596A27A783EFF883333DCF5FA446CF28E15A965FE5E2C35505E0F0E"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\mcp_clock\\build\\android-arm64\\libprism_clock_chain.so",
+      "Hash": "6F027374FC10F979E837E596A1E7BBE9BA75A6C5C952318847D3187455F3E5B7"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\mcp_clock\\build\\android-arm64\\libprism_mcp_chain.so",
+      "Hash": "E047AEEA5671B2949B9BF24479A897DC42ACEFD672E0E252985A8366FF41094A"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\mcp_clock\\build\\android-arm64\\prism_mcp_clock",
+      "Hash": "EBFB03EAC60313EE5C6CC943D8336FC7E4B0F8815592CB44B962CACC3312BD41"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\mcp_clock\\build\\android-arm64\\unit_tests",
+      "Hash": "597F588C2B606BD4F32EBB797ADBD1ADE35A181A4BE04609C858D62D646E85A1"
+    }
+  ],
+  "androidTarget": "aarch64-linux-android24",
+  "androidExecuted": false,
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "D:\\PrismSUN\\research\\mcp_clock\\src"
+  ],
+  "ndk": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973",
+  "hostTest": "PASS 46 checks",
+  "hostCompiler": "D:\\msys64\\ucrt64\\bin\\g++.exe"
+}

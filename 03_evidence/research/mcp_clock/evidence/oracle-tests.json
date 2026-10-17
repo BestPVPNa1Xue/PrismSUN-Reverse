@@ -1,0 +1,743 @@
+{
+  "scope": "C++ versus independent hashlib/hmac SHA-2 and DRBG oracle",
+  "original_elf_executed": false,
+  "seed": "0x4D4350434C4F434B",
+  "total": 98,
+  "passed": 98,
+  "cases": [
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 0,
+      "output_sha256": "5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 1,
+      "output_sha256": "a269b28a3aeb487f5e7a2caa6262f065f9921f4c568ea4c913d2707957357c7c"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 3,
+      "output_sha256": "7cc2fb8c7963aae3c0ad97690b8d1497a285a78136c174f370093eda93628b80"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 55,
+      "output_sha256": "43981a76c6816f92efcd1a26f11c40d7ad3b13ad05851177e1633afaf8e40056"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 56,
+      "output_sha256": "1a50319458738948f1d86b302286aee3ddb7c15ee2b704c0468eb6319cf4cdce"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 63,
+      "output_sha256": "5c433430afe48f30a9ac18bf7b1785b5244ad778bd00df456a18a5193690f5a5"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 64,
+      "output_sha256": "83d4ef6f87bfb9cd4336e0b2e6b48d9351bebda5de681703eb36987545d53361"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 65,
+      "output_sha256": "e9414548bfb5c8faf2c15a159fd94522c1cbb570256eb82cd3813900d761a3df"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 111,
+      "output_sha256": "87f901dbe2606a14178bd0256e8159e2ad242842d8b72009c364a8d9eda78198"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 112,
+      "output_sha256": "336dd2b9f93b0bbd66e0d5c8e728c595c6e510fb38dae7e707f349085bbbc228"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 127,
+      "output_sha256": "706a2948ff7b1b66470485a3d278ce4319f79ac56bce1720d497ceb21cfea365"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 128,
+      "output_sha256": "119d44149aed1d485c3bf5439ef427ecd68589ba525565da5e3fc895674731a5"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 129,
+      "output_sha256": "857487f540920f644f1f9d7a8831fbf2ffdb2cbd4735752e1bcb8ab3f2d36300"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 255,
+      "output_sha256": "276dc0427805e9bd8cfdb89690d0d27ea5798704f5896dd9c2411b27dc447567"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 1024,
+      "output_sha256": "6fc02345069770ddc696c49a9a9aff688abcaa52126e2494d4c4c62ed48fe649"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 256,
+      "length": 4096,
+      "output_sha256": "d74ef4c5039d33c6c623b9631e1c9a85147a03e3c631a2ef9852d470aa7b8214"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 0,
+      "output_sha256": "60bd53f5c98d92e4af1c19fc801071860e9c3d0d92da9b0d321cef3947d111b5"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 1,
+      "output_sha256": "2a82f06a946d3cd2896c5a7a24462a137e0a5aa47e67c2995dfc68170a369d0f"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 32,
+      "output_sha256": "eaeb30d3a9f8df0cc9c46e098f92a965d077d57448b766aad891878ed88927e8"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 64,
+      "output_sha256": "95b0bcb0e84a9f13bb6a2ea954d8b51ce2de5c842a7929a611ec47304013c78a"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 65,
+      "output_sha256": "cd05956931055d0c6bf6e272eda4a671acec675e255cb41de8c271e33c33e566"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 127,
+      "output_sha256": "f2f19b9fc5c3657a5914871f3028a2cbd17698065da8a7dc0db24dd812cf1eda"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 128,
+      "output_sha256": "f20dbcccef3ecc48b22b67e1e5e07b5c3a260829a2bea6df64bcd724aa457c53"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 129,
+      "output_sha256": "a26bfb7039b88897c6f2e60156c85ee09eccd4c40570040ca64c6e411bb68ea4"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 256,
+      "key_length": 256,
+      "output_sha256": "62d62978f8e9bc043f79f9ccd9d9068b9e5111764420257d67fb4fa0973f4fb9"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 0,
+      "additional_length": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 0,
+      "additional_length": 32,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 1,
+      "additional_length": 0,
+      "output_sha256": "de2e331d891ae267a7009cb45b4e8830f170e0c937288ea2731a1941c7a53b0d"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 1,
+      "additional_length": 32,
+      "output_sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 31,
+      "additional_length": 0,
+      "output_sha256": "9dbd04da13c3e4595afbddd6d374c9c9d62fb9788af7fb2d0dc5076b9bceaa78"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 31,
+      "additional_length": 32,
+      "output_sha256": "df2886dd351aca38e549e3aa3a097c422659e0cc8ef770dca43e1e1b963ec0ce"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 32,
+      "additional_length": 0,
+      "output_sha256": "80f25a14e09917293cfa17460478b4d90d830dc1730232c1457fd2ca28676c47"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 32,
+      "additional_length": 32,
+      "output_sha256": "df9584b71f354c66755968c95ef1433539eee62bc4529fac5d9ac4123e4d5a3b"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 63,
+      "additional_length": 0,
+      "output_sha256": "7c761cbf36a0e82fdb488e9fc105e7cde08516098746ffa01fdcc64971505b9c"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 63,
+      "additional_length": 32,
+      "output_sha256": "45bf6488f3d3ea30f194ef8df358c521164588037227fbb83db190dfb27918e6"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 64,
+      "additional_length": 0,
+      "output_sha256": "daa5dbb23bd052b8a0ccb4f5af6599105995a0265eb77f1c059912f21082f623"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 64,
+      "additional_length": 32,
+      "output_sha256": "0fcac33bf0cb56cc5afd424718865639b56469f9ba087fe60efb644b3c156d0e"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 65,
+      "additional_length": 0,
+      "output_sha256": "b8c805fdbfda6266fd793ac91ee327e12eda563f2cd23ab9194cc3a0d889c67e"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 65,
+      "additional_length": 32,
+      "output_sha256": "4f58257d8c40e38580ff5d5a630a5fdbefa82463db6c0eb7c6db04d81bb43bc0"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 128,
+      "additional_length": 0,
+      "output_sha256": "f1ced1e6daa1eeb7fadc5b8505d08b0f2382883e4351bd87b347f01cbe43f3c9"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 128,
+      "additional_length": 32,
+      "output_sha256": "2f496a2371ad4a0660688270d8a4d1a98b24979ba506dd350bbc1bc3f10b7ea0"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 1000,
+      "additional_length": 0,
+      "output_sha256": "1f10151f8074d0f3e2b6c1899c969a1155f7ea09bcbd90249491c5229e3a2549"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 1000,
+      "additional_length": 32,
+      "output_sha256": "11abd3238e39cc4f131c183c286e4deb85ab6e44a6f0d8c2204b2dfed785d646"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 65536,
+      "additional_length": 0,
+      "output_sha256": "04d4823b8e2bae8730601d8b406030f30a3c50d958daf9c39d513df074159084"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 65536,
+      "additional_length": 32,
+      "output_sha256": "de574ade528bbe6a99d6b0b4f94d48df3986a21ea935a2b468f814ff75bdefca"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 65537,
+      "additional_length": 0,
+      "output_sha256": "8846e804c173808332329263d7c9e48c6b57f9d8db682a84a33028be10b02502"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 65537,
+      "additional_length": 32,
+      "output_sha256": "6b875fbf69c65127451429e195e0f86e08c2b3713c0e5c5fd9e56a1d813f49a5"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 131073,
+      "additional_length": 0,
+      "output_sha256": "01e2c606f8d438cae9035b1a215c843a56b12ccb43aba9115ec0b016f086c5ab"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 256,
+      "length": 131073,
+      "additional_length": 32,
+      "output_sha256": "beff17a68b40345f3d44a4a351b67433756aa86c1a2cff3518ccc89de91bca40"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 0,
+      "output_sha256": "001d686db504e20c792eaa07fe09224a45ff328e24a80072d04d16abc5c2b5d2"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 1,
+      "output_sha256": "67b34494ec23edea9ae17d63e4b3651f1969eb3018e7cfaf145ad8f5203c90b4"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 3,
+      "output_sha256": "fc61019d50b48bd6e96946f23cc62c722a9c15e0cb736d017544a4bd089fc59d"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 55,
+      "output_sha256": "341b0fe9d6fd9e8ba19b32bb0ebcbdcb6b7112397d4e7d90769f93afbb12e76d"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 56,
+      "output_sha256": "c42c95f21811eed6c20b24b3fdca5e1d95456fe6e945e67d2410c2db4d2555c9"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 63,
+      "output_sha256": "e09de091ac99198bacc2d8ceec97ebe1179a0f8afc7a8be61c1ef232574989b4"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 64,
+      "output_sha256": "396ac0a86636c411bb8137d4990c56ab3719272095f0f0b5351bf7fafc46eab9"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 65,
+      "output_sha256": "5022a3aa52f1a70f260d3dc67825018fa338c3fb80ce633d5f01ca96b19170b1"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 111,
+      "output_sha256": "b8278bfc0fdbd08abc9a0ec2f1552dfca5b7b169076ea0b18a5a4fca4ed2892d"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 112,
+      "output_sha256": "8ac98e88473c15b4c1f9d182da28bd00e3dfe51c5eae50ae2a09943da10781cb"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 127,
+      "output_sha256": "5f9b7bc5b7577e92819fb14843c91f70fa79d4ddbcc1c199af8f240c4093ad49"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 128,
+      "output_sha256": "10c872a26c55fb1de564ca83bfe5f2f3ca58c5e2098fd78128baa15f1b60fd54"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 129,
+      "output_sha256": "c3bb4daf0e8d58b9a1d856f6a5e9e7419d2e213339557370f24473e3c8193269"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 255,
+      "output_sha256": "ff06fe5740be2837e675447dd3c7b4c724f49100e768cfff46601e66376b56f0"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 1024,
+      "output_sha256": "574d25c71a2301dd33bf6a3a0ceb0012cab04b04643792a4353950c655dab03e"
+    },
+    {
+      "name": "hash",
+      "passed": true,
+      "bits": 512,
+      "length": 4096,
+      "output_sha256": "8d1df1d3354faa63fa2286041ccf44678eff9f7260acf2a1c570d5580bbcdb76"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 0,
+      "output_sha256": "0d66ce19ddf98d773159b97f340e521fefbea7bdea5eb67f88dec64ee80a1b52"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 1,
+      "output_sha256": "c4476f96abf61bc42568240cd6f5de1acd0fce741474e66abe38ba30ee67da6a"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 32,
+      "output_sha256": "2db43ce356f255cf6fda63a2373e8c861e0b985043b5087e5f0a140d94312f23"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 64,
+      "output_sha256": "e1d14b2ca42abdc8fec4f3b4efa1d4b9cabb0c151edcaf22e4ac4caf5d8888c8"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 65,
+      "output_sha256": "4cf7c0588bb1b186a73896932862a4e13db54729fc130607dae32742d8fa52b2"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 127,
+      "output_sha256": "a0f2abf616b015bc763eca082b57ab4bd94f11d6836fc10ff1f2b9144dffbdce"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 128,
+      "output_sha256": "c263b8dc4d5b1525cbbfd1f9e5103d082b135375c8a0ad60791f44ddf23d8a4f"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 129,
+      "output_sha256": "6286db3df15cd56760806ada0c105341f48ecb02b8ed567f9dbded38262fb628"
+    },
+    {
+      "name": "hmac",
+      "passed": true,
+      "bits": 512,
+      "key_length": 256,
+      "output_sha256": "0a49d43e22403eeb859f97c0c1b1b6557b3c08a002ee419749b5536e30928388"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 0,
+      "additional_length": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 0,
+      "additional_length": 32,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 1,
+      "additional_length": 0,
+      "output_sha256": "76be8b528d0075f7aae98d6fa57a6d3c83ae480a8469e668d7b0af968995ac71"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 1,
+      "additional_length": 32,
+      "output_sha256": "2a0ab732b4e9d85ef7dc25303b64ab527c25a4d77815ebb579f396ec6caccad3"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 31,
+      "additional_length": 0,
+      "output_sha256": "d27d0f355f3c1f91b2516fa03c24d6642f42e854cc4138669fbdc2c03d1f3a4b"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 31,
+      "additional_length": 32,
+      "output_sha256": "8f072fc47480b4538b014126c5c6677f4cfaad0d31566f59febc8459f4bb8fdc"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 32,
+      "additional_length": 0,
+      "output_sha256": "b942ec287b2b2f0e8ea91b3db6236eb622fbcf764ec6e8031ce64b5e87af38c8"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 32,
+      "additional_length": 32,
+      "output_sha256": "7e40d478bf27f18e0eea996dd6cc4869aee997258fcbdbb02a3d5474f68d296f"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 63,
+      "additional_length": 0,
+      "output_sha256": "0d68c2332275c1fae5eda510cb4acc1cee1c617fafc633ddd13f4333fe35d8f4"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 63,
+      "additional_length": 32,
+      "output_sha256": "cf3a9192ce4b0d9bb5625c8283e32b0412f8f1a5240b67d126a928ad0954d2b1"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 64,
+      "additional_length": 0,
+      "output_sha256": "e7b1942d713f0c81bc7d4f855e2a6cd89d570ea8a5670fc90bfaf6036da1d22d"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 64,
+      "additional_length": 32,
+      "output_sha256": "91390a303358ba163e45147c9f9edf704803ca1c0dac1789ca4fda62dadf8830"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 65,
+      "additional_length": 0,
+      "output_sha256": "3aad86652d20bb83218d233eb5c48658b69613ccf766203630e0cf7602fb7020"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 65,
+      "additional_length": 32,
+      "output_sha256": "e615439660c13e2b92f50b83f187f5532d618ccdf739b59a7f67e2b2a50d44bf"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 128,
+      "additional_length": 0,
+      "output_sha256": "688db90f6a589118d6b5bd02877067d630ba1e1665a45e76dbb5013868dd9f38"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 128,
+      "additional_length": 32,
+      "output_sha256": "9cfa6eddb60cc6e005406c0467bea4320c0a89e8636cd47787bc3a91b9fd630e"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 1000,
+      "additional_length": 0,
+      "output_sha256": "77efd33db9e857ab45c4e491dea850986f89c48725edbb1263da620b5955d809"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 1000,
+      "additional_length": 32,
+      "output_sha256": "578d741c4be90373840473966d9e44a688f5dba7a100db4685a3236fa8dc76de"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 65536,
+      "additional_length": 0,
+      "output_sha256": "7db4b436ced0ec89d28efb71309ec143e509f8dbaa6646e197729e701f670874"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 65536,
+      "additional_length": 32,
+      "output_sha256": "98dcd62efe1ad8a5b2e09a4988efd5d67ca40cf93bb6e7d74f6bd98045c3b94d"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 65537,
+      "additional_length": 0,
+      "output_sha256": "728c3a800f6dafb8286e16a046c1a64331d4405685341c128d0a572444ddcc31"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 65537,
+      "additional_length": 32,
+      "output_sha256": "c38aa2a5190181f9a73435f17b7af2ccb81cbb7228fd2597f635931b74bf0f63"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 131073,
+      "additional_length": 0,
+      "output_sha256": "d3fe3bee3c0194f6ffe7ff75f37cbb8cbb062c76078d66bbb645ffdb706e26ad"
+    },
+    {
+      "name": "drbg",
+      "passed": true,
+      "bits": 512,
+      "length": 131073,
+      "additional_length": 32,
+      "output_sha256": "83710010763644d71ad78784bd7b840ef90793215a0109b9a6477cc01df2d8d1"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "method": "Bytewise evaluation of IDA Pro MCP exported bytes and decoder instruction constants; no binary execution",
+  "fd1": {
+    "bytes": [
+      47,
+      102,
+      100,
+      0
+    ],
+    "text": "/fd\u0000"
+  },
+  "fd2": {
+    "bytes": [
+      47,
+      102,
+      100,
+      0
+    ],
+    "text": "/fd\u0000"
+  },
+  "proc": {
+    "bytes": [
+      47,
+      112,
+      114,
+      111,
+      99,
+      47,
+      0
+    ],
+    "text": "/proc/\u0000"
+  },
+  "headerDecoded": {
+    "bytes": [
+      74,
+      68,
+      87,
+      76
+    ],
+    "text": "JDWL"
+  },
+  "headerRaw": {
+    "bytes": [
+      77,
+      67,
+      80,
+      75
+    ],
+    "text": "MCPK"
+  },
+  "macNames": [
+    "HMAC(SHA-512)\u0000",
+    "HMAC(SHA-256)\u0000"
+  ]
+}

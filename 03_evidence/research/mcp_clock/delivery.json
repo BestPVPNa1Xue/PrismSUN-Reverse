@@ -1,0 +1,10 @@
+{
+  "archive": "prism-mcp-clock-deliverables.zip",
+  "sha256": "897e8fe45719dec0689c650bb30f8f76c362b07adedb9e3decb92585459fdf56",
+  "size": 2732469,
+  "excluded": [
+    "prism-mcp-clock.i64 (available separately in workspace)",
+    "original sample"
+  ],
+  "manifest_entries": 179
+}

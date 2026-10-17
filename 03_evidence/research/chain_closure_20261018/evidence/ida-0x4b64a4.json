@@ -1,0 +1,10 @@
+{
+  "addr": "0x4b64a4",
+  "code": "__int64 __fastcall sub_4B64A4(__int64 a1)\n{\n  char v1; // w0\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4b64b8*/\n  v1 = ((__int64 (__fastcall *)(__int64))loc_4B66C8)(a1); /*0x4b6574*/\n  _ReadStatusReg(TPIDR_EL0); /*0x4b6578*/\n  return v1 & 1; /*0x4b6598*/\n}",
+  "refs": [
+    {
+      "addr": "0x4b66c8",
+      "name": "loc_4B66C8"
+    }
+  ]
+}

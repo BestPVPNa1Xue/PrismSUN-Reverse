@@ -1,0 +1,91 @@
+{
+  "method": "IDA get_bytes vtable slots +0x18 / +0x40; ID method pseudocode; task36 disassembly and None constructor; initializer paths supplemented from recorded ELF FDEs",
+  "limitations": [
+    "Static correspondence; not a runtime enumeration of every possible registry insertion",
+    "Task IDs are not event IDs",
+    "Not an exhaustive detector list: environment thread, entry self-checks and local termination paths exist outside this result constructor"
+  ],
+  "tasks": [
+    {
+      "vptr": "0x793a70",
+      "id_method": "0x630c60",
+      "execute": "0x632054",
+      "name_method": "0x6307f4",
+      "id_returns": [
+        "return 39;"
+      ]
+    },
+    {
+      "vptr": "0x793b68",
+      "id_method": "0x650410",
+      "execute": "0x650898",
+      "name_method": "0x64ffa8",
+      "id_returns": [
+        "return 33;"
+      ]
+    },
+    {
+      "vptr": "0x793c08",
+      "id_method": "0x66e578",
+      "execute": "0x66e838",
+      "name_method": "0x66e234",
+      "id_returns": [
+        "return 34;"
+      ]
+    },
+    {
+      "vptr": "0x793ca8",
+      "id_method": "0x68c394",
+      "execute": "0x68cbe0",
+      "name_method": "0x68c144",
+      "id_returns": [
+        "return 37;"
+      ]
+    },
+    {
+      "vptr": "0x793d48",
+      "id_method": "0x6aa91c",
+      "execute": "0x6ab3d8",
+      "name_method": "0x6aa3ec",
+      "id_returns": [
+        "return 35;"
+      ]
+    },
+    {
+      "vptr": "0x793de8",
+      "id_method": "0x6cdfb4",
+      "execute": "0x6cf0c8",
+      "name_method": "0x6cdbec",
+      "id_returns": [
+        "return 38;"
+      ]
+    },
+    {
+      "vptr": "0x793f00",
+      "id_method": "0x6f3b48",
+      "execute": "0x6f4218",
+      "name_method": "0x6f35fc",
+      "id_returns": [
+        "return 40;"
+      ]
+    },
+    {
+      "vptr": "0x793fb0",
+      "id_method": "0x7149d8",
+      "execute": "0x7153a8",
+      "name_method": "0x7144a0",
+      "id_returns": [
+        "return 17;"
+      ]
+    },
+    {
+      "vptr": "0x794050",
+      "id_method": "0x73c5c8",
+      "execute": "0x73ce64",
+      "name_method": "0x73c064",
+      "id_returns": [
+        "return 36;"
+      ]
+    }
+  ]
+}

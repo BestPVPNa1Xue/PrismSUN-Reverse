@@ -1,0 +1,18 @@
+{
+  "addr": "0x6a8154",
+  "code": "// bad sp value at call has been detected, the output may be wrong!\n__int64 __usercall sub_6A8154@<X0>(__int64 result@<X0>, __int64 a2@<X8>)\n{\n  __int64 v2; // x19\n  __int64 v3; // x21\n  _QWORD savedregs[2]; // [xsp+40h] [xbp+20h] BYREF\n\n  savedregs[1] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6a8170*/\n  for ( HIDWORD(savedregs[0]) = 375806407; ; HIDWORD(savedregs[0]) = -760659279 ) /*0x6a817c*/\n  {\n    while ( HIDWORD(savedregs[0]) == -760659279 ) /*0x6a81fc*/\n    {\n      v2 = a2; /*0x6a82cc*/\n      v3 = result; /*0x6a82d4*/\n      sub_6A893C(result, (__int64)savedregs); /*0x6a82dc*/\n      sub_6A8E60(v2, savedregs); /*0x6a82e8*/\n      ((void (__fastcall *)(_QWORD *))loc_6A8FD4)(savedregs); /*0x6a82f0*/\n      a2 = v2; /*0x6a82f4*/\n      result = v3; /*0x6a82f8*/\n      HIDWORD(savedregs[0]) = 785017052; /*0x6a8308*/\n    }\n    if ( HIDWORD(savedregs[0]) != 375806407 ) /*0x6a8238*/\n      break; /*0x6a8238*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6a8310*/\n  return result; /*0x6a8334*/\n}",
+  "refs": [
+    {
+      "addr": "0x6a893c",
+      "name": "sub_6A893C"
+    },
+    {
+      "addr": "0x6a8e60",
+      "name": "sub_6A8E60"
+    },
+    {
+      "addr": "0x6a8fd4",
+      "name": "loc_6A8FD4"
+    }
+  ]
+}

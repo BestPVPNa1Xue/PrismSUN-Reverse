@@ -1,0 +1,41 @@
+{
+  "scope": "Original env lifecycle reconstruction; fake JavaVM and ARM64 emulation agreement, no device runtime",
+  "android_target": "aarch64-linux-android24",
+  "tests": [
+    "PASS null_vm",
+    "PASS already_attached",
+    "PASS detached_attach_success",
+    "PASS detached_attach_failed",
+    "PASS unsupported_version",
+    "PASS other_GetEnv_error",
+    "PASS: 6 env-scope scenarios match original ARM64 emulation"
+  ],
+  "status": "PASS",
+  "files": [
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.cpp",
+      "sha256": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235",
+      "size": 985
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.hpp",
+      "sha256": "f8a98511c594f39c03e29161f403fa17ef23ff6ececf0a580297262b3f10b312",
+      "size": 932
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\tests\\jni_env_tests.cpp",
+      "sha256": "e6d39439c652dbe1d60dd32c810b505034b03da3f6775027ad464b1c6c50ccf9",
+      "size": 2602
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\jni_env_tests.exe",
+      "sha256": "c81de17a6add57fd3acd4f6ec1833e6964023ff7bff799b4c47334fee7208b27",
+      "size": 153255
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\accessibility_env.o",
+      "sha256": "a3d6ca069389822d18652729efb7edf43c11ad0e1c4f602d557239c2b7e52647",
+      "size": 3008
+    }
+  ]
+}

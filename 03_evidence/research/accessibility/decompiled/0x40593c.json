@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x40593c\",\"code\":\"// attributes: thunk\\n__int64 __fastcall sub_40593C(__int64 result, int a2)\\n{\\n  return sub_3D764C(result, a2);\\n}\",\"refs\":[{\"addr\":\"0x3d764c\",\"name\":\"sub_3D764C\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x40593c",
+      "code": "// attributes: thunk\n__int64 __fastcall sub_40593C(__int64 result, int a2)\n{\n  return sub_3D764C(result, a2);\n}",
+      "refs": [
+        {
+          "addr": "0x3d764c",
+          "name": "sub_3D764C"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

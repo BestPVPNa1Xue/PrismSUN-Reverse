@@ -1,0 +1,22 @@
+{
+  "addr": "0x40fd54",
+  "code": "void sub_40FD54()\n{\n  _ReadStatusReg(TPIDR_EL0); /*0x40fd74*/\n  if ( !((*(_DWORD *)sub_40FD54 >> 26 != 5) ^ (*(_DWORD *)sub_40FD54 >> 21 != 1697) /*0x410ad8*/\n       | (*(_DWORD *)sub_40FD54 >> 26 == 5 && *(_DWORD *)sub_40FD54 >> 21 == 1697))\n    && loc_40FD58 >> 10 != 3508160\n    && loc_40FD5C >> 10 != 3508160 )\n  {\n    JUMPOUT(0x40FF60); /*0x40ff60*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x410a28*/\n  abort(); /*0x410a3c*/\n}",
+  "refs": [
+    {
+      "addr": "0x40fd54",
+      "name": "sub_40FD54"
+    },
+    {
+      "addr": "0x40fd58",
+      "name": "loc_40FD58"
+    },
+    {
+      "addr": "0x40fd5c",
+      "name": "loc_40FD5C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    }
+  ]
+}

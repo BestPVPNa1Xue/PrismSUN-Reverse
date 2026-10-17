@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "unreadable_output",
+    "category": "execution_failure",
+    "message": "Analysis returned an unreadable result. Retry once; if it continues, run `rea doctor`.",
+    "retryable": false,
+    "remediation": {
+      "action": "Analysis returned an unreadable result. Retry once; if it continues, run `rea doctor`."
+    }
+  }
+}

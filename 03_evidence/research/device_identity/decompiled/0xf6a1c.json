@@ -1,0 +1,59 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0xf6a1c\",\"code\":\"_QWORD *__fastcall sub_F6A1C(_QWORD *result, _QWORD *a2)\\n{\\n  bool v2; // zf\\n\\n  v2 = *(_DWORD *)sub_F6A1C >> 26 == 5 || (*(_DWORD *)sub_F6A1C & 0xFFE00000) == -736100352; /*0xf6a40*/\\n  if ( v2 /*0xf6af4*/\\n    || loc_F6A20 >> 10 == 3508160\\n    || (loc_F6A24 & 0xFFFFFC00) == 0xD61F0000\\n    || *(_DWORD *)sub_1DA358 >> 26 == 5\\n    || (*(_DWORD *)sub_1DA358 & 0xFFE00000) == 0xD4200000\\n    || (loc_1DA35C & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_1DA360 & 0xFFFFFC00) == 0xD61F0000\\n    || *(_DWORD *)sub_1DA40C >> 26 == 5\\n    || (*(_DWORD *)sub_1DA40C & 0xFFE00000) == 0xD4200000\\n    || (loc_1DA410 & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_1DA414 & 0xFFFFFC00) == 0xD61F0000 )\\n  {\\n    abort(); /*0xf6b10*/\\n  }\\n  if ( *a2 < *result ) /*0xf6b04*/\\n    return a2; /*0xf6b04*/\\n  return result; /*0xf6b0c*/\\n}\",\"refs\":[{\"addr\":\"0xf6a1c\",\"name\":\"sub_F6A1C\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0xf6a20\",\"name\":\"loc_F6A20\"},{\"addr\":\"0xf6a24\",\"name\":\"loc_F6A24\"},{\"addr\":\"0x1da358\",\"name\":\"sub_1DA358\"},{\"addr\":\"0x1da35c\",\"name\":\"loc_1DA35C\"},{\"addr\":\"0x1da360\",\"name\":\"loc_1DA360\"},{\"addr\":\"0x1da40c\",\"name\":\"sub_1DA40C\"},{\"addr\":\"0x1da410\",\"name\":\"loc_1DA410\"},{\"addr\":\"0x1da414\",\"name\":\"loc_1DA414\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0xf6a1c",
+      "code": "_QWORD *__fastcall sub_F6A1C(_QWORD *result, _QWORD *a2)\n{\n  bool v2; // zf\n\n  v2 = *(_DWORD *)sub_F6A1C >> 26 == 5 || (*(_DWORD *)sub_F6A1C & 0xFFE00000) == -736100352; /*0xf6a40*/\n  if ( v2 /*0xf6af4*/\n    || loc_F6A20 >> 10 == 3508160\n    || (loc_F6A24 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_1DA358 >> 26 == 5\n    || (*(_DWORD *)sub_1DA358 & 0xFFE00000) == 0xD4200000\n    || (loc_1DA35C & 0xFFFFFC00) == 0xD61F0000\n    || (loc_1DA360 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_1DA40C >> 26 == 5\n    || (*(_DWORD *)sub_1DA40C & 0xFFE00000) == 0xD4200000\n    || (loc_1DA410 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_1DA414 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0xf6b10*/\n  }\n  if ( *a2 < *result ) /*0xf6b04*/\n    return a2; /*0xf6b04*/\n  return result; /*0xf6b0c*/\n}",
+      "refs": [
+        {
+          "addr": "0xf6a1c",
+          "name": "sub_F6A1C"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0xf6a20",
+          "name": "loc_F6A20"
+        },
+        {
+          "addr": "0xf6a24",
+          "name": "loc_F6A24"
+        },
+        {
+          "addr": "0x1da358",
+          "name": "sub_1DA358"
+        },
+        {
+          "addr": "0x1da35c",
+          "name": "loc_1DA35C"
+        },
+        {
+          "addr": "0x1da360",
+          "name": "loc_1DA360"
+        },
+        {
+          "addr": "0x1da40c",
+          "name": "sub_1DA40C"
+        },
+        {
+          "addr": "0x1da410",
+          "name": "loc_1DA410"
+        },
+        {
+          "addr": "0x1da414",
+          "name": "loc_1DA414"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

@@ -1,0 +1,238 @@
+{
+  "addr": "0x3b3860",
+  "code": "// bad sp value at call has been detected, the output may be wrong!\n__int64 __usercall sub_3B3860@<X0>(__int64 a1@<X8>, __int64 a2)\n{\n  __int64 v2; // x0\n  __int64 v3; // x0\n  __int64 v4; // x0\n  __int64 v5; // x0\n  __int64 v6; // x0\n  __int64 v7; // x0\n  __int64 v8; // x0\n  __int64 v9; // x0\n  __int64 v10; // x0\n  __int64 v11; // x0\n  __int64 v12; // x0\n  __int64 v13; // x0\n  bool v14; // w8\n  __int64 v15; // x0\n  __int64 v16; // x19\n  __int64 v17; // x1\n  __int64 v18; // x19\n  __int64 v19; // x0\n  __int64 v20; // x19\n  int v21; // w20\n  int v22; // w0\n  __int64 result; // x0\n  _QWORD savedregs[12]; // [xsp+1B0h] [xbp+0h] BYREF\n\n  savedregs[9] = a1; /*0x3b3880*/\n  savedregs[10] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x3b388c*/\n  if ( (*(_DWORD *)sub_3B3860 >> 26 != 5) ^ (*(_DWORD *)sub_3B3860 >> 21 != 1697) /*0x3b8c34*/\n     | (*(_DWORD *)sub_3B3860 >> 26 == 5 && *(_DWORD *)sub_3B3860 >> 21 == 1697)\n    || ((((((loc_3B3864 >> 10 == 3508160) << 31 >> 31)\n         + (((loc_3B3864 >> 10 == 3508160) ^ (loc_3B3868 >> 10 == 3508160)) << 31 >> 31)) << 31 >> 31)\n       - (((loc_3B3864 >> 10 == 3508160) & (unsigned __int8)(loc_3B3868 >> 10 != 3508160)) << 31 >> 31))\n      & 1) != 0 )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x3b8b58*/\n    sub_405934(); /*0x3b8b6c*/\n  }\n  savedregs[8] = &savedregs[10]; /*0x3b38ac*/\n  savedregs[5] = &savedregs[10]; /*0x3b38b8*/\n  savedregs[1] = &savedregs[10]; /*0x3b38c4*/\n  savedregs[2] = &savedregs[10]; /*0x3b38d0*/\n  savedregs[7] = &savedregs[8]; /*0x3b38ec*/\n  savedregs[6] = &savedregs[8]; /*0x3b3948*/\n  savedregs[3] = &savedregs[10]; /*0x3b39a4*/\n  savedregs[0] = &savedregs[6]; /*0x3b3b08*/\n  a2 = savedregs[9]; /*0x3b3b9c*/\n  savedregs[4] = &a2; /*0x3b3ba0*/\n  LOBYTE(a2) = 0; /*0x3b3ba4*/\n  v2 = sub_10272C(savedregs[9]); /*0x3b3ba8*/\n  v3 = sub_3B8C40(v2); /*0x3b3bac*/\n  ((void (__fastcall *)(__int64, _QWORD, __int64))loc_3B8E28)(v3 + 20, 0, 5); /*0x3b3bc4*/\n  v4 = ((__int64 (__fastcall *)(_QWORD *))loc_3B92A8)(&savedregs[10]); /*0x3b3bdc*/\n  savedregs[10] = sub_404938(v4); /*0x3b3bec*/\n  ((void (__fastcall *)(_QWORD *__return_ptr))loc_5FE6C4)(&savedregs[8]); /*0x3b3bf4*/\n  sub_C7D8C(&savedregs[8], savedregs[10]); /*0x3b3c0c*/\n  sub_74539C(&savedregs[8]); /*0x3b3c1c*/\n  v5 = ((__int64 (__fastcall *)(_QWORD *))loc_3B9F9C)(&savedregs[10]); /*0x3b3c24*/\n  ((void (__fastcall *)(__int64))loc_3BA914)(v5); /*0x3b3c34*/\n  v6 = ((__int64 (__fastcall *)(_QWORD *))loc_3BADD8)(&savedregs[10]); /*0x3b3c44*/\n  sub_40493C(v6); /*0x3b3c4c*/\n  v7 = ((__int64 (__fastcall *)(_QWORD *))loc_3BBEF4)(&savedregs[10]); /*0x3b3c5c*/\n  sub_404940(v7); /*0x3b3c64*/\n  v8 = sub_404944(&savedregs[10]); /*0x3b3c74*/\n  ((void (__fastcall *)(__int64))loc_3BD76C)(v8); /*0x3b3c84*/\n  ((void (*)(void))loc_5D5B84)(); /*0x3b3c9c*/\n  v9 = ((__int64 (__fastcall *)(_QWORD *))loc_3BDAF0)(&savedregs[10]); /*0x3b3cb0*/\n  HIDWORD(savedregs[10]) = (unsigned __int64)((__int64 (__fastcall *)(__int64))loc_3BE518)(v9) >> 32; /*0x3b3cc8*/\n  v10 = sub_141054(savedregs[7]); /*0x3b3cd0*/\n  LODWORD(savedregs[10]) = ((__int64 (__fastcall *)(__int64, _QWORD, _QWORD))loc_3BE7FC)(v10, 0, 0); /*0x3b3cec*/\n  if ( (savedregs[10] & 0x80000000) != 0 ) /*0x3b3cf4*/\n  {\n    v11 = sub_404948(&savedregs[10]); /*0x3b3d04*/\n    HIDWORD(savedregs[10]) = (unsigned __int64)sub_40494C(v11) >> 32; /*0x3b3d24*/\n    sub_404950(savedregs[9], &savedregs[10]); /*0x3b3d34*/\n    LOBYTE(a2) = 1; /*0x3b3d4c*/\n    LODWORD(savedregs[10]) = 1; /*0x3b3d58*/\n  }\n  else\n  {\n    savedregs[10] = malloc(0x20000u); /*0x3b3e90*/\n    if ( savedregs[10] ) /*0x3b3ea0*/\n    {\n      savedregs[10] = 0; /*0x3b3f50*/\n      do /*0x3b3fcc*/\n      {\n        savedregs[10] = sub_3C0A68(LODWORD(savedregs[10]), 2LL * savedregs[10], 0x1FFFFLL - savedregs[10]); /*0x3b3f90*/\n        if ( savedregs[10] <= 0LL ) /*0x3b3f98*/\n          break; /*0x3b3f98*/\n        savedregs[10] *= 2LL; /*0x3b3fb8*/\n      }\n      while ( savedregs[10] < 0x1FFFFLL ); /*0x3b3fcc*/\n      sub_3BFD08(LODWORD(savedregs[10])); /*0x3b3ffc*/\n      if ( savedregs[10] > 0LL ) /*0x3b400c*/\n      {\n        *(_BYTE *)(2LL * savedregs[10]) = 0; /*0x3b40c4*/\n        while ( savedregs[10] < (unsigned __int64)(2LL * savedregs[10]) ) /*0x3b4100*/\n        {\n          while ( 1 ) /*0x3b4140*/\n          {\n            v14 = 0; /*0x3b4140*/\n            if ( savedregs[10] < (unsigned __int64)(2LL * savedregs[10]) ) /*0x3b4144*/\n              v14 = *(_BYTE *)savedregs[10] != 10; /*0x3b415c*/\n            if ( !v14 ) /*0x3b4164*/\n              break; /*0x3b4164*/\n            ++savedregs[10]; /*0x3b417c*/\n          }\n          *(_BYTE *)savedregs[10] = 0; /*0x3b4190*/\n          HIDWORD(savedregs[10]) = (unsigned __int64)sub_4058A4(savedregs[10] + 1LL, &savedregs[10]) >> 32; /*0x3b41d0*/\n          LODWORD(savedregs[10]) = 4; /*0x3b4214*/\n        }\n        free((void *)savedregs[10]); /*0x3b8820*/\n        v15 = sub_B7EC8(savedregs[9]); /*0x3b8828*/\n        if ( (v15 & 1) == 0 ) /*0x3b882c*/\n        {\n          v16 = savedregs[9]; /*0x3b8830*/\n          sub_189C64(savedregs[9]); /*0x3b8838*/\n          ((void (__fastcall *)(_QWORD *))loc_3C5B24)(&savedregs[6]); /*0x3b8848*/\n          savedregs[10] = sub_4058B8(v16); /*0x3b8864*/\n          for ( savedregs[10] = sub_189D50(savedregs[10]); /*0x3b8874*/\n                (sub_4058BC(&savedregs[10], &savedregs[10]) & 1) != 0;\n                sub_4058C4(&savedregs[10]) )\n          {\n            savedregs[10] = sub_191368(&savedregs[10]); /*0x3b88ac*/\n            savedregs[10] = sub_4058C0(&savedregs[6], savedregs[10]); /*0x3b88c8*/\n            savedregs[11] = v17; /*0x3b88cc*/\n            if ( (v17 & 1) != 0 ) /*0x3b88d4*/\n            {\n              v18 = savedregs[10]; /*0x3b88e0*/\n              savedregs[10] = ((__int64 (__fastcall *)(_QWORD *, _QWORD))loc_3C6354)(&savedregs[10], 0); /*0x3b88f4*/\n              v19 = sub_191368(&savedregs[10]); /*0x3b88fc*/\n              sub_745E64(v19, v18); /*0x3b8904*/\n            }\n          }\n          ((void (__fastcall *)(_QWORD *, _QWORD *))loc_3C6C10)(&savedregs[10], &savedregs[10]); /*0x3b896c*/\n          savedregs[10] = sub_4058C8(savedregs[9]); /*0x3b897c*/\n          ((void (__fastcall *)(_QWORD *))loc_3C6C10)(&savedregs[10]); /*0x3b8988*/\n          savedregs[10] = ((__int64 (__fastcall *)(_QWORD, _QWORD, _QWORD))loc_3C66A4)( /*0x3b89a8*/\n                            savedregs[9],\n                            savedregs[10],\n                            savedregs[10]);\n          v15 = sub_4058CC(&savedregs[6]); /*0x3b89b0*/\n        }\n        savedregs[10] = sub_3B8C40(v15); /*0x3b89e8*/\n        v20 = savedregs[10] + 20LL; /*0x3b89f0*/\n        v21 = savedregs[10]; /*0x3b89f8*/\n        v22 = ((__int64 (__fastcall *)(__int64, __int64))loc_3C7484)(savedregs[10] + 16LL, 5); /*0x3b8a08*/\n        ((void (__fastcall *)(__int64, _QWORD, __int64))loc_3B8E28)(v20, (unsigned int)(v21 - v22), 5); /*0x3b8a18*/\n        ((void (__fastcall *)(__int64, _QWORD, __int64))loc_3B8E28)(savedregs[10] + 24LL, LODWORD(savedregs[10]), 5); /*0x3b8a30*/\n        LOBYTE(a2) = 1; /*0x3b8a40*/\n        LODWORD(savedregs[10]) = 1; /*0x3b8a4c*/\n      }\n      else\n      {\n        j__free((void *)savedregs[10]); /*0x3b401c*/\n        v13 = sub_404958(&savedregs[10]); /*0x3b402c*/\n        HIDWORD(savedregs[10]) = (unsigned __int64)((__int64 (__fastcall *)(__int64))loc_3C163C)(v13) >> 32; /*0x3b4044*/\n        sub_40495C(savedregs[9], &savedregs[10]); /*0x3b4054*/\n        LOBYTE(a2) = 1; /*0x3b406c*/\n        LODWORD(savedregs[10]) = 1; /*0x3b4078*/\n      }\n    }\n    else\n    {\n      sub_3BFD08(0); /*0x3b3eb4*/\n      v12 = ((__int64 (__fastcall *)(_QWORD *))loc_3BFE58)(&savedregs[10]); /*0x3b3ec4*/\n      HIDWORD(savedregs[10]) = (unsigned __int64)((__int64 (__fastcall *)(__int64))loc_3C06F8)(v12) >> 32; /*0x3b3ee4*/\n      ((void (__fastcall *)(_QWORD, _QWORD *))loc_3BF640)(savedregs[9], &savedregs[10]); /*0x3b3ef4*/\n      LOBYTE(a2) = 1; /*0x3b3f0c*/\n      LODWORD(savedregs[10]) = 1; /*0x3b3f18*/\n    }\n  }\n  sub_4058D0(savedregs[6]); /*0x3b8a90*/\n  result = sub_74539C(savedregs[7]); /*0x3b8a98*/\n  if ( (a2 & 1) == 0 ) /*0x3b8aa8*/\n    result = sub_B8614(savedregs[9]); /*0x3b8ae8*/\n  _ReadStatusReg(TPIDR_EL0); /*0x3b8aec*/\n  return result; /*0x3b8b1c*/\n}",
+  "refs": [
+    {
+      "addr": "0x405934",
+      "name": "sub_405934"
+    },
+    {
+      "addr": "0x3b3860",
+      "name": "sub_3B3860"
+    },
+    {
+      "addr": "0x3b3864",
+      "name": "loc_3B3864"
+    },
+    {
+      "addr": "0x3b3868",
+      "name": "loc_3B3868"
+    },
+    {
+      "addr": "0x10272c",
+      "name": "sub_10272C"
+    },
+    {
+      "addr": "0x3b8c40",
+      "name": "sub_3B8C40"
+    },
+    {
+      "addr": "0x3b8e28",
+      "name": "loc_3B8E28"
+    },
+    {
+      "addr": "0x3b92a8",
+      "name": "loc_3B92A8"
+    },
+    {
+      "addr": "0x404938",
+      "name": "sub_404938"
+    },
+    {
+      "addr": "0x5fe6c4",
+      "name": "loc_5FE6C4"
+    },
+    {
+      "addr": "0xc7d8c",
+      "name": "sub_C7D8C"
+    },
+    {
+      "addr": "0x74539c",
+      "name": "sub_74539C"
+    },
+    {
+      "addr": "0x3b9f9c",
+      "name": "loc_3B9F9C"
+    },
+    {
+      "addr": "0x3ba914",
+      "name": "loc_3BA914"
+    },
+    {
+      "addr": "0x3badd8",
+      "name": "loc_3BADD8"
+    },
+    {
+      "addr": "0x40493c",
+      "name": "sub_40493C"
+    },
+    {
+      "addr": "0x3bbef4",
+      "name": "loc_3BBEF4"
+    },
+    {
+      "addr": "0x404940",
+      "name": "sub_404940"
+    },
+    {
+      "addr": "0x404944",
+      "name": "sub_404944"
+    },
+    {
+      "addr": "0x3bd76c",
+      "name": "loc_3BD76C"
+    },
+    {
+      "addr": "0x5d5b84",
+      "name": "loc_5D5B84"
+    },
+    {
+      "addr": "0x3bdaf0",
+      "name": "loc_3BDAF0"
+    },
+    {
+      "addr": "0x3be518",
+      "name": "loc_3BE518"
+    },
+    {
+      "addr": "0x141054",
+      "name": "sub_141054"
+    },
+    {
+      "addr": "0x3be7fc",
+      "name": "loc_3BE7FC"
+    },
+    {
+      "addr": "0x404948",
+      "name": "sub_404948"
+    },
+    {
+      "addr": "0x40494c",
+      "name": "sub_40494C"
+    },
+    {
+      "addr": "0x404950",
+      "name": "sub_404950"
+    },
+    {
+      "addr": "0x78a720",
+      "name": ".malloc"
+    },
+    {
+      "addr": "0x3c0a68",
+      "name": "sub_3C0A68"
+    },
+    {
+      "addr": "0x3bfd08",
+      "name": "sub_3BFD08"
+    },
+    {
+      "addr": "0x4058a4",
+      "name": "sub_4058A4"
+    },
+    {
+      "addr": "0x78a610",
+      "name": ".free"
+    },
+    {
+      "addr": "0xb7ec8",
+      "name": "sub_B7EC8"
+    },
+    {
+      "addr": "0x189c64",
+      "name": "sub_189C64"
+    },
+    {
+      "addr": "0x3c5b24",
+      "name": "loc_3C5B24"
+    },
+    {
+      "addr": "0x4058b8",
+      "name": "sub_4058B8"
+    },
+    {
+      "addr": "0x189d50",
+      "name": "sub_189D50"
+    },
+    {
+      "addr": "0x4058c4",
+      "name": "sub_4058C4"
+    },
+    {
+      "addr": "0x191368",
+      "name": "sub_191368"
+    },
+    {
+      "addr": "0x4058c0",
+      "name": "sub_4058C0"
+    },
+    {
+      "addr": "0x3c6354",
+      "name": "loc_3C6354"
+    },
+    {
+      "addr": "0x745e64",
+      "name": "sub_745E64"
+    },
+    {
+      "addr": "0x4058bc",
+      "name": "sub_4058BC"
+    },
+    {
+      "addr": "0x3c6c10",
+      "name": "loc_3C6C10"
+    },
+    {
+      "addr": "0x4058c8",
+      "name": "sub_4058C8"
+    },
+    {
+      "addr": "0x3c66a4",
+      "name": "loc_3C66A4"
+    },
+    {
+      "addr": "0x4058cc",
+      "name": "sub_4058CC"
+    },
+    {
+      "addr": "0x3c7484",
+      "name": "loc_3C7484"
+    },
+    {
+      "addr": "0x404954",
+      "name": "j_.free"
+    },
+    {
+      "addr": "0x404958",
+      "name": "sub_404958"
+    },
+    {
+      "addr": "0x3c163c",
+      "name": "loc_3C163C"
+    },
+    {
+      "addr": "0x40495c",
+      "name": "sub_40495C"
+    },
+    {
+      "addr": "0x3bfe58",
+      "name": "loc_3BFE58"
+    },
+    {
+      "addr": "0x3c06f8",
+      "name": "loc_3C06F8"
+    },
+    {
+      "addr": "0x3bf640",
+      "name": "loc_3BF640"
+    },
+    {
+      "addr": "0x4058d0",
+      "name": "sub_4058D0"
+    },
+    {
+      "addr": "0xb8614",
+      "name": "sub_B8614"
+    }
+  ]
+}

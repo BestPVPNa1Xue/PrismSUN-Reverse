@@ -1,0 +1,26 @@
+{
+  "addr": "0x47e398",
+  "code": "__int64 __fastcall sub_47E398(__int64 a1)\n{\n  int v1; // w8\n  __int64 v2; // x19\n  char v3; // w8\n  int v5; // w8\n  int v6; // w8\n  bool v7; // [xsp+2Eh] [xbp+Eh]\n  char v8; // [xsp+2Fh] [xbp+Fh]\n  unsigned int v9; // [xsp+30h] [xbp+10h]\n  int i; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x47e3a8*/\n  v9 = 2113861119; /*0x47e3bc*/\n  for ( i = 740789351; ; i = 1423846756 ) /*0x47e3c8*/\n  {\n    while ( 1 ) /*0x47e4d4*/\n    {\n      while ( 1 ) /*0x47e4c0*/\n      {\n        while ( 1 ) /*0x47e4ac*/\n        {\n          while ( 1 ) /*0x47e484*/\n          {\n            while ( 1 ) /*0x47e470*/\n            {\n              while ( 1 ) /*0x47e434*/\n              {\n                while ( 1 ) /*0x47e420*/\n                {\n                  while ( 1 ) /*0x47e40c*/\n                  {\n                    while ( i == -1927926909 ) /*0x47e40c*/\n                      i = -1058994895; /*0x47e618*/\n                    if ( i != -1651044725 ) /*0x47e420*/\n                      break; /*0x47e420*/\n                    v9 = a1; /*0x47e5a4*/\n                    v2 = a1; /*0x47e5ac*/\n                    v3 = sub_4C02C0(a1); /*0x47e5b8*/\n                    a1 = v2; /*0x47e5bc*/\n                    v8 = v3 & 1; /*0x47e5c4*/\n                    i = 1920684409; /*0x47e5d4*/\n                  }\n                  if ( i != -1563305704 ) /*0x47e434*/\n                    break; /*0x47e434*/\n                  i = -734690386; /*0x47e580*/\n                }\n                if ( i == -1058994895 ) /*0x47e448*/\n                {\n                  _ReadStatusReg(TPIDR_EL0); /*0x47e620*/\n                  abort(); /*0x47e634*/\n                }\n                if ( i != -734690386 ) /*0x47e470*/\n                  break; /*0x47e470*/\n                if ( *(_DWORD *)sub_47E398 >> 26 == 5 || *(_DWORD *)sub_47E398 >> 21 == 1697 ) /*0x47e66c*/\n                  v5 = -1927926909; /*0x47e688*/\n                else\n                  v5 = 233819141; /*0x47e688*/\n                i = v5; /*0x47e690*/\n              }\n              if ( i != 94872844 ) /*0x47e484*/\n                break; /*0x47e484*/\n              i = -1563305704; /*0x47e56c*/\n            }\n            if ( i == 187394219 ) /*0x47e498*/\n              JUMPOUT(0x47E750); /*0x47e750*/\n            if ( i != 233819141 ) /*0x47e4ac*/\n              break; /*0x47e4ac*/\n            i = 2038397943; /*0x47e6a4*/\n          }\n          if ( i != 486024320 ) /*0x47e4c0*/\n            break; /*0x47e4c0*/\n          i = -1651044725; /*0x47e594*/\n        }\n        if ( i != 740789351 ) /*0x47e4d4*/\n          break; /*0x47e4d4*/\n        if ( v9 >= 0x1E77E55A ) /*0x47e550*/\n          v1 = 94872844; /*0x47e550*/\n        else\n          v1 = 187394219; /*0x47e550*/\n        i = v1; /*0x47e558*/\n      }\n      if ( i != 1423846756 ) /*0x47e4fc*/\n        break; /*0x47e4fc*/\n      if ( v7 ) /*0x47e728*/\n        v6 = -1927926909; /*0x47e740*/\n      else\n        v6 = 486024320; /*0x47e740*/\n      i = v6; /*0x47e748*/\n    }\n    if ( i == 1920684409 ) /*0x47e510*/\n      break; /*0x47e510*/\n    v7 = loc_47E39C >> 10 == 3508160 || loc_47E3A0 >> 10 == 3508160; /*0x47e70c*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x47e5e4*/\n  return v8 & 1; /*0x47e608*/\n}",
+  "refs": [
+    {
+      "addr": "0x4c02c0",
+      "name": "sub_4C02C0"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x47e398",
+      "name": "sub_47E398"
+    },
+    {
+      "addr": "0x47e39c",
+      "name": "loc_47E39C"
+    },
+    {
+      "addr": "0x47e3a0",
+      "name": "loc_47E3A0"
+    }
+  ]
+}

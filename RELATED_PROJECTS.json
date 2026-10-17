@@ -1,0 +1,23 @@
+{
+  "research_repository": "https://github.com/BestPVPNa1Xue/PrismSUN-Reverse",
+  "research_tag": "research-2026-10-18-r1",
+  "application_repository": "https://github.com/BestPVPNa1Xue/PrismDetector",
+  "application_tag": "v1.2.0",
+  "application_commit": "c7c2c4ab600e32df694cb386cbe56925b370334e",
+  "relationship": "PrismDetector vendors selected reconstructed modules and adds independent app rules and Ruru UI.",
+  "source_mapping": {
+    "01_source/research/chain_closure_20261018/src": "app/src/main/cpp/vendor/research/chain_closure_20261018/src",
+    "01_source/research/environment_memory/src": "app/src/main/cpp/vendor/research/environment_memory/src",
+    "01_source/research/accessibility/src": "app/src/main/cpp/vendor/research/accessibility/src",
+    "01_source/research/device_identity/src": "app/src/main/cpp/vendor/research/device_identity/src"
+  },
+  "research_only": [
+    "MCP file checks",
+    "RNG/clock support reconstruction"
+  ],
+  "app_added_or_modified": [
+    "KeyMapper component/package classification",
+    "Minecraft package size and certificate baseline",
+    "Beijing SNTP comparison"
+  ]
+}

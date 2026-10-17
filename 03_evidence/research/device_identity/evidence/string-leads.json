@@ -1,0 +1,170 @@
+[
+  {
+    "writer": "0x412928",
+    "data": "0x7ae338",
+    "length": 15,
+    "key": "0x6f5d01851325072d",
+    "wrappers": [
+      "0x43185c",
+      "0x413448"
+    ],
+    "plaintext": "libmediandk.so",
+    "bytes": "6c69626d656469616e646b2e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4100e4",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x4100f4",
+          "wrapper": "0x413448"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x416b80",
+    "data": "0x7ae398",
+    "length": 15,
+    "key": "0xbf7167c7934d83bf",
+    "wrappers": [
+      "0x436b00",
+      "0x417abc"
+    ],
+    "plaintext": "libmediandk.so",
+    "bytes": "6c69626d656469616e646b2e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4103dc",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x4103e4",
+          "wrapper": "0x417abc"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5a858c",
+    "data": "0x7af180",
+    "length": 15,
+    "key": "0xc77f77236bad4799",
+    "wrappers": [
+      "0x5b5284",
+      "0x5a938c"
+    ],
+    "plaintext": "libmediandk.so",
+    "bytes": "6c69626d656469616e646b2e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7d18",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7d1c",
+          "wrapper": "0x5a938c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5a984c",
+    "data": "0x7af1b0",
+    "length": 23,
+    "key": "0x8183fda96f799353",
+    "wrappers": [
+      "0x5b5800",
+      "0x5aaba0"
+    ],
+    "plaintext": "AMediaDrm_createByUUID",
+    "bytes": "414d6564696144726d5f63726561746542795555494400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7dac",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7db0",
+          "wrapper": "0x5aaba0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5ab09c",
+    "data": "0x7af1f0",
+    "length": 31,
+    "key": "0x6f55cd957ba3590f",
+    "wrappers": [
+      "0x5b5cf8",
+      "0x5ac544"
+    ],
+    "plaintext": "AMediaDrm_getPropertyByteArray",
+    "bytes": "414d6564696144726d5f67657450726f706572747942797465417272617900",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7e5c",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7e60",
+          "wrapper": "0x5ac544"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5ac920",
+    "data": "0x7af230",
+    "length": 18,
+    "key": "0xf14339ed95ff2fcf",
+    "wrappers": [
+      "0x5b624c",
+      "0x5ada44"
+    ],
+    "plaintext": "AMediaDrm_release",
+    "bytes": "414d6564696144726d5f72656c6561736500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7f0c",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7f10",
+          "wrapper": "0x5ada44"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5ae894",
+    "data": "0x7af278",
+    "length": 15,
+    "key": "0x991135b13b4b4b1b",
+    "wrappers": [
+      "0x5b6848",
+      "0x5af358"
+    ],
+    "plaintext": "deviceUniqueId",
+    "bytes": "646576696365556e69717565496400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5ae61c",
+        "caller": "0x5ae1d4",
+        "caller_end": "0x5ae894",
+        "register_flow": {
+          "decode_callsite": "0x5ae620",
+          "wrapper": "0x5af358"
+        }
+      }
+    ]
+  }
+]

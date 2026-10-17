@@ -1,0 +1,61 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x6cbc50\",\"xrefs\":[{\"addr\":\"0x6cb59c\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cb7e0\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cbf4c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cbc50\",\"name\":\"sub_6CBC50\",\"size\":\"0x4cc\"}},{\"addr\":\"0x6cbfd0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cbc50\",\"name\":\"sub_6CBC50\",\"size\":\"0x4cc\"}},{\"addr\":\"0x6cbff0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cbc50\",\"name\":\"sub_6CBC50\",\"size\":\"0x4cc\"}}],\"more\":false,\"xref_count\":5}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x6cbc50",
+          "xrefs": [
+            {
+              "addr": "0x6cb59c",
+              "type": "code",
+              "fn": null
+            },
+            {
+              "addr": "0x6cb7e0",
+              "type": "code",
+              "fn": null
+            },
+            {
+              "addr": "0x6cbf4c",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cbc50",
+                "name": "sub_6CBC50",
+                "size": "0x4cc"
+              }
+            },
+            {
+              "addr": "0x6cbfd0",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cbc50",
+                "name": "sub_6CBC50",
+                "size": "0x4cc"
+              }
+            },
+            {
+              "addr": "0x6cbff0",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cbc50",
+                "name": "sub_6CBC50",
+                "size": "0x4cc"
+              }
+            }
+          ],
+          "more": false,
+          "xref_count": 5
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

@@ -1,0 +1,10 @@
+{
+  "addr": "0x5b6ff4",
+  "code": "// attributes: thunk\n__int64 sub_5B6FF4(void)\n{\n  return sub_3B8C40();\n}",
+  "refs": [
+    {
+      "addr": "0x3b8c40",
+      "name": "sub_3B8C40"
+    }
+  ]
+}

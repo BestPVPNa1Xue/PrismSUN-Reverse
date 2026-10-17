@@ -1,0 +1,506 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "protected: libprism-sun.so",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected: libprism-sun.so.i64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected: research/prism-analysis.i64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected: research/environment_memory/prism-environment-inspect-copy.i64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sample identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build hash: jni_adapter_tests.exe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build hash: prism_environment.dll",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build hash: prism_environment.exe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build hash: unit_tests.exe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build hash: libprism_environment.so",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build hash: prism_environment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "host-tests.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jni-tests.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: README.md -> REPORT.zh-CN.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: README.md -> evidence/INDEX.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: README.md -> evidence/host-tests.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: README.md -> evidence/jni-tests.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: README.md -> evidence/build.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: README.md -> evidence/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: README.md -> manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/INDEX.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x449dd0.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-path-test-asm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/digest-differential.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x44d0b8.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-maps-asm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x5cc630.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> ../evidence/environment_asm_256.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> ../evidence/environment_asm_512.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/inherited-string-evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> ../REPORT.zh-CN.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> ../evidence/0x4c3778_asm_0.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x47df58.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x471c8c.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x34adcc.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/inherited-string-evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x6f4218.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ime-hash-differential.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> ../accessibility/REPORT.zh-CN.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-bounded-string-search.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x6ab3d8.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> ../device_identity/REPORT.zh-CN.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x650898.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x66e838.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x6ab3d8.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x68cbe0.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/ida-0x6f4218.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> src/environment_memory.hpp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> src/environment_memory.cpp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> src/input_methods_jni.cpp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/resume-before.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: REPORT.zh-CN.md -> evidence/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x449dd0.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-path-test-asm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x26b1f0.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x44d0b8.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-maps-asm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x18b190.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0xcb11c.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x44a5c0-recovered.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x44c594.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x5cc630.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x5f917c-recovered.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x5fb6b0-recovered.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x34adcc.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x6f4218.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x66e838.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x68cbe0.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x6ab3d8.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x6ae288.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x6b0998.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x47df58.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-0x471c8c.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ida-bounded-string-search.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> inherited-string-evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> digest-differential.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ime-hash-differential.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ../../evidence/environment_asm_0.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ../../evidence/environment_asm_256.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ../../evidence/environment_asm_512.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ../../evidence/differential_policy.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ../../evidence/differential_class_probe.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> host-tests.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> jni-tests.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> build.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> offline-baseline.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link: INDEX.md -> ../manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline ELF baseline independent oracle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build freshness: jni_adapter_tests.exe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build freshness: prism_environment.dll",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build freshness: prism_environment.exe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build freshness: unit_tests.exe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build freshness: libprism_environment.so",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build freshness: prism_environment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest files hashed",
+      "passed": true,
+      "detail": 77
+    }
+  ],
+  "protected_before": {
+    "libprism-sun.so": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+    "libprism-sun.so.i64": "49df5f9196afd707e6112c564b0e8290a3445d13dfc23175f2ed61a8a5a296b4",
+    "research/prism-analysis.i64": "c1174139e56229a82278ccad5bde1c36eb168208edd899eb5a9920501ef73ac9",
+    "research/environment_memory/prism-environment-inspect-copy.i64": "1299441f3f89c8c18c280bee7ff0af6fe5079a3a648098d20ecc4a16d0825c05"
+  },
+  "protected_after": {
+    "libprism-sun.so": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+    "libprism-sun.so.i64": "49df5f9196afd707e6112c564b0e8290a3445d13dfc23175f2ed61a8a5a296b4",
+    "research/prism-analysis.i64": "c1174139e56229a82278ccad5bde1c36eb168208edd899eb5a9920501ef73ac9",
+    "research/environment_memory/prism-environment-inspect-copy.i64": "1299441f3f89c8c18c280bee7ff0af6fe5079a3a648098d20ecc4a16d0825c05"
+  },
+  "host_checks": 73,
+  "jni_mock_scenarios": 8,
+  "android": "compiled only; not deployed or executed",
+  "reverse_engineering_backend": "IDA Pro MCP only"
+}

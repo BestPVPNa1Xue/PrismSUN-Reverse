@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "files_verified": 1884,
+  "payload_bytes": 1154941723,
+  "inventory_exact": true,
+  "sha256_verified": true,
+  "zip_crc_checked_while_reading": true,
+  "payloads_executed": false,
+  "archive": "PrismSUN-research-20261018-r1.zip",
+  "bytes": 261031418,
+  "sha256": "27282f01ed372001fb5ddac7a2505785909d8b65cb4f0574d23dcb047c1a6fde",
+  "archive_entries": 1886,
+  "historical_manifest_audit_separate": true,
+  "source_workspaces_unmodified": true,
+  "restored_research_source_files_verified": 124,
+  "restored_relative_includes_verified": true,
+  "full_restore_dry_run_passed": true,
+  "portable_document_links_verified": 301,
+  "nested_archives_key_path_scan_passed": true
+}

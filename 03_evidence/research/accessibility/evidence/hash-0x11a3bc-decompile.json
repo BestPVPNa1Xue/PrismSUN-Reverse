@@ -1,0 +1,43 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x11a3bc\",\"code\":\"__int64 __usercall sub_11A3BC@<X0>(__int64 a1@<X0>, __int64 a2@<X8>)\\n{\\n  bool v2; // zf\\n  __int64 v5; // x0\\n  _QWORD v7[4]; // [xsp-10h] [xbp-20h] BYREF\\n\\n  v7[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x11a3dc*/\\n  v2 = *(_DWORD *)sub_11A3BC >> 26 == 5 || (*(_DWORD *)sub_11A3BC & 0xFFE00000) == -736100352; /*0x11a3fc*/\\n  if ( v2 || loc_11A3C0 >> 10 == 3508160 || (loc_11A3C4 & 0xFFFFFC00) == 0xD61F0000 ) /*0x11a42c*/\\n    abort(); /*0x11a4b0*/\\n  v5 = (**(__int64 (__fastcall ***)(__int64))a1)(a1); /*0x11a448*/\\n  sub_F6E58(a2, v5); /*0x11a454*/\\n  sub_F7C88(v7, a2); /*0x11a460*/\\n  return (*(__int64 (__fastcall **)(__int64, _QWORD, _QWORD))(*(_QWORD *)a1 + 32LL))(a1, v7[0], v7[1]); /*0x11a49c*/\\n}\",\"refs\":[{\"addr\":\"0x11a3bc\",\"name\":\"sub_11A3BC\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x11a3c0\",\"name\":\"loc_11A3C0\"},{\"addr\":\"0x11a3c4\",\"name\":\"loc_11A3C4\"},{\"addr\":\"0xf6e58\",\"name\":\"sub_F6E58\"},{\"addr\":\"0xf7c88\",\"name\":\"sub_F7C88\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x11a3bc",
+      "code": "__int64 __usercall sub_11A3BC@<X0>(__int64 a1@<X0>, __int64 a2@<X8>)\n{\n  bool v2; // zf\n  __int64 v5; // x0\n  _QWORD v7[4]; // [xsp-10h] [xbp-20h] BYREF\n\n  v7[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x11a3dc*/\n  v2 = *(_DWORD *)sub_11A3BC >> 26 == 5 || (*(_DWORD *)sub_11A3BC & 0xFFE00000) == -736100352; /*0x11a3fc*/\n  if ( v2 || loc_11A3C0 >> 10 == 3508160 || (loc_11A3C4 & 0xFFFFFC00) == 0xD61F0000 ) /*0x11a42c*/\n    abort(); /*0x11a4b0*/\n  v5 = (**(__int64 (__fastcall ***)(__int64))a1)(a1); /*0x11a448*/\n  sub_F6E58(a2, v5); /*0x11a454*/\n  sub_F7C88(v7, a2); /*0x11a460*/\n  return (*(__int64 (__fastcall **)(__int64, _QWORD, _QWORD))(*(_QWORD *)a1 + 32LL))(a1, v7[0], v7[1]); /*0x11a49c*/\n}",
+      "refs": [
+        {
+          "addr": "0x11a3bc",
+          "name": "sub_11A3BC"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x11a3c0",
+          "name": "loc_11A3C0"
+        },
+        {
+          "addr": "0x11a3c4",
+          "name": "loc_11A3C4"
+        },
+        {
+          "addr": "0xf6e58",
+          "name": "sub_F6E58"
+        },
+        {
+          "addr": "0xf7c88",
+          "name": "sub_F7C88"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

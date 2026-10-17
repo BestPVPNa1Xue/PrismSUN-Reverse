@@ -1,0 +1,48 @@
+{
+  "excluded_research_files": [
+    {
+      "path": "research/accessibility/scripts/__pycache__/consumer_original.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/accessibility/scripts/__pycache__/hash_original.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/device_identity/scripts/__pycache__/apk_original.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/device_identity/scripts/__pycache__/device_fixture.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/device_identity/scripts/__pycache__/event_original.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/device_identity/scripts/__pycache__/packet_original.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/device_identity/scripts/__pycache__/static_probe.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/environment_memory/tests/__pycache__/test_integrity_digest.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "research/scripts/__pycache__/bounded_arm64.cpython-314.pyc",
+      "reason": "Python bytecode cache"
+    }
+  ],
+  "outside_scope": [
+    "Android SDK/NDK/AVD and build caches",
+    "Signing private keys and keystores",
+    "Unrelated tool installations",
+    "User input APKs outside the selected research and evidence trees",
+    "Git object database; published app source commit is recorded separately"
+  ],
+  "historical_REA_records": "Existing historical records are preserved as provenance; no REA tools were invoked by packaging."
+}

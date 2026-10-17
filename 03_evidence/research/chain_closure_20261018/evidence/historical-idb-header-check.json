@@ -1,0 +1,8 @@
+{
+  "method": "SHA-256 comparison of in-memory single-bit variants of first 128 bytes",
+  "input_sha256": "9b42703d07151e07bcc1a8346885cb900975637332a83e3afd985021375abf20",
+  "expected": "2e5d5d376645dc2639c4831e81c4aef69f1bf28ba1426ac6f8ef1753198d74cb",
+  "protected_database_written": false,
+  "matched": false,
+  "tested": 1024
+}

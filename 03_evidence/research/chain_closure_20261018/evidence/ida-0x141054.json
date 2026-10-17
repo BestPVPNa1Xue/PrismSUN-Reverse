@@ -1,0 +1,26 @@
+{
+  "addr": "0x141054",
+  "code": "__int64 __fastcall sub_141054(__int64 a1)\n{\n  bool v1; // zf\n\n  v1 = *(_DWORD *)sub_141054 >> 26 == 5 || (*(_DWORD *)sub_141054 & 0xFFE00000) == -736100352; /*0x141070*/\n  if ( v1 || loc_141058 >> 10 == 3508160 || (loc_14105C & 0xFFFFFC00) == 0xD61F0000 ) /*0x14109c*/\n    abort(); /*0x1410ac*/\n  return sub_19C47C(a1);\n}",
+  "refs": [
+    {
+      "addr": "0x141054",
+      "name": "sub_141054"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x141058",
+      "name": "loc_141058"
+    },
+    {
+      "addr": "0x14105c",
+      "name": "loc_14105C"
+    },
+    {
+      "addr": "0x19c47c",
+      "name": "sub_19C47C"
+    }
+  ]
+}

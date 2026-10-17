@@ -1,0 +1,26 @@
+[
+  {
+    "path": "D:\\PrismSUN\\libprism-sun.so",
+    "size": 8030488,
+    "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\PrismSUN\\libprism-sun.so.i64",
+    "size": 76474118,
+    "sha256": "49df5f9196afd707e6112c564b0e8290a3445d13dfc23175f2ed61a8a5a296b4",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\PrismSUN\\research\\prism-analysis.i64",
+    "size": 82848571,
+    "sha256": "0ed633061d5887589a01075d4efd7ce7ae7b6c25fa5b2e00079547e02c7f7b70",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\PrismSUN\\research\\mcp_clock\\prism-mcp-clock.i64",
+    "size": 83069522,
+    "sha256": "d6de17313b40b3d55a15af2e54e1d3bd3d0984b7b8c57835c7f9fa40f1f734a0",
+    "unchanged": true
+  }
+]

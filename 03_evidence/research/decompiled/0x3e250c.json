@@ -1,0 +1,26 @@
+{
+  "addr": "0x3e250c",
+  "code": "__int64 __fastcall sub_3E250C(__int64 a1)\n{\n  __int64 result; // x0\n  int v2; // w8\n  int v3; // w8\n  __int64 savedregs; // [xsp+20h] [xbp+0h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x3e2520*/\n  savedregs = 0x7E7B996A4E08392ALL; /*0x3e252c*/\n  while ( HIDWORD(savedregs) != -1165828088 ) /*0x3e2568*/\n  {\n    switch ( HIDWORD(savedregs) ) /*0x3e25a4*/\n    {\n      case 0xC917A177: /*0x3e25a4*/\n        HIDWORD(savedregs) = -701700766; /*0x3e2678*/\n        break;\n      case 0xD62CE562: /*0x3e25a4*/\n        if ( ((((((((*(_DWORD *)sub_3E250C >> 26 == 5) << 31 >> 31) + ((*(_DWORD *)sub_3E250C >> 21 == 1697) << 31 >> 31)) << 31 >> 31) /*0x3e2754*/\n               - 1) << 31 >> 31)\n             + ((*(_DWORD *)sub_3E250C >> 21 != 1697 || *(_DWORD *)sub_3E250C >> 26 != 5) << 31 >> 31))\n            & 1) != 0 )\n          v2 = 2002714980; /*0x3e2754*/\n        else\n          v2 = 1381822804; /*0x3e2754*/\n        HIDWORD(savedregs) = v2; /*0x3e275c*/\n        break;\n      case 0x5CE23D0: /*0x3e25a4*/\n        _ReadStatusReg(TPIDR_EL0); /*0x3e26c8*/\n        abort(); /*0x3e26dc*/\n      case 0x525CF154: /*0x3e25a4*/\n        if ( loc_3E2510 >> 10 == 3508160 || loc_3E2514 >> 10 == 3508160 ) /*0x3e27d0*/\n          v3 = 2002714980; /*0x3e27d4*/\n        else\n          v3 = -1165828088; /*0x3e27d4*/\n        HIDWORD(savedregs) = v3; /*0x3e27dc*/\n        break;\n      case 0x5FC96F4B: /*0x3e25a4*/\n        HIDWORD(savedregs) = -921198217; /*0x3e2664*/\n        break;\n      case 0x775F0164: /*0x3e25a4*/\n        HIDWORD(savedregs) = 97395664; /*0x3e26c0*/\n        break;\n      default:\n        HIDWORD(savedregs) = 1607036747; /*0x3e2650*/\n        break;\n    }\n  }\n  result = ((__int64 (__fastcall *)(__int64))loc_3E2830)(a1); /*0x3e2690*/\n  _ReadStatusReg(TPIDR_EL0); /*0x3e2694*/\n  return result; /*0x3e26b0*/\n}",
+  "refs": [
+    {
+      "addr": "0x3e250c",
+      "name": "sub_3E250C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x3e2510",
+      "name": "loc_3E2510"
+    },
+    {
+      "addr": "0x3e2514",
+      "name": "loc_3E2514"
+    },
+    {
+      "addr": "0x3e2830",
+      "name": "loc_3E2830"
+    }
+  ]
+}

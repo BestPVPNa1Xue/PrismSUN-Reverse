@@ -1,0 +1,58 @@
+{
+  "addr": "0x11da20",
+  "code": "__int64 __fastcall sub_11DA20(__int64 result, char *a2, __int64 a3, char a4)\n{\n  bool v4; // zf\n  int v5; // w11\n  _BYTE *v6; // x12\n  char v8; // t1\n  int v9; // w0\n\n  v4 = *(_DWORD *)sub_11DA20 >> 26 == 5 || (*(_DWORD *)sub_11DA20 & 0xFFE00000) == -736100352; /*0x11da44*/\n  if ( v4 || loc_11DA24 >> 10 == 3508160 || (loc_11DA28 & 0xFFFFFC00) == 0xD61F0000 ) /*0x11da70*/\n    goto LABEL_28; /*0x11da70*/\n  if ( a3 ) /*0x11da74*/\n  {\n    if ( (a4 & 1) != 0 ) /*0x11da8c*/\n      v5 = 1799; /*0x11da8c*/\n    else\n      v5 = 10023; /*0x11da8c*/\n    v6 = (_BYTE *)(result + 1); /*0x11da90*/\n    while ( *(_DWORD *)sub_12E9E8 >> 26 != 5 && (*(_DWORD *)sub_12E9E8 & 0xFFE00000) != -736100352 ) /*0x11dab8*/\n    {\n      if ( (loc_12E9EC & 0xFFFFFC00) == 0xD61F0000 ) /*0x11dad8*/\n        break; /*0x11dad8*/\n      if ( (loc_12E9F0 & 0xFFFFFC00) == 0xD61F0000 ) /*0x11dae8*/\n        break; /*0x11dae8*/\n      if ( *(_DWORD *)sub_12EAD4 >> 26 == 5 ) /*0x11db34*/\n        break; /*0x11db34*/\n      if ( (*(_DWORD *)sub_12EAD4 & 0xFFE00000) == 0xD4200000 ) /*0x11db40*/\n        break; /*0x11db40*/\n      if ( (loc_12EAD8 & 0xFFFFFC00) == 0xD61F0000 ) /*0x11db50*/\n        break; /*0x11db50*/\n      if ( (loc_12EADC & 0xFFFFFC00) == 0xD61F0000 ) /*0x11db60*/\n        break; /*0x11db60*/\n      v8 = *a2++; /*0x11db64*/\n      v9 = v8 & 0xF | ((((unsigned __int8)(v8 & 0xF0) >> 4) & 0xF) << 8); /*0x11db74*/\n      result = ((2 * ((v9 + 30326) & 0x80) - (((v9 + 30326) & 0x80808080) >> 7)) & v5) + v9 + 12336; /*0x11db94*/\n      *(v6 - 1) = BYTE1(result); /*0x11db9c*/\n      if ( *(_DWORD *)sub_12EB34 >> 26 == 5 /*0x11dbd8*/\n        || (*(_DWORD *)sub_12EB34 & 0xFFE00000) == 0xD4200000\n        || (loc_12EB38 & 0xFFFFFC00) == 0xD61F0000\n        || (loc_12EB3C & 0xFFFFFC00) == 0xD61F0000 )\n      {\n        break; /*0x11dbd8*/\n      }\n      --a3; /*0x11dbdc*/\n      *v6 = result; /*0x11dbe0*/\n      v6 += 2; /*0x11dbe0*/\n      if ( !a3 ) /*0x11dbe4*/\n        return result; /*0x11dbe4*/\n    }\nLABEL_28:\n    abort(); /*0x11dbf0*/\n  }\n  return result; /*0x11dbec*/\n}",
+  "refs": [
+    {
+      "addr": "0x11da20",
+      "name": "sub_11DA20"
+    },
+    {
+      "addr": "0x11da24",
+      "name": "loc_11DA24"
+    },
+    {
+      "addr": "0x11da28",
+      "name": "loc_11DA28"
+    },
+    {
+      "addr": "0x12e9ec",
+      "name": "loc_12E9EC"
+    },
+    {
+      "addr": "0x12e9f0",
+      "name": "loc_12E9F0"
+    },
+    {
+      "addr": "0x12ead4",
+      "name": "sub_12EAD4"
+    },
+    {
+      "addr": "0x12ead8",
+      "name": "loc_12EAD8"
+    },
+    {
+      "addr": "0x12eadc",
+      "name": "loc_12EADC"
+    },
+    {
+      "addr": "0x12eb34",
+      "name": "sub_12EB34"
+    },
+    {
+      "addr": "0x12eb38",
+      "name": "loc_12EB38"
+    },
+    {
+      "addr": "0x12eb3c",
+      "name": "loc_12EB3C"
+    },
+    {
+      "addr": "0x12e9e8",
+      "name": "sub_12E9E8"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    }
+  ]
+}

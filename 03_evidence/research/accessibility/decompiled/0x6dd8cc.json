@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6dd8cc\",\"code\":\"// attributes: thunk\\n__int64 sub_6DD8CC()\\n{\\n  return sub_417DD0();\\n}\",\"refs\":[{\"addr\":\"0x417dd0\",\"name\":\"sub_417DD0\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6dd8cc",
+      "code": "// attributes: thunk\n__int64 sub_6DD8CC()\n{\n  return sub_417DD0();\n}",
+      "refs": [
+        {
+          "addr": "0x417dd0",
+          "name": "sub_417DD0"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

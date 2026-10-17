@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "scope": "New C++ offline parser vs Python struct/zlib on original ELF file bytes; original code not executed",
+  "stdout": "Offline section baseline; not a live-process integrity verdict\nsection=12 offset=743872 size=7162536 crc32_bswap=1841968116\nsection=13 offset=7906416 size=2048 crc32_bswap=3869811931\n",
+  "actual": [
+    [
+      12,
+      743872,
+      7162536,
+      1841968116
+    ],
+    [
+      13,
+      7906416,
+      2048,
+      3869811931
+    ]
+  ],
+  "expected": [
+    [
+      12,
+      743872,
+      7162536,
+      1841968116
+    ],
+    [
+      13,
+      7906416,
+      2048,
+      3869811931
+    ]
+  ]
+}

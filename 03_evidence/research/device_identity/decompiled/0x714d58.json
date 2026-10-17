@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x714d58\",\"code\":\"__int64 __fastcall sub_714D58(__int64 a1)\\n{\\n  int v2; // w8\\n  int v3; // w8\\n  __int64 i; // [xsp+20h] [xbp+0h]\\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\\n\\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x714d6c*/\\n  for ( i = 0x3646EBB2EC95156ALL; ; HIDWORD(i) = -442391946 ) /*0x714d78*/\\n  {\\n    while ( 1 ) /*0x714e18*/\\n    {\\n      while ( 1 ) /*0x714e04*/\\n      {\\n        while ( 1 ) /*0x714df0*/\\n        {\\n          while ( 1 ) /*0x714ddc*/\\n          {\\n            while ( HIDWORD(i) == -493497421 ) /*0x714ddc*/\\n            {\\n              if ( *(_DWORD *)sub_714D58 >> 26 == 5 || *(_DWORD *)sub_714D58 >> 21 == 1697 ) /*0x714f74*/\\n                v2 = -183804223; /*0x714f78*/\\n              else\\n                v2 = 8155282; /*0x714f78*/\\n              HIDWORD(i) = v2; /*0x714f80*/\\n            }\\n            if ( HIDWORD(i) != -442391946 ) /*0x714df0*/\\n              break; /*0x714df0*/\\n            HIDWORD(i) = 263312552; /*0x714eb0*/\\n          }\\n          if ( HIDWORD(i) != -183804223 ) /*0x714e04*/\\n            break; /*0x714e04*/\\n          HIDWORD(i) = 1435764931; /*0x714f08*/\\n        }\\n        if ( HIDWORD(i) != 8155282 ) /*0x714e18*/\\n          break; /*0x714e18*/\\n        if ( loc_714D5C >> 10 == 3508160 || loc_714D60 >> 10 == 3508160 ) /*0x714fdc*/\\n          v3 = -183804223; /*0x714fe0*/\\n        else\\n          v3 = 567549026; /*0x714fe0*/\\n        HIDWORD(i) = v3; /*0x714fe8*/\\n      }\\n      if ( HIDWORD(i) != 263312552 ) /*0x714e2c*/\\n        break; /*0x714e2c*/\\n      HIDWORD(i) = -493497421; /*0x714ec4*/\\n    }\\n    if ( HIDWORD(i) == 567549026 ) /*0x714e40*/\\n      break; /*0x714e40*/\\n    if ( HIDWORD(i) != 910617522 ) /*0x714e54*/\\n    {\\n      _ReadStatusReg(TPIDR_EL0); /*0x714f10*/\\n      abort(); /*0x714f24*/\\n    }\\n  }\\n  _ReadStatusReg(TPIDR_EL0); /*0x714ed8*/\\n  return 1; /*0x714ef8*/\\n}\",\"refs\":[{\"addr\":\"0x714d58\",\"name\":\"sub_714D58\"},{\"addr\":\"0x714d5c\",\"name\":\"loc_714D5C\"},{\"addr\":\"0x714d60\",\"name\":\"loc_714D60\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x714d58",
+      "code": "__int64 __fastcall sub_714D58(__int64 a1)\n{\n  int v2; // w8\n  int v3; // w8\n  __int64 i; // [xsp+20h] [xbp+0h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x714d6c*/\n  for ( i = 0x3646EBB2EC95156ALL; ; HIDWORD(i) = -442391946 ) /*0x714d78*/\n  {\n    while ( 1 ) /*0x714e18*/\n    {\n      while ( 1 ) /*0x714e04*/\n      {\n        while ( 1 ) /*0x714df0*/\n        {\n          while ( 1 ) /*0x714ddc*/\n          {\n            while ( HIDWORD(i) == -493497421 ) /*0x714ddc*/\n            {\n              if ( *(_DWORD *)sub_714D58 >> 26 == 5 || *(_DWORD *)sub_714D58 >> 21 == 1697 ) /*0x714f74*/\n                v2 = -183804223; /*0x714f78*/\n              else\n                v2 = 8155282; /*0x714f78*/\n              HIDWORD(i) = v2; /*0x714f80*/\n            }\n            if ( HIDWORD(i) != -442391946 ) /*0x714df0*/\n              break; /*0x714df0*/\n            HIDWORD(i) = 263312552; /*0x714eb0*/\n          }\n          if ( HIDWORD(i) != -183804223 ) /*0x714e04*/\n            break; /*0x714e04*/\n          HIDWORD(i) = 1435764931; /*0x714f08*/\n        }\n        if ( HIDWORD(i) != 8155282 ) /*0x714e18*/\n          break; /*0x714e18*/\n        if ( loc_714D5C >> 10 == 3508160 || loc_714D60 >> 10 == 3508160 ) /*0x714fdc*/\n          v3 = -183804223; /*0x714fe0*/\n        else\n          v3 = 567549026; /*0x714fe0*/\n        HIDWORD(i) = v3; /*0x714fe8*/\n      }\n      if ( HIDWORD(i) != 263312552 ) /*0x714e2c*/\n        break; /*0x714e2c*/\n      HIDWORD(i) = -493497421; /*0x714ec4*/\n    }\n    if ( HIDWORD(i) == 567549026 ) /*0x714e40*/\n      break; /*0x714e40*/\n    if ( HIDWORD(i) != 910617522 ) /*0x714e54*/\n    {\n      _ReadStatusReg(TPIDR_EL0); /*0x714f10*/\n      abort(); /*0x714f24*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x714ed8*/\n  return 1; /*0x714ef8*/\n}",
+      "refs": [
+        {
+          "addr": "0x714d58",
+          "name": "sub_714D58"
+        },
+        {
+          "addr": "0x714d5c",
+          "name": "loc_714D5C"
+        },
+        {
+          "addr": "0x714d60",
+          "name": "loc_714D60"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

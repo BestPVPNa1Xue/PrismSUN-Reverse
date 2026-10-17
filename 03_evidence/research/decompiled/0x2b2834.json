@@ -1,0 +1,22 @@
+{
+  "addr": "0x2b2834",
+  "code": "__int64 __fastcall sub_2B2834(_BYTE *a1)\n{\n  char v1; // w8\n  int v3; // w8\n  int v4; // w8\n  char v5; // [xsp+1Eh] [xbp-2h]\n  char v6; // [xsp+1Fh] [xbp-1h]\n  unsigned __int64 savedregs; // [xsp+20h] [xbp+0h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x2b2848*/\n  savedregs = 0xFC75FBBC00000000LL; /*0x2b284c*/\n  while ( 1 ) /*0x2b2928*/\n  {\n    while ( 1 ) /*0x2b2900*/\n    {\n      while ( 1 ) /*0x2b28ec*/\n      {\n        while ( 1 ) /*0x2b28d8*/\n        {\n          while ( 1 ) /*0x2b28b0*/\n          {\n            while ( 1 ) /*0x2b289c*/\n            {\n              while ( 1 ) /*0x2b2888*/\n              {\n                while ( 1 ) /*0x2b2874*/\n                {\n                  while ( HIDWORD(savedregs) == -2021338175 ) /*0x2b2874*/\n                  {\n                    if ( (v5 & 1) != 0 ) /*0x2b2bf0*/\n                      v4 = -1484195778; /*0x2b2bf0*/\n                    else\n                      v4 = 807384969; /*0x2b2bf0*/\n                    HIDWORD(savedregs) = v4; /*0x2b2bf8*/\n                  }\n                  if ( HIDWORD(savedregs) != -1740838570 ) /*0x2b2888*/\n                    break; /*0x2b2888*/\n                  HIDWORD(savedregs) = 827366260; /*0x2b2a10*/\n                }\n                if ( HIDWORD(savedregs) != -1484195778 ) /*0x2b289c*/\n                  break; /*0x2b289c*/\n                HIDWORD(savedregs) = 1626869823; /*0x2b2a78*/\n              }\n              if ( HIDWORD(savedregs) != -1471734905 ) /*0x2b28b0*/\n                break; /*0x2b28b0*/\n              if ( (v6 & 1) != 0 ) /*0x2b2b48*/\n                v3 = -1484195778; /*0x2b2b48*/\n              else\n                v3 = 1568796557; /*0x2b2b48*/\n              HIDWORD(savedregs) = v3; /*0x2b2b50*/\n            }\n            if ( HIDWORD(savedregs) != -871796446 ) /*0x2b28d8*/\n              break; /*0x2b28d8*/\n            v5 = (loc_2B2838 >> 10 == 3508160 && loc_2B283C >> 10 == 3508160) /*0x2b2bbc*/\n               | (loc_2B2838 >> 10 == 3508160) ^ (loc_2B283C >> 10 == 3508160);\n            HIDWORD(savedregs) = -2021338175; /*0x2b2bcc*/\n          }\n          if ( HIDWORD(savedregs) != -80195981 ) /*0x2b28ec*/\n            break; /*0x2b28ec*/\n          HIDWORD(savedregs) = -1740838570; /*0x2b29fc*/\n        }\n        if ( HIDWORD(savedregs) != -59376708 ) /*0x2b2900*/\n          break; /*0x2b2900*/\n        HIDWORD(savedregs) = -80195981; /*0x2b29e8*/\n      }\n      if ( HIDWORD(savedregs) != 697214862 ) /*0x2b2928*/\n        break; /*0x2b2928*/\n      v6 = (*(_DWORD *)sub_2B2834 >> 26 == 5) ^ (*(_DWORD *)sub_2B2834 >> 21 == 1697) /*0x2b2b14*/\n         | (*(_DWORD *)sub_2B2834 >> 26 == 5 && *(_DWORD *)sub_2B2834 >> 21 == 1697);\n      HIDWORD(savedregs) = -1471734905; /*0x2b2b24*/\n    }\n    if ( HIDWORD(savedregs) == 807384969 ) /*0x2b293c*/\n      break; /*0x2b293c*/\n    if ( HIDWORD(savedregs) == 827366260 ) /*0x2b2950*/\n    {\n      HIDWORD(savedregs) = 697214862; /*0x2b2ab8*/\n    }\n    else\n    {\n      if ( HIDWORD(savedregs) != 1568796557 ) /*0x2b298c*/\n      {\n        _ReadStatusReg(TPIDR_EL0); /*0x2b2a80*/\n        abort(); /*0x2b2a94*/\n      }\n      HIDWORD(savedregs) = -871796446; /*0x2b2b64*/\n    }\n  }\n  v1 = (*a1 ^ 1) & 1; /*0x2b2a44*/\n  _ReadStatusReg(TPIDR_EL0); /*0x2b2a48*/\n  return v1 & 1; /*0x2b2a68*/\n}",
+  "refs": [
+    {
+      "addr": "0x2b2838",
+      "name": "loc_2B2838"
+    },
+    {
+      "addr": "0x2b283c",
+      "name": "loc_2B283C"
+    },
+    {
+      "addr": "0x2b2834",
+      "name": "sub_2B2834"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    }
+  ]
+}

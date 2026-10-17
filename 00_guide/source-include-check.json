@@ -1,0 +1,252 @@
+{
+  "result": "PASS",
+  "checked": 49,
+  "scope": "Quoted local C/C++ include existence; not a compiler or runtime test",
+  "entries": [
+    {
+      "file": "01_source/research/accessibility/src/accessibility_core.cpp",
+      "include": "accessibility_core.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_core.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/src/accessibility_demo.cpp",
+      "include": "accessibility_core.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_core.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/src/accessibility_env.cpp",
+      "include": "accessibility_env.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_env.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/src/accessibility_jni.cpp",
+      "include": "accessibility_jni.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_jni.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/src/accessibility_monitor.cpp",
+      "include": "accessibility_monitor.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_monitor.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/src/accessibility_monitor.hpp",
+      "include": "accessibility_core.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_core.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/src/accessibility_monitor.hpp",
+      "include": "accessibility_jni.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_jni.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/src/accessibility_monitor.hpp",
+      "include": "accessibility_env.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_env.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/tests/jni_adapter_tests.cpp",
+      "include": "../src/accessibility_jni.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_jni.hpp"
+    },
+    {
+      "file": "01_source/research/accessibility/tests/jni_env_tests.cpp",
+      "include": "../src/accessibility_env.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_env.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/android_collectors.cpp",
+      "include": "android_collectors.hpp",
+      "resolved": "01_source/research/chain_closure_20261018/src/android_collectors.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/android_collectors.hpp",
+      "include": "detection_chains.hpp",
+      "resolved": "01_source/research/chain_closure_20261018/src/detection_chains.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/classes_jni.cpp",
+      "include": "classes_jni.hpp",
+      "resolved": "01_source/research/chain_closure_20261018/src/classes_jni.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/classes_jni.hpp",
+      "include": "detection_chains.hpp",
+      "resolved": "01_source/research/chain_closure_20261018/src/detection_chains.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/classes_jni.hpp",
+      "include": "../../accessibility/src/accessibility_env.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_env.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/detection_chains.cpp",
+      "include": "detection_chains.hpp",
+      "resolved": "01_source/research/chain_closure_20261018/src/detection_chains.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/detection_chains.hpp",
+      "include": "../../environment_memory/src/environment_memory.hpp",
+      "resolved": "01_source/research/environment_memory/src/environment_memory.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/src/detection_chains.hpp",
+      "include": "../../src/observed_models.h",
+      "resolved": "01_source/research/src/observed_models.h"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/tests/jni_tests.cpp",
+      "include": "../src/classes_jni.hpp",
+      "resolved": "01_source/research/chain_closure_20261018/src/classes_jni.hpp"
+    },
+    {
+      "file": "01_source/research/chain_closure_20261018/tests/unit_tests.cpp",
+      "include": "../src/detection_chains.hpp",
+      "resolved": "01_source/research/chain_closure_20261018/src/detection_chains.hpp"
+    },
+    {
+      "file": "01_source/research/device_identity/src/android_adapter.cpp",
+      "include": "android_adapter.hpp",
+      "resolved": "01_source/research/device_identity/src/android_adapter.hpp"
+    },
+    {
+      "file": "01_source/research/device_identity/src/android_adapter.hpp",
+      "include": "identity.hpp",
+      "resolved": "01_source/research/device_identity/src/identity.hpp"
+    },
+    {
+      "file": "01_source/research/device_identity/src/crypto.cpp",
+      "include": "identity.hpp",
+      "resolved": "01_source/research/device_identity/src/identity.hpp"
+    },
+    {
+      "file": "01_source/research/device_identity/src/identity.cpp",
+      "include": "identity.hpp",
+      "resolved": "01_source/research/device_identity/src/identity.hpp"
+    },
+    {
+      "file": "01_source/research/device_identity/src/main.cpp",
+      "include": "identity.hpp",
+      "resolved": "01_source/research/device_identity/src/identity.hpp"
+    },
+    {
+      "file": "01_source/research/device_identity/tests/unit_tests.cpp",
+      "include": "identity.hpp",
+      "resolved": "01_source/research/device_identity/src/identity.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/src/environment_memory.cpp",
+      "include": "environment_memory.hpp",
+      "resolved": "01_source/research/environment_memory/src/environment_memory.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/src/input_methods_jni.cpp",
+      "include": "input_methods_jni.hpp",
+      "resolved": "01_source/research/environment_memory/src/input_methods_jni.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/src/input_methods_jni.cpp",
+      "include": "../../accessibility/src/accessibility_env.hpp",
+      "resolved": "01_source/research/accessibility/src/accessibility_env.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/src/input_methods_jni.hpp",
+      "include": "environment_memory.hpp",
+      "resolved": "01_source/research/environment_memory/src/environment_memory.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/src/main.cpp",
+      "include": "environment_memory.hpp",
+      "resolved": "01_source/research/environment_memory/src/environment_memory.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/tests/jni_adapter_tests.cpp",
+      "include": "../src/input_methods_jni.hpp",
+      "resolved": "01_source/research/environment_memory/src/input_methods_jni.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/tests/unit_tests.cpp",
+      "include": "environment_memory.hpp",
+      "resolved": "01_source/research/environment_memory/src/environment_memory.hpp"
+    },
+    {
+      "file": "01_source/research/environment_memory/tests/unit_tests.cpp",
+      "include": "observed_models.h",
+      "resolved": "01_source/research/src/observed_models.h"
+    },
+    {
+      "file": "01_source/research/environment_memory/tests/unit_tests.cpp",
+      "include": "class_probe_model.h",
+      "resolved": "01_source/research/src/class_probe_model.h"
+    },
+    {
+      "file": "01_source/research/environment_memory/tests/unit_tests.cpp",
+      "include": "saved_digest_vectors.inc",
+      "resolved": "01_source/research/environment_memory/tests/saved_digest_vectors.inc"
+    },
+    {
+      "file": "01_source/research/mcp_clock/src/clock_chain.cpp",
+      "include": "clock_chain.hpp",
+      "resolved": "01_source/research/mcp_clock/src/clock_chain.hpp"
+    },
+    {
+      "file": "01_source/research/mcp_clock/src/crypto.cpp",
+      "include": "clock_chain.hpp",
+      "resolved": "01_source/research/mcp_clock/src/clock_chain.hpp"
+    },
+    {
+      "file": "01_source/research/mcp_clock/src/crypto.cpp",
+      "include": "sha_constants.inc",
+      "resolved": "01_source/research/mcp_clock/src/sha_constants.inc"
+    },
+    {
+      "file": "01_source/research/mcp_clock/src/main.cpp",
+      "include": "mcp_chain.hpp",
+      "resolved": "01_source/research/mcp_clock/src/mcp_chain.hpp"
+    },
+    {
+      "file": "01_source/research/mcp_clock/src/main.cpp",
+      "include": "clock_chain.hpp",
+      "resolved": "01_source/research/mcp_clock/src/clock_chain.hpp"
+    },
+    {
+      "file": "01_source/research/mcp_clock/src/mcp_chain.cpp",
+      "include": "mcp_chain.hpp",
+      "resolved": "01_source/research/mcp_clock/src/mcp_chain.hpp"
+    },
+    {
+      "file": "01_source/research/mcp_clock/tests/unit_tests.cpp",
+      "include": "mcp_chain.hpp",
+      "resolved": "01_source/research/mcp_clock/src/mcp_chain.hpp"
+    },
+    {
+      "file": "01_source/research/mcp_clock/tests/unit_tests.cpp",
+      "include": "clock_chain.hpp",
+      "resolved": "01_source/research/mcp_clock/src/clock_chain.hpp"
+    },
+    {
+      "file": "01_source/research/src/class_probe_model.cpp",
+      "include": "class_probe_model.h",
+      "resolved": "01_source/research/src/class_probe_model.h"
+    },
+    {
+      "file": "01_source/research/src/observed_models.cpp",
+      "include": "observed_models.h",
+      "resolved": "01_source/research/src/observed_models.h"
+    },
+    {
+      "file": "01_source/research/src/shared_ring_model.cpp",
+      "include": "shared_ring_model.h",
+      "resolved": "01_source/research/src/shared_ring_model.h"
+    },
+    {
+      "file": "01_source/research/src/test_helpers.cpp",
+      "include": "verified_helpers.h",
+      "resolved": "01_source/research/src/verified_helpers.h"
+    },
+    {
+      "file": "01_source/research/src/verified_helpers.cpp",
+      "include": "verified_helpers.h",
+      "resolved": "01_source/research/src/verified_helpers.h"
+    }
+  ]
+}

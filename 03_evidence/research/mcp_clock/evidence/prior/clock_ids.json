@@ -1,0 +1,242 @@
+{
+  "source": "IDA Pro MCP get_bytes; 16-byte XOR in 0x140c9c",
+  "raw": {
+    "result": [
+      {
+        "addr": "0x7a9450",
+        "data": "0xe1 0x8f 0x38 0x9f 0xa7 0xd3 0xc9 0x61 0x28 0xc9 0x97 0x67 0xeb 0x36 0x9 0x2"
+      },
+      {
+        "addr": "0x327d0",
+        "data": "0xe5 0x8f 0x38 0x9f 0xa6 0xd3 0xc9 0x61 0x2a 0xc9 0x97 0x67 0xe8 0x36 0x9 0x2"
+      }
+    ]
+  },
+  "decoded_bytes": [
+    4,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+  ],
+  "clock_ids": [
+    4,
+    1,
+    2,
+    3
+  ],
+  "linux_names": [
+    "CLOCK_MONOTONIC_RAW",
+    "CLOCK_MONOTONIC",
+    "CLOCK_PROCESS_CPUTIME_ID",
+    "CLOCK_THREAD_CPUTIME_ID"
+  ],
+  "fallback": "0x744750; clock_gettime(1)",
+  "xrefs": {
+    "result": [
+      {
+        "addr": "0x634e84",
+        "xrefs": [
+          {
+            "addr": "0x6321cc",
+            "type": "code",
+            "fn": {
+              "addr": "0x632054",
+              "name": "sub_632054",
+              "size": "0x2a0"
+            }
+          },
+          {
+            "addr": "0x650ac0",
+            "type": "code",
+            "fn": {
+              "addr": "0x650898",
+              "name": "sub_650898",
+              "size": "0x36c"
+            }
+          },
+          {
+            "addr": "0x66e9a8",
+            "type": "code",
+            "fn": {
+              "addr": "0x66e838",
+              "name": "sub_66E838",
+              "size": "0x274"
+            }
+          },
+          {
+            "addr": "0x68cce8",
+            "type": "code",
+            "fn": {
+              "addr": "0x68cbe0",
+              "name": "sub_68CBE0",
+              "size": "0x230"
+            }
+          },
+          {
+            "addr": "0x6ab844",
+            "type": "code",
+            "fn": {
+              "addr": "0x6ab3d8",
+              "name": "sub_6AB3D8",
+              "size": "0x5ac"
+            }
+          },
+          {
+            "addr": "0x6cf4c0",
+            "type": "code",
+            "fn": {
+              "addr": "0x6cf0c8",
+              "name": "sub_6CF0C8",
+              "size": "0x60c"
+            }
+          },
+          {
+            "addr": "0x6cf554",
+            "type": "code",
+            "fn": {
+              "addr": "0x6cf0c8",
+              "name": "sub_6CF0C8",
+              "size": "0x60c"
+            }
+          },
+          {
+            "addr": "0x6f4628",
+            "type": "code",
+            "fn": {
+              "addr": "0x6f4218",
+              "name": "sub_6F4218",
+              "size": "0x610"
+            }
+          },
+          {
+            "addr": "0x6f46b0",
+            "type": "code",
+            "fn": {
+              "addr": "0x6f4218",
+              "name": "sub_6F4218",
+              "size": "0x610"
+            }
+          },
+          {
+            "addr": "0x715df8",
+            "type": "code",
+            "fn": {
+              "addr": "0x7153a8",
+              "name": "sub_7153A8",
+              "size": "0xcc8"
+            }
+          },
+          {
+            "addr": "0x635300",
+            "type": "data",
+            "fn": {
+              "addr": "0x634e84",
+              "name": "sub_634E84",
+              "size": "0x690"
+            }
+          },
+          {
+            "addr": "0x63534c",
+            "type": "data",
+            "fn": {
+              "addr": "0x634e84",
+              "name": "sub_634E84",
+              "size": "0x690"
+            }
+          },
+          {
+            "addr": "0x63536c",
+            "type": "data",
+            "fn": {
+              "addr": "0x634e84",
+              "name": "sub_634E84",
+              "size": "0x690"
+            }
+          }
+        ],
+        "more": false,
+        "xref_count": 13
+      },
+      {
+        "addr": "0x140c9c",
+        "xrefs": [
+          {
+            "addr": "0xf5338",
+            "type": "code",
+            "fn": {
+              "addr": "0xf5198",
+              "name": "sub_F5198",
+              "size": "0x59c"
+            }
+          },
+          {
+            "addr": "0x140cf8",
+            "type": "data",
+            "fn": {
+              "addr": "0x140c9c",
+              "name": "sub_140C9C",
+              "size": "0x248"
+            }
+          }
+        ],
+        "more": false,
+        "xref_count": 2
+      },
+      {
+        "addr": "0x591e24",
+        "xrefs": [
+          {
+            "addr": "0x4c8a3c",
+            "type": "code",
+            "fn": {
+              "addr": "0x4c89cc",
+              "name": "sub_4C89CC",
+              "size": "0x278"
+            }
+          },
+          {
+            "addr": "0x592370",
+            "type": "data",
+            "fn": {
+              "addr": "0x591e24",
+              "name": "sub_591E24",
+              "size": "0x5e8"
+            }
+          },
+          {
+            "addr": "0x59239c",
+            "type": "data",
+            "fn": {
+              "addr": "0x591e24",
+              "name": "sub_591E24",
+              "size": "0x5e8"
+            }
+          },
+          {
+            "addr": "0x5923bc",
+            "type": "data",
+            "fn": {
+              "addr": "0x591e24",
+              "name": "sub_591E24",
+              "size": "0x5e8"
+            }
+          }
+        ],
+        "more": false,
+        "xref_count": 4
+      }
+    ]
+  }
+}

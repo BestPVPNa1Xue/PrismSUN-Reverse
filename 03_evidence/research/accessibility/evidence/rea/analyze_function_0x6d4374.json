@@ -1,0 +1,351 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_1d3c25b5c79d1fd797eed346de487b7afefddf14dc86c7b8b03904f128e9c20f\",\"subject\":{\"name\":\"D:\\\\PrismSUN\\\\libprism-sun.so\",\"digest\":{\"sha256\":\"92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4\"},\"format\":\"elf\",\"architecture\":\"arm64\",\"local_path\":\"D:\\\\PrismSUN\\\\libprism-sun.so\"},\"provider\":{\"id\":\"ida\",\"name\":\"IDA Pro MCP adapter\",\"version\":\"1\"},\"analysis_profile\":{\"provider\":{\"id\":\"ida\",\"name\":\"IDA Pro MCP adapter\",\"version\":\"1\"},\"parameters\":{\"version_scope\":\"rea-ida-adapter\",\"engine_version\":null,\"upstream_distribution_version\":null,\"mode\":\"headless\",\"compatibility_profile\":\"database-supervisor\",\"database_revision\":null,\"cache_policy\":\"live\",\"registration_digest\":\"dd8dc8a3f1cdc665d68abc10f3eb4695c96df4d6e7b992484fc815dafa18531e\"},\"digest\":\"fc0ad0de64e7fa99f46e43a28ba3a06ff37b572a716c7ac68aea3ca1500da064\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"analyze_function\",\"parameters\":{\"procedure\":\"0x6d4374\"},\"raw_result\":{\"upstream\":{\"name\":\"ida-pro-mcp\",\"version\":\"1.0.0\"},\"metadata_before\":{\"status\":\"ok\",\"uptime_sec\":288.234,\"idb_path\":\"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\rea-ida-ce0fbd265f46286931b559913e1b9494\\\\libprism-sun.so.i64\",\"module\":\"libprism-sun.so\",\"input_path\":\"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\rea-ida-ce0fbd265f46286931b559913e1b9494\\\\libprism-sun.so\",\"imagebase\":\"0x0\",\"auto_analysis_ready\":true,\"hexrays_ready\":true,\"strings_cache_ready\":true,\"strings_cache_size\":671},\"metadata_after\":{\"status\":\"ok\",\"uptime_sec\":288.549,\"idb_path\":\"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\rea-ida-ce0fbd265f46286931b559913e1b9494\\\\libprism-sun.so.i64\",\"module\":\"libprism-sun.so\",\"input_path\":\"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\rea-ida-ce0fbd265f46286931b559913e1b9494\\\\libprism-sun.so\",\"imagebase\":\"0x0\",\"auto_analysis_ready\":true,\"hexrays_ready\":true,\"strings_cache_ready\":true,\"strings_cache_size\":671},\"observations\":[{\"tool\":\"lookup_funcs\",\"arguments\":{\"queries\":[\"0x6d4374\"],\"database\":\"rea-a22051c1-261e-4ff0-8be2-ec642549b32b\"},\"result\":[{\"query\":\"0x6d4374\",\"fn\":{\"addr\":\"0x6d4374\",\"name\":\"sub_6D4374\",\"size\":\"0x34\"},\"error\":null}]},{\"tool\":\"disasm\",\"arguments\":{\"addr\":\"0x6d4374\",\"offset\":0,\"max_instructions\":100,\"database\":\"rea-a22051c1-261e-4ff0-8be2-ec642549b32b\"},\"result\":{\"addr\":\"0x6d4374\",\"asm\":{\"name\":\"sub_6D4374\",\"start_ea\":\"0x6d4374\",\"segment\":\".text\",\"lines\":[{\"addr\":\"6d4374\",\"instruction\":\"STP X29, X30, [SP,#-0x60+var_s0]!\",\"label\":\"sub_6D4374\"},{\"addr\":\"6d4378\",\"instruction\":\"STP X28, X27, [SP,#var_s10]\",\"label\":\"loc_6D4378\"},{\"addr\":\"6d437c\",\"instruction\":\"STP X26, X25, [SP,#var_s20]\",\"label\":\"loc_6D437C\"},{\"addr\":\"6d4380\",\"instruction\":\"STP X24, X23, [SP,#var_s30]\"},{\"addr\":\"6d4384\",\"instruction\":\"STP X22, X21, [SP,#var_s40]\"},{\"addr\":\"6d4388\",\"instruction\":\"STP X20, X19, [SP,#var_s50]\"},{\"addr\":\"6d438c\",\"instruction\":\"MOV X29, SP\"},{\"addr\":\"6d4390\",\"instruction\":\"SUB SP, SP, #0x50\"},{\"addr\":\"6d4394\",\"instruction\":\"MRS X8, TPIDR_EL0\"},{\"addr\":\"6d4398\",\"instruction\":\"LDR X8, [X8,#0x28]\"},{\"addr\":\"6d439c\",\"instruction\":\"STUR X8, [X29,#var_8]\"},{\"addr\":\"6d43a0\",\"instruction\":\"B loc_6D43A4\",\"refs\":[{\"addr\":\"0x6d43a4\",\"name\":\"loc_6D43A4\"}]},{\"addr\":\"6d43a4\",\"instruction\":\"B loc_6D4904\",\"label\":\"loc_6D43A4\",\"refs\":[{\"addr\":\"0x6d4904\",\"name\":\"loc_6D4904\"}]}],\"stack_frame\":[{\"name\":\"var_8\",\"offset\":\"0x48\",\"size\":\"0x8\",\"type\":\"_QWORD\"},{\"name\":\"var_s0\",\"offset\":\"0x50\",\"size\":\"0x8\",\"type\":\"_QWORD\"},{\"name\":\"var_s10\",\"offset\":\"0x60\",\"size\":\"0x8\",\"type\":\"_QWORD\"},{\"name\":\"var_s20\",\"offset\":\"0x70\",\"size\":\"0x8\",\"type\":\"_QWORD\"},{\"name\":\"var_s30\",\"offset\":\"0x80\",\"size\":\"0x8\",\"type\":\"_QWORD\"},{\"name\":\"var_s40\",\"offset\":\"0x90\",\"size\":\"0x8\",\"type\":\"_QWORD\"},{\"name\":\"var_s50\",\"offset\":\"0xa0\",\"size\":\"0x8\",\"type\":\"_QWORD\"}],\"return_type\":\"__int64\",\"arguments\":[{\"name\":\"arg0\",\"type\":\"_QWORD\"}]},\"instruction_count\":13,\"total_instructions\":null,\"cursor\":{\"done\":true}}},{\"tool\":\"decompile\",\"arguments\":{\"addr\":\"0x6d4374\",\"offset\":0,\"max_lines\":100,\"database\":\"rea-a22051c1-261e-4ff0-8be2-ec642549b32b\"},\"result\":{\"addr\":\"0x6d4374\",\"code\":\"void sub_6D4374()\\n{\\n  _ReadStatusReg(TPIDR_EL0); /*0x6d4394*/\\n  JUMPOUT(0x6D4904); /*0x6d4904*/\\n}\",\"line_count\":5,\"total_lines\":5,\"truncated\":false,\"cursor\":{\"done\":true}}},{\"tool\":\"callees\",\"arguments\":{\"addrs\":[\"0x6d4374\"],\"limit\":500,\"database\":\"rea-a22051c1-261e-4ff0-8be2-ec642549b32b\"},\"result\":[{\"addr\":\"0x6d4374\",\"callees\":[],\"more\":false}]}]},\"normalized_result\":{\"procedure\":{\"address\":\"0x6d4374\",\"name\":\"sub_6D4374\",\"classification\":null,\"body\":{\"available\":false,\"reason\":\"IDA MCP does not report complete function body ranges.\"},\"signature\":\"__int64 sub_6D4374(_QWORD arg0)\",\"locals\":[]},\"pseudocode\":\"void sub_6D4374()\\n{\\n  _ReadStatusReg(TPIDR_EL0); /*0x6d4394*/\\n  JUMPOUT(0x6D4904); /*0x6d4904*/\\n}\",\"assembly\":[\"0x6d4374: STP X29, X30, [SP,#-0x60+var_s0]!\",\"0x6d4378: STP X28, X27, [SP,#var_s10]\",\"0x6d437c: STP X26, X25, [SP,#var_s20]\",\"0x6d4380: STP X24, X23, [SP,#var_s30]\",\"0x6d4384: STP X22, X21, [SP,#var_s40]\",\"0x6d4388: STP X20, X19, [SP,#var_s50]\",\"0x6d438c: MOV X29, SP\",\"0x6d4390: SUB SP, SP, #0x50\",\"0x6d4394: MRS X8, TPIDR_EL0\",\"0x6d4398: LDR X8, [X8,#0x28]\",\"0x6d439c: STUR X8, [X29,#var_8]\",\"0x6d43a0: B loc_6D43A4\",\"0x6d43a4: B loc_6D4904\"],\"comments\":[],\"callers\":[],\"callees\":[],\"incoming_references\":[],\"outgoing_references\":[],\"referenced_strings\":[],\"referenced_names\":[],\"basic_blocks\":[],\"native_api\":null,\"native_value_flow\":null,\"limitations\":[\"Provider version identifies the REA IDA adapter. IDA engine and upstream distribution versions are unknown unless separately observed; MCP serverInfo is reported independently.\",\"Results describe the current IDA analysis database. Input identity does not prove an unmodified database; patches, annotations, analysis completeness, and database revision remain unknown.\",\"Live results are never replayed from analysis snapshots. Target checks before and after a request do not provide an atomic lock against external GUI changes.\",\"Caller cancellation drains the in-flight MCP request before cleanup; it does not prove that IDA engine work was interrupted.\",\"Headless workers are released through the upstream database lifecycle. Abrupt termination of REA, its proxy, or the supervisor cannot prove worker cleanup; inspect upstream inventory after an interrupted process.\",\"Complete function body ranges, typed references, unresolved indirect calls, referenced data, and basic blocks are unavailable in this adapter. Empty unsupported dossier facets are unknown, not observed absence.\",\"Modern upstream xrefs classify references as code or data, without proving call edges. Direct callers are unavailable in this profile.\",\"Stack frame records are not evidence of source locals. Rendered comments do not identify regular versus inline origin.\"]},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Provider version identifies the REA IDA adapter. IDA engine and upstream distribution versions are unknown unless separately observed; MCP serverInfo is reported independently.\",\"Results describe the current IDA analysis database. Input identity does not prove an unmodified database; patches, annotations, analysis completeness, and database revision remain unknown.\",\"Live results are never replayed from analysis snapshots. Target checks before and after a request do not provide an atomic lock against external GUI changes.\",\"Caller cancellation drains the in-flight MCP request before cleanup; it does not prove that IDA engine work was interrupted.\",\"Headless workers are released through the upstream database lifecycle. Abrupt termination of REA, its proxy, or the supervisor cannot prove worker cleanup; inspect upstream inventory after an interrupted process.\",\"Complete function body ranges, typed references, unresolved indirect calls, referenced data, and basic blocks are unavailable in this adapter. Empty unsupported dossier facets are unknown, not observed absence.\",\"Modern upstream xrefs classify references as code or data, without proving call edges. Direct callers are unavailable in this profile.\"],\"locations\":[{\"kind\":\"artifact-path\",\"path\":\"D:\\\\PrismSUN\\\\libprism-sun.so\"},{\"kind\":\"address\",\"address\":\"0x6d4374\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_1d3c25b5c79d1fd797eed346de487b7afefddf14dc86c7b8b03904f128e9c20f",
+    "subject": {
+      "name": "D:\\PrismSUN\\libprism-sun.so",
+      "digest": {
+        "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4"
+      },
+      "format": "elf",
+      "architecture": "arm64",
+      "local_path": "D:\\PrismSUN\\libprism-sun.so"
+    },
+    "provider": {
+      "id": "ida",
+      "name": "IDA Pro MCP adapter",
+      "version": "1"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ida",
+        "name": "IDA Pro MCP adapter",
+        "version": "1"
+      },
+      "parameters": {
+        "version_scope": "rea-ida-adapter",
+        "engine_version": null,
+        "upstream_distribution_version": null,
+        "mode": "headless",
+        "compatibility_profile": "database-supervisor",
+        "database_revision": null,
+        "cache_policy": "live",
+        "registration_digest": "dd8dc8a3f1cdc665d68abc10f3eb4695c96df4d6e7b992484fc815dafa18531e"
+      },
+      "digest": "fc0ad0de64e7fa99f46e43a28ba3a06ff37b572a716c7ac68aea3ca1500da064"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "analyze_function",
+    "parameters": {
+      "procedure": "0x6d4374"
+    },
+    "raw_result": {
+      "upstream": {
+        "name": "ida-pro-mcp",
+        "version": "1.0.0"
+      },
+      "metadata_before": {
+        "status": "ok",
+        "uptime_sec": 288.234,
+        "idb_path": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rea-ida-ce0fbd265f46286931b559913e1b9494\\libprism-sun.so.i64",
+        "module": "libprism-sun.so",
+        "input_path": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rea-ida-ce0fbd265f46286931b559913e1b9494\\libprism-sun.so",
+        "imagebase": "0x0",
+        "auto_analysis_ready": true,
+        "hexrays_ready": true,
+        "strings_cache_ready": true,
+        "strings_cache_size": 671
+      },
+      "metadata_after": {
+        "status": "ok",
+        "uptime_sec": 288.549,
+        "idb_path": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rea-ida-ce0fbd265f46286931b559913e1b9494\\libprism-sun.so.i64",
+        "module": "libprism-sun.so",
+        "input_path": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rea-ida-ce0fbd265f46286931b559913e1b9494\\libprism-sun.so",
+        "imagebase": "0x0",
+        "auto_analysis_ready": true,
+        "hexrays_ready": true,
+        "strings_cache_ready": true,
+        "strings_cache_size": 671
+      },
+      "observations": [
+        {
+          "tool": "lookup_funcs",
+          "arguments": {
+            "queries": [
+              "0x6d4374"
+            ],
+            "database": "rea-a22051c1-261e-4ff0-8be2-ec642549b32b"
+          },
+          "result": [
+            {
+              "query": "0x6d4374",
+              "fn": {
+                "addr": "0x6d4374",
+                "name": "sub_6D4374",
+                "size": "0x34"
+              },
+              "error": null
+            }
+          ]
+        },
+        {
+          "tool": "disasm",
+          "arguments": {
+            "addr": "0x6d4374",
+            "offset": 0,
+            "max_instructions": 100,
+            "database": "rea-a22051c1-261e-4ff0-8be2-ec642549b32b"
+          },
+          "result": {
+            "addr": "0x6d4374",
+            "asm": {
+              "name": "sub_6D4374",
+              "start_ea": "0x6d4374",
+              "segment": ".text",
+              "lines": [
+                {
+                  "addr": "6d4374",
+                  "instruction": "STP X29, X30, [SP,#-0x60+var_s0]!",
+                  "label": "sub_6D4374"
+                },
+                {
+                  "addr": "6d4378",
+                  "instruction": "STP X28, X27, [SP,#var_s10]",
+                  "label": "loc_6D4378"
+                },
+                {
+                  "addr": "6d437c",
+                  "instruction": "STP X26, X25, [SP,#var_s20]",
+                  "label": "loc_6D437C"
+                },
+                {
+                  "addr": "6d4380",
+                  "instruction": "STP X24, X23, [SP,#var_s30]"
+                },
+                {
+                  "addr": "6d4384",
+                  "instruction": "STP X22, X21, [SP,#var_s40]"
+                },
+                {
+                  "addr": "6d4388",
+                  "instruction": "STP X20, X19, [SP,#var_s50]"
+                },
+                {
+                  "addr": "6d438c",
+                  "instruction": "MOV X29, SP"
+                },
+                {
+                  "addr": "6d4390",
+                  "instruction": "SUB SP, SP, #0x50"
+                },
+                {
+                  "addr": "6d4394",
+                  "instruction": "MRS X8, TPIDR_EL0"
+                },
+                {
+                  "addr": "6d4398",
+                  "instruction": "LDR X8, [X8,#0x28]"
+                },
+                {
+                  "addr": "6d439c",
+                  "instruction": "STUR X8, [X29,#var_8]"
+                },
+                {
+                  "addr": "6d43a0",
+                  "instruction": "B loc_6D43A4",
+                  "refs": [
+                    {
+                      "addr": "0x6d43a4",
+                      "name": "loc_6D43A4"
+                    }
+                  ]
+                },
+                {
+                  "addr": "6d43a4",
+                  "instruction": "B loc_6D4904",
+                  "label": "loc_6D43A4",
+                  "refs": [
+                    {
+                      "addr": "0x6d4904",
+                      "name": "loc_6D4904"
+                    }
+                  ]
+                }
+              ],
+              "stack_frame": [
+                {
+                  "name": "var_8",
+                  "offset": "0x48",
+                  "size": "0x8",
+                  "type": "_QWORD"
+                },
+                {
+                  "name": "var_s0",
+                  "offset": "0x50",
+                  "size": "0x8",
+                  "type": "_QWORD"
+                },
+                {
+                  "name": "var_s10",
+                  "offset": "0x60",
+                  "size": "0x8",
+                  "type": "_QWORD"
+                },
+                {
+                  "name": "var_s20",
+                  "offset": "0x70",
+                  "size": "0x8",
+                  "type": "_QWORD"
+                },
+                {
+                  "name": "var_s30",
+                  "offset": "0x80",
+                  "size": "0x8",
+                  "type": "_QWORD"
+                },
+                {
+                  "name": "var_s40",
+                  "offset": "0x90",
+                  "size": "0x8",
+                  "type": "_QWORD"
+                },
+                {
+                  "name": "var_s50",
+                  "offset": "0xa0",
+                  "size": "0x8",
+                  "type": "_QWORD"
+                }
+              ],
+              "return_type": "__int64",
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "_QWORD"
+                }
+              ]
+            },
+            "instruction_count": 13,
+            "total_instructions": null,
+            "cursor": {
+              "done": true
+            }
+          }
+        },
+        {
+          "tool": "decompile",
+          "arguments": {
+            "addr": "0x6d4374",
+            "offset": 0,
+            "max_lines": 100,
+            "database": "rea-a22051c1-261e-4ff0-8be2-ec642549b32b"
+          },
+          "result": {
+            "addr": "0x6d4374",
+            "code": "void sub_6D4374()\n{\n  _ReadStatusReg(TPIDR_EL0); /*0x6d4394*/\n  JUMPOUT(0x6D4904); /*0x6d4904*/\n}",
+            "line_count": 5,
+            "total_lines": 5,
+            "truncated": false,
+            "cursor": {
+              "done": true
+            }
+          }
+        },
+        {
+          "tool": "callees",
+          "arguments": {
+            "addrs": [
+              "0x6d4374"
+            ],
+            "limit": 500,
+            "database": "rea-a22051c1-261e-4ff0-8be2-ec642549b32b"
+          },
+          "result": [
+            {
+              "addr": "0x6d4374",
+              "callees": [],
+              "more": false
+            }
+          ]
+        }
+      ]
+    },
+    "normalized_result": {
+      "procedure": {
+        "address": "0x6d4374",
+        "name": "sub_6D4374",
+        "classification": null,
+        "body": {
+          "available": false,
+          "reason": "IDA MCP does not report complete function body ranges."
+        },
+        "signature": "__int64 sub_6D4374(_QWORD arg0)",
+        "locals": []
+      },
+      "pseudocode": "void sub_6D4374()\n{\n  _ReadStatusReg(TPIDR_EL0); /*0x6d4394*/\n  JUMPOUT(0x6D4904); /*0x6d4904*/\n}",
+      "assembly": [
+        "0x6d4374: STP X29, X30, [SP,#-0x60+var_s0]!",
+        "0x6d4378: STP X28, X27, [SP,#var_s10]",
+        "0x6d437c: STP X26, X25, [SP,#var_s20]",
+        "0x6d4380: STP X24, X23, [SP,#var_s30]",
+        "0x6d4384: STP X22, X21, [SP,#var_s40]",
+        "0x6d4388: STP X20, X19, [SP,#var_s50]",
+        "0x6d438c: MOV X29, SP",
+        "0x6d4390: SUB SP, SP, #0x50",
+        "0x6d4394: MRS X8, TPIDR_EL0",
+        "0x6d4398: LDR X8, [X8,#0x28]",
+        "0x6d439c: STUR X8, [X29,#var_8]",
+        "0x6d43a0: B loc_6D43A4",
+        "0x6d43a4: B loc_6D4904"
+      ],
+      "comments": [],
+      "callers": [],
+      "callees": [],
+      "incoming_references": [],
+      "outgoing_references": [],
+      "referenced_strings": [],
+      "referenced_names": [],
+      "basic_blocks": [],
+      "native_api": null,
+      "native_value_flow": null,
+      "limitations": [
+        "Provider version identifies the REA IDA adapter. IDA engine and upstream distribution versions are unknown unless separately observed; MCP serverInfo is reported independently.",
+        "Results describe the current IDA analysis database. Input identity does not prove an unmodified database; patches, annotations, analysis completeness, and database revision remain unknown.",
+        "Live results are never replayed from analysis snapshots. Target checks before and after a request do not provide an atomic lock against external GUI changes.",
+        "Caller cancellation drains the in-flight MCP request before cleanup; it does not prove that IDA engine work was interrupted.",
+        "Headless workers are released through the upstream database lifecycle. Abrupt termination of REA, its proxy, or the supervisor cannot prove worker cleanup; inspect upstream inventory after an interrupted process.",
+        "Complete function body ranges, typed references, unresolved indirect calls, referenced data, and basic blocks are unavailable in this adapter. Empty unsupported dossier facets are unknown, not observed absence.",
+        "Modern upstream xrefs classify references as code or data, without proving call edges. Direct callers are unavailable in this profile.",
+        "Stack frame records are not evidence of source locals. Rendered comments do not identify regular versus inline origin."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Provider version identifies the REA IDA adapter. IDA engine and upstream distribution versions are unknown unless separately observed; MCP serverInfo is reported independently.",
+      "Results describe the current IDA analysis database. Input identity does not prove an unmodified database; patches, annotations, analysis completeness, and database revision remain unknown.",
+      "Live results are never replayed from analysis snapshots. Target checks before and after a request do not provide an atomic lock against external GUI changes.",
+      "Caller cancellation drains the in-flight MCP request before cleanup; it does not prove that IDA engine work was interrupted.",
+      "Headless workers are released through the upstream database lifecycle. Abrupt termination of REA, its proxy, or the supervisor cannot prove worker cleanup; inspect upstream inventory after an interrupted process.",
+      "Complete function body ranges, typed references, unresolved indirect calls, referenced data, and basic blocks are unavailable in this adapter. Empty unsupported dossier facets are unknown, not observed absence.",
+      "Modern upstream xrefs classify references as code or data, without proving call edges. Direct callers are unavailable in this profile."
+    ],
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "D:\\PrismSUN\\libprism-sun.so"
+      },
+      {
+        "kind": "address",
+        "address": "0x6d4374"
+      }
+    ],
+    "evidence_links": []
+  }
+}

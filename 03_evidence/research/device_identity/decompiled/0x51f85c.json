@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x51f85c\",\"code\":\"// positive sp value has been detected, the output may be wrong!\\n__int64 __fastcall sub_51F85C(__int64 result, __int64 a2)\\n{\\n  __int64 v2; // x19\\n  __int64 v3; // x20\\n  int v4; // [xsp-4h] [xbp-2Ch]\\n\\n  _ReadStatusReg(TPIDR_EL0); /*0x51f86c*/\\n  v4 = 1143282330; /*0x51f880*/\\n  while ( v4 != -914055923 ) /*0x51f8c4*/\\n  {\\n    if ( v4 == 1143282330 ) /*0x51f914*/\\n    {\\n      v4 = 1768497275; /*0x51f9a4*/\\n    }\\n    else\\n    {\\n      v2 = result; /*0x51f9d8*/\\n      v3 = a2; /*0x51f9e4*/\\n      sub_56C57C(); /*0x51f9ec*/\\n      result = v2; /*0x51f9f0*/\\n      a2 = v3; /*0x51f9f4*/\\n      v4 = -914055923; /*0x51fa04*/\\n    }\\n  }\\n  _ReadStatusReg(TPIDR_EL0); /*0x51fa0c*/\\n  return result; /*0x51fa2c*/\\n}\",\"refs\":[{\"addr\":\"0x56c57c\",\"name\":\"sub_56C57C\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x51f85c",
+      "code": "// positive sp value has been detected, the output may be wrong!\n__int64 __fastcall sub_51F85C(__int64 result, __int64 a2)\n{\n  __int64 v2; // x19\n  __int64 v3; // x20\n  int v4; // [xsp-4h] [xbp-2Ch]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x51f86c*/\n  v4 = 1143282330; /*0x51f880*/\n  while ( v4 != -914055923 ) /*0x51f8c4*/\n  {\n    if ( v4 == 1143282330 ) /*0x51f914*/\n    {\n      v4 = 1768497275; /*0x51f9a4*/\n    }\n    else\n    {\n      v2 = result; /*0x51f9d8*/\n      v3 = a2; /*0x51f9e4*/\n      sub_56C57C(); /*0x51f9ec*/\n      result = v2; /*0x51f9f0*/\n      a2 = v3; /*0x51f9f4*/\n      v4 = -914055923; /*0x51fa04*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x51fa0c*/\n  return result; /*0x51fa2c*/\n}",
+      "refs": [
+        {
+          "addr": "0x56c57c",
+          "name": "sub_56C57C"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

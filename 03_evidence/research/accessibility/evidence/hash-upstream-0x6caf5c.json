@@ -1,0 +1,27 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6caf5c\",\"code\":\"__int64 __usercall sub_6CAF5C@<X0>(__int64 result@<X0>, __int64 a2@<X8>)\\n{\\n  __int64 v2; // x19\\n  __int64 v3; // x0\\n  __int64 v4; // [xsp+28h] [xbp-8h]\\n  _QWORD savedregs[4]; // [xsp+30h] [xbp+0h] BYREF\\n\\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6caf74*/\\n  HIDWORD(savedregs[2]) = -897370168; /*0x6caf80*/\\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x6caf88*/\\n  while ( HIDWORD(savedregs[2]) != -1186121263 ) /*0x6cb028*/\\n  {\\n    if ( HIDWORD(savedregs[2]) == -897370168 ) /*0x6cb064*/\\n    {\\n      HIDWORD(savedregs[2]) = 1452234236; /*0x6cb0a4*/\\n    }\\n    else\\n    {\\n      LODWORD(savedregs[2]) = result; /*0x6cb0c0*/\\n      v2 = result; /*0x6cb0c8*/\\n      v4 = a2; /*0x6cb0d0*/\\n      v3 = ((__int64 (__fastcall *)(__int64))loc_6CB86C)(result); /*0x6cb0d4*/\\n      sub_6CB328(v3, v4); /*0x6cb0dc*/\\n      a2 = v4; /*0x6cb0e0*/\\n      result = v2; /*0x6cb0e4*/\\n      HIDWORD(savedregs[2]) = -1186121263; /*0x6cb0f4*/\\n    }\\n  }\\n  _ReadStatusReg(TPIDR_EL0); /*0x6cb0fc*/\\n  return result; /*0x6cb11c*/\\n}\",\"refs\":[{\"addr\":\"0x6cb86c\",\"name\":\"loc_6CB86C\"},{\"addr\":\"0x6cb328\",\"name\":\"sub_6CB328\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6caf5c",
+      "code": "__int64 __usercall sub_6CAF5C@<X0>(__int64 result@<X0>, __int64 a2@<X8>)\n{\n  __int64 v2; // x19\n  __int64 v3; // x0\n  __int64 v4; // [xsp+28h] [xbp-8h]\n  _QWORD savedregs[4]; // [xsp+30h] [xbp+0h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6caf74*/\n  HIDWORD(savedregs[2]) = -897370168; /*0x6caf80*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x6caf88*/\n  while ( HIDWORD(savedregs[2]) != -1186121263 ) /*0x6cb028*/\n  {\n    if ( HIDWORD(savedregs[2]) == -897370168 ) /*0x6cb064*/\n    {\n      HIDWORD(savedregs[2]) = 1452234236; /*0x6cb0a4*/\n    }\n    else\n    {\n      LODWORD(savedregs[2]) = result; /*0x6cb0c0*/\n      v2 = result; /*0x6cb0c8*/\n      v4 = a2; /*0x6cb0d0*/\n      v3 = ((__int64 (__fastcall *)(__int64))loc_6CB86C)(result); /*0x6cb0d4*/\n      sub_6CB328(v3, v4); /*0x6cb0dc*/\n      a2 = v4; /*0x6cb0e0*/\n      result = v2; /*0x6cb0e4*/\n      HIDWORD(savedregs[2]) = -1186121263; /*0x6cb0f4*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6cb0fc*/\n  return result; /*0x6cb11c*/\n}",
+      "refs": [
+        {
+          "addr": "0x6cb86c",
+          "name": "loc_6CB86C"
+        },
+        {
+          "addr": "0x6cb328",
+          "name": "sub_6CB328"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

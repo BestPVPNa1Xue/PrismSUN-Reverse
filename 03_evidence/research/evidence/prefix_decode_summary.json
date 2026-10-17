@@ -1,0 +1,10 @@
+{
+  "Unhandled CPU exception (UC_ERR_EXCEPTION)": 121,
+  "call": 5443,
+  "return": 5190,
+  "Invalid memory read (UC_ERR_READ_UNMAPPED)": 143,
+  "instruction_budget": 154,
+  "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)": 9,
+  "Invalid memory write (UC_ERR_WRITE_UNMAPPED)": 45,
+  "syscall": 44
+}

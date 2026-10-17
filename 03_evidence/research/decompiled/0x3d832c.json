@@ -1,0 +1,10 @@
+{
+  "addr": "0x3d832c",
+  "code": "__int64 __fastcall sub_3D832C(__int64 a1)\n{\n  __int64 *v1; // x8\n  __int64 result; // x0\n  __int64 v3; // [xsp+20h] [xbp-10h]\n  __int64 v4; // [xsp+30h] [xbp+0h]\n  int v5; // [xsp+44h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x3d833c*/\n  v5 = 2136692685; /*0x3d8350*/\n  while ( v5 != -1044231002 ) /*0x3d83e4*/\n  {\n    if ( v5 == 2122283419 ) /*0x3d8484*/\n    {\n      v3 = a1; /*0x3d84c8*/\n      v1 = (__int64 *)sub_405BD0(a1); /*0x3d84d4*/\n      a1 = v3; /*0x3d84d8*/\n      v4 = *v1; /*0x3d84e0*/\n      v5 = -1044231002; /*0x3d84f0*/\n    }\n    else\n    {\n      v5 = 2122283419; /*0x3d84b0*/\n    }\n  }\n  result = v4; /*0x3d84f8*/\n  _ReadStatusReg(TPIDR_EL0); /*0x3d84fc*/\n  return result; /*0x3d851c*/\n}",
+  "refs": [
+    {
+      "addr": "0x405bd0",
+      "name": "sub_405BD0"
+    }
+  ]
+}

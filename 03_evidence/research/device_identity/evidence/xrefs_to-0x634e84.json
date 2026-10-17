@@ -1,0 +1,141 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x634e84\",\"xrefs\":[{\"addr\":\"0x6321cc\",\"type\":\"code\",\"fn\":{\"addr\":\"0x632054\",\"name\":\"sub_632054\",\"size\":\"0x2a0\"}},{\"addr\":\"0x650ac0\",\"type\":\"code\",\"fn\":{\"addr\":\"0x650898\",\"name\":\"sub_650898\",\"size\":\"0x36c\"}},{\"addr\":\"0x66e9a8\",\"type\":\"code\",\"fn\":{\"addr\":\"0x66e838\",\"name\":\"sub_66E838\",\"size\":\"0x274\"}},{\"addr\":\"0x68cce8\",\"type\":\"code\",\"fn\":{\"addr\":\"0x68cbe0\",\"name\":\"sub_68CBE0\",\"size\":\"0x230\"}},{\"addr\":\"0x6ab844\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6ab3d8\",\"name\":\"sub_6AB3D8\",\"size\":\"0x5ac\"}},{\"addr\":\"0x6cf4c0\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6cf0c8\",\"name\":\"sub_6CF0C8\",\"size\":\"0x60c\"}},{\"addr\":\"0x6cf554\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6cf0c8\",\"name\":\"sub_6CF0C8\",\"size\":\"0x60c\"}},{\"addr\":\"0x6f4628\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6f4218\",\"name\":\"sub_6F4218\",\"size\":\"0x610\"}},{\"addr\":\"0x6f46b0\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6f4218\",\"name\":\"sub_6F4218\",\"size\":\"0x610\"}},{\"addr\":\"0x715df8\",\"type\":\"code\",\"fn\":{\"addr\":\"0x7153a8\",\"name\":\"sub_7153A8\",\"size\":\"0xcc8\"}},{\"addr\":\"0x635300\",\"type\":\"data\",\"fn\":{\"addr\":\"0x634e84\",\"name\":\"sub_634E84\",\"size\":\"0x690\"}},{\"addr\":\"0x63534c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x634e84\",\"name\":\"sub_634E84\",\"size\":\"0x690\"}},{\"addr\":\"0x63536c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x634e84\",\"name\":\"sub_634E84\",\"size\":\"0x690\"}}],\"more\":false,\"xref_count\":13}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x634e84",
+          "xrefs": [
+            {
+              "addr": "0x6321cc",
+              "type": "code",
+              "fn": {
+                "addr": "0x632054",
+                "name": "sub_632054",
+                "size": "0x2a0"
+              }
+            },
+            {
+              "addr": "0x650ac0",
+              "type": "code",
+              "fn": {
+                "addr": "0x650898",
+                "name": "sub_650898",
+                "size": "0x36c"
+              }
+            },
+            {
+              "addr": "0x66e9a8",
+              "type": "code",
+              "fn": {
+                "addr": "0x66e838",
+                "name": "sub_66E838",
+                "size": "0x274"
+              }
+            },
+            {
+              "addr": "0x68cce8",
+              "type": "code",
+              "fn": {
+                "addr": "0x68cbe0",
+                "name": "sub_68CBE0",
+                "size": "0x230"
+              }
+            },
+            {
+              "addr": "0x6ab844",
+              "type": "code",
+              "fn": {
+                "addr": "0x6ab3d8",
+                "name": "sub_6AB3D8",
+                "size": "0x5ac"
+              }
+            },
+            {
+              "addr": "0x6cf4c0",
+              "type": "code",
+              "fn": {
+                "addr": "0x6cf0c8",
+                "name": "sub_6CF0C8",
+                "size": "0x60c"
+              }
+            },
+            {
+              "addr": "0x6cf554",
+              "type": "code",
+              "fn": {
+                "addr": "0x6cf0c8",
+                "name": "sub_6CF0C8",
+                "size": "0x60c"
+              }
+            },
+            {
+              "addr": "0x6f4628",
+              "type": "code",
+              "fn": {
+                "addr": "0x6f4218",
+                "name": "sub_6F4218",
+                "size": "0x610"
+              }
+            },
+            {
+              "addr": "0x6f46b0",
+              "type": "code",
+              "fn": {
+                "addr": "0x6f4218",
+                "name": "sub_6F4218",
+                "size": "0x610"
+              }
+            },
+            {
+              "addr": "0x715df8",
+              "type": "code",
+              "fn": {
+                "addr": "0x7153a8",
+                "name": "sub_7153A8",
+                "size": "0xcc8"
+              }
+            },
+            {
+              "addr": "0x635300",
+              "type": "data",
+              "fn": {
+                "addr": "0x634e84",
+                "name": "sub_634E84",
+                "size": "0x690"
+              }
+            },
+            {
+              "addr": "0x63534c",
+              "type": "data",
+              "fn": {
+                "addr": "0x634e84",
+                "name": "sub_634E84",
+                "size": "0x690"
+              }
+            },
+            {
+              "addr": "0x63536c",
+              "type": "data",
+              "fn": {
+                "addr": "0x634e84",
+                "name": "sub_634E84",
+                "size": "0x690"
+              }
+            }
+          ],
+          "more": false,
+          "xref_count": 13
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

@@ -1,0 +1,30 @@
+{
+  "addr": "0x18b3bc",
+  "code": "__int64 __fastcall sub_18B3BC(__int64 a1, char *a2)\n{\n  bool v2; // zf\n  _QWORD v5[4]; // [xsp-10h] [xbp-20h] BYREF\n\n  v5[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x18b3d8*/\n  v2 = *(_DWORD *)sub_18B3BC >> 26 == 5 || (*(_DWORD *)sub_18B3BC & 0xFFE00000) == -736100352; /*0x18b3f8*/\n  if ( v2 || loc_18B3C0 >> 10 == 3508160 || (loc_18B3C4 & 0xFFFFFC00) == 0xD61F0000 ) /*0x18b424*/\n    abort(); /*0x18b470*/\n  sub_B6704(v5, a2); /*0x18b438*/\n  return sub_2379EC(a1, v5[0], v5[1]) & 1; /*0x18b46c*/\n}",
+  "refs": [
+    {
+      "addr": "0x18b3bc",
+      "name": "sub_18B3BC"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x18b3c0",
+      "name": "loc_18B3C0"
+    },
+    {
+      "addr": "0x18b3c4",
+      "name": "loc_18B3C4"
+    },
+    {
+      "addr": "0xb6704",
+      "name": "sub_B6704"
+    },
+    {
+      "addr": "0x2379ec",
+      "name": "sub_2379EC"
+    }
+  ]
+}

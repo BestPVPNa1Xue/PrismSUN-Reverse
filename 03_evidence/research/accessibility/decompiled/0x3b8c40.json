@@ -1,0 +1,71 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x3b8c40\",\"code\":\"__int64 sub_3B8C40()\\n{\\n  unsigned __int8 v0; // w8\\n  __int64 v1; // x19\\n  unsigned __int8 v3; // [xsp-30h] [xbp-30h]\\n\\n  if ( *(_DWORD *)sub_3B8C40 >> 26 == 5 /*0x3b8e18*/\\n    || *(_DWORD *)sub_3B8C40 >> 21 == 1697\\n    || loc_3B8C44 >> 10 == 3508160\\n    || loc_3B8C48 >> 10 == 3508160 )\\n  {\\n    abort(); /*0x3b8d8c*/\\n  }\\n  v0 = atomic_load((unsigned __int8 *)&MEMORY[0x7D0810]); /*0x3b8c78*/\\n  if ( ((v0 ^ 0xFE) & v0) == 0 && (unsigned int)sub_7699C4(&MEMORY[0x7D0810]) ) /*0x3b8cac*/\\n  {\\n    v1 = sub_783C68(632); /*0x3b8cd0*/\\n    sub_40593C(v1, v3); /*0x3b8ce0*/\\n    sub_3D7DD0(&MEMORY[0x7D0808], v1); /*0x3b8cf8*/\\n    __cxa_atexit((void (*)(void *))&loc_3D7F10, &MEMORY[0x7D0808], &off_78EC70); /*0x3b8d14*/\\n    sub_405940(&MEMORY[0x7D0810]); /*0x3b8d20*/\\n  }\\n  return ((__int64 (__fastcall *)(void *))sub_3D832C)(&MEMORY[0x7D0808]); /*0x3b8d48*/\\n}\",\"refs\":[{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x3b8c40\",\"name\":\"sub_3B8C40\"},{\"addr\":\"0x3b8c44\",\"name\":\"loc_3B8C44\"},{\"addr\":\"0x3b8c48\",\"name\":\"loc_3B8C48\"},{\"addr\":\"0x783c68\",\"name\":\"sub_783C68\"},{\"addr\":\"0x40593c\",\"name\":\"sub_40593C\"},{\"addr\":\"0x3d7dd0\",\"name\":\"sub_3D7DD0\"},{\"addr\":\"0x78a4a0\",\"name\":\".__cxa_atexit\"},{\"addr\":\"0x3d7f10\",\"name\":\"loc_3D7F10\"},{\"addr\":\"0x78ec70\",\"name\":\"off_78EC70\"},{\"addr\":\"0x405940\",\"name\":\"sub_405940\"},{\"addr\":\"0x7699c4\",\"name\":\"sub_7699C4\"},{\"addr\":\"0x3d832c\",\"name\":\"sub_3D832C\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x3b8c40",
+      "code": "__int64 sub_3B8C40()\n{\n  unsigned __int8 v0; // w8\n  __int64 v1; // x19\n  unsigned __int8 v3; // [xsp-30h] [xbp-30h]\n\n  if ( *(_DWORD *)sub_3B8C40 >> 26 == 5 /*0x3b8e18*/\n    || *(_DWORD *)sub_3B8C40 >> 21 == 1697\n    || loc_3B8C44 >> 10 == 3508160\n    || loc_3B8C48 >> 10 == 3508160 )\n  {\n    abort(); /*0x3b8d8c*/\n  }\n  v0 = atomic_load((unsigned __int8 *)&MEMORY[0x7D0810]); /*0x3b8c78*/\n  if ( ((v0 ^ 0xFE) & v0) == 0 && (unsigned int)sub_7699C4(&MEMORY[0x7D0810]) ) /*0x3b8cac*/\n  {\n    v1 = sub_783C68(632); /*0x3b8cd0*/\n    sub_40593C(v1, v3); /*0x3b8ce0*/\n    sub_3D7DD0(&MEMORY[0x7D0808], v1); /*0x3b8cf8*/\n    __cxa_atexit((void (*)(void *))&loc_3D7F10, &MEMORY[0x7D0808], &off_78EC70); /*0x3b8d14*/\n    sub_405940(&MEMORY[0x7D0810]); /*0x3b8d20*/\n  }\n  return ((__int64 (__fastcall *)(void *))sub_3D832C)(&MEMORY[0x7D0808]); /*0x3b8d48*/\n}",
+      "refs": [
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x3b8c40",
+          "name": "sub_3B8C40"
+        },
+        {
+          "addr": "0x3b8c44",
+          "name": "loc_3B8C44"
+        },
+        {
+          "addr": "0x3b8c48",
+          "name": "loc_3B8C48"
+        },
+        {
+          "addr": "0x783c68",
+          "name": "sub_783C68"
+        },
+        {
+          "addr": "0x40593c",
+          "name": "sub_40593C"
+        },
+        {
+          "addr": "0x3d7dd0",
+          "name": "sub_3D7DD0"
+        },
+        {
+          "addr": "0x78a4a0",
+          "name": ".__cxa_atexit"
+        },
+        {
+          "addr": "0x3d7f10",
+          "name": "loc_3D7F10"
+        },
+        {
+          "addr": "0x78ec70",
+          "name": "off_78EC70"
+        },
+        {
+          "addr": "0x405940",
+          "name": "sub_405940"
+        },
+        {
+          "addr": "0x7699c4",
+          "name": "sub_7699C4"
+        },
+        {
+          "addr": "0x3d832c",
+          "name": "sub_3D832C"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

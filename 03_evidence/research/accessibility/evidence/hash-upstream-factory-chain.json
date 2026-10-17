@@ -1,0 +1,270 @@
+[
+  {
+    "target": "0x6cbc50",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6cbc50\",\"xrefs\":[{\"addr\":\"0x6cb59c\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cb7e0\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cbf4c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cbc50\",\"name\":\"sub_6CBC50\",\"size\":\"0x4cc\"}},{\"addr\":\"0x6cbfd0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cbc50\",\"name\":\"sub_6CBC50\",\"size\":\"0x4cc\"}},{\"addr\":\"0x6cbff0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cbc50\",\"name\":\"sub_6CBC50\",\"size\":\"0x4cc\"}}],\"more\":false,\"xref_count\":5}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6cbc50",
+              "xrefs": [
+                {
+                  "addr": "0x6cb59c",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6cb7e0",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6cbf4c",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6cbc50",
+                    "name": "sub_6CBC50",
+                    "size": "0x4cc"
+                  }
+                },
+                {
+                  "addr": "0x6cbfd0",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6cbc50",
+                    "name": "sub_6CBC50",
+                    "size": "0x4cc"
+                  }
+                },
+                {
+                  "addr": "0x6cbff0",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6cbc50",
+                    "name": "sub_6CBC50",
+                    "size": "0x4cc"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 5
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7123752,
+        "end": 7125100,
+        "size": 1348
+      }
+    ]
+  },
+  {
+    "target": "0x6cb328",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6cb328\",\"xrefs\":[{\"addr\":\"0x6cb0dc\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cb2c4\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cb648\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cb328\",\"name\":\"sub_6CB328\",\"size\":\"0x544\"}},{\"addr\":\"0x6cb6ec\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cb328\",\"name\":\"sub_6CB328\",\"size\":\"0x544\"}},{\"addr\":\"0x6cb70c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cb328\",\"name\":\"sub_6CB328\",\"size\":\"0x544\"}}],\"more\":false,\"xref_count\":5}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6cb328",
+              "xrefs": [
+                {
+                  "addr": "0x6cb0dc",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6cb2c4",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6cb648",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6cb328",
+                    "name": "sub_6CB328",
+                    "size": "0x544"
+                  }
+                },
+                {
+                  "addr": "0x6cb6ec",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6cb328",
+                    "name": "sub_6CB328",
+                    "size": "0x544"
+                  }
+                },
+                {
+                  "addr": "0x6cb70c",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6cb328",
+                    "name": "sub_6CB328",
+                    "size": "0x544"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 5
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7122780,
+        "end": 7123752,
+        "size": 972
+      }
+    ]
+  },
+  {
+    "target": "0x6caf5c",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6caf5c\",\"xrefs\":[{\"addr\":\"0x6bb614\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cb164\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6caf5c\",\"name\":\"sub_6CAF5C\",\"size\":\"0x3cc\"}},{\"addr\":\"0x6cb1e0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6caf5c\",\"name\":\"sub_6CAF5C\",\"size\":\"0x3cc\"}},{\"addr\":\"0x6cb200\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6caf5c\",\"name\":\"sub_6CAF5C\",\"size\":\"0x3cc\"}}],\"more\":false,\"xref_count\":4}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6caf5c",
+              "xrefs": [
+                {
+                  "addr": "0x6bb614",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6cb164",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6caf5c",
+                    "name": "sub_6CAF5C",
+                    "size": "0x3cc"
+                  }
+                },
+                {
+                  "addr": "0x6cb1e0",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6caf5c",
+                    "name": "sub_6CAF5C",
+                    "size": "0x3cc"
+                  }
+                },
+                {
+                  "addr": "0x6cb200",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6caf5c",
+                    "name": "sub_6CAF5C",
+                    "size": "0x3cc"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 4
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7058500,
+        "end": 7059436,
+        "size": 936
+      }
+    ]
+  },
+  {
+    "target": "0x6bb444",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6bb444\",\"xrefs\":[{\"addr\":\"0x6bb668\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6bb444\",\"name\":\"sub_6BB444\",\"size\":\"0x3a8\"}},{\"addr\":\"0x6bb70c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6bb444\",\"name\":\"sub_6BB444\",\"size\":\"0x3a8\"}},{\"addr\":\"0x6bb72c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6bb444\",\"name\":\"sub_6BB444\",\"size\":\"0x3a8\"}},{\"addr\":\"0x793dd0\",\"type\":\"data\",\"fn\":null}],\"more\":false,\"xref_count\":4}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6bb444",
+              "xrefs": [
+                {
+                  "addr": "0x6bb668",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6bb444",
+                    "name": "sub_6BB444",
+                    "size": "0x3a8"
+                  }
+                },
+                {
+                  "addr": "0x6bb70c",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6bb444",
+                    "name": "sub_6BB444",
+                    "size": "0x3a8"
+                  }
+                },
+                {
+                  "addr": "0x6bb72c",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6bb444",
+                    "name": "sub_6BB444",
+                    "size": "0x3a8"
+                  }
+                },
+                {
+                  "addr": "0x793dd0",
+                  "type": "data",
+                  "fn": null
+                }
+              ],
+              "more": false,
+              "xref_count": 4
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": []
+  }
+]

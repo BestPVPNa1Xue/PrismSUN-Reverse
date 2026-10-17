@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6dd8b0\",\"code\":\"// attributes: thunk\\n__int64 __fastcall sub_6DD8B0(\\n        __int64 a1,\\n        unsigned int a2,\\n        __int64 a3,\\n        __int64 a4,\\n        __int64 a5,\\n        __int64 a6,\\n        __int64 a7,\\n        __int64 a8,\\n        __int64 a9)\\n{\\n  return sub_4181A0(a1, a2, a3, a4, a5, a6, a7, a8, a9);\\n}\",\"refs\":[{\"addr\":\"0x4181a0\",\"name\":\"sub_4181A0\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6dd8b0",
+      "code": "// attributes: thunk\n__int64 __fastcall sub_6DD8B0(\n        __int64 a1,\n        unsigned int a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9)\n{\n  return sub_4181A0(a1, a2, a3, a4, a5, a6, a7, a8, a9);\n}",
+      "refs": [
+        {
+          "addr": "0x4181a0",
+          "name": "sub_4181A0"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

@@ -1,0 +1,434 @@
+{
+  "result": [
+    {
+      "query": {
+        "mnem": "add",
+        "op0": null,
+        "op1": null,
+        "op2": null,
+        "op_any": 16,
+        "func": null,
+        "segment": null,
+        "start": "0x3f4bd4",
+        "end": "0x744700",
+        "offset": 0,
+        "count": 3000,
+        "max_scan_insns": 1000000,
+        "allow_broad": false
+      },
+      "ranges": [
+        {
+          "start": "0x3f4bd4",
+          "end": "0x744700"
+        }
+      ],
+      "matches": [
+        {
+          "addr": "0x3ff208",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x400a34",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x40136c",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x449eb8",
+          "disasm": "ADD X10, X9, #0x10",
+          "fn": {
+            "addr": "0x449dd0",
+            "name": "sub_449DD0",
+            "size": "0x7f0"
+          }
+        },
+        {
+          "addr": "0x449edc",
+          "disasm": "ADD X10, X9, #0x10",
+          "fn": {
+            "addr": "0x449dd0",
+            "name": "sub_449DD0",
+            "size": "0x7f0"
+          }
+        },
+        {
+          "addr": "0x453168",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x454f94",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x455134",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x476ca0",
+          "disasm": "ADD W9, W9, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4ca21c",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": {
+            "addr": "0x4c9d30",
+            "name": "sub_4C9D30",
+            "size": "0xa5c"
+          }
+        },
+        {
+          "addr": "0x4d755c",
+          "disasm": "ADD X0, X20, #0x10",
+          "fn": {
+            "addr": "0x4d73a4",
+            "name": "sub_4D73A4",
+            "size": "0x340"
+          }
+        },
+        {
+          "addr": "0x4df8d4",
+          "disasm": "ADD X10, X19, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4dfb78",
+          "disasm": "ADD X10, X19, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4eb9f4",
+          "disasm": "ADD X0, X0, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4ebd80",
+          "disasm": "ADD X0, X0, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4ee1e8",
+          "disasm": "ADD X0, X23, #0x10",
+          "fn": {
+            "addr": "0x4ee180",
+            "name": "sub_4EE180",
+            "size": "0x17c"
+          }
+        },
+        {
+          "addr": "0x4f37ac",
+          "disasm": "ADD X0, X20, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4f3980",
+          "disasm": "ADD X0, X20, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4f4530",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4f4724",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4f571c",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4f73b0",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x4f7534",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x50d6b4",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x50d858",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x510b40",
+          "disasm": "ADD X1, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5119c0",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x511bb4",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x52486c",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x524a58",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x526c64",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x52721c",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x527224",
+          "disasm": "ADD X9, X9, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x527440",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x527448",
+          "disasm": "ADD X9, X9, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x528004",
+          "disasm": "ADD X1, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x528cc8",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x528eb4",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x556f88",
+          "disasm": "ADD X0, X19, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x556f9c",
+          "disasm": "ADD X0, X19, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x55e248",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": {
+            "addr": "0x55e22c",
+            "name": "sub_55E22C",
+            "size": "0x658"
+          }
+        },
+        {
+          "addr": "0x55e604",
+          "disasm": "ADD X0, X23, #0x10",
+          "fn": {
+            "addr": "0x55e22c",
+            "name": "sub_55E22C",
+            "size": "0x658"
+          }
+        },
+        {
+          "addr": "0x564100",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5667ec",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x567ea0",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x56dde4",
+          "disasm": "ADD X1, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x58f474",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x593f30",
+          "disasm": "ADD X0, X19, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5967c4",
+          "disasm": "ADD X0, X22, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x596a94",
+          "disasm": "ADD X0, X22, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5ae2b8",
+          "disasm": "ADD W9, W9, #0x10",
+          "fn": {
+            "addr": "0x5ae1d4",
+            "name": "sub_5AE1D4",
+            "size": "0x6c0"
+          }
+        },
+        {
+          "addr": "0x5c3d6c",
+          "disasm": "ADD X1, X21, #0x10",
+          "fn": {
+            "addr": "0x5c3cf8",
+            "name": "sub_5C3CF8",
+            "size": "0x228"
+          }
+        },
+        {
+          "addr": "0x5ccafc",
+          "disasm": "ADD SP, SP, #0x10",
+          "fn": {
+            "addr": "0x5cc630",
+            "name": "sub_5CC630",
+            "size": "0x974"
+          }
+        },
+        {
+          "addr": "0x5ccff4",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": {
+            "addr": "0x5ccfa4",
+            "name": "sub_5CCFA4",
+            "size": "0x140"
+          }
+        },
+        {
+          "addr": "0x5e1fcc",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5e2174",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5e5aec",
+          "disasm": "ADD X1, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5e5d9c",
+          "disasm": "ADD X1, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x5e67c4",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x6039a4",
+          "disasm": "ADD X8, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x6077d0",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": {
+            "addr": "0x6077b4",
+            "name": "sub_6077B4",
+            "size": "0x640"
+          }
+        },
+        {
+          "addr": "0x607bc8",
+          "disasm": "ADD X0, X23, #0x10",
+          "fn": {
+            "addr": "0x6077b4",
+            "name": "sub_6077B4",
+            "size": "0x640"
+          }
+        },
+        {
+          "addr": "0x60e328",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x610ab0",
+          "disasm": "ADD X0, X25, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x610cac",
+          "disasm": "ADD X0, X25, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x612d98",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x614724",
+          "disasm": "ADD X0, X8, #0x10",
+          "fn": null
+        },
+        {
+          "addr": "0x68c718",
+          "disasm": "ADDS X15, X6, X29,ASR#16",
+          "fn": null
+        },
+        {
+          "addr": "0x6f9b58",
+          "disasm": "ADD X29, SP, #0x10",
+          "fn": null
+        }
+      ],
+      "count": 69,
+      "cursor": {
+        "done": true
+      },
+      "scanned": 748859,
+      "truncated": false,
+      "next_start": null,
+      "error": null
+    }
+  ]
+}

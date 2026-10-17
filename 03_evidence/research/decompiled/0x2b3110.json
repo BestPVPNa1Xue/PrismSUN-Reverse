@@ -1,0 +1,26 @@
+{
+  "addr": "0x2b3110",
+  "code": "__int64 __usercall sub_2B3110@<X0>(__int64 result@<X0>, __int64 a2@<X8>)\n{\n  const __int16 *v2; // x12\n  int v3; // w19\n  int v5; // w8\n  int v6; // w8\n  int v7; // w8\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\n\n  v3 = result; /*0x2b3120*/\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x2b3130*/\n  savedregs[2] = 0xB61EDD90DCF933FDLL; /*0x2b313c*/\n  savedregs[0] = (char *)&savedregs[2] + 4; /*0x2b3150*/\n  while ( 1 ) /*0x2b31dc*/\n  {\n    while ( 1 ) /*0x2b31c8*/\n    {\n      while ( 1 ) /*0x2b31b4*/\n      {\n        while ( 1 ) /*0x2b31a0*/\n        {\n          while ( 1 ) /*0x2b318c*/\n          {\n            while ( 1 ) /*0x2b3164*/\n            {\n              while ( HIDWORD(savedregs[2]) == -2115155897 ) /*0x2b3164*/\n              {\n                vld4q_s16(v2); /*0x2b34d8*/\n                v2 += 32; /*0x2b34d8*/\n                HIDWORD(savedregs[2]) = 1189107736; /*0x2b34ec*/\n              }\n              if ( HIDWORD(savedregs[2]) != -1339775260 ) /*0x2b318c*/\n                break; /*0x2b318c*/\n              HIDWORD(savedregs[2]) = 1504691850; /*0x2b3444*/\n            }\n            if ( HIDWORD(savedregs[2]) != -1239491184 ) /*0x2b31a0*/\n              break; /*0x2b31a0*/\n            if ( LODWORD(savedregs[2]) > 0x642FEC94 ) /*0x2b32d0*/\n              v5 = 1189107736; /*0x2b32d0*/\n            else\n              v5 = -2115155897; /*0x2b32d0*/\n            HIDWORD(savedregs[2]) = v5; /*0x2b32d8*/\n          }\n          if ( HIDWORD(savedregs[2]) != -1195723914 ) /*0x2b31b4*/\n            break; /*0x2b31b4*/\n          if ( (savedregs[1] & 0x1000000000000LL) != 0 ) /*0x2b34c8*/\n            v7 = 624954592; /*0x2b34c8*/\n          else\n            v7 = 463544703; /*0x2b34c8*/\n          HIDWORD(savedregs[2]) = v7; /*0x2b34d0*/\n        }\n        if ( HIDWORD(savedregs[2]) != -7634445 ) /*0x2b31c8*/\n          break; /*0x2b31c8*/\n        HIBYTE(savedregs[1]) = (*(_DWORD *)sub_2B3110 >> 26 != 5) ^ (*(_DWORD *)sub_2B3110 >> 21 != 1697) /*0x2b33f4*/\n                             | (*(_DWORD *)sub_2B3110 >> 26 == 5 && *(_DWORD *)sub_2B3110 >> 21 == 1697);\n        HIDWORD(savedregs[2]) = 24809416; /*0x2b3404*/\n      }\n      if ( HIDWORD(savedregs[2]) != 24809416 ) /*0x2b31dc*/\n        break; /*0x2b31dc*/\n      if ( (savedregs[1] & 0x100000000000000LL) != 0 ) /*0x2b3428*/\n        v6 = 624954592; /*0x2b3428*/\n      else\n        v6 = -1339775260; /*0x2b3428*/\n      HIDWORD(savedregs[2]) = v6; /*0x2b3430*/\n    }\n    if ( HIDWORD(savedregs[2]) == 223933816 ) /*0x2b3204*/\n      break; /*0x2b3204*/\n    switch ( HIDWORD(savedregs[2]) ) /*0x2b3218*/\n    {\n      case 0x1BA1217F: /*0x2b3218*/\n        HIDWORD(savedregs[2]) = 1297630548; /*0x2b3314*/\n        break;\n      case 0x25400CE0: /*0x2b3218*/\n        _ReadStatusReg(TPIDR_EL0); /*0x2b3374*/\n        abort(); /*0x2b3388*/\n      case 0x46E05818: /*0x2b3218*/\n        HIDWORD(savedregs[2]) = 1962243988; /*0x2b32ec*/\n        break;\n      case 0x4D584554: /*0x2b3218*/\n        LODWORD(savedregs[2]) = v3; /*0x2b3330*/\n        result = sub_2DB4D4(a2); /*0x2b3338*/\n        HIDWORD(savedregs[2]) = 223933816; /*0x2b3348*/\n        break;\n      case 0x59AFC68A: /*0x2b3218*/\n        BYTE6(savedregs[1]) = loc_2B3114 >> 10 == 3508160 || loc_2B3118 >> 10 == 3508160; /*0x2b3494*/\n        HIDWORD(savedregs[2]) = -1195723914; /*0x2b34a4*/\n        break;\n      case 0x74F57794: /*0x2b3218*/\n        HIDWORD(savedregs[2]) = 1968137858; /*0x2b3300*/\n        break;\n      default:\n        HIDWORD(savedregs[2]) = -7634445; /*0x2b3398*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x2b3350*/\n  return result; /*0x2b3370*/\n}",
+  "refs": [
+    {
+      "addr": "0x2b3110",
+      "name": "sub_2B3110"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x2db4d4",
+      "name": "sub_2DB4D4"
+    },
+    {
+      "addr": "0x2b3114",
+      "name": "loc_2B3114"
+    },
+    {
+      "addr": "0x2b3118",
+      "name": "loc_2B3118"
+    }
+  ]
+}

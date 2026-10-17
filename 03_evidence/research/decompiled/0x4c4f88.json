@@ -1,0 +1,30 @@
+{
+  "addr": "0x4c4f88",
+  "code": "bool __fastcall sub_4C4F88(__int64 a1)\n{\n  bool v2; // w8\n  int v4; // w8\n  int v5; // w8\n  _QWORD v6[4]; // [xsp-20h] [xbp-40h] BYREF\n  bool v7; // [xsp+7h] [xbp-19h]\n  int *v8; // [xsp+8h] [xbp-18h]\n  int v9; // [xsp+14h] [xbp-Ch] BYREF\n  __int64 v10; // [xsp+18h] [xbp-8h]\n\n  v10 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4c4fa8*/\n  v9 = -2031328352; /*0x4c4fb4*/\n  v8 = &v9; /*0x4c4fbc*/\n  while ( 1 ) /*0x4c5020*/\n  {\n    while ( 1 ) /*0x4c4ff8*/\n    {\n      while ( 1 ) /*0x4c4fd0*/\n      {\n        while ( v9 == -2031328352 ) /*0x4c4fd0*/\n          *v8 = 1297263407; /*0x4c509c*/\n        if ( v9 == -1623977666 ) /*0x4c4fe4*/\n          JUMPOUT(0x4C5224); /*0x4c5224*/\n        if ( v9 != -915067925 ) /*0x4c4ff8*/\n          break; /*0x4c4ff8*/\n        if ( loc_4C4F8C >> 10 == 3508160 || loc_4C4F90 >> 10 == 3508160 ) /*0x4c520c*/\n          v5 = 605620053; /*0x4c5210*/\n        else\n          v5 = -2031328352; /*0x4c5210*/\n        *v8 = v5; /*0x4c5218*/\n      }\n      if ( v9 == -851671533 ) /*0x4c500c*/\n      {\n        _ReadStatusReg(TPIDR_EL0); /*0x4c5140*/\n        abort(); /*0x4c5154*/\n      }\n      if ( v9 != 217446942 ) /*0x4c5020*/\n        break; /*0x4c5020*/\n      if ( *(_DWORD *)sub_4C4F88 >> 26 == 5 || *(_DWORD *)sub_4C4F88 >> 21 == 1697 ) /*0x4c51a4*/\n        v4 = 605620053; /*0x4c51a8*/\n      else\n        v4 = -915067925; /*0x4c51a8*/\n      *v8 = v4; /*0x4c51b0*/\n    }\n    if ( v9 == 305491627 ) /*0x4c5034*/\n      break; /*0x4c5034*/\n    switch ( v9 ) /*0x4c5048*/\n    {\n      case 605620053: /*0x4c5048*/\n        *v8 = -851671533; /*0x4c5138*/\n        break;\n      case 733027651: /*0x4c5048*/\n        JUMPOUT(0x4C526C); /*0x4c526c*/\n      case 1259543292: /*0x4c5048*/\n        *v8 = -2031328352; /*0x4c5164*/\n        break;\n      case 1297263407: /*0x4c5048*/\n        v6[0] = a1; /*0x4c50b4*/\n        sub_56B354(v6, a1 + 12); /*0x4c50c4*/\n        v7 = *(_DWORD *)(a1 + 52) != 0; /*0x4c50d8*/\n        ((void (__fastcall *)(_QWORD *))loc_415B1C)(v6); /*0x4c50e0*/\n        *v8 = 305491627; /*0x4c50f0*/\n        break;\n    }\n  }\n  v2 = v7; /*0x4c50fc*/\n  _ReadStatusReg(TPIDR_EL0); /*0x4c5100*/\n  return v2; /*0x4c5128*/\n}",
+  "refs": [
+    {
+      "addr": "0x4c4f8c",
+      "name": "loc_4C4F8C"
+    },
+    {
+      "addr": "0x4c4f90",
+      "name": "loc_4C4F90"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x4c4f88",
+      "name": "sub_4C4F88"
+    },
+    {
+      "addr": "0x56b354",
+      "name": "sub_56B354"
+    },
+    {
+      "addr": "0x415b1c",
+      "name": "loc_415B1C"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x5c4824\",\"code\":null,\"error\":\"Decompilation failed at 0x5c4824 (address: 0x5c4b20)\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x5c4824",
+      "code": null,
+      "error": "Decompilation failed at 0x5c4824 (address: 0x5c4b20)"
+    },
+    "isError": false
+  },
+  "id": 1
+}

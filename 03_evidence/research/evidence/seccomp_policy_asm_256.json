@@ -1,0 +1,149 @@
+{
+  "addr": "0x47df58",
+  "asm": {
+    "name": "sub_47DF58",
+    "start_ea": "0x47df58",
+    "segment": ".text",
+    "lines": [
+      {
+        "addr": "47e364",
+        "instruction": "ADR X9, sub_47DF58",
+        "refs": [
+          {
+            "addr": "0x47df58",
+            "name": "sub_47DF58"
+          }
+        ]
+      },
+      {
+        "addr": "47e368",
+        "instruction": "LDR W9, [X9,#(loc_47DF60 - 0x47DF58)]",
+        "refs": [
+          {
+            "addr": "0x47df60",
+            "name": "loc_47DF60"
+          }
+        ]
+      },
+      {
+        "addr": "47e36c",
+        "instruction": "LSR W9, W9, #0xA"
+      },
+      {
+        "addr": "47e370",
+        "instruction": "MOV W10, #0x3587C0"
+      },
+      {
+        "addr": "47e378",
+        "instruction": "CMP W9, W10"
+      },
+      {
+        "addr": "47e37c",
+        "instruction": "CSET W9, EQ"
+      },
+      {
+        "addr": "47e380",
+        "instruction": "AND W10, W8, W9"
+      },
+      {
+        "addr": "47e384",
+        "instruction": "EOR W8, W8, W9"
+      },
+      {
+        "addr": "47e388",
+        "instruction": "ORR W8, W10, W8"
+      },
+      {
+        "addr": "47e38c",
+        "instruction": "TBNZ W8, #0, loc_47E2D4",
+        "refs": [
+          {
+            "addr": "0x47e2d4",
+            "name": "loc_47E2D4"
+          }
+        ]
+      },
+      {
+        "addr": "47e390",
+        "instruction": "B loc_47DF90",
+        "refs": [
+          {
+            "addr": "0x47df90",
+            "name": "loc_47DF90"
+          }
+        ]
+      },
+      {
+        "addr": "47e394",
+        "instruction": "BL .__stack_chk_fail",
+        "label": "loc_47E394",
+        "refs": [
+          {
+            "addr": "0x78a4d0",
+            "name": ".__stack_chk_fail"
+          }
+        ]
+      }
+    ],
+    "stack_frame": [
+      {
+        "name": "var_8",
+        "offset": "0x8",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s0",
+        "offset": "0x10",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s10",
+        "offset": "0x20",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s20",
+        "offset": "0x30",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s30",
+        "offset": "0x40",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s40",
+        "offset": "0x50",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s50",
+        "offset": "0x60",
+        "size": "0x8",
+        "type": "_QWORD"
+      }
+    ],
+    "return_type": "__int64",
+    "arguments": [
+      {
+        "name": "arg0",
+        "type": "unsigned int"
+      },
+      {
+        "name": "arg1",
+        "type": "__int64"
+      }
+    ]
+  },
+  "instruction_count": 12,
+  "total_instructions": 268,
+  "cursor": {
+    "done": true
+  }
+}

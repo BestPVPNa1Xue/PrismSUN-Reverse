@@ -1,0 +1,90 @@
+{
+  "addr": "0x3d764c",
+  "code": "__int64 __fastcall sub_3D764C(__int64 result, int a2)\n{\n  int v2; // w8\n  __int64 v3; // x19\n  __int64 v4; // x20\n  int v5; // w21\n  int v6; // w8\n  int v7; // w8\n  bool v8; // [xsp+3Eh] [xbp+1Eh]\n  char v9; // [xsp+3Fh] [xbp+1Fh]\n  __int64 savedregs; // [xsp+40h] [xbp+20h]\n  __int64 savedregs_8; // [xsp+48h] [xbp+28h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x3d7668*/\n  savedregs = 0x49E2095300000000LL; /*0x3d766c*/\n  while ( 1 ) /*0x3d7770*/\n  {\n    while ( 1 ) /*0x3d775c*/\n    {\n      while ( 1 ) /*0x3d7720*/\n      {\n        while ( 1 ) /*0x3d770c*/\n        {\n          while ( 1 ) /*0x3d76e4*/\n          {\n            while ( 1 ) /*0x3d76bc*/\n            {\n              while ( 1 ) /*0x3d76a8*/\n              {\n                while ( 1 ) /*0x3d7694*/\n                {\n                  while ( HIDWORD(savedregs) == -1948062557 ) /*0x3d7694*/\n                    HIDWORD(savedregs) = 2087362704; /*0x3d7a74*/\n                  if ( HIDWORD(savedregs) != -1560249862 ) /*0x3d76a8*/\n                    break; /*0x3d76a8*/\n                  HIDWORD(savedregs) = -1948062557; /*0x3d786c*/\n                }\n                if ( HIDWORD(savedregs) != -1092381667 ) /*0x3d76bc*/\n                  break; /*0x3d76bc*/\n                HIDWORD(savedregs) = 2017342603; /*0x3d7b1c*/\n              }\n              if ( HIDWORD(savedregs) != -684567314 ) /*0x3d76e4*/\n                break; /*0x3d76e4*/\n              if ( v8 ) /*0x3d7ba4*/\n                v7 = -423883487; /*0x3d7bbc*/\n              else\n                v7 = 1513549566; /*0x3d7bbc*/\n              HIDWORD(savedregs) = v7; /*0x3d7bc4*/\n            }\n            if ( HIDWORD(savedregs) != -476429519 ) /*0x3d770c*/\n              break; /*0x3d770c*/\n            HIDWORD(savedregs) = -1560249862; /*0x3d7858*/\n          }\n          if ( HIDWORD(savedregs) != -423883487 ) /*0x3d7720*/\n            break; /*0x3d7720*/\n          HIDWORD(savedregs) = 163594335; /*0x3d7a34*/\n        }\n        if ( HIDWORD(savedregs) == -247580776 ) /*0x3d7734*/\n          JUMPOUT(0x3D7BCC); /*0x3d7bcc*/\n        if ( HIDWORD(savedregs) == 163594335 ) /*0x3d7748*/\n        {\n          _ReadStatusReg(TPIDR_EL0); /*0x3d7a3c*/\n          sub_405B94(result); /*0x3d7a50*/\n        }\n        if ( HIDWORD(savedregs) != 290323834 ) /*0x3d775c*/\n          break; /*0x3d775c*/\n        if ( (v9 & 1) != 0 ) /*0x3d7b00*/\n          v6 = -423883487; /*0x3d7b00*/\n        else\n          v6 = -1092381667; /*0x3d7b00*/\n        HIDWORD(savedregs) = v6; /*0x3d7b08*/\n      }\n      if ( HIDWORD(savedregs) != 324161517 ) /*0x3d7770*/\n        break; /*0x3d7770*/\n      savedregs = (unsigned int)result | 0x3904BD2700000000LL; /*0x3d789c*/\n      v3 = result; /*0x3d78a0*/\n      v4 = result; /*0x3d78a4*/\n      v5 = a2; /*0x3d78ac*/\n      ((void (__fastcall *)(__int64))loc_3D8750)(result); /*0x3d78b0*/\n      ((void (__fastcall *)(__int64, _QWORD))loc_3D8A18)(v3, 0); /*0x3d78bc*/\n      sub_405B7C(v3 + 8, 0); /*0x3d78c8*/\n      sub_405B80(v3 + 16, 0); /*0x3d78d4*/\n      sub_405B84(v3 + 20, 0); /*0x3d78e0*/\n      ((void (__fastcall *)(__int64, _QWORD))loc_3D8DC8)(v3 + 24, 0); /*0x3d78ec*/\n      sub_D8A38(v3 + 28); /*0x3d78f4*/\n      ((void (__fastcall *)(__int64))loc_3D90BC)(v3 + 68); /*0x3d78fc*/\n      ((void (__fastcall *)(__int64, __int64))loc_3D9508)(v3 + 116, 23); /*0x3d7908*/\n      sub_D8A38(v3 + 120); /*0x3d7910*/\n      sub_405B88(v3 + 160); /*0x3d7918*/\n      ((void (__fastcall *)(__int64, __int64))loc_3D9508)(v3 + 208, 23); /*0x3d7924*/\n      *(_DWORD *)(v3 + 212) = 0; /*0x3d7928*/\n      sub_2BFD70(v3 + 216, 0); /*0x3d7934*/\n      sub_2BFD70(v3 + 217, 0); /*0x3d7940*/\n      sub_2BFD70(v3 + 218, 0); /*0x3d794c*/\n      sub_2BFD70(v3 + 219, 0); /*0x3d7958*/\n      ((void (__fastcall *)(__int64, _QWORD))loc_3D997C)(v3 + 220, 0); /*0x3d7964*/\n      ((void (__fastcall *)(__int64, _QWORD))loc_3D997C)(v3 + 221, 0); /*0x3d7970*/\n      sub_D8A38(v3 + 224); /*0x3d7978*/\n      ((void (__fastcall *)(__int64))loc_3D9CC4)(v3 + 264); /*0x3d7980*/\n      sub_405B8C(v3 + 336); /*0x3d7988*/\n      ((void (__fastcall *)(__int64))loc_3D9CC4)(v3 + 408); /*0x3d7990*/\n      ((void (__fastcall *)(__int64))loc_3D9CC4)(v3 + 480); /*0x3d7998*/\n      ((void (__fastcall *)(__int64, _QWORD))loc_3DA558)(v3 + 552, 0); /*0x3d79a4*/\n      sub_2BFD70(v3 + 556, 0); /*0x3d79b0*/\n      ((void (__fastcall *)(__int64, _QWORD))loc_3DA558)(v3 + 560, 0); /*0x3d79bc*/\n      sub_2BFD70(v3 + 564, 0); /*0x3d79c8*/\n      sub_405B90(v3 + 568); /*0x3d79d0*/\n      sub_D2758(v3 + 592); /*0x3d79d8*/\n      result = v4; /*0x3d79dc*/\n      a2 = v5; /*0x3d79e0*/\n      *(_WORD *)(v3 + 616) = 0; /*0x3d79e4*/\n      *(_QWORD *)(v3 + 624) = 0; /*0x3d79e8*/\n    }\n    if ( HIDWORD(savedregs) == 956611879 ) /*0x3d77ac*/\n      break; /*0x3d77ac*/\n    switch ( HIDWORD(savedregs) ) /*0x3d77c0*/\n    {\n      case 0x49E20953: /*0x3d77c0*/\n        if ( (unsigned int)savedregs <= 0xF7218A0A ) /*0x3d783c*/\n          v2 = -476429519; /*0x3d783c*/\n        else\n          v2 = -247580776; /*0x3d783c*/\n        HIDWORD(savedregs) = v2; /*0x3d7844*/\n        break;\n      case 0x5A36EEFE: /*0x3d77c0*/\n        HIDWORD(savedregs) = 324161517; /*0x3d7880*/\n        break;\n      case 0x783E348B: /*0x3d77c0*/\n        v8 = loc_3D7650 >> 10 == 3508160 || loc_3D7654 >> 10 == 3508160; /*0x3d7b88*/\n        HIDWORD(savedregs) = -684567314; /*0x3d7b98*/\n        break;\n      default:\n        v9 = (((((((*(_DWORD *)sub_3D764C >> 26 == 5) << 31 >> 31) + ((*(_DWORD *)sub_3D764C >> 21 == 1697) << 31 >> 31)) << 31 >> 31) /*0x3d7acc*/\n              - 1) << 31 >> 31)\n            + ((*(_DWORD *)sub_3D764C >> 21 != 1697 || *(_DWORD *)sub_3D764C >> 26 != 5) << 31 >> 31))\n           & 1;\n        HIDWORD(savedregs) = 290323834; /*0x3d7adc*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x3d7a00*/\n  return result; /*0x3d7a24*/\n}",
+  "refs": [
+    {
+      "addr": "0x405b94",
+      "name": "sub_405B94"
+    },
+    {
+      "addr": "0x3d8750",
+      "name": "loc_3D8750"
+    },
+    {
+      "addr": "0x3d8a18",
+      "name": "loc_3D8A18"
+    },
+    {
+      "addr": "0x405b7c",
+      "name": "sub_405B7C"
+    },
+    {
+      "addr": "0x405b80",
+      "name": "sub_405B80"
+    },
+    {
+      "addr": "0x405b84",
+      "name": "sub_405B84"
+    },
+    {
+      "addr": "0x3d8dc8",
+      "name": "loc_3D8DC8"
+    },
+    {
+      "addr": "0xd8a38",
+      "name": "sub_D8A38"
+    },
+    {
+      "addr": "0x3d90bc",
+      "name": "loc_3D90BC"
+    },
+    {
+      "addr": "0x3d9508",
+      "name": "loc_3D9508"
+    },
+    {
+      "addr": "0x405b88",
+      "name": "sub_405B88"
+    },
+    {
+      "addr": "0x2bfd70",
+      "name": "sub_2BFD70"
+    },
+    {
+      "addr": "0x3d997c",
+      "name": "loc_3D997C"
+    },
+    {
+      "addr": "0x3d9cc4",
+      "name": "loc_3D9CC4"
+    },
+    {
+      "addr": "0x405b8c",
+      "name": "sub_405B8C"
+    },
+    {
+      "addr": "0x3da558",
+      "name": "loc_3DA558"
+    },
+    {
+      "addr": "0x405b90",
+      "name": "sub_405B90"
+    },
+    {
+      "addr": "0xd2758",
+      "name": "sub_D2758"
+    },
+    {
+      "addr": "0x3d7650",
+      "name": "loc_3D7650"
+    },
+    {
+      "addr": "0x3d7654",
+      "name": "loc_3D7654"
+    },
+    {
+      "addr": "0x3d764c",
+      "name": "sub_3D764C"
+    }
+  ]
+}

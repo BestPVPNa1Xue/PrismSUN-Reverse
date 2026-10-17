@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x72583c\",\"code\":\"// attributes: thunk\\nbool __fastcall sub_72583C(_QWORD *a1)\\n{\\n  return sub_6AE288(a1);\\n}\",\"refs\":[{\"addr\":\"0x6ae288\",\"name\":\"sub_6AE288\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x72583c",
+      "code": "// attributes: thunk\nbool __fastcall sub_72583C(_QWORD *a1)\n{\n  return sub_6AE288(a1);\n}",
+      "refs": [
+        {
+          "addr": "0x6ae288",
+          "name": "sub_6AE288"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

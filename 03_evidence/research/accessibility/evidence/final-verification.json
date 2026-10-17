@@ -1,0 +1,311 @@
+{
+  "status": "PASS",
+  "protected": [
+    {
+      "path": "D:\\PrismSUN\\libprism-sun.so",
+      "before": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+      "after": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\PrismSUN\\libprism-sun.so.i64",
+      "before": "05e55a28cce9af99e810df76dc16d11b5cc087b5a2ac3f1f0fe38158e3dca9d1",
+      "after": "05e55a28cce9af99e810df76dc16d11b5cc087b5a2ac3f1f0fe38158e3dca9d1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\prism-analysis.i64",
+      "before": "8d428ffe939150dacf1c5dae621237766b3404b286917dbff6ac95bc12ef8b98",
+      "after": "8d428ffe939150dacf1c5dae621237766b3404b286917dbff6ac95bc12ef8b98",
+      "unchanged": true
+    }
+  ],
+  "manifest_files": [
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_core.cpp",
+      "sha256": "85bc79751a0c0cde91ff9036ccbf099131c288e65ac090b0534048498b5b3e98",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.cpp",
+      "sha256": "13182c9aff93be233ec752bd2bdd34a32ec30d90c042b0a5484f7bb08d8117b1",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_monitor.cpp",
+      "sha256": "ae2b86fbad8b0511988230c4afa1321b976b6fc049b775f78ba49e3254dc0f20",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.cpp",
+      "sha256": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_demo.cpp",
+      "sha256": "f99adcf4d5f77b3539fab462473333bd222da006e3cd73f0e021ae15ee42ad54",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_core.hpp",
+      "sha256": "b23e3d6efaf39ce310348aa8fb5738815a3333860f5d15f77c324da46bfadcd6",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.hpp",
+      "sha256": "f6f5c59d3f9c0007b5794510e33b375c64aa17ef636f18266c1deed33bee5ed8",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_monitor.hpp",
+      "sha256": "4e652087a745496898b3a2a93cc0af2989113394106c9b8a2e22ca144b42bb20",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.hpp",
+      "sha256": "f8a98511c594f39c03e29161f403fa17ef23ff6ececf0a580297262b3f10b312",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\host\\accessibility_core.dll",
+      "sha256": "5e990538af9010c2dd84389e98225dc05c45f4463676a8c4cb98675d2705e29d",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\host\\accessibility_demo.exe",
+      "sha256": "8f4d986f75a747bb50602d24f0d83588edec0e2b00a4a64763456b0d9c8e1a21",
+      "matched": true
+    },
+    {
+      "manifest": "build.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\android-arm64\\libaccessibility_reconstruction.so",
+      "sha256": "09db3feb69bec14532a93984c99051655f3228f15659c71142f84fd4ca372e6e",
+      "matched": true
+    },
+    {
+      "manifest": "jni-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.cpp",
+      "sha256": "13182c9aff93be233ec752bd2bdd34a32ec30d90c042b0a5484f7bb08d8117b1",
+      "matched": true
+    },
+    {
+      "manifest": "jni-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.hpp",
+      "sha256": "f6f5c59d3f9c0007b5794510e33b375c64aa17ef636f18266c1deed33bee5ed8",
+      "matched": true
+    },
+    {
+      "manifest": "jni-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\tests\\jni_adapter_tests.cpp",
+      "sha256": "33da855f54d2ce62eabfbec64f4944463c19f3ac0c9ff3c6200709082aa6a3c8",
+      "matched": true
+    },
+    {
+      "manifest": "jni-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\jni_adapter_tests.exe",
+      "sha256": "462646c7c7fbf99132aefafb62bf680d21146a6337c1f2db47ad89a9a0906216",
+      "matched": true
+    },
+    {
+      "manifest": "jni-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\accessibility_jni.o",
+      "sha256": "5dcbf0e9cc90252079e15b2b7694aeca1562efcf7b4adecdc6af6673107e3cfe",
+      "matched": true
+    },
+    {
+      "manifest": "jni-env-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.cpp",
+      "sha256": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235",
+      "matched": true
+    },
+    {
+      "manifest": "jni-env-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.hpp",
+      "sha256": "f8a98511c594f39c03e29161f403fa17ef23ff6ececf0a580297262b3f10b312",
+      "matched": true
+    },
+    {
+      "manifest": "jni-env-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\tests\\jni_env_tests.cpp",
+      "sha256": "e6d39439c652dbe1d60dd32c810b505034b03da3f6775027ad464b1c6c50ccf9",
+      "matched": true
+    },
+    {
+      "manifest": "jni-env-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\jni_env_tests.exe",
+      "sha256": "c81de17a6add57fd3acd4f6ec1833e6964023ff7bff799b4c47334fee7208b27",
+      "matched": true
+    },
+    {
+      "manifest": "jni-env-build-verification.json",
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\accessibility_env.o",
+      "sha256": "a3d6ca069389822d18652729efb7edf43c11ad0e1c4f602d557239c2b7e52647",
+      "matched": true
+    }
+  ],
+  "document_links": [
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "evidence/rea/summary.json",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "notes/scheduling.md",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "notes/accessibility-jni.md",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "evidence/jni-short-strings.json",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "notes/hash.md",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_core.hpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_core.cpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_jni.hpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_jni.cpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_env.hpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_env.cpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_monitor.hpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_monitor.cpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "src/accessibility_demo.cpp",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "CMakeLists.txt",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "scripts/build.ps1",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "README.zh-CN.md",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "evidence/core-final-replay.json",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "evidence/jni-env-scope-emulation.json",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "evidence/jni-env-build-verification.json",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "evidence/hash-upstream-scheduling-emulation.json",
+      "exists": true
+    },
+    {
+      "source": "REPORT.zh-CN.md",
+      "target": "evidence/build.json",
+      "exists": true
+    },
+    {
+      "source": "README.zh-CN.md",
+      "target": "REPORT.zh-CN.md",
+      "exists": true
+    }
+  ],
+  "android_artifact": {
+    "class": 64,
+    "machine": "EM_AARCH64",
+    "type": "ET_DYN",
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "api_symbols": [
+      "_ZN5prism13accessibility20ScopedJniEnvironmentD2Ev",
+      "_ZN5prism13accessibility10observe_vmERNS0_5StateEP7_JavaVM",
+      "_ZN5prism13accessibility39enumerate_enabled_services_from_contextEP7_JNIEnvP8_jobject",
+      "a11y_evaluate",
+      "_ZN5prism13accessibility20ScopedJniEnvironmentC1EP7_JavaVM",
+      "_ZN5prism13accessibility20ScopedJniEnvironmentC2EP7_JavaVM",
+      "_ZN5prism13accessibility26enumerate_enabled_servicesEP7_JNIEnv",
+      "_ZN5prism13accessibility20ScopedJniEnvironmentD1Ev",
+      "a11y_snapshot_hash"
+    ]
+  },
+  "final_core_replay": {
+    "result": "PASS",
+    "hash_cases": 75,
+    "original_hash_cases": 42,
+    "consumer_cases": 180,
+    "mode": "Final compiled DLL replay against retained original-instruction observations",
+    "dll_sha256": "5e990538af9010c2dd84389e98225dc05c45f4463676a8c4cb98675d2705e29d",
+    "original_evidence_sha256": "30053ac1b18e08fe0f5576133b22c11f21b301ad86ce9e938b455aeead4b6aef"
+  },
+  "rea_session_closed": true,
+  "new_database_sha256": "b37d2377a6ccea73c3622906224adc79c6fab3d4235389769f1f2af749fc34c0",
+  "limitations": [
+    "No Android device runtime",
+    "Scheduler interval and server policy not recovered",
+    "JNI adapter adds explicit exception/null checks; no ABI/OOM/concurrency equivalence claim"
+  ]
+}

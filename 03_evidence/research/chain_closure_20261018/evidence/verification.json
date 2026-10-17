@@ -1,0 +1,180 @@
+{
+  "verified_at_utc": "2026-10-17T17:41:49.457880+00:00",
+  "method": "Single-agent serial IDA Pro MCP + local evidence; no REA",
+  "sample_executed": false,
+  "original_instructions_emulated": false,
+  "sample_bytes_patched": false,
+  "android_executed": false,
+  "apk_created": false,
+  "idb_saved": "D:/PrismSUN/research/chain_closure_20261018/prism-chain-closure.i64",
+  "immutable_idb_snapshot": {
+    "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\prism-chain-closure.snapshot.i64",
+    "size": 83004548,
+    "sha256": "54aafe7dfe2607b63f5de896db5cb7b0f38c5da30409b395692e5415ba377017"
+  },
+  "idb_save_confirmed_by_tool": true,
+  "ida_auto_analysis_ready": false,
+  "protected_files_unchanged": 4,
+  "protected_files_changed": [
+    {
+      "path": "D:\\PrismSUN\\research\\environment_memory\\prism-environment-memory.i64",
+      "size": 80890951,
+      "sha256": "9b42703d07151e07bcc1a8346885cb900975637332a83e3afd985021375abf20",
+      "unchanged": false
+    }
+  ],
+  "core_host_checks": 112,
+  "jni_mock_checks": 10,
+  "android_target": "aarch64-linux-android24",
+  "artifact_checks": [
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\host\\jni_tests.exe",
+      "matches_build_record": true
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\host\\unit_tests.exe",
+      "matches_build_record": true
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\jni_tests",
+      "matches_build_record": true
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\libprism_chains.so",
+      "matches_build_record": true
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\unit_tests",
+      "matches_build_record": true
+    }
+  ],
+  "document_links": [
+    {
+      "document": "README.md",
+      "target": "REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "CHAIN_NOTES.zh-CN.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "src/detection_chains.hpp",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "src/android_collectors.hpp",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "src/classes_jni.hpp",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "evidence/verification.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "CHAIN_NOTES.zh-CN.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "src/detection_chains.hpp",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "src/detection_chains.cpp",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "src/classes_jni.cpp",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "src/android_collectors.cpp",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "scripts/build.ps1",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/host-tests.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/jni-tests.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/build.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/verification.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "prism-chain-closure.i64",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "prism-chain-closure.snapshot.i64",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/protected-before.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/protected-after.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/historical-idb-session.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "manifest.json",
+      "exists": true
+    },
+    {
+      "document": "REPORT.zh-CN.md",
+      "target": "evidence/historical-idb-header-check.json",
+      "exists": true
+    }
+  ],
+  "manifest_files": 185,
+  "dependency_files": 6,
+  "remaining": [
+    "event20 state+16 post-construction provenance",
+    "event20 original error text and independent raw numeric scanner",
+    "runtime supplied class list / handler / status / maps",
+    "Android runtime equivalence; full transport and server semantics",
+    "other modules and common entry protection are not exhaustive here"
+  ],
+  "code_and_build_checks_passed": true,
+  "protected_file_check_passed": false,
+  "passed": false
+}

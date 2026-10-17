@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-11",
+  "status": "LOCAL_ACCESSIBILITY_CHAIN_DELIVERED",
+  "sample_sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "scope": "AccessibilityServiceChecker only; task registration, JNI scope/enumeration, payload, exact hash, local result generation",
+  "report": "REPORT.zh-CN.md",
+  "usage": "README.zh-CN.md",
+  "database": "prism-accessibility.i64",
+  "original_files_unchanged": true,
+  "rea_version": "6.4.0",
+  "rea_evidence": "evidence/rea/summary.json",
+  "validation": "evidence/final-verification.json",
+  "completed": [
+    "REA production configuration and three actual target-function analyses",
+    "Registration ID38 / AccessibilityServiceChecker / factory and dispatch evidence",
+    "JNI1.6 GetEnv, conditional AttachCurrentThread, scoped DetachCurrentThread",
+    "Enabled-service ID API chain, all method signatures and JNI slots",
+    "Unsigned-byte sorting, duplicate preservation, NUL-separated CRC32, digest byte order",
+    "Initial state, event25/event33/unchanged/error0xBBA, cJSON payload ordering",
+    "C++17 source, Windows DLL/EXE, Android ARM64 API24 shared library",
+    "42 original hash cases, 180 original consumer cases, final C++ replay",
+    "8 fake-JNIEnv cases, 6 original plus 6 C++ JavaVM cases, 14 table-offset assertions",
+    "Original input/database protection and deliverable manifest checks"
+  ],
+  "not_established": [
+    "Exact scheduling interval and timer callsite",
+    "Network serialization/transmission or server-side policy and punishment",
+    "KeyMapper-specific local comparison in the recovered path",
+    "Actual Android device behavior, OOM paths and concurrent scheduling equivalence"
+  ],
+  "next_exact_boundary_if_requested": "notes/scheduling.md: generic registry 0x601c58, singleton 0x7d08d8/getter 0x4ea8b8; constrain further work to ID38",
+  "do_not_repeat": "Completed scans, complete original-instruction tests and REA setup; use tests/test_core.py --replay for a quick retained-evidence comparison"
+}

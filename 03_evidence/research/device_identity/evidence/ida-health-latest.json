@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "uptime_sec": 3175.92,
+  "idb_path": "D:\\PrismSUN\\research\\device_identity\\prism-device-identity.i64",
+  "module": "libprism-sun.so",
+  "input_path": "D:\\PrismSUN\\libprism-sun.so",
+  "imagebase": "0x0",
+  "auto_analysis_ready": false,
+  "hexrays_ready": true,
+  "strings_cache_ready": true,
+  "strings_cache_size": 671
+}

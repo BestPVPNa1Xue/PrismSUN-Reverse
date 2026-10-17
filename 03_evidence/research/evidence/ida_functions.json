@@ -1,0 +1,69 @@
+{
+  "result": [
+    {
+      "data": [
+        {
+          "addr": "0xb59c0",
+          "name": "sub_B59C0",
+          "size": "0x10",
+          "has_type": false
+        },
+        {
+          "addr": "0xb59d0",
+          "name": "sub_B59D0",
+          "size": "0x8",
+          "has_type": false
+        },
+        {
+          "addr": "0xb59d8",
+          "name": "sub_B59D8",
+          "size": "0x8",
+          "has_type": false
+        },
+        {
+          "addr": "0xb59e0",
+          "name": "sub_B59E0",
+          "size": "0x14",
+          "has_type": false
+        },
+        {
+          "addr": "0xb59f4",
+          "name": "sub_B59F4",
+          "size": "0x1c",
+          "has_type": false
+        },
+        {
+          "addr": "0xb5a10",
+          "name": "sub_B5A10",
+          "size": "0x10",
+          "has_type": false
+        },
+        {
+          "addr": "0xb5a20",
+          "name": "sub_B5A20",
+          "size": "0xb90",
+          "has_type": false
+        },
+        {
+          "addr": "0xb65b0",
+          "name": "sub_B65B0",
+          "size": "0xf4",
+          "has_type": false
+        },
+        {
+          "addr": "0xb66a4",
+          "name": "sub_B66A4",
+          "size": "0x60",
+          "has_type": false
+        },
+        {
+          "addr": "0xb6704",
+          "name": "sub_B6704",
+          "size": "0x148",
+          "has_type": true
+        }
+      ],
+      "next_offset": null
+    }
+  ]
+}

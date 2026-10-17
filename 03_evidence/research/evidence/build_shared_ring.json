@@ -1,0 +1,28 @@
+{
+  "scope": "Stable-snapshot ring read plan; not the original object ABI or a replacement module",
+  "host_compiler": "clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)",
+  "android_compiler": "Android (12027248, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "android_target": "aarch64-linux-android24",
+  "files": [
+    {
+      "path": "D:\\PrismSUN\\research\\src\\shared_ring_model.cpp",
+      "size": 1995,
+      "sha256": "f48757261adc4ec2afbc61d585dd69af101cf6f5853bb0235cb06dc6006dfbe2"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\src\\shared_ring_model.h",
+      "size": 929,
+      "sha256": "89d3211a6753f146e86824b3277229c9a991fb05e5e89bd451e252353db0e1a0"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\host\\prism_shared_ring.dll",
+      "size": 95786,
+      "sha256": "2cd62115fd3074a49c63ade283b1f65501a03694a73dfa81f6c321547bc5563e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\android-arm64\\libprism_shared_ring.so",
+      "size": 5440,
+      "sha256": "be324c147b69ad91cc7db6dc800b26ebd64254c01afd882ae6586452d39bdc87"
+    }
+  ]
+}

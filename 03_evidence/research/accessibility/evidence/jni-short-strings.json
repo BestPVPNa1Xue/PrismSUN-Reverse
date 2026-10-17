@@ -1,0 +1,51 @@
+{
+  "sample_sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "method": "bounded writer prefixes stop before every call; XOR parameters from prior bounded wrapper capture",
+  "no_host_calls": true,
+  "results": [
+    {
+      "writer": "0x329e7c",
+      "data": "0x7ac990",
+      "wrapper": "0x32a808",
+      "length": 4,
+      "encrypted": "b47a09a3",
+      "decoder_parameters": {
+        "wrapper": "0x32a808",
+        "callsite": "0x348994",
+        "length": 4,
+        "key": "0xfd4ff1bda37d1fd3",
+        "steps": 681,
+        "synthetic_object_preserved": true
+      },
+      "plaintext": "get",
+      "bytes": "67657400",
+      "prefix": {
+        "steps": 1222,
+        "stop": "before_call",
+        "address": "0x32a338"
+      }
+    },
+    {
+      "writer": "0x32ce7c",
+      "data": "0x7ac9f0",
+      "wrapper": "0x32d77c",
+      "length": 4,
+      "encrypted": "690c220d",
+      "decoder_parameters": {
+        "wrapper": "0x32d77c",
+        "callsite": "0x34adac",
+        "length": 4,
+        "key": "0xad7941110d6b2541",
+        "steps": 952,
+        "synthetic_object_preserved": true
+      },
+      "plaintext": "()I",
+      "bytes": "28294900",
+      "prefix": {
+        "steps": 1016,
+        "stop": "before_call",
+        "address": "0x32d2d0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "addr": "0x34adcc",
+  "code": "__int64 __usercall sub_34ADCC@<X0>(__int64 a1@<X0>, __int64 a2@<X8>)\n{\n  __int64 v2; // x22\n  __int64 v3; // x2\n  __int64 v4; // x0\n  __int64 v5; // x28\n  __int64 v6; // x2\n  __int64 *v7; // x19\n  __int64 v8; // x0\n  __int64 v9; // x0\n  __int64 v10; // x20\n  __int64 v11; // x1\n  __int64 v12; // x20\n  __int64 v13; // x22\n  __int64 v14; // x1\n  __int64 v15; // x2\n  __int64 v16; // x0\n  __int64 v17; // x0\n  __int64 v18; // x0\n  __int64 v19; // x0\n  __int64 v20; // x20\n  __int64 v21; // x1\n  __int64 v22; // x0\n  __int64 v23; // x20\n  __int64 v24; // x25\n  __int64 v25; // x22\n  __int64 v26; // x26\n  __int64 v27; // x0\n  __int64 v28; // x2\n  __int64 v29; // x0\n  __int64 v30; // x0\n  __int64 *v31; // x9\n  __int64 v32; // x20\n  __int64 v33; // x2\n  __int64 v34; // x0\n  __int64 v35; // x0\n  __int64 v36; // x0\n  __int64 v37; // x0\n  __int64 v38; // x20\n  __int64 v39; // x1\n  __int64 v40; // x0\n  __int64 v41; // x0\n  __int64 v42; // x0\n  __int64 *v43; // x9\n  __int64 v44; // x20\n  __int64 v45; // x2\n  __int64 v46; // x0\n  __int64 v47; // x0\n  __int64 v48; // x0\n  __int64 v49; // x0\n  __int64 v50; // x20\n  __int64 v51; // x1\n  __int64 v52; // x0\n  __int64 v53; // x0\n  __int64 v54; // x0\n  __int64 v55; // x0\n  __int64 v56; // x0\n  __int64 v57; // x20\n  __int64 v58; // x1\n  __int64 v59; // x0\n  __int64 v60; // x0\n  __int64 v61; // x0\n  __int64 *v62; // x9\n  __int64 v63; // x20\n  __int64 v64; // x2\n  __int64 v65; // x0\n  __int64 v66; // x0\n  __int64 v67; // x0\n  __int64 v68; // x0\n  __int64 v69; // x20\n  __int64 v70; // x1\n  __int64 v71; // x0\n  __int64 v72; // x20\n  __int64 v73; // x21\n  __int64 v74; // x1\n  __int64 v75; // x2\n  __int64 v76; // x20\n  __int64 v77; // x1\n  int v78; // w0\n  __int64 *v79; // x8\n  __int64 v80; // x20\n  __int64 v81; // x21\n  __int64 v82; // x0\n  __int64 v83; // x2\n  __int64 v84; // x20\n  __int64 v85; // x21\n  __int64 v86; // x1\n  __int64 v87; // x2\n  __int64 v88; // x20\n  __int64 v89; // x0\n  __int64 result; // x0\n  __int64 v91; // [xsp-3A0h] [xbp-540h] BYREF\n  __int64 v92; // [xsp-380h] [xbp-520h] BYREF\n  __int64 v93; // [xsp-370h] [xbp-510h] BYREF\n  __int64 v94; // [xsp-360h] [xbp-500h] BYREF\n  __int64 v95; // [xsp-350h] [xbp-4F0h] BYREF\n  __int64 v96; // [xsp-340h] [xbp-4E0h] BYREF\n  __int64 v97; // [xsp-330h] [xbp-4D0h] BYREF\n  __int64 v98; // [xsp-320h] [xbp-4C0h] BYREF\n  __int64 v99; // [xsp-310h] [xbp-4B0h] BYREF\n  __int64 v100; // [xsp-300h] [xbp-4A0h] BYREF\n  __int64 v101; // [xsp-2F0h] [xbp-490h] BYREF\n  __int64 v102; // [xsp-2E0h] [xbp-480h] BYREF\n  __int64 v103; // [xsp-2D0h] [xbp-470h] BYREF\n  __int64 v104; // [xsp-2C0h] [xbp-460h] BYREF\n  __int64 v105; // [xsp-2B0h] [xbp-450h] BYREF\n  __int64 v106; // [xsp-2A0h] [xbp-440h] BYREF\n  __int64 v107; // [xsp-290h] [xbp-430h] BYREF\n  __int64 v108; // [xsp-280h] [xbp-420h] BYREF\n  __int64 v109; // [xsp-270h] [xbp-410h] BYREF\n  __int64 v110; // [xsp-260h] [xbp-400h] BYREF\n  __int64 v111; // [xsp-250h] [xbp-3F0h] BYREF\n  __int64 v112; // [xsp-240h] [xbp-3E0h] BYREF\n  __int64 v113; // [xsp-230h] [xbp-3D0h] BYREF\n  __int64 v114; // [xsp-220h] [xbp-3C0h] BYREF\n  __int64 v115; // [xsp-210h] [xbp-3B0h] BYREF\n  __int64 v116; // [xsp-200h] [xbp-3A0h] BYREF\n  __int64 v117; // [xsp-1F0h] [xbp-390h] BYREF\n  __int64 v118; // [xsp-1E0h] [xbp-380h] BYREF\n  __int64 v119; // [xsp-1D0h] [xbp-370h] BYREF\n  __int64 v120; // [xsp-1C0h] [xbp-360h] BYREF\n  __int64 v121; // [xsp-1B0h] [xbp-350h] BYREF\n  __int64 v122; // [xsp-1A0h] [xbp-340h] BYREF\n  __int64 v123; // [xsp-190h] [xbp-330h] BYREF\n  __int64 v124; // [xsp-180h] [xbp-320h] BYREF\n  __int64 v125; // [xsp-170h] [xbp-310h] BYREF\n  __int64 v126; // [xsp-160h] [xbp-300h] BYREF\n  __int64 v127; // [xsp-150h] [xbp-2F0h] BYREF\n  __int64 v128; // [xsp-140h] [xbp-2E0h] BYREF\n  __int64 v129; // [xsp-130h] [xbp-2D0h] BYREF\n  __int64 v130; // [xsp-120h] [xbp-2C0h] BYREF\n  __int64 v131; // [xsp-110h] [xbp-2B0h] BYREF\n  __int64 v132; // [xsp-100h] [xbp-2A0h] BYREF\n  __int64 v133; // [xsp-F0h] [xbp-290h] BYREF\n  __int64 v134; // [xsp-E0h] [xbp-280h]\n  __int64 v135; // [xsp-D0h] [xbp-270h] BYREF\n  __int64 v136; // [xsp-C0h] [xbp-260h]\n  __int64 v137; // [xsp-B0h] [xbp-250h] BYREF\n  __int64 v138; // [xsp-A0h] [xbp-240h]\n  __int64 v139; // [xsp-90h] [xbp-230h] BYREF\n  __int64 v140; // [xsp-80h] [xbp-220h] BYREF\n  __int64 v141; // [xsp-70h] [xbp-210h]\n  __int64 v142; // [xsp-60h] [xbp-200h] BYREF\n  __int64 v143; // [xsp-50h] [xbp-1F0h] BYREF\n  __int64 v144; // [xsp-40h] [xbp-1E0h] BYREF\n  char v145; // [xsp-30h] [xbp-1D0h] BYREF\n  _QWORD v146[4]; // [xsp-20h] [xbp-1C0h] BYREF\n  __int64 *v147; // [xsp+0h] [xbp-1A0h]\n  __int64 *v148; // [xsp+8h] [xbp-198h]\n  __int64 *v149; // [xsp+10h] [xbp-190h]\n  __int64 *v150; // [xsp+18h] [xbp-188h]\n  __int64 *v151; // [xsp+20h] [xbp-180h]\n  __int64 *v152; // [xsp+28h] [xbp-178h]\n  __int64 *v153; // [xsp+30h] [xbp-170h]\n  __int64 *v154; // [xsp+38h] [xbp-168h]\n  __int64 *v155; // [xsp+40h] [xbp-160h]\n  __int64 *v156; // [xsp+48h] [xbp-158h]\n  __int64 *v157; // [xsp+50h] [xbp-150h]\n  __int64 *v158; // [xsp+58h] [xbp-148h]\n  __int64 *v159; // [xsp+60h] [xbp-140h]\n  __int64 *v160; // [xsp+68h] [xbp-138h]\n  __int64 *v161; // [xsp+70h] [xbp-130h]\n  __int64 *v162; // [xsp+78h] [xbp-128h]\n  __int64 *v163; // [xsp+80h] [xbp-120h]\n  __int64 *v164; // [xsp+88h] [xbp-118h]\n  __int64 *v165; // [xsp+90h] [xbp-110h]\n  __int64 *v166; // [xsp+98h] [xbp-108h]\n  __int64 *v167; // [xsp+A0h] [xbp-100h]\n  __int64 *v168; // [xsp+A8h] [xbp-F8h]\n  __int64 *v169; // [xsp+B0h] [xbp-F0h]\n  __int64 *v170; // [xsp+B8h] [xbp-E8h]\n  __int64 *v171; // [xsp+C0h] [xbp-E0h]\n  __int64 *v172; // [xsp+C8h] [xbp-D8h]\n  __int64 *v173; // [xsp+D0h] [xbp-D0h]\n  __int64 *v174; // [xsp+D8h] [xbp-C8h]\n  __int64 *v175; // [xsp+E0h] [xbp-C0h]\n  __int64 *v176; // [xsp+E8h] [xbp-B8h]\n  __int64 *v177; // [xsp+F0h] [xbp-B0h]\n  __int64 *v178; // [xsp+F8h] [xbp-A8h]\n  __int64 *v179; // [xsp+100h] [xbp-A0h]\n  __int64 *v180; // [xsp+108h] [xbp-98h]\n  __int64 *v181; // [xsp+110h] [xbp-90h]\n  __int64 *v182; // [xsp+118h] [xbp-88h]\n  __int64 *v183; // [xsp+120h] [xbp-80h]\n  __int64 *v184; // [xsp+128h] [xbp-78h]\n  __int64 *v185; // [xsp+130h] [xbp-70h]\n  _QWORD *v186; // [xsp+138h] [xbp-68h]\n  char *v187; // [xsp+140h] [xbp-60h]\n  __int64 *v188; // [xsp+148h] [xbp-58h]\n  __int64 *v189; // [xsp+150h] [xbp-50h]\n  __int64 *v190; // [xsp+158h] [xbp-48h]\n  __int64 *v191; // [xsp+160h] [xbp-40h]\n  __int64 *v192; // [xsp+168h] [xbp-38h]\n  __int64 *v193; // [xsp+170h] [xbp-30h]\n  __int64 *v194; // [xsp+178h] [xbp-28h]\n  __int64 *v195; // [xsp+180h] [xbp-20h]\n  __int64 v196; // [xsp+188h] [xbp-18h]\n  __int64 v197; // [xsp+190h] [xbp-10h]\n\n  v197 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x34adf8*/\n  if ( ((((((*(_DWORD *)sub_34ADCC >> 26 == 5) << 31 >> 31) /*0x34be10*/\n         + (((*(_DWORD *)sub_34ADCC >> 26 == 5) ^ (*(_DWORD *)sub_34ADCC >> 21 == 1697)) << 31 >> 31)) << 31 >> 31)\n       - (((*(_DWORD *)sub_34ADCC >> 26 == 5) & (unsigned __int8)(*(_DWORD *)sub_34ADCC >> 21 != 1697)) << 31 >> 31))\n      & 1) != 0\n    || loc_34ADD0 >> 10 == 3508160\n    || loc_34ADD4 >> 10 == 3508160 )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x34bd6c*/\n    abort(); /*0x34bd80*/\n  }\n  v186 = v146; /*0x34ae14*/\n  v187 = &v145; /*0x34ae24*/\n  v195 = &v144; /*0x34ae30*/\n  v193 = &v139; /*0x34ae5c*/\n  v192 = &v133; /*0x34ae90*/\n  v150 = &v132; /*0x34aea0*/\n  v147 = &v131; /*0x34aeb0*/\n  v149 = &v130; /*0x34aec0*/\n  v148 = &v129; /*0x34aed0*/\n  v151 = &v128; /*0x34aee0*/\n  v191 = &v127; /*0x34aeec*/\n  v153 = &v126; /*0x34aefc*/\n  v152 = &v125; /*0x34af0c*/\n  v189 = &v124; /*0x34af18*/\n  v158 = &v123; /*0x34af28*/\n  v154 = &v122; /*0x34af38*/\n  v157 = &v121; /*0x34af48*/\n  v155 = &v120; /*0x34af58*/\n  v175 = &v119; /*0x34af64*/\n  v159 = &v118; /*0x34af74*/\n  v156 = &v117; /*0x34af84*/\n  v188 = &v116; /*0x34af90*/\n  v165 = &v115; /*0x34afa0*/\n  v160 = &v114; /*0x34afb0*/\n  v163 = &v113; /*0x34afc0*/\n  v161 = &v112; /*0x34afd0*/\n  v183 = &v111; /*0x34afdc*/\n  v168 = &v110; /*0x34afe8*/\n  v162 = &v109; /*0x34aff8*/\n  v167 = &v108; /*0x34b004*/\n  v164 = &v107; /*0x34b014*/\n  v174 = &v106; /*0x34b020*/\n  v169 = &v105; /*0x34b02c*/\n  v166 = &v104; /*0x34b03c*/\n  v185 = &v103; /*0x34b048*/\n  v173 = &v102; /*0x34b054*/\n  v170 = &v101; /*0x34b060*/\n  v172 = &v100; /*0x34b06c*/\n  v171 = &v99; /*0x34b078*/\n  v180 = &v98; /*0x34b084*/\n  v184 = &v97; /*0x34b090*/\n  v182 = &v96; /*0x34b09c*/\n  v178 = &v95; /*0x34b0a8*/\n  v177 = &v94; /*0x34b0b4*/\n  v181 = &v93; /*0x34b0c0*/\n  v179 = &v92; /*0x34b0cc*/\n  v176 = &v91; /*0x34b0d8*/\n  v146[2] = a2; /*0x34b0e0*/\n  v146[0] = a1; /*0x34b0e4*/\n  v145 = 0; /*0x34b0e8*/\n  v196 = a2; /*0x34b0ec*/\n  sub_10272C(a2); /*0x34b0f4*/\n  v2 = v146[0]; /*0x34b0f8*/\n  v194 = &v143; /*0x34b100*/\n  v3 = sub_377DE4(v146[0]); /*0x34b108*/\n  v190 = &v142; /*0x34b110*/\n  ((void (__fastcall *)(__int64 *, __int64, __int64))loc_2E1048)(v195, v2, v3); /*0x34b128*/\n  v4 = sub_377DE8(&v140); /*0x34b134*/\n  v141 = ((__int64 (__fastcall *)(__int64))loc_34D100)(v4); /*0x34b144*/\n  v5 = *v186; /*0x34b14c*/\n  v6 = ((__int64 (__fastcall *)(_QWORD, __int64))loc_2DCE08)(*v186, v141); /*0x34b15c*/\n  v7 = v193; /*0x34b168*/\n  sub_377DEC(v193, v5, v6); /*0x34b178*/\n  v8 = ((__int64 (__fastcall *)(__int64 *))loc_34D5D0)(&v137); /*0x34b184*/\n  v138 = ((__int64 (__fastcall *)(__int64))loc_34E1C8)(v8); /*0x34b19c*/\n  v9 = ((__int64 (__fastcall *)(__int64 *))loc_34E564)(&v135); /*0x34b1a4*/\n  v136 = sub_377DF0(v9); /*0x34b1bc*/\n  v10 = *v186; /*0x34b1c4*/\n  v11 = sub_377DF4(v7); /*0x34b1d0*/\n  v134 = ((__int64 (__fastcall *)(__int64, __int64, __int64, __int64))loc_320984)(v10, v11, v138, v136); /*0x34b1f0*/\n  v12 = *v186; /*0x34b1f8*/\n  v13 = *v186; /*0x34b1fc*/\n  v14 = ((__int64 (__fastcall *)(__int64 *))loc_2E05E0)(v7); /*0x34b208*/\n  v15 = ((__int64 (__fastcall *)(__int64, __int64, __int64))loc_320D04)(v13, v14, v134); /*0x34b21c*/\n  ((void (__fastcall *)(__int64 *, __int64, __int64))loc_2E8568)(v192, v12, v15); /*0x34b234*/\n  v16 = sub_377DF8(v147); /*0x34b244*/\n  v17 = sub_377DFC(v16); /*0x34b24c*/\n  *v150 = v17; /*0x34b25c*/\n  v18 = sub_377E00(v148); /*0x34b268*/\n  v19 = sub_377E04(v18); /*0x34b278*/\n  *v149 = v19; /*0x34b288*/\n  v20 = *v186; /*0x34b290*/\n  v21 = ((__int64 (__fastcall *)(__int64 *))loc_2E05E0)(v193); /*0x34b29c*/\n  v22 = ((__int64 (__fastcall *)(__int64, __int64, __int64, __int64))loc_2E3E98)(v20, v21, *v150, *v149); /*0x34b2c0*/\n  *v151 = v22; /*0x34b2d4*/\n  v23 = *v186; /*0x34b2dc*/\n  v24 = *v186; /*0x34b2e0*/\n  v25 = ((__int64 (__fastcall *)(__int64 *))loc_2E49DC)(v195); /*0x34b2ec*/\n  v26 = *v151; /*0x34b2fc*/\n  v27 = sub_377E08(v192); /*0x34b304*/\n  v28 = ((__int64 (__fastcall *)(__int64, __int64, __int64, __int64))loc_2E4448)(v24, v25, v26, v27); /*0x34b31c*/\n  sub_377E0C(v191, v23, v28); /*0x34b334*/\n  v29 = sub_377E10(v152); /*0x34b340*/\n  v30 = ((__int64 (__fastcall *)(__int64))loc_353BD8)(v29); /*0x34b350*/\n  v31 = v153; /*0x34b35c*/\n  *v153 = v30; /*0x34b360*/\n  v32 = *v186; /*0x34b368*/\n  v33 = ((__int64 (__fastcall *)(_QWORD, __int64))loc_2DCE08)(*v186, *v31); /*0x34b378*/\n  ((void (__fastcall *)(__int64 *, __int64, __int64))loc_2DD338)(v189, v32, v33); /*0x34b388*/\n  v34 = ((__int64 (__fastcall *)(__int64 *))loc_3540B4)(v154); /*0x34b398*/\n  v35 = sub_377E14(v34); /*0x34b3a8*/\n  *v158 = v35; /*0x34b3b8*/\n  v36 = ((__int64 (__fastcall *)(__int64 *))loc_35547C)(v155); /*0x34b3c4*/\n  v37 = ((__int64 (__fastcall *)(__int64))loc_356524)(v36); /*0x34b3d4*/\n  *v157 = v37; /*0x34b3e4*/\n  v38 = *v186; /*0x34b3ec*/\n  v39 = ((__int64 (__fastcall *)(__int64 *))loc_2E05E0)(v189); /*0x34b3f8*/\n  v40 = ((__int64 (__fastcall *)(__int64, __int64, __int64, __int64))loc_2E3E98)(v38, v39, *v158, *v157); /*0x34b41c*/\n  *v175 = v40; /*0x34b428*/\n  v41 = sub_377E18(v156); /*0x34b434*/\n  v42 = ((__int64 (__fastcall *)(__int64))loc_357910)(v41); /*0x34b43c*/\n  v43 = v159; /*0x34b448*/\n  *v159 = v42; /*0x34b44c*/\n  v44 = *v186; /*0x34b454*/\n  v45 = sub_377E1C(*v186, *v43); /*0x34b464*/\n  ((void (__fastcall *)(__int64 *, __int64, __int64))loc_2DD338)(v188, v44, v45); /*0x34b47c*/\n  v46 = ((__int64 (__fastcall *)(__int64 *))loc_357C9C)(v160); /*0x34b48c*/\n  v47 = ((__int64 (__fastcall *)(__int64))loc_358774)(v46); /*0x34b49c*/\n  *v165 = v47; /*0x34b4ac*/\n  v48 = ((__int64 (__fastcall *)(__int64 *))loc_358BCC)(v161); /*0x34b4b8*/\n  v49 = sub_377E20(v48); /*0x34b4c8*/\n  *v163 = v49; /*0x34b4d8*/\n  v50 = *v186; /*0x34b4e0*/\n  v51 = ((__int64 (__fastcall *)(__int64 *))loc_2E05E0)(v188); /*0x34b4ec*/\n  v52 = sub_377E24(v50, v51, *v165, *v163); /*0x34b510*/\n  *v183 = v52; /*0x34b520*/\n  v53 = sub_377E28(v162); /*0x34b52c*/\n  v54 = ((__int64 (__fastcall *)(__int64))loc_35A860)(v53); /*0x34b534*/\n  *v168 = v54; /*0x34b540*/\n  v55 = ((__int64 (__fastcall *)(__int64 *))loc_35ABEC)(v164); /*0x34b54c*/\n  v56 = ((__int64 (__fastcall *)(__int64))loc_35B660)(v55); /*0x34b55c*/\n  *v167 = v56; /*0x34b568*/\n  v57 = *v186; /*0x34b570*/\n  v58 = ((__int64 (__fastcall *)(__int64 *))loc_2E05E0)(v188); /*0x34b57c*/\n  v59 = sub_377E2C(v57, v58, *v168, *v167); /*0x34b598*/\n  *v174 = v59; /*0x34b5a8*/\n  v60 = sub_377E30(v166); /*0x34b5b4*/\n  v61 = ((__int64 (__fastcall *)(__int64))loc_35D46C)(v60); /*0x34b5c4*/\n  v62 = v169; /*0x34b5cc*/\n  *v169 = v61; /*0x34b5d0*/\n  v63 = *v186; /*0x34b5d8*/\n  v64 = ((__int64 (__fastcall *)(_QWORD, __int64))loc_2DCE08)(*v186, *v62); /*0x34b5e8*/\n  ((void (__fastcall *)(__int64 *, __int64, __int64))loc_2DD338)(v185, v63, v64); /*0x34b600*/\n  v65 = sub_377E34(v170); /*0x34b60c*/\n  v66 = sub_377E38(v65); /*0x34b614*/\n  *v173 = v66; /*0x34b620*/\n  v67 = ((__int64 (__fastcall *)(__int64 *))loc_35ED40)(v171); /*0x34b628*/\n  v68 = ((__int64 (__fastcall *)(__int64))loc_35FDB4)(v67); /*0x34b638*/\n  *v172 = v68; /*0x34b644*/\n  v69 = *v186; /*0x34b64c*/\n  v70 = ((__int64 (__fastcall *)(__int64 *))loc_2E05E0)(v185); /*0x34b658*/\n  v71 = sub_377E3C(v69, v70, *v173, *v172); /*0x34b674*/\n  *v180 = v71; /*0x34b684*/\n  v72 = *v186; /*0x34b68c*/\n  v73 = *v186; /*0x34b690*/\n  v74 = ((__int64 (__fastcall *)(__int64 *))loc_2E49DC)(v191); /*0x34b69c*/\n  v75 = ((__int64 (__fastcall *)(__int64, __int64, __int64))loc_2E4448)(v73, v74, *v175); /*0x34b6b4*/\n  sub_377E40(v184, v72, v75); /*0x34b6cc*/\n  if ( (((__int64 (__fastcall *)(__int64 *))loc_331F98)(v184) & 1) != 0 ) /*0x34b6e8*/\n  {\n    v76 = *v186; /*0x34b94c*/\n    v77 = ((__int64 (__fastcall *)(__int64 *))loc_2E49DC)(v184); /*0x34b958*/\n    v78 = sub_377E44(v76, v77, *v174); /*0x34b96c*/\n    v79 = v178; /*0x34b978*/\n    *(_DWORD *)v178 = v78; /*0x34b97c*/\n    if ( *(_DWORD *)v79 ) /*0x34b980*/\n    {\n      for ( *(_DWORD *)v177 = 0; /*0x34b9cc*/\n            *(_DWORD *)v177 < *(_DWORD *)v178;\n            *(_DWORD *)v177 = (*(_DWORD *)v177 ^ 1) + 2 * (*(_DWORD *)v177 & 1) )\n      {\n        v80 = *v186; /*0x34ba10*/\n        v81 = *v186; /*0x34ba14*/\n        v82 = sub_377E48(v184); /*0x34ba1c*/\n        v83 = ((__int64 (__fastcall *)(__int64, __int64, __int64, _QWORD))loc_2E4448)( /*0x34ba3c*/\n                v81,\n                v82,\n                *v183,\n                *(unsigned int *)v177);\n        ((void (__fastcall *)(__int64 *, __int64, __int64))loc_2E1048)(v181, v80, v83); /*0x34ba4c*/\n        v84 = *v186; /*0x34ba54*/\n        v85 = *v186; /*0x34ba58*/\n        v86 = ((__int64 (__fastcall *)(__int64 *))loc_2E49DC)(v181); /*0x34ba64*/\n        v87 = sub_377E4C(v85, v86, *v180); /*0x34ba7c*/\n        ((void (__fastcall *)(__int64 *, __int64, __int64))loc_2E8568)(v179, v84, v87); /*0x34ba8c*/\n        v88 = *v186; /*0x34ba94*/\n        v89 = ((__int64 (__fastcall *)(__int64 *))loc_2E89D4)(v179); /*0x34ba9c*/\n        sub_2E5024(v88, v89); /*0x34baac*/\n        sub_377E50(v196, v176); /*0x34bac4*/\n        sub_74539C(v176); /*0x34bad0*/\n        sub_2E8D48(v179); /*0x34bad8*/\n        sub_377E54(v181); /*0x34bae0*/\n      }\n      *(_DWORD *)v182 = 2; /*0x34ba04*/\n      *v187 = 1; /*0x34bb80*/\n      *(_DWORD *)v182 = 1; /*0x34bb8c*/\n    }\n    else\n    {\n      *v187 = 1; /*0x34b9a0*/\n      *(_DWORD *)v182 = 1; /*0x34b9ac*/\n    }\n  }\n  else\n  {\n    *v187 = 1; /*0x34b6fc*/\n    *(_DWORD *)v182 = 1; /*0x34b708*/\n  }\n  sub_2E4DD0(v184); /*0x34bbac*/\n  sub_377E58(v185); /*0x34bbb4*/\n  sub_2E4EF4(v188); /*0x34bbbc*/\n  sub_2E4EF4(v189); /*0x34bbc4*/\n  sub_377E5C(v191); /*0x34bbcc*/\n  sub_377E60(v192); /*0x34bbd4*/\n  sub_2E4EF4(v193); /*0x34bbdc*/\n  result = sub_2E4DD0(v195); /*0x34bbe4*/\n  if ( (*v187 & 1) == 0 ) /*0x34bbf4*/\n    result = sub_B8614(v196); /*0x34bd08*/\n  _ReadStatusReg(TPIDR_EL0); /*0x34bd18*/\n  return result; /*0x34bd48*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x34adcc",
+      "name": "sub_34ADCC"
+    },
+    {
+      "addr": "0x34add0",
+      "name": "loc_34ADD0"
+    },
+    {
+      "addr": "0x34add4",
+      "name": "loc_34ADD4"
+    },
+    {
+      "addr": "0x10272c",
+      "name": "sub_10272C"
+    },
+    {
+      "addr": "0x377de4",
+      "name": "sub_377DE4"
+    },
+    {
+      "addr": "0x2e1048",
+      "name": "loc_2E1048"
+    },
+    {
+      "addr": "0x377de8",
+      "name": "sub_377DE8"
+    },
+    {
+      "addr": "0x34d100",
+      "name": "loc_34D100"
+    },
+    {
+      "addr": "0x2dce08",
+      "name": "loc_2DCE08"
+    },
+    {
+      "addr": "0x377dec",
+      "name": "sub_377DEC"
+    },
+    {
+      "addr": "0x34d5d0",
+      "name": "loc_34D5D0"
+    },
+    {
+      "addr": "0x34e1c8",
+      "name": "loc_34E1C8"
+    },
+    {
+      "addr": "0x34e564",
+      "name": "loc_34E564"
+    },
+    {
+      "addr": "0x377df0",
+      "name": "sub_377DF0"
+    },
+    {
+      "addr": "0x377df4",
+      "name": "sub_377DF4"
+    },
+    {
+      "addr": "0x320984",
+      "name": "loc_320984"
+    },
+    {
+      "addr": "0x2e05e0",
+      "name": "loc_2E05E0"
+    },
+    {
+      "addr": "0x320d04",
+      "name": "loc_320D04"
+    },
+    {
+      "addr": "0x2e8568",
+      "name": "loc_2E8568"
+    },
+    {
+      "addr": "0x377df8",
+      "name": "sub_377DF8"
+    },
+    {
+      "addr": "0x377dfc",
+      "name": "sub_377DFC"
+    },
+    {
+      "addr": "0x377e00",
+      "name": "sub_377E00"
+    },
+    {
+      "addr": "0x377e04",
+      "name": "sub_377E04"
+    },
+    {
+      "addr": "0x2e3e98",
+      "name": "loc_2E3E98"
+    },
+    {
+      "addr": "0x2e49dc",
+      "name": "loc_2E49DC"
+    },
+    {
+      "addr": "0x377e08",
+      "name": "sub_377E08"
+    },
+    {
+      "addr": "0x2e4448",
+      "name": "loc_2E4448"
+    },
+    {
+      "addr": "0x377e0c",
+      "name": "sub_377E0C"
+    },
+    {
+      "addr": "0x377e10",
+      "name": "sub_377E10"
+    },
+    {
+      "addr": "0x353bd8",
+      "name": "loc_353BD8"
+    },
+    {
+      "addr": "0x2dd338",
+      "name": "loc_2DD338"
+    },
+    {
+      "addr": "0x3540b4",
+      "name": "loc_3540B4"
+    },
+    {
+      "addr": "0x377e14",
+      "name": "sub_377E14"
+    },
+    {
+      "addr": "0x35547c",
+      "name": "loc_35547C"
+    },
+    {
+      "addr": "0x356524",
+      "name": "loc_356524"
+    },
+    {
+      "addr": "0x377e18",
+      "name": "sub_377E18"
+    },
+    {
+      "addr": "0x357910",
+      "name": "loc_357910"
+    },
+    {
+      "addr": "0x377e1c",
+      "name": "sub_377E1C"
+    },
+    {
+      "addr": "0x357c9c",
+      "name": "loc_357C9C"
+    },
+    {
+      "addr": "0x358774",
+      "name": "loc_358774"
+    },
+    {
+      "addr": "0x358bcc",
+      "name": "loc_358BCC"
+    },
+    {
+      "addr": "0x377e20",
+      "name": "sub_377E20"
+    },
+    {
+      "addr": "0x377e24",
+      "name": "sub_377E24"
+    },
+    {
+      "addr": "0x377e28",
+      "name": "sub_377E28"
+    },
+    {
+      "addr": "0x35a860",
+      "name": "loc_35A860"
+    },
+    {
+      "addr": "0x35abec",
+      "name": "loc_35ABEC"
+    },
+    {
+      "addr": "0x35b660",
+      "name": "loc_35B660"
+    },
+    {
+      "addr": "0x377e2c",
+      "name": "sub_377E2C"
+    },
+    {
+      "addr": "0x377e30",
+      "name": "sub_377E30"
+    },
+    {
+      "addr": "0x35d46c",
+      "name": "loc_35D46C"
+    },
+    {
+      "addr": "0x377e34",
+      "name": "sub_377E34"
+    },
+    {
+      "addr": "0x377e38",
+      "name": "sub_377E38"
+    },
+    {
+      "addr": "0x35ed40",
+      "name": "loc_35ED40"
+    },
+    {
+      "addr": "0x35fdb4",
+      "name": "loc_35FDB4"
+    },
+    {
+      "addr": "0x377e3c",
+      "name": "sub_377E3C"
+    },
+    {
+      "addr": "0x377e40",
+      "name": "sub_377E40"
+    },
+    {
+      "addr": "0x377e44",
+      "name": "sub_377E44"
+    },
+    {
+      "addr": "0x377e48",
+      "name": "sub_377E48"
+    },
+    {
+      "addr": "0x377e4c",
+      "name": "sub_377E4C"
+    },
+    {
+      "addr": "0x2e89d4",
+      "name": "loc_2E89D4"
+    },
+    {
+      "addr": "0x2e5024",
+      "name": "sub_2E5024"
+    },
+    {
+      "addr": "0x377e50",
+      "name": "sub_377E50"
+    },
+    {
+      "addr": "0x74539c",
+      "name": "sub_74539C"
+    },
+    {
+      "addr": "0x2e8d48",
+      "name": "sub_2E8D48"
+    },
+    {
+      "addr": "0x377e54",
+      "name": "sub_377E54"
+    },
+    {
+      "addr": "0x331f98",
+      "name": "loc_331F98"
+    },
+    {
+      "addr": "0x2e4dd0",
+      "name": "sub_2E4DD0"
+    },
+    {
+      "addr": "0x377e58",
+      "name": "sub_377E58"
+    },
+    {
+      "addr": "0x2e4ef4",
+      "name": "sub_2E4EF4"
+    },
+    {
+      "addr": "0x377e5c",
+      "name": "sub_377E5C"
+    },
+    {
+      "addr": "0x377e60",
+      "name": "sub_377E60"
+    },
+    {
+      "addr": "0xb8614",
+      "name": "sub_B8614"
+    }
+  ]
+}

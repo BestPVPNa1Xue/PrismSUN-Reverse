@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x593830\",\"code\":\"// attributes: thunk\\nvoid __fastcall sub_593830()\\n{\\n  JUMPOUT(0x58FAC8); /*0x58fac8*/\\n}\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x593830",
+      "code": "// attributes: thunk\nvoid __fastcall sub_593830()\n{\n  JUMPOUT(0x58FAC8); /*0x58fac8*/\n}"
+    },
+    "isError": false
+  },
+  "id": 1
+}

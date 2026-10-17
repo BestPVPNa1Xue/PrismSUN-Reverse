@@ -1,0 +1,430 @@
+{
+  "sample_sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "entry": "0x6f8da4",
+  "oracle": "zlib.crc32(sorted NUL-terminated service-name bytes), bswap32",
+  "scope": "Original IME hash function and Botan path run in bounded ARM64 fixture; allocators/TLS modeled.",
+  "passed": 9,
+  "count": 9,
+  "cases": [
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 25204,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [],
+      "sorted_hex": [],
+      "update_chunks_hex": [],
+      "expected": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 27099,
+      "return": 424165181,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "61"
+      ],
+      "sorted_hex": [
+        "61"
+      ],
+      "update_chunks_hex": [
+        "61",
+        "00"
+      ],
+      "expected": 424165181,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 30556,
+      "return": 1598428661,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a640",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "62",
+        "61"
+      ],
+      "sorted_hex": [
+        "61",
+        "62"
+      ],
+      "update_chunks_hex": [
+        "61",
+        "00",
+        "62",
+        "00"
+      ],
+      "expected": 1598428661,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 29790,
+      "return": 1598428661,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a640",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "61",
+        "62"
+      ],
+      "sorted_hex": [
+        "61",
+        "62"
+      ],
+      "update_chunks_hex": [
+        "61",
+        "00",
+        "62",
+        "00"
+      ],
+      "expected": 1598428661,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 29790,
+      "return": 2618636510,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a640",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "61",
+        "61"
+      ],
+      "sorted_hex": [
+        "61",
+        "61"
+      ],
+      "update_chunks_hex": [
+        "61",
+        "00",
+        "61",
+        "00"
+      ],
+      "expected": 2618636510,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 35638,
+      "return": 722399332,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a640",
+        "0x78a640",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a",
+        "7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a",
+        "616161616161616161616161616161616161616161616161"
+      ],
+      "sorted_hex": [
+        "616161616161616161616161616161616161616161616161",
+        "7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a",
+        "7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a"
+      ],
+      "update_chunks_hex": [
+        "616161616161616161616161616161616161616161616161",
+        "00",
+        "7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a",
+        "00",
+        "7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a",
+        "00"
+      ],
+      "expected": 722399332,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 31456,
+      "return": 1283667990,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a640",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "636f6d2e6578616d706c652e494d45",
+        "636f6d2e6578616d706c652e4f74686572"
+      ],
+      "sorted_hex": [
+        "636f6d2e6578616d706c652e494d45",
+        "636f6d2e6578616d706c652e4f74686572"
+      ],
+      "update_chunks_hex": [
+        "636f6d2e6578616d706c652e494d45",
+        "00",
+        "636f6d2e6578616d706c652e4f74686572",
+        "00"
+      ],
+      "expected": 1283667990,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 33320,
+      "return": 4267035445,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a640",
+        "0x78a640",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "ff",
+        "80",
+        "7f"
+      ],
+      "sorted_hex": [
+        "7f",
+        "80",
+        "ff"
+      ],
+      "update_chunks_hex": [
+        "7f",
+        "00",
+        "80",
+        "00",
+        "ff",
+        "00"
+      ],
+      "expected": 4267035445,
+      "pass_result": true
+    },
+    {
+      "entry": "0x6f8da4",
+      "reason": "returned",
+      "steps": 27301,
+      "return": 1598428661,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a720",
+        "0x78a600",
+        "0x78a670",
+        "0x78a520",
+        "0x78a610",
+        "0x78a610"
+      ],
+      "input_hex": [
+        "610062"
+      ],
+      "sorted_hex": [
+        "610062"
+      ],
+      "update_chunks_hex": [
+        "610062",
+        "00"
+      ],
+      "expected": 1598428661,
+      "pass_result": true
+    }
+  ]
+}

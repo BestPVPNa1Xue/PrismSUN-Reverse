@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x306404\",\"code\":null,\"error\":\"Decompilation failed at 0x306404\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x306404",
+      "code": null,
+      "error": "Decompilation failed at 0x306404"
+    },
+    "isError": false
+  },
+  "id": 2
+}

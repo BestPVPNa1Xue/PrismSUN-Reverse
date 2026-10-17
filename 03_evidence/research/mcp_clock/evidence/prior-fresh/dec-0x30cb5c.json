@@ -1,0 +1,26 @@
+{
+  "addr": "0x30cb5c",
+  "code": "__int64 __fastcall sub_30CB5C(__int64 a1)\n{\n  int v2; // w8\n  __int64 result; // x0\n  int v4; // w8\n  int v5; // w8\n  bool savedregs_7; // [xsp+37h] [xbp+7h]\n  __int64 savedregs_8; // [xsp+38h] [xbp+8h]\n  unsigned __int64 savedregs_16; // [xsp+40h] [xbp+10h]\n  __int64 savedregs_24; // [xsp+48h] [xbp+18h]\n\n  savedregs_24 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x30cb78*/\n  savedregs_16 = 0x1A3FB88948D85C97LL; /*0x30cb84*/\n  while ( 1 ) /*0x30cbfc*/\n  {\n    while ( 1 ) /*0x30cbd4*/\n    {\n      while ( 1 ) /*0x30cbb4*/\n      {\n        if ( HIDWORD(savedregs_16) == -1006468320 ) /*0x30cbc0*/\n          JUMPOUT(0x30CEA8); /*0x30cea8*/\n        if ( HIDWORD(savedregs_16) != -928310426 ) /*0x30cbd4*/\n          break; /*0x30cbd4*/\n        HIDWORD(savedregs_16) = 1232745795; /*0x30cd20*/\n      }\n      if ( HIDWORD(savedregs_16) != -306781047 ) /*0x30cbfc*/\n        break; /*0x30cbfc*/\n      HIDWORD(savedregs_16) = 1459566527; /*0x30ccf8*/\n    }\n    if ( HIDWORD(savedregs_16) == -176461199 ) /*0x30cc10*/\n      break; /*0x30cc10*/\n    switch ( HIDWORD(savedregs_16) ) /*0x30cc24*/\n    {\n      case 0x16137AA: /*0x30cc24*/\n        _ReadStatusReg(TPIDR_EL0); /*0x30cd80*/\n        abort(); /*0x30cd94*/\n      case 0x11EF85D5: /*0x30cc24*/\n        savedregs_7 = *(_DWORD *)sub_30CB5C >> 26 == 5 || *(_DWORD *)sub_30CB5C >> 21 == 1697; /*0x30cdd8*/\n        HIDWORD(savedregs_16) = 939795258; /*0x30cde8*/\n        break;\n      case 0x1A3FB889: /*0x30cc24*/\n        if ( (unsigned int)savedregs_16 <= 0x5AB06112 ) /*0x30ccdc*/\n          v2 = -306781047; /*0x30ccdc*/\n        else\n          v2 = -1006468320; /*0x30ccdc*/\n        HIDWORD(savedregs_16) = v2; /*0x30cce4*/\n        break;\n      case 0x3804233A: /*0x30cc24*/\n        if ( savedregs_7 ) /*0x30cdf4*/\n          v4 = 23148458; /*0x30ce0c*/\n        else\n          v4 = 1572912133; /*0x30ce0c*/\n        HIDWORD(savedregs_16) = v4; /*0x30ce14*/\n        break;\n      case 0x497A3543: /*0x30cc24*/\n        savedregs_16 = (unsigned int)a1 | 0xF57B6A7100000000LL; /*0x30cd30*/\n        sub_319FA4(a1); /*0x30cd3c*/\n        savedregs_8 = a1; /*0x30cd40*/\n        break;\n      case 0x56FF37BF: /*0x30cc24*/\n        HIDWORD(savedregs_16) = 1547937584; /*0x30cd0c*/\n        break;\n      case 0x5C43A730: /*0x30cc24*/\n        HIDWORD(savedregs_16) = 300910037; /*0x30cda4*/\n        break;\n      default:\n        if ( ((((((((loc_30CB60 >> 10 == 3508160) << 31 >> 31) + ((loc_30CB64 >> 10 == 3508160) << 31 >> 31)) << 31 >> 31) /*0x30ce98*/\n               - 1) << 31 >> 31)\n             + ((loc_30CB64 >> 10 != 3508160 || loc_30CB60 >> 10 != 3508160) << 31 >> 31))\n            & 1) != 0 )\n          v5 = 23148458; /*0x30ce98*/\n        else\n          v5 = -928310426; /*0x30ce98*/\n        HIDWORD(savedregs_16) = v5; /*0x30cea0*/\n        break;\n    }\n  }\n  result = savedregs_8; /*0x30cd58*/\n  _ReadStatusReg(TPIDR_EL0); /*0x30cd5c*/\n  return result; /*0x30cd7c*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x30cb5c",
+      "name": "sub_30CB5C"
+    },
+    {
+      "addr": "0x319fa4",
+      "name": "sub_319FA4"
+    },
+    {
+      "addr": "0x30cb60",
+      "name": "loc_30CB60"
+    },
+    {
+      "addr": "0x30cb64",
+      "name": "loc_30CB64"
+    }
+  ]
+}

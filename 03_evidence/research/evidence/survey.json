@@ -1,0 +1,1132 @@
+{
+  "metadata": {
+    "path": "D:\\PrismSUN\\research\\prism-analysis.i64",
+    "module": "libprism-sun.so",
+    "arch": "64",
+    "base_address": "0x0",
+    "image_size": "0x7d27f8",
+    "md5": "cbced2c471944ca379ad3245decbf09e",
+    "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4"
+  },
+  "statistics": {
+    "total_functions": 13331,
+    "named_functions": 284,
+    "library_functions": 0,
+    "unnamed_functions": 13047,
+    "total_strings": 671,
+    "total_segments": 20
+  },
+  "segments": [
+    {
+      "name": "LOAD",
+      "start": "0x0",
+      "end": "0x1ac10",
+      "size": "0x1ac10",
+      "permissions": "rx"
+    },
+    {
+      "name": ".gcc_except_table",
+      "start": "0x1ac10",
+      "end": "0x2de34",
+      "size": "0x13224",
+      "permissions": "r"
+    },
+    {
+      "name": "LOAD",
+      "start": "0x2de34",
+      "end": "0x2de40",
+      "size": "0xc",
+      "permissions": "rx"
+    },
+    {
+      "name": ".rodata",
+      "start": "0x2de40",
+      "end": "0x40ebc",
+      "size": "0x1307c",
+      "permissions": "r"
+    },
+    {
+      "name": "LOAD",
+      "start": "0x40ebc",
+      "end": "0x40ec0",
+      "size": "0x4",
+      "permissions": "rx"
+    },
+    {
+      "name": ".eh_frame",
+      "start": "0x40ec0",
+      "end": "0xb59c0",
+      "size": "0x74b00",
+      "permissions": "r"
+    },
+    {
+      "name": ".text",
+      "start": "0xb59c0",
+      "end": "0x78a468",
+      "size": "0x6d4aa8",
+      "permissions": "rx"
+    },
+    {
+      "name": "LOAD",
+      "start": "0x78a468",
+      "end": "0x78a470",
+      "size": "0x8",
+      "permissions": "rx"
+    },
+    {
+      "name": ".plt",
+      "start": "0x78a470",
+      "end": "0x78ac70",
+      "size": "0x800",
+      "permissions": "rx"
+    },
+    {
+      "name": ".data.rel.ro",
+      "start": "0x78ec70",
+      "end": "0x7989c8",
+      "size": "0x9d58",
+      "permissions": "rw"
+    },
+    {
+      "name": ".fini_array",
+      "start": "0x7989c8",
+      "end": "0x7989d8",
+      "size": "0x10",
+      "permissions": "rw"
+    },
+    {
+      "name": ".init_array",
+      "start": "0x7989d8",
+      "end": "0x798a38",
+      "size": "0x60",
+      "permissions": "rw"
+    },
+    {
+      "name": "LOAD",
+      "start": "0x798a38",
+      "end": "0x798c18",
+      "size": "0x1e0",
+      "permissions": "rw"
+    },
+    {
+      "name": ".got",
+      "start": "0x798c18",
+      "end": "0x799040",
+      "size": "0x428",
+      "permissions": "rw"
+    },
+    {
+      "name": ".got.plt",
+      "start": "0x799040",
+      "end": "0x799448",
+      "size": "0x408",
+      "permissions": "rw"
+    },
+    {
+      "name": ".relro_padding",
+      "start": "0x799448",
+      "end": "0x79a000",
+      "size": "0xbb8",
+      "permissions": "rw"
+    },
+    {
+      "name": ".data",
+      "start": "0x79d450",
+      "end": "0x7b0078",
+      "size": "0x12c28",
+      "permissions": "rw"
+    },
+    {
+      "name": "LOAD",
+      "start": "0x7b0078",
+      "end": "0x7b0080",
+      "size": "0x8",
+      "permissions": "rw"
+    },
+    {
+      "name": ".bss",
+      "start": "0x7b0080",
+      "end": "0x7d2400",
+      "size": "0x22380",
+      "permissions": "rw"
+    },
+    {
+      "name": "extern",
+      "start": "0x7d2400",
+      "end": "0x7d27f8",
+      "size": "0x3f8",
+      "permissions": "---"
+    }
+  ],
+  "entrypoints": [
+    {
+      "addr": "0x2b3850",
+      "name": "startParadise",
+      "ordinal": 2832464
+    },
+    {
+      "addr": "0x2b40e8",
+      "name": "getSharedMemory",
+      "ordinal": 2834664
+    },
+    {
+      "addr": "0x2b442c",
+      "name": "shmFence",
+      "ordinal": 2835500
+    }
+  ],
+  "interesting_strings": [
+    {
+      "addr": "0x33cfb",
+      "string": "libunwind: %s - %s\n",
+      "xref_count": 36
+    },
+    {
+      "addr": "0x3e32c",
+      "string": "0123456789abcdefABCDEFxX+-pPiInN",
+      "xref_count": 33
+    },
+    {
+      "addr": "0x33cc7",
+      "string": "%s:%d: %s",
+      "xref_count": 15
+    },
+    {
+      "addr": "0x3487e",
+      "string": "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h",
+      "xref_count": 11
+    },
+    {
+      "addr": "0x3de3c",
+      "string": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899NSt6__ndk112system_errorE",
+      "xref_count": 10
+    },
+    {
+      "addr": "0x3435b",
+      "string": "unsupported arm64 register",
+      "xref_count": 9
+    },
+    {
+      "addr": "0x34410",
+      "string": "truncated sleb128 expression",
+      "xref_count": 9
+    },
+    {
+      "addr": "0x34a2b",
+      "string": "getSLEB128",
+      "xref_count": 9
+    },
+    {
+      "addr": "0x353d9",
+      "string": " requires ",
+      "xref_count": 9
+    },
+    {
+      "addr": "0x346c9",
+      "string": "getRegister",
+      "xref_count": 7
+    },
+    {
+      "addr": "0x34f23",
+      "string": "basic_string",
+      "xref_count": 7
+    },
+    {
+      "addr": "0x35058",
+      "string": "out/llvm-project/libcxxabi/src/cxa_personality.cpp",
+      "xref_count": 7
+    },
+    {
+      "addr": "0x351e0",
+      "string": " volatile",
+      "xref_count": 6
+    },
+    {
+      "addr": "0x352d7",
+      "string": " restrict",
+      "xref_count": 6
+    },
+    {
+      "addr": "0x3545c",
+      "string": "getEncodedP",
+      "xref_count": 6
+    }
+  ],
+  "interesting_functions": [
+    {
+      "addr": "0xb6704",
+      "name": "sub_B6704",
+      "size": 328,
+      "xref_count": 542,
+      "callee_count": 2,
+      "type": "complex"
+    },
+    {
+      "addr": "0x12138c",
+      "name": "sub_12138C",
+      "size": 96,
+      "xref_count": 484,
+      "callee_count": 3,
+      "type": "complex"
+    },
+    {
+      "addr": "0x22ce18",
+      "name": "sub_22CE18",
+      "size": 312,
+      "xref_count": 242,
+      "callee_count": 1,
+      "type": "complex"
+    },
+    {
+      "addr": "0x19c6dc",
+      "name": "sub_19C6DC",
+      "size": 240,
+      "xref_count": 235,
+      "callee_count": 1,
+      "type": "complex"
+    },
+    {
+      "addr": "0x22b344",
+      "name": "sub_22B344",
+      "size": 312,
+      "xref_count": 194,
+      "callee_count": 1,
+      "type": "complex"
+    },
+    {
+      "addr": "0x19ce00",
+      "name": "sub_19CE00",
+      "size": 232,
+      "xref_count": 190,
+      "callee_count": 1,
+      "type": "complex"
+    },
+    {
+      "addr": "0x19ccec",
+      "name": "sub_19CCEC",
+      "size": 92,
+      "xref_count": 189,
+      "callee_count": 1,
+      "type": "wrapper"
+    },
+    {
+      "addr": "0x19cee8",
+      "name": "sub_19CEE8",
+      "size": 236,
+      "xref_count": 189,
+      "callee_count": 1,
+      "type": "complex"
+    },
+    {
+      "addr": "0xd2ac4",
+      "name": "sub_D2AC4",
+      "size": 232,
+      "xref_count": 182,
+      "callee_count": 3,
+      "type": "complex"
+    },
+    {
+      "addr": "0x19cfd4",
+      "name": "sub_19CFD4",
+      "size": 240,
+      "xref_count": 178,
+      "callee_count": 1,
+      "type": "complex"
+    },
+    {
+      "addr": "0x19cd48",
+      "name": "sub_19CD48",
+      "size": 180,
+      "xref_count": 175,
+      "callee_count": 2,
+      "type": "complex"
+    },
+    {
+      "addr": "0x19b384",
+      "name": "sub_19B384",
+      "size": 264,
+      "xref_count": 140,
+      "callee_count": 6,
+      "type": "complex"
+    },
+    {
+      "addr": "0xc7be8",
+      "name": "sub_C7BE8",
+      "size": 420,
+      "xref_count": 126,
+      "callee_count": 3,
+      "type": "complex"
+    },
+    {
+      "addr": "0x1a4828",
+      "name": "sub_1A4828",
+      "size": 92,
+      "xref_count": 110,
+      "callee_count": 1,
+      "type": "wrapper"
+    },
+    {
+      "addr": "0xb6f98",
+      "name": "sub_B6F98",
+      "size": 300,
+      "xref_count": 101,
+      "callee_count": 5,
+      "type": "complex"
+    }
+  ],
+  "imports_by_category": {
+    "crypto": [],
+    "network": [],
+    "file_io": [
+      {
+        "addr": "0x7d2560",
+        "name": "fclose@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2590",
+        "name": "fopen@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26c8",
+        "name": "fwrite@@LIBC",
+        "module": ".dynsym"
+      }
+    ],
+    "process": [
+      {
+        "addr": "0x7d25b0",
+        "name": "pthread_mutex_lock@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25b8",
+        "name": "pthread_mutex_unlock@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2610",
+        "name": "pthread_create@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2618",
+        "name": "pthread_setspecific@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2660",
+        "name": "pthread_cond_destroy@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2668",
+        "name": "pthread_cond_signal@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2670",
+        "name": "pthread_cond_broadcast@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2678",
+        "name": "pthread_cond_wait@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2680",
+        "name": "pthread_getspecific@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2688",
+        "name": "pthread_mutex_destroy@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2690",
+        "name": "pthread_mutexattr_init@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2698",
+        "name": "pthread_mutexattr_settype@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26a0",
+        "name": "pthread_mutex_init@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26a8",
+        "name": "pthread_mutexattr_destroy@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26b0",
+        "name": "pthread_detach@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26c0",
+        "name": "pthread_key_create@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27c8",
+        "name": "__cxa_thread_atexit_impl@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27d0",
+        "name": "pthread_once@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27d8",
+        "name": "pthread_key_delete@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27e0",
+        "name": "pthread_rwlock_wrlock@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27e8",
+        "name": "pthread_rwlock_unlock@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27f0",
+        "name": "pthread_rwlock_rdlock@@LIBC",
+        "module": ".dynsym"
+      }
+    ],
+    "registry": [
+      {
+        "addr": "0x7d2410",
+        "name": "__register_atfork@@LIBC",
+        "module": ".dynsym"
+      }
+    ],
+    "other": [
+      {
+        "addr": "0x7d2400",
+        "name": "__cxa_finalize@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2408",
+        "name": "__cxa_atexit@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2418",
+        "name": "abort@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2420",
+        "name": "__stack_chk_fail@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2428",
+        "name": "strlen@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2430",
+        "name": "getpid@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2438",
+        "name": "memmove@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2440",
+        "name": "memcpy@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2448",
+        "name": "memset@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2450",
+        "name": "getauxval@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2458",
+        "name": "clock_gettime@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2460",
+        "name": "getenv@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2468",
+        "name": "getuid@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2470",
+        "name": "geteuid@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2478",
+        "name": "getgid@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2480",
+        "name": "getegid@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2488",
+        "name": "__memset_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2490",
+        "name": "sigemptyset@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2498",
+        "name": "sigaction@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24a0",
+        "name": "sigsetjmp@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24a8",
+        "name": "__errno@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24b0",
+        "name": "siglongjmp@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24b8",
+        "name": "calloc@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24c0",
+        "name": "free@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24c8",
+        "name": "closedir@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24d0",
+        "name": "readdir@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24d8",
+        "name": "memcmp@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24e0",
+        "name": "arc4random_buf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24e8",
+        "name": "memchr@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24f0",
+        "name": "__memcpy_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d24f8",
+        "name": "__memmove_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2500",
+        "name": "dlclose@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2508",
+        "name": "strdup@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2510",
+        "name": "strcmp@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2518",
+        "name": "__open_2@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2520",
+        "name": "fstat@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2528",
+        "name": "close@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2530",
+        "name": "__strlen_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2538",
+        "name": "__vsnprintf_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2540",
+        "name": "lseek@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2548",
+        "name": "malloc@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2550",
+        "name": "__read_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2558",
+        "name": "dl_iterate_phdr@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2568",
+        "name": "fgets@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2570",
+        "name": "sscanf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2578",
+        "name": "__strchr_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2580",
+        "name": "strlcpy@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2588",
+        "name": "rewind@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2598",
+        "name": "__fgets_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25a0",
+        "name": "strchr@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25a8",
+        "name": "__strlcpy_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25c0",
+        "name": "dlopen@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25c8",
+        "name": "realloc@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25d0",
+        "name": "atoi@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25d8",
+        "name": "__system_property_get@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25e0",
+        "name": "__vsprintf_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25e8",
+        "name": "strcpy@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25f0",
+        "name": "__strcpy_chk@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d25f8",
+        "name": "strncmp@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2600",
+        "name": "strtod@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2608",
+        "name": "fdopendir@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2620",
+        "name": "getline@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2628",
+        "name": "fdopen@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2630",
+        "name": "wcslen@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2638",
+        "name": "wmemchr@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2640",
+        "name": "strtoul@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2648",
+        "name": "strtof@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2650",
+        "name": "snprintf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2658",
+        "name": "strerror_r@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26b8",
+        "name": "nanosleep@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26d0",
+        "name": "fflush@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26d8",
+        "name": "newlocale@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26e0",
+        "name": "uselocale@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26e8",
+        "name": "vsscanf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26f0",
+        "name": "vsnprintf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d26f8",
+        "name": "strftime_l@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2700",
+        "name": "mbsrtowcs@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2708",
+        "name": "vasprintf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2710",
+        "name": "freelocale@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2718",
+        "name": "iswlower_l@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2720",
+        "name": "wcsnrtombs@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2728",
+        "name": "wcrtomb@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2730",
+        "name": "mbsnrtowcs@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2738",
+        "name": "mbrtowc@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2740",
+        "name": "mbtowc@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2748",
+        "name": "__ctype_get_mb_cur_max@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2750",
+        "name": "mbrlen@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2758",
+        "name": "strtoll_l@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2760",
+        "name": "strtoull_l@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2768",
+        "name": "strtold_l@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2770",
+        "name": "syscall@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2778",
+        "name": "__sF@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2780",
+        "name": "vfprintf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2788",
+        "name": "fputc@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2790",
+        "name": "android_set_abort_message@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d2798",
+        "name": "openlog@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27a0",
+        "name": "syslog@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27a8",
+        "name": "closelog@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27b0",
+        "name": "fprintf@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27b8",
+        "name": "posix_memalign@@LIBC",
+        "module": ".dynsym"
+      },
+      {
+        "addr": "0x7d27c0",
+        "name": "__assert2@@LIBC",
+        "module": ".dynsym"
+      }
+    ]
+  },
+  "call_graph_summary": {
+    "total_edges": 22009,
+    "max_depth_estimate": null,
+    "root_functions": [
+      "sub_B59C0",
+      "sub_B59D0",
+      "sub_B59D8",
+      "sub_B59E0",
+      "sub_B59F4",
+      "sub_B5A10",
+      "sub_B66A4",
+      "sub_B684C",
+      "sub_B6F2C",
+      "sub_B7FD4",
+      "sub_B8188",
+      "sub_B819C",
+      "sub_B86FC",
+      "sub_B932C",
+      "sub_B9C54",
+      "sub_B9CB0",
+      "sub_B9F90",
+      "sub_B9FEC",
+      "sub_BA048",
+      "sub_BA148",
+      "sub_BA204",
+      "sub_BA304",
+      "sub_BA404",
+      "sub_BA4B4",
+      "sub_BA51C",
+      "sub_BA5CC",
+      "sub_BA67C",
+      "sub_BA82C",
+      "sub_BAA08",
+      "sub_BAA68",
+      "sub_BB5B8",
+      "sub_BBD80",
+      "sub_BBF30",
+      "sub_BCA80",
+      "sub_BD22C",
+      "sub_BD398",
+      "sub_BDE20",
+      "sub_BDEE0",
+      "sub_BE000",
+      "sub_BE07C",
+      "sub_BE22C",
+      "sub_BEF38",
+      "sub_BF0E8",
+      "sub_BFDF4",
+      "sub_BFF60",
+      "sub_C0080",
+      "sub_C0230",
+      "sub_C14C4",
+      "sub_C1674",
+      "sub_C2908",
+      "sub_C2A74",
+      "sub_C2B94",
+      "sub_C2C3C",
+      "sub_C2ECC",
+      "sub_C315C",
+      "sub_C3254",
+      "sub_C334C",
+      "sub_C35DC",
+      "sub_C386C",
+      "sub_C3964",
+      "sub_C3A5C",
+      "sub_C3AC4",
+      "sub_C3B8C",
+      "sub_C4550",
+      "sub_C4728",
+      "sub_C4AEC",
+      "sub_C4BA4",
+      "sub_C4F24",
+      "sub_C4F84",
+      "sub_C4FF0",
+      "sub_C51A8",
+      "sub_C520C",
+      "sub_C5718",
+      "sub_C58D4",
+      "sub_C5938",
+      "sub_C6524",
+      "sub_C680C",
+      "sub_C682C",
+      "sub_C7B88",
+      "sub_C88D4",
+      "sub_C897C",
+      "sub_C8D28",
+      "sub_C914C",
+      "sub_C9AE0",
+      "sub_CA778",
+      "sub_CAAB4",
+      "sub_CAFDC",
+      "sub_CB050",
+      "sub_CB0B8",
+      "sub_CB45C",
+      "sub_CB548",
+      "sub_CB634",
+      "sub_CB694",
+      "sub_CBAA0",
+      "sub_CBB00",
+      "sub_CBB68",
+      "sub_CC828",
+      "sub_CD4BC",
+      "sub_CD51C",
+      "sub_CD668"
+    ],
+    "leaf_functions_count": 1934
+  },
+  "_note": "Binary has 13331 functions; xref analysis was limited to the first 10000 for performance."
+}

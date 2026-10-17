@@ -1,0 +1,4 @@
+{
+  "addr": "0x4c02c0",
+  "code": "// attributes: thunk\nvoid __fastcall sub_4C02C0()\n{\n  JUMPOUT(0x4B64A4); /*0x4b64a4*/\n}"
+}

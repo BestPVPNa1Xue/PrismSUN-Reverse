@@ -1,0 +1,10 @@
+{
+  "addr": "0x6956d4",
+  "code": "__int64 __fastcall sub_6956D4(__int64 result)\n{\n  __int64 v1; // x19\n  int i; // [xsp+34h] [xbp+14h]\n\n  v1 = result; /*0x6956e4*/\n  _ReadStatusReg(TPIDR_EL0); /*0x6956e8*/\n  for ( i = -2067635135; ; i = 1369948892 ) /*0x6956fc*/\n  {\n    while ( i == -2067635135 ) /*0x695718*/\n      i = -460386120; /*0x695820*/\n    if ( i != -460386120 ) /*0x695790*/\n      break; /*0x695790*/\n    result = ((__int64 (__fastcall *)(__int64))loc_696168)(v1); /*0x695838*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x695850*/\n  return result; /*0x695870*/\n}",
+  "refs": [
+    {
+      "addr": "0x696168",
+      "name": "loc_696168"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "addr": "0xc9164",
+  "code": "bool __fastcall sub_C9164(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9)\n{\n  __int64 v9; // x29\n  __int64 v10; // x30\n  bool v11; // zf\n\n  v11 = *(_DWORD *)sub_C9164 >> 26 == 5 || (*(_DWORD *)sub_C9164 & 0xFFE00000) == -736100352; /*0xc9180*/\n  if ( v11 || loc_C9168 >> 10 == 3508160 || (loc_C916C & 0xFFFFFC00) == 0xD61F0000 ) /*0xc91ac*/\n  {\n    *(&a9 - 2) = v9; /*0xc91c0*/\n    *(&a9 - 1) = v10; /*0xc91c0*/\n    abort(); /*0xc91c8*/\n  }\n  return *(_QWORD *)(a1 + 8) == 0; /*0xc91bc*/\n}",
+  "refs": [
+    {
+      "addr": "0xc9164",
+      "name": "sub_C9164"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0xc9168",
+      "name": "loc_C9168"
+    },
+    {
+      "addr": "0xc916c",
+      "name": "loc_C916C"
+    }
+  ]
+}

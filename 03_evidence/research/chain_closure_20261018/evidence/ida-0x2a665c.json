@@ -1,0 +1,22 @@
+{
+  "addr": "0x2a665c",
+  "code": "bool __fastcall sub_2A665C(_BOOL8 result)\n{\n  bool v1; // zf\n\n  v1 = *(_DWORD *)sub_2A665C >> 26 == 5 || (*(_DWORD *)sub_2A665C & 0xFFE00000) == -736100352; /*0x2a6678*/\n  if ( v1 || loc_2A6660 >> 10 == 3508160 || (loc_2A6664 & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a66a4*/\n    abort(); /*0x2a66c4*/\n  if ( result ) /*0x2a66a8*/\n    return *(unsigned __int8 *)(result + 24) == 16; /*0x2a66b4*/\n  return result; /*0x2a66b8*/\n}",
+  "refs": [
+    {
+      "addr": "0x2a665c",
+      "name": "sub_2A665C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x2a6660",
+      "name": "loc_2A6660"
+    },
+    {
+      "addr": "0x2a6664",
+      "name": "loc_2A6664"
+    }
+  ]
+}

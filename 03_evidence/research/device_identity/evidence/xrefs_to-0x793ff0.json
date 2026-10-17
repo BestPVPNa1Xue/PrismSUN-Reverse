@@ -1,0 +1,24 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x793ff0\",\"xrefs\":[],\"more\":false,\"xref_count\":0,\"message\":\"No cross-references to this address\"}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x793ff0",
+          "xrefs": [],
+          "more": false,
+          "xref_count": 0,
+          "message": "No cross-references to this address"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

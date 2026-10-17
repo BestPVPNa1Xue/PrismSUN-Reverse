@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+*.i64
+*.idb
+*.apk
+*.jks
+*.keystore
+*.p12
+local.properties

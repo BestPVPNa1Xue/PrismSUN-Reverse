@@ -1,0 +1,47 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6b98a4\",\"code\":\"__int64 __fastcall sub_6B98A4(_QWORD *a1, __int64 a2, __int64 a3)\\n{\\n  _QWORD *v7; // [xsp-10h] [xbp-10h]\\n\\n  if ( *(_DWORD *)sub_6B98A4 >> 26 == 5 /*0x6b9a0c*/\\n    || *(_DWORD *)sub_6B98A4 >> 21 == 1697\\n    || ((((((((loc_6B98A8 >> 10 == 3508160) << 31 >> 31) + ((loc_6B98AC >> 10 == 3508160) << 31 >> 31)) << 31 >> 31) - 1) << 31 >> 31)\\n       + ((loc_6B98AC >> 10 != 3508160 || loc_6B98A8 >> 10 != 3508160) << 31 >> 31))\\n      & 1) != 0 )\\n  {\\n    sub_6DD618(); /*0x6b9968*/\\n  }\\n  v7 = a1; /*0x6b98f0*/\\n  sub_6DD610(a1); /*0x6b9904*/\\n  *a1 = &off_793DA0; /*0x6b9918*/\\n  return sub_6DD614(a1 + 1, a2, a3); /*0x6b9944*/\\n}\",\"refs\":[{\"addr\":\"0x6dd618\",\"name\":\"sub_6DD618\"},{\"addr\":\"0x6b98a4\",\"name\":\"sub_6B98A4\"},{\"addr\":\"0x6b98a8\",\"name\":\"loc_6B98A8\"},{\"addr\":\"0x6b98ac\",\"name\":\"loc_6B98AC\"},{\"addr\":\"0x6dd610\",\"name\":\"sub_6DD610\"},{\"addr\":\"0x793da0\",\"name\":\"off_793DA0\"},{\"addr\":\"0x6dd614\",\"name\":\"sub_6DD614\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6b98a4",
+      "code": "__int64 __fastcall sub_6B98A4(_QWORD *a1, __int64 a2, __int64 a3)\n{\n  _QWORD *v7; // [xsp-10h] [xbp-10h]\n\n  if ( *(_DWORD *)sub_6B98A4 >> 26 == 5 /*0x6b9a0c*/\n    || *(_DWORD *)sub_6B98A4 >> 21 == 1697\n    || ((((((((loc_6B98A8 >> 10 == 3508160) << 31 >> 31) + ((loc_6B98AC >> 10 == 3508160) << 31 >> 31)) << 31 >> 31) - 1) << 31 >> 31)\n       + ((loc_6B98AC >> 10 != 3508160 || loc_6B98A8 >> 10 != 3508160) << 31 >> 31))\n      & 1) != 0 )\n  {\n    sub_6DD618(); /*0x6b9968*/\n  }\n  v7 = a1; /*0x6b98f0*/\n  sub_6DD610(a1); /*0x6b9904*/\n  *a1 = &off_793DA0; /*0x6b9918*/\n  return sub_6DD614(a1 + 1, a2, a3); /*0x6b9944*/\n}",
+      "refs": [
+        {
+          "addr": "0x6dd618",
+          "name": "sub_6DD618"
+        },
+        {
+          "addr": "0x6b98a4",
+          "name": "sub_6B98A4"
+        },
+        {
+          "addr": "0x6b98a8",
+          "name": "loc_6B98A8"
+        },
+        {
+          "addr": "0x6b98ac",
+          "name": "loc_6B98AC"
+        },
+        {
+          "addr": "0x6dd610",
+          "name": "sub_6DD610"
+        },
+        {
+          "addr": "0x793da0",
+          "name": "off_793DA0"
+        },
+        {
+          "addr": "0x6dd614",
+          "name": "sub_6DD614"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

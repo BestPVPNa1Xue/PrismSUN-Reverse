@@ -1,0 +1,4 @@
+{
+  "addr": "0x2a88b4",
+  "code": "void sub_2A88B4()\n{\n  JUMPOUT(0x2A88B8); /*0x2a88b8*/\n}"
+}

@@ -1,0 +1,1470 @@
+[
+  {
+    "document": "research/accessibility/README.zh-CN.md",
+    "original_target": "REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "evidence/rea/summary.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/rea/summary.json"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "notes/scheduling.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/notes/scheduling.md"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "notes/accessibility-jni.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/notes/accessibility-jni.md"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "evidence/jni-short-strings.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/jni-short-strings.json"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "notes/hash.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/notes/hash.md"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_core.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_core.hpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_core.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_core.cpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_jni.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_jni.hpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_jni.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_jni.cpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_env.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_env.hpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_env.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_env.cpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_monitor.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_monitor.hpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_monitor.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_monitor.cpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "src/accessibility_demo.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_demo.cpp"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "CMakeLists.txt",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/CMakeLists.txt"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "scripts/build.ps1",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/scripts/build.ps1"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "README.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/README.zh-CN.md"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "evidence/core-final-replay.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/core-final-replay.json"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "evidence/jni-env-scope-emulation.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/jni-env-scope-emulation.json"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "evidence/jni-env-build-verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/jni-env-build-verification.json"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "evidence/hash-upstream-scheduling-emulation.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/hash-upstream-scheduling-emulation.json"
+  },
+  {
+    "document": "research/accessibility/REPORT.zh-CN.md",
+    "original_target": "evidence/build.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/build.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/evidence/PROGRESS.before.md",
+    "original_target": "coverage_audit_20261018/REPORT.zh-CN.md",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/chain_closure_20261018/evidence/PROGRESS.before.md",
+    "original_target": "accessibility/REPORT.zh-CN.md",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/chain_closure_20261018/evidence/PROGRESS.before.md",
+    "original_target": "accessibility/README.zh-CN.md",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/chain_closure_20261018/evidence/PROGRESS.before.md",
+    "original_target": "tooling/rea/README.zh-CN.md",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/chain_closure_20261018/README.md",
+    "original_target": "REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/chain_closure_20261018/README.md",
+    "original_target": "CHAIN_NOTES.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/CHAIN_NOTES.zh-CN.md"
+  },
+  {
+    "document": "research/chain_closure_20261018/README.md",
+    "original_target": "src/detection_chains.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/detection_chains.hpp"
+  },
+  {
+    "document": "research/chain_closure_20261018/README.md",
+    "original_target": "src/android_collectors.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/android_collectors.hpp"
+  },
+  {
+    "document": "research/chain_closure_20261018/README.md",
+    "original_target": "src/classes_jni.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/classes_jni.hpp"
+  },
+  {
+    "document": "research/chain_closure_20261018/README.md",
+    "original_target": "evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/verification.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "CHAIN_NOTES.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/CHAIN_NOTES.zh-CN.md"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "src/detection_chains.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/detection_chains.hpp"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "src/detection_chains.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/detection_chains.cpp"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "src/classes_jni.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/classes_jni.cpp"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "src/android_collectors.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/android_collectors.cpp"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "scripts/build.ps1",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/scripts/build.ps1"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/host-tests.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/host-tests.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/jni-tests.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/jni-tests.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/build.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/build.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/verification.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "prism-chain-closure.i64",
+    "status": "rewritten",
+    "target": "05_ida_databases/research/chain_closure_20261018/prism-chain-closure.i64"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "prism-chain-closure.snapshot.i64",
+    "status": "rewritten",
+    "target": "05_ida_databases/research/chain_closure_20261018/prism-chain-closure.snapshot.i64"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/protected-before.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/protected-before.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/protected-after.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/protected-after.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/historical-idb-session.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/historical-idb-session.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "manifest.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/manifest.json"
+  },
+  {
+    "document": "research/chain_closure_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/historical-idb-header-check.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/historical-idb-header-check.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "prism-coverage-audit.i64",
+    "status": "rewritten",
+    "target": "05_ida_databases/research/coverage_audit_20261018/prism-coverage-audit.i64"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../PROGRESS.md",
+    "status": "rewritten",
+    "target": "02_reports/research/PROGRESS.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../mcp_clock/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../mcp_clock/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../environment_memory/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../device_identity/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../device_identity/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../accessibility/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../environment_memory/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-audit.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/coverage_audit_20261018/evidence/ida-audit.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/task-map.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/coverage_audit_20261018/evidence/task-map.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../evidence/differential_policy.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_policy.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../evidence/differential_class_probe.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_class_probe.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../environment_memory/evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/verification.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../device_identity/evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/device_identity/evidence/verification.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../mcp_clock/evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/mcp_clock/evidence/verification.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "../accessibility/evidence/final-verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/accessibility/evidence/final-verification.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/coverage_audit_20261018/evidence/verification.json"
+  },
+  {
+    "document": "research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "original_target": "evidence/protected-before.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/coverage_audit_20261018/evidence/protected-before.json"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../chain_closure_20261018/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../chain_closure_20261018/CHAIN_NOTES.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/CHAIN_NOTES.zh-CN.md"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../chain_closure_20261018/src/detection_chains.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/detection_chains.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../chain_closure_20261018/src/android_collectors.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/android_collectors.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../chain_closure_20261018/src/classes_jni.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/chain_closure_20261018/src/classes_jni.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../environment_memory/src/environment_memory.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/environment_memory/src/environment_memory.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../environment_memory/src/input_methods_jni.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/environment_memory/src/input_methods_jni.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../accessibility/src/accessibility_monitor.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/accessibility/src/accessibility_monitor.hpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../device_identity/src/android_adapter.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/device_identity/src/android_adapter.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../mcp_clock/src/mcp_chain.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/mcp_clock/src/mcp_chain.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../src/verified_helpers.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/src/verified_helpers.cpp"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../coverage_audit_20261018/evidence/task-map.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/coverage_audit_20261018/evidence/task-map.json"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../device_identity/src/android_adapter.cpp:110",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../aggregate/CMakeLists.txt:59",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../scripts/build_all_detections.ps1:83",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../scripts/package_source.ps1:26",
+    "status": "historical_unresolved"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "ida-spot-check.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/debug_apk_assessment_20261018/ida-spot-check.json"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "../chain_closure_20261018/evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/chain_closure_20261018/evidence/verification.json"
+  },
+  {
+    "document": "research/debug_apk_assessment_20261018/REPORT.zh-CN.md",
+    "original_target": "verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/debug_apk_assessment_20261018/verification.json"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "../mcp_clock/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "../mcp_clock/README.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/README.md"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "evidence.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/detection_inventory/evidence.json"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "../evidence/stage2_strings.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/stage2_strings.json"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "../decompiled/0x3b3860.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x3b3860.json"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "../decompiled/0xf5198.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0xf5198.json"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "../REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/detection_inventory/README.zh-CN.md",
+    "original_target": "../environment_memory/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/device_identity/README.md",
+    "original_target": "REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/device_identity/README.md",
+    "original_target": "evidence/INDEX.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/evidence/INDEX.md"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x449dd0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x449dd0.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-path-test-asm.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-path-test-asm.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x26b1f0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x26b1f0.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x44d0b8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x44d0b8.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-maps-asm.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-maps-asm.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x18b190.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x18b190.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0xcb11c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0xcb11c.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x44a5c0-recovered.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x44a5c0-recovered.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x44c594.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x44c594.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x5cc630.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x5cc630.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x5f917c-recovered.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x5f917c-recovered.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x5fb6b0-recovered.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x5fb6b0-recovered.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x34adcc.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x34adcc.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x6f4218.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6f4218.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x66e838.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x66e838.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x68cbe0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x68cbe0.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x6ab3d8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6ab3d8.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x6ae288.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6ae288.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x6b0998.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6b0998.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x47df58.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x47df58.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-0x471c8c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x471c8c.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ida-bounded-string-search.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-bounded-string-search.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "inherited-string-evidence.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/inherited-string-evidence.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "digest-differential.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/digest-differential.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "ime-hash-differential.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ime-hash-differential.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "../../evidence/environment_asm_0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_0.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "../../evidence/environment_asm_256.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_256.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "../../evidence/environment_asm_512.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_512.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "../../evidence/differential_policy.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_policy.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "../../evidence/differential_class_probe.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_class_probe.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "host-tests.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/host-tests.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "jni-tests.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/jni-tests.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "build.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/build.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "offline-baseline.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/offline-baseline.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/verification.json"
+  },
+  {
+    "document": "research/environment_memory/evidence/INDEX.md",
+    "original_target": "../manifest.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/manifest.json"
+  },
+  {
+    "document": "research/environment_memory/README.md",
+    "original_target": "REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/environment_memory/README.md",
+    "original_target": "evidence/INDEX.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/evidence/INDEX.md"
+  },
+  {
+    "document": "research/environment_memory/README.md",
+    "original_target": "evidence/host-tests.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/host-tests.json"
+  },
+  {
+    "document": "research/environment_memory/README.md",
+    "original_target": "evidence/jni-tests.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/jni-tests.json"
+  },
+  {
+    "document": "research/environment_memory/README.md",
+    "original_target": "evidence/build.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/build.json"
+  },
+  {
+    "document": "research/environment_memory/README.md",
+    "original_target": "evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/verification.json"
+  },
+  {
+    "document": "research/environment_memory/README.md",
+    "original_target": "manifest.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/manifest.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/INDEX.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/evidence/INDEX.md"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x449dd0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x449dd0.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-path-test-asm.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-path-test-asm.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/digest-differential.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/digest-differential.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x44d0b8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x44d0b8.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-maps-asm.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-maps-asm.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x5cc630.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x5cc630.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "../evidence/environment_asm_256.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_256.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "../evidence/environment_asm_512.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_512.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/inherited-string-evidence.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/inherited-string-evidence.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "../REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "../evidence/0x4c3778_asm_0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/0x4c3778_asm_0.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x47df58.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x47df58.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x471c8c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x471c8c.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x34adcc.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x34adcc.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/inherited-string-evidence.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/inherited-string-evidence.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x6f4218.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6f4218.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ime-hash-differential.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ime-hash-differential.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "../accessibility/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-bounded-string-search.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-bounded-string-search.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x6ab3d8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6ab3d8.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "../device_identity/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x650898.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x650898.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x66e838.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x66e838.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x6ab3d8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6ab3d8.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x68cbe0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x68cbe0.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/ida-0x6f4218.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/ida-0x6f4218.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "src/environment_memory.hpp",
+    "status": "rewritten",
+    "target": "01_source/research/environment_memory/src/environment_memory.hpp"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "src/environment_memory.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/environment_memory/src/environment_memory.cpp"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "src/input_methods_jni.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/environment_memory/src/input_methods_jni.cpp"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "README.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/README.md"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/resume-before.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/resume-before.json"
+  },
+  {
+    "document": "research/environment_memory/REPORT.zh-CN.md",
+    "original_target": "evidence/verification.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/environment_memory/evidence/verification.json"
+  },
+  {
+    "document": "research/mcp_clock/README.md",
+    "original_target": "REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/mcp_clock/README.md",
+    "original_target": "evidence/INDEX.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/evidence/INDEX.md"
+  },
+  {
+    "document": "research/PROGRESS.md",
+    "original_target": "chain_closure_20261018/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/PROGRESS.md",
+    "original_target": "chain_closure_20261018/CHAIN_NOTES.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/CHAIN_NOTES.zh-CN.md"
+  },
+  {
+    "document": "research/PROGRESS.md",
+    "original_target": "chain_closure_20261018/README.md",
+    "status": "rewritten",
+    "target": "02_reports/research/chain_closure_20261018/README.md"
+  },
+  {
+    "document": "research/PROGRESS.md",
+    "original_target": "coverage_audit_20261018/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/coverage_audit_20261018/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/PROGRESS.md",
+    "original_target": "accessibility/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/PROGRESS.md",
+    "original_target": "accessibility/README.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/accessibility/README.zh-CN.md"
+  },
+  {
+    "document": "research/PROGRESS.md",
+    "original_target": "tooling/rea/README.zh-CN.md",
+    "status": "rewritten",
+    "target": "08_history/legacy_tooling/research/tooling/rea/README.zh-CN.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "mcp_clock/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "mcp_clock/README.md",
+    "status": "rewritten",
+    "target": "02_reports/research/mcp_clock/README.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "environment_memory/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "environment_memory/README.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/README.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "PROGRESS.md",
+    "status": "rewritten",
+    "target": "02_reports/research/PROGRESS.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "device_identity/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "device_identity/README.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/README.md"
+  },
+  {
+    "document": "research/README.md",
+    "original_target": "device_identity/evidence/INDEX.md",
+    "status": "rewritten",
+    "target": "02_reports/research/device_identity/evidence/INDEX.md"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "environment_memory/REPORT.zh-CN.md",
+    "status": "rewritten",
+    "target": "02_reports/research/environment_memory/REPORT.zh-CN.md"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/survey.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/survey.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/elf_inventory.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/elf_inventory.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/getSharedMemory.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/getSharedMemory.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/startParadise.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/startParadise.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x4c89cc.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x4c89cc.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x4cb88c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x4cb88c.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/stage2_strings.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/stage2_strings.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/digest_decode.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/digest_decode.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/digest_decode_emulation.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/digest_decode_emulation.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/environment_asm_0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_0.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/environment_asm_256.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_256.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/environment_asm_512.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/environment_asm_512.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/0x4c3778_asm_0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/0x4c3778_asm_0.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/differential_models.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_models.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/seccomp_policy_asm_0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/seccomp_policy_asm_0.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/seccomp_policy_asm_256.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/seccomp_policy_asm_256.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/sigsys_syscall_asm.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/sigsys_syscall_asm.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/differential_policy.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_policy.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "src/observed_models.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/src/observed_models.cpp"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x37843c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x37843c.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x4c0718.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x4c0718.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x3780ec.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x3780ec.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x7153a8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x7153a8.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x5a7be4.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x5a7be4.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x5ae1d4.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x5ae1d4.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x4df3c8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x4df3c8.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x7153a8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x7153a8.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x6cf0c8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x6cf0c8.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x6f4218.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x6f4218.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/clock_ids.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/clock_ids.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x140c9c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x140c9c.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x744750.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x744750.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0xf5198.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0xf5198.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/class_probe_asm_0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/class_probe_asm_0.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/class_probe_asm_350.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/class_probe_asm_350.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "src/jni_layout_check.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/src/jni_layout_check.cpp"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "src/class_probe_model.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/src/class_probe_model.cpp"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/differential_class_probe.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_class_probe.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x3b8c40.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x3b8c40.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x3d764c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x3d764c.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x3d832c.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x3d832c.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "decompiled/0x44d0b8.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/decompiled/0x44d0b8.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/stage2_strings.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/stage2_strings.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/state_offset_candidates.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/state_offset_candidates.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/result_constructor_asm.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/result_constructor_asm.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/shared_reader_asm_0.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/shared_reader_asm_0.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/shared_reader_asm_200.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/shared_reader_asm_200.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "src/shared_ring_model.cpp",
+    "status": "rewritten",
+    "target": "01_source/research/src/shared_ring_model.cpp"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/differential_shared_ring.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/differential_shared_ring.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/build_helpers.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/build_helpers.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/build_models.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/build_models.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/build_shared_ring.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/build_shared_ring.json"
+  },
+  {
+    "document": "research/REPORT.zh-CN.md",
+    "original_target": "evidence/build_class_probe.json",
+    "status": "rewritten",
+    "target": "03_evidence/research/evidence/build_class_probe.json"
+  }
+]

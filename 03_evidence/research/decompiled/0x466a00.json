@@ -1,0 +1,26 @@
+{
+  "addr": "0x466a00",
+  "code": "__int64 __fastcall sub_466A00(int a1, const char *a2, int a3)\n{\n  unsigned __int64 v4; // [xsp-A0h] [xbp-A0h]\n\n  if ( *(_DWORD *)sub_466A00 >> 26 == 5 /*0x466bac*/\n    || *(_DWORD *)sub_466A00 >> 21 == 1697\n    || ((((((((loc_466A04 >> 10 == 3508160) << 31 >> 31) + ((loc_466A08 >> 10 == 3508160) << 31 >> 31)) << 31 >> 31) - 1) << 31 >> 31)\n       + ((loc_466A08 >> 10 != 3508160 || loc_466A04 >> 10 != 3508160) << 31 >> 31))\n      & 1) != 0 )\n  {\n    abort(); /*0x466b0c*/\n  }\n  v4 = linux_eabi_syscall(__NR_openat, a1, a2, a3); /*0x466ab8*/\n  if ( v4 >= 0xFFFFFFFFFFFFF001LL ) /*0x466acc*/\n  {\n    *(_DWORD *)__errno() = -(int)v4; /*0x466ae4*/\n    return -1; /*0x466aec*/\n  }\n  return v4; /*0x466b04*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x466a00",
+      "name": "sub_466A00"
+    },
+    {
+      "addr": "0x466a04",
+      "name": "loc_466A04"
+    },
+    {
+      "addr": "0x466a08",
+      "name": "loc_466A08"
+    },
+    {
+      "addr": "0x78a5e0",
+      "name": ".__errno"
+    }
+  ]
+}

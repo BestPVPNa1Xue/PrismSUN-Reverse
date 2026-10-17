@@ -1,0 +1,50 @@
+{
+  "addr": "0x4c89cc",
+  "code": "__int64 __fastcall sub_4C89CC(__int64 a1)\n{\n  __int64 v2; // x0\n  __int64 result; // x0\n  char v4; // [xsp-60h] [xbp-70h]\n  int v5; // [xsp-50h] [xbp-60h]\n  _QWORD v6[10]; // [xsp-40h] [xbp-50h] BYREF\n\n  v6[9] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4c89ec*/\n  if ( (*(_DWORD *)sub_4C89CC >> 26 == 5) ^ (*(_DWORD *)sub_4C89CC >> 21 == 1697) /*0x4c8c30*/\n     | (*(_DWORD *)sub_4C89CC >> 26 == 5 && *(_DWORD *)sub_4C89CC >> 21 == 1697)\n    || loc_4C89D0 >> 10 == 3508160\n    || loc_4C89D4 >> 10 == 3508160 )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x4c8b7c*/\n    abort(); /*0x4c8b90*/\n  }\n  v6[6] = a1; /*0x4c8a28*/\n  do /*0x4c8afc*/\n  {\n    sub_591E24(v6, &unk_7B06A4); /*0x4c8a3c*/\n    if ( (((__int64 (__fastcall *)(_QWORD *))loc_4CB214)(v6) & 1) != 0 ) /*0x4c8a48*/\n    {\n      v4 = *(_BYTE *)((__int64 (__fastcall *)(_QWORD *))loc_4CB4F8)(v6); /*0x4c8a74*/\n      v2 = ((__int64 (__fastcall *)(_QWORD *))loc_4CC1E0)(v6); /*0x4c8a7c*/\n      sub_56B7EC(a1, v2); /*0x4c8a88*/\n      if ( v4 == 4 || v4 == 1 ) /*0x4c8ab0*/\n        v5 = 3; /*0x4c8ab8*/\n      else\n        v5 = 0; /*0x4c8ad4*/\n      if ( !v5 ) /*0x4c8adc*/\n        v5 = 0; /*0x4c8ae4*/\n    }\n    else\n    {\n      v5 = 3; /*0x4c8a58*/\n    }\n    result = ((__int64 (__fastcall *)(_QWORD *))loc_4CC5D4)(v6); /*0x4c8af0*/\n  }\n  while ( v5 < 3 ); /*0x4c8afc*/\n  _ReadStatusReg(TPIDR_EL0); /*0x4c8b24*/\n  return result; /*0x4c8b4c*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x4c89cc",
+      "name": "sub_4C89CC"
+    },
+    {
+      "addr": "0x4c89d0",
+      "name": "loc_4C89D0"
+    },
+    {
+      "addr": "0x4c89d4",
+      "name": "loc_4C89D4"
+    },
+    {
+      "addr": "0x591e24",
+      "name": "sub_591E24"
+    },
+    {
+      "addr": "0x7b06a4",
+      "name": "unk_7B06A4"
+    },
+    {
+      "addr": "0x4cb4f8",
+      "name": "loc_4CB4F8"
+    },
+    {
+      "addr": "0x4cc1e0",
+      "name": "loc_4CC1E0"
+    },
+    {
+      "addr": "0x56b7ec",
+      "name": "sub_56B7EC"
+    },
+    {
+      "addr": "0x4cb214",
+      "name": "loc_4CB214"
+    },
+    {
+      "addr": "0x4cc5d4",
+      "name": "loc_4CC5D4"
+    }
+  ]
+}

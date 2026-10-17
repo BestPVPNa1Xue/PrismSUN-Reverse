@@ -1,0 +1,4 @@
+{
+  "addr": "0x47a44c",
+  "code": "void sub_47A44C()\n{\n  int i; // [xsp+54h] [xbp-Ch]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x47a46c*/\n  for ( i = -1178734106; i == -1178734106; i = 1837532090 ) /*0x47a488*/\n    ; /*0x47a9c4*/\n  JUMPOUT(0x47A5E0); /*0x47a5e0*/\n}"
+}

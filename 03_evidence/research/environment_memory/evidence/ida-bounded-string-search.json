@@ -1,0 +1,10 @@
+{
+  "scope": "IDA recognized strings only, cache size 685 at session open. Encrypted strings/config/runtime not exhaustively searched.",
+  "result": {
+    "n": 0,
+    "matches": [],
+    "cursor": {
+      "done": true
+    }
+  }
+}

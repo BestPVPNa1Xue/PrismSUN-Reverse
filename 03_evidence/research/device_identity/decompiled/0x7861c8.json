@@ -1,0 +1,49 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x7861c8\",\"code\":\"void sub_7861C8()\\n{\\n  __int64 v0; // x30\\n  unsigned __int64 v1; // x19\\n  _QWORD v2[14]; // [xsp+0h] [xbp-70h] BYREF\\n\\n  if ( !unk_7D1BB8 ) /*0x7861d4*/\\n  {\\n    v2[12] = v0; /*0x7861e4*/\\n    if ( (int)__system_property_get(\\\"ro.arch\\\", v2) <= 0 || strncmp((const char *)v2, \\\"exynos9810\\\", 0xAu) ) /*0x786210*/\\n    {\\n      v1 = getauxval(0x10u); /*0x786220*/\\n      v2[2] = getauxval(0x1Au); /*0x786230*/\\n      v2[0] = 24; /*0x78623c*/\\n      v2[1] = v1; /*0x78623c*/\\n      sub_785C2C(v1 | 0x4000000000000000LL, v2); /*0x786240*/\\n    }\\n  }\\n}\",\"refs\":[{\"addr\":\"0x78a530\",\"name\":\".getauxval\"},{\"addr\":\"0x785c2c\",\"name\":\"sub_785C2C\"},{\"addr\":\"0x78a840\",\"name\":\".__system_property_get\"},{\"addr\":\"0x3405a\",\"name\":\"aRoArch\",\"string\":\"ro.arch\"},{\"addr\":\"0x78a880\",\"name\":\".strncmp\"},{\"addr\":\"0x34350\",\"name\":\"aExynos9810\",\"string\":\"exynos9810\"},{\"addr\":\"0x7d1bb8\",\"name\":\"unk_7D1BB8\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x7861c8",
+      "code": "void sub_7861C8()\n{\n  __int64 v0; // x30\n  unsigned __int64 v1; // x19\n  _QWORD v2[14]; // [xsp+0h] [xbp-70h] BYREF\n\n  if ( !unk_7D1BB8 ) /*0x7861d4*/\n  {\n    v2[12] = v0; /*0x7861e4*/\n    if ( (int)__system_property_get(\"ro.arch\", v2) <= 0 || strncmp((const char *)v2, \"exynos9810\", 0xAu) ) /*0x786210*/\n    {\n      v1 = getauxval(0x10u); /*0x786220*/\n      v2[2] = getauxval(0x1Au); /*0x786230*/\n      v2[0] = 24; /*0x78623c*/\n      v2[1] = v1; /*0x78623c*/\n      sub_785C2C(v1 | 0x4000000000000000LL, v2); /*0x786240*/\n    }\n  }\n}",
+      "refs": [
+        {
+          "addr": "0x78a530",
+          "name": ".getauxval"
+        },
+        {
+          "addr": "0x785c2c",
+          "name": "sub_785C2C"
+        },
+        {
+          "addr": "0x78a840",
+          "name": ".__system_property_get"
+        },
+        {
+          "addr": "0x3405a",
+          "name": "aRoArch",
+          "string": "ro.arch"
+        },
+        {
+          "addr": "0x78a880",
+          "name": ".strncmp"
+        },
+        {
+          "addr": "0x34350",
+          "name": "aExynos9810",
+          "string": "exynos9810"
+        },
+        {
+          "addr": "0x7d1bb8",
+          "name": "unk_7D1BB8"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

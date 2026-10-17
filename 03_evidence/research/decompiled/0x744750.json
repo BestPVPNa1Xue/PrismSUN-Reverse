@@ -1,0 +1,23 @@
+{
+  "addr": "0x744750",
+  "code": "__syscall_slong_t sub_744750()\n{\n  unsigned int *v1; // x0\n  struct timespec v2; // [xsp+0h] [xbp-10h] BYREF\n\n  if ( clock_gettime(1, &v2) ) /*0x744768*/\n  {\n    v1 = (unsigned int *)__errno(); /*0x744790*/\n    sub_747568(*v1, \"clock_gettime(CLOCK_MONOTONIC) failed\"); /*0x7447a0*/\n  }\n  return v2.tv_nsec + 1000000000 * v2.tv_sec; /*0x74478c*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a5e0",
+      "name": ".__errno"
+    },
+    {
+      "addr": "0x747568",
+      "name": "sub_747568"
+    },
+    {
+      "addr": "0x33ec9",
+      "name": "aClockGettimeCl",
+      "string": "clock_gettime(CLOCK_MONOTONIC) failed"
+    },
+    {
+      "addr": "0x78a540",
+      "name": ".clock_gettime"
+    }
+  ]
+}

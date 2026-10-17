@@ -1,0 +1,62 @@
+{
+  "addr": "0xb6704",
+  "code": "size_t __fastcall sub_B6704(_QWORD *a1, char *s)\n{\n  bool v2; // zf\n  size_t result; // x0\n\n  v2 = *(_DWORD *)sub_B6704 >> 26 == 5 || (*(_DWORD *)sub_B6704 & 0xFFE00000) == -736100352; /*0xb672c*/\n  if ( v2 /*0xb682c*/\n    || loc_B6708 >> 10 == 3508160\n    || (loc_B670C & 0xFFFFFC00) == 0xD61F0000\n    || (*a1 = s, *(_DWORD *)sub_19C04C >> 26 == 5)\n    || (*(_DWORD *)sub_19C04C & 0xFFE00000) == 0xD4200000\n    || (loc_19C050 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_19C054 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_19C134 >> 26 == 5\n    || (*(_DWORD *)sub_19C134 & 0xFFE00000) == 0xD4200000\n    || (loc_19C138 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_19C13C & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_19C1D8 >> 26 == 5\n    || (*(_DWORD *)sub_19C1D8 & 0xFFE00000) == 0xD4200000\n    || (loc_19C1DC & 0xFFFFFC00) == 0xD61F0000\n    || (loc_19C1E0 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0xb6848*/\n  }\n  result = strlen(s); /*0xb6834*/\n  a1[1] = result; /*0xb6838*/\n  return result; /*0xb6844*/\n}",
+  "refs": [
+    {
+      "addr": "0xb6704",
+      "name": "sub_B6704"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0xb6708",
+      "name": "loc_B6708"
+    },
+    {
+      "addr": "0xb670c",
+      "name": "loc_B670C"
+    },
+    {
+      "addr": "0x19c04c",
+      "name": "sub_19C04C"
+    },
+    {
+      "addr": "0x19c050",
+      "name": "loc_19C050"
+    },
+    {
+      "addr": "0x19c054",
+      "name": "loc_19C054"
+    },
+    {
+      "addr": "0x19c134",
+      "name": "sub_19C134"
+    },
+    {
+      "addr": "0x19c138",
+      "name": "loc_19C138"
+    },
+    {
+      "addr": "0x19c13c",
+      "name": "loc_19C13C"
+    },
+    {
+      "addr": "0x19c1d8",
+      "name": "sub_19C1D8"
+    },
+    {
+      "addr": "0x19c1dc",
+      "name": "loc_19C1DC"
+    },
+    {
+      "addr": "0x19c1e0",
+      "name": "loc_19C1E0"
+    },
+    {
+      "addr": "0x78a4e0",
+      "name": ".strlen"
+    }
+  ]
+}

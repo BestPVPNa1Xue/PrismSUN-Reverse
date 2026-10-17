@@ -1,0 +1,156 @@
+[
+  {
+    "size": 0,
+    "head": 0,
+    "tail": 0,
+    "record_type": 5,
+    "return_value": 1,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 15294,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": []
+    },
+    "output_file": "ring-0.bin"
+  },
+  {
+    "size": 1,
+    "head": 0,
+    "tail": 0,
+    "record_type": 5,
+    "return_value": 1,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 15811,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a670"
+      ]
+    },
+    "output_file": "ring-1.bin"
+  },
+  {
+    "size": 4088,
+    "head": 0,
+    "tail": 0,
+    "record_type": 5,
+    "return_value": 1,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 15794,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a670"
+      ]
+    },
+    "output_file": "ring-2.bin"
+  },
+  {
+    "size": 4089,
+    "head": 15,
+    "tail": 15,
+    "record_type": 5,
+    "return_value": 1,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 18496,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a670"
+      ]
+    },
+    "output_file": "ring-3.bin"
+  },
+  {
+    "size": 65408,
+    "head": 0,
+    "tail": 0,
+    "record_type": 5,
+    "return_value": 1,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 56324,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a670"
+      ]
+    },
+    "output_file": "ring-4.bin"
+  },
+  {
+    "size": 65409,
+    "head": 0,
+    "tail": 0,
+    "record_type": 5,
+    "return_value": 0,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 2553,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": []
+    },
+    "output_file": "ring-5.bin"
+  },
+  {
+    "size": 1,
+    "head": 16,
+    "tail": 0,
+    "record_type": 5,
+    "return_value": 0,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 7631,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": []
+    },
+    "output_file": "ring-6.bin"
+  },
+  {
+    "size": 1,
+    "head": 4294967295,
+    "tail": 4294967295,
+    "record_type": 5,
+    "return_value": 1,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 15811,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a670"
+      ]
+    },
+    "output_file": "ring-7.bin"
+  },
+  {
+    "size": 4089,
+    "head": 15,
+    "tail": 0,
+    "record_type": 5,
+    "return_value": 0,
+    "run": {
+      "entry": "0x591b70",
+      "reason": "returned",
+      "steps": 7614,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": []
+    },
+    "output_file": "ring-8.bin"
+  }
+]

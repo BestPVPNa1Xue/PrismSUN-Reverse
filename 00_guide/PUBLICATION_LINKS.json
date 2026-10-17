@@ -1,0 +1,27 @@
+[
+  {
+    "document": "00_guide/CURRENT_STATUS.zh-CN.md",
+    "archive_target": "../07_application/PrismDetector/evidence/v1.2.0/VALIDATION.zh-CN.md",
+    "published_target": "https://github.com/BestPVPNa1Xue/PrismSUN-Reverse/releases/download/research-2026-10-18-r1/PrismSUN-research-20261018-r1.zip"
+  },
+  {
+    "document": "02_reports/research/PROGRESS.md",
+    "archive_target": "../../08_history/legacy_tooling/research/tooling/rea/README.zh-CN.md",
+    "published_target": "https://github.com/BestPVPNa1Xue/PrismSUN-Reverse/releases/download/research-2026-10-18-r1/PrismSUN-research-20261018-r1.zip"
+  },
+  {
+    "document": "02_reports/research/chain_closure_20261018/REPORT.zh-CN.md",
+    "archive_target": "../../../05_ida_databases/research/chain_closure_20261018/prism-chain-closure.i64",
+    "published_target": "https://github.com/BestPVPNa1Xue/PrismSUN-Reverse/releases/download/research-2026-10-18-r1/PrismSUN-research-20261018-r1.zip"
+  },
+  {
+    "document": "02_reports/research/chain_closure_20261018/REPORT.zh-CN.md",
+    "archive_target": "../../../05_ida_databases/research/chain_closure_20261018/prism-chain-closure.snapshot.i64",
+    "published_target": "https://github.com/BestPVPNa1Xue/PrismSUN-Reverse/releases/download/research-2026-10-18-r1/PrismSUN-research-20261018-r1.zip"
+  },
+  {
+    "document": "02_reports/research/coverage_audit_20261018/REPORT.zh-CN.md",
+    "archive_target": "../../../05_ida_databases/research/coverage_audit_20261018/prism-coverage-audit.i64",
+    "published_target": "https://github.com/BestPVPNa1Xue/PrismSUN-Reverse/releases/download/research-2026-10-18-r1/PrismSUN-research-20261018-r1.zip"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x2a8358\",\"code\":\"__int64 sub_2A8358()\\n{\\n  bool v0; // zf\\n  __int64 result; // x0\\n\\n  v0 = *(_DWORD *)sub_2A8358 >> 26 == 5 || (*(_DWORD *)sub_2A8358 & 0xFFE00000) == -736100352; /*0x2a837c*/\\n  if ( v0 || loc_2A835C >> 10 == 3508160 || (loc_2A8360 & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a83a8*/\\n    abort(); /*0x2a83cc*/\\n  result = sub_2A708C(&off_7ABAE8); /*0x2a83b4*/\\n  if ( result ) /*0x2a83b8*/\\n    *(_DWORD *)(result + 24) = 32; /*0x2a83c0*/\\n  return result; /*0x2a83c8*/\\n}\",\"refs\":[{\"addr\":\"0x2a8358\",\"name\":\"sub_2A8358\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x2a835c\",\"name\":\"loc_2A835C\"},{\"addr\":\"0x2a8360\",\"name\":\"loc_2A8360\"},{\"addr\":\"0x2a708c\",\"name\":\"sub_2A708C\"},{\"addr\":\"0x7abae8\",\"name\":\"off_7ABAE8\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x2a8358",
+      "code": "__int64 sub_2A8358()\n{\n  bool v0; // zf\n  __int64 result; // x0\n\n  v0 = *(_DWORD *)sub_2A8358 >> 26 == 5 || (*(_DWORD *)sub_2A8358 & 0xFFE00000) == -736100352; /*0x2a837c*/\n  if ( v0 || loc_2A835C >> 10 == 3508160 || (loc_2A8360 & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a83a8*/\n    abort(); /*0x2a83cc*/\n  result = sub_2A708C(&off_7ABAE8); /*0x2a83b4*/\n  if ( result ) /*0x2a83b8*/\n    *(_DWORD *)(result + 24) = 32; /*0x2a83c0*/\n  return result; /*0x2a83c8*/\n}",
+      "refs": [
+        {
+          "addr": "0x2a8358",
+          "name": "sub_2A8358"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x2a835c",
+          "name": "loc_2A835C"
+        },
+        {
+          "addr": "0x2a8360",
+          "name": "loc_2A8360"
+        },
+        {
+          "addr": "0x2a708c",
+          "name": "sub_2A708C"
+        },
+        {
+          "addr": "0x7abae8",
+          "name": "off_7ABAE8"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

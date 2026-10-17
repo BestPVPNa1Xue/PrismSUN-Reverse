@@ -1,0 +1,18 @@
+{
+  "source": "0x7af3cc",
+  "writer": "0x5b8a10",
+  "intermediate": [
+    156,
+    103,
+    190,
+    184,
+    223,
+    12,
+    117,
+    241
+  ],
+  "decoder": "0x5c433c",
+  "key": "0xf14339ed95ff2fcf",
+  "plaintext": "SHA-256\u0000",
+  "evidence": "0x5c45d0..0x5c45f8; thunk 0x5cc540"
+}

@@ -1,0 +1,54 @@
+{
+  "addr": "0x130b00",
+  "code": "__int64 __fastcall sub_130B00(__int64 *a1, _QWORD *a2)\n{\n  bool v2; // zf\n  __int64 result; // x0\n\n  v2 = *(_DWORD *)sub_130B00 >> 26 == 5 || (*(_DWORD *)sub_130B00 & 0xFFE00000) == -736100352; /*0x130b2c*/\n  if ( v2 /*0x130bf8*/\n    || loc_130B04 >> 10 == 3508160\n    || (loc_130B08 & 0xFFFFFC00) == 0xD61F0000\n    || (result = sub_1BC20C(&unk_3D77D), *a1 = result, *(_DWORD *)sub_1BC2F8 >> 26 == 5)\n    || (*(_DWORD *)sub_1BC2F8 & 0xFFE00000) == 0xD4200000\n    || (loc_1BC2FC & 0xFFFFFC00) == 0xD61F0000\n    || (loc_1BC300 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_C4844 >> 26 == 5\n    || (*(_DWORD *)sub_C4844 & 0xFFE00000) == 0xD4200000\n    || (loc_C4848 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_C484C & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0x130c18*/\n  }\n  a1[1] = a2[1] - *a2; /*0x130c08*/\n  return result; /*0x130c14*/\n}",
+  "refs": [
+    {
+      "addr": "0x130b00",
+      "name": "sub_130B00"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x130b04",
+      "name": "loc_130B04"
+    },
+    {
+      "addr": "0x130b08",
+      "name": "loc_130B08"
+    },
+    {
+      "addr": "0x1bc20c",
+      "name": "sub_1BC20C"
+    },
+    {
+      "addr": "0x3d77d",
+      "name": "unk_3D77D"
+    },
+    {
+      "addr": "0x1bc2f8",
+      "name": "sub_1BC2F8"
+    },
+    {
+      "addr": "0x1bc2fc",
+      "name": "loc_1BC2FC"
+    },
+    {
+      "addr": "0x1bc300",
+      "name": "loc_1BC300"
+    },
+    {
+      "addr": "0xc4844",
+      "name": "sub_C4844"
+    },
+    {
+      "addr": "0xc4848",
+      "name": "loc_C4848"
+    },
+    {
+      "addr": "0xc484c",
+      "name": "loc_C484C"
+    }
+  ]
+}

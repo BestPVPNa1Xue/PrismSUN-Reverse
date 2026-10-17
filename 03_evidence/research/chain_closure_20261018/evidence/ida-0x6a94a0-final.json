@@ -1,0 +1,10 @@
+{
+  "addr": "0x6a94a0",
+  "code": "__int64 __fastcall sub_6A94A0(__int64 result)\n{\n  int v1; // w19\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\n\n  v1 = result; /*0x6a94b0*/\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6a94c0*/\n  HIDWORD(savedregs[2]) = 844869621; /*0x6a94cc*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x6a94d4*/\n  while ( 1 ) /*0x6a9510*/\n  {\n    while ( HIDWORD(savedregs[2]) == -1013750973 ) /*0x6a9510*/\n    {\n      LODWORD(savedregs[2]) = v1; /*0x6a95d0*/\n      result = sub_6A9794(); /*0x6a95d8*/\n      HIDWORD(savedregs[2]) = 989452083; /*0x6a95e8*/\n    }\n    if ( HIDWORD(savedregs[2]) != 844869621 ) /*0x6a954c*/\n      break; /*0x6a954c*/\n    HIDWORD(savedregs[2]) = -1013750973; /*0x6a95b4*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6a95f0*/\n  return result; /*0x6a9610*/\n}",
+  "refs": [
+    {
+      "addr": "0x6a9794",
+      "name": "sub_6A9794"
+    }
+  ]
+}

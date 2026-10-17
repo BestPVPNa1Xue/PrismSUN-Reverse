@@ -1,0 +1,44 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x713bd8\",\"xrefs\":[{\"addr\":\"0x713998\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x713e88\",\"type\":\"data\",\"fn\":null},{\"addr\":\"0x713f08\",\"type\":\"data\",\"fn\":null},{\"addr\":\"0x713f28\",\"type\":\"data\",\"fn\":null}],\"more\":false,\"xref_count\":4}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x713bd8",
+          "xrefs": [
+            {
+              "addr": "0x713998",
+              "type": "code",
+              "fn": null
+            },
+            {
+              "addr": "0x713e88",
+              "type": "data",
+              "fn": null
+            },
+            {
+              "addr": "0x713f08",
+              "type": "data",
+              "fn": null
+            },
+            {
+              "addr": "0x713f28",
+              "type": "data",
+              "fn": null
+            }
+          ],
+          "more": false,
+          "xref_count": 4
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

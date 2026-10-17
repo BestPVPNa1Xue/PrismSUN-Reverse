@@ -1,0 +1,13 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"ok\":true,\"path\":\"D:\\\\PrismSUN\\\\research\\\\accessibility\\\\prism-accessibility.i64\"}"
+    }
+  ],
+  "structuredContent": {
+    "ok": true,
+    "path": "D:\\PrismSUN\\research\\accessibility\\prism-accessibility.i64"
+  },
+  "isError": false
+}

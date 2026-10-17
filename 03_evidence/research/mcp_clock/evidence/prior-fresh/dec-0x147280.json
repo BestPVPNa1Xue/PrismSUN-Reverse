@@ -1,0 +1,38 @@
+{
+  "addr": "0x147280",
+  "code": "__int64 __fastcall sub_147280(_QWORD *a1)\n{\n  bool v1; // zf\n  _QWORD v3[4]; // [xsp-10h] [xbp-20h] BYREF\n\n  v3[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x1472a0*/\n  v1 = *(_DWORD *)sub_147280 >> 26 == 5 || (*(_DWORD *)sub_147280 & 0xFFE00000) == -736100352; /*0x1472b8*/\n  if ( v1 /*0x147374*/\n    || loc_147284 >> 10 == 3508160\n    || (loc_147288 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_20C158 >> 26 == 5\n    || (*(_DWORD *)sub_20C158 & 0xFFE00000) == 0xD4200000\n    || (loc_20C15C & 0xFFFFFC00) == 0xD61F0000\n    || (loc_20C160 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0x1473b0*/\n  }\n  sub_228A80(v3, *a1 + 12LL, 20); /*0x147388*/\n  return v3[0]; /*0x1473ac*/\n}",
+  "refs": [
+    {
+      "addr": "0x147280",
+      "name": "sub_147280"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x147284",
+      "name": "loc_147284"
+    },
+    {
+      "addr": "0x147288",
+      "name": "loc_147288"
+    },
+    {
+      "addr": "0x20c158",
+      "name": "sub_20C158"
+    },
+    {
+      "addr": "0x20c15c",
+      "name": "loc_20C15C"
+    },
+    {
+      "addr": "0x20c160",
+      "name": "loc_20C160"
+    },
+    {
+      "addr": "0x228a80",
+      "name": "sub_228A80"
+    }
+  ]
+}

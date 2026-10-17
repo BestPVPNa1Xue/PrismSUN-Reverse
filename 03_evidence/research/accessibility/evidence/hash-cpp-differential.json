@@ -1,0 +1,261 @@
+{
+  "source_sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "dll": "D:\\PrismSUN\\research\\accessibility\\build\\host\\accessibility_core.dll",
+  "dll_sha256": "5e990538af9010c2dd84389e98225dc05c45f4463676a8c4cb98675d2705e29d",
+  "count": 42,
+  "passed": 42,
+  "cases": [
+    {
+      "case": "empty_list",
+      "original": 0,
+      "cpp": 0,
+      "pass": true
+    },
+    {
+      "case": "one_empty_string",
+      "original": 2381251282,
+      "cpp": 2381251282,
+      "pass": true
+    },
+    {
+      "case": "two_empty_strings",
+      "original": 4279425345,
+      "cpp": 4279425345,
+      "pass": true
+    },
+    {
+      "case": "single_ascii",
+      "original": 424165181,
+      "cpp": 424165181,
+      "pass": true
+    },
+    {
+      "case": "input_order_ab",
+      "original": 1598428661,
+      "cpp": 1598428661,
+      "pass": true
+    },
+    {
+      "case": "input_order_ba",
+      "original": 1598428661,
+      "cpp": 1598428661,
+      "pass": true
+    },
+    {
+      "case": "duplicate_retained",
+      "original": 535051174,
+      "cpp": 535051174,
+      "pass": true
+    },
+    {
+      "case": "embedded_nul",
+      "original": 1598428661,
+      "cpp": 1598428661,
+      "pass": true
+    },
+    {
+      "case": "case_and_prefix",
+      "original": 3478280326,
+      "cpp": 3478280326,
+      "pass": true
+    },
+    {
+      "case": "unsigned_bytes",
+      "original": 3046910379,
+      "cpp": 3046910379,
+      "pass": true
+    },
+    {
+      "case": "unicode_utf8_bytes",
+      "original": 958973672,
+      "cpp": 958973672,
+      "pass": true
+    },
+    {
+      "case": "modified_utf8_nul_bytes",
+      "original": 3682523605,
+      "cpp": 3682523605,
+      "pass": true
+    },
+    {
+      "case": "short_long_string_boundary",
+      "original": 722399332,
+      "cpp": 722399332,
+      "pass": true
+    },
+    {
+      "case": "crc_16_byte_update_boundary",
+      "original": 1610107921,
+      "cpp": 1610107921,
+      "pass": true
+    },
+    {
+      "case": "long_name",
+      "original": 3390371338,
+      "cpp": 3390371338,
+      "pass": true
+    },
+    {
+      "case": "sort_24_element_boundary",
+      "original": 2618337468,
+      "cpp": 2618337468,
+      "pass": true
+    },
+    {
+      "case": "sort_129_elements",
+      "original": 2265164339,
+      "cpp": 2265164339,
+      "pass": true
+    },
+    {
+      "case": "keymapper_label",
+      "original": 2821218314,
+      "cpp": 2821218314,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_00",
+      "original": 380379211,
+      "cpp": 380379211,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_01",
+      "original": 3477530661,
+      "cpp": 3477530661,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_02",
+      "original": 767144516,
+      "cpp": 767144516,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_03",
+      "original": 2180908696,
+      "cpp": 2180908696,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_04",
+      "original": 2095532427,
+      "cpp": 2095532427,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_05",
+      "original": 180675856,
+      "cpp": 180675856,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_06",
+      "original": 830160495,
+      "cpp": 830160495,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_07",
+      "original": 870112925,
+      "cpp": 870112925,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_08",
+      "original": 0,
+      "cpp": 0,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_09",
+      "original": 4163234642,
+      "cpp": 4163234642,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_10",
+      "original": 0,
+      "cpp": 0,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_11",
+      "original": 404666371,
+      "cpp": 404666371,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_12",
+      "original": 751064718,
+      "cpp": 751064718,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_13",
+      "original": 1214328157,
+      "cpp": 1214328157,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_14",
+      "original": 3503901726,
+      "cpp": 3503901726,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_15",
+      "original": 659703895,
+      "cpp": 659703895,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_16",
+      "original": 2974048707,
+      "cpp": 2974048707,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_17",
+      "original": 1774974236,
+      "cpp": 1774974236,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_18",
+      "original": 1809138159,
+      "cpp": 1809138159,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_19",
+      "original": 401051446,
+      "cpp": 401051446,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_20",
+      "original": 1063622227,
+      "cpp": 1063622227,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_21",
+      "original": 554246877,
+      "cpp": 554246877,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_22",
+      "original": 2374049203,
+      "cpp": 2374049203,
+      "pass": true
+    },
+    {
+      "case": "random_bytes_23",
+      "original": 1221212463,
+      "cpp": 1221212463,
+      "pass": true
+    }
+  ]
+}

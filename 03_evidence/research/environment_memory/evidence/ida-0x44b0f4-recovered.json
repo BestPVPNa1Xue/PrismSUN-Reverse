@@ -1,0 +1,10 @@
+{
+  "addr": "0x44b0f4",
+  "code": "__int64 __fastcall sub_44B0F4(__int64 a1, char a2)\n{\n  int v4; // w8\n  char v6; // [xsp+23h] [xbp-Dh]\n  char v7; // [xsp+27h] [xbp-9h]\n  _QWORD savedregs[4]; // [xsp+30h] [xbp+0h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x44b114*/\n  HIDWORD(savedregs[2]) = 654982410; /*0x44b120*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x44b128*/\n  while ( 1 ) /*0x44b204*/\n  {\n    while ( 1 ) /*0x44b1dc*/\n    {\n      while ( 1 ) /*0x44b1bc*/\n      {\n        if ( HIDWORD(savedregs[2]) == -1362851183 ) /*0x44b1c8*/\n          JUMPOUT(0x44B374); /*0x44b374*/\n        if ( HIDWORD(savedregs[2]) != -814206759 ) /*0x44b1dc*/\n          break; /*0x44b1dc*/\n        savedregs[0] = &savedregs[2]; /*0x44b2fc*/\n        LOBYTE(savedregs[2]) = a2; /*0x44b308*/\n        v7 = sub_4572E4(a1) & 1; /*0x44b320*/\n        HIDWORD(savedregs[2]) = 396455727; /*0x44b330*/\n      }\n      if ( HIDWORD(savedregs[2]) != 396455727 ) /*0x44b204*/\n        break; /*0x44b204*/\n      if ( (v7 & 1) != 0 ) /*0x44b354*/\n        v4 = 1805449573; /*0x44b354*/\n      else\n        v4 = -1362851183; /*0x44b354*/\n      HIDWORD(savedregs[2]) = v4; /*0x44b35c*/\n      v6 = 0; /*0x44b360*/\n    }\n    if ( HIDWORD(savedregs[2]) != 654982410 ) /*0x44b22c*/\n      break; /*0x44b22c*/\n    HIDWORD(savedregs[2]) = -814206759; /*0x44b2e4*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x44b3e4*/\n  return v6 & 1; /*0x44b408*/\n}",
+  "refs": [
+    {
+      "addr": "0x4572e4",
+      "name": "sub_4572E4"
+    }
+  ]
+}

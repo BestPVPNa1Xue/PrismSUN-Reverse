@@ -1,0 +1,10 @@
+{
+  "addr": "0x4be7e4",
+  "code": "// attributes: thunk\nbool __fastcall sub_4BE7E4(__int64 a1)\n{\n  return sub_CB11C(a1);\n}",
+  "refs": [
+    {
+      "addr": "0xcb11c",
+      "name": "sub_CB11C"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "addr": "0x140c9c",
+  "code": "__int64 sub_140C9C()\n{\n  __int64 v1; // x0\n  __int64 result; // x0\n  __int64 v3; // [xsp-30h] [xbp-40h] BYREF\n  struct timespec v4; // [xsp-20h] [xbp-30h] BYREF\n  __int128 v5; // [xsp-10h] [xbp-20h]\n  __int64 v6; // [xsp+8h] [xbp-8h]\n\n  v6 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x140cc4*/\n  if ( !atomic_load((unsigned int *)&dword_7B02E0) ) /*0x140ccc*/\n    xmmword_7A9460 = (__int128)veorq_s8((int8x16_t)xmmword_7A9450, (int8x16_t)xmmword_327D0); /*0x140ce8*/\n  atomic_store(1u, (unsigned int *)&dword_7B02E0); /*0x140cf0*/\n  if ( *(_DWORD *)sub_140C9C >> 26 == 5 /*0x140d9c*/\n    || (*(_DWORD *)sub_140C9C & 0xFFE00000) == 0xD4200000\n    || loc_140CA0 >> 10 == 3508160\n    || (loc_140CA4 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_140C3C >> 26 == 5\n    || (*(_DWORD *)sub_140C3C & 0xFFE00000) == 0xD4200000\n    || (loc_140C40 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_140C44 & 0xFFFFFC00) == 0xD61F0000 )\n  {\nLABEL_26:\n    abort(); /*0x140edc*/\n  }\n  v4.tv_sec = 0; /*0x140da8*/\n  v4.tv_nsec = 0; /*0x140da8*/\n  v5 = xmmword_7A9460; /*0x140dac*/\n  if ( !clock_gettime(xmmword_7A9460, &v4) ) /*0x140db4*/\n    return v4.tv_nsec + 1000000000 * v4.tv_sec; /*0x140db4*/\n  v4.tv_sec = 0; /*0x140dc4*/\n  v4.tv_nsec = 0; /*0x140dc4*/\n  if ( !clock_gettime(SDWORD1(v5), &v4) ) /*0x140dc8*/\n    return v4.tv_nsec + 1000000000 * v4.tv_sec; /*0x140dc8*/\n  v4.tv_sec = 0; /*0x140dd8*/\n  v4.tv_nsec = 0; /*0x140dd8*/\n  if ( !clock_gettime(SDWORD2(v5), &v4) ) /*0x140ddc*/\n    return v4.tv_nsec + 1000000000 * v4.tv_sec; /*0x140ddc*/\n  v4.tv_sec = 0; /*0x140dec*/\n  v4.tv_nsec = 0; /*0x140dec*/\n  if ( !clock_gettime(SHIDWORD(v5), &v4) ) /*0x140df0*/\n    return v4.tv_nsec + 1000000000 * v4.tv_sec; /*0x140ea0*/\n  v1 = sub_744750(); /*0x140df8*/\n  if ( *(_DWORD *)sub_140EE4 >> 26 == 5 ) /*0x140e10*/\n    goto LABEL_26; /*0x140e10*/\n  if ( (*(_DWORD *)sub_140EE4 & 0xFFE00000) == 0xD4200000 ) /*0x140e1c*/\n    goto LABEL_26; /*0x140e1c*/\n  if ( (loc_140EE8 & 0xFFFFFC00) == 0xD61F0000 ) /*0x140e2c*/\n    goto LABEL_26; /*0x140e2c*/\n  if ( (loc_140EEC & 0xFFFFFC00) == 0xD61F0000 ) /*0x140e3c*/\n    goto LABEL_26; /*0x140e3c*/\n  v3 = v1; /*0x140e40*/\n  result = sub_140F44(&v3); /*0x140e48*/\n  if ( *(_DWORD *)sub_140FF4 >> 26 == 5 /*0x140e8c*/\n    || (*(_DWORD *)sub_140FF4 & 0xFFE00000) == 0xD4200000\n    || (loc_140FF8 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_140FFC & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    goto LABEL_26; /*0x140e8c*/\n  }\n  return result; /*0x140ec8*/\n}",
+  "refs": [
+    {
+      "addr": "0x7a9460",
+      "name": "xmmword_7A9460"
+    },
+    {
+      "addr": "0x7a9450",
+      "name": "xmmword_7A9450"
+    },
+    {
+      "addr": "0x327d0",
+      "name": "xmmword_327D0"
+    },
+    {
+      "addr": "0x7b02e0",
+      "name": "dword_7B02E0"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x140c9c",
+      "name": "sub_140C9C"
+    },
+    {
+      "addr": "0x140ca0",
+      "name": "loc_140CA0"
+    },
+    {
+      "addr": "0x140ca4",
+      "name": "loc_140CA4"
+    },
+    {
+      "addr": "0x140c3c",
+      "name": "sub_140C3C"
+    },
+    {
+      "addr": "0x140c40",
+      "name": "loc_140C40"
+    },
+    {
+      "addr": "0x140c44",
+      "name": "loc_140C44"
+    },
+    {
+      "addr": "0x78a540",
+      "name": ".clock_gettime"
+    },
+    {
+      "addr": "0x744750",
+      "name": "sub_744750"
+    },
+    {
+      "addr": "0x140ee4",
+      "name": "sub_140EE4"
+    },
+    {
+      "addr": "0x140ee8",
+      "name": "loc_140EE8"
+    },
+    {
+      "addr": "0x140eec",
+      "name": "loc_140EEC"
+    },
+    {
+      "addr": "0x140f44",
+      "name": "sub_140F44"
+    },
+    {
+      "addr": "0x140ff4",
+      "name": "sub_140FF4"
+    },
+    {
+      "addr": "0x140ff8",
+      "name": "loc_140FF8"
+    },
+    {
+      "addr": "0x140ffc",
+      "name": "loc_140FFC"
+    }
+  ]
+}

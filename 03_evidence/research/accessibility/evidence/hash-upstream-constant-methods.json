@@ -1,0 +1,50 @@
+[
+  {
+    "entry": "0x6cdfb4",
+    "reason": "returned",
+    "steps": 594,
+    "return": 38,
+    "pc": "0x32000000",
+    "calls": []
+  },
+  {
+    "entry": "0x6ce3ec",
+    "reason": "returned",
+    "steps": 733,
+    "return": 1,
+    "pc": "0x32000000",
+    "calls": []
+  },
+  {
+    "entry": "0x6ce880",
+    "reason": "returned",
+    "steps": 809,
+    "return": 1,
+    "pc": "0x32000000",
+    "calls": []
+  },
+  {
+    "entry": "0x631408",
+    "reason": "returned",
+    "steps": 666,
+    "return": 0,
+    "pc": "0x32000000",
+    "calls": []
+  },
+  {
+    "entry": "0x6ced50",
+    "reason": "returned",
+    "steps": 516,
+    "return": 822083584,
+    "pc": "0x32000000",
+    "calls": []
+  },
+  {
+    "entry": "0x6cfa68",
+    "reason": "blocked_import:0x78a7f0",
+    "steps": 840,
+    "return": 8198352,
+    "pc": "0x78a7f0",
+    "calls": []
+  }
+]

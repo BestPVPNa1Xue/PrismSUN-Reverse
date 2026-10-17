@@ -1,0 +1,44 @@
+{
+  "observed": {
+    "sessions": [
+      {
+        "session_id": "dcf52c30",
+        "input_path": "D:\\PrismSUN\\research\\environment_memory\\prism-environment-memory.i64",
+        "filename": "prism-environment-memory.i64",
+        "created_at": "2026-10-18T00:30:54.973678",
+        "last_accessed": "2026-10-18T00:30:55.011413",
+        "is_analyzing": false,
+        "metadata": {},
+        "is_active": false,
+        "backend": "worker",
+        "owned": true,
+        "adopted": true,
+        "pid": 18204,
+        "worker_pid": 18204
+      },
+      {
+        "session_id": "0d1d9226",
+        "input_path": "D:\\PrismSUN\\research\\chain_closure_20261018\\prism-chain-closure.i64",
+        "filename": "prism-chain-closure.i64",
+        "created_at": "2026-10-18T00:33:02.129708",
+        "last_accessed": "2026-10-18T01:30:41.419696",
+        "is_analyzing": false,
+        "metadata": {},
+        "is_active": true,
+        "backend": "worker",
+        "owned": true,
+        "adopted": true,
+        "pid": 16604,
+        "worker_pid": 16604
+      }
+    ],
+    "count": 2
+  },
+  "process_check": {
+    "pid": 18204,
+    "alive": false
+  },
+  "historical_file_mtime_local": "2026-10-18T00:43:04+08:00",
+  "protected_snapshot_mtime_local": "2026-10-18T00:32:27+08:00",
+  "finding": "Historical source database had an independent worker opened before the protected snapshot. Worker PID is no longer present. Plugin idle shutdown calls close_database(). Timing is consistent with automatic database close; exact changed bytes are unverified because no byte-for-byte before backup is retained. Do not assert metadata-only changes. Historical database was not overwritten to force a hash match."
+}

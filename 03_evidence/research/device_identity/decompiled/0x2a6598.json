@@ -1,0 +1,47 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x2a6598\",\"code\":\"__int64 __fastcall sub_2A6598(__int64 result)\\n{\\n  bool v1; // zf\\n\\n  v1 = *(_DWORD *)sub_2A6598 >> 26 == 5 || (*(_DWORD *)sub_2A6598 & 0xFFE00000) == -736100352; /*0x2a65bc*/\\n  if ( v1 /*0x2a662c*/\\n    || loc_2A659C >> 10 == 3508160\\n    || (loc_2A65A0 & 0xFFFFFC00) == 0xD61F0000\\n    || *(_DWORD *)sub_2A665C >> 26 == 5\\n    || (*(_DWORD *)sub_2A665C & 0xFFE00000) == 0xD4200000\\n    || (loc_2A6660 & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_2A6664 & 0xFFFFFC00) == 0xD61F0000 )\\n  {\\n    abort(); /*0x2a6658*/\\n  }\\n  if ( result ) /*0x2a6630*/\\n  {\\n    if ( *(_BYTE *)(result + 24) == 16 ) /*0x2a663c*/\\n      return *(_QWORD *)(result + 32); /*0x2a6640*/\\n    else\\n      return 0; /*0x2a664c*/\\n  }\\n  return result; /*0x2a6648*/\\n}\",\"refs\":[{\"addr\":\"0x2a6598\",\"name\":\"sub_2A6598\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x2a659c\",\"name\":\"loc_2A659C\"},{\"addr\":\"0x2a65a0\",\"name\":\"loc_2A65A0\"},{\"addr\":\"0x2a665c\",\"name\":\"sub_2A665C\"},{\"addr\":\"0x2a6660\",\"name\":\"loc_2A6660\"},{\"addr\":\"0x2a6664\",\"name\":\"loc_2A6664\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x2a6598",
+      "code": "__int64 __fastcall sub_2A6598(__int64 result)\n{\n  bool v1; // zf\n\n  v1 = *(_DWORD *)sub_2A6598 >> 26 == 5 || (*(_DWORD *)sub_2A6598 & 0xFFE00000) == -736100352; /*0x2a65bc*/\n  if ( v1 /*0x2a662c*/\n    || loc_2A659C >> 10 == 3508160\n    || (loc_2A65A0 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_2A665C >> 26 == 5\n    || (*(_DWORD *)sub_2A665C & 0xFFE00000) == 0xD4200000\n    || (loc_2A6660 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_2A6664 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0x2a6658*/\n  }\n  if ( result ) /*0x2a6630*/\n  {\n    if ( *(_BYTE *)(result + 24) == 16 ) /*0x2a663c*/\n      return *(_QWORD *)(result + 32); /*0x2a6640*/\n    else\n      return 0; /*0x2a664c*/\n  }\n  return result; /*0x2a6648*/\n}",
+      "refs": [
+        {
+          "addr": "0x2a6598",
+          "name": "sub_2A6598"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x2a659c",
+          "name": "loc_2A659C"
+        },
+        {
+          "addr": "0x2a65a0",
+          "name": "loc_2A65A0"
+        },
+        {
+          "addr": "0x2a665c",
+          "name": "sub_2A665C"
+        },
+        {
+          "addr": "0x2a6660",
+          "name": "loc_2A6660"
+        },
+        {
+          "addr": "0x2a6664",
+          "name": "loc_2A6664"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

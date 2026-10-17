@@ -1,0 +1,22 @@
+{
+  "addr": "0x6971b8",
+  "code": "void sub_6971B8()\n{\n  if ( *(_DWORD *)sub_6971B8 >> 26 != 5 /*0x69731c*/\n    && *(_DWORD *)sub_6971B8 >> 21 != 1697\n    && loc_6971BC >> 10 != 3508160\n    && loc_6971C0 >> 10 != 3508160 )\n  {\n    JUMPOUT(0x6971F8); /*0x6971f8*/\n  }\n  sub_6B66AC(); /*0x697284*/\n}",
+  "refs": [
+    {
+      "addr": "0x6971b8",
+      "name": "sub_6971B8"
+    },
+    {
+      "addr": "0x6971bc",
+      "name": "loc_6971BC"
+    },
+    {
+      "addr": "0x6971c0",
+      "name": "loc_6971C0"
+    },
+    {
+      "addr": "0x6b66ac",
+      "name": "sub_6B66AC"
+    }
+  ]
+}

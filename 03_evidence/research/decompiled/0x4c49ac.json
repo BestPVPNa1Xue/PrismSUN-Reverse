@@ -1,0 +1,26 @@
+{
+  "addr": "0x4c49ac",
+  "code": "__int64 __fastcall sub_4C49AC(int a1, void *a2, void *a3, void *a4, void *a5, void *a6, void *a7)\n{\n  unsigned __int64 v8; // [xsp-40h] [xbp-40h]\n\n  if ( *(_DWORD *)sub_4C49AC >> 26 == 5 /*0x4c4ad0*/\n    || *(_DWORD *)sub_4C49AC >> 21 == 1697\n    || loc_4C49B0 >> 10 == 3508160\n    || loc_4C49B4 >> 10 == 3508160 )\n  {\n    abort(); /*0x4c4a64*/\n  }\n  v8 = linux_eabi_syscall(__NR_exit_group, (void *)a1, a2, a3, a4, a5, a6, a7); /*0x4c4a08*/\n  if ( v8 >= 0xFFFFFFFFFFFFF001LL ) /*0x4c4a20*/\n  {\n    *(_DWORD *)j____errno_19() = -(int)v8; /*0x4c4a38*/\n    return -1; /*0x4c4a40*/\n  }\n  return v8; /*0x4c4a5c*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x4c49ac",
+      "name": "sub_4C49AC"
+    },
+    {
+      "addr": "0x4c49b0",
+      "name": "loc_4C49B0"
+    },
+    {
+      "addr": "0x4c49b4",
+      "name": "loc_4C49B4"
+    },
+    {
+      "addr": "0x56b324",
+      "name": "j_.__errno_19"
+    }
+  ]
+}

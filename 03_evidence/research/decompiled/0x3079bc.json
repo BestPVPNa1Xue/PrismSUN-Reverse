@@ -1,0 +1,4 @@
+{
+  "addr": "0x3079bc",
+  "code": "__int64 __fastcall sub_3079BC(__int64 a1)\n{\n  __int64 v1; // x19\n  unsigned __int8 v2; // w8\n  __int64 result; // x0\n  unsigned __int8 v4; // [xsp+24h] [xbp+4h]\n  int i; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x3079cc*/\n  for ( i = 685619490; ; i = 529012660 ) /*0x3079e0*/\n  {\n    while ( i == 529012660 ) /*0x307a74*/\n    {\n      v1 = a1; /*0x307b24*/\n      v2 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)a1 + 1824LL))(a1); /*0x307b30*/\n      a1 = v1; /*0x307b34*/\n      v4 = v2; /*0x307b38*/\n      i = 1919585051; /*0x307b48*/\n    }\n    if ( i != 685619490 ) /*0x307a88*/\n      break; /*0x307a88*/\n  }\n  result = v4; /*0x307b50*/\n  _ReadStatusReg(TPIDR_EL0); /*0x307b54*/\n  return result; /*0x307b74*/\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "addr": "0x59240c",
+  "code": "__int64 __fastcall sub_59240C(__int64 result)\n{\n  __int64 v1; // x19\n  __int64 v2; // x20\n  int v3; // [xsp+14h] [xbp-Ch]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x59241c*/\n  v3 = -797678766; /*0x592430*/\n  while ( v3 != -1237808525 ) /*0x592474*/\n  {\n    if ( v3 == -797678766 ) /*0x59249c*/\n    {\n      v3 = 947649781; /*0x592554*/\n    }\n    else\n    {\n      v1 = result; /*0x592568*/\n      v2 = result; /*0x59256c*/\n      ((void (__fastcall *)(__int64, _QWORD, __int64))loc_591620)(result, 0, 5); /*0x59257c*/\n      ((void (__fastcall *)(__int64, _QWORD, __int64))loc_591620)(v1 + 4, 0, 5); /*0x59258c*/\n      result = v2; /*0x592590*/\n      v3 = -1237808525; /*0x5925a0*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x5925a8*/\n  return result; /*0x5925c8*/\n}",
+  "refs": [
+    {
+      "addr": "0x591620",
+      "name": "loc_591620"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "result": [
+    {
+      "query": {
+        "mnem": "svc",
+        "op0": null,
+        "op1": null,
+        "op2": null,
+        "op_any": null,
+        "func": null,
+        "segment": null,
+        "start": "0x4c40e0",
+        "end": "0x4c4214",
+        "offset": 0,
+        "count": 10,
+        "max_scan_insns": 200000,
+        "allow_broad": false
+      },
+      "ranges": [
+        {
+          "start": "0x4c40e0",
+          "end": "0x4c4214"
+        }
+      ],
+      "matches": [
+        {
+          "addr": "0x4c4108",
+          "disasm": "SVC 0"
+        }
+      ],
+      "count": 1,
+      "cursor": {
+        "done": true
+      },
+      "scanned": 75,
+      "truncated": false,
+      "next_start": null,
+      "error": null
+    },
+    {
+      "query": {
+        "mnem": "svc",
+        "op0": null,
+        "op1": null,
+        "op2": null,
+        "op_any": null,
+        "func": null,
+        "segment": null,
+        "start": "0x4e0374",
+        "end": "0x4e04a0",
+        "offset": 0,
+        "count": 10,
+        "max_scan_insns": 200000,
+        "allow_broad": false
+      },
+      "ranges": [
+        {
+          "start": "0x4e0374",
+          "end": "0x4e04a0"
+        }
+      ],
+      "matches": [
+        {
+          "addr": "0x4e03a4",
+          "disasm": "SVC 0"
+        }
+      ],
+      "count": 1,
+      "cursor": {
+        "done": true
+      },
+      "scanned": 73,
+      "truncated": false,
+      "next_start": null,
+      "error": null
+    },
+    {
+      "query": {
+        "mnem": "svc",
+        "op0": null,
+        "op1": null,
+        "op2": null,
+        "op_any": null,
+        "func": null,
+        "segment": null,
+        "start": "0x4c3f38",
+        "end": "0x4c40e0",
+        "offset": 0,
+        "count": 10,
+        "max_scan_insns": 200000,
+        "allow_broad": false
+      },
+      "ranges": [
+        {
+          "start": "0x4c3f38",
+          "end": "0x4c40e0"
+        }
+      ],
+      "matches": [
+        {
+          "addr": "0x4c3fc8",
+          "disasm": "SVC 0"
+        }
+      ],
+      "count": 1,
+      "cursor": {
+        "done": true
+      },
+      "scanned": 104,
+      "truncated": false,
+      "next_start": null,
+      "error": null
+    },
+    {
+      "query": {
+        "mnem": "svc",
+        "op0": null,
+        "op1": null,
+        "op2": null,
+        "op_any": null,
+        "func": null,
+        "segment": null,
+        "start": "0x4c49ac",
+        "end": "0x4c4ad4",
+        "offset": 0,
+        "count": 10,
+        "max_scan_insns": 200000,
+        "allow_broad": false
+      },
+      "ranges": [
+        {
+          "start": "0x4c49ac",
+          "end": "0x4c4ad4"
+        }
+      ],
+      "matches": [
+        {
+          "addr": "0x4c49fc",
+          "disasm": "SVC 0"
+        }
+      ],
+      "count": 1,
+      "cursor": {
+        "done": true
+      },
+      "scanned": 72,
+      "truncated": false,
+      "next_start": null,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "addr": "0x119f34",
+  "code": "__int64 __fastcall sub_119F34(_QWORD *a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  bool v4; // zf\n  __int128 v7; // q0\n  __int64 result; // x0\n  _QWORD v9[2]; // [xsp-30h] [xbp-40h] BYREF\n  __int128 v10; // [xsp-20h] [xbp-30h]\n  __int128 v11; // [xsp-10h] [xbp-20h]\n  __int64 v12; // [xsp+8h] [xbp-8h]\n\n  v12 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x119f58*/\n  v4 = *(_DWORD *)sub_119F34 >> 26 == 5 || (*(_DWORD *)sub_119F34 & 0xFFE00000) == -736100352; /*0x119f78*/\n  if ( v4 || loc_119F38 >> 10 == 3508160 || (loc_119F3C & 0xFFFFFC00) == 0xD61F0000 ) /*0x119fa4*/\n    abort(); /*0x11a054*/\n  *(_QWORD *)&v11 = a2; /*0x119fd4*/\n  *((_QWORD *)&v11 + 1) = a3; /*0x119fd4*/\n  sub_11A080(); /*0x119fd8*/\n  v7 = v11; /*0x119fdc*/\n  *a1 = off_78F568; /*0x119ff8*/\n  v10 = v7; /*0x119ffc*/\n  sub_B6704(v9, &byte_34073); /*0x11a000*/\n  result = sub_109F10(v10, *((_QWORD *)&v10 + 1), v9[0], v9[1]); /*0x11a010*/\n  a1[11] = a4; /*0x11a014*/\n  return result; /*0x11a040*/\n}",
+  "refs": [
+    {
+      "addr": "0x119f34",
+      "name": "sub_119F34"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x119f38",
+      "name": "loc_119F38"
+    },
+    {
+      "addr": "0x119f3c",
+      "name": "loc_119F3C"
+    },
+    {
+      "addr": "0x11a080",
+      "name": "sub_11A080"
+    },
+    {
+      "addr": "0x78f568",
+      "name": "off_78F568"
+    },
+    {
+      "addr": "0xb6704",
+      "name": "sub_B6704"
+    },
+    {
+      "addr": "0x34073",
+      "name": "byte_34073"
+    },
+    {
+      "addr": "0x109f10",
+      "name": "sub_109F10"
+    }
+  ]
+}

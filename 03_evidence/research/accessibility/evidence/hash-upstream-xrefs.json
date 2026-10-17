@@ -1,0 +1,125 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x6cc6b0\",\"xrefs\":[{\"addr\":\"0x6cbeb8\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cc0a0\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6cc96c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cc6b0\",\"name\":\"sub_6CC6B0\",\"size\":\"0x464\"}},{\"addr\":\"0x6cc9fc\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cc6b0\",\"name\":\"sub_6CC6B0\",\"size\":\"0x464\"}},{\"addr\":\"0x6cca1c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cc6b0\",\"name\":\"sub_6CC6B0\",\"size\":\"0x464\"}}],\"more\":false,\"xref_count\":5},{\"addr\":\"0x6cf6d4\",\"xrefs\":[{\"addr\":\"0x6cf920\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cf6d4\",\"name\":\"sub_6CF6D4\",\"size\":\"0x394\"}},{\"addr\":\"0x6cf980\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cf6d4\",\"name\":\"sub_6CF6D4\",\"size\":\"0x394\"}},{\"addr\":\"0x6cf9a0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cf6d4\",\"name\":\"sub_6CF6D4\",\"size\":\"0x394\"}},{\"addr\":\"0x793e30\",\"type\":\"data\",\"fn\":null}],\"more\":false,\"xref_count\":4},{\"addr\":\"0x793de8\",\"xrefs\":[{\"addr\":\"0x6cd0ac\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cced8\",\"name\":\"sub_6CCED8\",\"size\":\"0x394\"}},{\"addr\":\"0x6cd0b0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6cced8\",\"name\":\"sub_6CCED8\",\"size\":\"0x394\"}}],\"more\":false,\"xref_count\":2}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x6cc6b0",
+          "xrefs": [
+            {
+              "addr": "0x6cbeb8",
+              "type": "code",
+              "fn": null
+            },
+            {
+              "addr": "0x6cc0a0",
+              "type": "code",
+              "fn": null
+            },
+            {
+              "addr": "0x6cc96c",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cc6b0",
+                "name": "sub_6CC6B0",
+                "size": "0x464"
+              }
+            },
+            {
+              "addr": "0x6cc9fc",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cc6b0",
+                "name": "sub_6CC6B0",
+                "size": "0x464"
+              }
+            },
+            {
+              "addr": "0x6cca1c",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cc6b0",
+                "name": "sub_6CC6B0",
+                "size": "0x464"
+              }
+            }
+          ],
+          "more": false,
+          "xref_count": 5
+        },
+        {
+          "addr": "0x6cf6d4",
+          "xrefs": [
+            {
+              "addr": "0x6cf920",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cf6d4",
+                "name": "sub_6CF6D4",
+                "size": "0x394"
+              }
+            },
+            {
+              "addr": "0x6cf980",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cf6d4",
+                "name": "sub_6CF6D4",
+                "size": "0x394"
+              }
+            },
+            {
+              "addr": "0x6cf9a0",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cf6d4",
+                "name": "sub_6CF6D4",
+                "size": "0x394"
+              }
+            },
+            {
+              "addr": "0x793e30",
+              "type": "data",
+              "fn": null
+            }
+          ],
+          "more": false,
+          "xref_count": 4
+        },
+        {
+          "addr": "0x793de8",
+          "xrefs": [
+            {
+              "addr": "0x6cd0ac",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cced8",
+                "name": "sub_6CCED8",
+                "size": "0x394"
+              }
+            },
+            {
+              "addr": "0x6cd0b0",
+              "type": "data",
+              "fn": {
+                "addr": "0x6cced8",
+                "name": "sub_6CCED8",
+                "size": "0x394"
+              }
+            }
+          ],
+          "more": false,
+          "xref_count": 2
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

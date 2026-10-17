@@ -1,0 +1,4 @@
+{
+  "addr": "0x56b300",
+  "code": "// attributes: thunk\nvoid sub_56B300(void)\n{\n  JUMPOUT(0x4C4214); /*0x4c4214*/\n}"
+}

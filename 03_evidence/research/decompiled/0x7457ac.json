@@ -1,0 +1,26 @@
+{
+  "addr": "0x7457ac",
+  "code": "__int64 *__fastcall sub_7457AC(__int64 *a1, const void *a2, size_t n)\n{\n  __int64 v3; // x8\n  unsigned __int64 v4; // x9\n  char v5; // w26\n  size_t v8; // x21\n  unsigned __int64 v9; // x27\n  const void *v11; // x22\n  unsigned __int64 v12; // x8\n  __int64 v13; // x23\n  char *v14; // x25\n  char *v15; // x22\n  __int64 v16; // x8\n  char v17; // w9\n  char *v18; // x8\n\n  v3 = *a1; /*0x7457cc*/\n  v4 = 22; /*0x7457d0*/\n  v5 = *(_BYTE *)a1; /*0x7457d4*/\n  if ( (*(_BYTE *)a1 & 1) != 0 ) /*0x7457f0*/\n    v4 = (*a1 & 0xFFFFFFFFFFFFFFFELL) - 1; /*0x7457f0*/\n  if ( (v3 & 1) != 0 ) /*0x7457f8*/\n    v8 = a1[1]; /*0x7457f8*/\n  else\n    v8 = (unsigned __int8)*a1 >> 1; /*0x7457f8*/\n  if ( v4 - v8 < n ) /*0x745804*/\n  {\n    v9 = v8 + n; /*0x745808*/\n    if ( -18LL - v4 < v8 + n - v4 ) /*0x74581c*/\n      sub_1B3868(a1); /*0x745930*/\n    if ( (v3 & 1) != 0 ) /*0x745834*/\n      v11 = (const void *)a1[2]; /*0x745834*/\n    else\n      v11 = (char *)a1 + 1; /*0x745834*/\n    if ( v4 > 0x7FFFFFFFFFFFFFE6LL ) /*0x74583c*/\n    {\n      v13 = -17; /*0x7458a8*/\n      v14 = (char *)sub_783C68(-17); /*0x7458b4*/\n      if ( !v8 ) /*0x7458b8*/\n      {\nLABEL_27:\n        memcpy(&v14[v8], a2, n); /*0x7458cc*/\n        if ( (v5 & 1) != 0 ) /*0x7458dc*/\n          sub_783CD8(v11); /*0x7458e4*/\n        a1[1] = v9; /*0x7458ec*/\n        a1[2] = (__int64)v14; /*0x7458ec*/\n        *a1 = v13 | 1; /*0x7458f0*/\n        v18 = &v14[v9]; /*0x7458f4*/\n        goto LABEL_31; /*0x7458f8*/\n      }\n    }\n    else\n    {\n      v12 = 2 * v4; /*0x745840*/\n      if ( v9 > 2 * v4 ) /*0x745848*/\n        v12 = v8 + n; /*0x745848*/\n      if ( v12 >= 0x17 ) /*0x745858*/\n        v13 = (v12 | 0xF) + 1; /*0x745858*/\n      else\n        v13 = 23; /*0x745858*/\n      v14 = (char *)sub_783C68(v13); /*0x745864*/\n      if ( !v8 ) /*0x745868*/\n        goto LABEL_27; /*0x745868*/\n    }\n    memmove(v14, v11, v8); /*0x7458c8*/\n    goto LABEL_27; /*0x7458c8*/\n  }\n  if ( n ) /*0x745870*/\n  {\n    if ( (v3 & 1) != 0 ) /*0x745880*/\n      v15 = (char *)a1[2]; /*0x745880*/\n    else\n      v15 = (char *)a1 + 1; /*0x745880*/\n    memmove(&v15[v8], a2, n); /*0x745888*/\n    v16 = v8 + n; /*0x745890*/\n    if ( (*(_BYTE *)a1 & 1) != 0 ) /*0x745894*/\n    {\n      a1[1] = v16; /*0x7458fc*/\n      v18 = &v15[v16]; /*0x745900*/\n    }\n    else\n    {\n      v17 = 2 * v16; /*0x745898*/\n      v18 = &v15[v16]; /*0x74589c*/\n      *(_BYTE *)a1 = v17; /*0x7458a0*/\n    }\nLABEL_31:\n    *v18 = 0; /*0x745904*/\n  }\n  return a1; /*0x745928*/\n}",
+  "refs": [
+    {
+      "addr": "0x1b3868",
+      "name": "sub_1B3868"
+    },
+    {
+      "addr": "0x783c68",
+      "name": "sub_783C68"
+    },
+    {
+      "addr": "0x78a510",
+      "name": ".memcpy"
+    },
+    {
+      "addr": "0x783cd8",
+      "name": "sub_783CD8"
+    },
+    {
+      "addr": "0x78a500",
+      "name": ".memmove"
+    }
+  ]
+}

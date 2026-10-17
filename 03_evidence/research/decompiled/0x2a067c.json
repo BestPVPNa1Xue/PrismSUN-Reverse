@@ -1,0 +1,26 @@
+{
+  "addr": "0x2a067c",
+  "code": "__int64 __fastcall sub_2A067C(__int64 a1, __int64 a2)\n{\n  bool v2; // zf\n\n  v2 = *(_DWORD *)sub_2A067C >> 26 == 5 || (*(_DWORD *)sub_2A067C & 0xFFE00000) == -736100352; /*0x2a0698*/\n  if ( v2 || loc_2A0680 >> 10 == 3508160 || (loc_2A0684 & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a06c4*/\n    abort(); /*0x2a06d8*/\n  return sub_7460C0(a1, a2, 0);\n}",
+  "refs": [
+    {
+      "addr": "0x2a067c",
+      "name": "sub_2A067C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x2a0680",
+      "name": "loc_2A0680"
+    },
+    {
+      "addr": "0x2a0684",
+      "name": "loc_2A0684"
+    },
+    {
+      "addr": "0x7460c0",
+      "name": "sub_7460C0"
+    }
+  ]
+}

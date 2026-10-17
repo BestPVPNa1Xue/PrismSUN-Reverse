@@ -1,0 +1,29 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x71236c\",\"xrefs\":[{\"addr\":\"0x712368\",\"type\":\"code\",\"fn\":null}],\"more\":false,\"xref_count\":1}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x71236c",
+          "xrefs": [
+            {
+              "addr": "0x712368",
+              "type": "code",
+              "fn": null
+            }
+          ],
+          "more": false,
+          "xref_count": 1
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

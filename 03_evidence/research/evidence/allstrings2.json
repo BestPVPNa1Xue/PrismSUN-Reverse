@@ -1,0 +1,692 @@
+{
+  "n": 171,
+  "matches": [
+    {
+      "addr": "0x3dfcb",
+      "string": "NSt6__ndk18ios_base7failureE"
+    },
+    {
+      "addr": "0x3dfe8",
+      "string": "NSt6__ndk119__iostream_categoryE"
+    },
+    {
+      "addr": "0x3e009",
+      "string": "NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE"
+    },
+    {
+      "addr": "0x3e036",
+      "string": "NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE"
+    },
+    {
+      "addr": "0x3e06a",
+      "string": "NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE"
+    },
+    {
+      "addr": "0x3e09c",
+      "string": "NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE"
+    },
+    {
+      "addr": "0x3e0ce",
+      "string": "NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE"
+    },
+    {
+      "addr": "0x3e101",
+      "string": "NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+      "addr": "0x3e146",
+      "string": "NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+      "addr": "0x3e18e",
+      "string": "NSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+      "addr": "0x3e32c",
+      "string": "0123456789abcdefABCDEFxX+-pPiInN"
+    },
+    {
+      "addr": "0x3e34d",
+      "string": "%I:%M:%S %p%"
+    },
+    {
+      "addr": "0x3eebc",
+      "string": "NSt6__ndk16locale5facetE"
+    },
+    {
+      "addr": "0x3eed5",
+      "string": "NSt6__ndk15ctypeIwEE"
+    },
+    {
+      "addr": "0x3eeea",
+      "string": "NSt6__ndk110ctype_baseE"
+    },
+    {
+      "addr": "0x3ef02",
+      "string": "NSt6__ndk17codecvtIcc9mbstate_tEE"
+    },
+    {
+      "addr": "0x3ef24",
+      "string": "NSt6__ndk112codecvt_baseE"
+    },
+    {
+      "addr": "0x3ef3e",
+      "string": "NSt6__ndk17codecvtIDsc9mbstate_tEE"
+    },
+    {
+      "addr": "0x3ef61",
+      "string": "NSt6__ndk17codecvtIDsDu9mbstate_tEE"
+    },
+    {
+      "addr": "0x3ef85",
+      "string": "NSt6__ndk17codecvtIDic9mbstate_tEE"
+    },
+    {
+      "addr": "0x3efa8",
+      "string": "NSt6__ndk17codecvtIDiDu9mbstate_tEE"
+    },
+    {
+      "addr": "0x3efcc",
+      "string": "NSt6__ndk17codecvtIwc9mbstate_tEE"
+    },
+    {
+      "addr": "0x3efee",
+      "string": "NSt6__ndk16locale5__impE"
+    },
+    {
+      "addr": "0x3f007",
+      "string": "NSt6__ndk17collateIcEE"
+    },
+    {
+      "addr": "0x3f01e",
+      "string": "NSt6__ndk17collateIwEE"
+    },
+    {
+      "addr": "0x3f035",
+      "string": "NSt6__ndk15ctypeIcEE"
+    },
+    {
+      "addr": "0x3f04a",
+      "string": "NSt6__ndk18numpunctIcEE"
+    },
+    {
+      "addr": "0x3f062",
+      "string": "NSt6__ndk18numpunctIwEE"
+    },
+    {
+      "addr": "0x3f07a",
+      "string": "NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE"
+    },
+    {
+      "addr": "0x3f0c1",
+      "string": "NSt6__ndk19__num_getIcEE"
+    },
+    {
+      "addr": "0x3f0da",
+      "string": "NSt6__ndk114__num_get_baseE"
+    },
+    {
+      "addr": "0x3f0f6",
+      "string": "NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE"
+    },
+    {
+      "addr": "0x3f13d",
+      "string": "NSt6__ndk19__num_getIwEE"
+    },
+    {
+      "addr": "0x3f156",
+      "string": "NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE"
+    },
+    {
+      "addr": "0x3f19d",
+      "string": "NSt6__ndk19__num_putIcEE"
+    },
+    {
+      "addr": "0x3f1b6",
+      "string": "NSt6__ndk114__num_put_baseE"
+    },
+    {
+      "addr": "0x3f1d2",
+      "string": "NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE"
+    },
+    {
+      "addr": "0x3f219",
+      "string": "NSt6__ndk19__num_putIwEE"
+    },
+    {
+      "addr": "0x3f232",
+      "string": "NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE"
+    },
+    {
+      "addr": "0x3f27a",
+      "string": "NSt6__ndk19time_baseE"
+    },
+    {
+      "addr": "0x3f290",
+      "string": "NSt6__ndk120__time_get_c_storageIcEE"
+    },
+    {
+      "addr": "0x3f2b5",
+      "string": "NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE"
+    },
+    {
+      "addr": "0x3f2fd",
+      "string": "NSt6__ndk120__time_get_c_storageIwEE"
+    },
+    {
+      "addr": "0x3f322",
+      "string": "NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE"
+    },
+    {
+      "addr": "0x3f36a",
+      "string": "NSt6__ndk110__time_putE"
+    },
+    {
+      "addr": "0x3f382",
+      "string": "NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE"
+    },
+    {
+      "addr": "0x3f3ca",
+      "string": "NSt6__ndk110moneypunctIcLb0EEE"
+    },
+    {
+      "addr": "0x3f3e9",
+      "string": "NSt6__ndk110money_baseE"
+    },
+    {
+      "addr": "0x3f401",
+      "string": "NSt6__ndk110moneypunctIcLb1EEE"
+    },
+    {
+      "addr": "0x3f420",
+      "string": "NSt6__ndk110moneypunctIwLb0EEE"
+    },
+    {
+      "addr": "0x3f43f",
+      "string": "NSt6__ndk110moneypunctIwLb1EEE"
+    },
+    {
+      "addr": "0x3f45e",
+      "string": "NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE"
+    },
+    {
+      "addr": "0x3f4a7",
+      "string": "NSt6__ndk111__money_getIcEE"
+    },
+    {
+      "addr": "0x3f4c3",
+      "string": "NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE"
+    },
+    {
+      "addr": "0x3f50c",
+      "string": "NSt6__ndk111__money_getIwEE"
+    },
+    {
+      "addr": "0x3f528",
+      "string": "NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE"
+    },
+    {
+      "addr": "0x3f571",
+      "string": "NSt6__ndk111__money_putIcEE"
+    },
+    {
+      "addr": "0x3f58d",
+      "string": "NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE"
+    },
+    {
+      "addr": "0x3f5d6",
+      "string": "NSt6__ndk111__money_putIwEE"
+    },
+    {
+      "addr": "0x3f5f2",
+      "string": "NSt6__ndk18messagesIcEE"
+    },
+    {
+      "addr": "0x3f60a",
+      "string": "NSt6__ndk113messages_baseE"
+    },
+    {
+      "addr": "0x3f625",
+      "string": "NSt6__ndk18messagesIwEE"
+    },
+    {
+      "addr": "0x3f63d",
+      "string": "St9exception"
+    },
+    {
+      "addr": "0x3f64a",
+      "string": "St20bad_array_new_length"
+    },
+    {
+      "addr": "0x3f663",
+      "string": "St9bad_alloc"
+    },
+    {
+      "addr": "0x3f670",
+      "string": "St11logic_error"
+    },
+    {
+      "addr": "0x3f680",
+      "string": "St16invalid_argument"
+    },
+    {
+      "addr": "0x3f695",
+      "string": "St12length_error"
+    },
+    {
+      "addr": "0x3f6a6",
+      "string": "St12out_of_range"
+    },
+    {
+      "addr": "0x3f6b7",
+      "string": "St13runtime_error"
+    },
+    {
+      "addr": "0x3f6c9",
+      "string": "St14overflow_error"
+    },
+    {
+      "addr": "0x3f6dc",
+      "string": "St9type_info"
+    },
+    {
+      "addr": "0x3f6e9",
+      "string": "St8bad_cast"
+    },
+    {
+      "addr": "0x3f6f5",
+      "string": "N10__cxxabiv116__shim_type_infoE"
+    },
+    {
+      "addr": "0x3f716",
+      "string": "N10__cxxabiv117__class_type_infoE"
+    },
+    {
+      "addr": "0x3f738",
+      "string": "N10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+      "addr": "0x3f75d",
+      "string": "N10__cxxabiv121__vmi_class_type_infoE"
+    },
+    {
+      "addr": "0x3f8f2",
+      "string": "N12_GLOBAL__N_116itanium_demangle11SpecialNameE"
+    },
+    {
+      "addr": "0x3f922",
+      "string": "N12_GLOBAL__N_116itanium_demangle4NodeE"
+    },
+    {
+      "addr": "0x3f94a",
+      "string": "N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE"
+    },
+    {
+      "addr": "0x3f984",
+      "string": "N12_GLOBAL__N_116itanium_demangle8NameTypeE"
+    },
+    {
+      "addr": "0x3f9b0",
+      "string": "N12_GLOBAL__N_116itanium_demangle10ModuleNameE"
+    },
+    {
+      "addr": "0x3f9df",
+      "string": "N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE"
+    },
+    {
+      "addr": "0x3fa1c",
+      "string": "N12_GLOBAL__N_116itanium_demangle10BinaryExprE"
+    },
+    {
+      "addr": "0x3fa4b",
+      "string": "N12_GLOBAL__N_116itanium_demangle10PrefixExprE"
+    },
+    {
+      "addr": "0x3fa7a",
+      "string": "N12_GLOBAL__N_116itanium_demangle11PostfixExprE"
+    },
+    {
+      "addr": "0x3faaa",
+      "string": "N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE"
+    },
+    {
+      "addr": "0x3fae1",
+      "string": "N12_GLOBAL__N_116itanium_demangle10MemberExprE"
+    },
+    {
+      "addr": "0x3fb10",
+      "string": "N12_GLOBAL__N_116itanium_demangle7NewExprE"
+    },
+    {
+      "addr": "0x3fb3b",
+      "string": "N12_GLOBAL__N_116itanium_demangle10DeleteExprE"
+    },
+    {
+      "addr": "0x3fb6a",
+      "string": "N12_GLOBAL__N_116itanium_demangle8CallExprE"
+    },
+    {
+      "addr": "0x3fb96",
+      "string": "N12_GLOBAL__N_116itanium_demangle14ConversionExprE"
+    },
+    {
+      "addr": "0x3fbc9",
+      "string": "N12_GLOBAL__N_116itanium_demangle15ConditionalExprE"
+    },
+    {
+      "addr": "0x3fbfd",
+      "string": "N12_GLOBAL__N_116itanium_demangle8CastExprE"
+    },
+    {
+      "addr": "0x3fc29",
+      "string": "N12_GLOBAL__N_116itanium_demangle13EnclosingExprE"
+    },
+    {
+      "addr": "0x3fc5b",
+      "string": "N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE"
+    },
+    {
+      "addr": "0x3fc8e",
+      "string": "N12_GLOBAL__N_116itanium_demangle8BoolExprE"
+    },
+    {
+      "addr": "0x3fcba",
+      "string": "N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE"
+    },
+    {
+      "addr": "0x3fcf2",
+      "string": "N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE"
+    },
+    {
+      "addr": "0x3fd2a",
+      "string": "N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE"
+    },
+    {
+      "addr": "0x3fd62",
+      "string": "N12_GLOBAL__N_116itanium_demangle13StringLiteralE"
+    },
+    {
+      "addr": "0x3fd94",
+      "string": "N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE"
+    },
+    {
+      "addr": "0x3fdc8",
+      "string": "N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE"
+    },
+    {
+      "addr": "0x3fe07",
+      "string": "N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE"
+    },
+    {
+      "addr": "0x3fe41",
+      "string": "N12_GLOBAL__N_116itanium_demangle32ConstrainedTypeTemplateParamDeclE"
+    },
+    {
+      "addr": "0x3fe86",
+      "string": "N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE"
+    },
+    {
+      "addr": "0x3fec3",
+      "string": "N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE"
+    },
+    {
+      "addr": "0x3ff01",
+      "string": "N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE"
+    },
+    {
+      "addr": "0x3ff3b",
+      "string": "N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE"
+    },
+    {
+      "addr": "0x3ff6f",
+      "string": "N12_GLOBAL__N_116itanium_demangle10LambdaExprE"
+    },
+    {
+      "addr": "0x3ff9e",
+      "string": "N12_GLOBAL__N_116itanium_demangle11EnumLiteralE"
+    },
+    {
+      "addr": "0x3ffce",
+      "string": "N12_GLOBAL__N_116itanium_demangle13FunctionParamE"
+    },
+    {
+      "addr": "0x40000",
+      "string": "N12_GLOBAL__N_116itanium_demangle8FoldExprE"
+    },
+    {
+      "addr": "0x4002c",
+      "string": "N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE"
+    },
+    {
+      "addr": "0x40067",
+      "string": "N12_GLOBAL__N_116itanium_demangle10BracedExprE"
+    },
+    {
+      "addr": "0x40096",
+      "string": "N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE"
+    },
+    {
+      "addr": "0x400ca",
+      "string": "N12_GLOBAL__N_116itanium_demangle12InitListExprE"
+    },
+    {
+      "addr": "0x400fb",
+      "string": "N12_GLOBAL__N_116itanium_demangle29PointerToMemberConversionExprE"
+    },
+    {
+      "addr": "0x4013d",
+      "string": "N12_GLOBAL__N_116itanium_demangle15ExprRequirementE"
+    },
+    {
+      "addr": "0x40171",
+      "string": "N12_GLOBAL__N_116itanium_demangle15TypeRequirementE"
+    },
+    {
+      "addr": "0x401a5",
+      "string": "N12_GLOBAL__N_116itanium_demangle17NestedRequirementE"
+    },
+    {
+      "addr": "0x401db",
+      "string": "N12_GLOBAL__N_116itanium_demangle12RequiresExprE"
+    },
+    {
+      "addr": "0x4020c",
+      "string": "N12_GLOBAL__N_116itanium_demangle13SubobjectExprE"
+    },
+    {
+      "addr": "0x4023e",
+      "string": "N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE"
+    },
+    {
+      "addr": "0x40276",
+      "string": "N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE"
+    },
+    {
+      "addr": "0x402a8",
+      "string": "N12_GLOBAL__N_116itanium_demangle9ThrowExprE"
+    },
+    {
+      "addr": "0x402d5",
+      "string": "N12_GLOBAL__N_116itanium_demangle13QualifiedNameE"
+    },
+    {
+      "addr": "0x40307",
+      "string": "N12_GLOBAL__N_116itanium_demangle8DtorNameE"
+    },
+    {
+      "addr": "0x40333",
+      "string": "N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE"
+    },
+    {
+      "addr": "0x4036e",
+      "string": "N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE"
+    },
+    {
+      "addr": "0x403a2",
+      "string": "N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE"
+    },
+    {
+      "addr": "0x403da",
+      "string": "N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE"
+    },
+    {
+      "addr": "0x40412",
+      "string": "N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE"
+    },
+    {
+      "addr": "0x40452",
+      "string": "N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE"
+    },
+    {
+      "addr": "0x40481",
+      "string": "N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE"
+    },
+    {
+      "addr": "0x404bb",
+      "string": "N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE"
+    },
+    {
+      "addr": "0x404ec",
+      "string": "N12_GLOBAL__N_116itanium_demangle12ModuleEntityE"
+    },
+    {
+      "addr": "0x4051d",
+      "string": "N12_GLOBAL__N_116itanium_demangle20MemberLikeFriendNameE"
+    },
+    {
+      "addr": "0x40556",
+      "string": "N12_GLOBAL__N_116itanium_demangle10NestedNameE"
+    },
+    {
+      "addr": "0x40585",
+      "string": "N12_GLOBAL__N_116itanium_demangle9LocalNameE"
+    },
+    {
+      "addr": "0x405b2",
+      "string": "N12_GLOBAL__N_116itanium_demangle13ParameterPackE"
+    },
+    {
+      "addr": "0x405e4",
+      "string": "N12_GLOBAL__N_116itanium_demangle12TemplateArgsE"
+    },
+    {
+      "addr": "0x40615",
+      "string": "N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE"
+    },
+    {
+      "addr": "0x4064e",
+      "string": "N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE"
+    },
+    {
+      "addr": "0x40687",
+      "string": "N12_GLOBAL__N_116itanium_demangle25TemplateParamQualifiedArgE"
+    },
+    {
+      "addr": "0x406c5",
+      "string": "N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE"
+    },
+    {
+      "addr": "0x406f6",
+      "string": "N12_GLOBAL__N_116itanium_demangle23ExplicitObjectParameterE"
+    },
+    {
+      "addr": "0x40732",
+      "string": "N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE"
+    },
+    {
+      "addr": "0x40767",
+      "string": "N12_GLOBAL__N_116itanium_demangle9DotSuffixE"
+    },
+    {
+      "addr": "0x40794",
+      "string": "N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE"
+    },
+    {
+      "addr": "0x407c5",
+      "string": "N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE"
+    },
+    {
+      "addr": "0x407fe",
+      "string": "N12_GLOBAL__N_116itanium_demangle12FunctionTypeE"
+    },
+    {
+      "addr": "0x4082f",
+      "string": "N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE"
+    },
+    {
+      "addr": "0x40861",
+      "string": "N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE"
+    },
+    {
+      "addr": "0x40897",
+      "string": "N12_GLOBAL__N_116itanium_demangle8QualTypeE"
+    },
+    {
+      "addr": "0x408c3",
+      "string": "N12_GLOBAL__N_116itanium_demangle15TransformedTypeE"
+    },
+    {
+      "addr": "0x408f7",
+      "string": "N12_GLOBAL__N_116itanium_demangle12BinaryFPTypeE"
+    },
+    {
+      "addr": "0x40928",
+      "string": "N12_GLOBAL__N_116itanium_demangle10BitIntTypeE"
+    },
+    {
+      "addr": "0x40957",
+      "string": "N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE"
+    },
+    {
+      "addr": "0x40990",
+      "string": "N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE"
+    },
+    {
+      "addr": "0x409c4",
+      "string": "N12_GLOBAL__N_116itanium_demangle10VectorTypeE"
+    },
+    {
+      "addr": "0x409f3",
+      "string": "N12_GLOBAL__N_116itanium_demangle9ArrayTypeE"
+    },
+    {
+      "addr": "0x40a20",
+      "string": "N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE"
+    },
+    {
+      "addr": "0x40a58",
+      "string": "N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE"
+    },
+    {
+      "addr": "0x40a93",
+      "string": "N12_GLOBAL__N_116itanium_demangle11PointerTypeE"
+    },
+    {
+      "addr": "0x40ac3",
+      "string": "N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE"
+    },
+    {
+      "addr": "0x7ad940",
+      "string": "]$ }Q"
+    },
+    {
+      "addr": "0x7aff89",
+      "string": "%m/%d/%y"
+    },
+    {
+      "addr": "0x7affa1",
+      "string": "%H:%M:%S"
+    },
+    {
+      "addr": "0x7affb8",
+      "string": "(%a %b %d %H:%M:%S %Y"
+    },
+    {
+      "addr": "0x7affd1",
+      "string": "%I:%M:%S %p"
+    }
+  ],
+  "cursor": {
+    "done": true
+  }
+}

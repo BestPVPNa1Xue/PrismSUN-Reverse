@@ -1,0 +1,26 @@
+{
+  "addr": "0x51fc30",
+  "code": "__int64 __fastcall sub_51FC30(__int64 result, __int64 a2, __int64 a3, _QWORD *a4)\n{\n  __int64 v4; // d24\n  __int64 v5; // d28\n  __int64 v6; // x20\n  int v7; // w8\n  int v8; // w8\n  int v9; // w8\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\n\n  v6 = result; /*0x51fc44*/\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x51fc50*/\n  savedregs[2] = 0x3422728500000002LL; /*0x51fc58*/\n  savedregs[0] = (char *)&savedregs[2] + 4; /*0x51fc6c*/\n  while ( 1 ) /*0x51fd48*/\n  {\n    while ( 1 ) /*0x51fd20*/\n    {\n      while ( 1 ) /*0x51fd0c*/\n      {\n        while ( 1 ) /*0x51fcf8*/\n        {\n          while ( 1 ) /*0x51fce4*/\n          {\n            while ( 1 ) /*0x51fcd0*/\n            {\n              while ( 1 ) /*0x51fcbc*/\n              {\n                while ( 1 ) /*0x51fca8*/\n                {\n                  while ( 1 ) /*0x51fc94*/\n                  {\n                    while ( HIDWORD(savedregs[2]) == -1383427742 ) /*0x51fc94*/\n                    {\n                      LODWORD(savedregs[2]) = v6; /*0x51fe4c*/\n                      result = ((__int64 (__fastcall *)(__int64))loc_521FE0)(v6); /*0x51fe54*/\n                      HIDWORD(savedregs[2]) = 1417048419; /*0x51fe64*/\n                    }\n                    if ( HIDWORD(savedregs[2]) != -1151196257 ) /*0x51fca8*/\n                      break; /*0x51fca8*/\n                    HIDWORD(savedregs[2]) = 264899207; /*0x51fe1c*/\n                  }\n                  if ( HIDWORD(savedregs[2]) != -935879117 ) /*0x51fcbc*/\n                    break; /*0x51fcbc*/\n                  if ( (savedregs[1] & 0x100000000000000LL) != 0 ) /*0x51ff1c*/\n                    v8 = 1429599176; /*0x51ff1c*/\n                  else\n                    v8 = 1950490718; /*0x51ff1c*/\n                  HIDWORD(savedregs[2]) = v8; /*0x51ff24*/\n                }\n                if ( HIDWORD(savedregs[2]) != -823260968 ) /*0x51fcd0*/\n                  break; /*0x51fcd0*/\n                HIBYTE(savedregs[1]) = *(_DWORD *)sub_51FC30 >> 26 == 5 || *(_DWORD *)sub_51FC30 >> 21 == 1697; /*0x51fee8*/\n                HIDWORD(savedregs[2]) = -935879117; /*0x51fef8*/\n              }\n              if ( HIDWORD(savedregs[2]) != -605518827 ) /*0x51fce4*/\n                break; /*0x51fce4*/\n              HIDWORD(savedregs[2]) = -1383427742; /*0x51fe30*/\n            }\n            if ( HIDWORD(savedregs[2]) != -246451047 ) /*0x51fcf8*/\n              break; /*0x51fcf8*/\n            if ( (savedregs[1] & 0x1000000000000LL) != 0 ) /*0x51ffbc*/\n              v9 = 1429599176; /*0x51ffbc*/\n            else\n              v9 = -605518827; /*0x51ffbc*/\n            HIDWORD(savedregs[2]) = v9; /*0x51ffc4*/\n          }\n          if ( HIDWORD(savedregs[2]) != -89015986 ) /*0x51fd0c*/\n            break; /*0x51fd0c*/\n          HIDWORD(savedregs[2]) = -1151196257; /*0x51fe08*/\n        }\n        if ( HIDWORD(savedregs[2]) != 264899207 ) /*0x51fd20*/\n          break; /*0x51fd20*/\n        HIDWORD(savedregs[2]) = -823260968; /*0x51feb4*/\n      }\n      if ( HIDWORD(savedregs[2]) != 874672773 ) /*0x51fd48*/\n        break; /*0x51fd48*/\n      if ( LODWORD(savedregs[2]) == -509005563 ) /*0x51fdec*/\n        v7 = 1501126057; /*0x51fdec*/\n      else\n        v7 = -89015986; /*0x51fdec*/\n      HIDWORD(savedregs[2]) = v7; /*0x51fdf4*/\n    }\n    if ( HIDWORD(savedregs[2]) == 1417048419 ) /*0x51fd70*/\n      break; /*0x51fd70*/\n    switch ( HIDWORD(savedregs[2]) ) /*0x51fd84*/\n    {\n      case 0x5535F3C8: /*0x51fd84*/\n        _ReadStatusReg(TPIDR_EL0); /*0x51fe90*/\n        abort(); /*0x51fea4*/\n      case 0x59795DA9: /*0x51fd84*/\n        *a4 = v5; /*0x51ffcc*/\n        a4[1] = v4; /*0x51ffcc*/\n        JUMPOUT(0x51FFD0); /*0x51ffd0*/\n      case 0x7442205E: /*0x51fd84*/\n        HIDWORD(savedregs[2]) = 2036335763; /*0x51ff38*/\n        break;\n      default:\n        BYTE6(savedregs[1]) = loc_51FC34 >> 10 == 3508160 || loc_51FC38 >> 10 == 3508160; /*0x51ff88*/\n        HIDWORD(savedregs[2]) = -246451047; /*0x51ff98*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x51fe6c*/\n  return result; /*0x51fe8c*/\n}",
+  "refs": [
+    {
+      "addr": "0x521fe0",
+      "name": "loc_521FE0"
+    },
+    {
+      "addr": "0x51fc30",
+      "name": "sub_51FC30"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x51fc34",
+      "name": "loc_51FC34"
+    },
+    {
+      "addr": "0x51fc38",
+      "name": "loc_51FC38"
+    }
+  ]
+}

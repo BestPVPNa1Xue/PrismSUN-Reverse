@@ -1,0 +1,146 @@
+{
+  "addr": "0x41de58",
+  "code": "__int64 sub_41DE58()\n{\n  __int64 result; // x0\n  __int64 *v1; // x9\n  __int64 *v2; // x8\n  __int64 v3; // x0\n  __int64 *v4; // x8\n  __int64 v5; // x0\n  __int64 v6; // x0\n  unsigned int v7; // w20\n  __int64 v8; // x23\n  unsigned int v9; // w24\n  __int64 v10; // x0\n  _BYTE v11[16]; // [xsp-140h] [xbp-170h] BYREF\n  _BYTE v12[32]; // [xsp-130h] [xbp-160h] BYREF\n  __int64 v13; // [xsp-110h] [xbp-140h] BYREF\n  _BYTE v14[32]; // [xsp-F0h] [xbp-120h] BYREF\n  _QWORD v15[2]; // [xsp-D0h] [xbp-100h] BYREF\n  __int64 v16; // [xsp-C0h] [xbp-F0h]\n  _BYTE v17[32]; // [xsp-B0h] [xbp-E0h] BYREF\n  __int64 v18; // [xsp-90h] [xbp-C0h] BYREF\n  __int64 v19; // [xsp-80h] [xbp-B0h]\n  __int64 v20; // [xsp-70h] [xbp-A0h] BYREF\n  int v21; // [xsp-50h] [xbp-80h]\n  __int64 v22; // [xsp-40h] [xbp-70h] BYREF\n  __int64 v23; // [xsp-30h] [xbp-60h] BYREF\n  __int64 v24; // [xsp-20h] [xbp-50h] BYREF\n  char v25; // [xsp-10h] [xbp-40h] BYREF\n  __int64 *v26; // [xsp+0h] [xbp-30h]\n  __int64 *v27; // [xsp+8h] [xbp-28h]\n  __int64 *v28; // [xsp+10h] [xbp-20h]\n  __int64 *v29; // [xsp+18h] [xbp-18h]\n  __int64 *v30; // [xsp+20h] [xbp-10h]\n  __int64 v31; // [xsp+28h] [xbp-8h]\n\n  v31 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x41de80*/\n  if ( *(_DWORD *)sub_41DE58 >> 26 == 5 /*0x41e3b4*/\n    || *(_DWORD *)sub_41DE58 >> 21 == 1697\n    || loc_41DE5C >> 10 == 3508160\n    || loc_41DE60 >> 10 == 3508160 )\n  {\n    goto LABEL_12; /*0x41e3bc*/\n  }\n  v29 = &v24; /*0x41de9c*/\n  v27 = &v23; /*0x41dea8*/\n  v30 = &v22; /*0x41deb4*/\n  v28 = &v20; /*0x41ded4*/\n  v26 = &v13; /*0x41df10*/\n  v25 = 0; /*0x41df28*/\n  result = ((__int64 (__fastcall *)(void *, char *, __int64, __int64))loc_410AEC)(&unk_7D0845, &v25, 1, 5); /*0x41df40*/\n  if ( (result & 1) != 0 ) /*0x41df44*/\n  {\n    v3 = sub_3B8C40(result); /*0x41df60*/\n    v4 = v27; /*0x41df64*/\n    *v27 = v3; /*0x41df68*/\n    v5 = sub_449928(v30, *v4 + 28); /*0x41df78*/\n    v21 = sub_44992C(v5); /*0x41df88*/\n    if ( v21 == 5486 ) /*0x41df9c*/\n    {\n      v16 = sub_41F2FC(); /*0x41e078*/\n      v15[0] = sub_449934(v16); /*0x41e08c*/\n      if ( (sub_2B2834(v15) & 1) != 0 ) /*0x41e0a0*/\n      {\n        v8 = sub_449938(); /*0x41e0ac*/\n        v9 = *(_DWORD *)sub_44993C((__int64)v15); /*0x41e0c0*/\n        sub_C7BE8(v26, &byte_34073); /*0x41e0d0*/\n        v10 = sub_2B2C7C((__int64)v15); /*0x41e0e0*/\n        sub_2B3110(v10, (__int64)v12); /*0x41e0f0*/\n        sub_18B55C(v26, v12); /*0x41e100*/\n        sub_449940(v8, v9, v14); /*0x41e11c*/\n        sub_449944(v14); /*0x41e128*/\n        sub_74539C(v12); /*0x41e130*/\n        sub_74539C(v26); /*0x41e138*/\n        ((void (__fastcall *)(__int64, __int64, __int64))loc_41CD28)(*v27 + 116, 45, 5); /*0x41e150*/\n        sub_41D0C4(v30); /*0x41e158*/\n        sub_4499A4(*v27 + 68); /*0x41e16c*/\n        *(_DWORD *)v29 = 1; /*0x41e178*/\n      }\n      else\n      {\n        sub_449A68(v11, sub_40FD54); /*0x41e200*/\n        sub_449A6C(v11); /*0x41e214*/\n        ((void (__fastcall *)(__int64, __int64, __int64))loc_41CD28)(*v27 + 116, 45, 5); /*0x41e234*/\n        sub_41D0C4(v30); /*0x41e23c*/\n        sub_747730(*v27 + 68); /*0x41e254*/\n        sub_74795C(v11); /*0x41e25c*/\n        *(_DWORD *)v29 = 0; /*0x41e264*/\n      }\n    }\n    else\n    {\n      v6 = ((__int64 (__fastcall *)(__int64 *))loc_41E3C8)(&v18); /*0x41dfac*/\n      v19 = sub_449930(v6); /*0x41dfc4*/\n      v7 = sub_2B2208(0x138Bu); /*0x41dfd0*/\n      sub_C7BE8(v17, v19); /*0x41dfdc*/\n      sub_4D73A4(v7, v17); /*0x41dff4*/\n      sub_74539C(v17); /*0x41e004*/\n      *(_DWORD *)v29 = 1; /*0x41e010*/\n    }\n    result = ((__int64 (__fastcall *)(__int64 *))loc_41D9C8)(v30); /*0x41e278*/\n    v2 = v29; /*0x41e27c*/\n  }\n  else\n  {\n    v1 = v29; /*0x41df50*/\n    *(_DWORD *)v29 = 1; /*0x41df54*/\n    v2 = v1; /*0x41df58*/\n  }\n  if ( *(_DWORD *)v2 > 1u ) /*0x41e290*/\n  {\nLABEL_12:\n    _ReadStatusReg(TPIDR_EL0); /*0x41e330*/\n    abort(); /*0x41e344*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x41e29c*/\n  return result; /*0x41e2cc*/\n}",
+  "refs": [
+    {
+      "addr": "0x41de58",
+      "name": "sub_41DE58"
+    },
+    {
+      "addr": "0x41de5c",
+      "name": "loc_41DE5C"
+    },
+    {
+      "addr": "0x41de60",
+      "name": "loc_41DE60"
+    },
+    {
+      "addr": "0x410aec",
+      "name": "loc_410AEC"
+    },
+    {
+      "addr": "0x7d0845",
+      "name": "unk_7D0845"
+    },
+    {
+      "addr": "0x3b8c40",
+      "name": "sub_3B8C40"
+    },
+    {
+      "addr": "0x449928",
+      "name": "sub_449928"
+    },
+    {
+      "addr": "0x44992c",
+      "name": "sub_44992C"
+    },
+    {
+      "addr": "0x41f2fc",
+      "name": "sub_41F2FC"
+    },
+    {
+      "addr": "0x449934",
+      "name": "sub_449934"
+    },
+    {
+      "addr": "0x449938",
+      "name": "sub_449938"
+    },
+    {
+      "addr": "0x44993c",
+      "name": "sub_44993C"
+    },
+    {
+      "addr": "0xc7be8",
+      "name": "sub_C7BE8"
+    },
+    {
+      "addr": "0x34073",
+      "name": "byte_34073"
+    },
+    {
+      "addr": "0x2b2c7c",
+      "name": "sub_2B2C7C"
+    },
+    {
+      "addr": "0x2b3110",
+      "name": "sub_2B3110"
+    },
+    {
+      "addr": "0x18b55c",
+      "name": "sub_18B55C"
+    },
+    {
+      "addr": "0x449940",
+      "name": "sub_449940"
+    },
+    {
+      "addr": "0x449944",
+      "name": "sub_449944"
+    },
+    {
+      "addr": "0x74539c",
+      "name": "sub_74539C"
+    },
+    {
+      "addr": "0x41cd28",
+      "name": "loc_41CD28"
+    },
+    {
+      "addr": "0x41d0c4",
+      "name": "sub_41D0C4"
+    },
+    {
+      "addr": "0x4499a4",
+      "name": "sub_4499A4"
+    },
+    {
+      "addr": "0x449a68",
+      "name": "sub_449A68"
+    },
+    {
+      "addr": "0x40fd54",
+      "name": "sub_40FD54"
+    },
+    {
+      "addr": "0x449a6c",
+      "name": "sub_449A6C"
+    },
+    {
+      "addr": "0x747730",
+      "name": "sub_747730"
+    },
+    {
+      "addr": "0x74795c",
+      "name": "sub_74795C"
+    },
+    {
+      "addr": "0x2b2834",
+      "name": "sub_2B2834"
+    },
+    {
+      "addr": "0x41e3c8",
+      "name": "loc_41E3C8"
+    },
+    {
+      "addr": "0x449930",
+      "name": "sub_449930"
+    },
+    {
+      "addr": "0x2b2208",
+      "name": "sub_2B2208"
+    },
+    {
+      "addr": "0x4d73a4",
+      "name": "sub_4D73A4"
+    },
+    {
+      "addr": "0x41d9c8",
+      "name": "loc_41D9C8"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    }
+  ]
+}

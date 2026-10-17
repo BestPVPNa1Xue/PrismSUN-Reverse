@@ -1,0 +1,43 @@
+{
+  "target": "D:\\PrismSUN\\libprism-sun.so",
+  "procedure": "accessibility-chain",
+  "before": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "steps": [
+    {
+      "name": "open_binary",
+      "ok": true
+    },
+    {
+      "name": "binary_session",
+      "ok": true
+    },
+    {
+      "name": "analyze_function",
+      "ok": true
+    },
+    {
+      "name": "analyze_function",
+      "ok": true
+    },
+    {
+      "name": "analyze_function",
+      "ok": true
+    },
+    {
+      "name": "close_binary",
+      "ok": true
+    },
+    {
+      "name": "binary_session",
+      "ok": true
+    }
+  ],
+  "server": {
+    "name": "rea",
+    "version": "6.4.0"
+  },
+  "tool_count": 170,
+  "passed": true,
+  "after": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "input_unchanged": true
+}

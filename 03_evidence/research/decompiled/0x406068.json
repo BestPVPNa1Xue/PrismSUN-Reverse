@@ -1,0 +1,46 @@
+{
+  "addr": "0x406068",
+  "code": "// bad sp value at call has been detected, the output may be wrong!\n__int64 __fastcall sub_406068(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        _QWORD *a9)\n{\n  _QWORD *v9; // x25\n  _QWORD *v10; // x22\n  char **v11; // x26\n  _QWORD *v12; // x19\n  _QWORD *v13; // x20\n  __int64 v14; // x23\n  _QWORD *v15; // x27\n  unsigned __int64 v16; // x21\n  _QWORD *v17; // x28\n  __int64 v18; // x0\n  __int64 v19; // x0\n  _DWORD *v20; // x24\n  bool v21; // w9\n  bool v22; // w11\n  bool v23; // w12\n  bool v24; // w13\n  _DWORD *v25; // x14\n  _QWORD *v26; // x15\n  bool v27; // w16\n  _QWORD *v28; // x17\n  int v29; // w1\n  char v30; // w13\n  _BYTE *v31; // x1\n  char v32; // w1\n  _BYTE *v33; // x2\n  char v34; // w12\n  _BYTE *v35; // x1\n  char v36; // w1\n  _BYTE *v37; // x2\n  __int64 v38; // x0\n  _BYTE *v39; // x1\n  _DWORD *v40; // x2\n  _QWORD *v41; // x5\n  __int64 v42; // x6\n  _QWORD *v43; ... [67971 chars total]",
+  "refs": [
+    {
+      "addr": "0x449770",
+      "name": "sub_449770"
+    },
+    {
+      "addr": "0x406068",
+      "name": "sub_406068"
+    },
+    {
+      "addr": "0x40606c",
+      "name": "loc_40606C"
+    },
+    {
+      "addr": "0x406070",
+      "name": "loc_406070"
+    },
+    {
+      "addr": "0x4097a8",
+      "name": "loc_4097A8"
+    },
+    {
+      "addr": "0x40a42c",
+      "name": "loc_40A42C"
+    },
+    {
+      "addr": "0x5fe6c4",
+      "name": "loc_5FE6C4"
+    },
+    {
+      "addr": "0xc7d8c",
+      "name": "sub_C7D8C"
+    },
+    {
+      "addr": "0x74539c",
+      "name": "sub_74539C"
+    },
+    {
+      "addr": "0x44902c",
+      "name": "sub_44902C"
+    }
+  ]
+}

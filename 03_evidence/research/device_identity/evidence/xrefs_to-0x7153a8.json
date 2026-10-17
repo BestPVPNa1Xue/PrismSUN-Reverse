@@ -1,0 +1,56 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x7153a8\",\"xrefs\":[{\"addr\":\"0x715fe0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x7153a8\",\"name\":\"sub_7153A8\",\"size\":\"0xcc8\"}},{\"addr\":\"0x716024\",\"type\":\"data\",\"fn\":{\"addr\":\"0x7153a8\",\"name\":\"sub_7153A8\",\"size\":\"0xcc8\"}},{\"addr\":\"0x716044\",\"type\":\"data\",\"fn\":{\"addr\":\"0x7153a8\",\"name\":\"sub_7153A8\",\"size\":\"0xcc8\"}},{\"addr\":\"0x793ff0\",\"type\":\"data\",\"fn\":null}],\"more\":false,\"xref_count\":4}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x7153a8",
+          "xrefs": [
+            {
+              "addr": "0x715fe0",
+              "type": "data",
+              "fn": {
+                "addr": "0x7153a8",
+                "name": "sub_7153A8",
+                "size": "0xcc8"
+              }
+            },
+            {
+              "addr": "0x716024",
+              "type": "data",
+              "fn": {
+                "addr": "0x7153a8",
+                "name": "sub_7153A8",
+                "size": "0xcc8"
+              }
+            },
+            {
+              "addr": "0x716044",
+              "type": "data",
+              "fn": {
+                "addr": "0x7153a8",
+                "name": "sub_7153A8",
+                "size": "0xcc8"
+              }
+            },
+            {
+              "addr": "0x793ff0",
+              "type": "data",
+              "fn": null
+            }
+          ],
+          "more": false,
+          "xref_count": 4
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

@@ -1,0 +1,55 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x1d615c\",\"code\":\"__int64 __fastcall sub_1D615C(unsigned int a1, __int64 a2)\\n{\\n  bool v2; // zf\\n  _QWORD v5[4]; // [xsp-10h] [xbp-20h] BYREF\\n\\n  v5[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x1d6180*/\\n  v2 = *(_DWORD *)sub_1D615C >> 26 == 5 || (*(_DWORD *)sub_1D615C & 0xFFE00000) == -736100352; /*0x1d619c*/\\n  if ( v2 /*0x1d6224*/\\n    || loc_1D6160 >> 10 == 3508160\\n    || (loc_1D6164 & 0xFFFFFC00) == 0xD61F0000\\n    || (sub_1A4698(v5, a2, 4), *(_DWORD *)sub_1D6274 >> 26 == 5)\\n    || (*(_DWORD *)sub_1D6274 & 0xFFE00000) == 0xD4200000\\n    || (loc_1D6278 & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_1D627C & 0xFFFFFC00) == 0xD61F0000 )\\n  {\\n    abort(); /*0x1d626c*/\\n  }\\n  return sub_1A3848(a1, v5); /*0x1d6258*/\\n}\",\"refs\":[{\"addr\":\"0x1d615c\",\"name\":\"sub_1D615C\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x1d6160\",\"name\":\"loc_1D6160\"},{\"addr\":\"0x1d6164\",\"name\":\"loc_1D6164\"},{\"addr\":\"0x1a4698\",\"name\":\"sub_1A4698\"},{\"addr\":\"0x1d6274\",\"name\":\"sub_1D6274\"},{\"addr\":\"0x1d6278\",\"name\":\"loc_1D6278\"},{\"addr\":\"0x1d627c\",\"name\":\"loc_1D627C\"},{\"addr\":\"0x1a3848\",\"name\":\"sub_1A3848\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x1d615c",
+      "code": "__int64 __fastcall sub_1D615C(unsigned int a1, __int64 a2)\n{\n  bool v2; // zf\n  _QWORD v5[4]; // [xsp-10h] [xbp-20h] BYREF\n\n  v5[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x1d6180*/\n  v2 = *(_DWORD *)sub_1D615C >> 26 == 5 || (*(_DWORD *)sub_1D615C & 0xFFE00000) == -736100352; /*0x1d619c*/\n  if ( v2 /*0x1d6224*/\n    || loc_1D6160 >> 10 == 3508160\n    || (loc_1D6164 & 0xFFFFFC00) == 0xD61F0000\n    || (sub_1A4698(v5, a2, 4), *(_DWORD *)sub_1D6274 >> 26 == 5)\n    || (*(_DWORD *)sub_1D6274 & 0xFFE00000) == 0xD4200000\n    || (loc_1D6278 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_1D627C & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0x1d626c*/\n  }\n  return sub_1A3848(a1, v5); /*0x1d6258*/\n}",
+      "refs": [
+        {
+          "addr": "0x1d615c",
+          "name": "sub_1D615C"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x1d6160",
+          "name": "loc_1D6160"
+        },
+        {
+          "addr": "0x1d6164",
+          "name": "loc_1D6164"
+        },
+        {
+          "addr": "0x1a4698",
+          "name": "sub_1A4698"
+        },
+        {
+          "addr": "0x1d6274",
+          "name": "sub_1D6274"
+        },
+        {
+          "addr": "0x1d6278",
+          "name": "loc_1D6278"
+        },
+        {
+          "addr": "0x1d627c",
+          "name": "loc_1D627C"
+        },
+        {
+          "addr": "0x1a3848",
+          "name": "sub_1A3848"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

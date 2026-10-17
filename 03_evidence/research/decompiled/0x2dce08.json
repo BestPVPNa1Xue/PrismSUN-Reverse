@@ -1,0 +1,4 @@
+{
+  "addr": "0x2dce08",
+  "code": "void sub_2DCE08()\n{\n  int savedregs_16; // [xsp+40h] [xbp+10h]\n  int savedregs_20; // [xsp+44h] [xbp+14h]\n  __int64 savedregs_24; // [xsp+48h] [xbp+18h]\n\n  savedregs_24 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x2dce28*/\n  savedregs_16 = 3; /*0x2dce30*/\n  savedregs_20 = 1045173295; /*0x2dd008*/\n  JUMPOUT(0x2DD330); /*0x2dd330*/\n}"
+}

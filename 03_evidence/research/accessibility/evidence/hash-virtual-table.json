@@ -1,0 +1,116 @@
+{
+  "result": {
+    "entry": "0x6d4374",
+    "reason": "returned",
+    "steps": 31095,
+    "return": 115215991,
+    "pc": "0x32000000",
+    "calls": [
+      "0x78a640",
+      "0x785874",
+      "0x785874",
+      "0x784fd4",
+      "0x785874",
+      "0x785874",
+      "0x78a4e0",
+      "0x78a4e0",
+      "0x78a4e0",
+      "0x78a640",
+      "0x78a4e0",
+      "0x78a4e0",
+      "0x78a4e0",
+      "0x78a4e0",
+      "0x78a4e0",
+      "0x78a4e0",
+      "0x78a640",
+      "0x78a720",
+      "0x78a600",
+      "0x78a670",
+      "0x78a520",
+      "0x78a610",
+      "0x78a610"
+    ],
+    "modeled_boundaries": [
+      "__memcpy_chk",
+      "calloc",
+      "compiler_emutls_get_address",
+      "free",
+      "malloc",
+      "memcmp",
+      "memset",
+      "strlen",
+      "thread_destructor_registration"
+    ],
+    "input_hex": [
+      "7a",
+      "61"
+    ],
+    "sorted_hex": [
+      "61",
+      "7a"
+    ],
+    "algorithm": "CRC32"
+  },
+  "observations": [
+    {
+      "pc": "0x10a218",
+      "object": "0x33000050",
+      "vtable": "0x791228",
+      "slots": [
+        "0x195f58",
+        "0x248ffc",
+        "0x195fb8",
+        "0x1053a8",
+        "0x106128"
+      ]
+    },
+    {
+      "pc": "0x10a218",
+      "object": "0x33000050",
+      "vtable": "0x791228",
+      "slots": [
+        "0x195f58",
+        "0x248ffc",
+        "0x195fb8",
+        "0x1053a8",
+        "0x106128"
+      ]
+    },
+    {
+      "pc": "0x10a218",
+      "object": "0x33000050",
+      "vtable": "0x791228",
+      "slots": [
+        "0x195f58",
+        "0x248ffc",
+        "0x195fb8",
+        "0x1053a8",
+        "0x106128"
+      ]
+    },
+    {
+      "pc": "0x10a218",
+      "object": "0x33000050",
+      "vtable": "0x791228",
+      "slots": [
+        "0x195f58",
+        "0x248ffc",
+        "0x195fb8",
+        "0x1053a8",
+        "0x106128"
+      ]
+    },
+    {
+      "pc": "0x11a3bc",
+      "object": "0x33000050",
+      "vtable": "0x791228",
+      "slots": [
+        "0x195f58",
+        "0x248ffc",
+        "0x195fb8",
+        "0x1053a8",
+        "0x106128"
+      ]
+    }
+  ]
+}

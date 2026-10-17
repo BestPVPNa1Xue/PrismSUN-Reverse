@@ -1,0 +1,10 @@
+{
+  "addr": "0x2ac2e0",
+  "code": "__int64 __fastcall sub_2AC2E0(__int64 a1)\n{\n  __int64 v1; // x19\n  __int64 v2; // x20\n  __int64 result; // x0\n  _QWORD savedregs[4]; // [xsp+30h] [xbp+0h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x2ac2f8*/\n  HIDWORD(savedregs[2]) = 871483013; /*0x2ac304*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x2ac30c*/\n  while ( HIDWORD(savedregs[2]) != -1656345830 ) /*0x2ac334*/\n  {\n    if ( HIDWORD(savedregs[2]) == 871483013 ) /*0x2ac3d4*/\n    {\n      HIDWORD(savedregs[2]) = 1092609569; /*0x2ac464*/\n    }\n    else\n    {\n      LODWORD(savedregs[2]) = a1; /*0x2ac474*/\n      v1 = a1; /*0x2ac478*/\n      v2 = a1; /*0x2ac47c*/\n      ((void (__fastcall *)(__int64))loc_2BC258)(a1); /*0x2ac484*/\n      a1 = v2; /*0x2ac488*/\n      savedregs[0] = v1; /*0x2ac48c*/\n      HIDWORD(savedregs[2]) = -1656345830; /*0x2ac49c*/\n    }\n  }\n  result = savedregs[0]; /*0x2ac4a4*/\n  _ReadStatusReg(TPIDR_EL0); /*0x2ac4a8*/\n  return result; /*0x2ac4c8*/\n}",
+  "refs": [
+    {
+      "addr": "0x2bc258",
+      "name": "loc_2BC258"
+    }
+  ]
+}

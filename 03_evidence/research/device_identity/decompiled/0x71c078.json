@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x71c078\",\"code\":\"void sub_71C078()\\n{\\n  _ReadStatusReg(TPIDR_EL0); /*0x71c088*/\\n  JUMPOUT(0x71C108); /*0x71c108*/\\n}\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x71c078",
+      "code": "void sub_71C078()\n{\n  _ReadStatusReg(TPIDR_EL0); /*0x71c088*/\n  JUMPOUT(0x71C108); /*0x71c108*/\n}"
+    },
+    "isError": false
+  },
+  "id": 1
+}

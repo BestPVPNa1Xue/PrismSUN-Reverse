@@ -1,0 +1,1664 @@
+[
+  {
+    "names": [],
+    "result": [
+      "",
+      false
+    ],
+    "run": {
+      "entry": "0x37fb88",
+      "reason": "returned",
+      "steps": 534703,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x3b3440",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004018",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x3100417c",
+        "0x310042ac",
+        "0x78a4e0",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c"
+      ]
+    },
+    "JNI_trace": [
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageManager",
+        "signature": "()Landroid/content/pm/PackageManager;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageManager"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageInfo",
+        "signature": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+      },
+      {
+        "slot": 33,
+        "name": "getPackageName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageName"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageInfo"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 94,
+        "name": "activities",
+        "signature": "[Landroid/content/pm/ActivityInfo;"
+      },
+      {
+        "slot": 6,
+        "class": "android/content/pm/ActivityInfo"
+      },
+      {
+        "slot": 94,
+        "name": "name",
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "slot": 95,
+        "field": "activities"
+      },
+      {
+        "slot": 171
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      }
+    ],
+    "modeled_boundaries": [
+      "application_getter",
+      "compiler_emutls_get_address",
+      "strlen",
+      "synthetic_JNI_table"
+    ]
+  },
+  {
+    "names": [
+      "com.example.Main"
+    ],
+    "result": [
+      "",
+      false
+    ],
+    "run": {
+      "entry": "0x37fb88",
+      "reason": "returned",
+      "steps": 663682,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x3b3440",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004018",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x3100417c",
+        "0x310042ac",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c"
+      ]
+    },
+    "JNI_trace": [
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageManager",
+        "signature": "()Landroid/content/pm/PackageManager;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageManager"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageInfo",
+        "signature": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+      },
+      {
+        "slot": 33,
+        "name": "getPackageName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageName"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageInfo"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 94,
+        "name": "activities",
+        "signature": "[Landroid/content/pm/ActivityInfo;"
+      },
+      {
+        "slot": 6,
+        "class": "android/content/pm/ActivityInfo"
+      },
+      {
+        "slot": 94,
+        "name": "name",
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "slot": 95,
+        "field": "activities"
+      },
+      {
+        "slot": 171
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      }
+    ],
+    "modeled_boundaries": [
+      "application_getter",
+      "compiler_emutls_get_address",
+      "memmove",
+      "strlen",
+      "synthetic_JNI_table"
+    ]
+  },
+  {
+    "names": [
+      "com.example.wxapi.WXEntryActivity"
+    ],
+    "result": [
+      "com.example",
+      false
+    ],
+    "run": {
+      "entry": "0x37fb88",
+      "reason": "returned",
+      "steps": 665731,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x3b3440",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004018",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x3100417c",
+        "0x310042ac",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a720",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a660",
+        "0x78a640",
+        "0x78a660",
+        "0x78a640",
+        "0x78a500",
+        "0x78a610",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c"
+      ]
+    },
+    "JNI_trace": [
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageManager",
+        "signature": "()Landroid/content/pm/PackageManager;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageManager"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageInfo",
+        "signature": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+      },
+      {
+        "slot": 33,
+        "name": "getPackageName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageName"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageInfo"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 94,
+        "name": "activities",
+        "signature": "[Landroid/content/pm/ActivityInfo;"
+      },
+      {
+        "slot": 6,
+        "class": "android/content/pm/ActivityInfo"
+      },
+      {
+        "slot": 94,
+        "name": "name",
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "slot": 95,
+        "field": "activities"
+      },
+      {
+        "slot": 171
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      }
+    ],
+    "modeled_boundaries": [
+      "application_getter",
+      "compiler_emutls_get_address",
+      "free",
+      "malloc",
+      "memchr",
+      "memcmp",
+      "memmove",
+      "strlen",
+      "synthetic_JNI_table"
+    ]
+  },
+  {
+    "names": [
+      "com.netease.mpay.MpayLoginActionBarActivity"
+    ],
+    "result": [
+      "",
+      true
+    ],
+    "run": {
+      "entry": "0x37fb88",
+      "reason": "returned",
+      "steps": 709436,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x3b3440",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004018",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x3100417c",
+        "0x310042ac",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a720",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a610",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c"
+      ]
+    },
+    "JNI_trace": [
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageManager",
+        "signature": "()Landroid/content/pm/PackageManager;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageManager"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageInfo",
+        "signature": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+      },
+      {
+        "slot": 33,
+        "name": "getPackageName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageName"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageInfo"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 94,
+        "name": "activities",
+        "signature": "[Landroid/content/pm/ActivityInfo;"
+      },
+      {
+        "slot": 6,
+        "class": "android/content/pm/ActivityInfo"
+      },
+      {
+        "slot": 94,
+        "name": "name",
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "slot": 95,
+        "field": "activities"
+      },
+      {
+        "slot": 171
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      }
+    ],
+    "modeled_boundaries": [
+      "application_getter",
+      "compiler_emutls_get_address",
+      "free",
+      "malloc",
+      "memcmp",
+      "memmove",
+      "strlen",
+      "synthetic_JNI_table"
+    ]
+  },
+  {
+    "names": [
+      "foo.wxapi.WXEntryActivity.extra"
+    ],
+    "result": [
+      "",
+      false
+    ],
+    "run": {
+      "entry": "0x37fb88",
+      "reason": "returned",
+      "steps": 659385,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x3b3440",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004018",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x3100417c",
+        "0x310042ac",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a720",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a610",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c"
+      ]
+    },
+    "JNI_trace": [
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageManager",
+        "signature": "()Landroid/content/pm/PackageManager;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageManager"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageInfo",
+        "signature": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+      },
+      {
+        "slot": 33,
+        "name": "getPackageName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageName"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageInfo"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 94,
+        "name": "activities",
+        "signature": "[Landroid/content/pm/ActivityInfo;"
+      },
+      {
+        "slot": 6,
+        "class": "android/content/pm/ActivityInfo"
+      },
+      {
+        "slot": 94,
+        "name": "name",
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "slot": 95,
+        "field": "activities"
+      },
+      {
+        "slot": 171
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      }
+    ],
+    "modeled_boundaries": [
+      "application_getter",
+      "compiler_emutls_get_address",
+      "free",
+      "malloc",
+      "memcmp",
+      "memmove",
+      "strlen",
+      "synthetic_JNI_table"
+    ]
+  },
+  {
+    "names": [
+      "com.netease.mpay.MpayLoginActionBarActivity.extra"
+    ],
+    "result": [
+      "",
+      false
+    ],
+    "run": {
+      "entry": "0x37fb88",
+      "reason": "returned",
+      "steps": 709308,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x3b3440",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004018",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x3100417c",
+        "0x310042ac",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a720",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a610",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c"
+      ]
+    },
+    "JNI_trace": [
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageManager",
+        "signature": "()Landroid/content/pm/PackageManager;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageManager"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageInfo",
+        "signature": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+      },
+      {
+        "slot": 33,
+        "name": "getPackageName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageName"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageInfo"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 94,
+        "name": "activities",
+        "signature": "[Landroid/content/pm/ActivityInfo;"
+      },
+      {
+        "slot": 6,
+        "class": "android/content/pm/ActivityInfo"
+      },
+      {
+        "slot": 94,
+        "name": "name",
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "slot": 95,
+        "field": "activities"
+      },
+      {
+        "slot": 171
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      }
+    ],
+    "modeled_boundaries": [
+      "application_getter",
+      "compiler_emutls_get_address",
+      "free",
+      "malloc",
+      "memcmp",
+      "memmove",
+      "strlen",
+      "synthetic_JNI_table"
+    ]
+  },
+  {
+    "names": [
+      "foo.wxapi.WXEntryActivity.extra",
+      "bar.wxapi.WXEntryActivity",
+      "com.netease.mpay.MpayLoginActionBarActivity"
+    ],
+    "result": [
+      "bar",
+      true
+    ],
+    "run": {
+      "entry": "0x37fb88",
+      "reason": "returned",
+      "steps": 732819,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x3b3440",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004084",
+        "0x3100408c",
+        "0x3100408c",
+        "0x3100407c",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004018",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x31004178",
+        "0x3100417c",
+        "0x310042ac",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a720",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a610",
+        "0x3100405c",
+        "0x3100405c",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a720",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a4e0",
+        "0x78a660",
+        "0x78a640",
+        "0x78a500",
+        "0x78a610",
+        "0x3100405c",
+        "0x3100405c",
+        "0x310042b4",
+        "0x3100417c",
+        "0x310042a4",
+        "0x78a4e0",
+        "0x78a720",
+        "0x78a500",
+        "0x310042a8",
+        "0x78a4e0",
+        "0x78a640",
+        "0x78a610",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c",
+        "0x3100405c"
+      ]
+    },
+    "JNI_trace": [
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageManager",
+        "signature": "()Landroid/content/pm/PackageManager;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageManager"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 33,
+        "name": "getPackageInfo",
+        "signature": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+      },
+      {
+        "slot": 33,
+        "name": "getPackageName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageName"
+      },
+      {
+        "slot": 35,
+        "method": "getPackageInfo"
+      },
+      {
+        "slot": 31
+      },
+      {
+        "slot": 94,
+        "name": "activities",
+        "signature": "[Landroid/content/pm/ActivityInfo;"
+      },
+      {
+        "slot": 6,
+        "class": "android/content/pm/ActivityInfo"
+      },
+      {
+        "slot": 94,
+        "name": "name",
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "slot": 95,
+        "field": "activities"
+      },
+      {
+        "slot": 171
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 173
+      },
+      {
+        "slot": 95,
+        "field": "name"
+      },
+      {
+        "slot": 169
+      },
+      {
+        "slot": 170
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      },
+      {
+        "slot": 23
+      }
+    ],
+    "modeled_boundaries": [
+      "application_getter",
+      "compiler_emutls_get_address",
+      "free",
+      "malloc",
+      "memchr",
+      "memcmp",
+      "memmove",
+      "strlen",
+      "synthetic_JNI_table"
+    ]
+  }
+]

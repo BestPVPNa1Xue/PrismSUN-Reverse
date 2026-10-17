@@ -1,0 +1,107 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x22fb48\",\"code\":\"__int64 __fastcall sub_22FB48(__int64 result, __int64 a2, __int64 a3, __int64 a4, char a5)\\n{\\n  bool v5; // zf\\n  __int64 v7; // x22\\n  __int64 v8; // x8\\n  char v9; // w28\\n  __int64 v10; // x24\\n  unsigned __int64 v11; // x9\\n  signed __int64 v12; // x10\\n  unsigned __int64 v13; // x25\\n  char v14; // w0\\n  __int64 v15; // x25\\n  char v16; // w1\\n  char v17; // w27\\n  __int64 v18; // x2\\n  __int64 v19; // [xsp-40h] [xbp-60h] BYREF\\n  __int64 v20; // [xsp-30h] [xbp-50h] BYREF\\n  __int64 v21; // [xsp-20h] [xbp-40h] BYREF\\n  _QWORD v22[3]; // [xsp-10h] [xbp-30h] BYREF\\n  __int64 *v23; // [xsp+8h] [xbp-18h]\\n  unsigned __int64 StatusReg; // [xsp+10h] [xbp-10h]\\n  __int64 v25; // [xsp+18h] [xbp-8h]\\n\\n  StatusReg = _ReadStatusReg(TPIDR_EL0); /*0x22fb74*/\\n  v25 = *(_QWORD *)(StatusReg + 40); /*0x22fb80*/\\n  v5 = *(_DWORD *)sub_22FB48 >> 26 == 5 || (*(_DWORD *)sub_22FB48 & 0xFFE00000) == -736100352; /*0x22fb94*/\\n  if ( v5 || loc_22FB4C >> 10 == 3508160 || (loc_22FB50 & 0xFFFFFC00) == 0xD61F0000 ) /*0x22fbc0*/\\n    goto LABEL_49; /*0x22fbc0*/\\n  v7 = a2; /*0x22fbcc*/\\n  v8 = result; /*0x22fbd0*/\\n  v23 = &v20; /*0x22fbf0*/\\n  v9 = a5 & 1; /*0x22fc04*/\\n  v10 = a4 - 1; /*0x22fc08*/\\n  v22[0] = result; /*0x22fc10*/\\n  v21 = a2; /*0x22fc14*/\\n  v20 = a3; /*0x22fc18*/\\n  while ( 1 ) /*0x22fc40*/\\n  {\\n    v11 = v7 - v8; /*0x22fc40*/\\n    v12 = 0xAAAAAAAAAAAAAAABLL * ((v7 - v8) >> 3); /*0x22fc48*/\\n    if ( v12 > 2 ) /*0x22fc50*/\\n    {\\n      switch ( v12 ) /*0x22fc68*/\\n      {\\n        case 3LL: /*0x22fc68*/\\n          v21 = v7 - 24; /*0x22fe18*/\\n          if ( *(_DWORD *)sub_2302F4 >> 26 != 5 /*0x22fe58*/\\n            && (*(_DWORD *)sub_2302F4 & 0xFFE00000) != 0xD4200000\\n            && (loc_2302F8 & 0xFFFFFC00) != 0xD61F0000\\n            && (loc_2302FC & 0xFFFFFC00) != 0xD61F0000 )\\n          {\\n            return sub_2319C0(v8, v8 + 24); /*0x22fe80*/\\n          }\\n          break;\\n        case 4LL: /*0x22fc68*/\\n          v21 = v7 - 24; /*0x22ff60*/\\n          if ( *(_DWORD *)sub_230350 >> 26 != 5 /*0x22ffa0*/\\n            && (*(_DWORD *)sub_230350 & 0xFFE00000) != 0xD4200000\\n            && (loc_230354 & 0xFFFFFC00) != 0xD61F0000\\n            && (loc_230358 & 0xFFFFFC00) != 0xD61F0000 )\\n          {\\n            return sub_234B0C(v8, v8 + 24, v8 + 48); /*0x22ffcc*/\\n          }\\n          break;\\n        case 5LL: /*0x22fc68*/\\n          v21 = v7 - 24; /*0x22fe98*/\\n          return sub_234C88(v8, v8 + 24, v8 + 48, v8 + 72); /*0x22ff08*/\\n        default:\\n          goto LABEL_17; /*0x22fc78*/\\n      }\\nLABEL_49:\\n      abort(); /*0x230084*/\\n    }\\n    if ( (unsigned __int64)v12 < 2 ) /*0x22fc54*/\\n      return result; /*0x22fc54*/\\n    if ( v12 == 2 ) /*0x22fc5c*/\\n    {\\n      v21 = v7 - 24; /*0x22ff1c*/\\n      result = sub_230088(*v23, v7 - 24); /*0x22ff24*/\\n      if ( (result & 1) != 0 ) /*0x22ff28*/\\n        return sub_230204(v22, &v21); /*0x22ff34*/\\n      return result; /*0x22ff48*/\\n    }\\nLABEL_17:\\n    if ( (__int64)v11 <= 575 ) /*0x22fc80*/\\n      break; /*0x22fc80*/\\n    if ( v10 == -1 ) /*0x22fc88*/\\n      return sub_231874(v8, v7, v7, *v23); /*0x23001c*/\\n    v13 = v11 / 0x30; /*0x22fc98*/\\n    if ( v11 < 0xC01 ) /*0x22fca4*/\\n    {\\n      sub_2319C0(v8 + 24 * v13, v8); /*0x22fd44*/\\n      if ( v9 ) /*0x22fd4c*/\\n      {\\nLABEL_21:\\n        v7 = v21; /*0x22fd30*/\\n        goto LABEL_24; /*0x22fd34*/\\n      }\\n    }\\n    else\\n    {\\n      sub_2319C0(v8, v8 + 24 * (v11 / 0x30)); /*0x22fcb0*/\\n      sub_2319C0(v22[0] + 24LL, v22[0] + 24 * v13 - 24); /*0x22fcd8*/\\n      sub_2319C0(v22[0] + 48LL, v22[0] + 24 * v13 + 24); /*0x22fcf4*/\\n      sub_2319C0(v22[0] + 24 * v13 - 24, v22[0] + 24 * v13); /*0x22fd0c*/\\n      v19 = v22[0] + 24 * v13; /*0x22fd20*/\\n      sub_231B7C(v22, &v19); /*0x22fd24*/\\n      if ( v9 ) /*0x22fd2c*/\\n        goto LABEL_21; /*0x22fd2c*/\\n    }\\n    v14 = sub_230088(a3, v22[0] - 24LL); /*0x22fd5c*/\\n    v7 = v21; /*0x22fd60*/\\n    if ( (v14 & 1) == 0 ) /*0x22fd64*/\\n    {\\n      result = sub_231C6C(v22[0], v21, a3); /*0x22fc2c*/\\n      v9 = 0; /*0x22fc30*/\\n      v22[0] = result; /*0x22fc34*/\\n      goto LABEL_9; /*0x22fc34*/\\n    }\\nLABEL_24:\\n    v15 = sub_232D2C(v22[0], v7, a3); /*0x22fd68*/\\n    if ( !v16 ) /*0x22fd80*/\\n      goto LABEL_30; /*0x22fd80*/\\n    v17 = ((__int64 (__fastcall *)(_QWORD, __int64, __int64))loc_233E1C)(v22[0], v15, a3); /*0x22fd98*/\\n    result = ((__int64 (__fastcall *)(__int64, __int64, __int64))loc_233E1C)(v15 + 24, v7, a3); /*0x22fda8*/\\n    if ( (result & 1) == 0 ) /*0x22fdac*/\\n    {\\n      if ( (v17 & 1) != 0 ) /*0x22fdc8*/\\n      {\\n        v22[0] = v15 + 24; /*0x22fdcc*/\\n        goto LABEL_9; /*0x22fdd0*/\\n      }\\nLABEL_30:\\n      result = sub_22FB48(v22[0], v15, a3, v10, v9 != 0); /*0x22fdd4*/\\n      v9 = 0; /*0x22fdf0*/\\n      v22[0] = v15 + 24; /*0x22fdf8*/\\n      goto LABEL_9; /*0x22fe04*/\\n    }\\n    if ( (v17 & 1) != 0 ) /*0x22fdb8*/\\n      return result; /*0x22fdb8*/\\n    v21 = v15; /*0x22fdbc*/\\n    v7 = v15; /*0x22fdc0*/\\nLABEL_9:\\n    v8 = v22[0]; /*0x22fc38*/\\n    --v10; /*0x22fc3c*/\\n  }\\n  v18 = *v23; /*0x22ffe4*/\\n  if ( v9 ) /*0x22ffe8*/\\n    return sub_230408(v8, v7, v18); /*0x22ffec*/\\n  else\\n    return sub_230E48(v8, v7, v18); /*0x230054*/\\n}\",\"refs\":[{\"addr\":\"0x22fb48\",\"name\":\"sub_22FB48\"},{\"addr\":\"0x22fb4c\",\"name\":\"loc_22FB4C\"},{\"addr\":\"0x22fb50\",\"name\":\"loc_22FB50\"},{\"addr\":\"0x2319c0\",\"name\":\"sub_2319C0\"},{\"addr\":\"0x2302f4\",\"name\":\"sub_2302F4\"},{\"addr\":\"0x2302f8\",\"name\":\"loc_2302F8\"},{\"addr\":\"0x2302fc\",\"name\":\"loc_2302FC\"},{\"addr\":\"0x234b0c\",\"name\":\"sub_234B0C\"},{\"addr\":\"0x230350\",\"name\":\"sub_230350\"},{\"addr\":\"0x230354\",\"name\":\"loc_230354\"},{\"addr\":\"0x230358\",\"name\":\"loc_230358\"},{\"addr\":\"0x234c88\",\"name\":\"sub_234C88\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x230088\",\"name\":\"sub_230088\"},{\"addr\":\"0x230204\",\"name\":\"sub_230204\"},{\"addr\":\"0x231874\",\"name\":\"sub_231874\"},{\"addr\":\"0x231b7c\",\"name\":\"sub_231B7C\"},{\"addr\":\"0x231c6c\",\"name\":\"sub_231C6C\"},{\"addr\":\"0x232d2c\",\"name\":\"sub_232D2C\"},{\"addr\":\"0x233e1c\",\"name\":\"loc_233E1C\"},{\"addr\":\"0x230408\",\"name\":\"sub_230408\"},{\"addr\":\"0x230e48\",\"name\":\"sub_230E48\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x22fb48",
+      "code": "__int64 __fastcall sub_22FB48(__int64 result, __int64 a2, __int64 a3, __int64 a4, char a5)\n{\n  bool v5; // zf\n  __int64 v7; // x22\n  __int64 v8; // x8\n  char v9; // w28\n  __int64 v10; // x24\n  unsigned __int64 v11; // x9\n  signed __int64 v12; // x10\n  unsigned __int64 v13; // x25\n  char v14; // w0\n  __int64 v15; // x25\n  char v16; // w1\n  char v17; // w27\n  __int64 v18; // x2\n  __int64 v19; // [xsp-40h] [xbp-60h] BYREF\n  __int64 v20; // [xsp-30h] [xbp-50h] BYREF\n  __int64 v21; // [xsp-20h] [xbp-40h] BYREF\n  _QWORD v22[3]; // [xsp-10h] [xbp-30h] BYREF\n  __int64 *v23; // [xsp+8h] [xbp-18h]\n  unsigned __int64 StatusReg; // [xsp+10h] [xbp-10h]\n  __int64 v25; // [xsp+18h] [xbp-8h]\n\n  StatusReg = _ReadStatusReg(TPIDR_EL0); /*0x22fb74*/\n  v25 = *(_QWORD *)(StatusReg + 40); /*0x22fb80*/\n  v5 = *(_DWORD *)sub_22FB48 >> 26 == 5 || (*(_DWORD *)sub_22FB48 & 0xFFE00000) == -736100352; /*0x22fb94*/\n  if ( v5 || loc_22FB4C >> 10 == 3508160 || (loc_22FB50 & 0xFFFFFC00) == 0xD61F0000 ) /*0x22fbc0*/\n    goto LABEL_49; /*0x22fbc0*/\n  v7 = a2; /*0x22fbcc*/\n  v8 = result; /*0x22fbd0*/\n  v23 = &v20; /*0x22fbf0*/\n  v9 = a5 & 1; /*0x22fc04*/\n  v10 = a4 - 1; /*0x22fc08*/\n  v22[0] = result; /*0x22fc10*/\n  v21 = a2; /*0x22fc14*/\n  v20 = a3; /*0x22fc18*/\n  while ( 1 ) /*0x22fc40*/\n  {\n    v11 = v7 - v8; /*0x22fc40*/\n    v12 = 0xAAAAAAAAAAAAAAABLL * ((v7 - v8) >> 3); /*0x22fc48*/\n    if ( v12 > 2 ) /*0x22fc50*/\n    {\n      switch ( v12 ) /*0x22fc68*/\n      {\n        case 3LL: /*0x22fc68*/\n          v21 = v7 - 24; /*0x22fe18*/\n          if ( *(_DWORD *)sub_2302F4 >> 26 != 5 /*0x22fe58*/\n            && (*(_DWORD *)sub_2302F4 & 0xFFE00000) != 0xD4200000\n            && (loc_2302F8 & 0xFFFFFC00) != 0xD61F0000\n            && (loc_2302FC & 0xFFFFFC00) != 0xD61F0000 )\n          {\n            return sub_2319C0(v8, v8 + 24); /*0x22fe80*/\n          }\n          break;\n        case 4LL: /*0x22fc68*/\n          v21 = v7 - 24; /*0x22ff60*/\n          if ( *(_DWORD *)sub_230350 >> 26 != 5 /*0x22ffa0*/\n            && (*(_DWORD *)sub_230350 & 0xFFE00000) != 0xD4200000\n            && (loc_230354 & 0xFFFFFC00) != 0xD61F0000\n            && (loc_230358 & 0xFFFFFC00) != 0xD61F0000 )\n          {\n            return sub_234B0C(v8, v8 + 24, v8 + 48); /*0x22ffcc*/\n          }\n          break;\n        case 5LL: /*0x22fc68*/\n          v21 = v7 - 24; /*0x22fe98*/\n          return sub_234C88(v8, v8 + 24, v8 + 48, v8 + 72); /*0x22ff08*/\n        default:\n          goto LABEL_17; /*0x22fc78*/\n      }\nLABEL_49:\n      abort(); /*0x230084*/\n    }\n    if ( (unsigned __int64)v12 < 2 ) /*0x22fc54*/\n      return result; /*0x22fc54*/\n    if ( v12 == 2 ) /*0x22fc5c*/\n    {\n      v21 = v7 - 24; /*0x22ff1c*/\n      result = sub_230088(*v23, v7 - 24); /*0x22ff24*/\n      if ( (result & 1) != 0 ) /*0x22ff28*/\n        return sub_230204(v22, &v21); /*0x22ff34*/\n      return result; /*0x22ff48*/\n    }\nLABEL_17:\n    if ( (__int64)v11 <= 575 ) /*0x22fc80*/\n      break; /*0x22fc80*/\n    if ( v10 == -1 ) /*0x22fc88*/\n      return sub_231874(v8, v7, v7, *v23); /*0x23001c*/\n    v13 = v11 / 0x30; /*0x22fc98*/\n    if ( v11 < 0xC01 ) /*0x22fca4*/\n    {\n      sub_2319C0(v8 + 24 * v13, v8); /*0x22fd44*/\n      if ( v9 ) /*0x22fd4c*/\n      {\nLABEL_21:\n        v7 = v21; /*0x22fd30*/\n        goto LABEL_24; /*0x22fd34*/\n      }\n    }\n    else\n    {\n      sub_2319C0(v8, v8 + 24 * (v11 / 0x30)); /*0x22fcb0*/\n      sub_2319C0(v22[0] + 24LL, v22[0] + 24 * v13 - 24); /*0x22fcd8*/\n      sub_2319C0(v22[0] + 48LL, v22[0] + 24 * v13 + 24); /*0x22fcf4*/\n      sub_2319C0(v22[0] + 24 * v13 - 24, v22[0] + 24 * v13); /*0x22fd0c*/\n      v19 = v22[0] + 24 * v13; /*0x22fd20*/\n      sub_231B7C(v22, &v19); /*0x22fd24*/\n      if ( v9 ) /*0x22fd2c*/\n        goto LABEL_21; /*0x22fd2c*/\n    }\n    v14 = sub_230088(a3, v22[0] - 24LL); /*0x22fd5c*/\n    v7 = v21; /*0x22fd60*/\n    if ( (v14 & 1) == 0 ) /*0x22fd64*/\n    {\n      result = sub_231C6C(v22[0], v21, a3); /*0x22fc2c*/\n      v9 = 0; /*0x22fc30*/\n      v22[0] = result; /*0x22fc34*/\n      goto LABEL_9; /*0x22fc34*/\n    }\nLABEL_24:\n    v15 = sub_232D2C(v22[0], v7, a3); /*0x22fd68*/\n    if ( !v16 ) /*0x22fd80*/\n      goto LABEL_30; /*0x22fd80*/\n    v17 = ((__int64 (__fastcall *)(_QWORD, __int64, __int64))loc_233E1C)(v22[0], v15, a3); /*0x22fd98*/\n    result = ((__int64 (__fastcall *)(__int64, __int64, __int64))loc_233E1C)(v15 + 24, v7, a3); /*0x22fda8*/\n    if ( (result & 1) == 0 ) /*0x22fdac*/\n    {\n      if ( (v17 & 1) != 0 ) /*0x22fdc8*/\n      {\n        v22[0] = v15 + 24; /*0x22fdcc*/\n        goto LABEL_9; /*0x22fdd0*/\n      }\nLABEL_30:\n      result = sub_22FB48(v22[0], v15, a3, v10, v9 != 0); /*0x22fdd4*/\n      v9 = 0; /*0x22fdf0*/\n      v22[0] = v15 + 24; /*0x22fdf8*/\n      goto LABEL_9; /*0x22fe04*/\n    }\n    if ( (v17 & 1) != 0 ) /*0x22fdb8*/\n      return result; /*0x22fdb8*/\n    v21 = v15; /*0x22fdbc*/\n    v7 = v15; /*0x22fdc0*/\nLABEL_9:\n    v8 = v22[0]; /*0x22fc38*/\n    --v10; /*0x22fc3c*/\n  }\n  v18 = *v23; /*0x22ffe4*/\n  if ( v9 ) /*0x22ffe8*/\n    return sub_230408(v8, v7, v18); /*0x22ffec*/\n  else\n    return sub_230E48(v8, v7, v18); /*0x230054*/\n}",
+      "refs": [
+        {
+          "addr": "0x22fb48",
+          "name": "sub_22FB48"
+        },
+        {
+          "addr": "0x22fb4c",
+          "name": "loc_22FB4C"
+        },
+        {
+          "addr": "0x22fb50",
+          "name": "loc_22FB50"
+        },
+        {
+          "addr": "0x2319c0",
+          "name": "sub_2319C0"
+        },
+        {
+          "addr": "0x2302f4",
+          "name": "sub_2302F4"
+        },
+        {
+          "addr": "0x2302f8",
+          "name": "loc_2302F8"
+        },
+        {
+          "addr": "0x2302fc",
+          "name": "loc_2302FC"
+        },
+        {
+          "addr": "0x234b0c",
+          "name": "sub_234B0C"
+        },
+        {
+          "addr": "0x230350",
+          "name": "sub_230350"
+        },
+        {
+          "addr": "0x230354",
+          "name": "loc_230354"
+        },
+        {
+          "addr": "0x230358",
+          "name": "loc_230358"
+        },
+        {
+          "addr": "0x234c88",
+          "name": "sub_234C88"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x230088",
+          "name": "sub_230088"
+        },
+        {
+          "addr": "0x230204",
+          "name": "sub_230204"
+        },
+        {
+          "addr": "0x231874",
+          "name": "sub_231874"
+        },
+        {
+          "addr": "0x231b7c",
+          "name": "sub_231B7C"
+        },
+        {
+          "addr": "0x231c6c",
+          "name": "sub_231C6C"
+        },
+        {
+          "addr": "0x232d2c",
+          "name": "sub_232D2C"
+        },
+        {
+          "addr": "0x233e1c",
+          "name": "loc_233E1C"
+        },
+        {
+          "addr": "0x230408",
+          "name": "sub_230408"
+        },
+        {
+          "addr": "0x230e48",
+          "name": "sub_230E48"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

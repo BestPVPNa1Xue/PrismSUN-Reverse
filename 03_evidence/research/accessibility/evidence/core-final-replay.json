@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "hash_cases": 75,
+  "original_hash_cases": 42,
+  "consumer_cases": 180,
+  "mode": "Final compiled DLL replay against retained original-instruction observations",
+  "dll_sha256": "5e990538af9010c2dd84389e98225dc05c45f4463676a8c4cb98675d2705e29d",
+  "original_evidence_sha256": "30053ac1b18e08fe0f5576133b22c11f21b301ad86ce9e938b455aeead4b6aef"
+}

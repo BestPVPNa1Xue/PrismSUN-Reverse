@@ -1,0 +1,26 @@
+{
+  "addr": "0x46e824",
+  "code": "__int64 __fastcall sub_46E824(int a1, const struct sigaction *a2, struct sigaction *a3)\n{\n  unsigned __int64 v4; // [xsp-A0h] [xbp-A0h]\n\n  if ( *(_DWORD *)sub_46E824 >> 26 == 5 /*0x46e9b4*/\n    || *(_DWORD *)sub_46E824 >> 21 == 1697\n    || loc_46E828 >> 10 == 3508160\n    || loc_46E82C >> 10 == 3508160 )\n  {\n    abort(); /*0x46e920*/\n  }\n  v4 = linux_eabi_syscall(__NR_rt_sigaction, a1, a2, a3); /*0x46e8d8*/\n  if ( v4 >= 0xFFFFFFFFFFFFF001LL ) /*0x46e8e8*/\n  {\n    *(_DWORD *)__errno() = -(int)v4; /*0x46e8fc*/\n    return -1; /*0x46e904*/\n  }\n  return v4; /*0x46e91c*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x46e824",
+      "name": "sub_46E824"
+    },
+    {
+      "addr": "0x46e828",
+      "name": "loc_46E828"
+    },
+    {
+      "addr": "0x46e82c",
+      "name": "loc_46E82C"
+    },
+    {
+      "addr": "0x78a5e0",
+      "name": ".__errno"
+    }
+  ]
+}

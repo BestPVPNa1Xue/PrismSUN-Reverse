@@ -1,0 +1,218 @@
+[
+  {
+    "inputs": {
+      "aes_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "hmac_hex": "544553545f4b4559",
+      "generation": 1,
+      "next_sequence": 0
+    },
+    "actual": {
+      "aes_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "hmac_hex": "544553545f4b4559",
+      "generation": 1,
+      "next_sequence": 0
+    },
+    "installer_run": {
+      "entry": "0x5b77d8",
+      "reason": "returned",
+      "steps": 3532,
+      "return": 822083584,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "ready_run": {
+      "entry": "0x4d92b4",
+      "reason": "returned",
+      "steps": 4264,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "generation_run": {
+      "entry": "0x4d1f14",
+      "reason": "returned",
+      "steps": 4881,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "sequence_run": {
+      "entry": "0x596b58",
+      "reason": "returned",
+      "steps": 5211,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "sequence_after_getter": 1,
+    "pass_": true,
+    "modeled_boundaries": [
+      "free",
+      "memset"
+    ]
+  },
+  {
+    "inputs": {
+      "aes_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+      "hmac_hex": "",
+      "generation": 65535,
+      "next_sequence": 0
+    },
+    "actual": {
+      "aes_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+      "hmac_hex": "",
+      "generation": 65535,
+      "next_sequence": 0
+    },
+    "installer_run": {
+      "entry": "0x5b77d8",
+      "reason": "returned",
+      "steps": 3532,
+      "return": 822083584,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "ready_run": {
+      "entry": "0x4d92b4",
+      "reason": "returned",
+      "steps": 4264,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "generation_run": {
+      "entry": "0x4d1f14",
+      "reason": "returned",
+      "steps": 4881,
+      "return": 65535,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "sequence_run": {
+      "entry": "0x596b58",
+      "reason": "returned",
+      "steps": 5211,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "sequence_after_getter": 1,
+    "pass_": true,
+    "modeled_boundaries": [
+      "free",
+      "memset"
+    ]
+  },
+  {
+    "inputs": {
+      "aes_hex": "41",
+      "hmac_hex": "544553545f4d4143",
+      "generation": 0,
+      "next_sequence": 0
+    },
+    "actual": {
+      "aes_hex": "41",
+      "hmac_hex": "544553545f4d4143",
+      "generation": 0,
+      "next_sequence": 0
+    },
+    "installer_run": {
+      "entry": "0x5b77d8",
+      "reason": "returned",
+      "steps": 3532,
+      "return": 822083584,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "ready_run": {
+      "entry": "0x4d92b4",
+      "reason": "returned",
+      "steps": 4264,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "generation_run": {
+      "entry": "0x4d1f14",
+      "reason": "returned",
+      "steps": 4881,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "sequence_run": {
+      "entry": "0x596b58",
+      "reason": "returned",
+      "steps": 5211,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": [
+        "0x78a520",
+        "0x78a610",
+        "0x78a520",
+        "0x78a610"
+      ]
+    },
+    "sequence_after_getter": 1,
+    "pass_": true,
+    "modeled_boundaries": [
+      "free",
+      "memset"
+    ]
+  }
+]

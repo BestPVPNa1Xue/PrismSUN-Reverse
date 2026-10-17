@@ -1,0 +1,1 @@
+{"addr":"0x6011e4","asm":{"name":"sub_6011E4","start_ea":"0x6011e4","segment":".text","lines":[{"addr":"6011e4","instruction":"B loc_5FF604","label":"sub_6011E4","refs":[{"addr":"0x5ff604","name":"loc_5FF604"}]}],"return_type":"__int64","arguments":[{"name":"arg0","type":"_QWORD"}]},"instruction_count":1,"total_instructions":null,"cursor":{"done":true}}

@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x725b48\",\"code\":\"void __noreturn sub_725B44()\\n{\\n  abort(); /*0x725b48*/\\n}\",\"refs\":[{\"addr\":\"0x78a4c0\",\"name\":\".abort\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x725b48",
+      "code": "void __noreturn sub_725B44()\n{\n  abort(); /*0x725b48*/\n}",
+      "refs": [
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

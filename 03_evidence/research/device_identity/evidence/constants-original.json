@@ -1,0 +1,104 @@
+[
+  {
+    "writer": "0x5d8e44",
+    "decoder": "0x5da398",
+    "writer_run": {
+      "entry": "0x5d8e44",
+      "reason": "returned",
+      "steps": 41585,
+      "return": 855638032,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874"
+      ]
+    },
+    "decoder_run": {
+      "entry": "0x5da398",
+      "reason": "returned",
+      "steps": 62239,
+      "return": 855638032,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874"
+      ]
+    },
+    "bytes": "2f70726f632f7379732f6b65726e656c2f72616e646f6d2f626f6f745f6964",
+    "text": "/proc/sys/kernel/random/boot_id"
+  },
+  {
+    "writer": "0x5ba690",
+    "decoder": "0x5bb4ac",
+    "writer_run": {
+      "entry": "0x5ba690",
+      "reason": "returned",
+      "steps": 8767,
+      "return": 855638032,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874"
+      ]
+    },
+    "decoder_run": {
+      "entry": "0x5bb4ac",
+      "reason": "returned",
+      "steps": 19199,
+      "return": 855638032,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874"
+      ]
+    },
+    "bytes": "484d4143285348412d32353629",
+    "text": "HMAC(SHA-256)"
+  },
+  {
+    "writer": "0x718418",
+    "decoder": "0x719668",
+    "writer_run": {
+      "entry": "0x718418",
+      "reason": "returned",
+      "steps": 25365,
+      "return": 855638032,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874"
+      ]
+    },
+    "decoder_run": {
+      "entry": "0x719668",
+      "reason": "returned",
+      "steps": 40098,
+      "return": 855638032,
+      "pc": "0x32000000",
+      "calls": [
+        "0x785874",
+        "0x785874",
+        "0x784fd4",
+        "0x785874",
+        "0x785874"
+      ]
+    },
+    "bytes": "5053525f32303236303231312e35323233653361",
+    "text": "PSR_20260211.5223e3a"
+  }
+]

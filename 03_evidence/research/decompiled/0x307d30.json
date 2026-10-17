@@ -1,0 +1,4 @@
+{
+  "addr": "0x307d30",
+  "code": "__int64 __fastcall sub_307D30(__int64 result)\n{\n  __int64 v1; // x19\n  int v2; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x307d40*/\n  v2 = 1420513342; /*0x307d54*/\n  while ( v2 != 667624366 ) /*0x307dfc*/\n  {\n    if ( v2 == 1297578172 ) /*0x307e4c*/\n    {\n      v1 = result; /*0x307ed4*/\n      (*(void (__fastcall **)(__int64))(*(_QWORD *)result + 136LL))(result); /*0x307edc*/\n      result = v1; /*0x307ee0*/\n      v2 = 667624366; /*0x307ef0*/\n    }\n    else\n    {\n      v2 = 1297578172; /*0x307eb4*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x307ef8*/\n  return result; /*0x307f18*/\n}"
+}

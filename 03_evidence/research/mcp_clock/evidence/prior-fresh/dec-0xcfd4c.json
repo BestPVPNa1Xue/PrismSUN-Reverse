@@ -1,0 +1,26 @@
+{
+  "addr": "0xcfd4c",
+  "code": "__int64 __fastcall sub_CFD4C(__int64 a1)\n{\n  bool v1; // zf\n\n  v1 = *(_DWORD *)sub_CFD4C >> 26 == 5 || (*(_DWORD *)sub_CFD4C & 0xFFE00000) == -736100352; /*0xcfd74*/\n  if ( v1 || loc_CFD50 >> 10 == 3508160 || (loc_CFD54 & 0xFFFFFC00) == 0xD61F0000 ) /*0xcfda0*/\n    abort(); /*0xcfdbc*/\n  sub_1BCC18(); /*0xcfda8*/\n  return a1; /*0xcfdb8*/\n}",
+  "refs": [
+    {
+      "addr": "0xcfd4c",
+      "name": "sub_CFD4C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0xcfd50",
+      "name": "loc_CFD50"
+    },
+    {
+      "addr": "0xcfd54",
+      "name": "loc_CFD54"
+    },
+    {
+      "addr": "0x1bcc18",
+      "name": "sub_1BCC18"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Three observed predicates and one flag-update model; not a replacement for the module",
+  "host_compiler": "clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)",
+  "android_compiler": "Android (12027248, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "android_target": "aarch64-linux-android24",
+  "files": [
+    {
+      "path": "D:\\PrismSUN\\research\\src\\observed_models.cpp",
+      "size": 1570,
+      "sha256": "7980f9118b2bb2ddbbf97ea13d039b638416895f713e83d4f1aa4024942c3777"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\src\\observed_models.h",
+      "size": 1152,
+      "sha256": "1c2f09ee2971bb3e8126072c58dcdd2b78343c3bd694022daff94d26252d3245"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\host\\prism_observed_models.dll",
+      "size": 95320,
+      "sha256": "62d043472039fda73931390c93d93686a5b67b2d22f90bffdd4b4dd7cff1f105"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\android-arm64\\libprism_observed_models.so",
+      "size": 5736,
+      "sha256": "84cfbb4c03072dd38caefd23a24406116c17ca8844f3da89d46b52023dc4c917"
+    }
+  ]
+}

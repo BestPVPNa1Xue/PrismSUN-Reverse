@@ -1,0 +1,10 @@
+{
+  "addr": "0x4058ac",
+  "code": "// attributes: thunk\nsize_t __fastcall sub_4058AC(_QWORD *a1, char *s)\n{\n  return sub_B6704(a1, s);\n}",
+  "refs": [
+    {
+      "addr": "0xb6704",
+      "name": "sub_B6704"
+    }
+  ]
+}

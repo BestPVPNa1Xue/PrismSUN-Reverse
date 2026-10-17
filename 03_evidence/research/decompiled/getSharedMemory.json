@@ -1,0 +1,10 @@
+{
+  "addr": "getSharedMemory",
+  "code": "void *getSharedMemory()\n{\n  _ReadStatusReg(TPIDR_EL0); /*0x2b40f4*/\n  _ReadStatusReg(TPIDR_EL0); /*0x2b4220*/\n  return &unk_7B06A4; /*0x2b4244*/\n}",
+  "refs": [
+    {
+      "addr": "0x7b06a4",
+      "name": "unk_7B06A4"
+    }
+  ]
+}

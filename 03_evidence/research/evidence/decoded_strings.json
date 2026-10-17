@@ -1,0 +1,2612 @@
+[
+  {
+    "function": "0xb87b8",
+    "address": "0x79d468",
+    "text": "AES-192"
+  },
+  {
+    "function": "0xb87b8",
+    "address": "0x79d478",
+    "text": "AES-128"
+  },
+  {
+    "function": "0xb87b8",
+    "address": "0x79d488",
+    "text": "AES-256"
+  },
+  {
+    "function": "0xb87b8",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0xb9c54",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0xb9cb0",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0xb9f90",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0xb9fec",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0xbb5b8",
+    "address": "0x79d4b0",
+    "text": "Key was set"
+  },
+  {
+    "function": "0xbca80",
+    "address": "0x79d4b0",
+    "text": "Key was set"
+  },
+  {
+    "function": "0xc58d4",
+    "address": "0x79da6c",
+    "text": "object"
+  },
+  {
+    "function": "0xc5f88",
+    "address": "0x79d538",
+    "text": " got "
+  },
+  {
+    "function": "0xc5f88",
+    "address": "0x79d550",
+    "text": " expected "
+  },
+  {
+    "function": "0xc5f88",
+    "address": "0x79d580",
+    "text": "Tag mismatch when decoding "
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d5a4",
+    "text": "TAG("
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d5b8",
+    "text": "BOOLEAN"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d5c8",
+    "text": "OBJECT"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d5e0",
+    "text": "ENUMERATED"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d600",
+    "text": "BIT STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d620",
+    "text": "OCTET STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d650",
+    "text": "GENERALIZED TIME"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d678",
+    "text": "UTC TIME"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d6b0",
+    "text": "UNIVERSAL STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d6d8",
+    "text": "BMP STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d700",
+    "text": "NO_OBJECT"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d714",
+    "text": "NULL"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d730",
+    "text": "UTF8 STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d750",
+    "text": "NUMERIC STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d770",
+    "text": "T61 STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d790",
+    "text": "SEQUENCE"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d7b0",
+    "text": "IA5 STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d7d0",
+    "text": "VISIBLE STRING"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d7e8",
+    "text": "INTEGER"
+  },
+  {
+    "function": "0xc694c",
+    "address": "0x79d810",
+    "text": "PRINTABLE STRING"
+  },
+  {
+    "function": "0xc7460",
+    "address": "0x79d700",
+    "text": "NO_OBJECT"
+  },
+  {
+    "function": "0xc7460",
+    "address": "0x79d834",
+    "text": "CLASS("
+  },
+  {
+    "function": "0xc7460",
+    "address": "0x79d848",
+    "text": "PRIVATE"
+  },
+  {
+    "function": "0xc7460",
+    "address": "0x79d860",
+    "text": "CONSTRUCTED"
+  },
+  {
+    "function": "0xc7460",
+    "address": "0x79d880",
+    "text": "APPLICATION"
+  },
+  {
+    "function": "0xc7460",
+    "address": "0x79d8b0",
+    "text": "CONTEXT_SPECIFIC"
+  },
+  {
+    "function": "0xc7460",
+    "address": "0x79d8d8",
+    "text": "UNIVERSAL"
+  },
+  {
+    "function": "0xc7e88",
+    "address": "0x79d8f0",
+    "text": "BER: {}"
+  },
+  {
+    "function": "0xc83e8",
+    "address": "0x79d900",
+    "text": "{}: {}"
+  },
+  {
+    "function": "0xca200",
+    "address": "0x79d930",
+    "text": "OID second arc too large"
+  },
+  {
+    "function": "0xca200",
+    "address": "0x79d970",
+    "text": "OID root out of range"
+  },
+  {
+    "function": "0xca200",
+    "address": "0x79d9b0",
+    "text": "OID too short to be valid"
+  },
+  {
+    "function": "0xcbb68",
+    "address": "0x79da00",
+    "text": "checked_add(40 * m_id[0], m_id[1])"
+  },
+  {
+    "function": "0xcbef0",
+    "address": "0x79da50",
+    "text": "optional had value"
+  },
+  {
+    "function": "0xcede8",
+    "address": "0x79da6c",
+    "text": "object"
+  },
+  {
+    "function": "0xcee4c",
+    "address": "0x79da6c",
+    "text": "object"
+  },
+  {
+    "function": "0xd08f0",
+    "address": "0x79daa0",
+    "text": "string_view::substr"
+  },
+  {
+    "function": "0xd195c",
+    "address": "0x79da6c",
+    "text": "object"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79db60",
+    "text": "RSA/EMSA3(RIPEMD-160)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79db88",
+    "text": "RSA/EMSA3(SM3)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79dbc0",
+    "text": "RSA/EMSA3(SHA-3(512))"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79dc60",
+    "text": "RSA/EMSA3(SHA-3(384))"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79dd00",
+    "text": "RSA/EMSA3(SHA-3(224))"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79dd80",
+    "text": "RSA/EMSA3(SHA-224)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79ddc0",
+    "text": "RSA/EMSA3(SHA-3(256))"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79df20",
+    "text": "RSA/EMSA3(SHA-256)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79df60",
+    "text": "RSA/EMSA3(SHA-512)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79df80",
+    "text": "SM2_Sig"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e030",
+    "text": "RSA/EMSA3(SHA-512-256)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e070",
+    "text": "RSA/EMSA3(SHA-1)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e098",
+    "text": "RSA/EMSA4"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e100",
+    "text": "RSA/EMSA3(MD5)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e130",
+    "text": "RSA/EMSA3(SHA-384)"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e14c",
+    "text": "PBES2"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e168",
+    "text": "Curve25519"
+  },
+  {
+    "function": "0xd8b58",
+    "address": "0x79e2e8",
+    "text": "RSA/EMSA3(MD2)"
+  },
+  {
+    "function": "0xdad84",
+    "address": "0x79e390",
+    "text": "secp521r1"
+  },
+  {
+    "function": "0xdad84",
+    "address": "0x79e430",
+    "text": "gost_256A"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e4a8",
+    "text": "secp256r1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e520",
+    "text": "PKCS9.ExtensionRequest"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e5e0",
+    "text": "PKCS9.UnstructuredName"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e728",
+    "text": "RSA/OAEP"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e760",
+    "text": "RSA/PKCS1v15(MD5)"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e820",
+    "text": "ClassicMcEliece_6960119"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e888",
+    "text": "numsp512d1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79e968",
+    "text": "brainpool384r1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79ea08",
+    "text": "x962_p192v2"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79eaa0",
+    "text": "PKIX.OCSPSigning"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79ec28",
+    "text": "ML-KEM-1024"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79ed40",
+    "text": "SLH-DSA-SHA2-256s"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79edc0",
+    "text": "SLH-DSA-SHA2-128s"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79ee08",
+    "text": "ML-DSA-4x4"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79ee80",
+    "text": "PKCS9.ContentType"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79ef40",
+    "text": "SLH-DSA-SHA2-256f"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f028",
+    "text": "DSA/SHA-224"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f0c0",
+    "text": "ElGamal"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f228",
+    "text": "SHA-384"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f2b0",
+    "text": "SLH-DSA-SHAKE-192f"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f370",
+    "text": "RSA/PSS"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f3a0",
+    "text": "X509v3.IssuerAlternativeName"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f4c8",
+    "text": "X520.Surname"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f5a8",
+    "text": "XMSS-draft12"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f600",
+    "text": "SM4/SIV"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f618",
+    "text": "Kyber-1024-r3"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f900",
+    "text": "ClassicMcEliece_8192128"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79f928",
+    "text": "Twofish/OCB"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79fa20",
+    "text": "X509v3.CertificatePolicies"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79fadc",
+    "text": "X25519"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79fc20",
+    "text": "KeyWrap.AES-192"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79fdd8",
+    "text": "AES-192/GCM"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79fdf8",
+    "text": "Streebog-512"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x79ffc0",
+    "text": "ECGDSA/SHA-224"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0010",
+    "text": "ECGDSA/RIPEMD-160"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0100",
+    "text": "X509v3.BasicConstraints"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0558",
+    "text": "Twofish/GCM"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0610",
+    "text": "FrodoKEM-976-AES"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a06b0",
+    "text": "FrodoKEM-1344-SHAKE"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a06d8",
+    "text": "secp224k1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0738",
+    "text": "HMAC(SHA-256)"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0770",
+    "text": "Camellia-256/GCM"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a07b0",
+    "text": "ChaCha20Poly1305"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0810",
+    "text": "HSS-LMS"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0820",
+    "text": "Ed448"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0850",
+    "text": "Kyber-512-90s-r3"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0878",
+    "text": "HMAC(SHA-512)"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0998",
+    "text": "SM2_Sig/SM3"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0a00",
+    "text": "GOST-34.10-2012-256/SHA-256"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0a80",
+    "text": "RSA/PKCS1v15(SM3)"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0b30",
+    "text": "X520.Country"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0b60",
+    "text": "Kyber-768-90s-r3"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0c10",
+    "text": "ECDSA/SHA-3(224)"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0cd0",
+    "text": "X509v3.AnyPolicy"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0cec",
+    "text": "XMSS"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0df8",
+    "text": "RIPEMD-160"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0f10",
+    "text": "SphincsPlus-sha2-128s-r3.1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a0fb0",
+    "text": "gost_256B"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1078",
+    "text": "DSA/SHA-3(384)"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a10ac",
+    "text": "ECDSA"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1140",
+    "text": "Ed25519"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a11b0",
+    "text": "X509v3.AuthorityKeyIdentifier"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1290",
+    "text": "FrodoKEM-640-SHAKE"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a12d8",
+    "text": "secp160r2"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1374",
+    "text": "MGF1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a13b0",
+    "text": "SHA-3(256)"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1410",
+    "text": "ECKCDSA/SHA-256"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a14c0",
+    "text": "secp160r1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a15f0",
+    "text": "RSA/PKCS1v15(SHA-3(512))"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a17e0",
+    "text": "SphincsPlus-sha2-192f-r3.1"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a18b0",
+    "text": "PKIX.ServerAuth"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a199c",
+    "text": "DES/CBC"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a19b0",
+    "text": "SHA-256"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1b68",
+    "text": "X520.Initials"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1ba0",
+    "text": "ClassicMcEliece_6960119pc"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1c70",
+    "text": "X520.DNQualifier"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1cb0",
+    "text": "eFrodoKEM-1344-SHAKE"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1e30",
+    "text": "GOST-34.10-2012-512"
+  },
+  {
+    "function": "0xdbbc8",
+    "address": "0x7a1e70",
+    "text": "SphincsPlus-sha2-128f-r3.1"
+  },
+  {
+    "function": "0xf3cdc",
+    "address": "0x7a0738",
+    "text": "HMAC(SHA-256)"
+  },
+  {
+    "function": "0xf3cdc",
+    "address": "0x7a0878",
+    "text": "HMAC(SHA-512)"
+  },
+  {
+    "function": "0xf5824",
+    "address": "0x7a7f30",
+    "text": "provided output buffer has insufficient capacity"
+  },
+  {
+    "function": "0xf70d4",
+    "address": "0x7a7f90",
+    "text": "If n > 0 then args are not null"
+  },
+  {
+    "function": "0xf790c",
+    "address": "0x7a7fd0",
+    "text": "Insufficient output space"
+  },
+  {
+    "function": "0xf8f0c",
+    "address": "0x7a7f90",
+    "text": "If n > 0 then args are not null"
+  },
+  {
+    "function": "0xf9830",
+    "address": "0x7a8020",
+    "text": "Integer overflow during rounding"
+  },
+  {
+    "function": "0xf9830",
+    "address": "0x7a8070",
+    "text": "align_to must not be 0"
+  },
+  {
+    "function": "0xfdcb0",
+    "address": "0x7a8098",
+    "text": "{}/CBC/CTS"
+  },
+  {
+    "function": "0xfdcb0",
+    "address": "0x7a80b8",
+    "text": "{}/CBC/{}"
+  },
+  {
+    "function": "0xfeca4",
+    "address": "0x7a80f0",
+    "text": "CBC input is not full blocks"
+  },
+  {
+    "function": "0xff570",
+    "address": "0x7a8130",
+    "text": "Padded to block boundary"
+  },
+  {
+    "function": "0xff570",
+    "address": "0x7a8170",
+    "text": "Offset is out of range"
+  },
+  {
+    "function": "0xffcd4",
+    "address": "0x7a8170",
+    "text": "Offset is out of range"
+  },
+  {
+    "function": "0xffcd4",
+    "address": "0x7a81c0",
+    "text": "Left over size in expected range"
+  },
+  {
+    "function": "0x1009d4",
+    "address": "0x7a8210",
+    "text": "Input is not full blocks"
+  },
+  {
+    "function": "0x101040",
+    "address": "0x7a8170",
+    "text": "Offset is out of range"
+  },
+  {
+    "function": "0x101040",
+    "address": "0x7a8240",
+    "text": "NoPadding"
+  },
+  {
+    "function": "0x101bdc",
+    "address": "0x7a8170",
+    "text": "Offset is out of range"
+  },
+  {
+    "function": "0x101bdc",
+    "address": "0x7a81c0",
+    "text": "Left over size in expected range"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a8260",
+    "text": "armv8sm4"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a8280",
+    "text": "armv8sha2_512"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a82a0",
+    "text": "armv8sha3"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a82c0",
+    "text": "armv8pmull"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a82e8",
+    "text": "armv8aes"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a8308",
+    "text": "armv8sm3"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a8328",
+    "text": "armv8sha2"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a8348",
+    "text": "armv8sha1"
+  },
+  {
+    "function": "0x1029b0",
+    "address": "0x7a835c",
+    "text": "neon"
+  },
+  {
+    "function": "0x103170",
+    "address": "0x7a8390",
+    "text": "BOTAN_CLEAR_CPUID"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8260",
+    "text": "armv8sm4"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8280",
+    "text": "armv8sha2_512"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a82a0",
+    "text": "armv8sha3"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a82c0",
+    "text": "armv8pmull"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a82e8",
+    "text": "armv8aes"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8308",
+    "text": "armv8sm3"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8328",
+    "text": "armv8sha2"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8348",
+    "text": "armv8sha1"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a835c",
+    "text": "neon"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a83b0",
+    "text": "arm_sm4"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a83c8",
+    "text": "arm_sha2_512"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a83e8",
+    "text": "arm_sha1"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8408",
+    "text": "arm_sha3"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8428",
+    "text": "arm_pmull"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8440",
+    "text": "arm_aes"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8450",
+    "text": "arm_sve"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8460",
+    "text": "arm_sm3"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8470",
+    "text": "simd"
+  },
+  {
+    "function": "0x103724",
+    "address": "0x7a8488",
+    "text": "arm_sha2"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8260",
+    "text": "armv8sm4"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8280",
+    "text": "armv8sha2_512"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a82a0",
+    "text": "armv8sha3"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a82c0",
+    "text": "armv8pmull"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a82e8",
+    "text": "armv8aes"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8308",
+    "text": "armv8sm3"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8328",
+    "text": "armv8sha2"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8348",
+    "text": "armv8sha1"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a835c",
+    "text": "neon"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a83b0",
+    "text": "arm_sm4"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a83c8",
+    "text": "arm_sha2_512"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a83e8",
+    "text": "arm_sha1"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8408",
+    "text": "arm_sha3"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8428",
+    "text": "arm_pmull"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8440",
+    "text": "arm_aes"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8450",
+    "text": "arm_sve"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8460",
+    "text": "arm_sm3"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8470",
+    "text": "simd"
+  },
+  {
+    "function": "0x1037e4",
+    "address": "0x7a8488",
+    "text": "arm_sha2"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a8921",
+    "text": " n;^"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a89e1",
+    "text": "Qkkbal"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a8aef",
+    "text": "i]Wb"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a8c2f",
+    "text": "9a&g"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a8c38",
+    "text": "MGiI"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a8c3d",
+    "text": "wn>Jj"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a8c7f",
+    "text": "#.zf"
+  },
+  {
+    "function": "0x1053a8",
+    "address": "0x7a8c8d",
+    "text": "+o*7"
+  },
+  {
+    "function": "0x1067bc",
+    "address": "0x7a8cc0",
+    "text": "Invalid CTR-BE counter size"
+  },
+  {
+    "function": "0x107550",
+    "address": "0x7a8cf0",
+    "text": "CTR-BE({},{})"
+  },
+  {
+    "function": "0x107550",
+    "address": "0x7a8d10",
+    "text": "CTR-BE({})"
+  },
+  {
+    "function": "0x109cb8",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x10ad64",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x10e4a0",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x114bf8",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x114bf8",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x114bf8",
+    "address": "0x7a8db0",
+    "text": "Ed25519ph"
+  },
+  {
+    "function": "0x114bf8",
+    "address": "0x7a8dc4",
+    "text": "Pure"
+  },
+  {
+    "function": "0x114bf8",
+    "address": "0x7a8de0",
+    "text": "Identity"
+  },
+  {
+    "function": "0x1157a8",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x115c30",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x115c30",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x115c30",
+    "address": "0x7a8db0",
+    "text": "Ed25519ph"
+  },
+  {
+    "function": "0x115c30",
+    "address": "0x7a8dc4",
+    "text": "Pure"
+  },
+  {
+    "function": "0x115c30",
+    "address": "0x7a8de0",
+    "text": "Identity"
+  },
+  {
+    "function": "0x116828",
+    "address": "0x7a1140",
+    "text": "Ed25519"
+  },
+  {
+    "function": "0x11ba6c",
+    "address": "0x7a8020",
+    "text": "Integer overflow during rounding"
+  },
+  {
+    "function": "0x11ba6c",
+    "address": "0x7a8070",
+    "text": "align_to must not be 0"
+  },
+  {
+    "function": "0x11dc84",
+    "address": "0x7a8e10",
+    "text": "Message number is in range"
+  },
+  {
+    "function": "0x11e5d4",
+    "address": "0x7a8e50",
+    "text": "Room was available in container"
+  },
+  {
+    "function": "0x11e5d4",
+    "address": "0x7a8e90",
+    "text": "queue was provided"
+  },
+  {
+    "function": "0x120064",
+    "address": "0x7a8ee0",
+    "text": "Pipe::{}: Invalid message number {}"
+  },
+  {
+    "function": "0x12154c",
+    "address": "0x7a8f18",
+    "text": "remaining"
+  },
+  {
+    "function": "0x121af8",
+    "address": "0x7a8f60",
+    "text": "N5Botan12_GLOBAL__N_111Null_FilterE"
+  },
+  {
+    "function": "0x122364",
+    "address": "0x7a8f60",
+    "text": "N5Botan12_GLOBAL__N_111Null_FilterE"
+  },
+  {
+    "function": "0x12297c",
+    "address": "0x7a8f8c",
+    "text": "read"
+  },
+  {
+    "function": "0x122bf8",
+    "address": "0x7a8f8c",
+    "text": "read"
+  },
+  {
+    "function": "0x122fa0",
+    "address": "0x7a8f9c",
+    "text": "peek"
+  },
+  {
+    "function": "0x123168",
+    "address": "0x7a8f9c",
+    "text": "peek"
+  },
+  {
+    "function": "0x124a80",
+    "address": "0x7a8fb8",
+    "text": "{}/GCM({})"
+  },
+  {
+    "function": "0x1257d8",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x1260b0",
+    "address": "0x7a9010",
+    "text": "GCM: cannot handle non-zero index in set_associated_data_n"
+  },
+  {
+    "function": "0x1271bc",
+    "address": "0x7a9070",
+    "text": "GHASH requires a 128-bit nonce"
+  },
+  {
+    "function": "0x1278dc",
+    "address": "0x7a90a0",
+    "text": "Invalid offset"
+  },
+  {
+    "function": "0x127e10",
+    "address": "0x7a90d0",
+    "text": "GHASH output length"
+  },
+  {
+    "function": "0x128b74",
+    "address": "0x7a90a0",
+    "text": "Invalid offset"
+  },
+  {
+    "function": "0x128b74",
+    "address": "0x7a9110",
+    "text": "input did not include the tag"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x79f1a8",
+    "text": "SHA-512-256"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x79f1c0",
+    "text": "SHA-224"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x79f228",
+    "text": "SHA-384"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x7a1654",
+    "text": "SHA-1"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x7a19b0",
+    "text": "SHA-256"
+  },
+  {
+    "function": "0x12d0d4",
+    "address": "0x7a9138",
+    "text": "CRC32"
+  },
+  {
+    "function": "0x12f130",
+    "address": "0x7a9150",
+    "text": "HKDF({})"
+  },
+  {
+    "function": "0x12fb50",
+    "address": "0x7a92b0",
+    "text": "HKDF-Expand maximum output length exceeded"
+  },
+  {
+    "function": "0x1303c8",
+    "address": "0x7a9180",
+    "text": "HKDF-Extract({})"
+  },
+  {
+    "function": "0x1305c0",
+    "address": "0x7a91d0",
+    "text": "HKDF-Extract does not support a label input"
+  },
+  {
+    "function": "0x1305c0",
+    "address": "0x7a9230",
+    "text": "HKDF-Extract maximum output length exceeded"
+  },
+  {
+    "function": "0x1313c8",
+    "address": "0x7a9270",
+    "text": "HKDF-Expand({})"
+  },
+  {
+    "function": "0x1315ac",
+    "address": "0x7a92b0",
+    "text": "HKDF-Expand maximum output length exceeded"
+  },
+  {
+    "function": "0x1337d8",
+    "address": "0x7a92f0",
+    "text": "HMAC({})"
+  },
+  {
+    "function": "0x1339d0",
+    "address": "0x7a92f0",
+    "text": "HMAC({})"
+  },
+  {
+    "function": "0x133e98",
+    "address": "0x7a9330",
+    "text": "HMAC is not compatible with this hash function"
+  },
+  {
+    "function": "0x135088",
+    "address": "0x7a9370",
+    "text": "HMAC_DRBG({})"
+  },
+  {
+    "function": "0x135c90",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x135c90",
+    "address": "0x7a9390",
+    "text": "HKDF-Expand"
+  },
+  {
+    "function": "0x135c90",
+    "address": "0x7a93b0",
+    "text": "HKDF-Extract"
+  },
+  {
+    "function": "0x135c90",
+    "address": "0x7a93c8",
+    "text": "HKDF"
+  },
+  {
+    "function": "0x136620",
+    "address": "0x7a92f0",
+    "text": "HMAC({})"
+  },
+  {
+    "function": "0x136a94",
+    "address": "0x7a92f0",
+    "text": "HMAC({})"
+  },
+  {
+    "function": "0x136f08",
+    "address": "0x7a92f0",
+    "text": "HMAC({})"
+  },
+  {
+    "function": "0x1379e8",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x1379e8",
+    "address": "0x7a93d8",
+    "text": "HMAC"
+  },
+  {
+    "function": "0x1386f0",
+    "address": "0x7a8240",
+    "text": "NoPadding"
+  },
+  {
+    "function": "0x1386f0",
+    "address": "0x7a93f8",
+    "text": "OneAndZeros"
+  },
+  {
+    "function": "0x1386f0",
+    "address": "0x7a940c",
+    "text": "PKCS7"
+  },
+  {
+    "function": "0x1386f0",
+    "address": "0x7a941c",
+    "text": "X9.23"
+  },
+  {
+    "function": "0x13cb48",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x13cb48",
+    "address": "0x7a940c",
+    "text": "PKCS7"
+  },
+  {
+    "function": "0x13dc40",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x13dc40",
+    "address": "0x7a9444",
+    "text": "CTR-BE"
+  },
+  {
+    "function": "0x145800",
+    "address": "0x7a94b0",
+    "text": "This key does not support DER signatures"
+  },
+  {
+    "function": "0x14a698",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x160e64",
+    "address": "0x7a967f",
+    "text": "vRQ>"
+  },
+  {
+    "function": "0x160e64",
+    "address": "0x7a96ae",
+    "text": "8STs"
+  },
+  {
+    "function": "0x160e64",
+    "address": "0x7a96e8",
+    "text": "LwH'"
+  },
+  {
+    "function": "0x1623b8",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x162414",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x1627b4",
+    "address": "0x7a974a",
+    "text": "p09Y"
+  },
+  {
+    "function": "0x16345c",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x17fe50",
+    "address": "0x7a9a2d",
+    "text": "D7q/;M"
+  },
+  {
+    "function": "0x17fe50",
+    "address": "0x7a9ac2",
+    "text": "+Yo,"
+  },
+  {
+    "function": "0x17fe50",
+    "address": "0x7a9b2a",
+    "text": "&\\8!"
+  },
+  {
+    "function": "0x17fe50",
+    "address": "0x7a9b90",
+    "text": "* qW"
+  },
+  {
+    "function": "0x17fe50",
+    "address": "0x7a9bb4",
+    "text": "LwH'"
+  },
+  {
+    "function": "0x17fe50",
+    "address": "0x7a9c87",
+    "text": "L*~e"
+  },
+  {
+    "function": "0x18182c",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x181888",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x181b68",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x181bc4",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x18207c",
+    "address": "0x7a9d6a",
+    "text": "|6*)"
+  },
+  {
+    "function": "0x18207c",
+    "address": "0x7a9d84",
+    "text": "g&3g"
+  },
+  {
+    "function": "0x184df0",
+    "address": "0x7a9e30",
+    "text": "RNG is seeded"
+  },
+  {
+    "function": "0x187420",
+    "address": "0x7a9e48",
+    "text": "{} {}"
+  },
+  {
+    "function": "0x187d3c",
+    "address": "0x7a9e80",
+    "text": "Unavailable {} {} for provider {}"
+  },
+  {
+    "function": "0x187d3c",
+    "address": "0x7a9ed0",
+    "text": "Unavailable {} {}"
+  },
+  {
+    "function": "0x187f8c",
+    "address": "0x7a9f00",
+    "text": "Internal error:"
+  },
+  {
+    "function": "0x1880ac",
+    "address": "0x7a9f40",
+    "text": "Unknown field '{}' for algorithm {}"
+  },
+  {
+    "function": "0x1882f4",
+    "address": "0x7a9fa0",
+    "text": "{} cannot accept a key of length {}"
+  },
+  {
+    "function": "0x18853c",
+    "address": "0x7a9ff0",
+    "text": "IV length {} is invalid for {}"
+  },
+  {
+    "function": "0x188a4c",
+    "address": "0x7aa030",
+    "text": "Key not set in {}"
+  },
+  {
+    "function": "0x188c70",
+    "address": "0x7aa070",
+    "text": "PRNG {} not seeded"
+  },
+  {
+    "function": "0x188ea4",
+    "address": "0x7aa0c0",
+    "text": "Could not find provider '{}' for algorithm '{}'"
+  },
+  {
+    "function": "0x1890e4",
+    "address": "0x7aa110",
+    "text": "Invalid algorithm name: '{}'"
+  },
+  {
+    "function": "0x189330",
+    "address": "0x7aa140",
+    "text": "Encoding error:"
+  },
+  {
+    "function": "0x189450",
+    "address": "0x7aa170",
+    "text": "Invalid authentication tag:"
+  },
+  {
+    "function": "0x1895a8",
+    "address": "0x7aa1b0",
+    "text": "{} error code {}"
+  },
+  {
+    "function": "0x189a74",
+    "address": "0x7aa1e0",
+    "text": "Not implemented"
+  },
+  {
+    "function": "0x18b5d4",
+    "address": "0x7aa210",
+    "text": "Bad SCAN name '"
+  },
+  {
+    "function": "0x18f354",
+    "address": "0x7aa240",
+    "text": "public key"
+  },
+  {
+    "function": "0x1908a8",
+    "address": "0x7aa260",
+    "text": "public value"
+  },
+  {
+    "function": "0x190b28",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x191084",
+    "address": "0x79fadc",
+    "text": "X25519"
+  },
+  {
+    "function": "0x1932c0",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x1934c4",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x194440",
+    "address": "0x79d478",
+    "text": "AES-128"
+  },
+  {
+    "function": "0x194958",
+    "address": "0x79d468",
+    "text": "AES-192"
+  },
+  {
+    "function": "0x194e70",
+    "address": "0x79d488",
+    "text": "AES-256"
+  },
+  {
+    "function": "0x1951c8",
+    "address": "0x7a940c",
+    "text": "PKCS7"
+  },
+  {
+    "function": "0x195400",
+    "address": "0x7a941c",
+    "text": "X9.23"
+  },
+  {
+    "function": "0x1955d8",
+    "address": "0x7a93f8",
+    "text": "OneAndZeros"
+  },
+  {
+    "function": "0x195a10",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x19605c",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x19611c",
+    "address": "0x7a9138",
+    "text": "CRC32"
+  },
+  {
+    "function": "0x196874",
+    "address": "0x7aa290",
+    "text": "Sufficient input"
+  },
+  {
+    "function": "0x196f20",
+    "address": "0x7aa2ac",
+    "text": "Queue"
+  },
+  {
+    "function": "0x1981d0",
+    "address": "0x7aa2bc",
+    "text": "GHASH"
+  },
+  {
+    "function": "0x198ab8",
+    "address": "0x7a1654",
+    "text": "SHA-1"
+  },
+  {
+    "function": "0x198e88",
+    "address": "0x79f1c0",
+    "text": "SHA-224"
+  },
+  {
+    "function": "0x19922c",
+    "address": "0x7a19b0",
+    "text": "SHA-256"
+  },
+  {
+    "function": "0x1995d0",
+    "address": "0x79f228",
+    "text": "SHA-384"
+  },
+  {
+    "function": "0x199974",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x199d18",
+    "address": "0x79f1a8",
+    "text": "SHA-512-256"
+  },
+  {
+    "function": "0x19ace0",
+    "address": "0x7aa2cc",
+    "text": "Null"
+  },
+  {
+    "function": "0x19b0b4",
+    "address": "0x7aa2e8",
+    "text": "arc4random"
+  },
+  {
+    "function": "0x1a06f4",
+    "address": "0x7aa330",
+    "text": "Memory regions did not have equal lengths"
+  },
+  {
+    "function": "0x1a2cc8",
+    "address": "0x7aa330",
+    "text": "Memory regions did not have equal lengths"
+  },
+  {
+    "function": "0x1a6e0c",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1ab284",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1ae4ac",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1b3868",
+    "address": "0x7aa380",
+    "text": "basic_string"
+  },
+  {
+    "function": "0x1c1054",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1ca15c",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1d1a30",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1d8a34",
+    "address": "0x7aa330",
+    "text": "Memory regions did not have equal lengths"
+  },
+  {
+    "function": "0x1dcf50",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1e61ac",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x1ecc30",
+    "address": "0x7aa410",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_0NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1ed684",
+    "address": "0x7aa4d0",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_0"
+  },
+  {
+    "function": "0x1ed894",
+    "address": "0x7aa4d0",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_0"
+  },
+  {
+    "function": "0x1ee8f4",
+    "address": "0x7aa410",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_0NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1efcf4",
+    "address": "0x7aa410",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_0NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f1020",
+    "address": "0x7aa590",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_1NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f1a2c",
+    "address": "0x7aa650",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_1"
+  },
+  {
+    "function": "0x1f1c04",
+    "address": "0x7aa650",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_1"
+  },
+  {
+    "function": "0x1f2bd0",
+    "address": "0x7aa590",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_1NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f3ff4",
+    "address": "0x7aa590",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_1NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f519c",
+    "address": "0x7aa710",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_2NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f5b4c",
+    "address": "0x7aa7d0",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_2"
+  },
+  {
+    "function": "0x1f5d04",
+    "address": "0x7aa7d0",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_2"
+  },
+  {
+    "function": "0x1f6cb0",
+    "address": "0x7aa710",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_2NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f8078",
+    "address": "0x7aa710",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_2NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f91c4",
+    "address": "0x7aa890",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_3NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1f9b98",
+    "address": "0x7aa950",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_3"
+  },
+  {
+    "function": "0x1f9d4c",
+    "address": "0x7aa950",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_3"
+  },
+  {
+    "function": "0x1facf4",
+    "address": "0x7aa890",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_3NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1fc0e0",
+    "address": "0x7aa890",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_3NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1fd250",
+    "address": "0x7aaa10",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_4NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x1fdc70",
+    "address": "0x7aaad0",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_4"
+  },
+  {
+    "function": "0x1fde28",
+    "address": "0x7aaad0",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_4"
+  },
+  {
+    "function": "0x1fedd4",
+    "address": "0x7aaa10",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_4NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x20020c",
+    "address": "0x7aaa10",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_4NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x2013c8",
+    "address": "0x7aab90",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_5NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x201e30",
+    "address": "0x7aac50",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_5"
+  },
+  {
+    "function": "0x202078",
+    "address": "0x7aac50",
+    "text": "ZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_5"
+  },
+  {
+    "function": "0x2030b4",
+    "address": "0x7aab90",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_5NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x2044d8",
+    "address": "0x7aab90",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan12_GLOBAL__N_130aarch64_feat_using_instr_probeEjE3$_5NS_9allocatorIS4_EEFivEEE"
+  },
+  {
+    "function": "0x205f88",
+    "address": "0x7aa330",
+    "text": "Memory regions did not have equal lengths"
+  },
+  {
+    "function": "0x210eb0",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x219050",
+    "address": "0x7aacd0",
+    "text": "Memory regions did not have expected byte lengths"
+  },
+  {
+    "function": "0x2193bc",
+    "address": "0x7aacd0",
+    "text": "Memory regions did not have expected byte lengths"
+  },
+  {
+    "function": "0x21999c",
+    "address": "0x7aa330",
+    "text": "Memory regions did not have equal lengths"
+  },
+  {
+    "function": "0x2209d8",
+    "address": "0x7aad20",
+    "text": "string_view::at"
+  },
+  {
+    "function": "0x221744",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x239730",
+    "address": "0x7aa364",
+    "text": "vector"
+  },
+  {
+    "function": "0x245868",
+    "address": "0x79d498",
+    "text": "base"
+  },
+  {
+    "function": "0x25010c",
+    "address": "0x7aad60",
+    "text": "N5Botan12_GLOBAL__N_120DataSource_BERObjectE"
+  },
+  {
+    "function": "0x253560",
+    "address": "0x7aae00",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan11DER_EncoderC1ERNS_6vectorIhNS_9allocatorIhEEEEE3$_0NS5_IS9_EEFvPKhmEEE"
+  },
+  {
+    "function": "0x253f98",
+    "address": "0x7aaec0",
+    "text": "ZN5Botan11DER_EncoderC1ERNSt6__ndk16vectorIhNS1_9allocatorIhEEEEE3$_0"
+  },
+  {
+    "function": "0x25415c",
+    "address": "0x7aaec0",
+    "text": "ZN5Botan11DER_EncoderC1ERNSt6__ndk16vectorIhNS1_9allocatorIhEEEEE3$_0"
+  },
+  {
+    "function": "0x25511c",
+    "address": "0x7aae00",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan11DER_EncoderC1ERNS_6vectorIhNS_9allocatorIhEEEEE3$_0NS5_IS9_EEFvPKhmEEE"
+  },
+  {
+    "function": "0x256524",
+    "address": "0x7aae00",
+    "text": "NSt6__ndk110__function6__funcIZN5Botan11DER_EncoderC1ERNS_6vectorIhNS_9allocatorIhEEEEE3$_0NS5_IS9_EEFvPKhmEEE"
+  },
+  {
+    "function": "0x26df14",
+    "address": "0x7aaf50",
+    "text": "N5Botan12_GLOBAL__N_129Ed25519_Pure_Verify_OperationE"
+  },
+  {
+    "function": "0x26e444",
+    "address": "0x7aaf98",
+    "text": "Expected size"
+  },
+  {
+    "function": "0x26e6f4",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x26f43c",
+    "address": "0x7aaff0",
+    "text": "N5Botan12_GLOBAL__N_131Ed25519_Hashed_Verify_OperationE"
+  },
+  {
+    "function": "0x26f43c",
+    "address": "0x7ab060",
+    "text": "SigEd25519 no Ed25519 collisions"
+  },
+  {
+    "function": "0x26fa34",
+    "address": "0x7aaf98",
+    "text": "Expected size"
+  },
+  {
+    "function": "0x270aa4",
+    "address": "0x7ab0d0",
+    "text": "N5Botan12_GLOBAL__N_127Ed25519_Pure_Sign_OperationE"
+  },
+  {
+    "function": "0x2711ec",
+    "address": "0x7a1140",
+    "text": "Ed25519"
+  },
+  {
+    "function": "0x2713c8",
+    "address": "0x79f218",
+    "text": "SHA-512"
+  },
+  {
+    "function": "0x272110",
+    "address": "0x7ab150",
+    "text": "N5Botan12_GLOBAL__N_129Ed25519_Hashed_Sign_OperationE"
+  },
+  {
+    "function": "0x272110",
+    "address": "0x7ab1c0",
+    "text": "SigEd25519 no Ed25519 collisions"
+  },
+  {
+    "function": "0x28a8dc",
+    "address": "0x7a8240",
+    "text": "NoPadding"
+  },
+  {
+    "function": "0x29d1e8",
+    "address": "0x7aa330",
+    "text": "Memory regions did not have equal lengths"
+  },
+  {
+    "function": "0x29f430",
+    "address": "0x7ab220",
+    "text": "N5Botan12_GLOBAL__N_119X25519_KA_OperationE"
+  },
+  {
+    "function": "0x2a09c4",
+    "address": "0x7ab2c0",
+    "text": "/system/bin/app_process64"
+  },
+  {
+    "function": "0x2a09c4",
+    "address": "0x7ab300",
+    "text": "/system/bin/linker64"
+  },
+  {
+    "function": "0x2a09c4",
+    "address": "0x7ab328",
+    "text": "app_process64"
+  },
+  {
+    "function": "0x2a09c4",
+    "address": "0x7ab340",
+    "text": "[vdso]"
+  },
+  {
+    "function": "0x2a09c4",
+    "address": "0x7ab358",
+    "text": "linker64"
+  },
+  {
+    "function": "0x2a1818",
+    "address": "0x7ab378",
+    "text": "/system/lib64"
+  },
+  {
+    "function": "0x2a1818",
+    "address": "0x7ab398",
+    "text": ".gnu_debugdata"
+  },
+  {
+    "function": "0x2a1818",
+    "address": "0x7ab3b0",
+    "text": ".symtab"
+  },
+  {
+    "function": "0x2a1818",
+    "address": "0x7ab3c0",
+    "text": "%s/%s"
+  },
+  {
+    "function": "0x2a2c0c",
+    "address": "0x7ab3b0",
+    "text": ".symtab"
+  },
+  {
+    "function": "0x2a3348",
+    "address": "0x7ab400",
+    "text": "/system/bin/linker64"
+  },
+  {
+    "function": "0x2a3660",
+    "address": "0x7ab428",
+    "text": "%lx-%lx r"
+  },
+  {
+    "function": "0x2a3e90",
+    "address": "0x7ab460",
+    "text": "/proc/self/maps"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab580",
+    "text": "/vendor/lib64/vndk-sp/"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab5c0",
+    "text": "/apex/com.android.vndk.v"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab5f0",
+    "text": "/odm/lib64/"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab620",
+    "text": "/odm/lib64/vndk-sp/"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab648",
+    "text": "/libart.so"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab680",
+    "text": "/vendor/lib64/egl/"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab6a8",
+    "text": "/vendor/lib64/"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab6e0",
+    "text": "/vendor/lib64/hw/"
+  },
+  {
+    "function": "0x2a4328",
+    "address": "0x7ab708",
+    "text": "/libc.so"
+  },
+  {
+    "function": "0x2a49dc",
+    "address": "0x7ab730",
+    "text": "__loader_dlopen"
+  },
+  {
+    "function": "0x2a49dc",
+    "address": "0x7ab760",
+    "text": "__dl__Z8__dlopenPKciPKv"
+  },
+  {
+    "function": "0x2a49dc",
+    "address": "0x7ab7b0",
+    "text": "__dl__ZL10dlopen_extPKciPK17android_dlextinfoPv"
+  },
+  {
+    "function": "0x2a49dc",
+    "address": "0x7ab810",
+    "text": "__dl__Z9do_dlopenPKciPK17android_dlextinfoPv"
+  },
+  {
+    "function": "0x2a49dc",
+    "address": "0x7ab860",
+    "text": "__dl__ZL10g_dl_mutex"
+  },
+  {
+    "function": "0x2a49dc",
+    "address": "0x7ab888",
+    "text": "linker64"
+  },
+  {
+    "function": "0x2a58ac",
+    "address": "0x7ab8c0",
+    "text": "XzUnpacker_IsStreamWasFinished"
+  },
+  {
+    "function": "0x2a58ac",
+    "address": "0x7ab8f0",
+    "text": "XzUnpacker_Code"
+  },
+  {
+    "function": "0x2a58ac",
+    "address": "0x7ab910",
+    "text": "XzUnpacker_Free"
+  },
+  {
+    "function": "0x2a58ac",
+    "address": "0x7ab940",
+    "text": "XzUnpacker_Construct"
+  },
+  {
+    "function": "0x2a58ac",
+    "address": "0x7ab980",
+    "text": "Crc64GenerateTable"
+  },
+  {
+    "function": "0x2a58ac",
+    "address": "0x7ab9c0",
+    "text": "CrcGenerateTable"
+  },
+  {
+    "function": "0x2a58ac",
+    "address": "0x7aba00",
+    "text": "/system/lib64/liblzma.so"
+  },
+  {
+    "function": "0x2a60c4",
+    "address": "0x7aba50",
+    "text": "ro.build.version.sdk="
+  },
+  {
+    "function": "0x2a60c4",
+    "address": "0x7aba90",
+    "text": "/system/build.prop"
+  },
+  {
+    "function": "0x2a63c8",
+    "address": "0x7abad0",
+    "text": "ro.build.version.sdk"
+  },
+  {
+    "function": "0x2a7154",
+    "address": "0x7abb08",
+    "text": "true"
+  },
+  {
+    "function": "0x2a7154",
+    "address": "0x7abb18",
+    "text": "false"
+  },
+  {
+    "function": "0x2a7154",
+    "address": "0x7abb28",
+    "text": "null"
+  },
+  {
+    "function": "0x2a79c0",
+    "address": "0x7abb08",
+    "text": "true"
+  },
+  {
+    "function": "0x2a79c0",
+    "address": "0x7abb18",
+    "text": "false"
+  },
+  {
+    "function": "0x2a79c0",
+    "address": "0x7abb28",
+    "text": "null"
+  },
+  {
+    "function": "0x2aa928",
+    "address": "0x7abb70",
+    "text": "u%04x"
+  },
+  {
+    "function": "0x2e62b0",
+    "address": "0x7abf48",
+    "text": "&@%l|$y"
+  },
+  {
+    "function": "0x30e700",
+    "address": "0x7ac534",
+    "text": "JDWL"
+  },
+  {
+    "function": "0x324394",
+    "address": "0x7ac8a0",
+    "text": "P-_{"
+  },
+  {
+    "function": "0x324394",
+    "address": "0x7ac8a8",
+    "text": "G*^~"
+  },
+  {
+    "function": "0x324394",
+    "address": "0x7ac8b0",
+    "text": "T0H`"
+  },
+  {
+    "function": "0x324394",
+    "address": "0x7ac8c0",
+    "text": "B*Y`"
+  },
+  {
+    "function": "0x324394",
+    "address": "0x7ac8c8",
+    "text": "|\"Uh"
+  },
+  {
+    "function": "0x32c1a4",
+    "address": "0x7ac9e0",
+    "text": "(\\%t"
+  },
+  {
+    "function": "0x35547c",
+    "address": "0x7ad0f0",
+    "text": "SREO"
+  },
+  {
+    "function": "0x35b9e0",
+    "address": "0x7ad1dd",
+    "text": "`iAFq&"
+  },
+  {
+    "function": "0x35b9e0",
+    "address": "0x7ad1e4",
+    "text": "UahU"
+  },
+  {
+    "function": "0x35b9e0",
+    "address": "0x7ad1ec",
+    "text": "T}JTGm$"
+  },
+  {
+    "function": "0x35b9e0",
+    "address": "0x7ad1f4",
+    "text": "hga^3"
+  },
+  {
+    "function": "0x38124c",
+    "address": "0x7ad704",
+    "text": "Z<pRn"
+  },
+  {
+    "function": "0x38124c",
+    "address": "0x7ad70c",
+    "text": "U>|V{q"
+  },
+  {
+    "function": "0x38ee60",
+    "address": "0x7ad975",
+    "text": "\\?<E.H"
+  },
+  {
+    "function": "0x38ee60",
+    "address": "0x7ad97e",
+    "text": ":3Lrg"
+  },
+  {
+    "function": "0x3922f8",
+    "address": "0x7ada02",
+    "text": ">CO("
+  },
+  {
+    "function": "0x3922f8",
+    "address": "0x7ada0a",
+    "text": "6CL="
+  },
+  {
+    "function": "0x3922f8",
+    "address": "0x7ada22",
+    "text": "!,B9"
+  },
+  {
+    "function": "0x412928",
+    "address": "0x7ae338",
+    "text": "AnG~"
+  },
+  {
+    "function": "0x412928",
+    "address": "0x7ae340",
+    "text": "CcN="
+  },
+  {
+    "function": "0x41392c",
+    "address": "0x7ae35e",
+    "text": "!2B-I2"
+  },
+  {
+    "function": "0x41d0c4",
+    "address": "0x7ae430",
+    "text": "unique_lock::unlock: not locked"
+  },
+  {
+    "function": "0x41f4d8",
+    "address": "0x7ae490",
+    "text": "thread constructor failed"
+  },
+  {
+    "function": "0x46d084",
+    "address": "0x7ae880",
+    "text": "APk~"
+  },
+  {
+    "function": "0x479344",
+    "address": "0x7ae902",
+    "text": "VUj,BB^"
+  },
+  {
+    "function": "0x493870",
+    "address": "0x7ae920",
+    "text": "basic_string"
+  },
+  {
+    "function": "0x494c84",
+    "address": "0x7ae988",
+    "text": "\\qTMT@Vy"
+  },
+  {
+    "function": "0x4c6934",
+    "address": "0x7aedd0",
+    "text": "thread constructor failed"
+  },
+  {
+    "function": "0x4c717c",
+    "address": "0x7aedd0",
+    "text": "thread constructor failed"
+  },
+  {
+    "function": "0x511048",
+    "address": "0x7aeeb0",
+    "text": "vector"
+  },
+  {
+    "function": "0x528544",
+    "address": "0x7aeeb0",
+    "text": "vector"
+  },
+  {
+    "function": "0x56eae4",
+    "address": "0x7af000",
+    "text": "Pure"
+  },
+  {
+    "function": "0x570514",
+    "address": "0x7af090",
+    "text": "236S;"
+  },
+  {
+    "function": "0x572a54",
+    "address": "0x7af040",
+    "text": "/ I5m"
+  },
+  {
+    "function": "0x572a54",
+    "address": "0x7af047",
+    "text": "&JY8El"
+  },
+  {
+    "function": "0x5ae894",
+    "address": "0x7af280",
+    "text": "r:>^"
+  },
+  {
+    "function": "0x5e60c8",
+    "address": "0x7af5d8",
+    "text": "vector"
+  }
+]

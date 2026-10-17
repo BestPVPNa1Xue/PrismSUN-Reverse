@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x2a8048\",\"code\":\"__int64 __fastcall sub_2A8048(_QWORD *a1, _QWORD *a2)\\n{\\n  bool v2; // zf\\n  unsigned int v3; // w8\\n  __int64 v4; // x11\\n  _QWORD *v5; // x8\\n\\n  v2 = *(_DWORD *)sub_2A8048 >> 26 == 5 || (*(_DWORD *)sub_2A8048 & 0xFFE00000) == -736100352; /*0x2a806c*/\\n  if ( v2 || loc_2A804C >> 10 == 3508160 || (loc_2A8050 & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a8098*/\\n    abort(); /*0x2a8148*/\\n  v3 = 0; /*0x2a80a0*/\\n  if ( a1 == a2 || !a1 || !a2 ) /*0x2a80ac*/\\n    return v3; /*0x2a80ac*/\\n  v4 = a1[2]; /*0x2a80b0*/\\n  if ( v4 ) /*0x2a80b4*/\\n  {\\n    v5 = *(_QWORD **)(v4 + 8); /*0x2a80b8*/\\n    if ( v5 ) /*0x2a80bc*/\\n    {\\n      *v5 = a2; /*0x2a8104*/\\n      a2[1] = v5; /*0x2a8108*/\\n      v3 = 1; /*0x2a810c*/\\n      *(_QWORD *)(v4 + 8) = a2; /*0x2a8110*/\\n      return v3; /*0x2a811c*/\\n    }\\n    return 1; /*0x2a813c*/\\n  }\\n  else\\n  {\\n    a1[2] = a2; /*0x2a8120*/\\n    *a2 = 0; /*0x2a8128*/\\n    a2[1] = a2; /*0x2a8128*/\\n    return 1; /*0x2a812c*/\\n  }\\n}\",\"refs\":[{\"addr\":\"0x2a8048\",\"name\":\"sub_2A8048\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x2a804c\",\"name\":\"loc_2A804C\"},{\"addr\":\"0x2a8050\",\"name\":\"loc_2A8050\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x2a8048",
+      "code": "__int64 __fastcall sub_2A8048(_QWORD *a1, _QWORD *a2)\n{\n  bool v2; // zf\n  unsigned int v3; // w8\n  __int64 v4; // x11\n  _QWORD *v5; // x8\n\n  v2 = *(_DWORD *)sub_2A8048 >> 26 == 5 || (*(_DWORD *)sub_2A8048 & 0xFFE00000) == -736100352; /*0x2a806c*/\n  if ( v2 || loc_2A804C >> 10 == 3508160 || (loc_2A8050 & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a8098*/\n    abort(); /*0x2a8148*/\n  v3 = 0; /*0x2a80a0*/\n  if ( a1 == a2 || !a1 || !a2 ) /*0x2a80ac*/\n    return v3; /*0x2a80ac*/\n  v4 = a1[2]; /*0x2a80b0*/\n  if ( v4 ) /*0x2a80b4*/\n  {\n    v5 = *(_QWORD **)(v4 + 8); /*0x2a80b8*/\n    if ( v5 ) /*0x2a80bc*/\n    {\n      *v5 = a2; /*0x2a8104*/\n      a2[1] = v5; /*0x2a8108*/\n      v3 = 1; /*0x2a810c*/\n      *(_QWORD *)(v4 + 8) = a2; /*0x2a8110*/\n      return v3; /*0x2a811c*/\n    }\n    return 1; /*0x2a813c*/\n  }\n  else\n  {\n    a1[2] = a2; /*0x2a8120*/\n    *a2 = 0; /*0x2a8128*/\n    a2[1] = a2; /*0x2a8128*/\n    return 1; /*0x2a812c*/\n  }\n}",
+      "refs": [
+        {
+          "addr": "0x2a8048",
+          "name": "sub_2A8048"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x2a804c",
+          "name": "loc_2A804C"
+        },
+        {
+          "addr": "0x2a8050",
+          "name": "loc_2A8050"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

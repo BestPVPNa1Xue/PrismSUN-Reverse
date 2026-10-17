@@ -1,0 +1,58 @@
+{
+  "addr": "0x19c47c",
+  "code": "__int64 __fastcall sub_19C47C(__int64 a1)\n{\n  bool v1; // zf\n  __int64 result; // x0\n\n  v1 = *(_DWORD *)sub_19C47C >> 26 == 5 || (*(_DWORD *)sub_19C47C & 0xFFE00000) == -736100352; /*0x19c4a8*/\n  if ( v1\n    || loc_19C480 >> 10 == 3508160\n    || (loc_19C484 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_19C654 >> 26 == 5\n    || (*(_DWORD *)sub_19C654 & 0xFFE00000) == 0xD4200000\n    || (loc_19C658 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_19C65C & 0xFFFFFC00) == 0xD61F0000\n    || ((sub_19C6DC(a1) & 1) == 0 ? (result = sub_19C8B8(a1)) : (result = sub_19C7CC(a1)),\n        *(_DWORD *)sub_19C5F8 >> 26 == 5\n     || (*(_DWORD *)sub_19C5F8 & 0xFFE00000) == 0xD4200000\n     || (loc_19C5FC & 0xFFFFFC00) == 0xD61F0000\n     || (loc_19C600 & 0xFFFFFC00) == 0xD61F0000) )\n  {\n    abort(); /*0x19c594*/\n  }\n  return result; /*0x19c590*/\n}",
+  "refs": [
+    {
+      "addr": "0x19c47c",
+      "name": "sub_19C47C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x19c480",
+      "name": "loc_19C480"
+    },
+    {
+      "addr": "0x19c484",
+      "name": "loc_19C484"
+    },
+    {
+      "addr": "0x19c654",
+      "name": "sub_19C654"
+    },
+    {
+      "addr": "0x19c658",
+      "name": "loc_19C658"
+    },
+    {
+      "addr": "0x19c65c",
+      "name": "loc_19C65C"
+    },
+    {
+      "addr": "0x19c6dc",
+      "name": "sub_19C6DC"
+    },
+    {
+      "addr": "0x19c8b8",
+      "name": "sub_19C8B8"
+    },
+    {
+      "addr": "0x19c7cc",
+      "name": "sub_19C7CC"
+    },
+    {
+      "addr": "0x19c5f8",
+      "name": "sub_19C5F8"
+    },
+    {
+      "addr": "0x19c5fc",
+      "name": "loc_19C5FC"
+    },
+    {
+      "addr": "0x19c600",
+      "name": "loc_19C600"
+    }
+  ]
+}

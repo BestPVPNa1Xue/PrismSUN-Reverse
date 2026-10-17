@@ -1,0 +1,33 @@
+{
+  "scope": "Verified helper bodies, not a drop-in replacement for libprism-sun.so",
+  "host_compiler": "clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)",
+  "android_compiler": "Android (12027248, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "android_target": "aarch64-linux-android24",
+  "files": [
+    {
+      "path": "D:\\PrismSUN\\research\\src\\verified_helpers.cpp",
+      "size": 1188,
+      "sha256": "7f5f2373e92f45b6948dec55626b485877e6b4221e59f0891c2ff677a4451409"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\src\\verified_helpers.h",
+      "size": 621,
+      "sha256": "98143e2ebd31857863b7e4e6b29fe6cf73d58f5de5f2f85eb8383aedfdb1c5b7"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\host\\prism_helpers.dll",
+      "size": 96916,
+      "sha256": "4a4587130cfa7e3538415996ebe857f94e1ab1cc4bc4fa094f91172a967cbc82"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\host\\test_helpers.exe",
+      "size": 2917538,
+      "sha256": "2cc849235ed75143071cc6608781bda8bf771f6113cf93e590f28e31b3df9cd1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\android-arm64\\libprism_helpers.so",
+      "size": 6528,
+      "sha256": "0b9614f0c9e2d6b46bbb8882bdecdd326ef9d9112989acce33359774af3118d3"
+    }
+  ]
+}

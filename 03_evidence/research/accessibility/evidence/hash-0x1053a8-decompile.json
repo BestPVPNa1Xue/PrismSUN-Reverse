@@ -1,0 +1,871 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x1053a8\",\"code\":\"__int64 __fastcall sub_1053A8(__int64 a1, __int64 a2, __int64 a3)\\n{\\n  unsigned int v4; // w19\\n  __int64 v6; // x1\\n  unsigned int v7; // w9\\n  unsigned int v8; // w9\\n  unsigned int v9; // w9\\n  unsigned int v10; // w9\\n  unsigned int v11; // w9\\n  unsigned int v12; // w9\\n  unsigned int v13; // w9\\n  unsigned int v14; // w9\\n  unsigned int v15; // w9\\n  unsigned int v16; // w9\\n  unsigned int v17; // w9\\n  unsigned int v18; // w9\\n  unsigned int v19; // w9\\n  unsigned int v20; // w9\\n  int v21; // w10\\n  unsigned int v22; // w19\\n  int v23; // w21\\n  __int64 v24; // x1\\n  __int64 v25; // x0\\n  __int64 *v26; // x21\\n  __int64 result; // x0\\n  bool v28; // zf\\n  char v29; // w9\\n  __int64 v30; // [xsp-40h] [xbp-60h] BYREF\\n  _QWORD v31[2]; // [xsp-30h] [xbp-50h] BYREF\\n  __int128 v32; // [xsp-20h] [xbp-40h]\\n  __int128 v33; // [xsp-10h] [xbp-30h] BYREF\\n  unsigned __int64 StatusReg; // [xsp+0h] [xbp-20h]\\n  __int64 *v35; // [xsp+8h] [xbp-18h]\\n  __int64 v36; // [xsp+10h] [xbp-10h]\\n  __int64 v37; // [xsp+18h] [xbp-8h]\\n\\n  v36 = a1; /*0x1053c8*/\\n  StatusReg = _ReadStatusReg(TPIDR_EL0); /*0x1053d8*/\\n  v37 = *(_QWORD *)(StatusReg + 40); /*0x1053e0*/\\n  if ( !atomic_load(dword_7B022C) ) /*0x1053ec*/\\n  {\\n    xmmword_7A88A0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84A0, (int8x16_t)xmmword_30D20); /*0x10542c*/\\n    xmmword_7A88B0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84B0, (int8x16_t)xmmword_323A0); /*0x10542c*/\\n    xmmword_7A88C0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84C0, (int8x16_t)xmmword_31B40); /*0x105464*/\\n    xmmword_7A88D0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84D0, (int8x16_t)xmmword_32780); /*0x105464*/\\n    xmmword_7A88E0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84E0, (int8x16_t)xmmword_2FE90); /*0x105474*/\\n    xmmword_7A88F0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84F0, (int8x16_t)xmmword_30D30); /*0x105474*/\\n    xmmword_7A8900 = (__int128)veorq_s8((int8x16_t)xmmword_7A8500, (int8x16_t)xmmword_31720); /*0x105494*/\\n    xmmword_7A8910 = (__int128)veorq_s8((int8x16_t)xmmword_7A8510, (int8x16_t)xmmword_33110); /*0x105494*/\\n    xmmword_7A8920 = (__int128)veorq_s8((int8x16_t)xmmword_7A8520, (int8x16_t)xmmword_325F0); /*0x1054bc*/\\n    xmmword_7A8930 = (__int128)veorq_s8((int8x16_t)xmmword_7A8530, (int8x16_t)xmmword_338A0); /*0x1054bc*/\\n    xmmword_7A8940 = (__int128)veorq_s8((int8x16_t)xmmword_7A8540, (int8x16_t)xmmword_32790); /*0x1054ec*/\\n    xmmword_7A8950 = (__int128)veorq_s8((int8x16_t)xmmword_7A8550, (int8x16_t)xmmword_2F8C0); /*0x1054ec*/\\n    xmmword_7A8960 = (__int128)veorq_s8((int8x16_t)xmmword_7A8560, (int8x16_t)xmmword_311D0); /*0x1054f8*/\\n    xmmword_7A8970 = (__int128)veorq_s8((int8x16_t)xmmword_7A8570, (int8x16_t)xmmword_31B50); /*0x1054f8*/\\n    xmmword_7A8980 = (__int128)veorq_s8((int8x16_t)xmmword_7A8580, (int8x16_t)xmmword_2FEA0); /*0x105500*/\\n    xmmword_7A8990 = (__int128)veorq_s8((int8x16_t)xmmword_7A8590, (int8x16_t)xmmword_30540); /*0x105500*/\\n    xmmword_7A89A0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85A0, (int8x16_t)xmmword_31DB0); /*0x105540*/\\n    xmmword_7A89B0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85B0, (int8x16_t)xmmword_306D0); /*0x105540*/\\n    xmmword_7A89C0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85C0, (int8x16_t)xmmword_30B50); /*0x105564*/\\n    xmmword_7A89D0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85D0, (int8x16_t)xmmword_323B0); /*0x105564*/\\n    xmmword_7A89E0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85E0, (int8x16_t)xmmword_31DC0); /*0x105574*/\\n    xmmword_7A89F0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85F0, (int8x16_t)xmmword_32F30); /*0x105574*/\\n    xmmword_7A8A00 = (__int128)veorq_s8((int8x16_t)xmmword_7A8600, (int8x16_t)xmmword_32180); /*0x105594*/\\n    xmmword_7A8A10 = (__int128)veorq_s8((int8x16_t)xmmword_7A8610, (int8x16_t)xmmword_323C0); /*0x105594*/\\n    xmmword_7A8A20 = (__int128)veorq_s8((int8x16_t)xmmword_7A8620, (int8x16_t)xmmword_32600); /*0x1055bc*/\\n    xmmword_7A8A30 = (__int128)veorq_s8((int8x16_t)xmmword_7A8630, (int8x16_t)xmmword_30900); /*0x1055bc*/\\n    xmmword_7A8A40 = (__int128)veorq_s8((int8x16_t)xmmword_7A8640, (int8x16_t)xmmword_32C20); /*0x1055ec*/\\n    xmmword_7A8A50 = (__int128)veorq_s8((int8x16_t)xmmword_7A8650, (int8x16_t)xmmword_30100); /*0x1055ec*/\\n    xmmword_7A8A60 = (__int128)veorq_s8((int8x16_t)xmmword_7A8660, (int8x16_t)xmmword_33A60); /*0x1055f8*/\\n    xmmword_7A8A70 = (__int128)veorq_s8((int8x16_t)xmmword_7A8670, (int8x16_t)xmmword_33A70); /*0x1055f8*/\\n    xmmword_7A8A80 = (__int128)veorq_s8((int8x16_t)xmmword_7A8680, (int8x16_t)xmmword_2FD10); /*0x105600*/\\n    xmmword_7A8A90 = (__int128)veorq_s8((int8x16_t)xmmword_7A8690, (int8x16_t)xmmword_30D40); /*0x105600*/\\n    xmmword_7A8AA0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86A0, (int8x16_t)xmmword_33120); /*0x105640*/\\n    xmmword_7A8AB0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86B0, (int8x16_t)xmmword_2FD20); /*0x105640*/\\n    xmmword_7A8AC0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86C0, (int8x16_t)xmmword_30D50); /*0x105664*/\\n    xmmword_7A8AD0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86D0, (int8x16_t)xmmword_31FB0); /*0x105664*/\\n    xmmword_7A8AE0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86E0, (int8x16_t)xmmword_33A80); /*0x105674*/\\n    xmmword_7A8AF0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86F0, (int8x16_t)xmmword_327A0); /*0x105674*/\\n    xmmword_7A8B00 = (__int128)veorq_s8((int8x16_t)xmmword_7A8700, (int8x16_t)xmmword_311E0); /*0x105694*/\\n    xmmword_7A8B10 = (__int128)veorq_s8((int8x16_t)xmmword_7A8710, (int8x16_t)xmmword_33A90); /*0x105694*/\\n    xmmword_7A8B20 = (__int128)veorq_s8((int8x16_t)xmmword_7A8720, (int8x16_t)xmmword_31DD0); /*0x1056bc*/\\n    xmmword_7A8B30 = (__int128)veorq_s8((int8x16_t)xmmword_7A8730, (int8x16_t)xmmword_31B60); /*0x1056bc*/\\n    xmmword_7A8B40 = (__int128)veorq_s8((int8x16_t)xmmword_7A8740, (int8x16_t)xmmword_32F40); /*0x1056ec*/\\n    xmmword_7A8B50 = (__int128)veorq_s8((int8x16_t)xmmword_7A8750, (int8x16_t)xmmword_2F8D0); /*0x1056ec*/\\n    xmmword_7A8B60 = (__int128)veorq_s8((int8x16_t)xmmword_7A8760, (int8x16_t)xmmword_32970); /*0x1056f8*/\\n    xmmword_7A8B70 = (__int128)veorq_s8((int8x16_t)xmmword_7A8770, (int8x16_t)xmmword_30110); /*0x1056f8*/\\n    xmmword_7A8B80 = (__int128)veorq_s8((int8x16_t)xmmword_7A8780, (int8x16_t)xmmword_30330); /*0x105700*/\\n    xmmword_7A8B90 = (__int128)veorq_s8((int8x16_t)xmmword_7A8790, (int8x16_t)xmmword_30910); /*0x105700*/\\n    xmmword_7A8BA0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87A0, (int8x16_t)xmmword_31FC0); /*0x105740*/\\n    xmmword_7A8BB0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87B0, (int8x16_t)xmmword_31730); /*0x105740*/\\n    xmmword_7A8BC0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87C0, (int8x16_t)xmmword_2F8E0); /*0x105764*/\\n    xmmword_7A8BD0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87D0, (int8x16_t)xmmword_311F0); /*0x105764*/\\n    xmmword_7A8BE0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87E0, (int8x16_t)xmmword_30D60); /*0x105774*/\\n    xmmword_7A8BF0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87F0, (int8x16_t)xmmword_31B70); /*0x105774*/\\n    xmmword_7A8C00 = (__int128)veorq_s8((int8x16_t)xmmword_7A8800, (int8x16_t)xmmword_32F50); /*0x105794*/\\n    xmmword_7A8C10 = (__int128)veorq_s8((int8x16_t)xmmword_7A8810, (int8x16_t)xmmword_31940); /*0x105794*/\\n    xmmword_7A8C20 = (__int128)veorq_s8((int8x16_t)xmmword_7A8820, (int8x16_t)xmmword_2F8F0); /*0x1057bc*/\\n    xmmword_7A8C30 = (__int128)veorq_s8((int8x16_t)xmmword_7A8830, (int8x16_t)xmmword_32610); /*0x1057bc*/\\n    xmmword_7A8C40 = (__int128)veorq_s8((int8x16_t)xmmword_7A8840, (int8x16_t)xmmword_33AA0); /*0x1057e8*/\\n    xmmword_7A8C50 = (__int128)veorq_s8((int8x16_t)xmmword_7A8850, (int8x16_t)xmmword_32C30); /*0x1057e8*/\\n    xmmword_7A8C60 = (__int128)veorq_s8((int8x16_t)xmmword_7A8860, (int8x16_t)xmmword_33730); /*0x1057f4*/\\n    xmmword_7A8C70 = (__int128)veorq_s8((int8x16_t)xmmword_7A8870, (int8x16_t)xmmword_30B60); /*0x1057f4*/\\n    xmmword_7A8C80 = (__int128)veorq_s8((int8x16_t)xmmword_7A8880, (int8x16_t)xmmword_31200); /*0x1057f8*/\\n    xmmword_7A8C90 = (__int128)veorq_s8((int8x16_t)xmmword_7A8890, (int8x16_t)xmmword_31DE0); /*0x1057f8*/\\n  }\\n  atomic_store(1u, dword_7B022C); /*0x105800*/\\n  if ( *(_DWORD *)sub_1053A8 >> 26 == 5 ) /*0x105818*/\\n    goto LABEL_21; /*0x105818*/\\n  if ( (*(_DWORD *)sub_1053A8 & 0xFFE00000) == 0xD4200000 ) /*0x105828*/\\n    goto LABEL_21; /*0x105828*/\\n  if ( loc_1053AC >> 10 == 3508160 ) /*0x10583c*/\\n    goto LABEL_21; /*0x10583c*/\\n  if ( (loc_1053B0 & 0xFFFFFC00) == 0xD61F0000 ) /*0x105850*/\\n    goto LABEL_21; /*0x105850*/\\n  v35 = &v30; /*0x105874*/\\n  *(_QWORD *)&v33 = a2; /*0x105884*/\\n  *((_QWORD *)&v33 + 1) = a3; /*0x105884*/\\n  if ( *(_DWORD *)sub_BDE80 >> 26 == 5 || (*(_DWORD *)sub_BDE80 & 0xFFE00000) == 0xD4200000 ) /*0x1058a0*/\\n    goto LABEL_21; /*0x1058a0*/\\n  v4 = *(_DWORD *)(v36 + 8); /*0x1058b0*/\\n  while ( 1 ) /*0x1058b4*/\\n  {\\n    if ( (loc_BDE84 & 0xFFFFFC00) == 0xD61F0000 || (loc_BDE88 & 0xFFFFFC00) == -702611456 ) /*0x1058c4*/\\n      goto LABEL_21; /*0x1058c8*/\\n    v6 = *((_QWORD *)&v33 + 1) - 16LL; /*0x1058d0*/\\n    if ( *((_QWORD *)&v33 + 1) < 0x10u ) /*0x1058d4*/\\n      break; /*0x1058d4*/\\n    if ( *(_DWORD *)sub_105BA8 >> 26 != 5 /*0x105910*/\\n      && (*(_DWORD *)sub_105BA8 & 0xFFE00000) != 0xD4200000\\n      && (loc_105BAC & 0xFFFFFC00) != 0xD61F0000\\n      && (loc_105BB0 & 0xFFFFFC00) != 0xD61F0000 )\\n    {\\n      v7 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)v33 ^ v4)) ^ (v4 >> 8); /*0x105930*/\\n      v8 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 1) ^ v7)) ^ (v7 >> 8); /*0x105940*/\\n      v9 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 2) ^ v8)) ^ (v8 >> 8); /*0x105954*/\\n      v10 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 3) ^ v9)) ^ (v9 >> 8); /*0x105968*/\\n      v11 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 4) ^ v10)) ^ (v10 >> 8); /*0x10597c*/\\n      v12 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 5) ^ v11)) ^ (v11 >> 8); /*0x105990*/\\n      v13 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 6) ^ v12)) ^ (v12 >> 8); /*0x1059a4*/\\n      v14 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 7) ^ v13)) ^ (v13 >> 8); /*0x1059b8*/\\n      v15 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 8) ^ v14)) ^ (v14 >> 8); /*0x1059cc*/\\n      v16 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 9) ^ v15)) ^ (v15 >> 8); /*0x1059e0*/\\n      v17 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 10) ^ v16)) ^ (v16 >> 8); /*0x1059f4*/\\n      v18 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 11) ^ v17)) ^ (v17 >> 8); /*0x105a08*/\\n      v19 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 12) ^ v18)) ^ (v18 >> 8); /*0x105a1c*/\\n      v20 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 13) ^ v19)) ^ (v19 >> 8); /*0x105a30*/\\n      v21 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 14) ^ v20)); /*0x105a44*/\\n      v22 = v21 ^ (v20 >> 8); /*0x105a48*/\\n      v23 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 15) ^ v21 ^ BYTE1(v20))); /*0x105a54*/\\n      *(_QWORD *)&v32 = sub_105C0C(&v33, v6); /*0x105a60*/\\n      *((_QWORD *)&v32 + 1) = v24; /*0x105a60*/\\n      v33 = v32; /*0x105a6c*/\\n      if ( *(_DWORD *)sub_BDE80 >> 26 != 5 ) /*0x105a74*/\\n      {\\n        v4 = v23 ^ (v22 >> 8); /*0x105a7c*/\\n        if ( (*(_DWORD *)sub_BDE80 & 0xFFE00000) != 0xD4200000 ) /*0x105a84*/\\n          continue; /*0x105a84*/\\n      }\\n    }\\n    goto LABEL_21; /*0x105a84*/\\n  }\\n  v31[0] = sub_105D48(&v33, v6); /*0x105a94*/\\n  v25 = sub_105E34(&v33); /*0x105a9c*/\\n  v26 = v35; /*0x105aa0*/\\n  *v35 = v25; /*0x105aa4*/\\n  result = sub_105F68(v31, v26); /*0x105ab0*/\\n  if ( (result & 1) != 0 ) /*0x105ab4*/\\n  {\\n    while ( 1 ) /*0x105acc*/\\n    {\\n      v28 = *(_DWORD *)sub_106060 >> 26 == 5 || (*(_DWORD *)sub_106060 & 0xFFE00000) == -736100352; /*0x105ad8*/\\n      if ( v28 /*0x105b38*/\\n        || (loc_106064 & 0xFFFFFC00) == 0xD61F0000\\n        || (loc_106068 & 0xFFFFFC00) == 0xD61F0000\\n        || *(_DWORD *)sub_1060C0 >> 26 == 5\\n        || (*(_DWORD *)sub_1060C0 & 0xFFE00000) == 0xD4200000\\n        || (loc_1060C4 & 0xFFFFFC00) == 0xD61F0000\\n        || (loc_1060C8 & 0xFFFFFC00) == 0xD61F0000 )\\n      {\\n        break; /*0x105b38*/\\n      }\\n      v29 = *(_BYTE *)v31[0]++; /*0x105b48*/\\n      v4 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(v29 ^ v4)) ^ (v4 >> 8); /*0x105b5c*/\\n      result = sub_105F68(v31, v26); /*0x105b60*/\\n      if ( (result & 1) == 0 ) /*0x105b64*/\\n        goto LABEL_34; /*0x105b64*/\\n    }\\nLABEL_21:\\n    abort(); /*0x105a88*/\\n  }\\nLABEL_34:\\n  *(_DWORD *)(v36 + 8) = v4; /*0x105b68*/\\n  return result; /*0x105ba0*/\\n}\",\"refs\":[{\"addr\":\"0x7a88a0\",\"name\":\"xmmword_7A88A0\"},{\"addr\":\"0x7a84a0\",\"name\":\"xmmword_7A84A0\"},{\"addr\":\"0x30d20\",\"name\":\"xmmword_30D20\"},{\"addr\":\"0x7a88b0\",\"name\":\"xmmword_7A88B0\"},{\"addr\":\"0x7a84b0\",\"name\":\"xmmword_7A84B0\"},{\"addr\":\"0x323a0\",\"name\":\"xmmword_323A0\"},{\"addr\":\"0x7a88c0\",\"name\":\"xmmword_7A88C0\"},{\"addr\":\"0x7a84c0\",\"name\":\"xmmword_7A84C0\"},{\"addr\":\"0x31b40\",\"name\":\"xmmword_31B40\"},{\"addr\":\"0x7a88d0\",\"name\":\"xmmword_7A88D0\"},{\"addr\":\"0x7a84d0\",\"name\":\"xmmword_7A84D0\"},{\"addr\":\"0x32780\",\"name\":\"xmmword_32780\"},{\"addr\":\"0x7a88e0\",\"name\":\"xmmword_7A88E0\"},{\"addr\":\"0x7a84e0\",\"name\":\"xmmword_7A84E0\"},{\"addr\":\"0x2fe90\",\"name\":\"xmmword_2FE90\"},{\"addr\":\"0x7a88f0\",\"name\":\"xmmword_7A88F0\"},{\"addr\":\"0x7a84f0\",\"name\":\"xmmword_7A84F0\"},{\"addr\":\"0x30d30\",\"name\":\"xmmword_30D30\"},{\"addr\":\"0x7a8900\",\"name\":\"xmmword_7A8900\"},{\"addr\":\"0x7a8500\",\"name\":\"xmmword_7A8500\"},{\"addr\":\"0x31720\",\"name\":\"xmmword_31720\"},{\"addr\":\"0x7a8910\",\"name\":\"xmmword_7A8910\"},{\"addr\":\"0x7a8510\",\"name\":\"xmmword_7A8510\"},{\"addr\":\"0x33110\",\"name\":\"xmmword_33110\"},{\"addr\":\"0x7a8920\",\"name\":\"xmmword_7A8920\"},{\"addr\":\"0x7a8520\",\"name\":\"xmmword_7A8520\"},{\"addr\":\"0x325f0\",\"name\":\"xmmword_325F0\"},{\"addr\":\"0x7a8930\",\"name\":\"xmmword_7A8930\"},{\"addr\":\"0x7a8530\",\"name\":\"xmmword_7A8530\"},{\"addr\":\"0x338a0\",\"name\":\"xmmword_338A0\"},{\"addr\":\"0x7a8940\",\"name\":\"xmmword_7A8940\"},{\"addr\":\"0x7a8540\",\"name\":\"xmmword_7A8540\"},{\"addr\":\"0x32790\",\"name\":\"xmmword_32790\"},{\"addr\":\"0x7a8950\",\"name\":\"xmmword_7A8950\"},{\"addr\":\"0x7a8550\",\"name\":\"xmmword_7A8550\"},{\"addr\":\"0x2f8c0\",\"name\":\"xmmword_2F8C0\"},{\"addr\":\"0x7a8960\",\"name\":\"xmmword_7A8960\"},{\"addr\":\"0x7a8560\",\"name\":\"xmmword_7A8560\"},{\"addr\":\"0x311d0\",\"name\":\"xmmword_311D0\"},{\"addr\":\"0x7a8970\",\"name\":\"xmmword_7A8970\"},{\"addr\":\"0x7a8570\",\"name\":\"xmmword_7A8570\"},{\"addr\":\"0x31b50\",\"name\":\"xmmword_31B50\"},{\"addr\":\"0x7a8980\",\"name\":\"xmmword_7A8980\"},{\"addr\":\"0x7a8580\",\"name\":\"xmmword_7A8580\"},{\"addr\":\"0x2fea0\",\"name\":\"xmmword_2FEA0\"},{\"addr\":\"0x7a8990\",\"name\":\"xmmword_7A8990\"},{\"addr\":\"0x7a8590\",\"name\":\"xmmword_7A8590\"},{\"addr\":\"0x30540\",\"name\":\"xmmword_30540\"},{\"addr\":\"0x7a89a0\",\"name\":\"xmmword_7A89A0\"},{\"addr\":\"0x7a85a0\",\"name\":\"xmmword_7A85A0\"},{\"addr\":\"0x31db0\",\"name\":\"xmmword_31DB0\"},{\"addr\":\"0x7a89b0\",\"name\":\"xmmword_7A89B0\"},{\"addr\":\"0x7a85b0\",\"name\":\"xmmword_7A85B0\"},{\"addr\":\"0x306d0\",\"name\":\"xmmword_306D0\"},{\"addr\":\"0x7a89c0\",\"name\":\"xmmword_7A89C0\"},{\"addr\":\"0x7a85c0\",\"name\":\"xmmword_7A85C0\"},{\"addr\":\"0x30b50\",\"name\":\"xmmword_30B50\"},{\"addr\":\"0x7a89d0\",\"name\":\"xmmword_7A89D0\"},{\"addr\":\"0x7a85d0\",\"name\":\"xmmword_7A85D0\"},{\"addr\":\"0x323b0\",\"name\":\"xmmword_323B0\"},{\"addr\":\"0x7a89e0\",\"name\":\"xmmword_7A89E0\"},{\"addr\":\"0x7a85e0\",\"name\":\"xmmword_7A85E0\"},{\"addr\":\"0x31dc0\",\"name\":\"xmmword_31DC0\"},{\"addr\":\"0x7a89f0\",\"name\":\"xmmword_7A89F0\"},{\"addr\":\"0x7a85f0\",\"name\":\"xmmword_7A85F0\"},{\"addr\":\"0x32f30\",\"name\":\"xmmword_32F30\"},{\"addr\":\"0x7a8a00\",\"name\":\"xmmword_7A8A00\"},{\"addr\":\"0x7a8600\",\"name\":\"xmmword_7A8600\"},{\"addr\":\"0x32180\",\"name\":\"xmmword_32180\"},{\"addr\":\"0x7a8a10\",\"name\":\"xmmword_7A8A10\"},{\"addr\":\"0x7a8610\",\"name\":\"xmmword_7A8610\"},{\"addr\":\"0x323c0\",\"name\":\"xmmword_323C0\"},{\"addr\":\"0x7a8a20\",\"name\":\"xmmword_7A8A20\"},{\"addr\":\"0x7a8620\",\"name\":\"xmmword_7A8620\"},{\"addr\":\"0x32600\",\"name\":\"xmmword_32600\"},{\"addr\":\"0x7a8a30\",\"name\":\"xmmword_7A8A30\"},{\"addr\":\"0x7a8630\",\"name\":\"xmmword_7A8630\"},{\"addr\":\"0x30900\",\"name\":\"xmmword_30900\"},{\"addr\":\"0x7a8a40\",\"name\":\"xmmword_7A8A40\"},{\"addr\":\"0x7a8640\",\"name\":\"xmmword_7A8640\"},{\"addr\":\"0x32c20\",\"name\":\"xmmword_32C20\"},{\"addr\":\"0x7a8a50\",\"name\":\"xmmword_7A8A50\"},{\"addr\":\"0x7a8650\",\"name\":\"xmmword_7A8650\"},{\"addr\":\"0x30100\",\"name\":\"xmmword_30100\"},{\"addr\":\"0x7a8a60\",\"name\":\"xmmword_7A8A60\"},{\"addr\":\"0x7a8660\",\"name\":\"xmmword_7A8660\"},{\"addr\":\"0x33a60\",\"name\":\"xmmword_33A60\"},{\"addr\":\"0x7a8a70\",\"name\":\"xmmword_7A8A70\"},{\"addr\":\"0x7a8670\",\"name\":\"xmmword_7A8670\"},{\"addr\":\"0x33a70\",\"name\":\"xmmword_33A70\"},{\"addr\":\"0x7a8a80\",\"name\":\"xmmword_7A8A80\"},{\"addr\":\"0x7a8680\",\"name\":\"xmmword_7A8680\"},{\"addr\":\"0x2fd10\",\"name\":\"xmmword_2FD10\"},{\"addr\":\"0x7a8a90\",\"name\":\"xmmword_7A8A90\"},{\"addr\":\"0x7a8690\",\"name\":\"xmmword_7A8690\"},{\"addr\":\"0x30d40\",\"name\":\"xmmword_30D40\"},{\"addr\":\"0x7a8aa0\",\"name\":\"xmmword_7A8AA0\"},{\"addr\":\"0x7a86a0\",\"name\":\"xmmword_7A86A0\"},{\"addr\":\"0x33120\",\"name\":\"xmmword_33120\"},{\"addr\":\"0x7a8ab0\",\"name\":\"xmmword_7A8AB0\"},{\"addr\":\"0x7a86b0\",\"name\":\"xmmword_7A86B0\"},{\"addr\":\"0x2fd20\",\"name\":\"xmmword_2FD20\"},{\"addr\":\"0x7a8ac0\",\"name\":\"xmmword_7A8AC0\"},{\"addr\":\"0x7a86c0\",\"name\":\"xmmword_7A86C0\"},{\"addr\":\"0x30d50\",\"name\":\"xmmword_30D50\"},{\"addr\":\"0x7a8ad0\",\"name\":\"xmmword_7A8AD0\"},{\"addr\":\"0x7a86d0\",\"name\":\"xmmword_7A86D0\"},{\"addr\":\"0x31fb0\",\"name\":\"xmmword_31FB0\"},{\"addr\":\"0x7a8ae0\",\"name\":\"xmmword_7A8AE0\"},{\"addr\":\"0x7a86e0\",\"name\":\"xmmword_7A86E0\"},{\"addr\":\"0x33a80\",\"name\":\"xmmword_33A80\"},{\"addr\":\"0x7a8af0\",\"name\":\"xmmword_7A8AF0\"},{\"addr\":\"0x7a86f0\",\"name\":\"xmmword_7A86F0\"},{\"addr\":\"0x327a0\",\"name\":\"xmmword_327A0\"},{\"addr\":\"0x7a8b00\",\"name\":\"xmmword_7A8B00\"},{\"addr\":\"0x7a8700\",\"name\":\"xmmword_7A8700\"},{\"addr\":\"0x311e0\",\"name\":\"xmmword_311E0\"},{\"addr\":\"0x7a8b10\",\"name\":\"xmmword_7A8B10\"},{\"addr\":\"0x7a8710\",\"name\":\"xmmword_7A8710\"},{\"addr\":\"0x33a90\",\"name\":\"xmmword_33A90\"},{\"addr\":\"0x7a8b20\",\"name\":\"xmmword_7A8B20\"},{\"addr\":\"0x7a8720\",\"name\":\"xmmword_7A8720\"},{\"addr\":\"0x31dd0\",\"name\":\"xmmword_31DD0\"},{\"addr\":\"0x7a8b30\",\"name\":\"xmmword_7A8B30\"},{\"addr\":\"0x7a8730\",\"name\":\"xmmword_7A8730\"},{\"addr\":\"0x31b60\",\"name\":\"xmmword_31B60\"},{\"addr\":\"0x7a8b40\",\"name\":\"xmmword_7A8B40\"},{\"addr\":\"0x7a8740\",\"name\":\"xmmword_7A8740\"},{\"addr\":\"0x32f40\",\"name\":\"xmmword_32F40\"},{\"addr\":\"0x7a8b50\",\"name\":\"xmmword_7A8B50\"},{\"addr\":\"0x7a8750\",\"name\":\"xmmword_7A8750\"},{\"addr\":\"0x2f8d0\",\"name\":\"xmmword_2F8D0\"},{\"addr\":\"0x7a8b60\",\"name\":\"xmmword_7A8B60\"},{\"addr\":\"0x7a8760\",\"name\":\"xmmword_7A8760\"},{\"addr\":\"0x32970\",\"name\":\"xmmword_32970\"},{\"addr\":\"0x7a8b70\",\"name\":\"xmmword_7A8B70\"},{\"addr\":\"0x7a8770\",\"name\":\"xmmword_7A8770\"},{\"addr\":\"0x30110\",\"name\":\"xmmword_30110\"},{\"addr\":\"0x7a8b80\",\"name\":\"xmmword_7A8B80\"},{\"addr\":\"0x7a8780\",\"name\":\"xmmword_7A8780\"},{\"addr\":\"0x30330\",\"name\":\"xmmword_30330\"},{\"addr\":\"0x7a8b90\",\"name\":\"xmmword_7A8B90\"},{\"addr\":\"0x7a8790\",\"name\":\"xmmword_7A8790\"},{\"addr\":\"0x30910\",\"name\":\"xmmword_30910\"},{\"addr\":\"0x7a8ba0\",\"name\":\"xmmword_7A8BA0\"},{\"addr\":\"0x7a87a0\",\"name\":\"xmmword_7A87A0\"},{\"addr\":\"0x31fc0\",\"name\":\"xmmword_31FC0\"},{\"addr\":\"0x7a8bb0\",\"name\":\"xmmword_7A8BB0\"},{\"addr\":\"0x7a87b0\",\"name\":\"xmmword_7A87B0\"},{\"addr\":\"0x31730\",\"name\":\"xmmword_31730\"},{\"addr\":\"0x7a8bc0\",\"name\":\"xmmword_7A8BC0\"},{\"addr\":\"0x7a87c0\",\"name\":\"xmmword_7A87C0\"},{\"addr\":\"0x2f8e0\",\"name\":\"xmmword_2F8E0\"},{\"addr\":\"0x7a8bd0\",\"name\":\"xmmword_7A8BD0\"},{\"addr\":\"0x7a87d0\",\"name\":\"xmmword_7A87D0\"},{\"addr\":\"0x311f0\",\"name\":\"xmmword_311F0\"},{\"addr\":\"0x7a8be0\",\"name\":\"xmmword_7A8BE0\"},{\"addr\":\"0x7a87e0\",\"name\":\"xmmword_7A87E0\"},{\"addr\":\"0x30d60\",\"name\":\"xmmword_30D60\"},{\"addr\":\"0x7a8bf0\",\"name\":\"xmmword_7A8BF0\"},{\"addr\":\"0x7a87f0\",\"name\":\"xmmword_7A87F0\"},{\"addr\":\"0x31b70\",\"name\":\"xmmword_31B70\"},{\"addr\":\"0x7a8c00\",\"name\":\"xmmword_7A8C00\"},{\"addr\":\"0x7a8800\",\"name\":\"xmmword_7A8800\"},{\"addr\":\"0x32f50\",\"name\":\"xmmword_32F50\"},{\"addr\":\"0x7a8c10\",\"name\":\"xmmword_7A8C10\"},{\"addr\":\"0x7a8810\",\"name\":\"xmmword_7A8810\"},{\"addr\":\"0x31940\",\"name\":\"xmmword_31940\"},{\"addr\":\"0x7a8c20\",\"name\":\"xmmword_7A8C20\"},{\"addr\":\"0x7a8820\",\"name\":\"xmmword_7A8820\"},{\"addr\":\"0x2f8f0\",\"name\":\"xmmword_2F8F0\"},{\"addr\":\"0x7a8c30\",\"name\":\"xmmword_7A8C30\"},{\"addr\":\"0x7a8830\",\"name\":\"xmmword_7A8830\"},{\"addr\":\"0x32610\",\"name\":\"xmmword_32610\"},{\"addr\":\"0x7a8c40\",\"name\":\"xmmword_7A8C40\"},{\"addr\":\"0x7a8840\",\"name\":\"xmmword_7A8840\"},{\"addr\":\"0x33aa0\",\"name\":\"xmmword_33AA0\"},{\"addr\":\"0x7a8c50\",\"name\":\"xmmword_7A8C50\"},{\"addr\":\"0x7a8850\",\"name\":\"xmmword_7A8850\"},{\"addr\":\"0x32c30\",\"name\":\"xmmword_32C30\"},{\"addr\":\"0x7a8c60\",\"name\":\"xmmword_7A8C60\"},{\"addr\":\"0x7a8860\",\"name\":\"xmmword_7A8860\"},{\"addr\":\"0x33730\",\"name\":\"xmmword_33730\"},{\"addr\":\"0x7a8c70\",\"name\":\"xmmword_7A8C70\"},{\"addr\":\"0x7a8870\",\"name\":\"xmmword_7A8870\"},{\"addr\":\"0x30b60\",\"name\":\"xmmword_30B60\"},{\"addr\":\"0x7a8c80\",\"name\":\"xmmword_7A8C80\"},{\"addr\":\"0x7a8880\",\"name\":\"xmmword_7A8880\"},{\"addr\":\"0x31200\",\"name\":\"xmmword_31200\"},{\"addr\":\"0x7a8c90\",\"name\":\"xmmword_7A8C90\"},{\"addr\":\"0x7a8890\",\"name\":\"xmmword_7A8890\"},{\"addr\":\"0x31de0\",\"name\":\"xmmword_31DE0\"},{\"addr\":\"0x7b022c\",\"name\":\"dword_7B022C\"},{\"addr\":\"0x1053a8\",\"name\":\"sub_1053A8\"},{\"addr\":\"0x1053ac\",\"name\":\"loc_1053AC\"},{\"addr\":\"0x1053b0\",\"name\":\"loc_1053B0\"},{\"addr\":\"0xbde80\",\"name\":\"sub_BDE80\"},{\"addr\":\"0xbde84\",\"name\":\"loc_BDE84\"},{\"addr\":\"0xbde88\",\"name\":\"loc_BDE88\"},{\"addr\":\"0x105c0c\",\"name\":\"sub_105C0C\"},{\"addr\":\"0x105ba8\",\"name\":\"sub_105BA8\"},{\"addr\":\"0x105bac\",\"name\":\"loc_105BAC\"},{\"addr\":\"0x105bb0\",\"name\":\"loc_105BB0\"},{\"addr\":\"0x105d48\",\"name\":\"sub_105D48\"},{\"addr\":\"0x105e34\",\"name\":\"sub_105E34\"},{\"addr\":\"0x105f68\",\"name\":\"sub_105F68\"},{\"addr\":\"0x106060\",\"name\":\"sub_106060\"},{\"addr\":\"0x106064\",\"name\":\"loc_106064\"},{\"addr\":\"0x106068\",\"name\":\"loc_106068\"},{\"addr\":\"0x1060c0\",\"name\":\"sub_1060C0\"},{\"addr\":\"0x1060c4\",\"name\":\"loc_1060C4\"},{\"addr\":\"0x1060c8\",\"name\":\"loc_1060C8\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x1053a8",
+      "code": "__int64 __fastcall sub_1053A8(__int64 a1, __int64 a2, __int64 a3)\n{\n  unsigned int v4; // w19\n  __int64 v6; // x1\n  unsigned int v7; // w9\n  unsigned int v8; // w9\n  unsigned int v9; // w9\n  unsigned int v10; // w9\n  unsigned int v11; // w9\n  unsigned int v12; // w9\n  unsigned int v13; // w9\n  unsigned int v14; // w9\n  unsigned int v15; // w9\n  unsigned int v16; // w9\n  unsigned int v17; // w9\n  unsigned int v18; // w9\n  unsigned int v19; // w9\n  unsigned int v20; // w9\n  int v21; // w10\n  unsigned int v22; // w19\n  int v23; // w21\n  __int64 v24; // x1\n  __int64 v25; // x0\n  __int64 *v26; // x21\n  __int64 result; // x0\n  bool v28; // zf\n  char v29; // w9\n  __int64 v30; // [xsp-40h] [xbp-60h] BYREF\n  _QWORD v31[2]; // [xsp-30h] [xbp-50h] BYREF\n  __int128 v32; // [xsp-20h] [xbp-40h]\n  __int128 v33; // [xsp-10h] [xbp-30h] BYREF\n  unsigned __int64 StatusReg; // [xsp+0h] [xbp-20h]\n  __int64 *v35; // [xsp+8h] [xbp-18h]\n  __int64 v36; // [xsp+10h] [xbp-10h]\n  __int64 v37; // [xsp+18h] [xbp-8h]\n\n  v36 = a1; /*0x1053c8*/\n  StatusReg = _ReadStatusReg(TPIDR_EL0); /*0x1053d8*/\n  v37 = *(_QWORD *)(StatusReg + 40); /*0x1053e0*/\n  if ( !atomic_load(dword_7B022C) ) /*0x1053ec*/\n  {\n    xmmword_7A88A0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84A0, (int8x16_t)xmmword_30D20); /*0x10542c*/\n    xmmword_7A88B0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84B0, (int8x16_t)xmmword_323A0); /*0x10542c*/\n    xmmword_7A88C0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84C0, (int8x16_t)xmmword_31B40); /*0x105464*/\n    xmmword_7A88D0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84D0, (int8x16_t)xmmword_32780); /*0x105464*/\n    xmmword_7A88E0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84E0, (int8x16_t)xmmword_2FE90); /*0x105474*/\n    xmmword_7A88F0 = (__int128)veorq_s8((int8x16_t)xmmword_7A84F0, (int8x16_t)xmmword_30D30); /*0x105474*/\n    xmmword_7A8900 = (__int128)veorq_s8((int8x16_t)xmmword_7A8500, (int8x16_t)xmmword_31720); /*0x105494*/\n    xmmword_7A8910 = (__int128)veorq_s8((int8x16_t)xmmword_7A8510, (int8x16_t)xmmword_33110); /*0x105494*/\n    xmmword_7A8920 = (__int128)veorq_s8((int8x16_t)xmmword_7A8520, (int8x16_t)xmmword_325F0); /*0x1054bc*/\n    xmmword_7A8930 = (__int128)veorq_s8((int8x16_t)xmmword_7A8530, (int8x16_t)xmmword_338A0); /*0x1054bc*/\n    xmmword_7A8940 = (__int128)veorq_s8((int8x16_t)xmmword_7A8540, (int8x16_t)xmmword_32790); /*0x1054ec*/\n    xmmword_7A8950 = (__int128)veorq_s8((int8x16_t)xmmword_7A8550, (int8x16_t)xmmword_2F8C0); /*0x1054ec*/\n    xmmword_7A8960 = (__int128)veorq_s8((int8x16_t)xmmword_7A8560, (int8x16_t)xmmword_311D0); /*0x1054f8*/\n    xmmword_7A8970 = (__int128)veorq_s8((int8x16_t)xmmword_7A8570, (int8x16_t)xmmword_31B50); /*0x1054f8*/\n    xmmword_7A8980 = (__int128)veorq_s8((int8x16_t)xmmword_7A8580, (int8x16_t)xmmword_2FEA0); /*0x105500*/\n    xmmword_7A8990 = (__int128)veorq_s8((int8x16_t)xmmword_7A8590, (int8x16_t)xmmword_30540); /*0x105500*/\n    xmmword_7A89A0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85A0, (int8x16_t)xmmword_31DB0); /*0x105540*/\n    xmmword_7A89B0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85B0, (int8x16_t)xmmword_306D0); /*0x105540*/\n    xmmword_7A89C0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85C0, (int8x16_t)xmmword_30B50); /*0x105564*/\n    xmmword_7A89D0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85D0, (int8x16_t)xmmword_323B0); /*0x105564*/\n    xmmword_7A89E0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85E0, (int8x16_t)xmmword_31DC0); /*0x105574*/\n    xmmword_7A89F0 = (__int128)veorq_s8((int8x16_t)xmmword_7A85F0, (int8x16_t)xmmword_32F30); /*0x105574*/\n    xmmword_7A8A00 = (__int128)veorq_s8((int8x16_t)xmmword_7A8600, (int8x16_t)xmmword_32180); /*0x105594*/\n    xmmword_7A8A10 = (__int128)veorq_s8((int8x16_t)xmmword_7A8610, (int8x16_t)xmmword_323C0); /*0x105594*/\n    xmmword_7A8A20 = (__int128)veorq_s8((int8x16_t)xmmword_7A8620, (int8x16_t)xmmword_32600); /*0x1055bc*/\n    xmmword_7A8A30 = (__int128)veorq_s8((int8x16_t)xmmword_7A8630, (int8x16_t)xmmword_30900); /*0x1055bc*/\n    xmmword_7A8A40 = (__int128)veorq_s8((int8x16_t)xmmword_7A8640, (int8x16_t)xmmword_32C20); /*0x1055ec*/\n    xmmword_7A8A50 = (__int128)veorq_s8((int8x16_t)xmmword_7A8650, (int8x16_t)xmmword_30100); /*0x1055ec*/\n    xmmword_7A8A60 = (__int128)veorq_s8((int8x16_t)xmmword_7A8660, (int8x16_t)xmmword_33A60); /*0x1055f8*/\n    xmmword_7A8A70 = (__int128)veorq_s8((int8x16_t)xmmword_7A8670, (int8x16_t)xmmword_33A70); /*0x1055f8*/\n    xmmword_7A8A80 = (__int128)veorq_s8((int8x16_t)xmmword_7A8680, (int8x16_t)xmmword_2FD10); /*0x105600*/\n    xmmword_7A8A90 = (__int128)veorq_s8((int8x16_t)xmmword_7A8690, (int8x16_t)xmmword_30D40); /*0x105600*/\n    xmmword_7A8AA0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86A0, (int8x16_t)xmmword_33120); /*0x105640*/\n    xmmword_7A8AB0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86B0, (int8x16_t)xmmword_2FD20); /*0x105640*/\n    xmmword_7A8AC0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86C0, (int8x16_t)xmmword_30D50); /*0x105664*/\n    xmmword_7A8AD0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86D0, (int8x16_t)xmmword_31FB0); /*0x105664*/\n    xmmword_7A8AE0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86E0, (int8x16_t)xmmword_33A80); /*0x105674*/\n    xmmword_7A8AF0 = (__int128)veorq_s8((int8x16_t)xmmword_7A86F0, (int8x16_t)xmmword_327A0); /*0x105674*/\n    xmmword_7A8B00 = (__int128)veorq_s8((int8x16_t)xmmword_7A8700, (int8x16_t)xmmword_311E0); /*0x105694*/\n    xmmword_7A8B10 = (__int128)veorq_s8((int8x16_t)xmmword_7A8710, (int8x16_t)xmmword_33A90); /*0x105694*/\n    xmmword_7A8B20 = (__int128)veorq_s8((int8x16_t)xmmword_7A8720, (int8x16_t)xmmword_31DD0); /*0x1056bc*/\n    xmmword_7A8B30 = (__int128)veorq_s8((int8x16_t)xmmword_7A8730, (int8x16_t)xmmword_31B60); /*0x1056bc*/\n    xmmword_7A8B40 = (__int128)veorq_s8((int8x16_t)xmmword_7A8740, (int8x16_t)xmmword_32F40); /*0x1056ec*/\n    xmmword_7A8B50 = (__int128)veorq_s8((int8x16_t)xmmword_7A8750, (int8x16_t)xmmword_2F8D0); /*0x1056ec*/\n    xmmword_7A8B60 = (__int128)veorq_s8((int8x16_t)xmmword_7A8760, (int8x16_t)xmmword_32970); /*0x1056f8*/\n    xmmword_7A8B70 = (__int128)veorq_s8((int8x16_t)xmmword_7A8770, (int8x16_t)xmmword_30110); /*0x1056f8*/\n    xmmword_7A8B80 = (__int128)veorq_s8((int8x16_t)xmmword_7A8780, (int8x16_t)xmmword_30330); /*0x105700*/\n    xmmword_7A8B90 = (__int128)veorq_s8((int8x16_t)xmmword_7A8790, (int8x16_t)xmmword_30910); /*0x105700*/\n    xmmword_7A8BA0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87A0, (int8x16_t)xmmword_31FC0); /*0x105740*/\n    xmmword_7A8BB0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87B0, (int8x16_t)xmmword_31730); /*0x105740*/\n    xmmword_7A8BC0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87C0, (int8x16_t)xmmword_2F8E0); /*0x105764*/\n    xmmword_7A8BD0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87D0, (int8x16_t)xmmword_311F0); /*0x105764*/\n    xmmword_7A8BE0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87E0, (int8x16_t)xmmword_30D60); /*0x105774*/\n    xmmword_7A8BF0 = (__int128)veorq_s8((int8x16_t)xmmword_7A87F0, (int8x16_t)xmmword_31B70); /*0x105774*/\n    xmmword_7A8C00 = (__int128)veorq_s8((int8x16_t)xmmword_7A8800, (int8x16_t)xmmword_32F50); /*0x105794*/\n    xmmword_7A8C10 = (__int128)veorq_s8((int8x16_t)xmmword_7A8810, (int8x16_t)xmmword_31940); /*0x105794*/\n    xmmword_7A8C20 = (__int128)veorq_s8((int8x16_t)xmmword_7A8820, (int8x16_t)xmmword_2F8F0); /*0x1057bc*/\n    xmmword_7A8C30 = (__int128)veorq_s8((int8x16_t)xmmword_7A8830, (int8x16_t)xmmword_32610); /*0x1057bc*/\n    xmmword_7A8C40 = (__int128)veorq_s8((int8x16_t)xmmword_7A8840, (int8x16_t)xmmword_33AA0); /*0x1057e8*/\n    xmmword_7A8C50 = (__int128)veorq_s8((int8x16_t)xmmword_7A8850, (int8x16_t)xmmword_32C30); /*0x1057e8*/\n    xmmword_7A8C60 = (__int128)veorq_s8((int8x16_t)xmmword_7A8860, (int8x16_t)xmmword_33730); /*0x1057f4*/\n    xmmword_7A8C70 = (__int128)veorq_s8((int8x16_t)xmmword_7A8870, (int8x16_t)xmmword_30B60); /*0x1057f4*/\n    xmmword_7A8C80 = (__int128)veorq_s8((int8x16_t)xmmword_7A8880, (int8x16_t)xmmword_31200); /*0x1057f8*/\n    xmmword_7A8C90 = (__int128)veorq_s8((int8x16_t)xmmword_7A8890, (int8x16_t)xmmword_31DE0); /*0x1057f8*/\n  }\n  atomic_store(1u, dword_7B022C); /*0x105800*/\n  if ( *(_DWORD *)sub_1053A8 >> 26 == 5 ) /*0x105818*/\n    goto LABEL_21; /*0x105818*/\n  if ( (*(_DWORD *)sub_1053A8 & 0xFFE00000) == 0xD4200000 ) /*0x105828*/\n    goto LABEL_21; /*0x105828*/\n  if ( loc_1053AC >> 10 == 3508160 ) /*0x10583c*/\n    goto LABEL_21; /*0x10583c*/\n  if ( (loc_1053B0 & 0xFFFFFC00) == 0xD61F0000 ) /*0x105850*/\n    goto LABEL_21; /*0x105850*/\n  v35 = &v30; /*0x105874*/\n  *(_QWORD *)&v33 = a2; /*0x105884*/\n  *((_QWORD *)&v33 + 1) = a3; /*0x105884*/\n  if ( *(_DWORD *)sub_BDE80 >> 26 == 5 || (*(_DWORD *)sub_BDE80 & 0xFFE00000) == 0xD4200000 ) /*0x1058a0*/\n    goto LABEL_21; /*0x1058a0*/\n  v4 = *(_DWORD *)(v36 + 8); /*0x1058b0*/\n  while ( 1 ) /*0x1058b4*/\n  {\n    if ( (loc_BDE84 & 0xFFFFFC00) == 0xD61F0000 || (loc_BDE88 & 0xFFFFFC00) == -702611456 ) /*0x1058c4*/\n      goto LABEL_21; /*0x1058c8*/\n    v6 = *((_QWORD *)&v33 + 1) - 16LL; /*0x1058d0*/\n    if ( *((_QWORD *)&v33 + 1) < 0x10u ) /*0x1058d4*/\n      break; /*0x1058d4*/\n    if ( *(_DWORD *)sub_105BA8 >> 26 != 5 /*0x105910*/\n      && (*(_DWORD *)sub_105BA8 & 0xFFE00000) != 0xD4200000\n      && (loc_105BAC & 0xFFFFFC00) != 0xD61F0000\n      && (loc_105BB0 & 0xFFFFFC00) != 0xD61F0000 )\n    {\n      v7 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)v33 ^ v4)) ^ (v4 >> 8); /*0x105930*/\n      v8 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 1) ^ v7)) ^ (v7 >> 8); /*0x105940*/\n      v9 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 2) ^ v8)) ^ (v8 >> 8); /*0x105954*/\n      v10 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 3) ^ v9)) ^ (v9 >> 8); /*0x105968*/\n      v11 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 4) ^ v10)) ^ (v10 >> 8); /*0x10597c*/\n      v12 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 5) ^ v11)) ^ (v11 >> 8); /*0x105990*/\n      v13 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 6) ^ v12)) ^ (v12 >> 8); /*0x1059a4*/\n      v14 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 7) ^ v13)) ^ (v13 >> 8); /*0x1059b8*/\n      v15 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 8) ^ v14)) ^ (v14 >> 8); /*0x1059cc*/\n      v16 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 9) ^ v15)) ^ (v15 >> 8); /*0x1059e0*/\n      v17 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 10) ^ v16)) ^ (v16 >> 8); /*0x1059f4*/\n      v18 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 11) ^ v17)) ^ (v17 >> 8); /*0x105a08*/\n      v19 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 12) ^ v18)) ^ (v18 >> 8); /*0x105a1c*/\n      v20 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 13) ^ v19)) ^ (v19 >> 8); /*0x105a30*/\n      v21 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 14) ^ v20)); /*0x105a44*/\n      v22 = v21 ^ (v20 >> 8); /*0x105a48*/\n      v23 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(*(_BYTE *)(v33 + 15) ^ v21 ^ BYTE1(v20))); /*0x105a54*/\n      *(_QWORD *)&v32 = sub_105C0C(&v33, v6); /*0x105a60*/\n      *((_QWORD *)&v32 + 1) = v24; /*0x105a60*/\n      v33 = v32; /*0x105a6c*/\n      if ( *(_DWORD *)sub_BDE80 >> 26 != 5 ) /*0x105a74*/\n      {\n        v4 = v23 ^ (v22 >> 8); /*0x105a7c*/\n        if ( (*(_DWORD *)sub_BDE80 & 0xFFE00000) != 0xD4200000 ) /*0x105a84*/\n          continue; /*0x105a84*/\n      }\n    }\n    goto LABEL_21; /*0x105a84*/\n  }\n  v31[0] = sub_105D48(&v33, v6); /*0x105a94*/\n  v25 = sub_105E34(&v33); /*0x105a9c*/\n  v26 = v35; /*0x105aa0*/\n  *v35 = v25; /*0x105aa4*/\n  result = sub_105F68(v31, v26); /*0x105ab0*/\n  if ( (result & 1) != 0 ) /*0x105ab4*/\n  {\n    while ( 1 ) /*0x105acc*/\n    {\n      v28 = *(_DWORD *)sub_106060 >> 26 == 5 || (*(_DWORD *)sub_106060 & 0xFFE00000) == -736100352; /*0x105ad8*/\n      if ( v28 /*0x105b38*/\n        || (loc_106064 & 0xFFFFFC00) == 0xD61F0000\n        || (loc_106068 & 0xFFFFFC00) == 0xD61F0000\n        || *(_DWORD *)sub_1060C0 >> 26 == 5\n        || (*(_DWORD *)sub_1060C0 & 0xFFE00000) == 0xD4200000\n        || (loc_1060C4 & 0xFFFFFC00) == 0xD61F0000\n        || (loc_1060C8 & 0xFFFFFC00) == 0xD61F0000 )\n      {\n        break; /*0x105b38*/\n      }\n      v29 = *(_BYTE *)v31[0]++; /*0x105b48*/\n      v4 = *((_DWORD *)&xmmword_7A88A0 + (unsigned __int8)(v29 ^ v4)) ^ (v4 >> 8); /*0x105b5c*/\n      result = sub_105F68(v31, v26); /*0x105b60*/\n      if ( (result & 1) == 0 ) /*0x105b64*/\n        goto LABEL_34; /*0x105b64*/\n    }\nLABEL_21:\n    abort(); /*0x105a88*/\n  }\nLABEL_34:\n  *(_DWORD *)(v36 + 8) = v4; /*0x105b68*/\n  return result; /*0x105ba0*/\n}",
+      "refs": [
+        {
+          "addr": "0x7a88a0",
+          "name": "xmmword_7A88A0"
+        },
+        {
+          "addr": "0x7a84a0",
+          "name": "xmmword_7A84A0"
+        },
+        {
+          "addr": "0x30d20",
+          "name": "xmmword_30D20"
+        },
+        {
+          "addr": "0x7a88b0",
+          "name": "xmmword_7A88B0"
+        },
+        {
+          "addr": "0x7a84b0",
+          "name": "xmmword_7A84B0"
+        },
+        {
+          "addr": "0x323a0",
+          "name": "xmmword_323A0"
+        },
+        {
+          "addr": "0x7a88c0",
+          "name": "xmmword_7A88C0"
+        },
+        {
+          "addr": "0x7a84c0",
+          "name": "xmmword_7A84C0"
+        },
+        {
+          "addr": "0x31b40",
+          "name": "xmmword_31B40"
+        },
+        {
+          "addr": "0x7a88d0",
+          "name": "xmmword_7A88D0"
+        },
+        {
+          "addr": "0x7a84d0",
+          "name": "xmmword_7A84D0"
+        },
+        {
+          "addr": "0x32780",
+          "name": "xmmword_32780"
+        },
+        {
+          "addr": "0x7a88e0",
+          "name": "xmmword_7A88E0"
+        },
+        {
+          "addr": "0x7a84e0",
+          "name": "xmmword_7A84E0"
+        },
+        {
+          "addr": "0x2fe90",
+          "name": "xmmword_2FE90"
+        },
+        {
+          "addr": "0x7a88f0",
+          "name": "xmmword_7A88F0"
+        },
+        {
+          "addr": "0x7a84f0",
+          "name": "xmmword_7A84F0"
+        },
+        {
+          "addr": "0x30d30",
+          "name": "xmmword_30D30"
+        },
+        {
+          "addr": "0x7a8900",
+          "name": "xmmword_7A8900"
+        },
+        {
+          "addr": "0x7a8500",
+          "name": "xmmword_7A8500"
+        },
+        {
+          "addr": "0x31720",
+          "name": "xmmword_31720"
+        },
+        {
+          "addr": "0x7a8910",
+          "name": "xmmword_7A8910"
+        },
+        {
+          "addr": "0x7a8510",
+          "name": "xmmword_7A8510"
+        },
+        {
+          "addr": "0x33110",
+          "name": "xmmword_33110"
+        },
+        {
+          "addr": "0x7a8920",
+          "name": "xmmword_7A8920"
+        },
+        {
+          "addr": "0x7a8520",
+          "name": "xmmword_7A8520"
+        },
+        {
+          "addr": "0x325f0",
+          "name": "xmmword_325F0"
+        },
+        {
+          "addr": "0x7a8930",
+          "name": "xmmword_7A8930"
+        },
+        {
+          "addr": "0x7a8530",
+          "name": "xmmword_7A8530"
+        },
+        {
+          "addr": "0x338a0",
+          "name": "xmmword_338A0"
+        },
+        {
+          "addr": "0x7a8940",
+          "name": "xmmword_7A8940"
+        },
+        {
+          "addr": "0x7a8540",
+          "name": "xmmword_7A8540"
+        },
+        {
+          "addr": "0x32790",
+          "name": "xmmword_32790"
+        },
+        {
+          "addr": "0x7a8950",
+          "name": "xmmword_7A8950"
+        },
+        {
+          "addr": "0x7a8550",
+          "name": "xmmword_7A8550"
+        },
+        {
+          "addr": "0x2f8c0",
+          "name": "xmmword_2F8C0"
+        },
+        {
+          "addr": "0x7a8960",
+          "name": "xmmword_7A8960"
+        },
+        {
+          "addr": "0x7a8560",
+          "name": "xmmword_7A8560"
+        },
+        {
+          "addr": "0x311d0",
+          "name": "xmmword_311D0"
+        },
+        {
+          "addr": "0x7a8970",
+          "name": "xmmword_7A8970"
+        },
+        {
+          "addr": "0x7a8570",
+          "name": "xmmword_7A8570"
+        },
+        {
+          "addr": "0x31b50",
+          "name": "xmmword_31B50"
+        },
+        {
+          "addr": "0x7a8980",
+          "name": "xmmword_7A8980"
+        },
+        {
+          "addr": "0x7a8580",
+          "name": "xmmword_7A8580"
+        },
+        {
+          "addr": "0x2fea0",
+          "name": "xmmword_2FEA0"
+        },
+        {
+          "addr": "0x7a8990",
+          "name": "xmmword_7A8990"
+        },
+        {
+          "addr": "0x7a8590",
+          "name": "xmmword_7A8590"
+        },
+        {
+          "addr": "0x30540",
+          "name": "xmmword_30540"
+        },
+        {
+          "addr": "0x7a89a0",
+          "name": "xmmword_7A89A0"
+        },
+        {
+          "addr": "0x7a85a0",
+          "name": "xmmword_7A85A0"
+        },
+        {
+          "addr": "0x31db0",
+          "name": "xmmword_31DB0"
+        },
+        {
+          "addr": "0x7a89b0",
+          "name": "xmmword_7A89B0"
+        },
+        {
+          "addr": "0x7a85b0",
+          "name": "xmmword_7A85B0"
+        },
+        {
+          "addr": "0x306d0",
+          "name": "xmmword_306D0"
+        },
+        {
+          "addr": "0x7a89c0",
+          "name": "xmmword_7A89C0"
+        },
+        {
+          "addr": "0x7a85c0",
+          "name": "xmmword_7A85C0"
+        },
+        {
+          "addr": "0x30b50",
+          "name": "xmmword_30B50"
+        },
+        {
+          "addr": "0x7a89d0",
+          "name": "xmmword_7A89D0"
+        },
+        {
+          "addr": "0x7a85d0",
+          "name": "xmmword_7A85D0"
+        },
+        {
+          "addr": "0x323b0",
+          "name": "xmmword_323B0"
+        },
+        {
+          "addr": "0x7a89e0",
+          "name": "xmmword_7A89E0"
+        },
+        {
+          "addr": "0x7a85e0",
+          "name": "xmmword_7A85E0"
+        },
+        {
+          "addr": "0x31dc0",
+          "name": "xmmword_31DC0"
+        },
+        {
+          "addr": "0x7a89f0",
+          "name": "xmmword_7A89F0"
+        },
+        {
+          "addr": "0x7a85f0",
+          "name": "xmmword_7A85F0"
+        },
+        {
+          "addr": "0x32f30",
+          "name": "xmmword_32F30"
+        },
+        {
+          "addr": "0x7a8a00",
+          "name": "xmmword_7A8A00"
+        },
+        {
+          "addr": "0x7a8600",
+          "name": "xmmword_7A8600"
+        },
+        {
+          "addr": "0x32180",
+          "name": "xmmword_32180"
+        },
+        {
+          "addr": "0x7a8a10",
+          "name": "xmmword_7A8A10"
+        },
+        {
+          "addr": "0x7a8610",
+          "name": "xmmword_7A8610"
+        },
+        {
+          "addr": "0x323c0",
+          "name": "xmmword_323C0"
+        },
+        {
+          "addr": "0x7a8a20",
+          "name": "xmmword_7A8A20"
+        },
+        {
+          "addr": "0x7a8620",
+          "name": "xmmword_7A8620"
+        },
+        {
+          "addr": "0x32600",
+          "name": "xmmword_32600"
+        },
+        {
+          "addr": "0x7a8a30",
+          "name": "xmmword_7A8A30"
+        },
+        {
+          "addr": "0x7a8630",
+          "name": "xmmword_7A8630"
+        },
+        {
+          "addr": "0x30900",
+          "name": "xmmword_30900"
+        },
+        {
+          "addr": "0x7a8a40",
+          "name": "xmmword_7A8A40"
+        },
+        {
+          "addr": "0x7a8640",
+          "name": "xmmword_7A8640"
+        },
+        {
+          "addr": "0x32c20",
+          "name": "xmmword_32C20"
+        },
+        {
+          "addr": "0x7a8a50",
+          "name": "xmmword_7A8A50"
+        },
+        {
+          "addr": "0x7a8650",
+          "name": "xmmword_7A8650"
+        },
+        {
+          "addr": "0x30100",
+          "name": "xmmword_30100"
+        },
+        {
+          "addr": "0x7a8a60",
+          "name": "xmmword_7A8A60"
+        },
+        {
+          "addr": "0x7a8660",
+          "name": "xmmword_7A8660"
+        },
+        {
+          "addr": "0x33a60",
+          "name": "xmmword_33A60"
+        },
+        {
+          "addr": "0x7a8a70",
+          "name": "xmmword_7A8A70"
+        },
+        {
+          "addr": "0x7a8670",
+          "name": "xmmword_7A8670"
+        },
+        {
+          "addr": "0x33a70",
+          "name": "xmmword_33A70"
+        },
+        {
+          "addr": "0x7a8a80",
+          "name": "xmmword_7A8A80"
+        },
+        {
+          "addr": "0x7a8680",
+          "name": "xmmword_7A8680"
+        },
+        {
+          "addr": "0x2fd10",
+          "name": "xmmword_2FD10"
+        },
+        {
+          "addr": "0x7a8a90",
+          "name": "xmmword_7A8A90"
+        },
+        {
+          "addr": "0x7a8690",
+          "name": "xmmword_7A8690"
+        },
+        {
+          "addr": "0x30d40",
+          "name": "xmmword_30D40"
+        },
+        {
+          "addr": "0x7a8aa0",
+          "name": "xmmword_7A8AA0"
+        },
+        {
+          "addr": "0x7a86a0",
+          "name": "xmmword_7A86A0"
+        },
+        {
+          "addr": "0x33120",
+          "name": "xmmword_33120"
+        },
+        {
+          "addr": "0x7a8ab0",
+          "name": "xmmword_7A8AB0"
+        },
+        {
+          "addr": "0x7a86b0",
+          "name": "xmmword_7A86B0"
+        },
+        {
+          "addr": "0x2fd20",
+          "name": "xmmword_2FD20"
+        },
+        {
+          "addr": "0x7a8ac0",
+          "name": "xmmword_7A8AC0"
+        },
+        {
+          "addr": "0x7a86c0",
+          "name": "xmmword_7A86C0"
+        },
+        {
+          "addr": "0x30d50",
+          "name": "xmmword_30D50"
+        },
+        {
+          "addr": "0x7a8ad0",
+          "name": "xmmword_7A8AD0"
+        },
+        {
+          "addr": "0x7a86d0",
+          "name": "xmmword_7A86D0"
+        },
+        {
+          "addr": "0x31fb0",
+          "name": "xmmword_31FB0"
+        },
+        {
+          "addr": "0x7a8ae0",
+          "name": "xmmword_7A8AE0"
+        },
+        {
+          "addr": "0x7a86e0",
+          "name": "xmmword_7A86E0"
+        },
+        {
+          "addr": "0x33a80",
+          "name": "xmmword_33A80"
+        },
+        {
+          "addr": "0x7a8af0",
+          "name": "xmmword_7A8AF0"
+        },
+        {
+          "addr": "0x7a86f0",
+          "name": "xmmword_7A86F0"
+        },
+        {
+          "addr": "0x327a0",
+          "name": "xmmword_327A0"
+        },
+        {
+          "addr": "0x7a8b00",
+          "name": "xmmword_7A8B00"
+        },
+        {
+          "addr": "0x7a8700",
+          "name": "xmmword_7A8700"
+        },
+        {
+          "addr": "0x311e0",
+          "name": "xmmword_311E0"
+        },
+        {
+          "addr": "0x7a8b10",
+          "name": "xmmword_7A8B10"
+        },
+        {
+          "addr": "0x7a8710",
+          "name": "xmmword_7A8710"
+        },
+        {
+          "addr": "0x33a90",
+          "name": "xmmword_33A90"
+        },
+        {
+          "addr": "0x7a8b20",
+          "name": "xmmword_7A8B20"
+        },
+        {
+          "addr": "0x7a8720",
+          "name": "xmmword_7A8720"
+        },
+        {
+          "addr": "0x31dd0",
+          "name": "xmmword_31DD0"
+        },
+        {
+          "addr": "0x7a8b30",
+          "name": "xmmword_7A8B30"
+        },
+        {
+          "addr": "0x7a8730",
+          "name": "xmmword_7A8730"
+        },
+        {
+          "addr": "0x31b60",
+          "name": "xmmword_31B60"
+        },
+        {
+          "addr": "0x7a8b40",
+          "name": "xmmword_7A8B40"
+        },
+        {
+          "addr": "0x7a8740",
+          "name": "xmmword_7A8740"
+        },
+        {
+          "addr": "0x32f40",
+          "name": "xmmword_32F40"
+        },
+        {
+          "addr": "0x7a8b50",
+          "name": "xmmword_7A8B50"
+        },
+        {
+          "addr": "0x7a8750",
+          "name": "xmmword_7A8750"
+        },
+        {
+          "addr": "0x2f8d0",
+          "name": "xmmword_2F8D0"
+        },
+        {
+          "addr": "0x7a8b60",
+          "name": "xmmword_7A8B60"
+        },
+        {
+          "addr": "0x7a8760",
+          "name": "xmmword_7A8760"
+        },
+        {
+          "addr": "0x32970",
+          "name": "xmmword_32970"
+        },
+        {
+          "addr": "0x7a8b70",
+          "name": "xmmword_7A8B70"
+        },
+        {
+          "addr": "0x7a8770",
+          "name": "xmmword_7A8770"
+        },
+        {
+          "addr": "0x30110",
+          "name": "xmmword_30110"
+        },
+        {
+          "addr": "0x7a8b80",
+          "name": "xmmword_7A8B80"
+        },
+        {
+          "addr": "0x7a8780",
+          "name": "xmmword_7A8780"
+        },
+        {
+          "addr": "0x30330",
+          "name": "xmmword_30330"
+        },
+        {
+          "addr": "0x7a8b90",
+          "name": "xmmword_7A8B90"
+        },
+        {
+          "addr": "0x7a8790",
+          "name": "xmmword_7A8790"
+        },
+        {
+          "addr": "0x30910",
+          "name": "xmmword_30910"
+        },
+        {
+          "addr": "0x7a8ba0",
+          "name": "xmmword_7A8BA0"
+        },
+        {
+          "addr": "0x7a87a0",
+          "name": "xmmword_7A87A0"
+        },
+        {
+          "addr": "0x31fc0",
+          "name": "xmmword_31FC0"
+        },
+        {
+          "addr": "0x7a8bb0",
+          "name": "xmmword_7A8BB0"
+        },
+        {
+          "addr": "0x7a87b0",
+          "name": "xmmword_7A87B0"
+        },
+        {
+          "addr": "0x31730",
+          "name": "xmmword_31730"
+        },
+        {
+          "addr": "0x7a8bc0",
+          "name": "xmmword_7A8BC0"
+        },
+        {
+          "addr": "0x7a87c0",
+          "name": "xmmword_7A87C0"
+        },
+        {
+          "addr": "0x2f8e0",
+          "name": "xmmword_2F8E0"
+        },
+        {
+          "addr": "0x7a8bd0",
+          "name": "xmmword_7A8BD0"
+        },
+        {
+          "addr": "0x7a87d0",
+          "name": "xmmword_7A87D0"
+        },
+        {
+          "addr": "0x311f0",
+          "name": "xmmword_311F0"
+        },
+        {
+          "addr": "0x7a8be0",
+          "name": "xmmword_7A8BE0"
+        },
+        {
+          "addr": "0x7a87e0",
+          "name": "xmmword_7A87E0"
+        },
+        {
+          "addr": "0x30d60",
+          "name": "xmmword_30D60"
+        },
+        {
+          "addr": "0x7a8bf0",
+          "name": "xmmword_7A8BF0"
+        },
+        {
+          "addr": "0x7a87f0",
+          "name": "xmmword_7A87F0"
+        },
+        {
+          "addr": "0x31b70",
+          "name": "xmmword_31B70"
+        },
+        {
+          "addr": "0x7a8c00",
+          "name": "xmmword_7A8C00"
+        },
+        {
+          "addr": "0x7a8800",
+          "name": "xmmword_7A8800"
+        },
+        {
+          "addr": "0x32f50",
+          "name": "xmmword_32F50"
+        },
+        {
+          "addr": "0x7a8c10",
+          "name": "xmmword_7A8C10"
+        },
+        {
+          "addr": "0x7a8810",
+          "name": "xmmword_7A8810"
+        },
+        {
+          "addr": "0x31940",
+          "name": "xmmword_31940"
+        },
+        {
+          "addr": "0x7a8c20",
+          "name": "xmmword_7A8C20"
+        },
+        {
+          "addr": "0x7a8820",
+          "name": "xmmword_7A8820"
+        },
+        {
+          "addr": "0x2f8f0",
+          "name": "xmmword_2F8F0"
+        },
+        {
+          "addr": "0x7a8c30",
+          "name": "xmmword_7A8C30"
+        },
+        {
+          "addr": "0x7a8830",
+          "name": "xmmword_7A8830"
+        },
+        {
+          "addr": "0x32610",
+          "name": "xmmword_32610"
+        },
+        {
+          "addr": "0x7a8c40",
+          "name": "xmmword_7A8C40"
+        },
+        {
+          "addr": "0x7a8840",
+          "name": "xmmword_7A8840"
+        },
+        {
+          "addr": "0x33aa0",
+          "name": "xmmword_33AA0"
+        },
+        {
+          "addr": "0x7a8c50",
+          "name": "xmmword_7A8C50"
+        },
+        {
+          "addr": "0x7a8850",
+          "name": "xmmword_7A8850"
+        },
+        {
+          "addr": "0x32c30",
+          "name": "xmmword_32C30"
+        },
+        {
+          "addr": "0x7a8c60",
+          "name": "xmmword_7A8C60"
+        },
+        {
+          "addr": "0x7a8860",
+          "name": "xmmword_7A8860"
+        },
+        {
+          "addr": "0x33730",
+          "name": "xmmword_33730"
+        },
+        {
+          "addr": "0x7a8c70",
+          "name": "xmmword_7A8C70"
+        },
+        {
+          "addr": "0x7a8870",
+          "name": "xmmword_7A8870"
+        },
+        {
+          "addr": "0x30b60",
+          "name": "xmmword_30B60"
+        },
+        {
+          "addr": "0x7a8c80",
+          "name": "xmmword_7A8C80"
+        },
+        {
+          "addr": "0x7a8880",
+          "name": "xmmword_7A8880"
+        },
+        {
+          "addr": "0x31200",
+          "name": "xmmword_31200"
+        },
+        {
+          "addr": "0x7a8c90",
+          "name": "xmmword_7A8C90"
+        },
+        {
+          "addr": "0x7a8890",
+          "name": "xmmword_7A8890"
+        },
+        {
+          "addr": "0x31de0",
+          "name": "xmmword_31DE0"
+        },
+        {
+          "addr": "0x7b022c",
+          "name": "dword_7B022C"
+        },
+        {
+          "addr": "0x1053a8",
+          "name": "sub_1053A8"
+        },
+        {
+          "addr": "0x1053ac",
+          "name": "loc_1053AC"
+        },
+        {
+          "addr": "0x1053b0",
+          "name": "loc_1053B0"
+        },
+        {
+          "addr": "0xbde80",
+          "name": "sub_BDE80"
+        },
+        {
+          "addr": "0xbde84",
+          "name": "loc_BDE84"
+        },
+        {
+          "addr": "0xbde88",
+          "name": "loc_BDE88"
+        },
+        {
+          "addr": "0x105c0c",
+          "name": "sub_105C0C"
+        },
+        {
+          "addr": "0x105ba8",
+          "name": "sub_105BA8"
+        },
+        {
+          "addr": "0x105bac",
+          "name": "loc_105BAC"
+        },
+        {
+          "addr": "0x105bb0",
+          "name": "loc_105BB0"
+        },
+        {
+          "addr": "0x105d48",
+          "name": "sub_105D48"
+        },
+        {
+          "addr": "0x105e34",
+          "name": "sub_105E34"
+        },
+        {
+          "addr": "0x105f68",
+          "name": "sub_105F68"
+        },
+        {
+          "addr": "0x106060",
+          "name": "sub_106060"
+        },
+        {
+          "addr": "0x106064",
+          "name": "loc_106064"
+        },
+        {
+          "addr": "0x106068",
+          "name": "loc_106068"
+        },
+        {
+          "addr": "0x1060c0",
+          "name": "sub_1060C0"
+        },
+        {
+          "addr": "0x1060c4",
+          "name": "loc_1060C4"
+        },
+        {
+          "addr": "0x1060c8",
+          "name": "loc_1060C8"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

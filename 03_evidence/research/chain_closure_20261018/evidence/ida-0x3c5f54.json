@@ -1,0 +1,30 @@
+{
+  "addr": "0x3c5f54",
+  "code": "// bad sp value at call has been detected, the output may be wrong!\n__int64 __fastcall sub_3C5F54(__int64 a1, __int64 a2)\n{\n  __int64 v2; // x21\n  __int64 v3; // x22\n  __int64 v4; // x0\n  __int64 v5; // x1\n  __int64 v6; // x8\n  __int64 result; // x0\n  int v8; // w8\n  int v9; // w8\n  _QWORD savedregs[8]; // [xsp+30h] [xbp+0h] BYREF\n\n  savedregs[7] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x3c5f74*/\n  savedregs[4] = 0x823ADE4800000000LL; /*0x3c5f78*/\n  savedregs[3] = (char *)&savedregs[4] + 4; /*0x3c5f8c*/\n  while ( HIDWORD(savedregs[4]) != -2121123120 ) /*0x3c5fa0*/\n  {\n    switch ( HIDWORD(savedregs[4]) ) /*0x3c5fb4*/\n    {\n      case 0x823ADE48: /*0x3c5fb4*/\n        HIDWORD(savedregs[4]) = -1158197971; /*0x3c609c*/\n        break;\n      case 0x8831CB91: /*0x3c5fb4*/\n        if ( (loc_3C5F58 >> 10 == 3508160 || loc_3C5F5C >> 10 == 3508160) /*0x3c6270*/\n          && (loc_3C5F58 >> 10 == 3508160 || loc_3C5F5C >> 10 == 3508160) )\n        {\n          v9 = -495934365; /*0x3c6298*/\n        }\n        else\n        {\n          v9 = -1190344403; /*0x3c6298*/\n        }\n        HIDWORD(savedregs[4]) = v9; /*0x3c62a0*/\n        break;\n      case 0x8996F294: /*0x3c5fb4*/\n        if ( *(_DWORD *)sub_3C5F54 >> 26 != 5 && *(_DWORD *)sub_3C5F54 >> 21 != 1697 ) /*0x3c61f4*/\n          v8 = -2010002543; /*0x3c6214*/\n        else\n          v8 = -495934365; /*0x3c6214*/\n        HIDWORD(savedregs[4]) = v8; /*0x3c621c*/\n        break;\n      case 0x9BB4BD7D: /*0x3c5fb4*/\n        HIDWORD(savedregs[4]) = -1986596204; /*0x3c60c4*/\n        break;\n      case 0xB90CC92D: /*0x3c5fb4*/\n        HIDWORD(savedregs[4]) = 779499120; /*0x3c60d8*/\n        break;\n      case 0xBAF74D2D: /*0x3c5fb4*/\n        HIDWORD(savedregs[4]) = -1682653827; /*0x3c60b0*/\n        break;\n      case 0xE270A463: /*0x3c5fb4*/\n        _ReadStatusReg(TPIDR_EL0); /*0x3c61a8*/\n        sub_405A38(); /*0x3c61bc*/\n      default:\n        v2 = a1; /*0x3c6120*/\n        v3 = a2; /*0x3c6128*/\n        v4 = sub_405A34(a1, a2); /*0x3c6130*/\n        savedregs[7] = v5; /*0x3c6134*/\n        savedregs[6] = v4; /*0x3c6138*/\n        ((void (__fastcall *)(_QWORD *, _QWORD *))loc_3F22FC)(&savedregs[6], &savedregs[6]); /*0x3c6144*/\n        a1 = v2; /*0x3c6148*/\n        a2 = v3; /*0x3c614c*/\n        v6 = savedregs[6]; /*0x3c6150*/\n        savedregs[6] = savedregs[7]; /*0x3c6158*/\n        savedregs[5] = v6; /*0x3c615c*/\n        HIDWORD(savedregs[4]) = -2121123120; /*0x3c616c*/\n        break;\n    }\n  }\n  result = savedregs[5]; /*0x3c6178*/\n  _ReadStatusReg(TPIDR_EL0); /*0x3c617c*/\n  return result; /*0x3c61a4*/\n}",
+  "refs": [
+    {
+      "addr": "0x3c5f58",
+      "name": "loc_3C5F58"
+    },
+    {
+      "addr": "0x3c5f5c",
+      "name": "loc_3C5F5C"
+    },
+    {
+      "addr": "0x3c5f54",
+      "name": "sub_3C5F54"
+    },
+    {
+      "addr": "0x405a38",
+      "name": "sub_405A38"
+    },
+    {
+      "addr": "0x405a34",
+      "name": "sub_405A34"
+    },
+    {
+      "addr": "0x3f22fc",
+      "name": "loc_3F22FC"
+    }
+  ]
+}

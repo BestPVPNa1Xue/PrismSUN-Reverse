@@ -1,0 +1,38 @@
+{
+  "addr": "0x3c563c",
+  "code": "__int64 __fastcall sub_3C563C(__int64 a1, __int64 a2, __int64 a3)\n{\n  int v5; // w8\n  __int64 v6; // x23\n  __int64 v7; // x22\n  __int64 v8; // x24\n  __int64 v9; // x25\n  __int64 v10; // x0\n  __int64 result; // x0\n  int v12; // w8\n  int v13; // w8\n  _QWORD savedregs[10]; // [xsp+30h] [xbp+0h] BYREF\n\n  savedregs[9] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x3c566c*/\n  savedregs[8] = 0x7CB925DB9EC3C071LL; /*0x3c5678*/\n  savedregs[5] = (char *)&savedregs[8] + 4; /*0x3c568c*/\n  while ( 1 ) /*0x3c5768*/\n  {\n    while ( 1 ) /*0x3c572c*/\n    {\n      while ( 1 ) /*0x3c5718*/\n      {\n        while ( 1 ) /*0x3c56dc*/\n        {\n          while ( 1 ) /*0x3c56b4*/\n          {\n            while ( 1 ) /*0x3c56a0*/\n            {\n              while ( HIDWORD(savedregs[8]) == -2113661841 ) /*0x3c56a0*/\n                HIDWORD(savedregs[8]) = 2075751196; /*0x3c583c*/\n              if ( HIDWORD(savedregs[8]) != -1999689546 ) /*0x3c56b4*/\n                break; /*0x3c56b4*/\n              savedregs[8] = a3; /*0x3c5878*/\n              v6 = ((__int64 (__fastcall *)(__int64))dword_F71F8)(a2); /*0x3c5888*/\n              v7 = sub_CFDC0(a2); /*0x3c5894*/\n              v8 = savedregs[8]; /*0x3c5898*/\n              v9 = savedregs[8]; /*0x3c589c*/\n              v10 = sub_19C134(savedregs[8]); /*0x3c58a4*/\n              savedregs[7] = sub_23777C(v6, v7, v8, v9, v10); /*0x3c58c0*/\n              HIDWORD(savedregs[8]) = 869592560; /*0x3c58d0*/\n            }\n            if ( HIDWORD(savedregs[8]) == -1970603499 ) /*0x3c56c8*/\n            {\n              _ReadStatusReg(TPIDR_EL0); /*0x3c5920*/\n              abort(); /*0x3c5934*/\n            }\n            if ( HIDWORD(savedregs[8]) != -1243602601 ) /*0x3c56dc*/\n              break; /*0x3c56dc*/\n            HIDWORD(savedregs[8]) = -2113661841; /*0x3c5828*/\n          }\n          if ( HIDWORD(savedregs[8]) != -315130604 ) /*0x3c5718*/\n            break; /*0x3c5718*/\n          HIBYTE(savedregs[6]) = *(_DWORD *)sub_3C563C >> 26 == 5 || *(_DWORD *)sub_3C563C >> 21 == 1697; /*0x3c598c*/\n          HIDWORD(savedregs[8]) = -297783446; /*0x3c599c*/\n        }\n        if ( HIDWORD(savedregs[8]) != -297783446 ) /*0x3c572c*/\n          break; /*0x3c572c*/\n        if ( (savedregs[6] & 0x100000000000000LL) != 0 ) /*0x3c59c0*/\n          v12 = 1225940193; /*0x3c59c0*/\n        else\n          v12 = 542432981; /*0x3c59c0*/\n        HIDWORD(savedregs[8]) = v12; /*0x3c59c8*/\n      }\n      if ( HIDWORD(savedregs[8]) != 542432981 ) /*0x3c5768*/\n        break; /*0x3c5768*/\n      if ( loc_3C5640 >> 10 == 3508160 || loc_3C5644 >> 10 == 3508160 ) /*0x3c5a24*/\n        v13 = 1225940193; /*0x3c5a28*/\n      else\n        v13 = 1321123703; /*0x3c5a28*/\n      HIDWORD(savedregs[8]) = v13; /*0x3c5a30*/\n    }\n    if ( HIDWORD(savedregs[8]) == 869592560 ) /*0x3c577c*/\n      break; /*0x3c577c*/\n    switch ( HIDWORD(savedregs[8]) ) /*0x3c5790*/\n    {\n      case 0x49125CE1: /*0x3c5790*/\n        HIDWORD(savedregs[8]) = -1970603499; /*0x3c5918*/\n        break;\n      case 0x4EBEBF77: /*0x3c5790*/\n        HIDWORD(savedregs[8]) = -1999689546; /*0x3c5850*/\n        break;\n      case 0x7BB9731C: /*0x3c5790*/\n        HIDWORD(savedregs[8]) = -315130604; /*0x3c5958*/\n        break;\n      case 0x7CB925DB: /*0x3c5790*/\n        if ( LODWORD(savedregs[8]) >= 0x5644748C ) /*0x3c580c*/\n          v5 = -1243602601; /*0x3c580c*/\n        else\n          v5 = 2134867383; /*0x3c580c*/\n        HIDWORD(savedregs[8]) = v5; /*0x3c5814*/\n        break;\n      default:\n        JUMPOUT(0x3C5A38); /*0x3c5a38*/\n    }\n  }\n  result = savedregs[7]; /*0x3c58d8*/\n  _ReadStatusReg(TPIDR_EL0); /*0x3c58dc*/\n  return result; /*0x3c5908*/\n}",
+  "refs": [
+    {
+      "addr": "0xf71f8",
+      "name": "dword_F71F8"
+    },
+    {
+      "addr": "0xcfdc0",
+      "name": "sub_CFDC0"
+    },
+    {
+      "addr": "0x19c134",
+      "name": "sub_19C134"
+    },
+    {
+      "addr": "0x23777c",
+      "name": "sub_23777C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x3c563c",
+      "name": "sub_3C563C"
+    },
+    {
+      "addr": "0x3c5640",
+      "name": "loc_3C5640"
+    },
+    {
+      "addr": "0x3c5644",
+      "name": "loc_3C5644"
+    }
+  ]
+}

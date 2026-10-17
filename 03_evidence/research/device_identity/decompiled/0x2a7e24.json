@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x2a7e24\",\"code\":\"__int64 __fastcall sub_2A7E24(__int64 result)\\n{\\n  bool v1; // zf\\n  _QWORD *v2; // x8\\n\\n  v1 = *(_DWORD *)sub_2A7E24 >> 26 == 5 || (*(_DWORD *)sub_2A7E24 & 0xFFE00000) == -736100352; /*0x2a7e48*/\\n  if ( v1 || loc_2A7E28 >> 10 == 3508160 || (loc_2A7E2C & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a7e74*/\\n    abort(); /*0x2a7e98*/\\n  if ( result ) /*0x2a7e78*/\\n  {\\n    v2 = (_QWORD *)(result + 16); /*0x2a7e7c*/\\n    LODWORD(result) = -1; /*0x2a7e80*/\\n    do /*0x2a7e8c*/\\n    {\\n      v2 = (_QWORD *)*v2; /*0x2a7e84*/\\n      result = (unsigned int)(result + 1); /*0x2a7e88*/\\n    }\\n    while ( v2 ); /*0x2a7e8c*/\\n  }\\n  return result; /*0x2a7e94*/\\n}\",\"refs\":[{\"addr\":\"0x2a7e24\",\"name\":\"sub_2A7E24\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x2a7e28\",\"name\":\"loc_2A7E28\"},{\"addr\":\"0x2a7e2c\",\"name\":\"loc_2A7E2C\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x2a7e24",
+      "code": "__int64 __fastcall sub_2A7E24(__int64 result)\n{\n  bool v1; // zf\n  _QWORD *v2; // x8\n\n  v1 = *(_DWORD *)sub_2A7E24 >> 26 == 5 || (*(_DWORD *)sub_2A7E24 & 0xFFE00000) == -736100352; /*0x2a7e48*/\n  if ( v1 || loc_2A7E28 >> 10 == 3508160 || (loc_2A7E2C & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a7e74*/\n    abort(); /*0x2a7e98*/\n  if ( result ) /*0x2a7e78*/\n  {\n    v2 = (_QWORD *)(result + 16); /*0x2a7e7c*/\n    LODWORD(result) = -1; /*0x2a7e80*/\n    do /*0x2a7e8c*/\n    {\n      v2 = (_QWORD *)*v2; /*0x2a7e84*/\n      result = (unsigned int)(result + 1); /*0x2a7e88*/\n    }\n    while ( v2 ); /*0x2a7e8c*/\n  }\n  return result; /*0x2a7e94*/\n}",
+      "refs": [
+        {
+          "addr": "0x2a7e24",
+          "name": "sub_2A7E24"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x2a7e28",
+          "name": "loc_2A7E28"
+        },
+        {
+          "addr": "0x2a7e2c",
+          "name": "loc_2A7E2C"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

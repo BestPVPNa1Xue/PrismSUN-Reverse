@@ -1,0 +1,44 @@
+{
+  "constructor": {
+    "addr": "0x6971b8",
+    "code": "void __fastcall sub_6971B8(_QWORD *a1, __int64 a2, __int64 a3)\n{\n  if ( *(_DWORD *)sub_6971B8 >> 26 == 5 /*0x69731c*/\n    || *(_DWORD *)sub_6971B8 >> 21 == 1697\n    || loc_6971BC >> 10 == 3508160\n    || loc_6971C0 >> 10 == 3508160 )\n  {\n    sub_6B66AC(); /*0x697284*/\n  }\n  ((void (__fastcall *)(_QWORD *))loc_61B5C8)(a1); /*0x697218*/\n  *a1 = &off_793D00; /*0x69722c*/\n  ((void (__fastcall *)(_QWORD *, __int64, __int64))loc_697678)(a1 + 1, a2, a3); /*0x69723c*/\n}",
+    "refs": [
+      {
+        "addr": "0x6b66ac",
+        "name": "sub_6B66AC"
+      },
+      {
+        "addr": "0x6971b8",
+        "name": "sub_6971B8"
+      },
+      {
+        "addr": "0x6971bc",
+        "name": "loc_6971BC"
+      },
+      {
+        "addr": "0x6971c0",
+        "name": "loc_6971C0"
+      },
+      {
+        "addr": "0x61b5c8",
+        "name": "loc_61B5C8"
+      },
+      {
+        "addr": "0x793d00",
+        "name": "off_793D00"
+      },
+      {
+        "addr": "0x697678",
+        "name": "loc_697678"
+      }
+    ]
+  },
+  "table": {
+    "result": [
+      {
+        "addr": "0x793d00",
+        "data": "0xf8 0xbe 0x61 0x0 0x0 0x0 0x0 0x0 0x30 0x7b 0x69 0x0 0x0 0x0 0x0 0x0 0x9c 0x7f 0x69 0x0 0x0 0x0 0x0 0x0 0xb0 0x81 0x69 0x0 0x0 0x0 0x0 0x0 0x58 0x86 0x69 0x0 0x0 0x0 0x0 0x0 0x74 0x8a 0x69 0x0 0x0 0x0 0x0 0x0 0x10 0x8f 0x69 0x0 0x0 0x0 0x0 0x0"
+      }
+    ]
+  }
+}

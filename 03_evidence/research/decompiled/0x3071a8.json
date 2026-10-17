@@ -1,0 +1,4 @@
+{
+  "addr": "0x3071a8",
+  "code": "__int64 __fastcall sub_3071A8(__int64 *a1)\n{\n  __int64 result; // x0\n  __int64 v2; // [xsp+10h] [xbp-10h]\n  int savedregs; // [xsp+20h] [xbp+0h]\n  int i; // [xsp+24h] [xbp+4h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x3071bc*/\n  for ( i = 674421236; ; i = -1665702751 ) /*0x3071c8*/\n  {\n    while ( i == -1665702751 ) /*0x307220*/\n    {\n      savedregs = (int)a1; /*0x307284*/\n      v2 = *a1; /*0x307290*/\n      i = -1531816189; /*0x3072a0*/\n    }\n    if ( i == -1531816189 ) /*0x307234*/\n      break; /*0x307234*/\n  }\n  result = v2; /*0x3072a8*/\n  _ReadStatusReg(TPIDR_EL0); /*0x3072ac*/\n  return result; /*0x3072c8*/\n}"
+}

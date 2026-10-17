@@ -1,0 +1,26 @@
+{
+  "addr": "0x4c3f38",
+  "code": "__int64 __fastcall sub_4C3F38(int a1, int a2, int a3, void *a4, void *a5, void *a6, void *a7)\n{\n  unsigned __int64 v8; // [xsp-80h] [xbp-80h]\n\n  if ( (*(_DWORD *)sub_4C3F38 >> 26 == 5 && *(_DWORD *)sub_4C3F38 >> 21 == 1697) /*0x4c40d8*/\n     | (*(_DWORD *)sub_4C3F38 >> 26 == 5) ^ (*(_DWORD *)sub_4C3F38 >> 21 == 1697)\n    || (loc_4C3F3C >> 10 == 3508160) ^ (loc_4C3F40 >> 10 == 3508160)\n     | (loc_4C3F3C >> 10 == 3508160 && loc_4C3F40 >> 10 == 3508160) )\n  {\n    abort(); /*0x4c4028*/\n  }\n  v8 = linux_eabi_syscall(__NR_tgkill, (void *)a1, (void *)a2, (void *)a3, a4, a5, a6, a7); /*0x4c3fd4*/\n  if ( v8 >= 0xFFFFFFFFFFFFF001LL ) /*0x4c3fec*/\n  {\n    *(_DWORD *)j____errno_18() = -(int)v8; /*0x4c4000*/\n    return -1; /*0x4c4008*/\n  }\n  return v8; /*0x4c4020*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x4c3f38",
+      "name": "sub_4C3F38"
+    },
+    {
+      "addr": "0x4c3f3c",
+      "name": "loc_4C3F3C"
+    },
+    {
+      "addr": "0x4c3f40",
+      "name": "loc_4C3F40"
+    },
+    {
+      "addr": "0x56b30c",
+      "name": "j_.__errno_18"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+> 归档阅读副本：只调整文件超链接；原文、代码块中的历史路径与结论保持原样。[逐字节原始文件](../../03_evidence/original_documents/research/REPORT.zh-CN.md)。历史失效链接转到文件索引，原目标见 `00_guide/report-link-audit.json`。
+
+# PrismSUN / ACE 原生模块逆向研究报告
+
+2026-10-16 更新：四库基线、内存比较器、输入法JNI与可编译实现已汇入[环境内存专项报告](environment_memory/REPORT.zh-CN.md)。该专项修正了下文历史状态中的“摘要/基线待核实”：已确认最多两个可执行区段及CRC32字节序；返回57表示候选列表为空，不能仅解释为读取失败。Xposed实际名单、KeyMapper联合判定及服务端规则仍未知。
+
+日期：2026-10-05。状态：证据支持的阶段性分析与可编译子集还原。
+
+## 摘要
+
+样本为 Android AArch64 ELF 共享库，存在密集控制流混淆、字符串解码包装和函数入口指令检查。已建立原件、IDA 分析副本、分页汇编、反编译、字符串解码、标准 C++ 子集及差分测试之间的证据链。
+
+目前最完整的检测链是 TracerPid 消费者：有符号值大于零触发异常路径，后续出现本地线程终止与进程退出。另已确认 seccomp 状态与 SIGSYS 处理器来源相关的判定逻辑、APK v2 签名块数据摘要、Widevine 设备标识获取、无障碍服务与输入法的枚举及变化事件，以及共享内存记录读协议。
+
+“采集到信息”“生成结果对象”“判定作弊”“发送给服务器”是四个不同结论。本次证据仅在相应链条闭合处作出判断。Xposed 专项规则、完整签名信任判定、时间异常裁决和网络发送链尚未闭合。当前 C++ 产物是已验证的语义子集，不是原插件替代品；没有全模块等价结论。
+
+## 1. 样本与方法
+
+### 1.1 样本身份
+
+原始样本：`D:\PrismSUN\libprism-sun.so`。
+
+SHA-256：`92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4`。
+
+原始数据库：`D:\PrismSUN\libprism-sun.so.i64`。分析修改只发生在 `research/prism-analysis.i64`。地址按该样本的 RVA 表示；IDA imagebase 为零，运行时 ASLR 地址须另加模块基址。
+
+初始 IDA 概览记录 13,331 个函数、671 个明文字符串；ELF unwind 清单记录 16,130 个 FDE。FDE 集合与 IDA 函数集合并非包含关系，候选函数数量不等于业务逻辑数量。样本静态链接了大量通用 C++/Botan 相关代码，库实现不应全部命名为反作弊检测。
+
+证据：[survey.json](../../03_evidence/research/evidence/survey.json)、[elf_inventory.json](../../03_evidence/research/evidence/elf_inventory.json)。
+
+### 1.2 分析策略与限制
+
+通过 IDA Pro MCP 读取反编译、交叉引用和分页汇编。缺失函数仅在有 FDE 边界支持时定义。发现反编译 SP 警告、参数错配或不合理字段写入时，以汇编和原指令隔离仿真校正，不把伪代码直接视为源码。
+
+Unicorn 仿真使用原 ELF 可执行段及相对重定位，限制指令数与时间，阻止未模拟导入和系统调用。需要外部状态的函数显式使用依赖模拟。它是原指令的可重复观察，不是 Android 真机执行。
+
+恢复检查中 IDA 会话 `8fcdbd7e` 存活，`is_analyzing=false`，但健康接口的 `auto_analysis_ready=false`。因此没有把数据库视为所有代码均已全局分析完毕。每次续接先检查进程、结果文件和检查点；既有完成扫描与测试不重复执行。
+
+## 2. 结构与运行边界
+
+已定位 `startParadise`、`getSharedMemory`、`shmFence` 三个导出入口。`getSharedMemory` 返回库内共享区域 `0x7b06a4`；`shmFence -> 0x2b47f8(5) -> 0x2bba34` 执行 `DMB ISH`。
+
+启动及业务函数中存在 JNI 获取、Android framework 查询和 `libminecraftpe.so` 相关依赖。原生库有自身状态、采集和共享区接口，支持“作为单独库加载”的解释，但不支持“运行逻辑完全独立于游戏客户端”的强结论。服务器下发机制属于请求背景，当前原生样本尚未独立验证下载来源和加载协议。
+
+共享区读函数 `0x591e24` 被 `0x4c89cc` 消费；后者经 `0x56b7ec -> 0x4cb88c` 分派记录。分派器出现类型 1、2、3、4、8，且类型 1/4 或空读结果结束当前消费循环。其反编译含 bad-SP 警告，类型的业务命名和完整状态机仍待汇编核实。
+
+证据：[getSharedMemory](../../03_evidence/research/decompiled/getSharedMemory.json)、[startParadise](../../03_evidence/research/decompiled/startParadise.json)、[共享区消费者](../../03_evidence/research/decompiled/0x4c89cc.json)、[分派器](../../03_evidence/research/decompiled/0x4cb88c.json)。
+
+## 3. 混淆与字符串恢复
+
+观察到状态变量驱动的控制流平坦化、大量跳转包装、混合布尔算术及数据解码。它们与 OLLVM 风格相符；仅据此尚未确定编译器版本或混淆 pass 的完整配置。
+
+第二阶段核心链 `0x2bc258 -> 0x2bc7b0` 使用 64 位密钥按低端序循环 XOR，随后清除对象的加密标志。已执行 308 个包装函数，在 116 个候选中得到 115 个调用端数据流支持的明文；未验证的候选没有用于行为结论。
+
+关键解码包括 ActivityThread、包管理器、sourceDir、无障碍服务、输入法、maps 路径、MediaDrm 和游戏库相关信息。文本存在只说明代码可能引用该对象，真正的业务结论还需要消费者、分支和结果数据流。
+
+摘要名称链已还原为 `SHA-256`，解码字节与原指令测试均留存。该结果确认指定摘要名称，不自动证明输入是整个 APK、证书公钥或已验证的签名内容。
+
+证据：[stage2_strings.json](../../03_evidence/research/evidence/stage2_strings.json)、[digest_decode.json](../../03_evidence/research/evidence/digest_decode.json)、[摘要名称仿真](../../03_evidence/research/evidence/digest_decode_emulation.json)。
+
+## 4. 已确认检测与采集
+
+### 4.1 函数入口指令自检
+
+多个函数读取自己的入口指令，对第一条的 AArch64 `B` / `BRK` 特征及随后指令的 `BR` 特征作比较，命中后进入 abort 或专用异常包装。标准化的模式分类器见 `verified_helpers.cpp`。
+
+这是有限的入口模式检查，不是全函数完整性哈希，也不是“识别任意 Hook”的证明。各函数的实际触发分支仍需逐项检验；混合布尔表达式可能使伪代码显得反常。常见 `TPIDR_EL0 + 40` 访问属于栈保护，不能据此认定反调试。
+
+已逐条取证的例子包括共享区读函数 `0x591e24` 和时钟函数 `0x140c9c`。统一源码模型仅表达常见指令分类，不替代所有函数的真实控制流。
+
+### 4.2 TracerPid 与本地终止
+
+状态获取/解析链包括 `0x406068`。环境消费者在 `0x4106f8` 比较结果，`0x4106fc` 使用有符号 `B.LE`。因此阳性条件为 `int32_t tracer_pid > 0`，不是简单非零。阳性路径写入数值 3。
+
+后续 `0x4497e0 -> 0x4c3778` 包含 getpid、gettid、tgkill 的信号参数 9、exit_group 的参数 2，以及 BRK。`0x4c4214` 的线程 ID 获取失败时回退到 getpid。上述是本地终止路径，尚未证明该分支发送作弊事件。
+
+标准 C++ 判定已编译，原件比较指令片段与模型的差分测试覆盖有符号边界。状态文件读取、读取时机、解析异常和 Android 实机终止未被这些纯判定测试覆盖。
+
+证据：[环境汇编第一页](../../03_evidence/research/evidence/environment_asm_0.json)、[第二页](../../03_evidence/research/evidence/environment_asm_256.json)、[第三页](../../03_evidence/research/evidence/environment_asm_512.json)、[终止路径](../../03_evidence/research/evidence/0x4c3778_asm_0.json)、[判定差分](../../03_evidence/research/evidence/differential_models.json)。
+
+### 4.3 seccomp / SIGSYS 状态与处理器来源
+
+`0x47df58` 聚合状态获取结果、观察到的计数、layer 输入、SIGSYS 获取结果和处理器来源原因码，维护 acceptable、excessive_count、suspicious_handler、status_failed 等语义字段。
+
+已确认的比较保留 32 位 `layer + 1` 回绕，然后按有符号值比较；原因码分类函数 `0x47f2c8` 接受 byte 值小于 10。状态读取失败使 acceptable 清零；处理器获取失败与“处理器来源判定为可疑”是不同路径，不应合并解释。
+
+`0x46dc28` 查询信号 31，即 SIGSYS；`0x46e824` 以 X8=0x86 发起 AArch64 rt_sigaction。存在处理器所属映射/来源分析，但 maps 相关反编译有 SP 警告和截断问题。原因码具体语义、所有映射过滤项及设备环境适用性仍待完成。
+
+聚合模型 704 个个例一致，但测试显式模拟状态、SIGSYS 获取、来源分类与字符串操作。这证明聚合控制流，不证明完整 seccomp 检测在任意系统版本上等价。
+
+证据：[policy 汇编](../../03_evidence/research/evidence/seccomp_policy_asm_0.json)、[续页](../../03_evidence/research/evidence/seccomp_policy_asm_256.json)、[SIGSYS syscall](../../03_evidence/research/evidence/sigsys_syscall_asm.json)、[聚合差分](../../03_evidence/research/evidence/differential_policy.json)、[模型源码](../../01_source/research/src/observed_models.cpp)。
+
+### 4.4 APK v2 签名块数据与摘要
+
+Android framework 查询提供包名和 sourceDir 等信息。`0x37843c / 0x4c0718` 从 APK v2 签名块中提取嵌套数据，`0x3780ec` 对相应数据作摘要并十六进制编码；摘要工厂名称解码为 SHA-256。
+
+该链被 `0x7153a8` 的采集汇总使用。当前确认的是“签名块相关数据指纹”，尚未完成证书、公钥、签名验证、官方白名单或信任比较的证据链。对签名块某字段求哈希与校验 APK 签名是不同操作；不能把二者等同。
+
+证据：[签名块解析](../../03_evidence/research/decompiled/0x37843c.json)、[嵌套读取](../../03_evidence/research/decompiled/0x4c0718.json)、[摘要包装](../../03_evidence/research/decompiled/0x3780ec.json)、[采集汇总](../../03_evidence/research/decompiled/0x7153a8.json)。
+
+### 4.5 Widevine 设备标识
+
+`0x5a7be4 / 0x5ae1d4` 获取 Widevine MediaDrm 的 `deviceUniqueId`。`0x4df3c8` 经 `0x5b9df4` 处理后转为十六进制，结果进入 `0x7153a8`；空值还存在备用链 `0x4dfc3c`。
+
+这是一条明确的设备相关标识采集链，不代表标识在所有 OEM、用户、DRM 配置或系统版本上永久稳定。备用路径的完整来源与失败处理仍待分析。当前没有端到端证据证明该值仅在作弊时发送，或一定发送给某一服务器。
+
+证据：[MediaDrm 获取](../../03_evidence/research/decompiled/0x5a7be4.json)、[属性路径](../../03_evidence/research/decompiled/0x5ae1d4.json)、[标识处理](../../03_evidence/research/decompiled/0x4df3c8.json)、[汇总](../../03_evidence/research/decompiled/0x7153a8.json)。
+
+### 4.6 无障碍服务与输入法
+
+枚举链可见无障碍服务和输入法信息。消费者 `0x6cf0c8` 与 `0x6f4218` 对名称数组计算哈希，并抑制未变化结果。
+
+无障碍服务首次/变化结果分别构造事件 25/33；输入法首次/变化结果分别构造事件 34/35。二者均调用 `0x634e84`。因此可确认环境采集和变化记录；存在这些服务本身不等于作弊，尚未发现完整规则将特定服务直接裁决为作弊。
+
+证据：[无障碍消费者](../../03_evidence/research/decompiled/0x6cf0c8.json)、[输入法消费者](../../03_evidence/research/decompiled/0x6f4218.json)。
+
+### 4.7 时间获取
+
+`0x140c9c` 使用两个 16 字节数据块 XOR 得到 clock ID 序列 `[4, 1, 2, 3]`，依次对应 Linux/Android MONOTONIC_RAW、MONOTONIC、PROCESS_CPUTIME_ID、THREAD_CPUTIME_ID；四者失败则回退到 `0x744750`。
+
+`0x744750` 获取 CLOCK_MONOTONIC，并返回 `sec * 1000000000 + nsec`；失败字符串为 `clock_gettime(CLOCK_MONOTONIC) failed`。
+
+目前已识别的直接调用者 `0xf5198` 将时间、PID 和其他信息组合进 32 字节缓冲区，随后经虚调用消费。它与随机输入/熵补充用途相符，但虚调用的完整类型尚未闭合。当前没有经过证实的时间差阈值、采样对照和作弊裁决，故不将该链命名为时间反调试。
+
+证据：[clock ID 原字节与解码](../../03_evidence/research/evidence/clock_ids.json)、[主时钟函数](../../03_evidence/research/decompiled/0x140c9c.json)、[回退](../../03_evidence/research/decompiled/0x744750.json)、[消费者](../../03_evidence/research/decompiled/0xf5198.json)。
+
+### 4.8 配置驱动的类可见性探测
+
+事件 22 的 `0x6ab3d8` 根据配置列表逐项调用 JNI FindClass。配置关闭时仍构造空事件 22；配置开启但 JNI 环境获取失败时走诊断输入 `0xbba`，该路径没有构造事件。查询后出现异常则清除异常并继续；没有异常且返回非空类引用时释放局部引用，并将原配置列表项加入结果集合。
+
+四个真实包装分别是 `0x2dce08` FindClass、`0x3079bc` ExceptionCheck、`0x307d30` ExceptionClear、`0x301194` DeleteLocalRef。NDK JNI 表偏移编译断言确认 48、1824、136、184 字节。配置与环境门控读取低位，异常状态采用非零 byte 判定，两者并不相同。
+
+原事件控制流与四个原 JNI 包装的 404 个差分个例全部通过。JNI 返回值、环境获取、配置、容器和结果构造显式模拟；没有真实 Java 类加载器、目标类名单、原对象生命周期和网络验证。FindClass 的可见性受调用线程和类加载上下文影响。具体配置来源尚未闭合，因此这里只命名为类可见性探测，不命名为 Xposed 专项检测。
+
+`jni_find_class_asm.json` 的 278 条 IDA 记录跳过了一些被定义成数据的可执行字节，包含 `0x2dd330` 分派跳转；其伪代码只有 JUMPOUT。原 ELF 字节仿真覆盖这些指令，报告不把不完整伪代码当作完整实现。
+
+证据：[事件汇编](../../03_evidence/research/evidence/class_probe_asm_0.json)、[末页](../../03_evidence/research/evidence/class_probe_asm_350.json)、[JNI 表断言](../../01_source/research/src/jni_layout_check.cpp)、[C++ 模型](../../01_source/research/src/class_probe_model.cpp)、[差分](../../03_evidence/research/evidence/differential_class_probe.json)。
+
+### 4.9 三个系统库相关状态位
+
+`0x3b8c40` 分配 632 字节单例，构造跳板 `0x40593c` 指向 `0x3d764c`，返回路径使用 `0x3d832c`。构造函数对 +216/+217/+218/+219 调用 byte 初始化包装，参数为零。环境检查 `0x40fd54` 与事件 21/24 都取得该单例，支持这几处访问使用共同状态对象。
+
+环境检查在对应状态低位尚未置位时，解出目标库名并调用 `0x44d0b8`；返回值等于 12 时将状态置为真。当前可见三条路径中没有将已置位状态清零的分支，表现为本轮观察范围内的锁存状态。
+
+| 状态字节 | 检查上下文 | 目标名称 | 比较与置位调用 |
+| --- | --- | --- | --- |
+| +216 | state+264 | `libc.so` | `0x4104c8` 比较 12，`0x4104f0` 写真 |
+| +219 | state+408 | `libandroid.so` | `0x410584` 比较 12，`0x4105ac` 写真 |
+| +218 | state+336 | `libart.so` | `0x410640` 比较 12，`0x410660` 写真 |
+
+`0x44d0b8` 的反编译显示映射枚举、区段地址/长度和期望摘要比较，结果 12 包含不一致路径，46 包含正常完成路径；还存在未初始化返回 23、列表获取失败返回 57。摘要函数 `0x44c740` 的 IDA 定义只覆盖入口并跳到另一函数区域，具体算法和基线初始化仍须以原字节核验。这是系统库映射/内存完整性检查链的证据，不等同于识别具体框架或最终作弊裁决。
+
+状态偏移扫描已结束，共 110 个 text 分块、194 个候选。数值相同的偏移也可能属于其他对象；共同所有者的结论来自上述调用链，而不是扫描命中数量。候选清单的事件 24 地址标签已修正为 `0x68cc78`，没有重跑扫描。
+
+证据：[单例](../../03_evidence/research/decompiled/0x3b8c40.json)、[构造函数](../../03_evidence/research/decompiled/0x3d764c.json)、[getter](../../03_evidence/research/decompiled/0x3d832c.json)、[比较器](../../03_evidence/research/decompiled/0x44d0b8.json)、[库名解码](../../03_evidence/research/evidence/stage2_strings.json)、[偏移候选](../../03_evidence/research/evidence/state_offset_candidates.json)。
+
+## 5. 结果对象与事件清单
+
+### 5.1 汇编纠正反编译错误
+
+`0x634e84` 的伪代码误把 output+4 写成零。完整汇编显示 `0x635144` 保存输入 W0 的低字节，`0x635164` 将零写到 output+0，`0x635168 / 0x63516c` 将保存的事件字节写到 output+4。载荷对象在 output+8 构造。
+
+因此事件编号确实保存在对象中，不只是调用参数或返回寄存器的残留。对象的完整类型、所有权和传递 ABI 仍需进一步约束；当前没有将此对象直接等同于网络包。
+
+证据：[result_constructor_asm.json](../../03_evidence/research/evidence/result_constructor_asm.json)。
+
+### 5.2 已识别编号
+
+| 编号 | 构造者 | 当前证据支持的含义 |
+| --- | --- | --- |
+| 19 | `0x7153a8` | 设备标识、APK 相关摘要、包名及 activity 信息汇总 |
+| 20 | `0x650898` | 状态 +20/+24 与集合信息；maps 关联候选，字段语义待核实 |
+| 21 | `0x66e838` | 读取系统库相关状态 +218/+219/+216，依次为 libart/libandroid/libc，序列化三个布尔值 |
+| 22 | `0x6ab3d8` | 配置列表驱动的 FindClass 查询，保留无异常且非空的原列表项 |
+| 24 | `0x68cbe0` | 读取 libart 相关状态 +218，转换为数值载荷 |
+| 25 / 33 | `0x6cf0c8` | 无障碍服务首次/变化结果 |
+| 32 | `0x632054` | 集合内容结果；元素的业务含义待核实 |
+| 34 / 35 | `0x6f4218` | 输入法首次/变化结果 |
+
+上述清单来自当前可见的直接交叉引用，不证明已覆盖间接调用、遗漏函数或动态注册事件。21/24 的状态写入者和 22 的查询包装已有证据，基线初始化、全部写入者、配置来源和下游决策仍待完成。对 22 仅据查询形态就命名为 Xposed 检测会超出当前证据。
+
+## 6. 共享内存记录协议
+
+原件读函数 `0x591e24` 已取得完整 376 条汇编记录，主要格式如下：
+
+| 字段 | 相对偏移 | 类型/约束 |
+| --- | --- | --- |
+| 写游标 | 区域 +0 | u32 |
+| 读游标 | 区域 +4 | u32 |
+| 槽数组 | 区域 +8 | 16 个槽，每槽 4096 字节 |
+| 总长度 | 首槽 +0 | u32，最大 `0xff80` |
+| 记录类型 | 首槽 +4 | u8 |
+| 槽数量 | 首槽 +5 | u8，范围 1..16 |
+| 分段长度 | 每槽 +6 | u16，实际复制 `min(length, 0xff8)` |
+| 分段载荷 | 每槽 +8 | 最大 4088 字节 |
+
+读取先取得 reader，再取得 writer。计数相等时返回空结果。槽号为 `counter & 15`，可用槽数使用 32 位无符号回绕减法 `writer - reader`。
+
+槽数无效或总长度超限时，将 reader 推进到本次观察的 writer，即丢弃当前队列。可用槽数小于所需槽数时返回空结果并保持 reader。不完整记录与损坏记录采取不同处理。
+
+完整记录逐槽追加数据；实际累计长度不同于声明总长度时调用字符串 resize 路径。最后以完整 32 位回绕加法 `reader + count` 更新读游标。反编译曾把其中一项显示为字节截断，汇编的 AND/ORR/ADD W1 明确支持完整加法。
+
+标准 C++ 还原为“稳定快照读计划”，保留上述判断、每槽长度和下一游标，不模仿原件 std::string/optional 布局，也不提供并发发布实现。
+
+证据：[汇编第一页](../../03_evidence/research/evidence/shared_reader_asm_0.json)、[续页](../../03_evidence/research/evidence/shared_reader_asm_200.json)、[模型](../../01_source/research/src/shared_ring_model.cpp)、[差分](../../03_evidence/research/evidence/differential_shared_ring.json)。
+
+## 7. 标准 C++ 还原与编译
+
+已还原并编译以下子集：
+
+| 模块 | 内容 | 源文件 |
+| --- | --- | --- |
+| helpers | 循环 XOR、hex 编码、入口指令模式分类 | `src/verified_helpers.*` |
+| observed models | TracerPid 判定、layer 计数比较、原因码接受、聚合标志 | `src/observed_models.*` |
+| shared ring | 稳定快照的共享区读取计划 | `src/shared_ring_model.*` |
+| class probe | 事件 22 类查询结果选择、异常清理和门控语义 | `src/class_probe_model.*` |
+
+宿主使用 Clang 22.1.4；Android 使用 NDK 27.0.12077973 / Clang 18.0.1，目标 `aarch64-linux-android24`。启用 C++17、O2、Wall、Wextra、Werror。宿主 DLL 和 Android `.so` 均已构建，源码、产物与编译器版本记录在 build manifest 中。
+
+比较应以接口行为、输入输出、状态转移和副作用为标准，不能把去混淆后的文件大小或机器码距离当作等价性证明。当前产物没有原插件的 JNI 集成、所有业务、动态加载、网络协议、完整对象 ABI 和所有异常路径；文件大小差异本身没有研究上的等价意义。
+
+构建证据：[helpers](../../03_evidence/research/evidence/build_helpers.json)、[models](../../03_evidence/research/evidence/build_models.json)、[ring](../../03_evidence/research/evidence/build_shared_ring.json)、[class probe](../../03_evidence/research/evidence/build_class_probe.json)。
+
+## 8. 验证结果与边界
+
+| 测试 | 结果 | 实际比较范围 |
+| --- | ---: | --- |
+| helpers 差分 | 169/169 | 原 XOR/hex 函数体输出、尾部保护区 |
+| 摘要名称解码 | 3/3 | 原指令 SHA-256 名称解码、加密标志状态与保护区 |
+| 纯判定 | 524/524 | 两段原比较指令与完整原因码函数 |
+| seccomp 聚合 | 704/704 | 原聚合控制流，获取与分类依赖显式模拟 |
+| 共享区读计划 | 648/648 | 原读控制流、复制长度、resize 调用、类型、游标和保护区 |
+| 类可见性探测 | 404/404 | 原事件 22 与四个 JNI 包装，依赖返回值和对象操作显式模拟 |
+
+原件 XOR 的一个 1024 字节个例初次触发仿真预算限制；单独提高该个例预算后完成，原指令执行 590,985 步。初次记录保留在 `differential_initial.json`，最终结果在 `differential_helpers.json`，没有把超预算当作逻辑错误隐藏。
+
+共享区测试覆盖槽数 0/1/2/16/17/255、总长度边界、分段长度边界、16 槽跨界和 32 位游标回绕。显式模拟原子计数访问、字符串和 optional 操作，未比较实际载荷字节复制、线程竞争、分配失败、异常展开和真机行为。通过个例不是全部输入的形式化证明。
+
+证据目录中的各差分 JSON 包含原件与构建库的 SHA-256、输入、执行终止原因、结果及失败列表。现有通过结果只对应记录的源文件和产物版本。
+
+## 9. 检测边界与潜在规避面
+
+以下为从已观察实现推导的研究假设，尚未完成端到端实验，不是已验证的模块绕过结论：
+
+| 面向 | 潜在盲区/误报来源 | 验证时应控制的变量 |
+| --- | --- | --- |
+| 入口模式 | 有限指令模式不等于覆盖所有代码修改；正常编译跳板也可能影响解释 | 原始指令、编译模式、每个函数的实际可达分支 |
+| TracerPid | 瞬时进程状态不能代表执行全生命周期，采样与状态变化有时序关系 | 采样时机、读取失败、PID/线程语义 |
+| seccomp | Android/OEM 正常策略可能改变计数和 SIGSYS；原因码有上下文依赖 | API 版本、OEM、层数输入与映射来源 |
+| APK 指纹 | 摘要输入、签名验证、官方信任比较是不同环节 | 字段边界、摘要对象、实际比较值与验证结果 |
+| 服务/输入法 | 普通可访问性和输入服务存在合法环境变化，名称哈希不是行为证明 | 初次/变化语义、数组顺序、下游决策规则 |
+| 设备标识 | 可用性、稳定性和跨环境唯一性需要单独测试 | DRM 配置、用户/OEM、空值备用路径 |
+| maps 读取 | 截断、读取竞态和未完成的过滤规则可能影响来源判断 | 实际读取长度、缺失行、匿名映射和异常处理 |
+| 本地结果 | 客户端采集、结果构造与服务器裁决之间还需要可信的数据关联 | 结果所有权、序列化、完整性、服务端消费链 |
+
+就当前证据，最需要验证的是跨层一致性：采集值如何进入结果，结果如何被消费，以及服务端是否联合其他证据。只观察到单个本地判定的局限，不足以宣称整个反作弊系统已被规避。
+
+## 10. 未完成问题与接续顺序
+
+1. 深入 libc/libandroid/libart 检查上下文的基线初始化与摘要算法，补全部状态写入者和失败路径。
+2. 追踪事件 22 的配置来源及具体类名单，检验是否涉及 Xposed/类加载修补；JNI 包装和子集测试已完成。
+3. 完成 SIGSYS 原因码生产、maps 过滤及截断/异常处理；保留逐页汇编。
+4. 追踪 `0x634e84` 结果的间接消费者、序列化、共享区写端和网络边界。
+5. 核实 APK 数据的精确摘要边界、签名验证与官方信任比较。
+6. 完成时钟虚调用类型与所有消费者，寻找真正的时间裁决证据。
+7. 补 JNI、Android 真机、并发共享区、失败/异常路径及端到端差分，再扩大 C++ 还原范围。
+
+当前已经有可审阅、可编译、可复现实验的子集，但“每条业务逻辑”“全部检测点”“完整源码重建”“原插件等价替换”均不是现阶段已完成结论。

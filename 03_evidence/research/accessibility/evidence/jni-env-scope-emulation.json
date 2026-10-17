@@ -1,0 +1,165 @@
+{
+  "sample_sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "scope": "Original ARM64 ctor/dtor with synthetic JavaVM ABI responses; no Android VM/device execution",
+  "constructor": "0x305790",
+  "destructor": "0x3078cc",
+  "instruction_budget_per_phase": 200000,
+  "results": [
+    {
+      "scenario": "null_vm",
+      "getenv_status": 0,
+      "attach_status": 0,
+      "fields": {
+        "vm": "0x0",
+        "env": "0x0",
+        "attached_by_scope": 0
+      },
+      "steps": 2151,
+      "calls": [],
+      "status": "PASS"
+    },
+    {
+      "scenario": "already_attached",
+      "getenv_status": 0,
+      "attach_status": 0,
+      "fields": {
+        "vm": "0x30001000",
+        "env": "0x30003000",
+        "attached_by_scope": 0
+      },
+      "steps": 3861,
+      "calls": [
+        {
+          "api": "GetEnv",
+          "phase": "constructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x10006"
+          ]
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "scenario": "detached_attach_success",
+      "getenv_status": -2,
+      "attach_status": 0,
+      "fields": {
+        "vm": "0x30001000",
+        "env": "0x30003000",
+        "attached_by_scope": 1
+      },
+      "steps": 6169,
+      "calls": [
+        {
+          "api": "GetEnv",
+          "phase": "constructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x10006"
+          ]
+        },
+        {
+          "api": "AttachCurrentThread",
+          "phase": "constructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x0"
+          ]
+        },
+        {
+          "api": "DetachCurrentThread",
+          "phase": "destructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x0"
+          ]
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "scenario": "detached_attach_failed",
+      "getenv_status": -2,
+      "attach_status": -1,
+      "fields": {
+        "vm": "0x30001000",
+        "env": "0x0",
+        "attached_by_scope": 0
+      },
+      "steps": 5576,
+      "calls": [
+        {
+          "api": "GetEnv",
+          "phase": "constructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x10006"
+          ]
+        },
+        {
+          "api": "AttachCurrentThread",
+          "phase": "constructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x0"
+          ]
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "scenario": "unsupported_version",
+      "getenv_status": -3,
+      "attach_status": 0,
+      "fields": {
+        "vm": "0x30001000",
+        "env": "0x0",
+        "attached_by_scope": 0
+      },
+      "steps": 4531,
+      "calls": [
+        {
+          "api": "GetEnv",
+          "phase": "constructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x10006"
+          ]
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "scenario": "other_GetEnv_error",
+      "getenv_status": -1,
+      "attach_status": 0,
+      "fields": {
+        "vm": "0x30001000",
+        "env": "0x0",
+        "attached_by_scope": 0
+      },
+      "steps": 4531,
+      "calls": [
+        {
+          "api": "GetEnv",
+          "phase": "constructor",
+          "args": [
+            "0x30001000",
+            "0x30004008",
+            "0x10006"
+          ]
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

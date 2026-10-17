@@ -1,0 +1,34 @@
+{
+  "addr": "0xd038c",
+  "code": "unsigned __int64 __fastcall sub_D038C(unsigned __int8 *a1)\n{\n  bool v1; // zf\n\n  v1 = *(_DWORD *)sub_D038C >> 26 == 5 || (*(_DWORD *)sub_D038C & 0xFFE00000) == -736100352; /*0xd03b4*/\n  if ( v1 || loc_D0390 >> 10 == 3508160 || (loc_D0394 & 0xFFFFFC00) == 0xD61F0000 ) /*0xd03e0*/\n    abort(); /*0xd0410*/\n  if ( (sub_19C6DC(a1) & 1) != 0 ) /*0xd03ec*/\n    return sub_1BD2B4((__int64)a1); /*0xd03fc*/\n  else\n    return sub_1BD0EC(a1); /*0xd040c*/\n}",
+  "refs": [
+    {
+      "addr": "0xd038c",
+      "name": "sub_D038C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0xd0390",
+      "name": "loc_D0390"
+    },
+    {
+      "addr": "0xd0394",
+      "name": "loc_D0394"
+    },
+    {
+      "addr": "0x1bd2b4",
+      "name": "sub_1BD2B4"
+    },
+    {
+      "addr": "0x1bd0ec",
+      "name": "sub_1BD0EC"
+    },
+    {
+      "addr": "0x19c6dc",
+      "name": "sub_19C6DC"
+    }
+  ]
+}

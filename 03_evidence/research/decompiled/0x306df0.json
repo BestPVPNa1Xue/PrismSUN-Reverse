@@ -1,0 +1,18 @@
+{
+  "addr": "0x306df0",
+  "code": "__int64 __usercall sub_306DF0@<X0>(__int64 a1@<X8>)\n{\n  __int64 v1; // x19\n  __int64 v2; // x0\n  __int64 result; // x0\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x306e08*/\n  HIDWORD(savedregs[2]) = 1169033690; /*0x306e14*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x306e1c*/\n  while ( HIDWORD(savedregs[2]) != -1787847942 ) /*0x306e30*/\n  {\n    if ( HIDWORD(savedregs[2]) == -1323423584 ) /*0x306e58*/\n    {\n      v1 = a1; /*0x306f54*/\n      savedregs[2] = sub_308130(); /*0x306f5c*/\n      v2 = ((__int64 (__fastcall *)(_QWORD))loc_3071A8)(savedregs[2]); /*0x306f64*/\n      result = ((__int64 (__fastcall *)(__int64, __int64))loc_305790)(v1, v2); /*0x306f70*/\n      a1 = v1; /*0x306f74*/\n      HIDWORD(savedregs[2]) = -1787847942; /*0x306f84*/\n    }\n    else\n    {\n      HIDWORD(savedregs[2]) = -1323423584; /*0x306f38*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x306f8c*/\n  return result; /*0x306fac*/\n}",
+  "refs": [
+    {
+      "addr": "0x308130",
+      "name": "sub_308130"
+    },
+    {
+      "addr": "0x3071a8",
+      "name": "loc_3071A8"
+    },
+    {
+      "addr": "0x305790",
+      "name": "loc_305790"
+    }
+  ]
+}

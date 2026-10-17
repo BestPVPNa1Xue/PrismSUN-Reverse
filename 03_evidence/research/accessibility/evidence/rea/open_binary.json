@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"path\":\"D:\\\\PrismSUN\\\\libprism-sun.so\",\"format\":\"elf\",\"kind\":\"executable\",\"sha256\":\"92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4\",\"architecture\":\"arm64\"}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "path": "D:\\PrismSUN\\libprism-sun.so",
+      "format": "elf",
+      "kind": "executable",
+      "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+      "architecture": "arm64"
+    }
+  }
+}

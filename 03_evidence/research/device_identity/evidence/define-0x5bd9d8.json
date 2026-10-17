@@ -1,0 +1,22 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x5bd9d8\",\"start\":\"0x5bd9d8\",\"end\":\"0x5be110\"}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x5bd9d8",
+          "start": "0x5bd9d8",
+          "end": "0x5be110"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

@@ -1,0 +1,26 @@
+{
+  "addr": "0x2b47f8",
+  "code": "__int64 __fastcall sub_2B47F8(\n        __int64 result,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9)\n{\n  __int64 v9; // x10\n  __int64 v10; // x22\n  __int64 *v11; // x29\n  int v12; // w8\n  int v13; // w8\n  unsigned int v14; // w19\n  int v15; // w8\n  int v16; // w8\n  int *v17; // [xsp+28h] [xbp+8h]\n  int v18; // [xsp+30h] [xbp+10h]\n  int v19; // [xsp+34h] [xbp+14h] BYREF\n  __int64 v20; // [xsp+38h] [xbp+18h]\n\n  v11 = &a9; /*0x2b4800*/\n  v20 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x2b4810*/\n  v18 = 677642880; /*0x2b481c*/\n  v19 = -445569895; /*0x2b4828*/\n  v17 = &v19; /*0x2b4830*/\n  while ( 1 ) /*0x2b48d0*/\n  {\n    while ( 1 ) /*0x2b48bc*/\n    {\n      while ( 1 ) /*0x2b48a8*/\n      {\n        while ( 1 ) /*0x2b4880*/\n        {\n          while ( 1 ) /*0x2b486c*/\n          {\n            while ( 1 ) /*0x2b4858*/\n            {\n              while ( 1 ) /*0x2b4844*/\n              {\n                while ( 1 ) /*0x2b4834*/\n                {\n                  v12 = *((_DWORD *)v11 - 3); /*0x2b4834*/\n                  if ( v12 != -2142182285 ) /*0x2b4844*/\n                    break; /*0x2b4844*/\n                  v9 = 2342487181LL; /*0x2b4a8c*/\n                  if ( loc_2B47FC >> 10 == 3508160 || loc_2B4800 >> 10 == 3508160 ) /*0x2b4a94*/\n                    v16 = -1067718224; /*0x2b4a98*/\n                  else\n                    v16 = -1952480115; /*0x2b4a98*/\n                  *(_DWORD *)*(v11 - 3) = v16; /*0x2b4aa0*/\n                }\n                if ( v12 != -1952480115 ) /*0x2b4858*/\n                  break; /*0x2b4858*/\n                *(_DWORD *)*(v11 - 3) = -331914827; /*0x2b497c*/\n              }\n              if ( v12 != -1915457293 ) /*0x2b486c*/\n                break; /*0x2b486c*/\n              v9 = 2152785011LL; /*0x2b4a24*/\n              if ( *(_DWORD *)sub_2B47F8 >> 26 == 5 || *(_DWORD *)sub_2B47F8 >> 21 == 1697 ) /*0x2b4a2c*/\n                v15 = -1067718224; /*0x2b4a30*/\n              else\n                v15 = -2142182285; /*0x2b4a30*/\n              *(_DWORD *)*(v11 - 3) = v15; /*0x2b4a38*/\n            }\n            if ( v12 != -1676200640 ) /*0x2b4880*/\n              break; /*0x2b4880*/\n            v9 -= 51; /*0x2b4aa8*/\n            v11 = (__int64 *)*(unsigned int *)(v10 + 4); /*0x2b4aac*/\n            v10 += 148; /*0x2b4aac*/\n            *(_DWORD *)*(v11 - 3) = 2005788707; /*0x2b4ac0*/\n          }\n          if ( v12 == -1067718224 ) /*0x2b4894*/\n          {\n            _ReadStatusReg(TPIDR_EL0); /*0x2b49dc*/\n            abort(); /*0x2b49f0*/\n          }\n          if ( v12 != -445569895 ) /*0x2b48a8*/\n            break; /*0x2b48a8*/\n          v9 = 2618766656LL; /*0x2b4924*/\n          if ( *((_DWORD *)v11 - 4) > 0x240BAB10u ) /*0x2b4938*/\n            v13 = 2005788707; /*0x2b4938*/\n          else\n            v13 = -1676200640; /*0x2b4938*/\n          *(_DWORD *)*(v11 - 3) = v13; /*0x2b4940*/\n        }\n        if ( v12 != -331914827 ) /*0x2b48bc*/\n          break; /*0x2b48bc*/\n        v18 = result; /*0x2b498c*/\n        v14 = result; /*0x2b4994*/\n        ((void (__fastcall *)(_QWORD))loc_2BBA34)((unsigned int)result); /*0x2b499c*/\n        result = v14; /*0x2b49a0*/\n        *(_DWORD *)*(v11 - 3) = 131833040; /*0x2b49b0*/\n      }\n      if ( v12 != -164756358 ) /*0x2b48d0*/\n        break; /*0x2b48d0*/\n      *(_DWORD *)*(v11 - 3) = -1915457293; /*0x2b4968*/\n    }\n    if ( v12 == 131833040 ) /*0x2b48e4*/\n      break; /*0x2b48e4*/\n    if ( v12 == 1209349784 ) /*0x2b48f8*/\n      JUMPOUT(0x2B4AC8); /*0x2b4ac8*/\n    if ( v12 == 2005788707 ) /*0x2b490c*/\n      *(_DWORD *)*(v11 - 3) = -164756358; /*0x2b4954*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x2b49b8*/\n  return result; /*0x2b49d8*/\n}",
+  "refs": [
+    {
+      "addr": "0x2b47fc",
+      "name": "loc_2B47FC"
+    },
+    {
+      "addr": "0x2b4800",
+      "name": "loc_2B4800"
+    },
+    {
+      "addr": "0x2b47f8",
+      "name": "sub_2B47F8"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x2bba34",
+      "name": "loc_2BBA34"
+    }
+  ]
+}

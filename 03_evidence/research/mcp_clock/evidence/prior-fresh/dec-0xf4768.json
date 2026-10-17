@@ -1,0 +1,26 @@
+{
+  "addr": "0xf4768",
+  "code": "__int64 (__fastcall ***sub_F4768())()\n{\n  bool v0; // zf\n\n  v0 = *(_DWORD *)sub_F4768 >> 26 == 5 || (*(_DWORD *)sub_F4768 & 0xFFE00000) == -736100352; /*0xf4784*/\n  if ( v0 || loc_F476C >> 10 == 3508160 || (loc_F4770 & 0xFFFFFC00) == 0xD61F0000 ) /*0xf47b0*/\n    abort(); /*0xf47c8*/\n  return &off_79D450; /*0xf47bc*/\n}",
+  "refs": [
+    {
+      "addr": "0xf4768",
+      "name": "sub_F4768"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0xf476c",
+      "name": "loc_F476C"
+    },
+    {
+      "addr": "0xf4770",
+      "name": "loc_F4770"
+    },
+    {
+      "addr": "0x79d450",
+      "name": "off_79D450"
+    }
+  ]
+}

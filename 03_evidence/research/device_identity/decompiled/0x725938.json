@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x725938\",\"code\":\"// attributes: thunk\\n__int64 __fastcall sub_725938(__int64 a1)\\n{\\n  return sub_141054(a1);\\n}\",\"refs\":[{\"addr\":\"0x141054\",\"name\":\"sub_141054\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x725938",
+      "code": "// attributes: thunk\n__int64 __fastcall sub_725938(__int64 a1)\n{\n  return sub_141054(a1);\n}",
+      "refs": [
+        {
+          "addr": "0x141054",
+          "name": "sub_141054"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

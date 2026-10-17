@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-18 Asia/Shanghai",
+  "scope": "Assessment only; no APK/SO build, tests rerun, original sample execution or Android run/deployment.",
+  "reverse_engineering_tools": [
+    "IDA Pro MCP; no REA calls"
+  ],
+  "sample_sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "ida_snapshot_sha256": "54aafe7dfe2607b63f5de896db5cb7b0f38c5da30409b395692e5415ba377017",
+  "ida_spot_check": {
+    "path": "ida-spot-check.json",
+    "sha256": "2dbcb53e80e8ad7fe66add1fe68e69349906c8efd77531bebb89e4b8990e7f14",
+    "addresses": [
+      "0x37843c",
+      "0x47fafc",
+      "0x6ab3d8"
+    ]
+  },
+  "chain_source_and_so_checks": {
+    "checked": 7,
+    "matched": 7,
+    "files": [
+      {
+        "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\libprism_chains.so",
+        "expected": "246334d49a0666910be21006f210832ea97b0566209a4493f00e9b0ffbb402c3",
+        "actual": "246334d49a0666910be21006f210832ea97b0566209a4493f00e9b0ffbb402c3",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\android_collectors.cpp",
+        "expected": "094777819e496026872a08228a653cc0cbd8a4d661fa71c4d7a775260de3769a",
+        "actual": "094777819e496026872a08228a653cc0cbd8a4d661fa71c4d7a775260de3769a",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\android_collectors.hpp",
+        "expected": "5ccad60275e86336ead417686acf7c96238f747776747466941ad3c0e90283f9",
+        "actual": "5ccad60275e86336ead417686acf7c96238f747776747466941ad3c0e90283f9",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\classes_jni.cpp",
+        "expected": "a059ca63013e2d6f60aa8f5603fa0dee89613f6c792da29e92eaacc807f57d95",
+        "actual": "a059ca63013e2d6f60aa8f5603fa0dee89613f6c792da29e92eaacc807f57d95",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\classes_jni.hpp",
+        "expected": "925facc926fb711bfe126439ee57570e59ca13a2e49d8c18f32fdb2539c5c683",
+        "actual": "925facc926fb711bfe126439ee57570e59ca13a2e49d8c18f32fdb2539c5c683",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\detection_chains.cpp",
+        "expected": "3185734379acb9672db36bed767c1b40f68d7a51490d39d29f3b5bc7abe35172",
+        "actual": "3185734379acb9672db36bed767c1b40f68d7a51490d39d29f3b5bc7abe35172",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\detection_chains.hpp",
+        "expected": "34cf5bc36d02ae6ac33693e957dd43ab3bcd9390058e95dffaf95cac15206203",
+        "actual": "34cf5bc36d02ae6ac33693e957dd43ab3bcd9390058e95dffaf95cac15206203",
+        "matches": true
+      }
+    ]
+  },
+  "chain_reused_dependency_checks": {
+    "checked": 6,
+    "matched": 6,
+    "files": [
+      {
+        "path": "D:\\PrismSUN\\research\\environment_memory\\src\\environment_memory.hpp",
+        "expected": "121b00b5355f13006e010401af1b03b551638e42cff8916684b90241b49d64e9",
+        "actual": "121b00b5355f13006e010401af1b03b551638e42cff8916684b90241b49d64e9",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\environment_memory\\src\\environment_memory.cpp",
+        "expected": "ab436d6eedebeb24115f098f2f739a8a59ced271a2d6e5d0e598bc90ec67936b",
+        "actual": "ab436d6eedebeb24115f098f2f739a8a59ced271a2d6e5d0e598bc90ec67936b",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\src\\observed_models.h",
+        "expected": "1c2f09ee2971bb3e8126072c58dcdd2b78343c3bd694022daff94d26252d3245",
+        "actual": "1c2f09ee2971bb3e8126072c58dcdd2b78343c3bd694022daff94d26252d3245",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\src\\observed_models.cpp",
+        "expected": "7980f9118b2bb2ddbbf97ea13d039b638416895f713e83d4f1aa4024942c3777",
+        "actual": "7980f9118b2bb2ddbbf97ea13d039b638416895f713e83d4f1aa4024942c3777",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.hpp",
+        "expected": "f8a98511c594f39c03e29161f403fa17ef23ff6ececf0a580297262b3f10b312",
+        "actual": "f8a98511c594f39c03e29161f403fa17ef23ff6ececf0a580297262b3f10b312",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.cpp",
+        "expected": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235",
+        "actual": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235",
+        "matches": true
+      }
+    ]
+  },
+  "existing_aggregate_source_and_so_checks": {
+    "checked": 18,
+    "matched": 18,
+    "files": [
+      {
+        "path": "D:\\PrismSUN\\research\\src\\verified_helpers.cpp",
+        "expected": "7f5f2373e92f45b6948dec55626b485877e6b4221e59f0891c2ff677a4451409",
+        "actual": "7f5f2373e92f45b6948dec55626b485877e6b4221e59f0891c2ff677a4451409",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\src\\observed_models.cpp",
+        "expected": "7980f9118b2bb2ddbbf97ea13d039b638416895f713e83d4f1aa4024942c3777",
+        "actual": "7980f9118b2bb2ddbbf97ea13d039b638416895f713e83d4f1aa4024942c3777",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\src\\shared_ring_model.cpp",
+        "expected": "f48757261adc4ec2afbc61d585dd69af101cf6f5853bb0235cb06dc6006dfbe2",
+        "actual": "f48757261adc4ec2afbc61d585dd69af101cf6f5853bb0235cb06dc6006dfbe2",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\src\\class_probe_model.cpp",
+        "expected": "767191c70b0dcb648508f1ec26fb693140de6b5352eab044f06e5bc4c346097a",
+        "actual": "767191c70b0dcb648508f1ec26fb693140de6b5352eab044f06e5bc4c346097a",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_core.cpp",
+        "expected": "85bc79751a0c0cde91ff9036ccbf099131c288e65ac090b0534048498b5b3e98",
+        "actual": "85bc79751a0c0cde91ff9036ccbf099131c288e65ac090b0534048498b5b3e98",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.cpp",
+        "expected": "13182c9aff93be233ec752bd2bdd34a32ec30d90c042b0a5484f7bb08d8117b1",
+        "actual": "13182c9aff93be233ec752bd2bdd34a32ec30d90c042b0a5484f7bb08d8117b1",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.cpp",
+        "expected": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235",
+        "actual": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_monitor.cpp",
+        "expected": "ae2b86fbad8b0511988230c4afa1321b976b6fc049b775f78ba49e3254dc0f20",
+        "actual": "ae2b86fbad8b0511988230c4afa1321b976b6fc049b775f78ba49e3254dc0f20",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\device_identity\\src\\crypto.cpp",
+        "expected": "b6a1f22fb19f936189a6fbda0b77e61645b51349e151a3021be8edbd922c849b",
+        "actual": "b6a1f22fb19f936189a6fbda0b77e61645b51349e151a3021be8edbd922c849b",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\device_identity\\src\\identity.cpp",
+        "expected": "755c849ae6812d670a58193c1ccb22ae424fa6835ed065893b6a5ee9f5a28c74",
+        "actual": "755c849ae6812d670a58193c1ccb22ae424fa6835ed065893b6a5ee9f5a28c74",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\device_identity\\src\\android_adapter.cpp",
+        "expected": "6b98e9786fdf374a0ec87ea1ef80c6776a82dd20113406233fe6db8354cf065a",
+        "actual": "6b98e9786fdf374a0ec87ea1ef80c6776a82dd20113406233fe6db8354cf065a",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\environment_memory\\src\\environment_memory.cpp",
+        "expected": "ab436d6eedebeb24115f098f2f739a8a59ced271a2d6e5d0e598bc90ec67936b",
+        "actual": "ab436d6eedebeb24115f098f2f739a8a59ced271a2d6e5d0e598bc90ec67936b",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\environment_memory\\src\\input_methods_jni.cpp",
+        "expected": "16437898b44919396511208b7d608a384b4e1fd7ea5349f80cd8a4ed503e0c57",
+        "actual": "16437898b44919396511208b7d608a384b4e1fd7ea5349f80cd8a4ed503e0c57",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\mcp_clock\\src\\mcp_chain.cpp",
+        "expected": "6a95ddbd192b2bc6bc86c0d7a46782fc20a470a67090223855b2684e1b7f4a38",
+        "actual": "6a95ddbd192b2bc6bc86c0d7a46782fc20a470a67090223855b2684e1b7f4a38",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\mcp_clock\\src\\clock_chain.cpp",
+        "expected": "a38a30f6dbe97ff16c759678af6812492dc3a6160d65c31a93f0e2a90c5d1fe5",
+        "actual": "a38a30f6dbe97ff16c759678af6812492dc3a6160d65c31a93f0e2a90c5d1fe5",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\mcp_clock\\src\\crypto.cpp",
+        "expected": "3f4c2d32d1cb62e0a644882ba597da57053a2bf30d6ff9d31118450aef4ef253",
+        "actual": "3f4c2d32d1cb62e0a644882ba597da57053a2bf30d6ff9d31118450aef4ef253",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\src\\jni_layout_check.cpp",
+        "expected": "a23d6038bd06b3dcbf0f099668fe20624ef54fb71ddba8433526b9805c42ff6b",
+        "actual": "a23d6038bd06b3dcbf0f099668fe20624ef54fb71ddba8433526b9805c42ff6b",
+        "matches": true
+      },
+      {
+        "path": "D:\\PrismSUN\\research\\build\\aggregate-android-arm64\\libprismsun_reconstruction.so",
+        "expected": "246482cf7492a21ca7a3049f0066b8a8f4ed9a9a18e6b83969217e47ef47fcff",
+        "actual": "246482cf7492a21ca7a3049f0066b8a8f4ed9a9a18e6b83969217e47ef47fcff",
+        "matches": true
+      }
+    ]
+  },
+  "preexisting_android_project_markers_found": [],
+  "existing_zip": {
+    "entries": 54,
+    "new_chain_entries": []
+  },
+  "report_links": {
+    "checked": 20,
+    "missing": []
+  },
+  "previous_protection_anomaly": {
+    "protected_file_check_passed": false,
+    "note": "Prior environment-memory IDB hash change remains unresolved; this is not a new anomaly."
+  },
+  "transient_review_script_errors": "An initial schema inventory referenced an absent identity manifest, and a PowerShell Join-Path expression failed while preparing the assessment summary. The corrected read-only Python check above regenerated this summary after validating all selected hashes."
+}

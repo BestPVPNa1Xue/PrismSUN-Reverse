@@ -1,0 +1,62 @@
+{
+  "addr": "0x2a63c8",
+  "code": "__int64 sub_2A63C8()\n{\n  int8x16_t v1; // q0\n  int16x8_t v2; // q0\n  __int64 result; // x0\n  char v4[104]; // [xsp-60h] [xbp-70h] BYREF\n  __int64 v5; // [xsp+8h] [xbp-8h]\n\n  v5 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x2a63e0*/\n  if ( !atomic_load((unsigned int *)&dword_7B067C) ) /*0x2a63ec*/\n  {\n    v1 = veorq_s8((int8x16_t)xmmword_7ABAB0, (int8x16_t)xmmword_32FE0); /*0x2a6414*/\n    xmmword_7ABAD0 = (__int128)v1; /*0x2a6420*/\n    v1.n128_u32[0] = dword_7ABAC0; /*0x2a6424*/\n    v2 = vmovl_u8((uint8x8_t)v1.n128_u64[0]); /*0x2a642c*/\n    byte_7ABAE4 = byte_7ABAC4 ^ 0x61; /*0x2a6434*/\n    v2.n128_u64[0] = veor_s8((int8x8_t)v2.n128_u64[0], (int8x8_t)0x9002B006B00D3LL).n64_u64[0]; /*0x2a6438*/\n    dword_7ABAE0 = vmovn_s16(v2).n64_u32[0]; /*0x2a6440*/\n  }\n  atomic_store(1u, (unsigned int *)&dword_7B067C); /*0x2a6448*/\n  if ( *(_DWORD *)sub_2A63C8 >> 26 == 5 /*0x2a6498*/\n    || (*(_DWORD *)sub_2A63C8 & 0xFFE00000) == 0xD4200000\n    || loc_2A63CC >> 10 == 3508160\n    || (loc_2A63D0 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0x2a651c*/\n  }\n  memset(v4, 0, 92); /*0x2a64c4*/\n  if ( (int)__system_property_get(&xmmword_7ABAD0, v4) < 1 ) /*0x2a64d0*/\n    return 0xFFFFFFFFLL; /*0x2a6504*/\n  LODWORD(result) = atoi(v4); /*0x2a64d8*/\n  if ( (int)result <= 0 ) /*0x2a64e0*/\n    return 0xFFFFFFFFLL; /*0x2a64e0*/\n  else\n    return (unsigned int)result; /*0x2a64e0*/\n}",
+  "refs": [
+    {
+      "addr": "0x7abab0",
+      "name": "xmmword_7ABAB0"
+    },
+    {
+      "addr": "0x32fe0",
+      "name": "xmmword_32FE0"
+    },
+    {
+      "addr": "0x7abad0",
+      "name": "xmmword_7ABAD0"
+    },
+    {
+      "addr": "0x7abac0",
+      "name": "dword_7ABAC0"
+    },
+    {
+      "addr": "0x7abae4",
+      "name": "byte_7ABAE4"
+    },
+    {
+      "addr": "0x7abac4",
+      "name": "byte_7ABAC4"
+    },
+    {
+      "addr": "0x7abae0",
+      "name": "dword_7ABAE0"
+    },
+    {
+      "addr": "0x7b067c",
+      "name": "dword_7B067C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x2a63c8",
+      "name": "sub_2A63C8"
+    },
+    {
+      "addr": "0x2a63cc",
+      "name": "loc_2A63CC"
+    },
+    {
+      "addr": "0x2a63d0",
+      "name": "loc_2A63D0"
+    },
+    {
+      "addr": "0x78a840",
+      "name": ".__system_property_get"
+    },
+    {
+      "addr": "0x78a830",
+      "name": ".atoi"
+    }
+  ]
+}

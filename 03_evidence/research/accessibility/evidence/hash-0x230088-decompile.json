@@ -1,0 +1,79 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x230088\",\"code\":\"__int64 __fastcall sub_230088(__int64 a1, __int64 a2, __int64 a3)\\n{\\n  bool v3; // zf\\n  __int64 v5; // x20\\n  __int64 v6; // x1\\n  __int64 v7; // x21\\n  __int64 v8; // x0\\n  __int64 v9; // x1\\n  char v10; // w0\\n\\n  v3 = *(_DWORD *)sub_230088 >> 26 == 5 || (*(_DWORD *)sub_230088 & 0xFFE00000) == -736100352; /*0x2300b8*/\\n  if ( v3 /*0x2301e0*/\\n    || loc_23008C >> 10 == 3508160\\n    || (loc_230090 & 0xFFFFFC00) == 0xD61F0000\\n    || *(_DWORD *)sub_191D38 >> 26 == 5\\n    || (*(_DWORD *)sub_191D38 & 0xFFE00000) == 0xD4200000\\n    || (loc_191D3C & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_191D40 & 0xFFFFFC00) == 0xD61F0000\\n    || (v5 = sub_B6F98(a2),\\n        v7 = v6,\\n        v8 = sub_B6F98(a3),\\n        v10 = sub_240B88(v5, v7, v8, v9),\\n        *(_DWORD *)sub_1918B4 >> 26 == 5)\\n    || (*(_DWORD *)sub_1918B4 & 0xFFE00000) == 0xD4200000\\n    || (loc_1918B8 & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_1918BC & 0xFFFFFC00) == 0xD61F0000\\n    || *(_DWORD *)sub_191CD8 >> 26 == 5\\n    || (*(_DWORD *)sub_191CD8 & 0xFFE00000) == 0xD4200000\\n    || (loc_191CDC & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_191CE0 & 0xFFFFFC00) == 0xD61F0000 )\\n  {\\n    abort(); /*0x230200*/\\n  }\\n  return ((unsigned int)v10 >> 7) & 1; /*0x2301fc*/\\n}\",\"refs\":[{\"addr\":\"0x230088\",\"name\":\"sub_230088\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x23008c\",\"name\":\"loc_23008C\"},{\"addr\":\"0x230090\",\"name\":\"loc_230090\"},{\"addr\":\"0x191d38\",\"name\":\"sub_191D38\"},{\"addr\":\"0x191d3c\",\"name\":\"loc_191D3C\"},{\"addr\":\"0x191d40\",\"name\":\"loc_191D40\"},{\"addr\":\"0xb6f98\",\"name\":\"sub_B6F98\"},{\"addr\":\"0x240b88\",\"name\":\"sub_240B88\"},{\"addr\":\"0x1918b4\",\"name\":\"sub_1918B4\"},{\"addr\":\"0x1918b8\",\"name\":\"loc_1918B8\"},{\"addr\":\"0x1918bc\",\"name\":\"loc_1918BC\"},{\"addr\":\"0x191cd8\",\"name\":\"sub_191CD8\"},{\"addr\":\"0x191cdc\",\"name\":\"loc_191CDC\"},{\"addr\":\"0x191ce0\",\"name\":\"loc_191CE0\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x230088",
+      "code": "__int64 __fastcall sub_230088(__int64 a1, __int64 a2, __int64 a3)\n{\n  bool v3; // zf\n  __int64 v5; // x20\n  __int64 v6; // x1\n  __int64 v7; // x21\n  __int64 v8; // x0\n  __int64 v9; // x1\n  char v10; // w0\n\n  v3 = *(_DWORD *)sub_230088 >> 26 == 5 || (*(_DWORD *)sub_230088 & 0xFFE00000) == -736100352; /*0x2300b8*/\n  if ( v3 /*0x2301e0*/\n    || loc_23008C >> 10 == 3508160\n    || (loc_230090 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_191D38 >> 26 == 5\n    || (*(_DWORD *)sub_191D38 & 0xFFE00000) == 0xD4200000\n    || (loc_191D3C & 0xFFFFFC00) == 0xD61F0000\n    || (loc_191D40 & 0xFFFFFC00) == 0xD61F0000\n    || (v5 = sub_B6F98(a2),\n        v7 = v6,\n        v8 = sub_B6F98(a3),\n        v10 = sub_240B88(v5, v7, v8, v9),\n        *(_DWORD *)sub_1918B4 >> 26 == 5)\n    || (*(_DWORD *)sub_1918B4 & 0xFFE00000) == 0xD4200000\n    || (loc_1918B8 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_1918BC & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_191CD8 >> 26 == 5\n    || (*(_DWORD *)sub_191CD8 & 0xFFE00000) == 0xD4200000\n    || (loc_191CDC & 0xFFFFFC00) == 0xD61F0000\n    || (loc_191CE0 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0x230200*/\n  }\n  return ((unsigned int)v10 >> 7) & 1; /*0x2301fc*/\n}",
+      "refs": [
+        {
+          "addr": "0x230088",
+          "name": "sub_230088"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x23008c",
+          "name": "loc_23008C"
+        },
+        {
+          "addr": "0x230090",
+          "name": "loc_230090"
+        },
+        {
+          "addr": "0x191d38",
+          "name": "sub_191D38"
+        },
+        {
+          "addr": "0x191d3c",
+          "name": "loc_191D3C"
+        },
+        {
+          "addr": "0x191d40",
+          "name": "loc_191D40"
+        },
+        {
+          "addr": "0xb6f98",
+          "name": "sub_B6F98"
+        },
+        {
+          "addr": "0x240b88",
+          "name": "sub_240B88"
+        },
+        {
+          "addr": "0x1918b4",
+          "name": "sub_1918B4"
+        },
+        {
+          "addr": "0x1918b8",
+          "name": "loc_1918B8"
+        },
+        {
+          "addr": "0x1918bc",
+          "name": "loc_1918BC"
+        },
+        {
+          "addr": "0x191cd8",
+          "name": "sub_191CD8"
+        },
+        {
+          "addr": "0x191cdc",
+          "name": "loc_191CDC"
+        },
+        {
+          "addr": "0x191ce0",
+          "name": "loc_191CE0"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

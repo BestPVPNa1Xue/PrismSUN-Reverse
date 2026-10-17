@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x721360\",\"code\":\"__int64 __fastcall sub_721360(__int64 a1)\\n{\\n  __int64 result; // x0\\n  __int64 v2; // [xsp+20h] [xbp-10h]\\n  int savedregs; // [xsp+30h] [xbp+0h]\\n  int i; // [xsp+34h] [xbp+4h]\\n  __int64 savedregs_8; // [xsp+38h] [xbp+8h]\\n\\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x721374*/\\n  for ( i = -1714695687; ; i = -1968779230 ) /*0x721380*/\\n  {\\n    while ( i == -1968779230 ) /*0x7213b0*/\\n    {\\n      savedregs = a1; /*0x721478*/\\n      v2 = a1 + 24; /*0x721484*/\\n      i = -1221443054; /*0x721494*/\\n    }\\n    if ( i != -1714695687 ) /*0x7213c4*/\\n      break; /*0x7213c4*/\\n  }\\n  result = v2; /*0x72149c*/\\n  _ReadStatusReg(TPIDR_EL0); /*0x7214a0*/\\n  return result; /*0x7214bc*/\\n}\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x721360",
+      "code": "__int64 __fastcall sub_721360(__int64 a1)\n{\n  __int64 result; // x0\n  __int64 v2; // [xsp+20h] [xbp-10h]\n  int savedregs; // [xsp+30h] [xbp+0h]\n  int i; // [xsp+34h] [xbp+4h]\n  __int64 savedregs_8; // [xsp+38h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x721374*/\n  for ( i = -1714695687; ; i = -1968779230 ) /*0x721380*/\n  {\n    while ( i == -1968779230 ) /*0x7213b0*/\n    {\n      savedregs = a1; /*0x721478*/\n      v2 = a1 + 24; /*0x721484*/\n      i = -1221443054; /*0x721494*/\n    }\n    if ( i != -1714695687 ) /*0x7213c4*/\n      break; /*0x7213c4*/\n  }\n  result = v2; /*0x72149c*/\n  _ReadStatusReg(TPIDR_EL0); /*0x7214a0*/\n  return result; /*0x7214bc*/\n}"
+    },
+    "isError": false
+  },
+  "id": 1
+}

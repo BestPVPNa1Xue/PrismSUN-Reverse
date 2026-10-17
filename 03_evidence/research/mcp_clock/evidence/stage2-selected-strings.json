@@ -1,0 +1,50 @@
+[
+  {
+    "writer": "0x30cf1c",
+    "data": "0x7ac528",
+    "length": 5,
+    "key": "0xdb6bf7ad478bbd0b",
+    "wrappers": [
+      "0x31a480",
+      "0x30d99c"
+    ],
+    "plaintext": ".mcp",
+    "bytes": "2e6d637000",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x30b4f8",
+        "caller": "0x30b278",
+        "caller_end": "0x30bb2c",
+        "register_flow": {
+          "decode_callsite": "0x30b508",
+          "wrapper": "0x30d99c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x30f3e4",
+    "data": "0x7ac560",
+    "length": 21,
+    "key": "0x5d8743751dc5cf41",
+    "wrappers": [
+      "0x31a924",
+      "0x30ffe0"
+    ],
+    "plaintext": "/PrismSUNScripts.mcp",
+    "bytes": "2f507269736d53554e536372697074732e6d637000",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x30bce0",
+        "caller": "0x30bb2c",
+        "caller_end": "0x30c1f0",
+        "register_flow": {
+          "decode_callsite": "0x30bce4",
+          "wrapper": "0x30ffe0"
+        }
+      }
+    ]
+  }
+]

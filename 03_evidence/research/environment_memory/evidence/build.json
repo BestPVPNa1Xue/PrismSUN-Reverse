@@ -1,0 +1,41 @@
+{
+  "androidTarget": "aarch64-linux-android24",
+  "outputs": [
+    {
+      "Path": "D:\\PrismSUN\\research\\environment_memory\\build\\host\\jni_adapter_tests.exe",
+      "Hash": "1541AEAA12C1A4CCEDB1E11575AA36D598949E49A4D37F2B43BFEDFC80F0CFB7"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\environment_memory\\build\\host\\prism_environment.dll",
+      "Hash": "914C34DD5BCE03F958932575967AF8B89749BFC9D5957759021D8A2222C3506F"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\environment_memory\\build\\host\\prism_environment.exe",
+      "Hash": "1940EC01CB1C8385706230F5B6D3647002FCE79F7E53D9733FCFD4A91E811E63"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\environment_memory\\build\\host\\unit_tests.exe",
+      "Hash": "8AFFE2EA8D3B4AC806C525ABD83F1599CBA52BE39A8F47C58F0A08D4259F0F94"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\environment_memory\\build\\android-arm64\\libprism_environment.so",
+      "Hash": "EF972E74A5A1771BA4EA6016029A9A08B0C0C7087B74DDC95D6D7CBD3CA49521"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\environment_memory\\build\\android-arm64\\prism_environment",
+      "Hash": "A51A4ADAD828F158C96A11C7B94BCB5AA3D2903BF24A369B42073F42A8FD0867"
+    }
+  ],
+  "runtime": "Windows tests executed; Android compiled only",
+  "ndk": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-ID:\\PrismSUN\\research\\environment_memory\\src",
+    "-ID:\\PrismSUN\\research\\src"
+  ],
+  "hostCompiler": "D:\\msys64\\ucrt64\\bin\\g++.exe"
+}

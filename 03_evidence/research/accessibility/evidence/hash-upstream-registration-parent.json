@@ -1,0 +1,77 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x6b6a78\",\"xrefs\":[{\"addr\":\"0x6b7138\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6b72e8\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6b6d54\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b6a78\",\"name\":\"sub_6B6A78\",\"size\":\"0x4c4\"}},{\"addr\":\"0x6b6dfc\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b6a78\",\"name\":\"sub_6B6A78\",\"size\":\"0x4c4\"}},{\"addr\":\"0x6b6e1c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b6a78\",\"name\":\"sub_6B6A78\",\"size\":\"0x4c4\"}}],\"more\":false,\"xref_count\":5},{\"addr\":\"0x6dd5c4\",\"xrefs\":[{\"addr\":\"0x6b6ec4\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6b6a78\",\"name\":\"sub_6B6A78\",\"size\":\"0x4c4\"}}],\"more\":false,\"xref_count\":1}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x6b6a78",
+          "xrefs": [
+            {
+              "addr": "0x6b7138",
+              "type": "code",
+              "fn": null
+            },
+            {
+              "addr": "0x6b72e8",
+              "type": "code",
+              "fn": null
+            },
+            {
+              "addr": "0x6b6d54",
+              "type": "data",
+              "fn": {
+                "addr": "0x6b6a78",
+                "name": "sub_6B6A78",
+                "size": "0x4c4"
+              }
+            },
+            {
+              "addr": "0x6b6dfc",
+              "type": "data",
+              "fn": {
+                "addr": "0x6b6a78",
+                "name": "sub_6B6A78",
+                "size": "0x4c4"
+              }
+            },
+            {
+              "addr": "0x6b6e1c",
+              "type": "data",
+              "fn": {
+                "addr": "0x6b6a78",
+                "name": "sub_6B6A78",
+                "size": "0x4c4"
+              }
+            }
+          ],
+          "more": false,
+          "xref_count": 5
+        },
+        {
+          "addr": "0x6dd5c4",
+          "xrefs": [
+            {
+              "addr": "0x6b6ec4",
+              "type": "code",
+              "fn": {
+                "addr": "0x6b6a78",
+                "name": "sub_6B6A78",
+                "size": "0x4c4"
+              }
+            }
+          ],
+          "more": false,
+          "xref_count": 1
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

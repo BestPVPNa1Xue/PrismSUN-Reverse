@@ -1,0 +1,702 @@
+{
+  "source": "../../evidence/stage2_strings.json",
+  "reuse": "Prior caller-backed decoding; not recomputed in this continuation",
+  "records": [
+    {
+      "writer": "0x34be24",
+      "data": "0x7acef0",
+      "length": 24,
+      "key": "0xeb279b691ff3fb37",
+      "wrappers": [
+        "0x372a1c",
+        "0x34d100"
+      ],
+      "plaintext": "android/content/Context",
+      "bytes": "616e64726f69642f636f6e74656e742f436f6e7465787400",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b134",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b13c",
+            "wrapper": "0x34d100"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x34d5d0",
+      "data": "0x7acf30",
+      "length": 21,
+      "key": "0xffc3978bc98f5399",
+      "wrappers": [
+        "0x372f68",
+        "0x34e1c8"
+      ],
+      "plaintext": "INPUT_METHOD_SERVICE",
+      "bytes": "494e5055545f4d4554484f445f5345525649434500",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b184",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b194",
+            "wrapper": "0x34e1c8"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x34e564",
+      "data": "0x7acf70",
+      "length": 19,
+      "key": "0x9bd595af851d8be7",
+      "wrappers": [
+        "0x373424",
+        "0x34f51c"
+      ],
+      "plaintext": "Ljava/lang/String;",
+      "bytes": "4c6a6176612f6c616e672f537472696e673b00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b1a4",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b1b4",
+            "wrapper": "0x34f51c"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x34f960",
+      "data": "0x7acfb0",
+      "length": 17,
+      "key": "0xc77f77236bad4799",
+      "wrappers": [
+        "0x3738e4",
+        "0x3509e0"
+      ],
+      "plaintext": "getSystemService",
+      "bytes": "67657453797374656d5365727669636500",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b244",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b24c",
+            "wrapper": "0x3509e0"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x350e40",
+      "data": "0x7ad000",
+      "length": 39,
+      "key": "0xc9771b45f9913b87",
+      "wrappers": [
+        "0x373ee8",
+        "0x3526d0"
+      ],
+      "plaintext": "(Ljava/lang/String;)Ljava/lang/Object;",
+      "bytes": "284c6a6176612f6c616e672f537472696e673b294c6a6176612f6c616e672f4f626a6563743b00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b268",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b278",
+            "wrapper": "0x3526d0"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x352a6c",
+      "data": "0x7ad060",
+      "length": 44,
+      "key": "0x194db9cd9b4dbd9f",
+      "wrappers": [
+        "0x37440c",
+        "0x353bd8"
+      ],
+      "plaintext": "android/view/inputmethod/InputMethodManager",
+      "bytes": "616e64726f69642f766965772f696e7075746d6574686f642f496e7075744d6574686f644d616e6167657200",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b340",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b350",
+            "wrapper": "0x353bd8"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x3540b4",
+      "data": "0x7ad0b0",
+      "length": 19,
+      "key": "0x6f55cd957ba3590f",
+      "wrappers": [
+        "0x374954",
+        "0x355044"
+      ],
+      "plaintext": "getInputMethodList",
+      "bytes": "676574496e7075744d6574686f644c69737400",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b398",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b3a8",
+            "wrapper": "0x355044"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x35547c",
+      "data": "0x7ad0f0",
+      "length": 19,
+      "key": "0xe3912dfd25097b7b",
+      "wrappers": [
+        "0x374cbc",
+        "0x356524"
+      ],
+      "plaintext": "()Ljava/util/List;",
+      "bytes": "28294c6a6176612f7574696c2f4c6973743b00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b3c4",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b3d4",
+            "wrapper": "0x356524"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x356930",
+      "data": "0x7ad118",
+      "length": 15,
+      "key": "0xf14339ed95ff2fcf",
+      "wrappers": [
+        "0x375208",
+        "0x357910"
+      ],
+      "plaintext": "java/util/List",
+      "bytes": "6a6176612f7574696c2f4c69737400",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b434",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b43c",
+            "wrapper": "0x357910"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x358bcc",
+      "data": "0x7ad160",
+      "length": 22,
+      "key": "0xfd4ff1bda37d1fd3",
+      "wrappers": [
+        "0x375c04",
+        "0x359da4"
+      ],
+      "plaintext": "(I)Ljava/lang/Object;",
+      "bytes": "2849294c6a6176612f6c616e672f4f626a6563743b00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b4b8",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b4c8",
+            "wrapper": "0x359da4"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x35a008",
+      "data": "0x7ad180",
+      "length": 5,
+      "key": "0x213fa5c5059bd715",
+      "wrappers": [
+        "0x376188",
+        "0x35a860"
+      ],
+      "plaintext": "size",
+      "bytes": "73697a6500",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b52c",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b534",
+            "wrapper": "0x35a860"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x35b9e0",
+      "data": "0x7ad1d0",
+      "length": 41,
+      "key": "0x31070921874b0533",
+      "wrappers": [
+        "0x376be4",
+        "0x35d46c"
+      ],
+      "plaintext": "android/view/inputmethod/InputMethodInfo",
+      "bytes": "616e64726f69642f766965772f696e7075746d6574686f642f496e7075744d6574686f64496e666f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b5b4",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b5c4",
+            "wrapper": "0x35d46c"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x35d848",
+      "data": "0x7ad210",
+      "length": 15,
+      "key": "0xcf8ffb89377b9db1",
+      "wrappers": [
+        "0x377230",
+        "0x35e968"
+      ],
+      "plaintext": "getServiceName",
+      "bytes": "676574536572766963654e616d6500",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b60c",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b614",
+            "wrapper": "0x35e968"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x35ed40",
+      "data": "0x7ad240",
+      "length": 21,
+      "key": "0xedbd9b35dd55518f",
+      "wrappers": [
+        "0x377818",
+        "0x35fdb4"
+      ],
+      "plaintext": "()Ljava/lang/String;",
+      "bytes": "28294c6a6176612f6c616e672f537472696e673b00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x34b628",
+          "caller": "0x34adcc",
+          "caller_end": "0x34be24",
+          "register_flow": {
+            "decode_callsite": "0x34b638",
+            "wrapper": "0x35fdb4"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x4097a8",
+      "data": "0x7ae2f0",
+      "length": 8,
+      "key": "0x6f2bc9754bd1a9a9",
+      "wrappers": [
+        "0x42f8b8",
+        "0x40a42c"
+      ],
+      "plaintext": "/status",
+      "bytes": "2f73746174757300",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x406128",
+          "caller": "0x406068",
+          "caller_end": "0x4097a8",
+          "register_flow": {
+            "decode_callsite": "0x40612c",
+            "wrapper": "0x40a42c"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x40b598",
+      "data": "0x7ae308",
+      "length": 11,
+      "key": "0xdbaf4383c59f19cf",
+      "wrappers": [
+        "0x42fca8",
+        "0x40c354"
+      ],
+      "plaintext": "TracerPid:",
+      "bytes": "5472616365725069643a00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x406a48",
+          "caller": "0x406068",
+          "caller_end": "0x4097a8",
+          "register_flow": {
+            "decode_callsite": "0x406a58",
+            "wrapper": "0x40c354"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x4118a8",
+      "data": "0x7ae320",
+      "length": 8,
+      "key": "0xe7bf2d95a54b2d63",
+      "wrappers": [
+        "0x431308",
+        "0x412444"
+      ],
+      "plaintext": "libc.so",
+      "bytes": "6c6962632e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x41001c",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x41002c",
+            "wrapper": "0x412444"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x412928",
+      "data": "0x7ae338",
+      "length": 15,
+      "key": "0x6f5d01851325072d",
+      "wrappers": [
+        "0x43185c",
+        "0x413448"
+      ],
+      "plaintext": "libmediandk.so",
+      "bytes": "6c69626d656469616e646b2e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x4100e4",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x4100f4",
+            "wrapper": "0x413448"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x41392c",
+      "data": "0x7ae358",
+      "length": 14,
+      "key": "0x5d5373a54167492b",
+      "wrappers": [
+        "0x431c9c",
+        "0x41486c"
+      ],
+      "plaintext": "libandroid.so",
+      "bytes": "6c6962616e64726f69642e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x410198",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x4101a8",
+            "wrapper": "0x41486c"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x414d34",
+      "data": "0x7ae378",
+      "length": 10,
+      "key": "0x33936bbb8fbf972b",
+      "wrappers": [
+        "0x4321f8",
+        "0x4157a8"
+      ],
+      "plaintext": "libart.so",
+      "bytes": "6c69626172742e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x410250",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x410260",
+            "wrapper": "0x4157a8"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x416b80",
+      "data": "0x7ae398",
+      "length": 15,
+      "key": "0xbf7167c7934d83bf",
+      "wrappers": [
+        "0x436b00",
+        "0x417abc"
+      ],
+      "plaintext": "libmediandk.so",
+      "bytes": "6c69626d656469616e646b2e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x4103dc",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x4103e4",
+            "wrapper": "0x417abc"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x418544",
+      "data": "0x7ae3b0",
+      "length": 8,
+      "key": "0x4971799d23e9f97b",
+      "wrappers": [
+        "0x4377dc",
+        "0x418fc4"
+      ],
+      "plaintext": "libc.so",
+      "bytes": "6c6962632e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x410490",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x4104a0",
+            "wrapper": "0x418fc4"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x419480",
+      "data": "0x7ae3c8",
+      "length": 14,
+      "key": "0x13bdc327057fcd0d",
+      "wrappers": [
+        "0x437e60",
+        "0x419e4c"
+      ],
+      "plaintext": "libandroid.so",
+      "bytes": "6c6962616e64726f69642e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x410554",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x41055c",
+            "wrapper": "0x419e4c"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x41a260",
+      "data": "0x7ae3e8",
+      "length": 10,
+      "key": "0x1dc3834d7537e95d",
+      "wrappers": [
+        "0x43838c",
+        "0x41af28"
+      ],
+      "plaintext": "libart.so",
+      "bytes": "6c69626172742e736f00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x410614",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x41061c",
+            "wrapper": "0x41af28"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x41b1e4",
+      "data": "0x7ae400",
+      "length": 9,
+      "key": "0x652bf3a397759395",
+      "wrappers": [
+        "0x438844",
+        "0x41bdd4"
+      ],
+      "plaintext": "layer=%d",
+      "bytes": "6c617965723d256400",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x410770",
+          "caller": "0x40fd54",
+          "caller_end": "0x410aec",
+          "register_flow": {
+            "decode_callsite": "0x410778",
+            "wrapper": "0x41bdd4"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x465a4c",
+      "data": "0x7ae810",
+      "length": 8,
+      "key": "0xcf8ffb89377b9db1",
+      "wrappers": [
+        "0x4a1fe4",
+        "0x46666c"
+      ],
+      "plaintext": "/status",
+      "bytes": "2f73746174757300",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x464ee8",
+          "caller": "0x464d9c",
+          "caller_end": "0x465a4c",
+          "register_flow": {
+            "decode_callsite": "0x464eec",
+            "wrapper": "0x46666c"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x467abc",
+      "data": "0x7ae828",
+      "length": 9,
+      "key": "0x7dbd49499df19131",
+      "wrappers": [
+        "0x4a8ef8",
+        "0x4686a8"
+      ],
+      "plaintext": "Seccomp:",
+      "bytes": "536563636f6d703a00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x465788",
+          "caller": "0x464d9c",
+          "caller_end": "0x465a4c",
+          "register_flow": {
+            "decode_callsite": "0x465798",
+            "wrapper": "0x4686a8"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x46b814",
+      "data": "0x7ae860",
+      "length": 17,
+      "key": "0x8373ad4dbdc90b71",
+      "wrappers": [
+        "0x4a933c",
+        "0x46c310"
+      ],
+      "plaintext": "Seccomp_filters:",
+      "bytes": "536563636f6d705f66696c746572733a00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x4657c0",
+          "caller": "0x464d9c",
+          "caller_end": "0x465a4c",
+          "register_flow": {
+            "decode_callsite": "0x4657d0",
+            "wrapper": "0x46c310"
+          }
+        }
+      ]
+    },
+    {
+      "writer": "0x46c66c",
+      "data": "0x7ae880",
+      "length": 12,
+      "key": "0xf53e9eb1b253f8d",
+      "wrappers": [
+        "0x4a98ec",
+        "0x46d488"
+      ],
+      "plaintext": "NoNewPrivs:",
+      "bytes": "4e6f4e657750726976733a00",
+      "confidence": "verified_direct_register_flow",
+      "caller_evidence": [
+        {
+          "writer_callsite": "0x4657fc",
+          "caller": "0x464d9c",
+          "caller_end": "0x465a4c",
+          "register_flow": {
+            "decode_callsite": "0x46580c",
+            "wrapper": "0x46d488"
+          }
+        }
+      ]
+    }
+  ]
+}

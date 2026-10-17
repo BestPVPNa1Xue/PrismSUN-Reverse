@@ -1,0 +1,10 @@
+{
+  "addr": "0x2d9160",
+  "code": "__int64 __fastcall sub_2D9160(__int64 result)\n{\n  __int64 v1; // x19\n  int v2; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x2d9170*/\n  v2 = 955286491; /*0x2d9184*/\n  while ( v2 != 207282913 ) /*0x2d9218*/\n  {\n    if ( v2 == 955286491 ) /*0x2d9254*/\n    {\n      v2 = 1913712905; /*0x2d92a8*/\n    }\n    else\n    {\n      v1 = result; /*0x2d92c4*/\n      sub_2D94E4(result + 8); /*0x2d92cc*/\n      result = v1; /*0x2d92d0*/\n      v2 = 207282913; /*0x2d92e0*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x2d92e8*/\n  return result; /*0x2d9308*/\n}",
+  "refs": [
+    {
+      "addr": "0x2d94e4",
+      "name": "sub_2D94E4"
+    }
+  ]
+}

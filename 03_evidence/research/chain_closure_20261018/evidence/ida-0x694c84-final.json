@@ -1,0 +1,38 @@
+{
+  "addr": "0x694c84",
+  "code": "__int64 __fastcall sub_694C84(__int64 a1, unsigned __int8 a2)\n{\n  __int64 v2; // x21\n  unsigned int v3; // w20\n  __int64 result; // x0\n  unsigned __int8 v5; // [xsp-60h] [xbp-70h]\n  _BYTE v6[48]; // [xsp-50h] [xbp-60h] BYREF\n  unsigned __int8 v7; // [xsp-20h] [xbp-30h]\n  __int64 v8; // [xsp-10h] [xbp-20h]\n  __int64 v9; // [xsp+8h] [xbp-8h]\n\n  v9 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x694ca4*/\n  if ( ((((((*(_DWORD *)sub_694C84 >> 26 == 5) << 31 >> 31) /*0x694e50*/\n         + (((*(_DWORD *)sub_694C84 >> 26 == 5) ^ (*(_DWORD *)sub_694C84 >> 21 == 1697)) << 31 >> 31)) << 31 >> 31)\n       - (((*(_DWORD *)sub_694C84 >> 26 == 5) & (unsigned __int8)(*(_DWORD *)sub_694C84 >> 21 != 1697)) << 31 >> 31))\n      & 1) != 0\n    || (loc_694C88 >> 10 == 3508160) ^ (loc_694C8C >> 10 == 3508160)\n     | (loc_694C88 >> 10 == 3508160 && loc_694C8C >> 10 == 3508160) )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x694d80*/\n    abort(); /*0x694d94*/\n  }\n  v8 = a1; /*0x694ce0*/\n  v7 = a2; /*0x694ce4*/\n  v2 = ((__int64 (*)(void))loc_4EA8B8)(); /*0x694cec*/\n  v3 = v7; /*0x694cf0*/\n  sub_6B6660(v6, v5); /*0x694d00*/\n  ((void (__fastcall *)(__int64, _QWORD, _BYTE *))loc_601C58)(v2, v3, v6); /*0x694d10*/\n  result = sub_6B6664(v6); /*0x694d20*/\n  _ReadStatusReg(TPIDR_EL0); /*0x694d24*/\n  return result; /*0x694d4c*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x694c84",
+      "name": "sub_694C84"
+    },
+    {
+      "addr": "0x694c88",
+      "name": "loc_694C88"
+    },
+    {
+      "addr": "0x694c8c",
+      "name": "loc_694C8C"
+    },
+    {
+      "addr": "0x4ea8b8",
+      "name": "loc_4EA8B8"
+    },
+    {
+      "addr": "0x6b6660",
+      "name": "sub_6B6660"
+    },
+    {
+      "addr": "0x601c58",
+      "name": "loc_601C58"
+    },
+    {
+      "addr": "0x6b6664",
+      "name": "sub_6B6664"
+    }
+  ]
+}

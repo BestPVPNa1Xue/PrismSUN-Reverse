@@ -1,0 +1,4 @@
+{
+  "addr": "0x6aa91c",
+  "code": "__int64 __fastcall sub_6AA91C(int a1)\n{\n  int savedregs_4; // [xsp+24h] [xbp+4h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6aa930*/\n  savedregs_4 = -730666005; /*0x6aa93c*/\n  while ( savedregs_4 != -1397724777 ) /*0x6aa980*/\n  {\n    if ( savedregs_4 == -1115872684 ) /*0x6aa994*/\n      savedregs_4 = -1397724777; /*0x6aaa80*/\n    else\n      savedregs_4 = -1115872684; /*0x6aaa60*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6aaa88*/\n  return 35; /*0x6aaaa8*/\n}"
+}

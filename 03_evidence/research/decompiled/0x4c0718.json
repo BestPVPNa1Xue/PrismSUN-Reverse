@@ -1,0 +1,90 @@
+{
+  "addr": "0x4c0718",
+  "code": "__int64 __usercall sub_4C0718@<X0>(unsigned int a1@<W0>, __int64 a2@<X8>)\n{\n  __int64 result; // x0\n  __int64 *v3; // x26\n  __int64 v4; // x0\n  __int64 *v5; // x22\n  __int64 v6; // x19\n  __int64 *v7; // x21\n  unsigned int *v8; // x21\n  unsigned int v9; // w24\n  __int64 v10; // x0\n  __int64 *v11; // x9\n  __int64 v12; // [xsp-130h] [xbp-180h] BYREF\n  __int64 v13; // [xsp-120h] [xbp-170h] BYREF\n  __int64 v14; // [xsp-110h] [xbp-160h] BYREF\n  __int64 v15; // [xsp-100h] [xbp-150h] BYREF\n  __int64 v16; // [xsp-F0h] [xbp-140h] BYREF\n  __int64 v17; // [xsp-E0h] [xbp-130h] BYREF\n  const void *v18; // [xsp-D0h] [xbp-120h]\n  _DWORD v19[8]; // [xsp-C0h] [xbp-110h] BYREF\n  __int64 v20; // [xsp-A0h] [xbp-F0h]\n  unsigned int v21; // [xsp-90h] [xbp-E0h] BYREF\n  int v22; // [xsp-80h] [xbp-D0h]\n  int v23; // [xsp-70h] [xbp-C0h] BYREF\n  unsigned __int16 v24; // [xsp-60h] [xbp-B0h] BYREF\n  int i; // [xsp-50h] [xbp-A0h]\n  __int64 v26; // [xsp-40h] [xbp-90h] BYREF\n  __int64 v27; // [xsp-30h] [xbp-80h] BYREF\n  unsigned int v28; // [xsp-20h] [xbp-70h]\n  __int64 v29; // [xsp-10h] [xbp-60h]\n  __int64 *v30; // [xsp+0h] [xbp-50h]\n  __int64 *v31; // [xsp+8h] [xbp-48h]\n  __int64 *v32; // [xsp+10h] [xbp-40h]\n  __int64 *v33; // [xsp+18h] [xbp-38h]\n  __int64 *v34; // [xsp+20h] [xbp-30h]\n  __int64 *v35; // [xsp+28h] [xbp-28h]\n  __int64 *v36; // [xsp+30h] [xbp-20h]\n  unsigned int *v37; // [xsp+38h] [xbp-18h]\n  __int64 v38; // [xsp+40h] [xbp-10h]\n  __int64 v39; // [xsp+48h] [xbp-8h]\n\n  v39 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4c0744*/\n  if ( *(_DWORD *)sub_4C0718 >> 26 == 5 /*0x4c0d40*/\n    || *(_DWORD *)sub_4C0718 >> 21 == 1697\n    || loc_4C071C >> 10 == 3508160\n    || loc_4C0720 >> 10 == 3508160 )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x4c0c9c*/\n    sub_4C373C(); /*0x4c0cb0*/\n  }\n  v38 = a2; /*0x4c0750*/\n  v37 = (unsigned int *)&v27; /*0x4c076c*/\n  v36 = &v26; /*0x4c0778*/\n  v30 = &v17; /*0x4c07cc*/\n  v35 = &v16; /*0x4c07d8*/\n  v33 = &v15; /*0x4c07e4*/\n  v32 = &v14; /*0x4c07f0*/\n  v34 = &v13; /*0x4c07fc*/\n  v31 = &v12; /*0x4c0808*/\n  v29 = a2; /*0x4c0814*/\n  v28 = a1; /*0x4c0818*/\n  for ( i = 0; ; ++i )\n  {\n    v24 = 0; /*0x4c0824*/\n    sub_4C0D54(v28, -2LL - i, 2); /*0x4c083c*/\n    result = sub_4C0F3C(v28, &v24, 2); /*0x4c084c*/\n    if ( v24 != i\n      || ((sub_4C0D54(v28, -22, 1), v23 = 0, result = sub_4C0F3C(v28, &v23, 4), v23 != 101010256)\n        ? (v22 = 0)\n        : (v22 = 2),\n          !v22) )\n    {\n      if ( i == 0xFFFF ) /*0x4c08ec*/\n      {\n        result = sub_4C365C(v38); /*0x4c08f8*/\n        v22 = 1; /*0x4c0900*/\n      }\n      else\n      {\n        v22 = 0; /*0x4c090c*/\n      }\n    }\n    if ( v22 ) /*0x4c091c*/\n      break; /*0x4c091c*/\n  }\n  if ( v22 == 2 ) /*0x4c0944*/\n  {\n    v21 = 0; /*0x4c0948*/\n    v20 = 12; /*0x4c0950*/\n    sub_4C0D54(v28, 12, 1); /*0x4c0960*/\n    sub_4C0F3C(v28, &v21, 4); /*0x4c0970*/\n    v19[4] = 24; /*0x4c0978*/\n    sub_4C0D54(v28, v21 - 24, 0); /*0x4c0990*/\n    v3 = v36; /*0x4c0998*/\n    sub_4C3660(v28, v36, 8); /*0x4c09a4*/\n    memset(v19, 0, 0x10u); /*0x4c09b4*/\n    sub_4C0F3C(v28, v19, 16); /*0x4c09c4*/\n    v4 = ((__int64 (__fastcall *)(__int64 *))loc_4C1108)(v30); /*0x4c09cc*/\n    v18 = (const void *)((__int64 (__fastcall *)(__int64))loc_4C1CEC)(v4); /*0x4c09d4*/\n    if ( !memcmp(v19, v18, 0x10u) /*0x4c0a48*/\n      && (v5 = v35, *v35 = 0, sub_4C0D54(v28, v21 - *v3 - 8, 0), sub_4C3664(v28, v5, 8), v6 = v38, *v5 == *v3) )\n    {\n      while ( 1 ) /*0x4c0a80*/\n      {\n        sub_4C3668(v28, v3, 8); /*0x4c0a80*/\n        if ( *v3 == *v5 ) /*0x4c0a94*/\n          break; /*0x4c0a94*/\n        v7 = v33; /*0x4c0aa4*/\n        sub_4C366C(v28, v33, 4); /*0x4c0ab0*/\n        if ( *(_DWORD *)v7 == 1896449818 ) /*0x4c0ac8*/\n        {\n          v8 = v37; /*0x4c0ad4*/\n          sub_4C0F3C(v28, v37, 4); /*0x4c0ae0*/\n          sub_4C3670(v28, v8, 4); /*0x4c0af0*/\n          sub_4C0F3C(v28, v8, 4); /*0x4c0b00*/\n          sub_4C0F3C(v28, v8, 4); /*0x4c0b10*/\n          sub_4C0D54(v28, *v8, 1); /*0x4c0b20*/\n          sub_4C3674(v28, v8, 4); /*0x4c0b30*/\n          sub_4C0F3C(v28, v8, 4); /*0x4c0b40*/\n          *(_BYTE *)v32 = 0; /*0x4c0b48*/\n          sub_F7768(v6); /*0x4c0b50*/\n          sub_4C3678(v6, *v8); /*0x4c0b5c*/\n          v9 = v28; /*0x4c0b68*/\n          v10 = sub_24A758(v6); /*0x4c0b70*/\n          result = sub_4C0F3C(v9, v10, *v37); /*0x4c0b84*/\n          v11 = v32; /*0x4c0b90*/\n          *(_BYTE *)v32 = 1; /*0x4c0b94*/\n          v22 = 1; /*0x4c0b9c*/\n          if ( (*(_BYTE *)v11 & 1) == 0 ) /*0x4c0ba8*/\n            result = sub_4C36DC(v6); /*0x4c0bd4*/\n        }\n        else\n        {\n          result = sub_4C0D54(v28, *v3 - 4, 1); /*0x4c0bf0*/\n          v22 = 0; /*0x4c0bf8*/\n        }\n        if ( v22 ) /*0x4c0c08*/\n          goto LABEL_24; /*0x4c0c08*/\n      }\n      result = sub_F7768(v6); /*0x4c0c20*/\n      v22 = 1; /*0x4c0c28*/\n    }\n    else\n    {\n      result = sub_F7768(v38); /*0x4c09f4*/\n      v22 = 1; /*0x4c09fc*/\n    }\n  }\nLABEL_24:\n  _ReadStatusReg(TPIDR_EL0); /*0x4c0c48*/\n  return result; /*0x4c0c78*/\n}",
+  "refs": [
+    {
+      "addr": "0x4c373c",
+      "name": "sub_4C373C"
+    },
+    {
+      "addr": "0x4c0718",
+      "name": "sub_4C0718"
+    },
+    {
+      "addr": "0x4c071c",
+      "name": "loc_4C071C"
+    },
+    {
+      "addr": "0x4c0720",
+      "name": "loc_4C0720"
+    },
+    {
+      "addr": "0x4c0d54",
+      "name": "sub_4C0D54"
+    },
+    {
+      "addr": "0x4c0f3c",
+      "name": "sub_4C0F3C"
+    },
+    {
+      "addr": "0x4c365c",
+      "name": "sub_4C365C"
+    },
+    {
+      "addr": "0x4c3660",
+      "name": "sub_4C3660"
+    },
+    {
+      "addr": "0x78a520",
+      "name": ".memset"
+    },
+    {
+      "addr": "0x4c1108",
+      "name": "loc_4C1108"
+    },
+    {
+      "addr": "0x4c1cec",
+      "name": "loc_4C1CEC"
+    },
+    {
+      "addr": "0x4c3668",
+      "name": "sub_4C3668"
+    },
+    {
+      "addr": "0x4c366c",
+      "name": "sub_4C366C"
+    },
+    {
+      "addr": "0x4c3670",
+      "name": "sub_4C3670"
+    },
+    {
+      "addr": "0x4c3674",
+      "name": "sub_4C3674"
+    },
+    {
+      "addr": "0xf7768",
+      "name": "sub_F7768"
+    },
+    {
+      "addr": "0x4c3678",
+      "name": "sub_4C3678"
+    },
+    {
+      "addr": "0x24a758",
+      "name": "sub_24A758"
+    },
+    {
+      "addr": "0x4c36dc",
+      "name": "sub_4C36DC"
+    },
+    {
+      "addr": "0x78a640",
+      "name": ".memcmp"
+    },
+    {
+      "addr": "0x4c3664",
+      "name": "sub_4C3664"
+    }
+  ]
+}

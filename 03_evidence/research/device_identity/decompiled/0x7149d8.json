@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x7149d8\",\"code\":\"__int64 __fastcall sub_7149D8(__int64 a1)\\n{\\n  int v2; // w8\\n  int v3; // w8\\n  bool v4; // [xsp+1Eh] [xbp-2h]\\n  char v5; // [xsp+1Fh] [xbp-1h]\\n  unsigned __int64 i; // [xsp+20h] [xbp+0h]\\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\\n\\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x7149ec*/\\n  for ( i = 0xCE9ED87958E10B2BLL; ; HIDWORD(i) = -1947775717 ) /*0x7149f8*/\\n  {\\n    while ( 1 ) /*0x714ad4*/\\n    {\\n      while ( 1 ) /*0x714ac0*/\\n      {\\n        while ( 1 ) /*0x714a84*/\\n        {\\n          while ( 1 ) /*0x714a70*/\\n          {\\n            while ( 1 ) /*0x714a5c*/\\n            {\\n              while ( 1 ) /*0x714a34*/\\n              {\\n                while ( 1 ) /*0x714a20*/\\n                {\\n                  while ( HIDWORD(i) == -2074889799 ) /*0x714a20*/\\n                    HIDWORD(i) = 1786012014; /*0x714b6c*/\\n                  if ( HIDWORD(i) != -1947775717 ) /*0x714a34*/\\n                    break; /*0x714a34*/\\n                  HIDWORD(i) = -1459739199; /*0x714bdc*/\\n                }\\n                if ( HIDWORD(i) != -1459739199 ) /*0x714a5c*/\\n                  break; /*0x714a5c*/\\n                v5 = (*(_DWORD *)sub_7149D8 >> 26 == 5 && *(_DWORD *)sub_7149D8 >> 21 == 1697) /*0x714c18*/\\n                   | (*(_DWORD *)sub_7149D8 >> 26 == 5) ^ (*(_DWORD *)sub_7149D8 >> 21 == 1697);\\n                HIDWORD(i) = 706117936; /*0x714c28*/\\n              }\\n              if ( HIDWORD(i) != -828450695 ) /*0x714a70*/\\n                break; /*0x714a70*/\\n              HIDWORD(i) = -2074889799; /*0x714b58*/\\n            }\\n            if ( HIDWORD(i) != -807201955 ) /*0x714a84*/\\n              break; /*0x714a84*/\\n            v4 = loc_7149DC >> 10 == 3508160 || loc_7149E0 >> 10 == 3508160; /*0x714cb8*/\\n            HIDWORD(i) = 1233037877; /*0x714cc8*/\\n          }\\n          if ( HIDWORD(i) != 706117936 ) /*0x714ac0*/\\n            break; /*0x714ac0*/\\n          if ( (v5 & 1) != 0 ) /*0x714c4c*/\\n            v2 = 1815054115; /*0x714c4c*/\\n          else\\n            v2 = 1492941900; /*0x714c4c*/\\n          HIDWORD(i) = v2; /*0x714c54*/\\n        }\\n        if ( HIDWORD(i) != 1233037877 ) /*0x714ad4*/\\n          break; /*0x714ad4*/\\n        if ( v4 ) /*0x714cd4*/\\n          v3 = 1815054115; /*0x714cec*/\\n        else\\n          v3 = 1951910158; /*0x714cec*/\\n        HIDWORD(i) = v3; /*0x714cf4*/\\n      }\\n      if ( HIDWORD(i) != 1492941900 ) /*0x714ae8*/\\n        break; /*0x714ae8*/\\n      HIDWORD(i) = -807201955; /*0x714c68*/\\n    }\\n    if ( HIDWORD(i) != 1786012014 ) /*0x714afc*/\\n      break; /*0x714afc*/\\n  }\\n  if ( HIDWORD(i) == 1815054115 ) /*0x714b10*/\\n  {\\n    _ReadStatusReg(TPIDR_EL0); /*0x714bb8*/\\n    abort(); /*0x714bcc*/\\n  }\\n  _ReadStatusReg(TPIDR_EL0); /*0x714b94*/\\n  return 17; /*0x714bb4*/\\n}\",\"refs\":[{\"addr\":\"0x7149d8\",\"name\":\"sub_7149D8\"},{\"addr\":\"0x7149dc\",\"name\":\"loc_7149DC\"},{\"addr\":\"0x7149e0\",\"name\":\"loc_7149E0\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x7149d8",
+      "code": "__int64 __fastcall sub_7149D8(__int64 a1)\n{\n  int v2; // w8\n  int v3; // w8\n  bool v4; // [xsp+1Eh] [xbp-2h]\n  char v5; // [xsp+1Fh] [xbp-1h]\n  unsigned __int64 i; // [xsp+20h] [xbp+0h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x7149ec*/\n  for ( i = 0xCE9ED87958E10B2BLL; ; HIDWORD(i) = -1947775717 ) /*0x7149f8*/\n  {\n    while ( 1 ) /*0x714ad4*/\n    {\n      while ( 1 ) /*0x714ac0*/\n      {\n        while ( 1 ) /*0x714a84*/\n        {\n          while ( 1 ) /*0x714a70*/\n          {\n            while ( 1 ) /*0x714a5c*/\n            {\n              while ( 1 ) /*0x714a34*/\n              {\n                while ( 1 ) /*0x714a20*/\n                {\n                  while ( HIDWORD(i) == -2074889799 ) /*0x714a20*/\n                    HIDWORD(i) = 1786012014; /*0x714b6c*/\n                  if ( HIDWORD(i) != -1947775717 ) /*0x714a34*/\n                    break; /*0x714a34*/\n                  HIDWORD(i) = -1459739199; /*0x714bdc*/\n                }\n                if ( HIDWORD(i) != -1459739199 ) /*0x714a5c*/\n                  break; /*0x714a5c*/\n                v5 = (*(_DWORD *)sub_7149D8 >> 26 == 5 && *(_DWORD *)sub_7149D8 >> 21 == 1697) /*0x714c18*/\n                   | (*(_DWORD *)sub_7149D8 >> 26 == 5) ^ (*(_DWORD *)sub_7149D8 >> 21 == 1697);\n                HIDWORD(i) = 706117936; /*0x714c28*/\n              }\n              if ( HIDWORD(i) != -828450695 ) /*0x714a70*/\n                break; /*0x714a70*/\n              HIDWORD(i) = -2074889799; /*0x714b58*/\n            }\n            if ( HIDWORD(i) != -807201955 ) /*0x714a84*/\n              break; /*0x714a84*/\n            v4 = loc_7149DC >> 10 == 3508160 || loc_7149E0 >> 10 == 3508160; /*0x714cb8*/\n            HIDWORD(i) = 1233037877; /*0x714cc8*/\n          }\n          if ( HIDWORD(i) != 706117936 ) /*0x714ac0*/\n            break; /*0x714ac0*/\n          if ( (v5 & 1) != 0 ) /*0x714c4c*/\n            v2 = 1815054115; /*0x714c4c*/\n          else\n            v2 = 1492941900; /*0x714c4c*/\n          HIDWORD(i) = v2; /*0x714c54*/\n        }\n        if ( HIDWORD(i) != 1233037877 ) /*0x714ad4*/\n          break; /*0x714ad4*/\n        if ( v4 ) /*0x714cd4*/\n          v3 = 1815054115; /*0x714cec*/\n        else\n          v3 = 1951910158; /*0x714cec*/\n        HIDWORD(i) = v3; /*0x714cf4*/\n      }\n      if ( HIDWORD(i) != 1492941900 ) /*0x714ae8*/\n        break; /*0x714ae8*/\n      HIDWORD(i) = -807201955; /*0x714c68*/\n    }\n    if ( HIDWORD(i) != 1786012014 ) /*0x714afc*/\n      break; /*0x714afc*/\n  }\n  if ( HIDWORD(i) == 1815054115 ) /*0x714b10*/\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x714bb8*/\n    abort(); /*0x714bcc*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x714b94*/\n  return 17; /*0x714bb4*/\n}",
+      "refs": [
+        {
+          "addr": "0x7149d8",
+          "name": "sub_7149D8"
+        },
+        {
+          "addr": "0x7149dc",
+          "name": "loc_7149DC"
+        },
+        {
+          "addr": "0x7149e0",
+          "name": "loc_7149E0"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

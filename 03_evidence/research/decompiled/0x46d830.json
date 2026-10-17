@@ -1,0 +1,14 @@
+{
+  "addr": "0x46d830",
+  "code": "// bad sp value at call has been detected, the output may be wrong!\n__int64 __fastcall sub_46D830(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9)\n{\n  __int64 v9; // x21\n  __int64 v10; // x22\n  __int64 v11; // x8\n  __int64 result; // x0\n  _QWORD savedregs[4]; // [xsp+50h] [xbp+20h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x46d850*/\n  for ( HIDWORD(savedregs[0]) = -773350938; ; HIDWORD(savedregs[0]) = 2090765540 ) /*0x46d85c*/\n  {\n    while ( HIDWORD(savedregs[0]) == -773350938 ) /*0x46d8b4*/\n      HIDWORD(savedregs[0]) = 791876188; /*0x46d980*/\n    if ( HIDWORD(savedregs[0]) != 791876188 ) /*0x46d92c*/\n      break; /*0x46d92c*/\n    savedregs[3] = a2; /*0x46d9bc*/\n    savedregs[2] = a1; /*0x46d9c0*/\n    v9 = a1; /*0x46d9c4*/\n    v10 = a2; /*0x46d9cc*/\n    ((void (__fastcall *)(__int64 *))loc_4A25FC)(&a9); /*0x46d9d0*/\n    sub_4BDE04(&a9, &savedregs[2]); /*0x46d9dc*/\n    a2 = v10; /*0x46d9e0*/\n    a1 = v9; /*0x46d9e4*/\n    v11 = savedregs[2]; /*0x46d9e8*/\n    savedregs[2] = savedregs[3]; /*0x46d9f0*/\n    savedregs[1] = v11; /*0x46d9f4*/\n  }\n  result = savedregs[1]; /*0x46da10*/\n  _ReadStatusReg(TPIDR_EL0); /*0x46da14*/\n  return result; /*0x46da3c*/\n}",
+  "refs": [
+    {
+      "addr": "0x4a25fc",
+      "name": "loc_4A25FC"
+    },
+    {
+      "addr": "0x4bde04",
+      "name": "sub_4BDE04"
+    }
+  ]
+}

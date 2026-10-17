@@ -1,0 +1,58 @@
+{
+  "initializer": {
+    "entry": "0x6fe530",
+    "reason": "returned",
+    "steps": 18514,
+    "return": 538963712,
+    "pc": "0x32000000",
+    "calls": [
+      "0x4ea8b8",
+      "0x601c58"
+    ]
+  },
+  "registrations": [
+    {
+      "key": 17,
+      "vtable": "0x793f68",
+      "invoke": "0x70294c"
+    }
+  ],
+  "factory": {
+    "entry": "0x70294c",
+    "reason": "returned",
+    "steps": 14486,
+    "return": 538963680,
+    "pc": "0x32000000",
+    "calls": [
+      "0x78a720",
+      "0x78a520"
+    ]
+  },
+  "checker_vtable": "0x793fb0",
+  "execute_slot": "0x7153a8",
+  "name_run": {
+    "entry": "0x7144a0",
+    "reason": "returned",
+    "steps": 28874,
+    "return": 822116353,
+    "pc": "0x32000000",
+    "calls": [
+      "0x785874",
+      "0x785874",
+      "0x784fd4",
+      "0x785874",
+      "0x785874",
+      "0x78a4e0",
+      "0x78a500"
+    ]
+  },
+  "name": "ClientPropsChecker",
+  "task_id_run": {
+    "entry": "0x7149d8",
+    "reason": "returned",
+    "steps": 503,
+    "return": 17,
+    "pc": "0x32000000",
+    "calls": []
+  }
+}

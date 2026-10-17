@@ -1,0 +1,70 @@
+{
+  "addr": "0xcf83c",
+  "code": "__int64 __usercall sub_CF83C@<X0>(__int64 a1@<X0>, __int64 a2@<X1>, char a3@<W2>, __int64 a4@<X8>)\n{\n  bool v4; // zf\n  __int64 result; // x0\n  __int64 v10; // x0\n\n  v4 = *(_DWORD *)sub_CF83C >> 26 == 5 || (*(_DWORD *)sub_CF83C & 0xFFE00000) == -736100352; /*0xcf868*/\n  if ( v4 /*0xcf970*/\n    || loc_CF840 >> 10 == 3508160\n    || (loc_CF844 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_BDE20 >> 26 == 5\n    || (*(_DWORD *)sub_BDE20 & 0xFFE00000) == 0xD4200000\n    || (loc_BDE24 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_BDE28 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_BDE80 >> 26 == 5\n    || (*(_DWORD *)sub_BDE80 & 0xFFE00000) == 0xD4200000\n    || (loc_BDE84 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_BDE88 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_F65FC >> 26 == 5\n    || (*(_DWORD *)sub_F65FC & 0xFFE00000) == 0xD4200000\n    || (loc_F6600 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_F6604 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0xcf9b0*/\n  }\n  result = sub_CF60C(a4, 2 * a2, 0); /*0xcf980*/\n  if ( a2 ) /*0xcf984*/\n  {\n    v10 = sub_12EB90(a4); /*0xcf98c*/\n    return sub_11DA20(v10, a1, a2, a3 & 1); /*0xcf99c*/\n  }\n  return result; /*0xcf9ac*/\n}",
+  "refs": [
+    {
+      "addr": "0xcf83c",
+      "name": "sub_CF83C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0xcf840",
+      "name": "loc_CF840"
+    },
+    {
+      "addr": "0xcf844",
+      "name": "loc_CF844"
+    },
+    {
+      "addr": "0xbde20",
+      "name": "sub_BDE20"
+    },
+    {
+      "addr": "0xbde24",
+      "name": "loc_BDE24"
+    },
+    {
+      "addr": "0xbde28",
+      "name": "loc_BDE28"
+    },
+    {
+      "addr": "0xbde80",
+      "name": "sub_BDE80"
+    },
+    {
+      "addr": "0xbde84",
+      "name": "loc_BDE84"
+    },
+    {
+      "addr": "0xbde88",
+      "name": "loc_BDE88"
+    },
+    {
+      "addr": "0xf65fc",
+      "name": "sub_F65FC"
+    },
+    {
+      "addr": "0xf6600",
+      "name": "loc_F6600"
+    },
+    {
+      "addr": "0xf6604",
+      "name": "loc_F6604"
+    },
+    {
+      "addr": "0xcf60c",
+      "name": "sub_CF60C"
+    },
+    {
+      "addr": "0x12eb90",
+      "name": "sub_12EB90"
+    },
+    {
+      "addr": "0x11da20",
+      "name": "sub_11DA20"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "ndk": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "outputs": [
+    {
+      "Path": "D:\\PrismSUN\\research\\device_identity\\build\\host\\prism_identity.exe",
+      "Hash": "0FB0E6BEB82C822DEE7FCE355AC4BE7C693B2349F4EBBAA98C8166F5A60618C1"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\device_identity\\build\\android-arm64\\prism_identity",
+      "Hash": "EB3213AAD47C21B702E1239837BAEA2D3F11030F4458FB6B1F23B8B030CF65D0"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\device_identity\\build\\android-arm64\\libprism_identity.so",
+      "Hash": "5A5595237DE82D332317F0F0E54E99A00645454F74FC93A6796A1CDDBE0B7FB4"
+    }
+  ],
+  "hostCompiler": "D:\\msys64\\ucrt64\\bin\\g++.exe",
+  "androidTarget": "aarch64-linux-android24"
+}

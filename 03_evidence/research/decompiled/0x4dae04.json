@@ -1,0 +1,4 @@
+{
+  "addr": "0x4dae04",
+  "code": "__int64 __fastcall sub_4DAE04(__int64 *a1)\n{\n  __int64 result; // x0\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4dae18*/\n  result = *a1; /*0x4daf10*/\n  _ReadStatusReg(TPIDR_EL0); /*0x4daf14*/\n  return result; /*0x4daf30*/\n}"
+}

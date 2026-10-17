@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6b7508\",\"code\":\"void sub_6B7508()\\n{\\n  unsigned __int64 savedregs; // [xsp+20h] [xbp+0h]\\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\\n\\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6b751c*/\\n  savedregs = 0xF1EBA25700000000LL; /*0x6b7520*/\\n  while ( 1 ) /*0x6b755c*/\\n  {\\n    while ( HIDWORD(savedregs) == -1400361592 ) /*0x6b755c*/\\n      HIDWORD(savedregs) = 990054699; /*0x6b777c*/\\n    switch ( HIDWORD(savedregs) ) /*0x6b7570*/\\n    {\\n      case 0xBECDEC5A: /*0x6b7570*/\\n        HIDWORD(savedregs) = 909243560; /*0x6b76d0*/\\n        break;\\n      case 0xF1EBA257: /*0x6b7570*/\\n        HIDWORD(savedregs) = -1093800870; /*0x6b76bc*/\\n        break;\\n      case 0x3631F4A8: /*0x6b7570*/\\n        HIDWORD(savedregs) = -1400361592; /*0x6b76e4*/\\n        break;\\n      case 0x3B03092B: /*0x6b7570*/\\n        HIDWORD(savedregs) = 1468013870; /*0x6b77d8*/\\n        break;\\n      default:\\n        JUMPOUT(0x6B77F8); /*0x6b77f8*/\\n    }\\n  }\\n}\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6b7508",
+      "code": "void sub_6B7508()\n{\n  unsigned __int64 savedregs; // [xsp+20h] [xbp+0h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6b751c*/\n  savedregs = 0xF1EBA25700000000LL; /*0x6b7520*/\n  while ( 1 ) /*0x6b755c*/\n  {\n    while ( HIDWORD(savedregs) == -1400361592 ) /*0x6b755c*/\n      HIDWORD(savedregs) = 990054699; /*0x6b777c*/\n    switch ( HIDWORD(savedregs) ) /*0x6b7570*/\n    {\n      case 0xBECDEC5A: /*0x6b7570*/\n        HIDWORD(savedregs) = 909243560; /*0x6b76d0*/\n        break;\n      case 0xF1EBA257: /*0x6b7570*/\n        HIDWORD(savedregs) = -1093800870; /*0x6b76bc*/\n        break;\n      case 0x3631F4A8: /*0x6b7570*/\n        HIDWORD(savedregs) = -1400361592; /*0x6b76e4*/\n        break;\n      case 0x3B03092B: /*0x6b7570*/\n        HIDWORD(savedregs) = 1468013870; /*0x6b77d8*/\n        break;\n      default:\n        JUMPOUT(0x6B77F8); /*0x6b77f8*/\n    }\n  }\n}"
+    },
+    "isError": false
+  },
+  "id": 1
+}

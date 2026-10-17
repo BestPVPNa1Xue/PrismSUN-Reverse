@@ -1,0 +1,4 @@
+{
+  "addr": "0x47f2c8",
+  "code": "bool __fastcall sub_47F2C8(unsigned __int8 a1)\n{\n  bool v2; // [xsp+17h] [xbp-9h]\n  int i; // [xsp+24h] [xbp+4h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x47f2dc*/\n  for ( i = -1279289588; ; i = 963362826 ) /*0x47f2e8*/\n  {\n    while ( i == -1279289588 ) /*0x47f368*/\n      i = 1086657646; /*0x47f40c*/\n    if ( i == 963362826 ) /*0x47f390*/\n      break; /*0x47f390*/\n    v2 = a1 < 0xAu; /*0x47f430*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x47f450*/\n  return v2; /*0x47f470*/\n}"
+}

@@ -1,0 +1,22 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x5b7cd4\",\"start\":\"0x5b7cd4\",\"error\":\"Function already exists at this address\"}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x5b7cd4",
+          "start": "0x5b7cd4",
+          "error": "Function already exists at this address"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

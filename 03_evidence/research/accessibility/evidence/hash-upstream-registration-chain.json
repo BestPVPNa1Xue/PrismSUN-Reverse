@@ -1,0 +1,252 @@
+[
+  {
+    "target": "0x6b98a4",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6b98a4\",\"xrefs\":[{\"addr\":\"0x6b8630\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6b88ac\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6b9974\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b98a4\",\"name\":\"sub_6B98A4\",\"size\":\"0x170\"}},{\"addr\":\"0x6b99a8\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b98a4\",\"name\":\"sub_6B98A4\",\"size\":\"0x170\"}},{\"addr\":\"0x6b99c8\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b98a4\",\"name\":\"sub_6B98A4\",\"size\":\"0x170\"}}],\"more\":false,\"xref_count\":5}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6b98a4",
+              "xrefs": [
+                {
+                  "addr": "0x6b8630",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6b88ac",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6b9974",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b98a4",
+                    "name": "sub_6B98A4",
+                    "size": "0x170"
+                  }
+                },
+                {
+                  "addr": "0x6b99a8",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b98a4",
+                    "name": "sub_6B98A4",
+                    "size": "0x170"
+                  }
+                },
+                {
+                  "addr": "0x6b99c8",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b98a4",
+                    "name": "sub_6B98A4",
+                    "size": "0x170"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 5
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7045756,
+        "end": 7047464,
+        "size": 1708
+      }
+    ]
+  },
+  {
+    "target": "0x6b827c",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6b827c\",\"xrefs\":[{\"addr\":\"0x6dd5dc\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6dd5dc\",\"name\":\"sub_6DD5DC\",\"size\":\"0x4\"}},{\"addr\":\"0x6b86fc\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b827c\",\"name\":\"sub_6B827C\",\"size\":\"0x6ac\"}},{\"addr\":\"0x6b8770\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b827c\",\"name\":\"sub_6B827C\",\"size\":\"0x6ac\"}},{\"addr\":\"0x6b8790\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b827c\",\"name\":\"sub_6B827C\",\"size\":\"0x6ac\"}}],\"more\":false,\"xref_count\":4}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6b827c",
+              "xrefs": [
+                {
+                  "addr": "0x6dd5dc",
+                  "type": "code",
+                  "fn": {
+                    "addr": "0x6dd5dc",
+                    "name": "sub_6DD5DC",
+                    "size": "0x4"
+                  }
+                },
+                {
+                  "addr": "0x6b86fc",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b827c",
+                    "name": "sub_6B827C",
+                    "size": "0x6ac"
+                  }
+                },
+                {
+                  "addr": "0x6b8770",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b827c",
+                    "name": "sub_6B827C",
+                    "size": "0x6ac"
+                  }
+                },
+                {
+                  "addr": "0x6b8790",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b827c",
+                    "name": "sub_6B827C",
+                    "size": "0x6ac"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 4
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7198172,
+        "end": 7198176,
+        "size": 4
+      }
+    ]
+  },
+  {
+    "target": "0x6dd5dc",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6dd5dc\",\"xrefs\":[{\"addr\":\"0x6b7b58\",\"type\":\"code\",\"fn\":null}],\"more\":false,\"xref_count\":1}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6dd5dc",
+              "xrefs": [
+                {
+                  "addr": "0x6b7b58",
+                  "type": "code",
+                  "fn": null
+                }
+              ],
+              "more": false,
+              "xref_count": 1
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7043368,
+        "end": 7044528,
+        "size": 1160
+      }
+    ]
+  },
+  {
+    "target": "0x6b7928",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6b7928\",\"xrefs\":[{\"addr\":\"0x6dd5cc\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6dd5cc\",\"name\":\"sub_6DD5CC\",\"size\":\"0x4\"}},{\"addr\":\"0x6b7bdc\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7928\",\"name\":\"sub_6B7928\",\"size\":\"0x488\"}},{\"addr\":\"0x6b7c80\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7928\",\"name\":\"sub_6B7928\",\"size\":\"0x488\"}},{\"addr\":\"0x6b7ca0\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7928\",\"name\":\"sub_6B7928\",\"size\":\"0x488\"}}],\"more\":false,\"xref_count\":4}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6b7928",
+              "xrefs": [
+                {
+                  "addr": "0x6dd5cc",
+                  "type": "code",
+                  "fn": {
+                    "addr": "0x6dd5cc",
+                    "name": "sub_6DD5CC",
+                    "size": "0x4"
+                  }
+                },
+                {
+                  "addr": "0x6b7bdc",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7928",
+                    "name": "sub_6B7928",
+                    "size": "0x488"
+                  }
+                },
+                {
+                  "addr": "0x6b7c80",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7928",
+                    "name": "sub_6B7928",
+                    "size": "0x488"
+                  }
+                },
+                {
+                  "addr": "0x6b7ca0",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7928",
+                    "name": "sub_6B7928",
+                    "size": "0x488"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 4
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7198156,
+        "end": 7198160,
+        "size": 4
+      }
+    ]
+  }
+]

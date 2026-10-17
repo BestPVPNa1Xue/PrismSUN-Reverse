@@ -1,0 +1,87 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x109f10\",\"code\":\"__int64 __usercall sub_109F10@<X0>(__int64 a1@<X0>, __int64 a2@<X1>, __int64 a3@<X2>, __int64 a4@<X3>, __int64 a5@<X8>)\\n{\\n  bool v5; // zf\\n  __int64 result; // x0\\n  __int64 v8; // x19\\n  __int64 v9; // x7\\n  _QWORD v10[2]; // [xsp-50h] [xbp-60h] BYREF\\n  __int128 v11; // [xsp-40h] [xbp-50h]\\n  __int128 v12; // [xsp-30h] [xbp-40h]\\n  __int128 v13; // [xsp-20h] [xbp-30h]\\n  __int128 v14; // [xsp-10h] [xbp-20h]\\n  __int64 v15; // [xsp+8h] [xbp-8h]\\n\\n  v15 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x109f3c*/\\n  v5 = *(_DWORD *)sub_109F10 >> 26 == 5 || (*(_DWORD *)sub_109F10 & 0xFFE00000) == -736100352; /*0x109f58*/\\n  if ( v5 || loc_109F14 >> 10 == 3508160 || (loc_109F18 & 0xFFFFFC00) == 0xD61F0000 ) /*0x109f88*/\\n    goto LABEL_9; /*0x109f88*/\\n  *(_QWORD *)&v14 = a1; /*0x109fd4*/\\n  *((_QWORD *)&v14 + 1) = a2; /*0x109fd4*/\\n  *(_QWORD *)&v13 = a3; /*0x109fd8*/\\n  *((_QWORD *)&v13 + 1) = a4; /*0x109fd8*/\\n  v12 = v14; /*0x109fe8*/\\n  v11 = v13; /*0x109fec*/\\n  sub_12D0D4(a1, a2, a3, a4); /*0x109ff8*/\\n  result = sub_12E8F4(a5); /*0x10a000*/\\n  if ( (result & 1) == 0 ) /*0x10a004*/\\n  {\\n    if ( *(_DWORD *)sub_10AD04 >> 26 != 5 /*0x10a08c*/\\n      && (*(_DWORD *)sub_10AD04 & 0xFFE00000) != 0xD4200000\\n      && (loc_10AD08 & 0xFFFFFC00) != 0xD61F0000\\n      && (loc_10AD0C & 0xFFFFFC00) != 0xD61F0000 )\\n    {\\n      sub_244384(a5, 0); /*0x10a098*/\\n      v8 = sub_783DB4(32); /*0x10a0a4*/\\n      sub_B6704(v10, &byte_34073); /*0x10a0b4*/\\n      sub_187B30( /*0x10a0d8*/\\n        v8,\\n        v10[0],\\n        v10[1],\\n        v14,\\n        *((_QWORD *)&v14 + 1),\\n        v13,\\n        *((_QWORD *)&v13 + 1),\\n        v9,\\n        v13,\\n        *((_QWORD *)&v13 + 1),\\n        v14,\\n        *((_QWORD *)&v14 + 1));\\n      sub_783ED4(v8, &`typeinfo for'Botan::Lookup_Error, sub_19B384); /*0x10a100*/\\n    }\\nLABEL_9:\\n    abort(); /*0x10a048*/\\n  }\\n  return result; /*0x10a034*/\\n}\",\"refs\":[{\"addr\":\"0x109f10\",\"name\":\"sub_109F10\"},{\"addr\":\"0x109f14\",\"name\":\"loc_109F14\"},{\"addr\":\"0x109f18\",\"name\":\"loc_109F18\"},{\"addr\":\"0x12d0d4\",\"name\":\"sub_12D0D4\"},{\"addr\":\"0x12e8f4\",\"name\":\"sub_12E8F4\"},{\"addr\":\"0x244384\",\"name\":\"sub_244384\"},{\"addr\":\"0x783db4\",\"name\":\"sub_783DB4\"},{\"addr\":\"0xb6704\",\"name\":\"sub_B6704\"},{\"addr\":\"0x34073\",\"name\":\"byte_34073\"},{\"addr\":\"0x187b30\",\"name\":\"sub_187B30\"},{\"addr\":\"0x783ed4\",\"name\":\"sub_783ED4\"},{\"addr\":\"0x78ec90\",\"name\":\"_ZTIN5Botan12Lookup_ErrorE\"},{\"addr\":\"0x19b384\",\"name\":\"sub_19B384\"},{\"addr\":\"0x10ad04\",\"name\":\"sub_10AD04\"},{\"addr\":\"0x10ad08\",\"name\":\"loc_10AD08\"},{\"addr\":\"0x10ad0c\",\"name\":\"loc_10AD0C\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x109f10",
+      "code": "__int64 __usercall sub_109F10@<X0>(__int64 a1@<X0>, __int64 a2@<X1>, __int64 a3@<X2>, __int64 a4@<X3>, __int64 a5@<X8>)\n{\n  bool v5; // zf\n  __int64 result; // x0\n  __int64 v8; // x19\n  __int64 v9; // x7\n  _QWORD v10[2]; // [xsp-50h] [xbp-60h] BYREF\n  __int128 v11; // [xsp-40h] [xbp-50h]\n  __int128 v12; // [xsp-30h] [xbp-40h]\n  __int128 v13; // [xsp-20h] [xbp-30h]\n  __int128 v14; // [xsp-10h] [xbp-20h]\n  __int64 v15; // [xsp+8h] [xbp-8h]\n\n  v15 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x109f3c*/\n  v5 = *(_DWORD *)sub_109F10 >> 26 == 5 || (*(_DWORD *)sub_109F10 & 0xFFE00000) == -736100352; /*0x109f58*/\n  if ( v5 || loc_109F14 >> 10 == 3508160 || (loc_109F18 & 0xFFFFFC00) == 0xD61F0000 ) /*0x109f88*/\n    goto LABEL_9; /*0x109f88*/\n  *(_QWORD *)&v14 = a1; /*0x109fd4*/\n  *((_QWORD *)&v14 + 1) = a2; /*0x109fd4*/\n  *(_QWORD *)&v13 = a3; /*0x109fd8*/\n  *((_QWORD *)&v13 + 1) = a4; /*0x109fd8*/\n  v12 = v14; /*0x109fe8*/\n  v11 = v13; /*0x109fec*/\n  sub_12D0D4(a1, a2, a3, a4); /*0x109ff8*/\n  result = sub_12E8F4(a5); /*0x10a000*/\n  if ( (result & 1) == 0 ) /*0x10a004*/\n  {\n    if ( *(_DWORD *)sub_10AD04 >> 26 != 5 /*0x10a08c*/\n      && (*(_DWORD *)sub_10AD04 & 0xFFE00000) != 0xD4200000\n      && (loc_10AD08 & 0xFFFFFC00) != 0xD61F0000\n      && (loc_10AD0C & 0xFFFFFC00) != 0xD61F0000 )\n    {\n      sub_244384(a5, 0); /*0x10a098*/\n      v8 = sub_783DB4(32); /*0x10a0a4*/\n      sub_B6704(v10, &byte_34073); /*0x10a0b4*/\n      sub_187B30( /*0x10a0d8*/\n        v8,\n        v10[0],\n        v10[1],\n        v14,\n        *((_QWORD *)&v14 + 1),\n        v13,\n        *((_QWORD *)&v13 + 1),\n        v9,\n        v13,\n        *((_QWORD *)&v13 + 1),\n        v14,\n        *((_QWORD *)&v14 + 1));\n      sub_783ED4(v8, &`typeinfo for'Botan::Lookup_Error, sub_19B384); /*0x10a100*/\n    }\nLABEL_9:\n    abort(); /*0x10a048*/\n  }\n  return result; /*0x10a034*/\n}",
+      "refs": [
+        {
+          "addr": "0x109f10",
+          "name": "sub_109F10"
+        },
+        {
+          "addr": "0x109f14",
+          "name": "loc_109F14"
+        },
+        {
+          "addr": "0x109f18",
+          "name": "loc_109F18"
+        },
+        {
+          "addr": "0x12d0d4",
+          "name": "sub_12D0D4"
+        },
+        {
+          "addr": "0x12e8f4",
+          "name": "sub_12E8F4"
+        },
+        {
+          "addr": "0x244384",
+          "name": "sub_244384"
+        },
+        {
+          "addr": "0x783db4",
+          "name": "sub_783DB4"
+        },
+        {
+          "addr": "0xb6704",
+          "name": "sub_B6704"
+        },
+        {
+          "addr": "0x34073",
+          "name": "byte_34073"
+        },
+        {
+          "addr": "0x187b30",
+          "name": "sub_187B30"
+        },
+        {
+          "addr": "0x783ed4",
+          "name": "sub_783ED4"
+        },
+        {
+          "addr": "0x78ec90",
+          "name": "_ZTIN5Botan12Lookup_ErrorE"
+        },
+        {
+          "addr": "0x19b384",
+          "name": "sub_19B384"
+        },
+        {
+          "addr": "0x10ad04",
+          "name": "sub_10AD04"
+        },
+        {
+          "addr": "0x10ad08",
+          "name": "loc_10AD08"
+        },
+        {
+          "addr": "0x10ad0c",
+          "name": "loc_10AD0C"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

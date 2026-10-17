@@ -1,0 +1,46 @@
+{
+  "addr": "0x468a48",
+  "code": "__int64 __fastcall sub_468A48(\n        __int64 a1,\n        _QWORD *a2,\n        __int64 *a3,\n        _DWORD *a4,\n        __int64 a5,\n        _QWORD *a6,\n        __int64 a7,\n        _QWORD *a8,\n        _QWORD *a9)\n{\n  char v9; // w10\n  _QWORD *v10; // x12\n  _QWORD *v11; // x14\n  _QWORD **v12; // x15\n  __int64 v13; // x16\n  __int64 v14; // x21\n  bool v15; // w22\n  bool v16; // w23\n  unsigned __int64 v17; // x25\n  bool v18; // w26\n  char **v19; // x27\n  _QWORD *v20; // x28\n  int v22; // w8\n  __int64 v23; // x11\n  char v24; // w13\n  __int64 v25; // x13\n  _BYTE *v26; // x11\n  _QWORD *v27; // x11\n  int v28; // w24\n  _BYTE *v29; // x11\n  char v30; // w16\n  _BYTE *v31; // x17\n  int v32; // w16\n  unsigned __int8 *v33; // x1\n  int v34; // w8\n  int v35; // w8\n  int v36; // w8\n  int v37; // w8\n  int v38; // w8\n  __int64 result; // x0\n  int v40; // w8\n  int v41; // w8\n  int v42; // [xsp+70h] [xbp-10h]\n  bool v43; // [xsp+74h] [xbp-Ch]\n  _BYTE *v44; // [xsp+78h] [xbp-8h]\n  _QWORD savedregs[12]; // [x... [69485 chars total]",
+  "refs": [
+    {
+      "addr": "0x4ba304",
+      "name": "sub_4BA304"
+    },
+    {
+      "addr": "0x468a4c",
+      "name": "loc_468A4C"
+    },
+    {
+      "addr": "0x468a50",
+      "name": "loc_468A50"
+    },
+    {
+      "addr": "0x4bab9c",
+      "name": "sub_4BAB9C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x4762b8",
+      "name": "loc_4762B8"
+    },
+    {
+      "addr": "0x4762bc",
+      "name": "loc_4762BC"
+    },
+    {
+      "addr": "0x4762b4",
+      "name": "loc_4762B4"
+    },
+    {
+      "addr": "0x4826ec",
+      "name": "loc_4826EC"
+    },
+    {
+      "addr": "0x4826f0",
+      "name": "loc_4826F0"
+    }
+  ]
+}

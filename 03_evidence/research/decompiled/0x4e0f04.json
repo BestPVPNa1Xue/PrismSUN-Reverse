@@ -1,0 +1,10 @@
+{
+  "addr": "0x4e0f04",
+  "code": "__int64 __fastcall sub_4E0F04(__int64 a1)\n{\n  __int64 result; // x0\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4e0f18*/\n  result = sub_74539C(a1 + 8); /*0x4e1050*/\n  _ReadStatusReg(TPIDR_EL0); /*0x4e1054*/\n  return result; /*0x4e1070*/\n}",
+  "refs": [
+    {
+      "addr": "0x74539c",
+      "name": "sub_74539C"
+    }
+  ]
+}

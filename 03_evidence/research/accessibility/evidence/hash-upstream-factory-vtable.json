@@ -1,0 +1,99 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"addr\":\"0x793da0\",\"xrefs\":[{\"addr\":\"0x6b9910\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b98a4\",\"name\":\"sub_6B98A4\",\"size\":\"0x170\"}},{\"addr\":\"0x6b9914\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b98a4\",\"name\":\"sub_6B98A4\",\"size\":\"0x170\"}},{\"addr\":\"0x6c0620\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6c05b4\",\"name\":\"sub_6C05B4\",\"size\":\"0x170\"}},{\"addr\":\"0x6c0624\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6c05b4\",\"name\":\"sub_6C05B4\",\"size\":\"0x170\"}},{\"addr\":\"0x6c814c\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6c80e0\",\"name\":\"sub_6C80E0\",\"size\":\"0x148\"}},{\"addr\":\"0x6c8150\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6c80e0\",\"name\":\"sub_6C80E0\",\"size\":\"0x148\"}}],\"more\":false,\"xref_count\":6},{\"addr\":\"0x793da8\",\"xrefs\":[],\"more\":false,\"xref_count\":0,\"message\":\"No cross-references to this address\"},{\"addr\":\"0x793db0\",\"xrefs\":[],\"more\":false,\"xref_count\":0,\"message\":\"No cross-references to this address\"},{\"addr\":\"0x793db8\",\"xrefs\":[],\"more\":false,\"xref_count\":0,\"message\":\"No cross-references to this address\"}]"
+      }
+    ],
+    "structuredContent": {
+      "result": [
+        {
+          "addr": "0x793da0",
+          "xrefs": [
+            {
+              "addr": "0x6b9910",
+              "type": "data",
+              "fn": {
+                "addr": "0x6b98a4",
+                "name": "sub_6B98A4",
+                "size": "0x170"
+              }
+            },
+            {
+              "addr": "0x6b9914",
+              "type": "data",
+              "fn": {
+                "addr": "0x6b98a4",
+                "name": "sub_6B98A4",
+                "size": "0x170"
+              }
+            },
+            {
+              "addr": "0x6c0620",
+              "type": "data",
+              "fn": {
+                "addr": "0x6c05b4",
+                "name": "sub_6C05B4",
+                "size": "0x170"
+              }
+            },
+            {
+              "addr": "0x6c0624",
+              "type": "data",
+              "fn": {
+                "addr": "0x6c05b4",
+                "name": "sub_6C05B4",
+                "size": "0x170"
+              }
+            },
+            {
+              "addr": "0x6c814c",
+              "type": "data",
+              "fn": {
+                "addr": "0x6c80e0",
+                "name": "sub_6C80E0",
+                "size": "0x148"
+              }
+            },
+            {
+              "addr": "0x6c8150",
+              "type": "data",
+              "fn": {
+                "addr": "0x6c80e0",
+                "name": "sub_6C80E0",
+                "size": "0x148"
+              }
+            }
+          ],
+          "more": false,
+          "xref_count": 6
+        },
+        {
+          "addr": "0x793da8",
+          "xrefs": [],
+          "more": false,
+          "xref_count": 0,
+          "message": "No cross-references to this address"
+        },
+        {
+          "addr": "0x793db0",
+          "xrefs": [],
+          "more": false,
+          "xref_count": 0,
+          "message": "No cross-references to this address"
+        },
+        {
+          "addr": "0x793db8",
+          "xrefs": [],
+          "more": false,
+          "xref_count": 0,
+          "message": "No cross-references to this address"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

@@ -1,0 +1,170 @@
+{
+  "addr": "0x6f4218",
+  "code": "__int64 __usercall sub_6F4218@<X0>(__int64 a1@<X0>, __int64 a2@<X1>, __int64 a3@<X8>)\n{\n  __int64 v3; // x2\n  __int64 v4; // x3\n  __int64 v5; // x4\n  __int64 v6; // x5\n  __int64 v7; // x6\n  __int64 v8; // x7\n  __int64 v9; // x0\n  __int64 v10; // x0\n  __int64 v11; // x0\n  __int64 v12; // x0\n  __int64 v13; // x0\n  unsigned int v14; // w27\n  __int64 *v15; // x20\n  __int64 *v16; // x22\n  __int64 *v17; // x26\n  __int64 *v18; // x23\n  __int64 v19; // x0\n  __int64 *v20; // x27\n  __int64 v21; // x23\n  __int64 v22; // x0\n  __int64 v23; // x1\n  unsigned int v24; // w23\n  unsigned int *v25; // x8\n  unsigned int *v26; // x23\n  _QWORD *v27; // x22\n  unsigned __int64 v28; // x0\n  __n128 v29; // q5\n  unsigned int v30; // w19\n  unsigned __int64 v31; // x0\n  __n128 v32; // q5\n  __int64 result; // x0\n  __int64 v34; // [xsp-1B0h] [xbp-220h] BYREF\n  __int64 v35; // [xsp-190h] [xbp-200h] BYREF\n  __int64 v36; // [xsp-180h] [xbp-1F0h] BYREF\n  __int64 v37; // [xsp-170h] [xbp-1E0h] BYREF\n  __int64 v38; // [xsp-160h] [xbp-1D0h] BYREF\n  __int64 v39; // [xsp-150h] [xbp-1C0h] BYREF\n  _BYTE v40[32]; // [xsp-140h] [xbp-1B0h] BYREF\n  __int64 v41; // [xsp-120h] [xbp-190h]\n  __int64 v42; // [xsp-110h] [xbp-180h] BYREF\n  __int64 v43; // [xsp-100h] [xbp-170h] BYREF\n  __int64 v44; // [xsp-E0h] [xbp-150h] BYREF\n  __int64 v45; // [xsp-D0h] [xbp-140h] BYREF\n  _QWORD v46[4]; // [xsp-A0h] [xbp-110h] BYREF\n  _BYTE v47[32]; // [xsp-80h] [xbp-F0h] BYREF\n  __int64 v48[2]; // [xsp-60h] [xbp-D0h] BYREF\n  char v49; // [xsp-50h] [xbp-C0h] BYREF\n  _QWORD v50[9]; // [xsp-40h] [xbp-B0h] BYREF\n  __int64 *v51; // [xsp+8h] [xbp-68h]\n  __int64 *v52; // [xsp+10h] [xbp-60h]\n  __int64 *v53; // [xsp+18h] [xbp-58h]\n  __int64 *v54; // [xsp+20h] [xbp-50h]\n  __int64 *v55; // [xsp+28h] [xbp-48h]\n  __int64 *v56; // [xsp+30h] [xbp-40h]\n  __int64 *v57; // [xsp+38h] [xbp-38h]\n  unsigned int *v58; // [xsp+40h] [xbp-30h]\n  char *v59; // [xsp+48h] [xbp-28h]\n  _QWORD *v60; // [xsp+50h] [xbp-20h]\n  __int64 *v61; // [xsp+58h] [xbp-18h]\n  __int64 v62; // [xsp+60h] [xbp-10h]\n  __int64 v63; // [xsp+68h] [xbp-8h]\n\n  v63 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6f4244*/\n  if ( (*(_DWORD *)sub_6F4218 >> 26 != 5) ^ (*(_DWORD *)sub_6F4218 >> 21 != 1697) /*0x6f481c*/\n     | (*(_DWORD *)sub_6F4218 >> 26 == 5 && *(_DWORD *)sub_6F4218 >> 21 == 1697)\n    || (loc_6F421C >> 10 == 3508160 && loc_6F4220 >> 10 == 3508160)\n     | (loc_6F421C >> 10 == 3508160) ^ (loc_6F4220 >> 10 == 3508160) )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x6f4760*/\n    abort(); /*0x6f4774*/\n  }\n  v60 = v50; /*0x6f427c*/\n  v59 = &v49; /*0x6f428c*/\n  v51 = &v45; /*0x6f42c0*/\n  v52 = &v43; /*0x6f42d4*/\n  v61 = &v42; /*0x6f42e0*/\n  v53 = &v39; /*0x6f42fc*/\n  v56 = &v38; /*0x6f4308*/\n  v55 = &v37; /*0x6f4314*/\n  v54 = &v36; /*0x6f4320*/\n  v58 = (unsigned int *)&v35; /*0x6f432c*/\n  v57 = &v34; /*0x6f4338*/\n  v62 = a3; /*0x6f4340*/\n  v50[6] = a3; /*0x6f4344*/\n  v50[4] = a1; /*0x6f4348*/\n  v50[2] = a2; /*0x6f434c*/\n  v50[0] = sub_3B8C40(a1); /*0x6f4354*/\n  v9 = sub_4181A0(v50[0] + 564LL, 5u, v3, v4, v5, v6, v7, v8, v34); /*0x6f4368*/\n  v49 = v9 & 1; /*0x6f4370*/\n  v10 = sub_6FDFA4(v9); /*0x6f4374*/\n  sub_4DAA54(v48, v10); /*0x6f4380*/\n  v11 = sub_10272C(v47); /*0x6f4388*/\n  ((void (__fastcall *)(_QWORD *__return_ptr, __int64))loc_306DF0)(v46, v11); /*0x6f4390*/\n  if ( (((__int64 (__fastcall *)(_QWORD *))loc_6AE7D0)(v46) & 1) != 0 ) /*0x6f43b4*/\n  {\n    v41 = ((__int64 (__fastcall *)(_QWORD *))loc_6B0660)(v46); /*0x6f447c*/\n    sub_34ADCC(v41, (__int64)v40); /*0x6f4488*/\n    sub_6FDFAC(v47, v40); /*0x6f4498*/\n    sub_B8614(v40); /*0x6f44a0*/\n    v15 = v61; /*0x6f44a4*/\n    *(_DWORD *)v61 = 0; /*0x6f44a8*/\n    v16 = v56; /*0x6f44ac*/\n    v17 = v55; /*0x6f44b0*/\n  }\n  else\n  {\n    v12 = ((__int64 (__fastcall *)(__int64 *))loc_6F7CF0)(&v44); /*0x6f43c4*/\n    v13 = ((__int64 (__fastcall *)(__int64))loc_6D3F78)(v12); /*0x6f43d4*/\n    *v51 = v13; /*0x6f43e0*/\n    v14 = sub_6FDFA8(0xBBAu); /*0x6f43ec*/\n    sub_C7BE8(v52, *v51); /*0x6f4400*/\n    ((void (__fastcall *)(_QWORD, __int64 *))loc_6B00FC)(v14, v52); /*0x6f441c*/\n    v15 = v61; /*0x6f4420*/\n    v16 = v56; /*0x6f4424*/\n    v17 = v55; /*0x6f4428*/\n    sub_74539C(v52); /*0x6f4434*/\n    *(_DWORD *)v15 = 1; /*0x6f443c*/\n  }\n  sub_6FDFB0(v46); /*0x6f44bc*/\n  if ( !*(_DWORD *)v15 ) /*0x6f44c0*/\n  {\n    v18 = v53; /*0x6f44cc*/\n    *v53 = (__int64)v47; /*0x6f44d0*/\n    *v16 = sub_6FDFB4(*v18); /*0x6f44dc*/\n    *v17 = sub_189D50(*v18); /*0x6f44e8*/\n    while ( (sub_191270(v16, v17) & 1) != 0 ) /*0x6f4500*/\n    {\n      v19 = sub_191368(v16); /*0x6f4544*/\n      v20 = v54; /*0x6f4548*/\n      *v54 = v19; /*0x6f454c*/\n      v21 = sub_4DAE04(v48); /*0x6f4558*/\n      v22 = sub_141054(*v20); /*0x6f4560*/\n      v23 = sub_2A829C(v22); /*0x6f4568*/\n      sub_2A7FEC(v21, v23); /*0x6f4574*/\n      sub_1913C8(v16); /*0x6f4580*/\n    }\n    *(_DWORD *)v15 = 2; /*0x6f4510*/\n    sub_6FDFBC(v57, v47); /*0x6f4598*/\n    v24 = sub_6F8DA4(v57); /*0x6f45b4*/\n    sub_B8614(v57); /*0x6f45c4*/\n    v25 = v58; /*0x6f45c8*/\n    *v58 = v24; /*0x6f45cc*/\n    v26 = v25; /*0x6f45d0*/\n    v27 = v60; /*0x6f45dc*/\n    if ( (*v59 & 1) != 0 ) /*0x6f45e0*/\n    {\n      v30 = *v25; /*0x6f4660*/\n      if ( v30 == (unsigned int)((__int64 (__fastcall *)(__int64, __int64))loc_591164)(*v60 + 560LL, 5) ) /*0x6f467c*/\n      {\n        ((void (*)(void))loc_6D49A8)(); /*0x6f46cc*/\n      }\n      else\n      {\n        sub_6FDFC0(*v27 + 560LL, *v26, 5u); /*0x6f4698*/\n        v31 = sub_4DB0C4((unsigned __int64 *)v48); /*0x6f46a0*/\n        sub_634E84(35, v31, v62, v32); /*0x6f46b0*/\n      }\n      *(_DWORD *)v15 = 1; /*0x6f46b8*/\n    }\n    else\n    {\n      ((void (__fastcall *)(__int64, __int64, __int64))loc_417DD0)(*v60 + 564LL, 1, 5); /*0x6f45fc*/\n      sub_591620(*v27 + 560LL, *v26, 5u); /*0x6f4610*/\n      v28 = sub_4DB0C4((unsigned __int64 *)v48); /*0x6f4618*/\n      sub_634E84(34, v28, v62, v29); /*0x6f4628*/\n      *(_DWORD *)v15 = 1; /*0x6f4634*/\n    }\n  }\n  sub_B8614(v47); /*0x6f46ec*/\n  result = sub_2D94E4(v48); /*0x6f46f4*/\n  _ReadStatusReg(TPIDR_EL0); /*0x6f46f8*/\n  return result; /*0x6f4728*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x6f4218",
+      "name": "sub_6F4218"
+    },
+    {
+      "addr": "0x6f421c",
+      "name": "loc_6F421C"
+    },
+    {
+      "addr": "0x6f4220",
+      "name": "loc_6F4220"
+    },
+    {
+      "addr": "0x3b8c40",
+      "name": "sub_3B8C40"
+    },
+    {
+      "addr": "0x4181a0",
+      "name": "sub_4181A0"
+    },
+    {
+      "addr": "0x6fdfa4",
+      "name": "sub_6FDFA4"
+    },
+    {
+      "addr": "0x4daa54",
+      "name": "sub_4DAA54"
+    },
+    {
+      "addr": "0x10272c",
+      "name": "sub_10272C"
+    },
+    {
+      "addr": "0x306df0",
+      "name": "loc_306DF0"
+    },
+    {
+      "addr": "0x6b0660",
+      "name": "loc_6B0660"
+    },
+    {
+      "addr": "0x34adcc",
+      "name": "sub_34ADCC"
+    },
+    {
+      "addr": "0x6fdfac",
+      "name": "sub_6FDFAC"
+    },
+    {
+      "addr": "0xb8614",
+      "name": "sub_B8614"
+    },
+    {
+      "addr": "0x6f7cf0",
+      "name": "loc_6F7CF0"
+    },
+    {
+      "addr": "0x6d3f78",
+      "name": "loc_6D3F78"
+    },
+    {
+      "addr": "0x6fdfa8",
+      "name": "sub_6FDFA8"
+    },
+    {
+      "addr": "0xc7be8",
+      "name": "sub_C7BE8"
+    },
+    {
+      "addr": "0x6b00fc",
+      "name": "loc_6B00FC"
+    },
+    {
+      "addr": "0x74539c",
+      "name": "sub_74539C"
+    },
+    {
+      "addr": "0x6ae7d0",
+      "name": "loc_6AE7D0"
+    },
+    {
+      "addr": "0x6fdfb0",
+      "name": "sub_6FDFB0"
+    },
+    {
+      "addr": "0x6fdfb4",
+      "name": "sub_6FDFB4"
+    },
+    {
+      "addr": "0x189d50",
+      "name": "sub_189D50"
+    },
+    {
+      "addr": "0x191368",
+      "name": "sub_191368"
+    },
+    {
+      "addr": "0x4dae04",
+      "name": "sub_4DAE04"
+    },
+    {
+      "addr": "0x141054",
+      "name": "sub_141054"
+    },
+    {
+      "addr": "0x2a829c",
+      "name": "sub_2A829C"
+    },
+    {
+      "addr": "0x2a7fec",
+      "name": "sub_2A7FEC"
+    },
+    {
+      "addr": "0x1913c8",
+      "name": "sub_1913C8"
+    },
+    {
+      "addr": "0x191270",
+      "name": "sub_191270"
+    },
+    {
+      "addr": "0x6fdfbc",
+      "name": "sub_6FDFBC"
+    },
+    {
+      "addr": "0x6f8da4",
+      "name": "sub_6F8DA4"
+    },
+    {
+      "addr": "0x6d49a8",
+      "name": "loc_6D49A8"
+    },
+    {
+      "addr": "0x6fdfc0",
+      "name": "sub_6FDFC0"
+    },
+    {
+      "addr": "0x4db0c4",
+      "name": "sub_4DB0C4"
+    },
+    {
+      "addr": "0x634e84",
+      "name": "sub_634E84"
+    },
+    {
+      "addr": "0x591164",
+      "name": "loc_591164"
+    },
+    {
+      "addr": "0x417dd0",
+      "name": "loc_417DD0"
+    },
+    {
+      "addr": "0x591620",
+      "name": "sub_591620"
+    },
+    {
+      "addr": "0x2d94e4",
+      "name": "sub_2D94E4"
+    }
+  ]
+}

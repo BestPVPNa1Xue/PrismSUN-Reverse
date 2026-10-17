@@ -1,0 +1,26 @@
+{
+  "addr": "0x4b66c8",
+  "code": "bool __fastcall sub_4B66C8(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        unsigned __int8 a9)\n{\n  unsigned __int8 v9; // w11\n  int v10; // w8\n  __int64 v11; // x19\n  __int64 v12; // x8\n  int v14; // w8\n  int v15; // w8\n  bool v16; // [xsp+2Fh] [xbp+Fh]\n  unsigned int v17; // [xsp+30h] [xbp+10h]\n  int v18; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x4b66d8*/\n  v17 = 779818937; /*0x4b66ec*/\n  v18 = -1091775099; /*0x4b66f8*/\n  while ( 1 ) /*0x4b678c*/\n  {\n    while ( 1 ) /*0x4b6778*/\n    {\n      while ( 1 ) /*0x4b6728*/\n      {\n        while ( v18 == -1091775099 ) /*0x4b6728*/\n        {\n          v9 = 44; /*0x4b6838*/\n          if ( v17 < 0xB4D67B59 ) /*0x4b6844*/\n            v10 = 1455836204; /*0x4b6844*/\n          else\n            v10 = -604439527; /*0x4b6844*/\n          v18 = v10; /*0x4b684c*/\n        }\n        if ( v18 == -604439527 ) /*0x4b673c*/\n        {\n          __stlxr(v9, &a9); /*0x4b6a24*/\n          JUMPOUT(0x4B6A28); /*0x4b6a28*/\n        }\n        if ( v18 == 310425921 ) /*0x4b6750*/\n        {\n          _ReadStatusReg(TPIDR_EL0); /*0x4b691c*/\n          sub_4C06A8(); /*0x4b6930*/\n        }\n        if ( v18 != 581154585 ) /*0x4b6778*/\n          break; /*0x4b6778*/\n        v9 = loc_4B66D0 >> 10 != 3508160; /*0x4b69e8*/\n        if ( (unsigned __int8)((loc_4B66CC >> 10 != 3508160) ^ v9) | !((loc_4B66CC >> 10 != 3508160) | v9) ) /*0x4b6a10*/\n          v15 = 1837431280; /*0x4b6a14*/\n        else\n          v15 = 1345052351; /*0x4b6a14*/\n        v18 = v15; /*0x4b6a1c*/\n      }\n      if ( v18 != 1016381562 ) /*0x4b678c*/\n        break; /*0x4b678c*/\n      if ( *(_DWORD *)sub_4B66C8 >> 26 == 5 || *(_DWORD *)sub_4B66C8 >> 21 == 1697 ) /*0x4b6980*/\n        v14 = 1837431280; /*0x4b6984*/\n      else\n        v14 = 581154585; /*0x4b6984*/\n      v18 = v14; /*0x4b698c*/\n    }\n    if ( v18 == 1251281656 ) /*0x4b67a0*/\n      break; /*0x4b67a0*/\n    switch ( v18 ) /*0x4b67b4*/\n    {\n      case 1345052351: /*0x4b67b4*/\n        v18 = 1569817832; /*0x4b6888*/\n        break;\n      case 1455836204: /*0x4b67b4*/\n        v18 = 1786178808; /*0x4b6860*/\n        break;\n      case 1569817832: /*0x4b67b4*/\n        v17 = a1; /*0x4b6898*/\n        v11 = a1; /*0x4b68a0*/\n        v12 = ((__int64 (__fastcall *)(__int64))loc_4B6AAC)(a1); /*0x4b68ac*/\n        a1 = v11; /*0x4b68b0*/\n        v16 = v12 == 1; /*0x4b68c0*/\n        v18 = 1251281656; /*0x4b68d0*/\n        break;\n      case 1786178808: /*0x4b67b4*/\n        v18 = 1016381562; /*0x4b6874*/\n        break;\n      default:\n        v18 = 310425921; /*0x4b6914*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x4b68e0*/\n  return v16; /*0x4b6904*/\n}",
+  "refs": [
+    {
+      "addr": "0x4c06a8",
+      "name": "sub_4C06A8"
+    },
+    {
+      "addr": "0x4b66d0",
+      "name": "loc_4B66D0"
+    },
+    {
+      "addr": "0x4b66cc",
+      "name": "loc_4B66CC"
+    },
+    {
+      "addr": "0x4b66c8",
+      "name": "sub_4B66C8"
+    },
+    {
+      "addr": "0x4b6aac",
+      "name": "sub_4B6AAC"
+    }
+  ]
+}

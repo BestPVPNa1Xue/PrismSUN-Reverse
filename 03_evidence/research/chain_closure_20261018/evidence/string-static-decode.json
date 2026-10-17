@@ -1,0 +1,62 @@
+[
+  {
+    "label": "maps_suffix",
+    "source": "6d537f51266d",
+    "xor_masks": "1f9b31fef0be",
+    "key_little_endian": "5da52fdfa5d363db",
+    "first": "72c84eafd6d3",
+    "result": "/maps\u0000",
+    "evidence": [
+      "0x5cd0e4",
+      "0x5f50ac"
+    ]
+  },
+  {
+    "label": "excluded_marker",
+    "source": "e82d0cf270a53564f2e2",
+    "xor_masks": "0f66960bf8e813f114cd",
+    "key_little_endian": "cf2fff95ed3943f1",
+    "first": "e74b9af9884d2695e62f",
+    "result": "(deleted)\u0000",
+    "evidence": [
+      "0x5cdc88",
+      "0x5f5634"
+    ]
+  },
+  {
+    "label": "maps_format",
+    "source": "f755fe38e0e6481c2b55a487003406aa14014583fc8fe1aa10d407ed2f75e581",
+    "xor_masks": "2ba05912f2b95715f7f808a0126b19a3c8e0a0a1b39ca3ef9c6dfd843d6cf1a8",
+    "key_little_endian": "f999df0737336729",
+    "first": "dcf5a72a125f1f09dcadac27125f1f09dce1e5224f1342458cb9fa6912191429",
+    "result": "%lx-%lx %4s %lx %x:%x %lu %n%*s\u0000",
+    "evidence": [
+      "0x5cf3cc",
+      "0x5f5bf0"
+    ]
+  },
+  {
+    "label": "fdopen_mode",
+    "source": "6f19",
+    "xor_masks": "d040",
+    "key_little_endian": "cd59438f61790981",
+    "first": "bf59",
+    "result": "r\u0000",
+    "evidence": [
+      "0x5d0c44",
+      "0x5f611c"
+    ]
+  },
+  {
+    "label": "proc_prefix",
+    "source": "b86195d9b02ab1",
+    "xor_masks": "d2982065a04cd8",
+    "key_little_endian": "4589c7d37349695f",
+    "first": "6af9b5bc106669",
+    "result": "/proc/\u0000",
+    "evidence": [
+      "0x5fedc0",
+      "0x600f70"
+    ]
+  }
+]

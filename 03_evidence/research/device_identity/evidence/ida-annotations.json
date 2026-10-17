@@ -1,0 +1,134 @@
+{
+  "database": "8bfd0228",
+  "renames": {
+    "func": [
+      {
+        "addr": "0x4df3c8",
+        "old": "sub_4DF3C8",
+        "name": "prsun_derive_widevine_identity",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x4dfc3c",
+        "old": "sub_4DFC3C",
+        "name": "prsun_derive_boot_identity",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x5a7be4",
+        "old": "sub_5A7BE4",
+        "name": "prsun_load_mediandk_apis",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x5ae1d4",
+        "old": "sub_5AE1D4",
+        "name": "prsun_read_widevine_id_hex",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x5d8330",
+        "old": "sub_5D8330",
+        "name": "prsun_read_boot_id",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x5b9df4",
+        "old": "sub_5B9DF4",
+        "name": "prsun_sha256_with_fixed_salt",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x5ba370",
+        "old": "sub_5BA370",
+        "name": "prsun_hmac_sha256_upper_hex",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x7153a8",
+        "old": "sub_7153A8",
+        "name": "prsun_client_properties_event19",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x37843c",
+        "old": "sub_37843C",
+        "name": "prsun_apk_certificate_digest_wrapper",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x4c0718",
+        "old": "sub_4C0718",
+        "name": "prsun_extract_first_apk_v2_certificate",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x37fb88",
+        "old": "sub_37FB88",
+        "name": "prsun_collect_activity_traits",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x5b77d8",
+        "old": "sub_5B77D8",
+        "name": "prsun_install_session_keys",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x596b58",
+        "old": "sub_596B58",
+        "name": "prsun_take_sequence",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x596028",
+        "old": "sub_596028",
+        "name": "prsun_encrypt_event_json",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x5bcdd8",
+        "old": "sub_5BCDD8",
+        "name": "prsun_aes256_gcm_packet",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x51e9c4",
+        "old": "sub_51E9C4",
+        "name": "prsun_deliver_result_to_ring",
+        "dir": "vibe"
+      },
+      {
+        "addr": "0x58fac8",
+        "old": "sub_58FAC8",
+        "name": "prsun_write_ring_record",
+        "dir": "vibe"
+      }
+    ],
+    "summary": {
+      "total": 17,
+      "ok": 17,
+      "failed": 0,
+      "stopped": false
+    }
+  },
+  "comments": {
+    "result": [
+      {
+        "addr": "0x7153a8"
+      },
+      {
+        "addr": "0x5bcdd8"
+      },
+      {
+        "addr": "0x5b77d8"
+      },
+      {
+        "addr": "0x3dc58"
+      },
+      {
+        "addr": "0x37843c"
+      }
+    ]
+  }
+}

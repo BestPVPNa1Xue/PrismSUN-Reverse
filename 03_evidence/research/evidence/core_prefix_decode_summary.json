@@ -1,0 +1,9 @@
+{
+  "call": 1600,
+  "return": 766,
+  "Invalid memory read (UC_ERR_READ_UNMAPPED)": 12,
+  "syscall": 38,
+  "instruction_budget": 2,
+  "Invalid memory write (UC_ERR_WRITE_UNMAPPED)": 1,
+  "Unhandled CPU exception (UC_ERR_EXCEPTION)": 2
+}

@@ -1,0 +1,4 @@
+{
+  "addr": "0x496f38",
+  "code": "void sub_496F38()\n{\n  __int64 savedregs; // [xsp+40h] [xbp+0h]\n  __int64 savedregs_8; // [xsp+48h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x496f4c*/\n  savedregs = 0x4E67BB2600000001LL; /*0x496f54*/\n  while ( HIDWORD(savedregs) != -639253188 ) /*0x497044*/\n  {\n    if ( HIDWORD(savedregs) == 835502448 ) /*0x49710c*/\n    {\n      HIDWORD(savedregs) = -639253188; /*0x497244*/\n    }\n    else if ( HIDWORD(savedregs) == 1128526177 ) /*0x497148*/\n    {\n      HIDWORD(savedregs) = 835502448; /*0x497230*/\n    }\n    else\n    {\n      HIDWORD(savedregs) = 1128526177; /*0x49721c*/\n    }\n  }\n  JUMPOUT(0x4974FC); /*0x4974fc*/\n}"
+}

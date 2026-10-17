@@ -1,0 +1,22 @@
+{
+  "addr": "0x31685c",
+  "code": "// bad sp value at call has been detected, the output may be wrong!\nbool __fastcall sub_31685C(unsigned __int8 *a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // x21\n  unsigned __int64 v5; // x0\n  bool v6; // w0\n  _QWORD savedregs[4]; // [xsp+40h] [xbp+20h] BYREF\n\n  _ReadStatusReg(TPIDR_EL0); /*0x316874*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x316890*/\n  savedregs[3] = a3; /*0x3169cc*/\n  savedregs[2] = a1; /*0x3169d4*/\n  v4 = sub_19C47C((__int64)a1); /*0x3169e4*/\n  v5 = sub_D038C(a1); /*0x3169ec*/\n  sub_19C598(&savedregs[2], v4, v5); /*0x3169fc*/\n  v6 = sub_237C04((__int64)&savedregs[2], savedregs[2], savedregs[3]); /*0x316a14*/\n  _ReadStatusReg(TPIDR_EL0); /*0x316a18*/\n  return v6; /*0x316a44*/\n}",
+  "refs": [
+    {
+      "addr": "0x19c47c",
+      "name": "sub_19C47C"
+    },
+    {
+      "addr": "0xd038c",
+      "name": "sub_D038C"
+    },
+    {
+      "addr": "0x19c598",
+      "name": "sub_19C598"
+    },
+    {
+      "addr": "0x237c04",
+      "name": "sub_237C04"
+    }
+  ]
+}

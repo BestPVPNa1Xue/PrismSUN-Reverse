@@ -1,0 +1,116 @@
+{
+  "scope": "AccessibilityServiceChecker only; generic registry insertion and singleton retrieval are modeled boundaries.",
+  "registration": {
+    "entry": "0x6b6f3c",
+    "reason": "returned",
+    "steps": 19137,
+    "return": 538963712,
+    "pc": "0x32000000",
+    "calls": [
+      "0x4ea8b8",
+      "0x601c58"
+    ]
+  },
+  "registry_calls": [
+    {
+      "registry": "0x31001000",
+      "key": 38,
+      "callback_raw": "a03d79000000000000000000000000000000000000000000000000000000000000ef1f2000000000",
+      "body": "0x201fef00",
+      "vtable": "0x793da0",
+      "invoke": "0x6bb444"
+    }
+  ],
+  "factory": {
+    "entry": "0x6bb444",
+    "reason": "returned",
+    "steps": 14885,
+    "return": 822083592,
+    "pc": "0x32000000",
+    "calls": [
+      "0x78a720",
+      "0x78a520"
+    ]
+  },
+  "checker_vtable": "0x793de8",
+  "constant_methods": [
+    {
+      "entry": "0x6cdfb4",
+      "reason": "returned",
+      "steps": 594,
+      "return": 38,
+      "pc": "0x32000000",
+      "calls": []
+    },
+    {
+      "entry": "0x6ce3ec",
+      "reason": "returned",
+      "steps": 733,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": []
+    },
+    {
+      "entry": "0x631408",
+      "reason": "returned",
+      "steps": 666,
+      "return": 0,
+      "pc": "0x32000000",
+      "calls": []
+    },
+    {
+      "entry": "0x6ce880",
+      "reason": "returned",
+      "steps": 809,
+      "return": 1,
+      "pc": "0x32000000",
+      "calls": []
+    }
+  ],
+  "initialized_status_queries": [
+    {
+      "context_plus_556": 0,
+      "result": {
+        "entry": "0x6cfa68",
+        "reason": "returned",
+        "steps": 2329,
+        "return": 0,
+        "pc": "0x32000000",
+        "calls": [
+          "0x3b8c40"
+        ]
+      }
+    },
+    {
+      "context_plus_556": 1,
+      "result": {
+        "entry": "0x6cfa68",
+        "reason": "returned",
+        "steps": 2329,
+        "return": 1,
+        "pc": "0x32000000",
+        "calls": [
+          "0x3b8c40"
+        ]
+      }
+    }
+  ],
+  "dispatch_wrapper": {
+    "entry": "0x6cf6d4",
+    "reason": "returned",
+    "steps": 471,
+    "return": 4660,
+    "pc": "0x32000000",
+    "calls": [
+      "0x6cf0c8"
+    ]
+  },
+  "forwarded_arguments": [
+    {
+      "x0": "0x31000000",
+      "x1": "0x31004000",
+      "x8_result_buffer": "0x31008000"
+    }
+  ],
+  "not_established": "The units/semantics of vtable +0x20 and +0x30, concrete scheduler period, and external execution triggers are not inferred from constants."
+}

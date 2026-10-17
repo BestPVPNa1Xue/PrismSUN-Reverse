@@ -1,0 +1,10 @@
+{
+  "addr": "0x5cd914",
+  "code": "__int64 __fastcall sub_5CD914(__int64 a1)\n{\n  _ReadStatusReg(TPIDR_EL0); /*0x5cd924*/\n  ((void (__fastcall *)(__int64))loc_5F4D50)(a1); /*0x5cda64*/\n  _ReadStatusReg(TPIDR_EL0); /*0x5cda68*/\n  return a1; /*0x5cda8c*/\n}",
+  "refs": [
+    {
+      "addr": "0x5f4d50",
+      "name": "loc_5F4D50"
+    }
+  ]
+}

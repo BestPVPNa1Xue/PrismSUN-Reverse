@@ -1,0 +1,66 @@
+{
+  "addr": "0x2b2630",
+  "code": "__int64 sub_2B2630()\n{\n  unsigned __int8 v0; // w8\n  __int64 v1; // x19\n  unsigned __int8 v3; // [xsp-30h] [xbp-30h]\n\n  if ( (*(_DWORD *)sub_2B2630 >> 26 != 5) ^ (*(_DWORD *)sub_2B2630 >> 21 != 1697) /*0x2b2824*/\n     | (*(_DWORD *)sub_2B2630 >> 26 == 5 && *(_DWORD *)sub_2B2630 >> 21 == 1697)\n    || loc_2B2634 >> 10 == 3508160\n    || loc_2B2638 >> 10 == 3508160 )\n  {\n    abort(); /*0x2b2790*/\n  }\n  v0 = atomic_load((unsigned __int8 *)&byte_7D06C0); /*0x2b2670*/\n  if ( ((v0 | 1) & (unsigned __int8)~(v0 ^ 1)) == 0 && (unsigned int)sub_7699C4(&byte_7D06C0) ) /*0x2b26b4*/\n  {\n    v1 = sub_2DB4C0(240); /*0x2b26d8*/\n    sub_2DB4C4(v1, v3); /*0x2b26e8*/\n    sub_2DB4C8(&unk_7D06B8, v1); /*0x2b2700*/\n    __cxa_atexit((void (*)(void *))&loc_2BF090, &unk_7D06B8, &off_78EC70); /*0x2b271c*/\n    sub_769AF4(&byte_7D06C0); /*0x2b2728*/\n  }\n  return ((__int64 (__fastcall *)(void *))loc_2BF50C)(&unk_7D06B8); /*0x2b2750*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x2b2630",
+      "name": "sub_2B2630"
+    },
+    {
+      "addr": "0x2b2634",
+      "name": "loc_2B2634"
+    },
+    {
+      "addr": "0x2b2638",
+      "name": "loc_2B2638"
+    },
+    {
+      "addr": "0x7d06c0",
+      "name": "byte_7D06C0"
+    },
+    {
+      "addr": "0x2db4c0",
+      "name": "sub_2DB4C0"
+    },
+    {
+      "addr": "0x2db4c4",
+      "name": "sub_2DB4C4"
+    },
+    {
+      "addr": "0x2db4c8",
+      "name": "sub_2DB4C8"
+    },
+    {
+      "addr": "0x7d06b8",
+      "name": "unk_7D06B8"
+    },
+    {
+      "addr": "0x78a4a0",
+      "name": ".__cxa_atexit"
+    },
+    {
+      "addr": "0x2bf090",
+      "name": "loc_2BF090"
+    },
+    {
+      "addr": "0x78ec70",
+      "name": "off_78EC70"
+    },
+    {
+      "addr": "0x769af4",
+      "name": "sub_769AF4"
+    },
+    {
+      "addr": "0x7699c4",
+      "name": "sub_7699C4"
+    },
+    {
+      "addr": "0x2bf50c",
+      "name": "loc_2BF50C"
+    }
+  ]
+}

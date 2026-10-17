@@ -1,0 +1,50 @@
+{
+  "addr": "0x18a478",
+  "code": "__int64 __usercall sub_18A478@<X0>(__int64 a1@<X0>, __int64 a2@<X1>, __int64 a3@<X2>, __int64 a4@<X8>)\n{\n  bool v4; // zf\n\n  _ReadStatusReg(TPIDR_EL0); /*0x18a488*/\n  v4 = *(_DWORD *)sub_18A478 >> 26 == 5 || (*(_DWORD *)sub_18A478 & 0xFFE00000) == -736100352; /*0x18a4b0*/\n  if ( v4 /*0x18a578*/\n    || loc_18A47C >> 10 == 3508160\n    || (loc_18A480 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_236B10 >> 26 == 5\n    || (*(_DWORD *)sub_236B10 & 0xFFE00000) == 0xD4200000\n    || (loc_236B14 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_236B18 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_1B3710 >> 26 == 5\n    || (*(_DWORD *)sub_1B3710 & 0xFFE00000) == 0xD4200000\n    || (loc_1B3714 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_1B3718 & 0xFFFFFC00) == 0xD61F0000 )\n  {\n    abort(); /*0x18a5b4*/\n  }\n  return sub_745934(a4, a1, a2, a3); /*0x18a5a0*/\n}",
+  "refs": [
+    {
+      "addr": "0x18a478",
+      "name": "sub_18A478"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x18a47c",
+      "name": "loc_18A47C"
+    },
+    {
+      "addr": "0x18a480",
+      "name": "loc_18A480"
+    },
+    {
+      "addr": "0x236b10",
+      "name": "sub_236B10"
+    },
+    {
+      "addr": "0x236b14",
+      "name": "loc_236B14"
+    },
+    {
+      "addr": "0x236b18",
+      "name": "loc_236B18"
+    },
+    {
+      "addr": "0x1b3710",
+      "name": "sub_1B3710"
+    },
+    {
+      "addr": "0x1b3714",
+      "name": "loc_1B3714"
+    },
+    {
+      "addr": "0x1b3718",
+      "name": "loc_1B3718"
+    },
+    {
+      "addr": "0x745934",
+      "name": "sub_745934"
+    }
+  ]
+}

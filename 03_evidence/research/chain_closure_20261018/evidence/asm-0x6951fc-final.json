@@ -1,0 +1,1488 @@
+{
+  "addr": "0x6951fc",
+  "asm": {
+    "name": "sub_6951FC",
+    "start_ea": "0x6951fc",
+    "segment": ".text",
+    "lines": [
+      {
+        "addr": "6951fc",
+        "instruction": "STP X29, X30, [SP,#-0x40]!",
+        "label": "sub_6951FC"
+      },
+      {
+        "addr": "695200",
+        "instruction": "STR X23, [SP,#0x10]",
+        "label": "loc_695200"
+      },
+      {
+        "addr": "695204",
+        "instruction": "STP X22, X21, [SP,#0x20]",
+        "label": "loc_695204"
+      },
+      {
+        "addr": "695208",
+        "instruction": "STP X20, X19, [SP,#0x30]"
+      },
+      {
+        "addr": "69520c",
+        "instruction": "MOV X29, SP"
+      },
+      {
+        "addr": "695210",
+        "instruction": "SUB SP, SP, #0x20"
+      },
+      {
+        "addr": "695214",
+        "instruction": "MRS X8, TPIDR_EL0"
+      },
+      {
+        "addr": "695218",
+        "instruction": "LDR X8, [X8,#0x28]"
+      },
+      {
+        "addr": "69521c",
+        "instruction": "STUR X8, [X29,#-8]"
+      },
+      {
+        "addr": "695220",
+        "instruction": "MOV W8, #0xD408EB81"
+      },
+      {
+        "addr": "695228",
+        "instruction": "STUR W8, [X29,#-0x10]"
+      },
+      {
+        "addr": "69522c",
+        "instruction": "MOV W8, #0xF4ECFA4E"
+      },
+      {
+        "addr": "695234",
+        "instruction": "STUR W8, [X29,#-0xC]"
+      },
+      {
+        "addr": "695238",
+        "instruction": "SUB X8, X29, #0xC"
+      },
+      {
+        "addr": "69523c",
+        "instruction": "STUR X8, [X29,#-0x20]"
+      },
+      {
+        "addr": "695240",
+        "instruction": "LDUR W8, [X29,#-0xC]",
+        "label": "loc_695240"
+      },
+      {
+        "addr": "695244",
+        "instruction": "MOV W9, #0xA067EF1A"
+      },
+      {
+        "addr": "69524c",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695250",
+        "instruction": "B.EQ loc_69546C",
+        "refs": [
+          {
+            "addr": "0x69546c",
+            "name": "loc_69546C"
+          }
+        ]
+      },
+      {
+        "addr": "695254",
+        "instruction": "B loc_695258",
+        "refs": [
+          {
+            "addr": "0x695258",
+            "name": "loc_695258"
+          }
+        ]
+      },
+      {
+        "addr": "695258",
+        "instruction": "MOV W9, #0xA47BA69C",
+        "label": "loc_695258"
+      },
+      {
+        "addr": "695260",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695264",
+        "instruction": "B.EQ loc_6954C4",
+        "refs": [
+          {
+            "addr": "0x6954c4",
+            "name": "loc_6954C4"
+          }
+        ]
+      },
+      {
+        "addr": "695268",
+        "instruction": "B loc_69526C",
+        "refs": [
+          {
+            "addr": "0x69526c",
+            "name": "loc_69526C"
+          }
+        ]
+      },
+      {
+        "addr": "69526c",
+        "instruction": "MOV W9, #0xAA88A0DA",
+        "label": "loc_69526C"
+      },
+      {
+        "addr": "695274",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695278",
+        "instruction": "B.EQ loc_6954AC",
+        "refs": [
+          {
+            "addr": "0x6954ac",
+            "name": "loc_6954AC"
+          }
+        ]
+      },
+      {
+        "addr": "69527c",
+        "instruction": "B loc_695280",
+        "refs": [
+          {
+            "addr": "0x695280",
+            "name": "loc_695280"
+          }
+        ]
+      },
+      {
+        "addr": "695280",
+        "instruction": "MOV W9, #0xAD954974",
+        "label": "loc_695280"
+      },
+      {
+        "addr": "695288",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "69528c",
+        "instruction": "B.EQ loc_6953F4",
+        "refs": [
+          {
+            "addr": "0x6953f4",
+            "name": "loc_6953F4"
+          }
+        ]
+      },
+      {
+        "addr": "695290",
+        "instruction": "B loc_695294",
+        "refs": [
+          {
+            "addr": "0x695294",
+            "name": "loc_695294"
+          }
+        ]
+      },
+      {
+        "addr": "695294",
+        "instruction": "MOV W9, #0xBF902FFB",
+        "label": "loc_695294"
+      },
+      {
+        "addr": "69529c",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "6952a0",
+        "instruction": "B.EQ loc_6954D8",
+        "refs": [
+          {
+            "addr": "0x6954d8",
+            "name": "loc_6954D8"
+          }
+        ]
+      },
+      {
+        "addr": "6952a4",
+        "instruction": "B loc_6952A8",
+        "refs": [
+          {
+            "addr": "0x6952a8",
+            "name": "loc_6952A8"
+          }
+        ]
+      },
+      {
+        "addr": "6952a8",
+        "instruction": "MOV W9, #0xC689BDC5",
+        "label": "loc_6952A8"
+      },
+      {
+        "addr": "6952b0",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "6952b4",
+        "instruction": "B.EQ dword_69568C",
+        "refs": [
+          {
+            "addr": "0x69568c",
+            "name": "dword_69568C"
+          }
+        ]
+      },
+      {
+        "addr": "6952b8",
+        "instruction": "B loc_6952BC",
+        "refs": [
+          {
+            "addr": "0x6952bc",
+            "name": "loc_6952BC"
+          }
+        ]
+      },
+      {
+        "addr": "6952bc",
+        "instruction": "MOV W9, #0xD1B8A249",
+        "label": "loc_6952BC"
+      },
+      {
+        "addr": "6952c4",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "6952c8",
+        "instruction": "B.EQ loc_6953E0",
+        "refs": [
+          {
+            "addr": "0x6953e0",
+            "name": "loc_6953E0"
+          }
+        ]
+      },
+      {
+        "addr": "6952cc",
+        "instruction": "B loc_6952D0",
+        "refs": [
+          {
+            "addr": "0x6952d0",
+            "name": "loc_6952D0"
+          }
+        ]
+      },
+      {
+        "addr": "6952d0",
+        "instruction": "MOV W9, #0xF3604EC1",
+        "label": "loc_6952D0"
+      },
+      {
+        "addr": "6952d8",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "6952dc",
+        "instruction": "B.EQ loc_695600",
+        "refs": [
+          {
+            "addr": "0x695600",
+            "name": "loc_695600"
+          }
+        ]
+      },
+      {
+        "addr": "6952e0",
+        "instruction": "B loc_6952E4",
+        "refs": [
+          {
+            "addr": "0x6952e4",
+            "name": "loc_6952E4"
+          }
+        ]
+      },
+      {
+        "addr": "6952e4",
+        "instruction": "MOV W9, #0xF4ECFA4E",
+        "label": "loc_6952E4"
+      },
+      {
+        "addr": "6952ec",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "6952f0",
+        "instruction": "B.EQ loc_69539C",
+        "refs": [
+          {
+            "addr": "0x69539c",
+            "name": "loc_69539C"
+          }
+        ]
+      },
+      {
+        "addr": "6952f4",
+        "instruction": "B loc_6952F8",
+        "refs": [
+          {
+            "addr": "0x6952f8",
+            "name": "loc_6952F8"
+          }
+        ]
+      },
+      {
+        "addr": "6952f8",
+        "instruction": "MOV W9, #0x16EA701",
+        "label": "loc_6952F8"
+      },
+      {
+        "addr": "695300",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695304",
+        "instruction": "B.EQ loc_69553C",
+        "refs": [
+          {
+            "addr": "0x69553c",
+            "name": "loc_69553C"
+          }
+        ]
+      },
+      {
+        "addr": "695308",
+        "instruction": "B loc_69530C",
+        "refs": [
+          {
+            "addr": "0x69530c",
+            "name": "loc_69530C"
+          }
+        ]
+      },
+      {
+        "addr": "69530c",
+        "instruction": "MOV W9, #0x20F7CBF6",
+        "label": "loc_69530C"
+      },
+      {
+        "addr": "695314",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695318",
+        "instruction": "B.EQ loc_695498",
+        "refs": [
+          {
+            "addr": "0x695498",
+            "name": "loc_695498"
+          }
+        ]
+      },
+      {
+        "addr": "69531c",
+        "instruction": "B loc_695320",
+        "refs": [
+          {
+            "addr": "0x695320",
+            "name": "loc_695320"
+          }
+        ]
+      },
+      {
+        "addr": "695320",
+        "instruction": "MOV W9, #0x24824A07",
+        "label": "loc_695320"
+      },
+      {
+        "addr": "695328",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "69532c",
+        "instruction": "B.EQ loc_6953CC",
+        "refs": [
+          {
+            "addr": "0x6953cc",
+            "name": "loc_6953CC"
+          }
+        ]
+      },
+      {
+        "addr": "695330",
+        "instruction": "B loc_695334",
+        "refs": [
+          {
+            "addr": "0x695334",
+            "name": "loc_695334"
+          }
+        ]
+      },
+      {
+        "addr": "695334",
+        "instruction": "MOV W9, #0x24DA432D",
+        "label": "loc_695334"
+      },
+      {
+        "addr": "69533c",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695340",
+        "instruction": "B.EQ loc_6955D4",
+        "refs": [
+          {
+            "addr": "0x6955d4",
+            "name": "loc_6955D4"
+          }
+        ]
+      },
+      {
+        "addr": "695344",
+        "instruction": "B loc_695348",
+        "refs": [
+          {
+            "addr": "0x695348",
+            "name": "loc_695348"
+          }
+        ]
+      },
+      {
+        "addr": "695348",
+        "instruction": "MOV W9, #0x32B85980",
+        "label": "loc_695348"
+      },
+      {
+        "addr": "695350",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695354",
+        "instruction": "B.EQ loc_695550",
+        "refs": [
+          {
+            "addr": "0x695550",
+            "name": "loc_695550"
+          }
+        ]
+      },
+      {
+        "addr": "695358",
+        "instruction": "B loc_69535C",
+        "refs": [
+          {
+            "addr": "0x69535c",
+            "name": "loc_69535C"
+          }
+        ]
+      },
+      {
+        "addr": "69535c",
+        "instruction": "MOV W9, #0x3C75F126",
+        "label": "loc_69535C"
+      },
+      {
+        "addr": "695364",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "695368",
+        "instruction": "B.EQ unk_6956B0",
+        "refs": [
+          {
+            "addr": "0x6956b0",
+            "name": "unk_6956B0"
+          }
+        ]
+      },
+      {
+        "addr": "69536c",
+        "instruction": "B loc_695370",
+        "refs": [
+          {
+            "addr": "0x695370",
+            "name": "loc_695370"
+          }
+        ]
+      },
+      {
+        "addr": "695370",
+        "instruction": "MOV W9, #0x4E2F987C",
+        "label": "loc_695370"
+      },
+      {
+        "addr": "695378",
+        "instruction": "SUBS W9, W8, W9"
+      },
+      {
+        "addr": "69537c",
+        "instruction": "B.EQ dword_69561C",
+        "refs": [
+          {
+            "addr": "0x69561c",
+            "name": "dword_69561C"
+          }
+        ]
+      },
+      {
+        "addr": "695380",
+        "instruction": "B loc_695384",
+        "refs": [
+          {
+            "addr": "0x695384",
+            "name": "loc_695384"
+          }
+        ]
+      },
+      {
+        "addr": "695384",
+        "instruction": "MOV W9, #0x5C3B58E7",
+        "label": "loc_695384"
+      },
+      {
+        "addr": "69538c",
+        "instruction": "SUBS W8, W8, W9"
+      },
+      {
+        "addr": "695390",
+        "instruction": "B.EQ loc_695408",
+        "refs": [
+          {
+            "addr": "0x695408",
+            "name": "loc_695408"
+          }
+        ]
+      },
+      {
+        "addr": "695394",
+        "instruction": "B loc_695398",
+        "refs": [
+          {
+            "addr": "0x695398",
+            "name": "loc_695398"
+          }
+        ]
+      },
+      {
+        "addr": "695398",
+        "instruction": "B loc_6956CC",
+        "label": "loc_695398",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "69539c",
+        "instruction": "LDUR W8, [X29,#-0x10]",
+        "label": "loc_69539C"
+      },
+      {
+        "addr": "6953a0",
+        "instruction": "MOV W9, #0x5012409D"
+      },
+      {
+        "addr": "6953a8",
+        "instruction": "MOV W10, #0xF3604EC1"
+      },
+      {
+        "addr": "6953b0",
+        "instruction": "MOV W11, #0x24824A07"
+      },
+      {
+        "addr": "6953b8",
+        "instruction": "CMP W8, W9"
+      },
+      {
+        "addr": "6953bc",
+        "instruction": "CSEL W8, W10, W11, LS"
+      },
+      {
+        "addr": "6953c0",
+        "instruction": "LDUR X9, [X29,#-0x20]"
+      },
+      {
+        "addr": "6953c4",
+        "instruction": "STR W8, [X9]"
+      },
+      {
+        "addr": "6953c8",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "6953cc",
+        "instruction": "LDUR X8, [X29,#-0x20]",
+        "label": "loc_6953CC"
+      },
+      {
+        "addr": "6953d0",
+        "instruction": "MOV W9, #0xD1B8A249"
+      },
+      {
+        "addr": "6953d8",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "6953dc",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "6953e0",
+        "instruction": "LDUR X8, [X29,#-0x20]",
+        "label": "loc_6953E0"
+      },
+      {
+        "addr": "6953e4",
+        "instruction": "MOV W9, #0xBF902FFB"
+      },
+      {
+        "addr": "6953ec",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "6953f0",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "6953f4",
+        "instruction": "LDUR X8, [X29,#-0x20]",
+        "label": "loc_6953F4"
+      },
+      {
+        "addr": "6953f8",
+        "instruction": "MOV W9, #0x5C3B58E7"
+      },
+      {
+        "addr": "695400",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "695404",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "695408",
+        "instruction": "SUBS X8, SP, #0x10",
+        "label": "loc_695408"
+      },
+      {
+        "addr": "69540c",
+        "instruction": "MOV SP, X8"
+      },
+      {
+        "addr": "695410",
+        "instruction": "SUBS X9, SP, #0x10"
+      },
+      {
+        "addr": "695414",
+        "instruction": "MOV SP, X9"
+      },
+      {
+        "addr": "695418",
+        "instruction": "SUBS X19, SP, #0x10"
+      },
+      {
+        "addr": "69541c",
+        "instruction": "MOV SP, X19"
+      },
+      {
+        "addr": "695420",
+        "instruction": "MOV X22, X0"
+      },
+      {
+        "addr": "695424",
+        "instruction": "STR X22, [X8]"
+      },
+      {
+        "addr": "695428",
+        "instruction": "MOV X23, X1"
+      },
+      {
+        "addr": "69542c",
+        "instruction": "STR X23, [X9]"
+      },
+      {
+        "addr": "695430",
+        "instruction": "LDR X20, [X8]"
+      },
+      {
+        "addr": "695434",
+        "instruction": "LDR X21, [X9]"
+      },
+      {
+        "addr": "695438",
+        "instruction": "MOV X0, X19"
+      },
+      {
+        "addr": "69543c",
+        "instruction": "BL sub_6956D4",
+        "refs": [
+          {
+            "addr": "0x6956d4",
+            "name": "sub_6956D4"
+          }
+        ]
+      },
+      {
+        "addr": "695440",
+        "instruction": "MOV X0, X20"
+      },
+      {
+        "addr": "695444",
+        "instruction": "MOV X1, X21"
+      },
+      {
+        "addr": "695448",
+        "instruction": "MOV X2, X19"
+      },
+      {
+        "addr": "69544c",
+        "instruction": "BL sub_695A3C",
+        "refs": [
+          {
+            "addr": "0x695a3c",
+            "name": "sub_695A3C"
+          }
+        ]
+      },
+      {
+        "addr": "695450",
+        "instruction": "MOV X0, X22"
+      },
+      {
+        "addr": "695454",
+        "instruction": "MOV X1, X23"
+      },
+      {
+        "addr": "695458",
+        "instruction": "LDUR X8, [X29,#-0x20]"
+      },
+      {
+        "addr": "69545c",
+        "instruction": "MOV W9, #0xA067EF1A"
+      },
+      {
+        "addr": "695464",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "695468",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "69546c",
+        "instruction": "MRS X8, TPIDR_EL0",
+        "label": "loc_69546C"
+      },
+      {
+        "addr": "695470",
+        "instruction": "LDR X8, [X8,#0x28]"
+      },
+      {
+        "addr": "695474",
+        "instruction": "LDUR X9, [X29,#-8]"
+      },
+      {
+        "addr": "695478",
+        "instruction": "CMP X8, X9"
+      },
+      {
+        "addr": "69547c",
+        "instruction": "B.NE loc_6956D0",
+        "refs": [
+          {
+            "addr": "0x6956d0",
+            "name": "loc_6956D0"
+          }
+        ]
+      },
+      {
+        "addr": "695480",
+        "instruction": "MOV SP, X29"
+      },
+      {
+        "addr": "695484",
+        "instruction": "LDP X20, X19, [SP,#0x30]"
+      },
+      {
+        "addr": "695488",
+        "instruction": "LDP X22, X21, [SP,#0x20]"
+      },
+      {
+        "addr": "69548c",
+        "instruction": "LDR X23, [SP,#0x10]"
+      },
+      {
+        "addr": "695490",
+        "instruction": "LDP X29, X30, [SP],#0x40"
+      },
+      {
+        "addr": "695494",
+        "instruction": "RET"
+      },
+      {
+        "addr": "695498",
+        "instruction": "LDUR X8, [X29,#-0x20]",
+        "label": "loc_695498"
+      },
+      {
+        "addr": "69549c",
+        "instruction": "MOV W9, #0xAA88A0DA"
+      },
+      {
+        "addr": "6954a4",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "6954a8",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "6954ac",
+        "instruction": "MRS X8, TPIDR_EL0",
+        "label": "loc_6954AC"
+      },
+      {
+        "addr": "6954b0",
+        "instruction": "LDR X8, [X8,#0x28]"
+      },
+      {
+        "addr": "6954b4",
+        "instruction": "LDUR X9, [X29,#-8]"
+      },
+      {
+        "addr": "6954b8",
+        "instruction": "CMP X8, X9"
+      },
+      {
+        "addr": "6954bc",
+        "instruction": "B.NE loc_6956D0",
+        "refs": [
+          {
+            "addr": "0x6956d0",
+            "name": "loc_6956D0"
+          }
+        ]
+      },
+      {
+        "addr": "6954c0",
+        "instruction": "BL .abort",
+        "refs": [
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          }
+        ]
+      },
+      {
+        "addr": "6954c4",
+        "instruction": "LDUR X8, [X29,#-0x20]",
+        "label": "loc_6954C4"
+      },
+      {
+        "addr": "6954c8",
+        "instruction": "MOV W9, #0xAD954974"
+      },
+      {
+        "addr": "6954d0",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "6954d4",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "6954d8",
+        "instruction": "NOP",
+        "label": "loc_6954D8"
+      },
+      {
+        "addr": "6954dc",
+        "instruction": "ADR X8, sub_6951FC",
+        "refs": [
+          {
+            "addr": "0x6951fc",
+            "name": "sub_6951FC"
+          }
+        ]
+      },
+      {
+        "addr": "6954e0",
+        "instruction": "LDR W8, [X8]"
+      },
+      {
+        "addr": "6954e4",
+        "instruction": "LSR W9, W8, #0x1A"
+      },
+      {
+        "addr": "6954e8",
+        "instruction": "CMP W9, #5"
+      },
+      {
+        "addr": "6954ec",
+        "instruction": "CSET W9, EQ"
+      },
+      {
+        "addr": "6954f0",
+        "instruction": "LSR W8, W8, #0x15"
+      },
+      {
+        "addr": "6954f4",
+        "instruction": "CMP W8, #0x6A1"
+      },
+      {
+        "addr": "6954f8",
+        "instruction": "CSET W8, EQ"
+      },
+      {
+        "addr": "6954fc",
+        "instruction": "AND W9, W9, W9"
+      },
+      {
+        "addr": "695500",
+        "instruction": "EOR W9, W9, #1"
+      },
+      {
+        "addr": "695504",
+        "instruction": "AND W8, W8, W8"
+      },
+      {
+        "addr": "695508",
+        "instruction": "EOR W8, W8, #1"
+      },
+      {
+        "addr": "69550c",
+        "instruction": "EOR W9, W9, #1"
+      },
+      {
+        "addr": "695510",
+        "instruction": "EOR W8, W8, #1"
+      },
+      {
+        "addr": "695514",
+        "instruction": "ORR W8, W9, W8"
+      },
+      {
+        "addr": "695518",
+        "instruction": "MOV W9, #0x20F7CBF6"
+      },
+      {
+        "addr": "695520",
+        "instruction": "MOV W10, #0x16EA701"
+      },
+      {
+        "addr": "695528",
+        "instruction": "TST W8, #1"
+      },
+      {
+        "addr": "69552c",
+        "instruction": "CSEL W8, W9, W10, NE"
+      },
+      {
+        "addr": "695530",
+        "instruction": "LDUR X9, [X29,#-0x20]"
+      },
+      {
+        "addr": "695534",
+        "instruction": "STR W8, [X9]"
+      },
+      {
+        "addr": "695538",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "69553c",
+        "instruction": "LDUR X8, [X29,#-0x20]",
+        "label": "loc_69553C"
+      },
+      {
+        "addr": "695540",
+        "instruction": "MOV W9, #0x32B85980"
+      },
+      {
+        "addr": "695548",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "69554c",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "695550",
+        "instruction": "NOP",
+        "label": "loc_695550"
+      },
+      {
+        "addr": "695554",
+        "instruction": "ADR X8, sub_6951FC",
+        "refs": [
+          {
+            "addr": "0x6951fc",
+            "name": "sub_6951FC"
+          }
+        ]
+      },
+      {
+        "addr": "695558",
+        "instruction": "LDR W8, [X8,#(loc_695200 - 0x6951FC)]",
+        "refs": [
+          {
+            "addr": "0x695200",
+            "name": "loc_695200"
+          }
+        ]
+      },
+      {
+        "addr": "69555c",
+        "instruction": "LSR W8, W8, #0xA"
+      },
+      {
+        "addr": "695560",
+        "instruction": "MOV W9, #0x3587C0"
+      },
+      {
+        "addr": "695568",
+        "instruction": "CMP W8, W9"
+      },
+      {
+        "addr": "69556c",
+        "instruction": "CSET W8, EQ"
+      },
+      {
+        "addr": "695570",
+        "instruction": "NOP"
+      },
+      {
+        "addr": "695574",
+        "instruction": "ADR X9, sub_6951FC",
+        "refs": [
+          {
+            "addr": "0x6951fc",
+            "name": "sub_6951FC"
+          }
+        ]
+      },
+      {
+        "addr": "695578",
+        "instruction": "LDR W9, [X9,#(loc_695204 - 0x6951FC)]",
+        "refs": [
+          {
+            "addr": "0x695204",
+            "name": "loc_695204"
+          }
+        ]
+      },
+      {
+        "addr": "69557c",
+        "instruction": "LSR W9, W9, #0xA"
+      },
+      {
+        "addr": "695580",
+        "instruction": "MOV W10, #0x3587C0"
+      },
+      {
+        "addr": "695588",
+        "instruction": "CMP W9, W10"
+      },
+      {
+        "addr": "69558c",
+        "instruction": "CSET W9, EQ"
+      },
+      {
+        "addr": "695590",
+        "instruction": "AND W10, W9, W8"
+      },
+      {
+        "addr": "695594",
+        "instruction": "EOR W10, W10, #1"
+      },
+      {
+        "addr": "695598",
+        "instruction": "SBFX W8, W8, #0, #1"
+      },
+      {
+        "addr": "69559c",
+        "instruction": "SBFX W9, W9, #0, #1"
+      },
+      {
+        "addr": "6955a0",
+        "instruction": "ADD W8, W8, W9"
+      },
+      {
+        "addr": "6955a4",
+        "instruction": "SBFX W8, W8, #0, #1"
+      },
+      {
+        "addr": "6955a8",
+        "instruction": "SUB W8, W8, #1"
+      },
+      {
+        "addr": "6955ac",
+        "instruction": "SBFX W8, W8, #0, #1"
+      },
+      {
+        "addr": "6955b0",
+        "instruction": "SBFX W9, W10, #0, #1"
+      },
+      {
+        "addr": "6955b4",
+        "instruction": "ADD W8, W8, W9"
+      },
+      {
+        "addr": "6955b8",
+        "instruction": "AND W8, W8, #1"
+      },
+      {
+        "addr": "6955bc",
+        "instruction": "STURB W8, [X29,#-0x11]"
+      },
+      {
+        "addr": "6955c0",
+        "instruction": "LDUR X8, [X29,#-0x20]"
+      },
+      {
+        "addr": "6955c4",
+        "instruction": "MOV W9, #0x24DA432D"
+      },
+      {
+        "addr": "6955cc",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "6955d0",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "6955d4",
+        "instruction": "LDURB W8, [X29,#-0x11]",
+        "label": "loc_6955D4"
+      },
+      {
+        "addr": "6955d8",
+        "instruction": "AND W8, W8, #1"
+      },
+      {
+        "addr": "6955dc",
+        "instruction": "MOV W9, #0x20F7CBF6"
+      },
+      {
+        "addr": "6955e4",
+        "instruction": "MOV W10, #0xAD954974"
+      },
+      {
+        "addr": "6955ec",
+        "instruction": "TST W8, #1"
+      },
+      {
+        "addr": "6955f0",
+        "instruction": "CSEL W8, W9, W10, NE"
+      },
+      {
+        "addr": "6955f4",
+        "instruction": "LDUR X9, [X29,#-0x20]"
+      },
+      {
+        "addr": "6955f8",
+        "instruction": "STR W8, [X9]"
+      },
+      {
+        "addr": "6955fc",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "695600",
+        "instruction": "B 0xFFFFFFFFF9E92530",
+        "label": "loc_695600"
+      },
+      {
+        "addr": "695608",
+        "instruction": "LDUR X8, [X29,#-0x20]"
+      },
+      {
+        "addr": "69560c",
+        "instruction": "MOV W9, #0x24824A07"
+      },
+      {
+        "addr": "695614",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "695618",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "695628",
+        "instruction": "SUBS X8, SP, #0x10"
+      },
+      {
+        "addr": "69562c",
+        "instruction": "MOV SP, X8"
+      },
+      {
+        "addr": "695630",
+        "instruction": "SUBS X9, SP, #0x10"
+      },
+      {
+        "addr": "695634",
+        "instruction": "MOV SP, X9"
+      },
+      {
+        "addr": "695638",
+        "instruction": "SUBS X19, SP, #0x10"
+      },
+      {
+        "addr": "69563c",
+        "instruction": "MOV SP, X19"
+      },
+      {
+        "addr": "695640",
+        "instruction": "MOV X22, X0"
+      },
+      {
+        "addr": "695644",
+        "instruction": "STR X22, [X8]"
+      },
+      {
+        "addr": "695648",
+        "instruction": "MOV X23, X1"
+      },
+      {
+        "addr": "69564c",
+        "instruction": "STR X23, [X9]"
+      },
+      {
+        "addr": "695650",
+        "instruction": "LDR X20, [X8]"
+      },
+      {
+        "addr": "695654",
+        "instruction": "LDR X21, [X9]"
+      },
+      {
+        "addr": "695658",
+        "instruction": "MOV X0, X19"
+      },
+      {
+        "addr": "69565c",
+        "instruction": "BL sub_6B6670",
+        "refs": [
+          {
+            "addr": "0x6b6670",
+            "name": "sub_6B6670"
+          }
+        ]
+      },
+      {
+        "addr": "695660",
+        "instruction": "MOV X0, X20"
+      },
+      {
+        "addr": "695664",
+        "instruction": "MOV X1, X21"
+      },
+      {
+        "addr": "695668",
+        "instruction": "MOV X2, X19"
+      },
+      {
+        "addr": "69566c",
+        "instruction": "BL sub_6B6674",
+        "refs": [
+          {
+            "addr": "0x6b6674",
+            "name": "sub_6B6674"
+          }
+        ]
+      },
+      {
+        "addr": "695670",
+        "instruction": "MOV X0, X22"
+      },
+      {
+        "addr": "695674",
+        "instruction": "MOV X1, X23"
+      },
+      {
+        "addr": "695678",
+        "instruction": "LDUR X8, [X29,#-0x20]"
+      },
+      {
+        "addr": "69567c",
+        "instruction": "MOV W9, #0x5C3B58E7"
+      },
+      {
+        "addr": "695684",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "695688",
+        "instruction": "B loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x6956cc",
+            "name": "loc_6956CC"
+          }
+        ]
+      },
+      {
+        "addr": "695698",
+        "instruction": "MRS X8, TPIDR_EL0"
+      },
+      {
+        "addr": "69569c",
+        "instruction": "LDR X8, [X8,#0x28]"
+      },
+      {
+        "addr": "6956a0",
+        "instruction": "LDUR X9, [X29,#-8]"
+      },
+      {
+        "addr": "6956a4",
+        "instruction": "CMP X8, X9"
+      },
+      {
+        "addr": "6956a8",
+        "instruction": "B.NE loc_6956D0",
+        "refs": [
+          {
+            "addr": "0x6956d0",
+            "name": "loc_6956D0"
+          }
+        ]
+      },
+      {
+        "addr": "6956ac",
+        "instruction": "BL .abort",
+        "refs": [
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          }
+        ]
+      },
+      {
+        "addr": "6956bc",
+        "instruction": "LDUR X8, [X29,#-0x20]"
+      },
+      {
+        "addr": "6956c0",
+        "instruction": "MOV W9, #0x32B85980"
+      },
+      {
+        "addr": "6956c8",
+        "instruction": "STR W9, [X8]"
+      },
+      {
+        "addr": "6956cc",
+        "instruction": "B loc_695240",
+        "label": "loc_6956CC",
+        "refs": [
+          {
+            "addr": "0x695240",
+            "name": "loc_695240"
+          }
+        ]
+      },
+      {
+        "addr": "6956d0",
+        "instruction": "BL .__stack_chk_fail",
+        "label": "loc_6956D0",
+        "refs": [
+          {
+            "addr": "0x78a4d0",
+            "name": ".__stack_chk_fail"
+          }
+        ]
+      }
+    ],
+    "stack_frame": [
+      {
+        "name": "__saved_registers",
+        "offset": "0x40",
+        "size": "0x20",
+        "type": "_QWORD[4]"
+      }
+    ]
+  },
+  "instruction_count": 261,
+  "total_instructions": null,
+  "cursor": {
+    "done": true
+  }
+}

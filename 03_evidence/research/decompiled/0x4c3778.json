@@ -1,0 +1,30 @@
+{
+  "addr": "0x4c3778",
+  "code": "void __fastcall sub_4C3778(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9)\n{\n  unsigned int v9; // w19\n  unsigned int v10; // w0\n  unsigned int v11; // w19\n  unsigned int v12; // w0\n  int v13; // w8\n  int *v14; // [xsp+8h] [xbp-28h]\n  __int64 *v15; // [xsp+10h] [xbp-20h]\n  int v16; // [xsp+24h] [xbp-Ch]\n  __int64 v17; // [xsp+40h] [xbp+10h] BYREF\n\n  _ReadStatusReg(TPIDR_EL0); /*0x4c3788*/\n  v16 = 865202678; /*0x4c379c*/\n  while ( 1 ) /*0x4c37b8*/\n  {\n    while ( v16 == -1927014194 ) /*0x4c37b8*/\n      v16 = 1050169123; /*0x4c3c98*/\n    switch ( v16 ) /*0x4c37cc*/\n    {\n      case -1810910289: /*0x4c37cc*/\n        v16 = -19685142; /*0x4c3b14*/\n        break;\n      case -1533873306: /*0x4c37cc*/\n        v16 = 2113526113; /*0x4c3c30*/\n        break;\n      case -759801994: /*0x4c37cc*/\n        v16 = 1546905269; /*0x4c3b94*/\n        break;\n      case -282678476: /*0x4c37cc*/\n        v16 = -1927014194; /*0x4c3c84*/\n        break;\n      case -171607936: /*0x4c37cc*/\n        v16 = -1810910289; /*0x4c3b00*/\n        break;\n      case -54991578: /*0x4c37cc*/\n        if ( *v14 >= 1000 ) /*0x4c3b74*/\n          v13 = -759801994; /*0x4c3b74*/\n        else\n          v13 = 308750567; /*0x4c3b74*/\n        v16 = v13; /*0x4c3b7c*/\n        break;\n      case -19685142: /*0x4c37cc*/\n        v11 = sub_4C40E0(); /*0x4c3b20*/\n        v12 = ((__int64 (*)(void))loc_4C4214)(); /*0x4c3b24*/\n        sub_4C3F38(v11, v12, 9); /*0x4c3b34*/\n        sub_4C49AC(2); /*0x4c3b3c*/\n        __break(1u); /*0x4c3b40*/\n        v16 = -54991578; /*0x4c3b50*/\n        break;\n      case 308750567: /*0x4c37cc*/\n        v16 = 689127262; /*0x4c3bd0*/\n        break;\n      case 450339539: /*0x4c37cc*/\n        v16 = -54991578; /*0x4c3c6c*/\n        break;\n      case 689127262: /*0x4c37cc*/\n        *(_BYTE *)*v15 = -52; /*0x4c3be4*/\n        *v15 += 4096; /*0x4c3bf8*/\n        v16 = 2132973344; /*0x4c3c08*/\n        break;\n      case 865202678: /*0x4c37cc*/\n        v16 = 946755079; /*0x4c3a78*/\n        break;\n      case 946755079: /*0x4c37cc*/\n        v15 = &a9; /*0x4c3aa8*/\n        v14 = (int *)&v17; /*0x4c3ab4*/\n        v9 = sub_4C40E0(); /*0x4c3abc*/\n        v10 = sub_56B300(); /*0x4c3ac0*/\n        sub_56B304(v9, v10, 9); /*0x4c3ad0*/\n        sub_4C49AC(2); /*0x4c3ad8*/\n        __break(1u); /*0x4c3adc*/\n        v16 = -171607936; /*0x4c3aec*/\n        break;\n      case 1050169123: /*0x4c37cc*/\n        v16 = -171607936; /*0x4c3cac*/\n        break;\n      case 1297563416: /*0x4c37cc*/\n        v16 = -282678476; /*0x4c3bbc*/\n        break;\n      case 1546905269: /*0x4c37cc*/\n        v16 = 1297563416; /*0x4c3ba8*/\n        break;\n      case 2113526113: /*0x4c37cc*/\n        ++*v14; /*0x4c3c48*/\n        v16 = 450339539; /*0x4c3c58*/\n        break;\n      default:\n        v16 = -1533873306; /*0x4c3c1c*/\n        break;\n    }\n  }\n}",
+  "refs": [
+    {
+      "addr": "0x4c40e0",
+      "name": "sub_4C40E0"
+    },
+    {
+      "addr": "0x4c4214",
+      "name": "loc_4C4214"
+    },
+    {
+      "addr": "0x4c3f38",
+      "name": "sub_4C3F38"
+    },
+    {
+      "addr": "0x4c49ac",
+      "name": "sub_4C49AC"
+    },
+    {
+      "addr": "0x56b300",
+      "name": "sub_56B300"
+    },
+    {
+      "addr": "0x56b304",
+      "name": "sub_56B304"
+    }
+  ]
+}

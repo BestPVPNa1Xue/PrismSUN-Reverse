@@ -1,0 +1,39 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x189c08\",\"code\":\"__int64 sub_189C08()\\n{\\n  bool v0; // zf\\n\\n  v0 = *(_DWORD *)sub_189C08 >> 26 == 5 || (*(_DWORD *)sub_189C08 & 0xFFE00000) == -736100352; /*0x189c24*/\\n  if ( v0 || loc_189C0C >> 10 == 3508160 || (loc_189C10 & 0xFFFFFC00) == 0xD61F0000 ) /*0x189c50*/\\n    abort(); /*0x189c60*/\\n  return sub_22F618();\\n}\",\"refs\":[{\"addr\":\"0x189c08\",\"name\":\"sub_189C08\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x189c0c\",\"name\":\"loc_189C0C\"},{\"addr\":\"0x189c10\",\"name\":\"loc_189C10\"},{\"addr\":\"0x22f618\",\"name\":\"sub_22F618\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x189c08",
+      "code": "__int64 sub_189C08()\n{\n  bool v0; // zf\n\n  v0 = *(_DWORD *)sub_189C08 >> 26 == 5 || (*(_DWORD *)sub_189C08 & 0xFFE00000) == -736100352; /*0x189c24*/\n  if ( v0 || loc_189C0C >> 10 == 3508160 || (loc_189C10 & 0xFFFFFC00) == 0xD61F0000 ) /*0x189c50*/\n    abort(); /*0x189c60*/\n  return sub_22F618();\n}",
+      "refs": [
+        {
+          "addr": "0x189c08",
+          "name": "sub_189C08"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x189c0c",
+          "name": "loc_189C0C"
+        },
+        {
+          "addr": "0x189c10",
+          "name": "loc_189C10"
+        },
+        {
+          "addr": "0x22f618",
+          "name": "sub_22F618"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

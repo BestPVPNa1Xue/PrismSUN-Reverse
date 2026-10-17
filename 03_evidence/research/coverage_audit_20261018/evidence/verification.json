@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "status": "PASS",
+  "method": "Local saved evidence and IDA Pro MCP static audit; no test rerun or target execution",
+  "protected_files": [
+    {
+      "path": "D:\\PrismSUN\\libprism-sun.so",
+      "size": 8030488,
+      "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\PrismSUN\\libprism-sun.so.i64",
+      "size": 76474118,
+      "sha256": "49df5f9196afd707e6112c564b0e8290a3445d13dfc23175f2ed61a8a5a296b4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\prism-analysis.i64",
+      "size": 82848571,
+      "sha256": "0ed633061d5887589a01075d4efd7ce7ae7b6c25fa5b2e00079547e02c7f7b70",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\mcp_clock\\prism-mcp-clock.i64",
+      "size": 83069522,
+      "sha256": "d6de17313b40b3d55a15af2e54e1d3bd3d0984b7b8c57835c7f9fa40f1f734a0",
+      "unchanged": true
+    }
+  ],
+  "task_rows_checked": 9,
+  "result_constructor_code_xrefs": 10,
+  "event_producer_functions": 8,
+  "new_fde_definitions": 29,
+  "defined_addresses": [
+    "0x601720",
+    "0x63a62c",
+    "0x65833c",
+    "0x67613c",
+    "0x6948bc",
+    "0x6ddd74",
+    "0x725fe4",
+    "0x601264",
+    "0x63a2bc",
+    "0x657ea8",
+    "0x675d18",
+    "0x6943dc",
+    "0x6dd9d0",
+    "0x725c04",
+    "0x7265dc",
+    "0x726aec",
+    "0x72a79c",
+    "0x73c064",
+    "0x73c5c8",
+    "0x73ce64",
+    "0x6d49a8",
+    "0x630c60",
+    "0x650410",
+    "0x66e578",
+    "0x68c394",
+    "0x6aa91c",
+    "0x6cdfb4",
+    "0x6f3b48",
+    "0x7149d8"
+  ],
+  "document_links": [
+    {
+      "target": "prism-coverage-audit.i64",
+      "exists": true
+    },
+    {
+      "target": "../PROGRESS.md",
+      "exists": true
+    },
+    {
+      "target": "../mcp_clock/REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "target": "../mcp_clock/REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "target": "../environment_memory/REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "target": "../device_identity/REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "target": "../device_identity/REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "target": "../accessibility/REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "target": "../environment_memory/REPORT.zh-CN.md",
+      "exists": true
+    },
+    {
+      "target": "evidence/ida-audit.json",
+      "exists": true
+    },
+    {
+      "target": "evidence/task-map.json",
+      "exists": true
+    },
+    {
+      "target": "../evidence/differential_policy.json",
+      "exists": true
+    },
+    {
+      "target": "../evidence/differential_class_probe.json",
+      "exists": true
+    },
+    {
+      "target": "../environment_memory/evidence/verification.json",
+      "exists": true
+    },
+    {
+      "target": "../device_identity/evidence/verification.json",
+      "exists": true
+    },
+    {
+      "target": "../mcp_clock/evidence/verification.json",
+      "exists": true
+    },
+    {
+      "target": "../accessibility/evidence/final-verification.json",
+      "exists": true
+    },
+    {
+      "target": "evidence/verification.json",
+      "exists": true
+    },
+    {
+      "target": "evidence/protected-before.json",
+      "exists": true
+    }
+  ],
+  "limits": [
+    "Not a whole-library completeness proof",
+    "IDA auto_analysis_ready=false",
+    "No Android execution or real host/network validation",
+    "Task36 conclusion limited to recovered normal path"
+  ],
+  "evidence_sha256": {
+    "ida-audit.json": "d8f7a6eb71a0553719843aad18e26af7d16d913d07de814284cb66540cd0ddf2",
+    "task-map.json": "987fae40253b5af60d6722919cb5e42ec6929868fde7c2feda514c861ad6bad9"
+  },
+  "audit_database_sha256": "6e8f62f11812709151d498bbcbd686fc65266450bd041ed4057acd9ee8a08c26"
+}

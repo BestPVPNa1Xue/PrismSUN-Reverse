@@ -1,0 +1,35 @@
+{
+  "outputs": [
+    {
+      "Path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\host\\jni_tests.exe",
+      "Hash": "CE64F77F3A07B7DD644FE5F9BCF5555249C2C100B631EC70D236731C6A81CB9A"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\host\\unit_tests.exe",
+      "Hash": "B7F237B25ADED9FBFA31F8130C57472505E6148A50EE68BD4E5E0A69103FBBE9"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\jni_tests",
+      "Hash": "5B868FAC04A77F16A5467CEE3D073B026590773716671B1EB2A6DF6920E08007"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\libprism_chains.so",
+      "Hash": "246334D49A0666910BE21006F210832EA97B0566209A4493F00E9B0FFBB402C3"
+    },
+    {
+      "Path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\unit_tests",
+      "Hash": "C6D9295A020EB9D48959234DBA4CFB02AFBDAFA6515827593020BF3D548C5E85"
+    }
+  ],
+  "hostCompiler": "D:\\msys64\\ucrt64\\bin\\g++.exe",
+  "runtime": "Host tests only. Android artifacts cross-compiled, not executed. No original sample execution.",
+  "ndk": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973",
+  "androidTarget": "aarch64-linux-android24",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ]
+}

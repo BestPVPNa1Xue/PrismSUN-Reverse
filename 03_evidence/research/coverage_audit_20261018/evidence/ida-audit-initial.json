@@ -1,0 +1,2142 @@
+{
+  "scope": "IDA Pro MCP static audit; single agent; no target execution",
+  "calls": [
+    {
+      "op": "survey_binary",
+      "args": {
+        "database": "7f769040",
+        "detail_level": "minimal"
+      },
+      "result": {
+        "metadata": {
+          "path": "D:\\PrismSUN\\research\\coverage_audit_20261018\\prism-coverage-audit.i64",
+          "module": "libprism-sun.so",
+          "arch": "64",
+          "base_address": "0x0",
+          "image_size": "0x7d27f8",
+          "md5": "cbced2c471944ca379ad3245decbf09e",
+          "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4"
+        },
+        "statistics": {
+          "total_functions": 13425,
+          "named_functions": 308,
+          "library_functions": 0,
+          "unnamed_functions": 13117,
+          "total_strings": 671,
+          "total_segments": 20
+        },
+        "segments": [
+          {
+            "name": "LOAD",
+            "start": "0x0",
+            "end": "0x1ac10",
+            "size": "0x1ac10",
+            "permissions": "rx"
+          },
+          {
+            "name": ".gcc_except_table",
+            "start": "0x1ac10",
+            "end": "0x2de34",
+            "size": "0x13224",
+            "permissions": "r"
+          },
+          {
+            "name": "LOAD",
+            "start": "0x2de34",
+            "end": "0x2de40",
+            "size": "0xc",
+            "permissions": "rx"
+          },
+          {
+            "name": ".rodata",
+            "start": "0x2de40",
+            "end": "0x40ebc",
+            "size": "0x1307c",
+            "permissions": "r"
+          },
+          {
+            "name": "LOAD",
+            "start": "0x40ebc",
+            "end": "0x40ec0",
+            "size": "0x4",
+            "permissions": "rx"
+          },
+          {
+            "name": ".eh_frame",
+            "start": "0x40ec0",
+            "end": "0xb59c0",
+            "size": "0x74b00",
+            "permissions": "r"
+          },
+          {
+            "name": ".text",
+            "start": "0xb59c0",
+            "end": "0x78a468",
+            "size": "0x6d4aa8",
+            "permissions": "rx"
+          },
+          {
+            "name": "LOAD",
+            "start": "0x78a468",
+            "end": "0x78a470",
+            "size": "0x8",
+            "permissions": "rx"
+          },
+          {
+            "name": ".plt",
+            "start": "0x78a470",
+            "end": "0x78ac70",
+            "size": "0x800",
+            "permissions": "rx"
+          },
+          {
+            "name": ".data.rel.ro",
+            "start": "0x78ec70",
+            "end": "0x7989c8",
+            "size": "0x9d58",
+            "permissions": "rw"
+          },
+          {
+            "name": ".fini_array",
+            "start": "0x7989c8",
+            "end": "0x7989d8",
+            "size": "0x10",
+            "permissions": "rw"
+          },
+          {
+            "name": ".init_array",
+            "start": "0x7989d8",
+            "end": "0x798a38",
+            "size": "0x60",
+            "permissions": "rw"
+          },
+          {
+            "name": "LOAD",
+            "start": "0x798a38",
+            "end": "0x798c18",
+            "size": "0x1e0",
+            "permissions": "rw"
+          },
+          {
+            "name": ".got",
+            "start": "0x798c18",
+            "end": "0x799040",
+            "size": "0x428",
+            "permissions": "rw"
+          },
+          {
+            "name": ".got.plt",
+            "start": "0x799040",
+            "end": "0x799448",
+            "size": "0x408",
+            "permissions": "rw"
+          },
+          {
+            "name": ".relro_padding",
+            "start": "0x799448",
+            "end": "0x79a000",
+            "size": "0xbb8",
+            "permissions": "rw"
+          },
+          {
+            "name": ".data",
+            "start": "0x79d450",
+            "end": "0x7b0078",
+            "size": "0x12c28",
+            "permissions": "rw"
+          },
+          {
+            "name": "LOAD",
+            "start": "0x7b0078",
+            "end": "0x7b0080",
+            "size": "0x8",
+            "permissions": "rw"
+          },
+          {
+            "name": ".bss",
+            "start": "0x7b0080",
+            "end": "0x7d2400",
+            "size": "0x22380",
+            "permissions": "rw"
+          },
+          {
+            "name": "extern",
+            "start": "0x7d2400",
+            "end": "0x7d27f8",
+            "size": "0x3f8",
+            "permissions": "---"
+          }
+        ],
+        "entrypoints": [
+          {
+            "addr": "0x2b3850",
+            "name": "startParadise",
+            "ordinal": 2832464
+          },
+          {
+            "addr": "0x2b40e8",
+            "name": "getSharedMemory",
+            "ordinal": 2834664
+          },
+          {
+            "addr": "0x2b442c",
+            "name": "shmFence",
+            "ordinal": 2835500
+          }
+        ],
+        "_note": "Binary has 13425 functions; xref analysis was limited to the first 10000 for performance."
+      }
+    },
+    {
+      "op": "xref_query",
+      "args": {
+        "database": "7f769040",
+        "queries": [
+          {
+            "addr": "0x601c58",
+            "direction": "to",
+            "include_fn": true,
+            "count": 100
+          },
+          {
+            "addr": "0x634e84",
+            "direction": "to",
+            "include_fn": true,
+            "count": 100
+          },
+          {
+            "addr": "0x4c3778",
+            "direction": "to",
+            "include_fn": true,
+            "count": 100
+          },
+          {
+            "addr": "0x4ea8b8",
+            "direction": "to",
+            "include_fn": true,
+            "count": 100
+          }
+        ]
+      },
+      "result": {
+        "result": [
+          {
+            "target": "0x601c58",
+            "resolved_addr": "0x601c58",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x601b28",
+                "from": "0x601b28",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x601a98",
+                  "name": "sub_601A98",
+                  "size": "0x1c0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x602150",
+                "from": "0x602150",
+                "to": "0x601c58",
+                "type": "data",
+                "fn": null
+              },
+              {
+                "direction": "to",
+                "addr": "0x6021e8",
+                "from": "0x6021e8",
+                "to": "0x601c58",
+                "type": "data",
+                "fn": null
+              },
+              {
+                "direction": "to",
+                "addr": "0x602208",
+                "from": "0x602208",
+                "to": "0x601c58",
+                "type": "data",
+                "fn": null
+              },
+              {
+                "direction": "to",
+                "addr": "0x63aa2c",
+                "from": "0x63aa2c",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x63a9a0",
+                  "name": "sub_63A9A0",
+                  "size": "0x1a4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x675a04",
+                "from": "0x675a04",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x675a04",
+                  "name": "sub_675A04",
+                  "size": "0x4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x676580",
+                "from": "0x676580",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6764f0",
+                  "name": "sub_6764F0",
+                  "size": "0x1a4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x694d10",
+                "from": "0x694d10",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x694c84",
+                  "name": "sub_694C84",
+                  "size": "0x1d8"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6b73d0",
+                "from": "0x6b73d0",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6b7340",
+                  "name": "sub_6B7340",
+                  "size": "0x1c8"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6de1f0",
+                "from": "0x6de1f0",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6de164",
+                  "name": "sub_6DE164",
+                  "size": "0x1dc"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6fe9ac",
+                "from": "0x6fe9ac",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6fe91c",
+                  "name": "sub_6FE91C",
+                  "size": "0x1a4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x74446c",
+                "from": "0x74446c",
+                "to": "0x601c58",
+                "type": "code",
+                "fn": {
+                  "addr": "0x74446c",
+                  "name": "sub_74446C",
+                  "size": "0x4"
+                }
+              }
+            ],
+            "next_offset": null,
+            "total": 12,
+            "error": null
+          },
+          {
+            "target": "0x634e84",
+            "resolved_addr": "0x634e84",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x6321cc",
+                "from": "0x6321cc",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x632054",
+                  "name": "prism_make_mcp_event32",
+                  "size": "0x2a0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x635300",
+                "from": "0x635300",
+                "to": "0x634e84",
+                "type": "data",
+                "fn": {
+                  "addr": "0x634e84",
+                  "name": "sub_634E84",
+                  "size": "0x690"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x63534c",
+                "from": "0x63534c",
+                "to": "0x634e84",
+                "type": "data",
+                "fn": {
+                  "addr": "0x634e84",
+                  "name": "sub_634E84",
+                  "size": "0x690"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x63536c",
+                "from": "0x63536c",
+                "to": "0x634e84",
+                "type": "data",
+                "fn": {
+                  "addr": "0x634e84",
+                  "name": "sub_634E84",
+                  "size": "0x690"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x650ac0",
+                "from": "0x650ac0",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x650898",
+                  "name": "sub_650898",
+                  "size": "0x36c"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x66e9a8",
+                "from": "0x66e9a8",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x66e838",
+                  "name": "sub_66E838",
+                  "size": "0x274"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x68cce8",
+                "from": "0x68cce8",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x68cbe0",
+                  "name": "sub_68CBE0",
+                  "size": "0x230"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6ab844",
+                "from": "0x6ab844",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6ab3d8",
+                  "name": "sub_6AB3D8",
+                  "size": "0x5ac"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6cf4c0",
+                "from": "0x6cf4c0",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6cf0c8",
+                  "name": "sub_6CF0C8",
+                  "size": "0x60c"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6cf554",
+                "from": "0x6cf554",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6cf0c8",
+                  "name": "sub_6CF0C8",
+                  "size": "0x60c"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6f4628",
+                "from": "0x6f4628",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6f4218",
+                  "name": "sub_6F4218",
+                  "size": "0x610"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6f46b0",
+                "from": "0x6f46b0",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6f4218",
+                  "name": "sub_6F4218",
+                  "size": "0x610"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x715df8",
+                "from": "0x715df8",
+                "to": "0x634e84",
+                "type": "code",
+                "fn": {
+                  "addr": "0x7153a8",
+                  "name": "sub_7153A8",
+                  "size": "0xcc8"
+                }
+              }
+            ],
+            "next_offset": null,
+            "total": 13,
+            "error": null
+          },
+          {
+            "target": "0x4c3778",
+            "resolved_addr": "0x4c3778",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x410318",
+                "from": "0x410318",
+                "to": "0x4c3778",
+                "type": "code",
+                "fn": {
+                  "addr": "0x40fd54",
+                  "name": "sub_40FD54",
+                  "size": "0xd98"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x410424",
+                "from": "0x410424",
+                "to": "0x4c3778",
+                "type": "code",
+                "fn": {
+                  "addr": "0x40fd54",
+                  "name": "sub_40FD54",
+                  "size": "0xd98"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x4497e0",
+                "from": "0x4497e0",
+                "to": "0x4c3778",
+                "type": "code",
+                "fn": {
+                  "addr": "0x4497e0",
+                  "name": "sub_4497E0",
+                  "size": "0x4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x44d288",
+                "from": "0x44d288",
+                "to": "0x4c3778",
+                "type": "code",
+                "fn": {
+                  "addr": "0x44d0b8",
+                  "name": "sub_44D0B8",
+                  "size": "0x6d0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x4c3cf8",
+                "from": "0x4c3cf8",
+                "to": "0x4c3778",
+                "type": "data",
+                "fn": {
+                  "addr": "0x4c3778",
+                  "name": "sub_4C3778",
+                  "size": "0x7c0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x4c3d58",
+                "from": "0x4c3d58",
+                "to": "0x4c3778",
+                "type": "data",
+                "fn": {
+                  "addr": "0x4c3778",
+                  "name": "sub_4C3778",
+                  "size": "0x7c0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x4c3d78",
+                "from": "0x4c3d78",
+                "to": "0x4c3778",
+                "type": "data",
+                "fn": {
+                  "addr": "0x4c3778",
+                  "name": "sub_4C3778",
+                  "size": "0x7c0"
+                }
+              }
+            ],
+            "next_offset": null,
+            "total": 7,
+            "error": null
+          },
+          {
+            "target": "0x4ea8b8",
+            "resolved_addr": "0x4ea8b8",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x4d3b80",
+                "from": "0x4d3b80",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x4d3aac",
+                  "name": "sub_4D3AAC",
+                  "size": "0x478"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x4eabf8",
+                "from": "0x4eabf8",
+                "to": "0x4ea8b8",
+                "type": "data",
+                "fn": null
+              },
+              {
+                "direction": "to",
+                "addr": "0x4eac58",
+                "from": "0x4eac58",
+                "to": "0x4ea8b8",
+                "type": "data",
+                "fn": null
+              },
+              {
+                "direction": "to",
+                "addr": "0x4eac78",
+                "from": "0x4eac78",
+                "to": "0x4ea8b8",
+                "type": "data",
+                "fn": null
+              },
+              {
+                "direction": "to",
+                "addr": "0x58cdcc",
+                "from": "0x58cdcc",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x58cd1c",
+                  "name": "sub_58CD1C",
+                  "size": "0x2f4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x601b00",
+                "from": "0x601b00",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x601a98",
+                  "name": "sub_601A98",
+                  "size": "0x1c0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x657bb0",
+                "from": "0x657bb0",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x657bb0",
+                  "name": "sub_657BB0",
+                  "size": "0x4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6759fc",
+                "from": "0x6759fc",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6759fc",
+                  "name": "sub_6759FC",
+                  "size": "0x4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x676558",
+                "from": "0x676558",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6764f0",
+                  "name": "sub_6764F0",
+                  "size": "0x1a4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x694ce8",
+                "from": "0x694ce8",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x694c84",
+                  "name": "sub_694C84",
+                  "size": "0x1d8"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6b73a8",
+                "from": "0x6b73a8",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6b7340",
+                  "name": "sub_6B7340",
+                  "size": "0x1c8"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6fdd3c",
+                "from": "0x6fdd3c",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x6fdd3c",
+                  "name": "sub_6FDD3C",
+                  "size": "0x4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x7255a0",
+                "from": "0x7255a0",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x7255a0",
+                  "name": "sub_7255A0",
+                  "size": "0x4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x744468",
+                "from": "0x744468",
+                "to": "0x4ea8b8",
+                "type": "code",
+                "fn": {
+                  "addr": "0x744468",
+                  "name": "sub_744468",
+                  "size": "0x4"
+                }
+              }
+            ],
+            "next_offset": null,
+            "total": 14,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x601720"
+      },
+      "result": {
+        "addr": "0x601720",
+        "code": null,
+        "error": "Decompilation failed at 0x601720"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x63a62c"
+      },
+      "result": {
+        "addr": "0x63a62c",
+        "code": null,
+        "error": "Decompilation failed at 0x63a62c"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x65833c"
+      },
+      "result": {
+        "addr": "0x65833c",
+        "code": null,
+        "error": "Decompilation failed at 0x65833c"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x67613c"
+      },
+      "result": {
+        "addr": "0x67613c",
+        "code": null,
+        "error": "Decompilation failed at 0x67613c"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x6948bc"
+      },
+      "result": {
+        "addr": "0x6948bc",
+        "code": null,
+        "error": "Decompilation failed at 0x6948bc"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x6ddd74"
+      },
+      "result": {
+        "addr": "0x6ddd74",
+        "code": null,
+        "error": "Decompilation failed at 0x6ddd74"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x725fe4"
+      },
+      "result": {
+        "addr": "0x725fe4",
+        "code": null,
+        "error": "Decompilation failed at 0x725fe4"
+      }
+    },
+    {
+      "op": "define_func",
+      "args": {
+        "database": "7f769040",
+        "items": [
+          {
+            "addr": "6297376",
+            "end": "6298264"
+          },
+          {
+            "addr": "6530604",
+            "end": "6531488"
+          },
+          {
+            "addr": "6652732",
+            "end": "6653420"
+          },
+          {
+            "addr": "6775100",
+            "end": "6776048"
+          },
+          {
+            "addr": "6899900",
+            "end": "6900868"
+          },
+          {
+            "addr": "7200116",
+            "end": "7201124"
+          },
+          {
+            "addr": "7495652",
+            "end": "7496736"
+          }
+        ]
+      },
+      "result": {
+        "result": [
+          {
+            "addr": "6297376",
+            "start": "0x601720",
+            "end": "0x601a98"
+          },
+          {
+            "addr": "6530604",
+            "start": "0x63a62c",
+            "end": "0x63a9a0"
+          },
+          {
+            "addr": "6652732",
+            "start": "0x65833c",
+            "end": "0x6585ec"
+          },
+          {
+            "addr": "6775100",
+            "start": "0x67613c",
+            "end": "0x6764f0"
+          },
+          {
+            "addr": "6899900",
+            "start": "0x6948bc",
+            "end": "0x694c84"
+          },
+          {
+            "addr": "7200116",
+            "start": "0x6ddd74",
+            "end": "0x6de164"
+          },
+          {
+            "addr": "7495652",
+            "start": "0x725fe4",
+            "end": "0x726420"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x601720"
+      },
+      "result": {
+        "addr": "0x601720",
+        "code": "__int64 __fastcall sub_601720(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int v13; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x60172c*/\n  v13 = 1024558322; /*0x60174c*/\n  while ( 1 ) /*0x601768*/\n  {\n    while ( v13 == -2131374810 ) /*0x601768*/\n    {\n      if ( *(_DWORD *)sub_601720 >> 26 != 5 && *(_DWORD *)sub_601720 >> 21 != 1697 /*0x601964*/\n        || *(_DWORD *)sub_601720 >> 26 != 5 && *(_DWORD *)sub_601720 >> 21 != 1697 )\n      {\n        v11 = 1886984751; /*0x601988*/\n      }\n      else\n      {\n        v11 = -555045122; /*0x601988*/\n      }\n      v13 = v11; /*0x601990*/\n    }\n    if ( v13 == -1763763661 ) /*0x60177c*/\n      break; /*0x60177c*/\n    switch ( v13 ) /*0x601790*/\n    {\n      case -1718836203: /*0x601790*/\n        v13 = -580566848; /*0x6018b4*/\n        break;\n      case -1671872533: /*0x601790*/\n        HIBYTE(a10) = loc_601724 >> 10 == 3508160 || loc_601728 >> 10 == 3508160; /*0x6019f4*/\n        v13 = -481267341; /*0x601a04*/\n        break;\n      case -1543669172: /*0x601790*/\n        v13 = 394705221; /*0x6018dc*/\n        break;\n      case -580566848: /*0x601790*/\n        v13 = -2131374810; /*0x6018c8*/\n        break;\n      case -555045122: /*0x601790*/\n        _ReadStatusReg(TPIDR_EL0); /*0x60191c*/\n        sub_63A2B4(); /*0x601930*/\n      case -481267341: /*0x601790*/\n        if ( (a10 & 0x100000000000000LL) != 0 ) /*0x601a28*/\n          v12 = -555045122; /*0x601a28*/\n        else\n          v12 = -1543669172; /*0x601a28*/\n        v13 = v12; /*0x601a30*/\n        break;\n      case 394705221: /*0x601790*/\n        result = ((__int64 (*)(void))loc_601264)(); /*0x6018e4*/\n        v13 = -1763763661; /*0x6018f4*/\n        break;\n      case 1024558322: /*0x601790*/\n        v13 = -1718836203; /*0x6018a0*/\n        break;\n      default:\n        v13 = -1671872533; /*0x6019a4*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6018fc*/\n  return result; /*0x601918*/\n}",
+        "refs": [
+          {
+            "addr": "0x601720",
+            "name": "sub_601720"
+          },
+          {
+            "addr": "0x601724",
+            "name": "loc_601724"
+          },
+          {
+            "addr": "0x601728",
+            "name": "loc_601728"
+          },
+          {
+            "addr": "0x63a2b4",
+            "name": "sub_63A2B4"
+          },
+          {
+            "addr": "0x601264",
+            "name": "loc_601264"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x63a62c"
+      },
+      "result": {
+        "addr": "0x63a62c",
+        "code": "__int64 __fastcall sub_63A62C(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int i; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x63a638*/\n  for ( i = 1061018469; ; i = -869205814 ) /*0x63a650*/\n  {\n    while ( 1 ) /*0x63a720*/\n    {\n      while ( 1 ) /*0x63a70c*/\n      {\n        while ( 1 ) /*0x63a6e4*/\n        {\n          while ( 1 ) /*0x63a6d0*/\n          {\n            while ( 1 ) /*0x63a6bc*/\n            {\n              while ( 1 ) /*0x63a6a8*/\n              {\n                while ( 1 ) /*0x63a694*/\n                {\n                  while ( i == -869205814 ) /*0x63a694*/\n                  {\n                    result = ((__int64 (*)(void))loc_63A2BC)(); /*0x63a7e8*/\n                    i = 1497208847; /*0x63a7f8*/\n                  }\n                  if ( i != -828101731 ) /*0x63a6a8*/\n                    break; /*0x63a6a8*/\n                  i = -503363761; /*0x63a844*/\n                }\n                if ( i != -503363761 ) /*0x63a6bc*/\n                  break; /*0x63a6bc*/\n                HIBYTE(a10) = (*(_DWORD *)sub_63A62C >> 26 == 5 || *(_DWORD *)sub_63A62C >> 21 == 1697) /*0x63a894*/\n                           && (*(_DWORD *)sub_63A62C >> 26 == 5 || *(_DWORD *)sub_63A62C >> 21 == 1697);\n                i = 1243630242; /*0x63a8a4*/\n              }\n              if ( i != -104255516 ) /*0x63a6d0*/\n                break; /*0x63a6d0*/\n              if ( loc_63A630 >> 10 == 3508160 || loc_63A634 >> 10 == 3508160 ) /*0x63a92c*/\n                v12 = 893119597; /*0x63a930*/\n              else\n                v12 = 1859436795; /*0x63a930*/\n              i = v12; /*0x63a938*/\n            }\n            if ( i != 245915672 ) /*0x63a6e4*/\n              break; /*0x63a6e4*/\n            i = -828101731; /*0x63a7cc*/\n          }\n          if ( i == 893119597 ) /*0x63a6f8*/\n          {\n            _ReadStatusReg(TPIDR_EL0); /*0x63a820*/\n            abort(); /*0x63a834*/\n          }\n          if ( i != 979835224 ) /*0x63a70c*/\n            break; /*0x63a70c*/\n          i = 245915672; /*0x63a7b8*/\n        }\n        if ( i != 1061018469 ) /*0x63a720*/\n          break; /*0x63a720*/\n        i = 979835224; /*0x63a7a4*/\n      }\n      if ( i != 1243630242 ) /*0x63a748*/\n        break; /*0x63a748*/\n      if ( (a10 & 0x100000000000000LL) != 0 ) /*0x63a8c8*/\n        v11 = 893119597; /*0x63a8c8*/\n      else\n        v11 = -104255516; /*0x63a8c8*/\n      i = v11; /*0x63a8d0*/\n    }\n    if ( i == 1497208847 ) /*0x63a75c*/\n      break; /*0x63a75c*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x63a800*/\n  return result; /*0x63a81c*/\n}",
+        "refs": [
+          {
+            "addr": "0x63a2bc",
+            "name": "loc_63A2BC"
+          },
+          {
+            "addr": "0x63a62c",
+            "name": "sub_63A62C"
+          },
+          {
+            "addr": "0x63a630",
+            "name": "loc_63A630"
+          },
+          {
+            "addr": "0x63a634",
+            "name": "loc_63A634"
+          },
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x65833c"
+      },
+      "result": {
+        "addr": "0x65833c",
+        "code": "__int64 sub_65833C()\n{\n  __int64 result; // x0\n  int v1; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x658348*/\n  v1 = -499611680; /*0x65835c*/\n  while ( v1 != -1938703415 ) /*0x658378*/\n  {\n    if ( v1 == -1472081215 ) /*0x6583b4*/\n    {\n      result = ((__int64 (*)(void))loc_657EA8)(); /*0x65844c*/\n      v1 = -1938703415; /*0x65845c*/\n    }\n    else\n    {\n      v1 = -1472081215; /*0x658444*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x658464*/\n  return result; /*0x658480*/\n}",
+        "refs": [
+          {
+            "addr": "0x657ea8",
+            "name": "loc_657EA8"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x67613c"
+      },
+      "result": {
+        "addr": "0x67613c",
+        "code": "__int64 sub_67613C()\n{\n  __int64 result; // x0\n  int v1; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x676148*/\n  v1 = -530624004; /*0x67615c*/\n  while ( v1 != -1832727446 ) /*0x67618c*/\n  {\n    if ( v1 == -530624004 ) /*0x676218*/\n    {\n      v1 = 854498697; /*0x6762bc*/\n    }\n    else\n    {\n      result = ((__int64 (*)(void))loc_675D18)(); /*0x6762c4*/\n      v1 = -1832727446; /*0x6762d4*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6762dc*/\n  return result; /*0x6762f8*/\n}",
+        "refs": [
+          {
+            "addr": "0x675d18",
+            "name": "loc_675D18"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x6948bc"
+      },
+      "result": {
+        "addr": "0x6948bc",
+        "code": "__int64 sub_6948BC()\n{\n  __int64 result; // x0\n  int i; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x6948c8*/\n  for ( i = -1749712514; ; i = -443891727 ) /*0x6948dc*/\n  {\n    while ( i == -1749712514 ) /*0x6948f8*/\n      i = 1590599990; /*0x694a3c*/\n    if ( i == -443891727 ) /*0x69495c*/\n      break; /*0x69495c*/\n    result = ((__int64 (*)(void))loc_6943DC)(); /*0x694a44*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x694a5c*/\n  return result; /*0x694a78*/\n}",
+        "refs": [
+          {
+            "addr": "0x6943dc",
+            "name": "loc_6943DC"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x6ddd74"
+      },
+      "result": {
+        "addr": "0x6ddd74",
+        "code": "__int64 __fastcall sub_6DDD74(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int v13; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x6ddd80*/\n  v13 = -2137250528; /*0x6ddda0*/\n  while ( 1 ) /*0x6dde84*/\n  {\n    while ( 1 ) /*0x6dde70*/\n    {\n      while ( 1 ) /*0x6dde5c*/\n      {\n        while ( 1 ) /*0x6dde48*/\n        {\n          while ( 1 ) /*0x6ddde4*/\n          {\n            while ( 1 ) /*0x6dddd0*/\n            {\n              while ( 1 ) /*0x6dddbc*/\n              {\n                while ( v13 == -2137250528 ) /*0x6dddbc*/\n                  v13 = -1049526419; /*0x6ddf30*/\n                if ( v13 != -1978204182 ) /*0x6dddd0*/\n                  break; /*0x6dddd0*/\n                v13 = -1833619465; /*0x6ddff8*/\n              }\n              if ( v13 != -1833619465 ) /*0x6ddde4*/\n                break; /*0x6ddde4*/\n              HIBYTE(a10) = (*(_DWORD *)sub_6DDD74 >> 26 == 5 && *(_DWORD *)sub_6DDD74 >> 21 == 1697) /*0x6de034*/\n                          | (*(_DWORD *)sub_6DDD74 >> 26 == 5) ^ (*(_DWORD *)sub_6DDD74 >> 21 == 1697);\n              v13 = 2135693333; /*0x6de044*/\n            }\n            if ( v13 == -1457056965 ) /*0x6dde34*/\n            {\n              _ReadStatusReg(TPIDR_EL0); /*0x6ddfc0*/\n              sub_6FE08C(); /*0x6ddfd4*/\n            }\n            if ( v13 != -1049526419 ) /*0x6dde48*/\n              break; /*0x6dde48*/\n            v13 = -434910958; /*0x6ddf44*/\n          }\n          if ( v13 != -950996779 ) /*0x6dde5c*/\n            break; /*0x6dde5c*/\n          result = ((__int64 (*)(void))loc_6DD9D0)(); /*0x6ddf74*/\n          v13 = 569066506; /*0x6ddf84*/\n        }\n        if ( v13 != -855374778 ) /*0x6dde70*/\n          break; /*0x6dde70*/\n        v13 = -1457056965; /*0x6ddfb8*/\n      }\n      if ( v13 != -434910958 ) /*0x6dde84*/\n        break; /*0x6dde84*/\n      v13 = -1978204182; /*0x6ddf58*/\n    }\n    if ( v13 == 569066506 ) /*0x6ddeac*/\n      break; /*0x6ddeac*/\n    if ( v13 == 1833431480 ) /*0x6dded4*/\n    {\n      v13 = -950996779; /*0x6ddf6c*/\n    }\n    else if ( v13 == 1863868955 ) /*0x6ddee8*/\n    {\n      if ( loc_6DDD78 >> 10 == 3508160 || loc_6DDD7C >> 10 == 3508160 ) /*0x6de0cc*/\n        v12 = -855374778; /*0x6de0d0*/\n      else\n        v12 = 1833431480; /*0x6de0d0*/\n      v13 = v12; /*0x6de0d8*/\n    }\n    else\n    {\n      if ( (a10 & 0x100000000000000LL) != 0 ) /*0x6de068*/\n        v11 = -855374778; /*0x6de068*/\n      else\n        v11 = 1863868955; /*0x6de068*/\n      v13 = v11; /*0x6de070*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6ddf8c*/\n  return result; /*0x6ddfa8*/\n}",
+        "refs": [
+          {
+            "addr": "0x6ddd74",
+            "name": "sub_6DDD74"
+          },
+          {
+            "addr": "0x6fe08c",
+            "name": "sub_6FE08C"
+          },
+          {
+            "addr": "0x6dd9d0",
+            "name": "loc_6DD9D0"
+          },
+          {
+            "addr": "0x6ddd78",
+            "name": "loc_6DDD78"
+          },
+          {
+            "addr": "0x6ddd7c",
+            "name": "loc_6DDD7C"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x725fe4"
+      },
+      "result": {
+        "addr": "0x725fe4",
+        "code": "__int64 __fastcall sub_725FE4(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int i; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x725ff0*/\n  for ( i = 1366667885; ; i = -619617200 ) /*0x726010*/\n  {\n    while ( 1 ) /*0x72611c*/\n    {\n      while ( 1 ) /*0x726108*/\n      {\n        while ( 1 ) /*0x7260f4*/\n        {\n          while ( 1 ) /*0x7260e0*/\n          {\n            while ( 1 ) /*0x7260b8*/\n            {\n              while ( 1 ) /*0x726068*/\n              {\n                while ( 1 ) /*0x726054*/\n                {\n                  while ( 1 ) /*0x726040*/\n                  {\n                    while ( i == -1906343194 ) /*0x726040*/\n                    {\n                      if ( (a10 & 0x1000000000000LL) != 0 ) /*0x726390*/\n                        v12 = 641356958; /*0x726390*/\n                      else\n                        v12 = 732308295; /*0x726390*/\n                      i = v12; /*0x726398*/\n                    }\n                    if ( i != -714042744 ) /*0x726054*/\n                      break; /*0x726054*/\n                    BYTE6(a10) = (((((loc_725FE8 >> 10 == 3508160) << 31 >> 31) /*0x72635c*/\n                                  + (((loc_725FE8 >> 10 == 3508160) ^ (loc_725FEC >> 10 == 3508160)) << 31 >> 31)) << 31 >> 31)\n                                - (((loc_725FE8 >> 10 == 3508160) & (unsigned __int8)(loc_725FEC >> 10 != 3508160)) << 31 >> 31))\n                               & 1;\n                    i = -1906343194; /*0x72636c*/\n                  }\n                  if ( i != -619617200 ) /*0x726068*/\n                    break; /*0x726068*/\n                  i = 389610258; /*0x7261b4*/\n                }\n                if ( i == -575641825 ) /*0x72607c*/\n                {\n                  _ReadStatusReg(TPIDR_EL0); /*0x726208*/\n                  sub_744748(); /*0x72621c*/\n                }\n                if ( i != -408658835 ) /*0x7260b8*/\n                  break; /*0x7260b8*/\n                HIBYTE(a10) = (*(_DWORD *)sub_725FE4 >> 26 != 5) ^ (*(_DWORD *)sub_725FE4 >> 21 != 1697) /*0x72629c*/\n                            | (*(_DWORD *)sub_725FE4 >> 26 == 5 && *(_DWORD *)sub_725FE4 >> 21 == 1697);\n                i = -29353989; /*0x7262ac*/\n              }\n              if ( i != -29353989 ) /*0x7260e0*/\n                break; /*0x7260e0*/\n              if ( (a10 & 0x100000000000000LL) != 0 ) /*0x7262d0*/\n                v11 = 641356958; /*0x7262d0*/\n              else\n                v11 = 257429748; /*0x7262d0*/\n              i = v11; /*0x7262d8*/\n            }\n            if ( i != 98489601 ) /*0x7260f4*/\n              break; /*0x7260f4*/\n            i = -408658835; /*0x726240*/\n          }\n          if ( i != 257429748 ) /*0x726108*/\n            break; /*0x726108*/\n          i = -714042744; /*0x7262ec*/\n        }\n        if ( i != 389610258 ) /*0x72611c*/\n          break; /*0x72611c*/\n        i = 98489601; /*0x7261c8*/\n      }\n      if ( i != 641356958 ) /*0x726130*/\n        break; /*0x726130*/\n      i = -575641825; /*0x726200*/\n    }\n    if ( i == 732308295 ) /*0x726144*/\n      break; /*0x726144*/\n  }\n  result = sub_744744(); /*0x7261d0*/\n  _ReadStatusReg(TPIDR_EL0); /*0x7261d4*/\n  return result; /*0x7261f0*/\n}",
+        "refs": [
+          {
+            "addr": "0x725fe8",
+            "name": "loc_725FE8"
+          },
+          {
+            "addr": "0x725fec",
+            "name": "loc_725FEC"
+          },
+          {
+            "addr": "0x744748",
+            "name": "sub_744748"
+          },
+          {
+            "addr": "0x725fe4",
+            "name": "sub_725FE4"
+          },
+          {
+            "addr": "0x744744",
+            "name": "sub_744744"
+          }
+        ]
+      }
+    },
+    {
+      "op": "find_regex",
+      "args": {
+        "database": "7f769040",
+        "pattern": "Checker|Prism|Seccomp|Xposed|Frida|Root|Emulator",
+        "limit": 100
+      },
+      "result": {
+        "n": 1,
+        "matches": [
+          {
+            "addr": "0x166d",
+            "string": "libprism-sun.so"
+          }
+        ],
+        "cursor": {
+          "done": true
+        }
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x744744"
+      },
+      "result": {
+        "addr": "0x744744",
+        "code": "// attributes: thunk\nvoid sub_744744(void)\n{\n  JUMPOUT(0x725C04); /*0x725c04*/\n}"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x726420"
+      },
+      "result": {
+        "addr": "0x726420",
+        "code": "__int64 __fastcall sub_726420(__int64 a1, unsigned __int8 a2)\n{\n  __int64 v2; // x20\n  unsigned int v3; // w21\n  __int64 result; // x0\n  unsigned __int8 v5; // [xsp-60h] [xbp-70h]\n  _BYTE v6[48]; // [xsp-50h] [xbp-60h] BYREF\n  unsigned __int8 v7; // [xsp-20h] [xbp-30h]\n  __int64 v8; // [xsp-10h] [xbp-20h]\n  __int64 v9; // [xsp+8h] [xbp-8h]\n\n  v9 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x726440*/\n  if ( *(_DWORD *)sub_726420 >> 26 == 5 /*0x7265c8*/\n    || *(_DWORD *)sub_726420 >> 21 == 1697\n    || loc_726424 >> 10 == 3508160\n    || loc_726428 >> 10 == 3508160 )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x726524*/\n    abort(); /*0x726538*/\n  }\n  v8 = a1; /*0x726488*/\n  v7 = a2; /*0x72648c*/\n  v2 = sub_744468(); /*0x726494*/\n  v3 = v7; /*0x72649c*/\n  ((void (__fastcall *)(_BYTE *, _QWORD))loc_7265DC)(v6, v5); /*0x7264a4*/\n  sub_74446C(v2, v3, v6); /*0x7264b4*/\n  result = sub_744470(v6); /*0x7264c0*/\n  _ReadStatusReg(TPIDR_EL0); /*0x7264c4*/\n  return result; /*0x7264ec*/\n}",
+        "refs": [
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          },
+          {
+            "addr": "0x726420",
+            "name": "sub_726420"
+          },
+          {
+            "addr": "0x726424",
+            "name": "loc_726424"
+          },
+          {
+            "addr": "0x726428",
+            "name": "loc_726428"
+          },
+          {
+            "addr": "0x744468",
+            "name": "sub_744468"
+          },
+          {
+            "addr": "0x7265dc",
+            "name": "loc_7265DC"
+          },
+          {
+            "addr": "0x74446c",
+            "name": "sub_74446C"
+          },
+          {
+            "addr": "0x744470",
+            "name": "sub_744470"
+          }
+        ]
+      }
+    },
+    {
+      "op": "define_func",
+      "args": {
+        "database": "7f769040",
+        "items": [
+          {
+            "addr": "6296164",
+            "end": "6297376"
+          },
+          {
+            "addr": "6529724",
+            "end": "6530604"
+          },
+          {
+            "addr": "6651560",
+            "end": "6652732"
+          },
+          {
+            "addr": "6774040",
+            "end": "6775100"
+          },
+          {
+            "addr": "6898652",
+            "end": "6899900"
+          },
+          {
+            "addr": "7199184",
+            "end": "7200116"
+          },
+          {
+            "addr": "0x725c04",
+            "end": "0x725fe4"
+          }
+        ]
+      },
+      "result": {
+        "result": [
+          {
+            "addr": "6296164",
+            "start": "0x601264",
+            "end": "0x601720"
+          },
+          {
+            "addr": "6529724",
+            "start": "0x63a2bc",
+            "end": "0x63a62c"
+          },
+          {
+            "addr": "6651560",
+            "start": "0x657ea8",
+            "end": "0x65833c"
+          },
+          {
+            "addr": "6774040",
+            "start": "0x675d18",
+            "end": "0x67613c"
+          },
+          {
+            "addr": "6898652",
+            "start": "0x6943dc",
+            "end": "0x6948bc"
+          },
+          {
+            "addr": "7199184",
+            "start": "0x6dd9d0",
+            "end": "0x6ddd74"
+          },
+          {
+            "addr": "0x725c04",
+            "start": "0x725c04",
+            "end": "0x725fe4"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x601264"
+      },
+      "result": {
+        "addr": "0x601264",
+        "code": "__int64 __fastcall sub_601264(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int v13; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x601270*/\n  v13 = 170830374; /*0x601290*/\n  while ( 1 ) /*0x601374*/\n  {\n    while ( 1 ) /*0x601360*/\n    {\n      while ( 1 ) /*0x601338*/\n      {\n        while ( 1 ) /*0x601324*/\n        {\n          while ( 1 ) /*0x6012e8*/\n          {\n            while ( 1 ) /*0x6012d4*/\n            {\n              while ( v13 == -1752171385 ) /*0x6012d4*/\n                v13 = 212727056; /*0x6015b8*/\n              if ( v13 != -1477961459 ) /*0x6012e8*/\n                break; /*0x6012e8*/\n              v13 = 451119310; /*0x601498*/\n            }\n            if ( v13 != -734397167 ) /*0x601324*/\n              break; /*0x601324*/\n            v13 = 678167353; /*0x6014f4*/\n          }\n          if ( v13 != -702253270 ) /*0x601338*/\n            break; /*0x601338*/\n          v13 = -656966704; /*0x601534*/\n        }\n        if ( v13 != -656966704 ) /*0x601360*/\n          break; /*0x601360*/\n        HIBYTE(a10) = *(_DWORD *)sub_601264 >> 26 == 5 || *(_DWORD *)sub_601264 >> 21 == 1697; /*0x601568*/\n        v13 = 1208384351; /*0x601578*/\n      }\n      if ( v13 != -75544881 ) /*0x601374*/\n        break; /*0x601374*/\n      v13 = -702253270; /*0x601484*/\n    }\n    if ( v13 == 28205428 ) /*0x601388*/\n      break; /*0x601388*/\n    switch ( v13 ) /*0x6013b0*/\n    {\n      case 170830374: /*0x6013b0*/\n        v13 = 1751179859; /*0x60145c*/\n        break;\n      case 212727056: /*0x6013b0*/\n        BYTE6(a10) = (((((((loc_601268 >> 10 == 3508160) << 31 >> 31) + ((loc_60126C >> 10 == 3508160) << 31 >> 31)) << 31 >> 31) /*0x60162c*/\n                      - 1) << 31 >> 31)\n                    + ((loc_60126C >> 10 != 3508160 || loc_601268 >> 10 != 3508160) << 31 >> 31))\n                   & 1;\n        v13 = 895293656; /*0x60163c*/\n        break;\n      case 451119310: /*0x6013b0*/\n        result = sub_639AF0(&unk_7D0984, 39); /*0x6014b0*/\n        v13 = 28205428; /*0x6014c0*/\n        break;\n      case 678167353: /*0x6013b0*/\n        _ReadStatusReg(TPIDR_EL0); /*0x6014fc*/\n        abort(); /*0x601510*/\n      case 895293656: /*0x6013b0*/\n        if ( (a10 & 0x1000000000000LL) != 0 ) /*0x601660*/\n          v12 = -734397167; /*0x601660*/\n        else\n          v12 = -1477961459; /*0x601660*/\n        v13 = v12; /*0x601668*/\n        break;\n      case 1208384351: /*0x6013b0*/\n        if ( (a10 & 0x100000000000000LL) != 0 ) /*0x60159c*/\n          v11 = -734397167; /*0x60159c*/\n        else\n          v11 = -1752171385; /*0x60159c*/\n        v13 = v11; /*0x6015a4*/\n        break;\n      default:\n        v13 = -75544881; /*0x601470*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6014c8*/\n  return result; /*0x6014e4*/\n}",
+        "refs": [
+          {
+            "addr": "0x601264",
+            "name": "sub_601264"
+          },
+          {
+            "addr": "0x601268",
+            "name": "loc_601268"
+          },
+          {
+            "addr": "0x60126c",
+            "name": "loc_60126C"
+          },
+          {
+            "addr": "0x639af0",
+            "name": "sub_639AF0"
+          },
+          {
+            "addr": "0x7d0984",
+            "name": "unk_7D0984"
+          },
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x63a2bc"
+      },
+      "result": {
+        "addr": "0x63a2bc",
+        "code": "__int64 __fastcall sub_63A2BC(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int i; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x63a2c8*/\n  for ( i = 713350676; ; i = -800693626 ) /*0x63a2e8*/\n  {\n    while ( 1 ) /*0x63a390*/\n    {\n      while ( 1 ) /*0x63a37c*/\n      {\n        while ( 1 ) /*0x63a368*/\n        {\n          while ( 1 ) /*0x63a340*/\n          {\n            while ( 1 ) /*0x63a32c*/\n            {\n              while ( 1 ) /*0x63a318*/\n              {\n                while ( i == -1083181658 ) /*0x63a318*/\n                {\n                  HIBYTE(a10) = *(_DWORD *)sub_63A2BC >> 26 == 5 || *(_DWORD *)sub_63A2BC >> 21 == 1697; /*0x63a520*/\n                  i = 62372739; /*0x63a530*/\n                }\n                if ( i != -800693626 ) /*0x63a32c*/\n                  break; /*0x63a32c*/\n                i = 236468255; /*0x63a450*/\n              }\n              if ( i != -151483552 ) /*0x63a340*/\n                break; /*0x63a340*/\n              if ( loc_63A2C0 >> 10 == 3508160 || loc_63A2C4 >> 10 == 3508160 ) /*0x63a5b8*/\n                v12 = 616497574; /*0x63a5bc*/\n              else\n                v12 = 1819204298; /*0x63a5bc*/\n              i = v12; /*0x63a5c4*/\n            }\n            if ( i == -123139706 ) /*0x63a354*/\n            {\n              _ReadStatusReg(TPIDR_EL0); /*0x63a4b4*/\n              abort(); /*0x63a4c8*/\n            }\n            if ( i != 62372739 ) /*0x63a368*/\n              break; /*0x63a368*/\n            if ( (a10 & 0x100000000000000LL) != 0 ) /*0x63a554*/\n              v11 = 616497574; /*0x63a554*/\n            else\n              v11 = -151483552; /*0x63a554*/\n            i = v11; /*0x63a55c*/\n          }\n          if ( i != 236468255 ) /*0x63a37c*/\n            break; /*0x63a37c*/\n          i = 284058078; /*0x63a464*/\n        }\n        if ( i != 284058078 ) /*0x63a390*/\n          break; /*0x63a390*/\n        i = -1083181658; /*0x63a4ec*/\n      }\n      if ( i != 616497574 ) /*0x63a3b8*/\n        break; /*0x63a3b8*/\n      i = -123139706; /*0x63a4ac*/\n    }\n    if ( i != 713350676 ) /*0x63a3cc*/\n      break; /*0x63a3cc*/\n  }\n  result = sub_657BAC(&unk_7D098C, 33); /*0x63a47c*/\n  _ReadStatusReg(TPIDR_EL0); /*0x63a480*/\n  return result; /*0x63a49c*/\n}",
+        "refs": [
+          {
+            "addr": "0x63a2bc",
+            "name": "sub_63A2BC"
+          },
+          {
+            "addr": "0x63a2c0",
+            "name": "loc_63A2C0"
+          },
+          {
+            "addr": "0x63a2c4",
+            "name": "loc_63A2C4"
+          },
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          },
+          {
+            "addr": "0x657bac",
+            "name": "sub_657BAC"
+          },
+          {
+            "addr": "0x7d098c",
+            "name": "unk_7D098C"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x657ea8"
+      },
+      "result": {
+        "addr": "0x657ea8",
+        "code": "__int64 __fastcall sub_657EA8(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int v13; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x657eb4*/\n  v13 = 1418891463; /*0x657ed0*/\n  while ( 1 ) /*0x657fa0*/\n  {\n    while ( 1 ) /*0x657f8c*/\n    {\n      while ( 1 ) /*0x657f3c*/\n      {\n        while ( 1 ) /*0x657f28*/\n        {\n          while ( 1 ) /*0x657f14*/\n          {\n            while ( 1 ) /*0x657f00*/\n            {\n              while ( 1 ) /*0x657eec*/\n              {\n                while ( v13 == -1304160350 ) /*0x657eec*/\n                  v13 = 1745595985; /*0x6581f8*/\n                if ( v13 != -601890406 ) /*0x657f00*/\n                  break; /*0x657f00*/\n                result = sub_6759F8(&unk_7D0994, 34); /*0x6580f0*/\n                v13 = 1153261515; /*0x658100*/\n              }\n              if ( v13 != -287701555 ) /*0x657f14*/\n                break; /*0x657f14*/\n              if ( (a10 & 0x100000000000000LL) != 0 ) /*0x6581dc*/\n                v11 = 997044169; /*0x6581dc*/\n              else\n                v11 = -1304160350; /*0x6581dc*/\n              v13 = v11; /*0x6581e4*/\n            }\n            if ( v13 != 63539304 ) /*0x657f28*/\n              break; /*0x657f28*/\n            v13 = 1549715594; /*0x658174*/\n          }\n          if ( v13 != 325553935 ) /*0x657f3c*/\n            break; /*0x657f3c*/\n          v13 = 63539304; /*0x6580c4*/\n        }\n        if ( v13 == 535315005 ) /*0x657f64*/\n        {\n          _ReadStatusReg(TPIDR_EL0); /*0x65813c*/\n          abort(); /*0x658150*/\n        }\n        if ( v13 != 832644446 ) /*0x657f8c*/\n          break; /*0x657f8c*/\n        if ( (a10 & 0x1000000000000LL) != 0 ) /*0x65827c*/\n          v12 = 997044169; /*0x65827c*/\n        else\n          v12 = 1957607502; /*0x65827c*/\n        v13 = v12; /*0x658284*/\n      }\n      if ( v13 != 997044169 ) /*0x657fa0*/\n        break; /*0x657fa0*/\n      v13 = 535315005; /*0x658134*/\n    }\n    if ( v13 == 1153261515 ) /*0x657fc8*/\n      break; /*0x657fc8*/\n    switch ( v13 ) /*0x657ff0*/\n    {\n      case 1406009709: /*0x657ff0*/\n        v13 = 325553935; /*0x6580b0*/\n        break;\n      case 1418891463: /*0x657ff0*/\n        v13 = 1406009709; /*0x65809c*/\n        break;\n      case 1549715594: /*0x657ff0*/\n        HIBYTE(a10) = *(_DWORD *)sub_657EA8 >> 26 == 5 || *(_DWORD *)sub_657EA8 >> 21 == 1697; /*0x6581a8*/\n        v13 = -287701555; /*0x6581b8*/\n        break;\n      case 1745595985: /*0x657ff0*/\n        BYTE6(a10) = loc_657EAC >> 10 == 3508160 || loc_657EB0 >> 10 == 3508160; /*0x658248*/\n        v13 = 832644446; /*0x658258*/\n        break;\n      default:\n        v13 = -601890406; /*0x6580d8*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x658108*/\n  return result; /*0x658124*/\n}",
+        "refs": [
+          {
+            "addr": "0x6759f8",
+            "name": "sub_6759F8"
+          },
+          {
+            "addr": "0x7d0994",
+            "name": "unk_7D0994"
+          },
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          },
+          {
+            "addr": "0x657ea8",
+            "name": "sub_657EA8"
+          },
+          {
+            "addr": "0x657eac",
+            "name": "loc_657EAC"
+          },
+          {
+            "addr": "0x657eb0",
+            "name": "loc_657EB0"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x675d18"
+      },
+      "result": {
+        "addr": "0x675d18",
+        "code": "__int64 __fastcall sub_675D18(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int v13; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x675d24*/\n  v13 = 232757603; /*0x675d44*/\n  while ( 1 ) /*0x675dc4*/\n  {\n    while ( 1 ) /*0x675d88*/\n    {\n      while ( 1 ) /*0x675d74*/\n      {\n        while ( v13 == -1412282515 ) /*0x675d74*/\n        {\n          if ( (a10 & 0x100000000000000LL) != 0 ) /*0x676030*/\n            v11 = -1394633829; /*0x676030*/\n          else\n            v11 = 1459617068; /*0x676030*/\n          v13 = v11; /*0x676038*/\n        }\n        if ( v13 != -1394633829 ) /*0x675d88*/\n          break; /*0x675d88*/\n        v13 = -424313914; /*0x675f6c*/\n      }\n      if ( v13 != -533622463 ) /*0x675dc4*/\n        break; /*0x675dc4*/\n      result = sub_6764F0(&unk_7D099C, 37); /*0x675f28*/\n      v13 = 49689847; /*0x675f38*/\n    }\n    if ( v13 == -424313914 ) /*0x675dd8*/\n    {\n      _ReadStatusReg(TPIDR_EL0); /*0x675f74*/\n      abort(); /*0x675f88*/\n    }\n    if ( v13 == 49689847 ) /*0x675dec*/\n      break; /*0x675dec*/\n    switch ( v13 ) /*0x675e00*/\n    {\n      case 232757603: /*0x675e00*/\n        v13 = 1147254768; /*0x675ed4*/\n        break;\n      case 685787187: /*0x675e00*/\n        v13 = 1469558131; /*0x675efc*/\n        break;\n      case 990016072: /*0x675e00*/\n        v13 = -533622463; /*0x675f10*/\n        break;\n      case 1147254768: /*0x675e00*/\n        v13 = 685787187; /*0x675ee8*/\n        break;\n      case 1308708568: /*0x675e00*/\n        HIBYTE(a10) = *(_DWORD *)sub_675D18 >> 26 == 5 || *(_DWORD *)sub_675D18 >> 21 == 1697; /*0x675ffc*/\n        v13 = -1412282515; /*0x67600c*/\n        break;\n      case 1459617068: /*0x675e00*/\n        if ( loc_675D1C >> 10 == 3508160 || loc_675D20 >> 10 == 3508160 ) /*0x676094*/\n          v12 = -1394633829; /*0x676098*/\n        else\n          v12 = 990016072; /*0x676098*/\n        v13 = v12; /*0x6760a0*/\n        break;\n      default:\n        v13 = 1308708568; /*0x675fac*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x675f40*/\n  return result; /*0x675f5c*/\n}",
+        "refs": [
+          {
+            "addr": "0x6764f0",
+            "name": "sub_6764F0"
+          },
+          {
+            "addr": "0x7d099c",
+            "name": "unk_7D099C"
+          },
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          },
+          {
+            "addr": "0x675d18",
+            "name": "sub_675D18"
+          },
+          {
+            "addr": "0x675d1c",
+            "name": "loc_675D1C"
+          },
+          {
+            "addr": "0x675d20",
+            "name": "loc_675D20"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x6943dc"
+      },
+      "result": {
+        "addr": "0x6943dc",
+        "code": "__int64 __fastcall sub_6943DC(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int i; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x6943e8*/\n  for ( i = 439523668; ; i = 1468252182 ) /*0x694404*/\n  {\n    while ( 1 ) /*0x694560*/\n    {\n      while ( 1 ) /*0x69454c*/\n      {\n        while ( 1 ) /*0x694524*/\n        {\n          while ( 1 ) /*0x6944fc*/\n          {\n            while ( 1 ) /*0x6944e8*/\n            {\n              while ( 1 ) /*0x6944d4*/\n              {\n                while ( 1 ) /*0x6944ac*/\n                {\n                  while ( 1 ) /*0x694498*/\n                  {\n                    while ( 1 ) /*0x694484*/\n                    {\n                      while ( 1 ) /*0x694434*/\n                      {\n                        while ( i == -996736895 ) /*0x694434*/\n                        {\n                          if ( (a10 & 0x100000000000000LL) != 0 ) /*0x694734*/\n                            v11 = 258693719; /*0x694734*/\n                          else\n                            v11 = 580279439; /*0x694734*/\n                          i = v11; /*0x69473c*/\n                        }\n                        if ( i != 19495547 ) /*0x694484*/\n                          break; /*0x694484*/\n                        result = sub_694C84(&unk_7D09A4, 35); /*0x694624*/\n                        i = 2077062439; /*0x694634*/\n                      }\n                      if ( i != 39371357 ) /*0x694498*/\n                        break; /*0x694498*/\n                      HIBYTE(a10) = (((((((*(_DWORD *)sub_6943DC >> 26 == 5) << 31 >> 31) /*0x694700*/\n                                       + ((*(_DWORD *)sub_6943DC >> 21 == 1697) << 31 >> 31)) << 31 >> 31)\n                                     - 1) << 31 >> 31)\n                                   + ((*(_DWORD *)sub_6943DC >> 21 != 1697 || *(_DWORD *)sub_6943DC >> 26 != 5) << 31 >> 31))\n                                  & 1;\n                      i = -996736895; /*0x694710*/\n                    }\n                    if ( i != 45778921 ) /*0x6944ac*/\n                      break; /*0x6944ac*/\n                    i = 1037697627; /*0x6945e4*/\n                  }\n                  if ( i != 258693719 ) /*0x6944d4*/\n                    break; /*0x6944d4*/\n                  i = 768554022; /*0x694668*/\n                }\n                if ( i != 439523668 ) /*0x6944e8*/\n                  break; /*0x6944e8*/\n                i = 45778921; /*0x6945d0*/\n              }\n              if ( i != 580279439 ) /*0x6944fc*/\n                break; /*0x6944fc*/\n              i = 1830351429; /*0x694750*/\n            }\n            if ( i == 768554022 ) /*0x694510*/\n            {\n              _ReadStatusReg(TPIDR_EL0); /*0x694670*/\n              sub_6B6658(); /*0x694684*/\n            }\n            if ( i != 1037697627 ) /*0x694524*/\n              break; /*0x694524*/\n            i = 1799299355; /*0x6945f8*/\n          }\n          if ( i != 1468252182 ) /*0x69454c*/\n            break; /*0x69454c*/\n          if ( (a10 & 0x1000000000000LL) != 0 ) /*0x6947f4*/\n            v12 = 258693719; /*0x6947f4*/\n          else\n            v12 = 1605916971; /*0x6947f4*/\n          i = v12; /*0x6947fc*/\n        }\n        if ( i != 1605916971 ) /*0x694560*/\n          break; /*0x694560*/\n        i = 19495547; /*0x69460c*/\n      }\n      if ( i != 1799299355 ) /*0x694574*/\n        break; /*0x694574*/\n      i = 39371357; /*0x6946a8*/\n    }\n    if ( i != 1830351429 ) /*0x694588*/\n      break; /*0x694588*/\n    BYTE6(a10) = loc_6943E0 >> 10 == 3508160 || loc_6943E4 >> 10 == 3508160; /*0x6947c0*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x69463c*/\n  return result; /*0x694658*/\n}",
+        "refs": [
+          {
+            "addr": "0x694c84",
+            "name": "sub_694C84"
+          },
+          {
+            "addr": "0x7d09a4",
+            "name": "unk_7D09A4"
+          },
+          {
+            "addr": "0x6943dc",
+            "name": "sub_6943DC"
+          },
+          {
+            "addr": "0x6b6658",
+            "name": "sub_6B6658"
+          },
+          {
+            "addr": "0x6943e0",
+            "name": "loc_6943E0"
+          },
+          {
+            "addr": "0x6943e4",
+            "name": "loc_6943E4"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x6dd9d0"
+      },
+      "result": {
+        "addr": "0x6dd9d0",
+        "code": "__int64 __fastcall sub_6DD9D0(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10)\n{\n  __int64 result; // x0\n  int v11; // w8\n  int v12; // w8\n  int i; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x6dd9dc*/\n  for ( i = 183428830; ; i = 242333863 ) /*0x6dd9fc*/\n  {\n    while ( 1 ) /*0x6ddacc*/\n    {\n      while ( 1 ) /*0x6ddaa4*/\n      {\n        while ( 1 ) /*0x6dda90*/\n        {\n          while ( 1 ) /*0x6dda7c*/\n          {\n            while ( 1 ) /*0x6dda54*/\n            {\n              while ( 1 ) /*0x6dda40*/\n              {\n                while ( 1 ) /*0x6dda18*/\n                {\n                  while ( i == -2090182307 ) /*0x6dda18*/\n                  {\n                    result = sub_6DE164(&unk_7D09C0, 40); /*0x6ddba4*/\n                    i = 1306495712; /*0x6ddbb4*/\n                  }\n                  if ( i == -1016908848 ) /*0x6dda2c*/\n                  {\n                    _ReadStatusReg(TPIDR_EL0); /*0x6ddbdc*/\n                    abort(); /*0x6ddbf0*/\n                  }\n                  if ( i != -479840798 ) /*0x6dda40*/\n                    break; /*0x6dda40*/\n                  if ( (a10 & 0x100000000000000LL) != 0 ) /*0x6ddcf0*/\n                    v12 = -1016908848; /*0x6ddcf0*/\n                  else\n                    v12 = 1132813456; /*0x6ddcf0*/\n                  i = v12; /*0x6ddcf8*/\n                }\n                if ( i != -379776593 ) /*0x6dda54*/\n                  break; /*0x6dda54*/\n                i = 1186078814; /*0x6ddc6c*/\n              }\n              if ( i != 130470115 ) /*0x6dda7c*/\n                break; /*0x6dda7c*/\n              i = 1621874793; /*0x6ddb64*/\n            }\n            if ( i != 183428830 ) /*0x6dda90*/\n              break; /*0x6dda90*/\n            i = 130470115; /*0x6ddb50*/\n          }\n          if ( i != 242333863 ) /*0x6ddaa4*/\n            break; /*0x6ddaa4*/\n          if ( ((((((*(_DWORD *)sub_6DD9D0 >> 26 == 5) << 31 >> 31) /*0x6ddc50*/\n                 + (((*(_DWORD *)sub_6DD9D0 >> 26 == 5) ^ (*(_DWORD *)sub_6DD9D0 >> 21 == 1697)) << 31 >> 31)) << 31 >> 31)\n               - (((*(_DWORD *)sub_6DD9D0 >> 26 == 5) & (unsigned __int8)(*(_DWORD *)sub_6DD9D0 >> 21 != 1697)) << 31 >> 31))\n              & 1) != 0 )\n            v11 = -1016908848; /*0x6ddc50*/\n          else\n            v11 = -379776593; /*0x6ddc50*/\n          i = v11; /*0x6ddc58*/\n        }\n        if ( i != 1132813456 ) /*0x6ddacc*/\n          break; /*0x6ddacc*/\n        i = -2090182307; /*0x6ddb8c*/\n      }\n      if ( i != 1186078814 ) /*0x6ddae0*/\n        break; /*0x6ddae0*/\n      HIBYTE(a10) = loc_6DD9D4 >> 10 == 3508160 || loc_6DD9D8 >> 10 == 3508160; /*0x6ddcbc*/\n      i = -479840798; /*0x6ddccc*/\n    }\n    if ( i == 1306495712 ) /*0x6ddaf4*/\n      break; /*0x6ddaf4*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6ddbbc*/\n  return result; /*0x6ddbd8*/\n}",
+        "refs": [
+          {
+            "addr": "0x6de164",
+            "name": "sub_6DE164"
+          },
+          {
+            "addr": "0x7d09c0",
+            "name": "unk_7D09C0"
+          },
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          },
+          {
+            "addr": "0x6dd9d0",
+            "name": "sub_6DD9D0"
+          },
+          {
+            "addr": "0x6dd9d4",
+            "name": "loc_6DD9D4"
+          },
+          {
+            "addr": "0x6dd9d8",
+            "name": "loc_6DD9D8"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x725c04"
+      },
+      "result": {
+        "addr": "0x725c04",
+        "code": "__int64 sub_725C04()\n{\n  __int64 result; // x0\n  int i; // [xsp+44h] [xbp+24h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x725c10*/\n  for ( i = -398476404; ; i = -502853266 ) /*0x725c24*/\n  {\n    while ( i == -502853266 ) /*0x725c90*/\n    {\n      result = sub_744460((__int64)&unk_7D09E4, 0x24u); /*0x725d9c*/\n      i = 122164253; /*0x725dac*/\n    }\n    if ( i != -398476404 ) /*0x725ca4*/\n      break; /*0x725ca4*/\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x725db4*/\n  return result; /*0x725dd0*/\n}",
+        "refs": [
+          {
+            "addr": "0x744460",
+            "name": "sub_744460"
+          },
+          {
+            "addr": "0x7d09e4",
+            "name": "unk_7D09E4"
+          }
+        ]
+      }
+    },
+    {
+      "op": "xref_query",
+      "args": {
+        "database": "7f769040",
+        "queries": [
+          {
+            "addr": "0x632054",
+            "direction": "to",
+            "count": 30
+          },
+          {
+            "addr": "0x650898",
+            "direction": "to",
+            "count": 30
+          },
+          {
+            "addr": "0x66e838",
+            "direction": "to",
+            "count": 30
+          },
+          {
+            "addr": "0x68cbe0",
+            "direction": "to",
+            "count": 30
+          },
+          {
+            "addr": "0x6ab3d8",
+            "direction": "to",
+            "count": 30
+          },
+          {
+            "addr": "0x6f4218",
+            "direction": "to",
+            "count": 30
+          },
+          {
+            "addr": "0x726420",
+            "direction": "to",
+            "count": 30
+          }
+        ]
+      },
+      "result": {
+        "result": [
+          {
+            "target": "0x632054",
+            "resolved_addr": "0x632054",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x632274",
+                "from": "0x632274",
+                "to": "0x632054",
+                "type": "data",
+                "fn": {
+                  "addr": "0x632054",
+                  "name": "prism_make_mcp_event32",
+                  "size": "0x2a0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6322a8",
+                "from": "0x6322a8",
+                "to": "0x632054",
+                "type": "data",
+                "fn": {
+                  "addr": "0x632054",
+                  "name": "prism_make_mcp_event32",
+                  "size": "0x2a0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6322c8",
+                "from": "0x6322c8",
+                "to": "0x632054",
+                "type": "data",
+                "fn": {
+                  "addr": "0x632054",
+                  "name": "prism_make_mcp_event32",
+                  "size": "0x2a0"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x793ab0",
+                "from": "0x793ab0",
+                "to": "0x632054",
+                "type": "data",
+                "fn": null
+              }
+            ],
+            "next_offset": null,
+            "total": 4,
+            "error": null
+          },
+          {
+            "target": "0x650898",
+            "resolved_addr": "0x650898",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x650b68",
+                "from": "0x650b68",
+                "to": "0x650898",
+                "type": "data",
+                "fn": {
+                  "addr": "0x650898",
+                  "name": "sub_650898",
+                  "size": "0x36c"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x650b9c",
+                "from": "0x650b9c",
+                "to": "0x650898",
+                "type": "data",
+                "fn": {
+                  "addr": "0x650898",
+                  "name": "sub_650898",
+                  "size": "0x36c"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x650bbc",
+                "from": "0x650bbc",
+                "to": "0x650898",
+                "type": "data",
+                "fn": {
+                  "addr": "0x650898",
+                  "name": "sub_650898",
+                  "size": "0x36c"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x793ba8",
+                "from": "0x793ba8",
+                "to": "0x650898",
+                "type": "data",
+                "fn": null
+              }
+            ],
+            "next_offset": null,
+            "total": 4,
+            "error": null
+          },
+          {
+            "target": "0x66e838",
+            "resolved_addr": "0x66e838",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x66ea30",
+                "from": "0x66ea30",
+                "to": "0x66e838",
+                "type": "data",
+                "fn": {
+                  "addr": "0x66e838",
+                  "name": "sub_66E838",
+                  "size": "0x274"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x66ea60",
+                "from": "0x66ea60",
+                "to": "0x66e838",
+                "type": "data",
+                "fn": {
+                  "addr": "0x66e838",
+                  "name": "sub_66E838",
+                  "size": "0x274"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x66ea80",
+                "from": "0x66ea80",
+                "to": "0x66e838",
+                "type": "data",
+                "fn": {
+                  "addr": "0x66e838",
+                  "name": "sub_66E838",
+                  "size": "0x274"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x793c48",
+                "from": "0x793c48",
+                "to": "0x66e838",
+                "type": "data",
+                "fn": null
+              }
+            ],
+            "next_offset": null,
+            "total": 4,
+            "error": null
+          },
+          {
+            "target": "0x68cbe0",
+            "resolved_addr": "0x68cbe0",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x68cd70",
+                "from": "0x68cd70",
+                "to": "0x68cbe0",
+                "type": "data",
+                "fn": {
+                  "addr": "0x68cbe0",
+                  "name": "sub_68CBE0",
+                  "size": "0x230"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x68cdc4",
+                "from": "0x68cdc4",
+                "to": "0x68cbe0",
+                "type": "data",
+                "fn": {
+                  "addr": "0x68cbe0",
+                  "name": "sub_68CBE0",
+                  "size": "0x230"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x68cde4",
+                "from": "0x68cde4",
+                "to": "0x68cbe0",
+                "type": "data",
+                "fn": {
+                  "addr": "0x68cbe0",
+                  "name": "sub_68CBE0",
+                  "size": "0x230"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x793ce8",
+                "from": "0x793ce8",
+                "to": "0x68cbe0",
+                "type": "data",
+                "fn": null
+              }
+            ],
+            "next_offset": null,
+            "total": 4,
+            "error": null
+          },
+          {
+            "target": "0x6ab3d8",
+            "resolved_addr": "0x6ab3d8",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x6ab8ec",
+                "from": "0x6ab8ec",
+                "to": "0x6ab3d8",
+                "type": "data",
+                "fn": {
+                  "addr": "0x6ab3d8",
+                  "name": "sub_6AB3D8",
+                  "size": "0x5ac"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6ab938",
+                "from": "0x6ab938",
+                "to": "0x6ab3d8",
+                "type": "data",
+                "fn": {
+                  "addr": "0x6ab3d8",
+                  "name": "sub_6AB3D8",
+                  "size": "0x5ac"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6ab958",
+                "from": "0x6ab958",
+                "to": "0x6ab3d8",
+                "type": "data",
+                "fn": {
+                  "addr": "0x6ab3d8",
+                  "name": "sub_6AB3D8",
+                  "size": "0x5ac"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x793d88",
+                "from": "0x793d88",
+                "to": "0x6ab3d8",
+                "type": "data",
+                "fn": null
+              }
+            ],
+            "next_offset": null,
+            "total": 4,
+            "error": null
+          },
+          {
+            "target": "0x6f4218",
+            "resolved_addr": "0x6f4218",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x6f477c",
+                "from": "0x6f477c",
+                "to": "0x6f4218",
+                "type": "data",
+                "fn": {
+                  "addr": "0x6f4218",
+                  "name": "sub_6F4218",
+                  "size": "0x610"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6f47d4",
+                "from": "0x6f47d4",
+                "to": "0x6f4218",
+                "type": "data",
+                "fn": {
+                  "addr": "0x6f4218",
+                  "name": "sub_6F4218",
+                  "size": "0x610"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x6f47f4",
+                "from": "0x6f47f4",
+                "to": "0x6f4218",
+                "type": "data",
+                "fn": {
+                  "addr": "0x6f4218",
+                  "name": "sub_6F4218",
+                  "size": "0x610"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x793f40",
+                "from": "0x793f40",
+                "to": "0x6f4218",
+                "type": "data",
+                "fn": null
+              }
+            ],
+            "next_offset": null,
+            "total": 4,
+            "error": null
+          },
+          {
+            "target": "0x726420",
+            "resolved_addr": "0x726420",
+            "direction": "to",
+            "xref_type": "any",
+            "data": [
+              {
+                "direction": "to",
+                "addr": "0x726544",
+                "from": "0x726544",
+                "to": "0x726420",
+                "type": "data",
+                "fn": {
+                  "addr": "0x726420",
+                  "name": "sub_726420",
+                  "size": "0x1bc"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x726590",
+                "from": "0x726590",
+                "to": "0x726420",
+                "type": "data",
+                "fn": {
+                  "addr": "0x726420",
+                  "name": "sub_726420",
+                  "size": "0x1bc"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x7265b0",
+                "from": "0x7265b0",
+                "to": "0x726420",
+                "type": "data",
+                "fn": {
+                  "addr": "0x726420",
+                  "name": "sub_726420",
+                  "size": "0x1bc"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x744460",
+                "from": "0x744460",
+                "to": "0x726420",
+                "type": "code",
+                "fn": {
+                  "addr": "0x744460",
+                  "name": "sub_744460",
+                  "size": "0x4"
+                }
+              },
+              {
+                "direction": "to",
+                "addr": "0x744464",
+                "from": "0x744464",
+                "to": "0x726420",
+                "type": "code",
+                "fn": {
+                  "addr": "0x744464",
+                  "name": "sub_744464",
+                  "size": "0x4"
+                }
+              }
+            ],
+            "next_offset": null,
+            "total": 5,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x7265dc"
+      },
+      "result": {
+        "addr": "0x7265dc",
+        "code": null,
+        "error": "Decompilation failed at 0x7265dc"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x744460"
+      },
+      "result": {
+        "addr": "0x744460",
+        "code": "// attributes: thunk\n__int64 __fastcall sub_744460(__int64 a1, unsigned __int8 a2)\n{\n  return sub_726420(a1, a2);\n}",
+        "refs": [
+          {
+            "addr": "0x726420",
+            "name": "sub_726420"
+          }
+        ]
+      }
+    },
+    {
+      "op": "define_func",
+      "args": {
+        "database": "7f769040",
+        "items": {
+          "addr": "0x7265dc",
+          "end": "0x726aec"
+        }
+      },
+      "result": {
+        "result": [
+          {
+            "addr": "0x7265dc",
+            "start": "0x7265dc",
+            "end": "0x726aec"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x7265dc"
+      },
+      "result": {
+        "addr": "0x7265dc",
+        "code": "__int64 __fastcall sub_7265DC(\n        __int64 result,\n        int a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        char a9)\n{\n  int v9; // w8\n  __int64 v10; // x19\n  int v11; // w20\n  int v12; // w8\n  int v13; // w8\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x7265f4*/\n  savedregs[2] = 0xA067336700000003LL; /*0x7265fc*/\n  savedregs[0] = (char *)&savedregs[2] + 4; /*0x726610*/\n  while ( 1 ) /*0x726688*/\n  {\n    while ( 1 ) /*0x726674*/\n    {\n      while ( 1 ) /*0x726660*/\n      {\n        while ( 1 ) /*0x72664c*/\n        {\n          while ( 1 ) /*0x726638*/\n          {\n            while ( 1 ) /*0x726624*/\n            {\n              while ( HIDWORD(savedregs[2]) == -2137424224 ) /*0x726624*/\n                HIDWORD(savedregs[2]) = 797191384; /*0x7267fc*/\n              if ( HIDWORD(savedregs[2]) != -1652493088 ) /*0x726638*/\n                break; /*0x726638*/\n              BYTE6(savedregs[1]) = loc_7265E0 >> 10 == 3508160 || loc_7265E4 >> 10 == 3508160; /*0x7269d0*/\n              HIDWORD(savedregs[2]) = -780032123; /*0x7269e0*/\n            }\n            if ( HIDWORD(savedregs[2]) != -1638398160 ) /*0x72664c*/\n              break; /*0x72664c*/\n            HIBYTE(savedregs[1]) = (*(_DWORD *)sub_7265DC >> 26 != 5) ^ (*(_DWORD *)sub_7265DC >> 21 != 1697) /*0x726930*/\n                                 | (*(_DWORD *)sub_7265DC >> 26 == 5 && *(_DWORD *)sub_7265DC >> 21 == 1697);\n            HIDWORD(savedregs[2]) = 435255265; /*0x726940*/\n          }\n          if ( HIDWORD(savedregs[2]) != -1603849369 ) /*0x726660*/\n            break; /*0x726660*/\n          if ( LODWORD(savedregs[2]) == 522380458 ) /*0x7267cc*/\n            v9 = -11662776; /*0x7267cc*/\n          else\n            v9 = 1221561098; /*0x7267cc*/\n          HIDWORD(savedregs[2]) = v9; /*0x7267d4*/\n        }\n        if ( HIDWORD(savedregs[2]) != -1395911706 ) /*0x726674*/\n          break; /*0x726674*/\n        HIDWORD(savedregs[2]) = 1333223577; /*0x726810*/\n      }\n      if ( HIDWORD(savedregs[2]) != -780032123 ) /*0x726688*/\n        break; /*0x726688*/\n      if ( (savedregs[1] & 0x1000000000000LL) != 0 ) /*0x726a04*/\n        v13 = 1817678216; /*0x726a04*/\n      else\n        v13 = -1395911706; /*0x726a04*/\n      HIDWORD(savedregs[2]) = v13; /*0x726a0c*/\n    }\n    if ( HIDWORD(savedregs[2]) == -11662776 ) /*0x7266d8*/\n      JUMPOUT(0x726A14); /*0x726a14*/\n    if ( HIDWORD(savedregs[2]) == 136904637 ) /*0x7266ec*/\n      break; /*0x7266ec*/\n    switch ( HIDWORD(savedregs[2]) ) /*0x726700*/\n    {\n      case 0x19F177E1: /*0x726700*/\n        if ( (savedregs[1] & 0x100000000000000LL) != 0 ) /*0x726964*/\n          v12 = 1817678216; /*0x726964*/\n        else\n          v12 = 710976224; /*0x726964*/\n        HIDWORD(savedregs[2]) = v12; /*0x72696c*/\n        break;\n      case 0x2A60A2E0: /*0x726700*/\n        HIDWORD(savedregs[2]) = -1652493088; /*0x726980*/\n        break;\n      case 0x2F842CD8: /*0x726700*/\n        HIDWORD(savedregs[2]) = -1638398160; /*0x7268d4*/\n        break;\n      case 0x48CF8B0A: /*0x726700*/\n        HIDWORD(savedregs[2]) = -2137424224; /*0x7267e8*/\n        break;\n      case 0x4F776099: /*0x726700*/\n        a9 = a2; /*0x726828*/\n        LODWORD(savedregs[2]) = result; /*0x72682c*/\n        v10 = result; /*0x726834*/\n        v11 = a2; /*0x72683c*/\n        ((void (__fastcall *)(__int64, char *))loc_726AEC)(result, &a9); /*0x726844*/\n        result = v10; /*0x726848*/\n        a2 = v11; /*0x72684c*/\n        HIDWORD(savedregs[2]) = 136904637; /*0x72685c*/\n        break;\n      case 0x6B669BC9: /*0x726700*/\n        _ReadStatusReg(TPIDR_EL0); /*0x72689c*/\n        abort(); /*0x7268b0*/\n      default:\n        HIDWORD(savedregs[2]) = 1801886665; /*0x726894*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x726864*/\n  return result; /*0x726884*/\n}",
+        "refs": [
+          {
+            "addr": "0x7265e0",
+            "name": "loc_7265E0"
+          },
+          {
+            "addr": "0x7265e4",
+            "name": "loc_7265E4"
+          },
+          {
+            "addr": "0x7265dc",
+            "name": "sub_7265DC"
+          },
+          {
+            "addr": "0x726aec",
+            "name": "loc_726AEC"
+          },
+          {
+            "addr": "0x78a4c0",
+            "name": ".abort"
+          }
+        ]
+      }
+    },
+    {
+      "op": "get_bytes",
+      "args": {
+        "database": "7f769040",
+        "regions": {
+          "addr": "0x793f50",
+          "size": 400
+        }
+      },
+      "result": {
+        "result": [
+          {
+            "addr": "0x793f50",
+            "data": "0x14 0x4c 0x6f 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0xf8 0xbe 0x61 0x0 0x0 0x0 0x0 0x0 0x38 0x15 0x70 0x0 0x0 0x0 0x0 0x0 0x68 0x19 0x70 0x0 0x0 0x0 0x0 0x0 0x74 0x1b 0x70 0x0 0x0 0x0 0x0 0x0 0xac 0x20 0x70 0x0 0x0 0x0 0x0 0x0 0xd8 0x24 0x70 0x0 0x0 0x0 0x0 0x0 0x4c 0x29 0x70 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0xd8 0x0 0x63 0x0 0x0 0x0 0x0 0x0 0x78 0x41 0x71 0x0 0x0 0x0 0x0 0x0 0xa0 0x44 0x71 0x0 0x0 0x0 0x0 0x0 0xd8 0x49 0x71 0x0 0x0 0x0 0x0 0x0 0x58 0x4d 0x71 0x0 0x0 0x0 0x0 0x0 0x38 0x50 0x71 0x0 0x0 0x0 0x0 0x0 0xb4 0x18 0x63 0x0 0x0 0x0 0x0 0x0 0x44 0x1c 0x63 0x0 0x0 0x0 0x0 0x0 0xa8 0x53 0x71 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0xf8 0xbe 0x61 0x0 0x0 0x0 0x0 0x0 0xc0 0x92 0x72 0x0 0x0 0x0 0x0 0x0 0x80 0x97 0x72 0x0 0x0 0x0 0x0 0x0 0xac 0x99 0x72 0x0 0x0 0x0 0x0 0x0 0x8 0x9f 0x72 0x0 0x0 0x0 0x0 0x0 0x24 0xa3 0x72 0x0 0x0 0x0 0x0 0x0 0x9c 0xa7 0x72 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0xd8 0x0 0x63 0x0 0x0 0x0 0x0 0x0 0x88 0xbd 0x73 0x0 0x0 0x0 0x0 0x0 0x64 0xc0 0x73 0x0 0x0 0x0 0x0 0x0 0xc8 0xc5 0x73 0x0 0x0 0x0 0x0 0x0 0xb8 0xf 0x63 0x0 0x0 0x0 0x0 0x0 0x80 0xca 0x73 0x0 0x0 0x0 0x0 0x0 0xb4 0x18 0x63 0x0 0x0 0x0 0x0 0x0 0x44 0x1c 0x63 0x0 0x0 0x0 0x0 0x0 0x64 0xce 0x73 0x0 0x0 0x0 0x0 0x0 0xc0 0x5d 0x79 0x0 0x0 0x0 0x0 0x0 0xe0 0xdd 0x3 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0xd0 0x40 0x79 0x0 0x0 0x0 0x0 0x0 0x5c 0x4f 0x74 0x0 0x0 0x0 0x0 0x0 0x64 0x4f 0x74 0x0 0x0 0x0 0x0 0x0 0x90 0x4f 0x74 0x0 0x0 0x0 0x0 0x0 0x10 0x5e 0x79 0x0 0x0 0x0 0x0 0x0 0xfc 0xdd 0x3 0x0 0x0 0x0 0x0 0x0"
+          }
+        ]
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x73ce64"
+      },
+      "result": {
+        "addr": "0x73ce64",
+        "code": null,
+        "error": "Decompilation failed at 0x73ce64"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x73c5c8"
+      },
+      "result": {
+        "addr": "0x73c5c8",
+        "code": null,
+        "error": "Decompilation failed at 0x73c5c8"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x73c064"
+      },
+      "result": {
+        "addr": "0x73c064",
+        "code": null,
+        "error": "Decompilation failed at 0x73c064"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x72a79c"
+      },
+      "result": {
+        "addr": "0x72a79c",
+        "code": null,
+        "error": "Decompilation failed at 0x72a79c"
+      }
+    },
+    {
+      "op": "decompile",
+      "args": {
+        "database": "7f769040",
+        "addr": "0x726aec"
+      },
+      "result": {
+        "addr": "0x726aec",
+        "code": null,
+        "error": "Decompilation failed at 0x726aec"
+      }
+    }
+  ]
+}

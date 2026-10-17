@@ -1,0 +1,34 @@
+{
+  "addr": "0x4c546c",
+  "code": "__int64 __fastcall sub_4C546C(unsigned int a1, __int64 a2)\n{\n  unsigned int v2; // w22\n  __int64 v3; // x19\n  __int64 result; // x0\n  int v5; // w8\n  int v6; // w8\n  unsigned int v7; // w22\n  __int64 v8; // x19\n  _QWORD v9[4]; // [xsp-40h] [xbp-70h] BYREF\n  unsigned int v10; // [xsp-20h] [xbp-50h]\n  _QWORD v11[3]; // [xsp-10h] [xbp-40h] BYREF\n  bool v12; // [xsp+Eh] [xbp-22h]\n  bool v13; // [xsp+Fh] [xbp-21h]\n  __int64 v14; // [xsp+10h] [xbp-20h]\n  int *v15; // [xsp+18h] [xbp-18h]\n  int v16; // [xsp+24h] [xbp-Ch] BYREF\n  __int64 v17; // [xsp+28h] [xbp-8h]\n\n  v17 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4c548c*/\n  v16 = 1378662122; /*0x4c5498*/\n  v15 = &v16; /*0x4c54a0*/\n  while ( 1 ) /*0x4c54b4*/\n  {\n    while ( v16 == -1988987228 ) /*0x4c54b4*/\n    {\n      v13 = *(_DWORD *)sub_4C546C >> 26 == 5 || *(_DWORD *)sub_4C546C >> 21 == 1697; /*0x4c56dc*/\n      *v15 = 578830124; /*0x4c56ec*/\n    }\n    if ( v16 == -1700298107 ) /*0x4c54c8*/\n      break; /*0x4c54c8*/\n    switch ( v16 ) /*0x4c54dc*/\n    {\n      case -1331436197: /*0x4c54dc*/\n        *v15 = -1988987228; /*0x4c5690*/\n        break;\n      case -1158616665: /*0x4c54dc*/\n        JUMPOUT(0x4C5858); /*0x4c5858*/\n      case -1000846753: /*0x4c54dc*/\n        v10 = a1; /*0x4c55e4*/\n        v9[0] = a2; /*0x4c55e8*/\n        v2 = a1; /*0x4c55ec*/\n        v3 = a2; /*0x4c55f4*/\n        sub_4E04B8(v11); /*0x4c55f8*/\n        LOBYTE(v11[0]) = 0; /*0x4c55fc*/\n        sub_56B3CC(v9, v10, v3); /*0x4c560c*/\n        a1 = v2; /*0x4c5610*/\n        a2 = v3; /*0x4c5614*/\n        HIDWORD(v11[0]) = v9[0]; /*0x4c561c*/\n        v14 = v11[0]; /*0x4c5624*/\n        *v15 = -1700298107; /*0x4c5634*/\n        break;\n      case -446893806: /*0x4c54dc*/\n        _ReadStatusReg(TPIDR_EL0); /*0x4c566c*/\n        abort(); /*0x4c5680*/\n      case 156384270: /*0x4c54dc*/\n        JUMPOUT(0x4C5838); /*0x4c5838*/\n      case 578830124: /*0x4c54dc*/\n        if ( v13 ) /*0x4c56f8*/\n          v5 = -446893806; /*0x4c5710*/\n        else\n          v5 = 623451071; /*0x4c5710*/\n        *v15 = v5; /*0x4c5718*/\n        break;\n      case 623451071: /*0x4c54dc*/\n        *v15 = 1881023329; /*0x4c572c*/\n        break;\n      case 1106591425: /*0x4c54dc*/\n        if ( v12 ) /*0x4c5798*/\n          v6 = -446893806; /*0x4c57b0*/\n        else\n          v6 = 1378662122; /*0x4c57b0*/\n        *v15 = v6; /*0x4c57b8*/\n        break;\n      case 1378662122: /*0x4c54dc*/\n        *v15 = -1000846753; /*0x4c55bc*/\n        break;\n      case 1881023329: /*0x4c54dc*/\n        v12 = loc_4C5470 >> 10 == 3508160 || loc_4C5474 >> 10 == 3508160; /*0x4c577c*/\n        *v15 = 1106591425; /*0x4c578c*/\n        break;\n      case 2110619726: /*0x4c54dc*/\n        v10 = a1; /*0x4c57e8*/\n        v9[0] = a2; /*0x4c57ec*/\n        v7 = a1; /*0x4c57f0*/\n        v8 = a2; /*0x4c57f8*/\n        sub_4E04B8(v11); /*0x4c57fc*/\n        LOBYTE(v11[0]) = 0; /*0x4c5800*/\n        ((void (__fastcall *)(_QWORD *, _QWORD, __int64))loc_4A2A30)(v9, v10, v8); /*0x4c5810*/\n        a1 = v7; /*0x4c5814*/\n        a2 = v8; /*0x4c5818*/\n        HIDWORD(v11[0]) = v9[0]; /*0x4c5820*/\n        *v15 = -1000846753; /*0x4c5830*/\n        break;\n    }\n  }\n  result = v14; /*0x4c563c*/\n  _ReadStatusReg(TPIDR_EL0); /*0x4c5640*/\n  return result; /*0x4c5668*/\n}",
+  "refs": [
+    {
+      "addr": "0x4c546c",
+      "name": "sub_4C546C"
+    },
+    {
+      "addr": "0x4e04b8",
+      "name": "sub_4E04B8"
+    },
+    {
+      "addr": "0x56b3cc",
+      "name": "sub_56B3CC"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x4c5470",
+      "name": "loc_4C5470"
+    },
+    {
+      "addr": "0x4c5474",
+      "name": "loc_4C5474"
+    },
+    {
+      "addr": "0x4a2a30",
+      "name": "loc_4A2A30"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "addr": "0x5ff604",
+  "code": "__int64 __fastcall sub_5FF604(__int64 a1)\n{\n  int v3; // w8\n  int v4; // w8\n  int i; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x5ff614*/\n  for ( i = -1345058399; ; i = v3 ) /*0x5ff62c*/\n  {\n    while ( 1 ) /*0x5ff6ac*/\n    {\n      while ( 1 ) /*0x5ff698*/\n      {\n        while ( 1 ) /*0x5ff684*/\n        {\n          while ( 1 ) /*0x5ff648*/\n          {\n            while ( i == -1345058399 ) /*0x5ff648*/\n              i = 290167215; /*0x5ff744*/\n            if ( i == 22314865 ) /*0x5ff670*/\n            {\n              _ReadStatusReg(TPIDR_EL0); /*0x5ff7c8*/\n              sub_601248(); /*0x5ff7dc*/\n            }\n            if ( i != 258328146 ) /*0x5ff684*/\n              break; /*0x5ff684*/\n            i = 22314865; /*0x5ff7c0*/\n          }\n          if ( i != 290167215 ) /*0x5ff698*/\n            break; /*0x5ff698*/\n          i = 603490438; /*0x5ff758*/\n        }\n        if ( i != 603490438 ) /*0x5ff6ac*/\n          break; /*0x5ff6ac*/\n        i = 1055233764; /*0x5ff76c*/\n      }\n      if ( i != 942421721 ) /*0x5ff6d4*/\n        break; /*0x5ff6d4*/\n      if ( (loc_5FF608 >> 10 == 3508160) ^ (loc_5FF60C >> 10 == 3508160) /*0x5ff8bc*/\n         | (loc_5FF608 >> 10 == 3508160 && loc_5FF60C >> 10 == 3508160) )\n      {\n        v4 = 258328146; /*0x5ff8c0*/\n      }\n      else\n      {\n        v4 = 1683382929; /*0x5ff8c0*/\n      }\n      i = v4; /*0x5ff8c8*/\n    }\n    if ( i != 1055233764 ) /*0x5ff6e8*/\n      break; /*0x5ff6e8*/\n    if ( *(_DWORD *)sub_5FF604 >> 26 == 5 || *(_DWORD *)sub_5FF604 >> 21 == 1697 ) /*0x5ff82c*/\n      v3 = 258328146; /*0x5ff830*/\n    else\n      v3 = 942421721; /*0x5ff830*/\n  }\n  ((void (__fastcall *)(__int64))loc_600C88)(a1); /*0x5ff788*/\n  _ReadStatusReg(TPIDR_EL0); /*0x5ff78c*/\n  return a1; /*0x5ff7b0*/\n}",
+  "refs": [
+    {
+      "addr": "0x601248",
+      "name": "sub_601248"
+    },
+    {
+      "addr": "0x5ff608",
+      "name": "loc_5FF608"
+    },
+    {
+      "addr": "0x5ff60c",
+      "name": "loc_5FF60C"
+    },
+    {
+      "addr": "0x5ff604",
+      "name": "sub_5FF604"
+    },
+    {
+      "addr": "0x600c88",
+      "name": "loc_600C88"
+    }
+  ]
+}

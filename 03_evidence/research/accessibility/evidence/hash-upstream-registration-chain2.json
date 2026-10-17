@@ -1,0 +1,234 @@
+[
+  {
+    "target": "0x6dd5cc",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6dd5cc\",\"xrefs\":[{\"addr\":\"0x6b770c\",\"type\":\"code\",\"fn\":null}],\"more\":false,\"xref_count\":1}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6dd5cc",
+              "xrefs": [
+                {
+                  "addr": "0x6b770c",
+                  "type": "code",
+                  "fn": null
+                }
+              ],
+              "more": false,
+              "xref_count": 1
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7042312,
+        "end": 7043368,
+        "size": 1056
+      }
+    ]
+  },
+  {
+    "target": "0x6b7508",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6b7508\",\"xrefs\":[{\"addr\":\"0x6dd5c8\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6dd5c8\",\"name\":\"sub_6DD5C8\",\"size\":\"0x4\"}},{\"addr\":\"0x6b7788\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7508\",\"name\":\"sub_6B7508\",\"size\":\"0x420\"}},{\"addr\":\"0x6b7824\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7508\",\"name\":\"sub_6B7508\",\"size\":\"0x420\"}},{\"addr\":\"0x6b7844\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7508\",\"name\":\"sub_6B7508\",\"size\":\"0x420\"}}],\"more\":false,\"xref_count\":4}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6b7508",
+              "xrefs": [
+                {
+                  "addr": "0x6dd5c8",
+                  "type": "code",
+                  "fn": {
+                    "addr": "0x6dd5c8",
+                    "name": "sub_6DD5C8",
+                    "size": "0x4"
+                  }
+                },
+                {
+                  "addr": "0x6b7788",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7508",
+                    "name": "sub_6B7508",
+                    "size": "0x420"
+                  }
+                },
+                {
+                  "addr": "0x6b7824",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7508",
+                    "name": "sub_6B7508",
+                    "size": "0x420"
+                  }
+                },
+                {
+                  "addr": "0x6b7844",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7508",
+                    "name": "sub_6B7508",
+                    "size": "0x420"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 4
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7198152,
+        "end": 7198156,
+        "size": 4
+      }
+    ]
+  },
+  {
+    "target": "0x6dd5c8",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6dd5c8\",\"xrefs\":[{\"addr\":\"0x6b73c0\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6b7340\",\"name\":\"sub_6B7340\",\"size\":\"0x1c8\"}}],\"more\":false,\"xref_count\":1}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6dd5c8",
+              "xrefs": [
+                {
+                  "addr": "0x6b73c0",
+                  "type": "code",
+                  "fn": {
+                    "addr": "0x6b7340",
+                    "name": "sub_6B7340",
+                    "size": "0x1c8"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 1
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7041856,
+        "end": 7042312,
+        "size": 456
+      }
+    ]
+  },
+  {
+    "target": "0x6b7340",
+    "xrefs": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"addr\":\"0x6b7340\",\"xrefs\":[{\"addr\":\"0x6b6cc4\",\"type\":\"code\",\"fn\":null},{\"addr\":\"0x6dd5c4\",\"type\":\"code\",\"fn\":{\"addr\":\"0x6dd5c4\",\"name\":\"sub_6DD5C4\",\"size\":\"0x4\"}},{\"addr\":\"0x6b7460\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7340\",\"name\":\"sub_6B7340\",\"size\":\"0x1c8\"}},{\"addr\":\"0x6b74b4\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7340\",\"name\":\"sub_6B7340\",\"size\":\"0x1c8\"}},{\"addr\":\"0x6b74d4\",\"type\":\"data\",\"fn\":{\"addr\":\"0x6b7340\",\"name\":\"sub_6B7340\",\"size\":\"0x1c8\"}}],\"more\":false,\"xref_count\":5}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "addr": "0x6b7340",
+              "xrefs": [
+                {
+                  "addr": "0x6b6cc4",
+                  "type": "code",
+                  "fn": null
+                },
+                {
+                  "addr": "0x6dd5c4",
+                  "type": "code",
+                  "fn": {
+                    "addr": "0x6dd5c4",
+                    "name": "sub_6DD5C4",
+                    "size": "0x4"
+                  }
+                },
+                {
+                  "addr": "0x6b7460",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7340",
+                    "name": "sub_6B7340",
+                    "size": "0x1c8"
+                  }
+                },
+                {
+                  "addr": "0x6b74b4",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7340",
+                    "name": "sub_6B7340",
+                    "size": "0x1c8"
+                  }
+                },
+                {
+                  "addr": "0x6b74d4",
+                  "type": "data",
+                  "fn": {
+                    "addr": "0x6b7340",
+                    "name": "sub_6B7340",
+                    "size": "0x1c8"
+                  }
+                }
+              ],
+              "more": false,
+              "xref_count": 5
+            }
+          ]
+        },
+        "isError": false
+      },
+      "id": 1
+    },
+    "parents": [
+      {
+        "start": 7039608,
+        "end": 7040828,
+        "size": 1220
+      },
+      {
+        "start": 7198148,
+        "end": 7198152,
+        "size": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "addr": "0x5cdc88",
+  "code": "__int64 __fastcall sub_5CDC88(__int64 a1)\n{\n  __int64 v1; // x19\n  int v2; // w8\n  unsigned int v3; // w8\n  int v4; // w8\n  __int64 v5; // x19\n  _BYTE *v6; // x8\n  char v7; // w8\n  int v8; // w8\n  __int64 v9; // x21\n  __int64 v10; // x20\n  _BYTE *v11; // x8\n  __int64 result; // x0\n  int v13; // w8\n  int v14; // w8\n  char v15; // [xsp+3Eh] [xbp-2h]\n  bool v16; // [xsp+3Fh] [xbp-1h]\n  __int64 v17; // [xsp+40h] [xbp+0h]\n  _QWORD *v18; // [xsp+48h] [xbp+8h]\n  bool v19; // [xsp+5Fh] [xbp+1Fh]\n  _QWORD savedregs[2]; // [xsp+60h] [xbp+20h] BYREF\n\n  savedregs[1] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x5cdca4*/\n  savedregs[0] = 0x475DFD6C01292140LL; /*0x5cdcb0*/\n  while ( 1 ) /*0x5cdcd8*/\n  {\n    while ( HIDWORD(savedregs[0]) == -2135940701 ) /*0x5cdcd8*/\n    {\n      v16 = *(_DWORD *)sub_5CDC88 >> 26 == 5 || *(_DWORD *)sub_5CDC88 >> 21 == 1697; /*0x5ce528*/\n      HIDWORD(savedregs[0]) = 2068204498; /*0x5ce538*/\n    }\n    if ( HIDWORD(savedregs[0]) == -2122554219 ) /*0x5cdcec*/\n      break; /*0x5cdcec*/\n    switch ( HIDWORD(savedregs[0]) ) /*0x5cdd00*/\n    {\n      case 0x8FF5A32E: /*0x5cdd00*/\n        HIDWORD(savedregs[0]) = -2135940701; /*0x5ce4f4*/\n        break;\n      case 0x9238DE81: /*0x5cdd00*/\n        if ( (v15 & 1) != 0 ) /*0x5ce60c*/\n          v14 = 49612891; /*0x5ce60c*/\n        else\n          v14 = -737778202; /*0x5ce60c*/\n        HIDWORD(savedregs[0]) = v14; /*0x5ce614*/\n        break;\n      case 0x94E16135: /*0x5cdd00*/\n        atomic_load(&dword_7D071C[147]); /*0x5ce62c*/\n        HIDWORD(savedregs[0]) = -583511400; /*0x5ce63c*/\n        break;\n      case 0xA9FFAF75: /*0x5cdd00*/\n        HIDWORD(savedregs[0]) = -1879727314; /*0x5ce2e0*/\n        break;\n      case 0xC0818EC4: /*0x5cdd00*/\n        HIDWORD(savedregs[0]) = -663639759; /*0x5ce3a8*/\n        break;\n      case 0xC0C8EDDC: /*0x5cdd00*/\n        HIDWORD(savedregs[0]) = -39620013; /*0x5ce444*/\n        break;\n      case 0xD40665E6: /*0x5cdd00*/\n        v18 = savedregs; /*0x5ce308*/\n        LOWORD(savedregs[1]) = word_7AF510; /*0x5ce330*/\n        savedregs[0] = qword_7AF508; /*0x5ce334*/\n        v5 = a1; /*0x5ce340*/\n        v6 = (_BYTE *)sub_785874(&unk_7AF640); /*0x5ce34c*/\n        a1 = v5; /*0x5ce350*/\n        if ( (*v6 & 1) != 0 ) /*0x5ce364*/\n          v7 = -88; /*0x5ce364*/\n        else\n          v7 = -87; /*0x5ce364*/\n        if ( (unsigned __int8)v7 != 0xA9 ) /*0x5ce36c*/\n          v8 = -1060573732; /*0x5ce38c*/\n        else\n          v8 = -1065251132; /*0x5ce38c*/\n        HIDWORD(savedregs[0]) = v8; /*0x5ce394*/\n        break;\n      case 0xD871A931: /*0x5cdd00*/\n        v9 = a1; /*0x5ce3bc*/\n        v10 = sub_785874(&unk_7AF620); /*0x5ce3c8*/\n        ((void (__fastcall *)(__int64, _QWORD *))loc_5DD4C4)(v10, v18); /*0x5ce3d4*/\n        sub_784FD4(&loc_5DDD88, v10, &off_78EC70); /*0x5ce3ec*/\n        v11 = (_BYTE *)sub_785874(&unk_7AF640); /*0x5ce3fc*/\n        a1 = v9; /*0x5ce400*/\n        *v11 = 1; /*0x5ce408*/\n        HIDWORD(savedregs[0]) = -514985681; /*0x5ce418*/\n        break;\n      case 0xD9490F8B: /*0x5cdd00*/\n        HIDWORD(savedregs[0]) = 1169893493; /*0x5ce00c*/\n        break;\n      case 0xDD385298: /*0x5cdd00*/\n        v3 = atomic_load(&dword_7D071C[147]); /*0x5cdfa8*/\n        v19 = v3 == 0; /*0x5cdfb8*/\n        HIDWORD(savedregs[0]) = 1177139866; /*0x5cdfc8*/\n        break;\n      case 0xDE6BC9D0: /*0x5cdd00*/\n        HIDWORD(savedregs[0]) = 1060558099; /*0x5ce57c*/\n        break;\n      default:\n        v1 = a1; /*0x5cddf8*/\n        switch ( HIDWORD(savedregs[0]) ) /*0x5cde1c*/\n        {\n          case 0xE14DF12F: /*0x5cde1c*/\n            HIDWORD(savedregs[0]) = -1060573732; /*0x5ce42c*/\n            break;\n          case 0xFC701807: /*0x5cde1c*/\n            HIDWORD(savedregs[0]) = 325332990; /*0x5ce288*/\n            break;\n          case 0xFDA37253: /*0x5cde1c*/\n            v17 = sub_785874(&unk_7AF620); /*0x5ce458*/\n            HIDWORD(savedregs[0]) = -2122554219; /*0x5ce468*/\n            a1 = v1; /*0x5ce46c*/\n            break;\n          case 0x2F5085B: /*0x5cde1c*/\n            HIDWORD(savedregs[0]) = 666454650; /*0x5ce4ac*/\n            break;\n          case 0x13642FFE: /*0x5cde1c*/\n            HIDWORD(savedregs[0]) = 1922044720; /*0x5ce2a0*/\n            break;\n          case 0x27B94A7A: /*0x5cde1c*/\n            _ReadStatusReg(TPIDR_EL0); /*0x5ce4b8*/\n            abort(); /*0x5ce4cc*/\n          case 0x3F36D513: /*0x5cde1c*/\n            v15 = (loc_5CDC8C >> 10 == 3508160 && loc_5CDC90 >> 10 == 3508160) /*0x5ce5d4*/\n                | (loc_5CDC8C >> 10 == 3508160) ^ (loc_5CDC90 >> 10 == 3508160);\n            HIDWORD(savedregs[0]) = -1841766783; /*0x5ce5e4*/\n            break;\n          case 0x45BB2875: /*0x5cde1c*/\n            LOBYTE(qword_7AF508) = byte_7AF4F8 - (2 * (~(byte_7AF4F8 ^ 0xF) & 0xF) - 15); /*0x5ce050*/\n            BYTE1(qword_7AF508) = byte_7AF4F9 - (2 * (~(byte_7AF4F9 ^ 0x66) & 0x66) - 102); /*0x5ce09c*/\n            BYTE2(qword_7AF508) = ~byte_7AF4FA & 0x96 | byte_7AF4FA & 0x69; /*0x5ce0dc*/\n            BYTE3(qword_7AF508) = byte_7AF4FB - (2 * (~(byte_7AF4FB ^ 0xB) & 0xB) - 11); /*0x5ce128*/\n            BYTE4(qword_7AF508) = byte_7AF4FC ^ 0xF8; /*0x5ce148*/\n            BYTE5(qword_7AF508) = (~byte_7AF4FD & 0x15 | byte_7AF4FD & 0xEA) ^ 0xFD; /*0x5ce194*/\n            BYTE6(qword_7AF508) = byte_7AF4FE + 19 - 2 * (byte_7AF4FE & 0x13); /*0x5ce1cc*/\n            HIBYTE(qword_7AF508) = byte_7AF4FF - 15 - 2 * (byte_7AF4FF & 0x71); /*0x5ce204*/\n            LOBYTE(word_7AF510) = byte_7AF500 ^ 0x14; /*0x5ce228*/\n            HIBYTE(word_7AF510) = byte_7AF501 - 51 - 2 * (byte_7AF501 & 0x4D); /*0x5ce260*/\n            HIDWORD(savedregs[0]) = -59762681; /*0x5ce270*/\n            break;\n          case 0x4629BA9A: /*0x5cde1c*/\n            if ( v19 ) /*0x5cdfd4*/\n              v4 = -649523317; /*0x5cdfec*/\n            else\n              v4 = 325332990; /*0x5cdfec*/\n            HIDWORD(savedregs[0]) = v4; /*0x5cdff4*/\n            break;\n          case 0x475DFD6C: /*0x5cde1c*/\n            if ( LODWORD(savedregs[0]) == 1504685439 ) /*0x5cdf8c*/\n              v2 = -1797168843; /*0x5cdf8c*/\n            else\n              v2 = -583511400; /*0x5cdf8c*/\n            HIDWORD(savedregs[0]) = v2; /*0x5cdf94*/\n            break;\n          case 0x72901330: /*0x5cde1c*/\n            atomic_store(1u, &dword_7D071C[147]); /*0x5ce2b8*/\n            HIDWORD(savedregs[0]) = -1442861195; /*0x5ce2c8*/\n            break;\n          default:\n            if ( v16 ) /*0x5ce544*/\n              v13 = 49612891; /*0x5ce55c*/\n            else\n              v13 = -563361328; /*0x5ce55c*/\n            HIDWORD(savedregs[0]) = v13; /*0x5ce564*/\n            break;\n        }\n        break;\n    }\n  }\n  result = v17; /*0x5ce474*/\n  _ReadStatusReg(TPIDR_EL0); /*0x5ce478*/\n  return result; /*0x5ce49c*/\n}",
+  "refs": [
+    {
+      "addr": "0x5cdc88",
+      "name": "sub_5CDC88"
+    },
+    {
+      "addr": "0x7d071c",
+      "name": "dword_7D071C"
+    },
+    {
+      "addr": "0x7af510",
+      "name": "word_7AF510"
+    },
+    {
+      "addr": "0x7af508",
+      "name": "qword_7AF508"
+    },
+    {
+      "addr": "0x785874",
+      "name": "sub_785874"
+    },
+    {
+      "addr": "0x7af640",
+      "name": "unk_7AF640"
+    },
+    {
+      "addr": "0x7af620",
+      "name": "unk_7AF620"
+    },
+    {
+      "addr": "0x5dd4c4",
+      "name": "loc_5DD4C4"
+    },
+    {
+      "addr": "0x784fd4",
+      "name": "sub_784FD4"
+    },
+    {
+      "addr": "0x5ddd88",
+      "name": "loc_5DDD88"
+    },
+    {
+      "addr": "0x78ec70",
+      "name": "off_78EC70"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x5cdc8c",
+      "name": "loc_5CDC8C"
+    },
+    {
+      "addr": "0x5cdc90",
+      "name": "loc_5CDC90"
+    },
+    {
+      "addr": "0x7af4f8",
+      "name": "byte_7AF4F8"
+    },
+    {
+      "addr": "0x7af4f9",
+      "name": "byte_7AF4F9"
+    },
+    {
+      "addr": "0x7af4fa",
+      "name": "byte_7AF4FA"
+    },
+    {
+      "addr": "0x7af4fb",
+      "name": "byte_7AF4FB"
+    },
+    {
+      "addr": "0x7af4fc",
+      "name": "byte_7AF4FC"
+    },
+    {
+      "addr": "0x7af4fd",
+      "name": "byte_7AF4FD"
+    },
+    {
+      "addr": "0x7af4fe",
+      "name": "byte_7AF4FE"
+    },
+    {
+      "addr": "0x7af4ff",
+      "name": "byte_7AF4FF"
+    },
+    {
+      "addr": "0x7af500",
+      "name": "byte_7AF500"
+    },
+    {
+      "addr": "0x7af501",
+      "name": "byte_7AF501"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6b7340\",\"code\":\"__int64 __fastcall sub_6B7340(__int64 a1, unsigned __int8 a2)\\n{\\n  __int64 v2; // x21\\n  __int64 result; // x0\\n  _BYTE v4[48]; // [xsp-50h] [xbp-60h] BYREF\\n  unsigned __int8 v5; // [xsp-20h] [xbp-30h]\\n  __int64 v6; // [xsp-10h] [xbp-20h]\\n  __int64 v7; // [xsp+8h] [xbp-8h]\\n\\n  v7 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6b7360*/\\n  if ( ((((((*(_DWORD *)sub_6B7340 >> 26 == 5) << 31 >> 31) /*0x6b74fc*/\\n         + (((*(_DWORD *)sub_6B7340 >> 26 == 5) ^ (*(_DWORD *)sub_6B7340 >> 21 == 1697)) << 31 >> 31)) << 31 >> 31)\\n       - (((*(_DWORD *)sub_6B7340 >> 26 == 5) & (unsigned __int8)(*(_DWORD *)sub_6B7340 >> 21 != 1697)) << 31 >> 31))\\n      & 1) != 0\\n    || (loc_6B7344 >> 10 == 3508160 && loc_6B7348 >> 10 == 3508160)\\n     | (loc_6B7344 >> 10 == 3508160) ^ (loc_6B7348 >> 10 == 3508160) )\\n  {\\n    _ReadStatusReg(TPIDR_EL0); /*0x6b7440*/\\n    abort(); /*0x6b7454*/\\n  }\\n  v6 = a1; /*0x6b73a0*/\\n  v5 = a2; /*0x6b73a4*/\\n  v2 = ((__int64 (*)(void))loc_4EA8B8)(); /*0x6b73ac*/\\n  sub_6DD5C8(); /*0x6b73c0*/\\n  ((void (__fastcall *)(__int64, _QWORD, _BYTE *))loc_601C58)(v2, v5, v4); /*0x6b73d0*/\\n  result = ((__int64 (__fastcall *)(_BYTE *))loc_4F7574)(v4); /*0x6b73e0*/\\n  _ReadStatusReg(TPIDR_EL0); /*0x6b73e4*/\\n  return result; /*0x6b740c*/\\n}\",\"refs\":[{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x6b7340\",\"name\":\"sub_6B7340\"},{\"addr\":\"0x6b7344\",\"name\":\"loc_6B7344\"},{\"addr\":\"0x6b7348\",\"name\":\"loc_6B7348\"},{\"addr\":\"0x4ea8b8\",\"name\":\"loc_4EA8B8\"},{\"addr\":\"0x6dd5c8\",\"name\":\"sub_6DD5C8\"},{\"addr\":\"0x601c58\",\"name\":\"loc_601C58\"},{\"addr\":\"0x4f7574\",\"name\":\"loc_4F7574\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6b7340",
+      "code": "__int64 __fastcall sub_6B7340(__int64 a1, unsigned __int8 a2)\n{\n  __int64 v2; // x21\n  __int64 result; // x0\n  _BYTE v4[48]; // [xsp-50h] [xbp-60h] BYREF\n  unsigned __int8 v5; // [xsp-20h] [xbp-30h]\n  __int64 v6; // [xsp-10h] [xbp-20h]\n  __int64 v7; // [xsp+8h] [xbp-8h]\n\n  v7 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6b7360*/\n  if ( ((((((*(_DWORD *)sub_6B7340 >> 26 == 5) << 31 >> 31) /*0x6b74fc*/\n         + (((*(_DWORD *)sub_6B7340 >> 26 == 5) ^ (*(_DWORD *)sub_6B7340 >> 21 == 1697)) << 31 >> 31)) << 31 >> 31)\n       - (((*(_DWORD *)sub_6B7340 >> 26 == 5) & (unsigned __int8)(*(_DWORD *)sub_6B7340 >> 21 != 1697)) << 31 >> 31))\n      & 1) != 0\n    || (loc_6B7344 >> 10 == 3508160 && loc_6B7348 >> 10 == 3508160)\n     | (loc_6B7344 >> 10 == 3508160) ^ (loc_6B7348 >> 10 == 3508160) )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x6b7440*/\n    abort(); /*0x6b7454*/\n  }\n  v6 = a1; /*0x6b73a0*/\n  v5 = a2; /*0x6b73a4*/\n  v2 = ((__int64 (*)(void))loc_4EA8B8)(); /*0x6b73ac*/\n  sub_6DD5C8(); /*0x6b73c0*/\n  ((void (__fastcall *)(__int64, _QWORD, _BYTE *))loc_601C58)(v2, v5, v4); /*0x6b73d0*/\n  result = ((__int64 (__fastcall *)(_BYTE *))loc_4F7574)(v4); /*0x6b73e0*/\n  _ReadStatusReg(TPIDR_EL0); /*0x6b73e4*/\n  return result; /*0x6b740c*/\n}",
+      "refs": [
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x6b7340",
+          "name": "sub_6B7340"
+        },
+        {
+          "addr": "0x6b7344",
+          "name": "loc_6B7344"
+        },
+        {
+          "addr": "0x6b7348",
+          "name": "loc_6B7348"
+        },
+        {
+          "addr": "0x4ea8b8",
+          "name": "loc_4EA8B8"
+        },
+        {
+          "addr": "0x6dd5c8",
+          "name": "sub_6DD5C8"
+        },
+        {
+          "addr": "0x601c58",
+          "name": "loc_601C58"
+        },
+        {
+          "addr": "0x4f7574",
+          "name": "loc_4F7574"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

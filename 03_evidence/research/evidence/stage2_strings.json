@@ -1,0 +1,2801 @@
+[
+  {
+    "writer": "0x2ab650",
+    "data": "0x7abb88",
+    "length": 8,
+    "key": "0xa12f2bb3e943fb13",
+    "wrappers": [
+      "0x2bc258",
+      "0x2ac2e0"
+    ],
+    "plaintext": "filter=",
+    "bytes": "66696c7465723d00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2aae8c",
+        "caller": "0x2aacd4",
+        "caller_end": "0x2ab650",
+        "register_flow": {
+          "decode_callsite": "0x2aae9c",
+          "wrapper": "0x2ac2e0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2ac6d4",
+    "data": "0x7abbb0",
+    "length": 19,
+    "key": "0xcf8ffb89377b9db1",
+    "wrappers": [
+      "0x2bcec4",
+      "0x2ad244"
+    ],
+    "plaintext": " unexpectedFilter=",
+    "bytes": "20756e657870656374656446696c7465723d00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2aaeac",
+        "caller": "0x2aacd4",
+        "caller_end": "0x2ab650",
+        "register_flow": {
+          "decode_callsite": "0x2aaebc",
+          "wrapper": "0x2ad244"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2ad718",
+    "data": "0x7abbf0",
+    "length": 20,
+    "key": "0xedbd9b35dd55518f",
+    "wrappers": [
+      "0x2bd4f4",
+      "0x2ae700"
+    ],
+    "plaintext": " suspiciousHandler=",
+    "bytes": "20737573706963696f757348616e646c65723d00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2aaecc",
+        "caller": "0x2aacd4",
+        "caller_end": "0x2ab650",
+        "register_flow": {
+          "decode_callsite": "0x2aaedc",
+          "wrapper": "0x2ae700"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2aec00",
+    "data": "0x7abc30",
+    "length": 18,
+    "key": "0xdbaf4383c59f19cf",
+    "wrappers": [
+      "0x2bdaec",
+      "0x2afb5c"
+    ],
+    "plaintext": " seccompAbnormal=",
+    "bytes": "20736563636f6d7041626e6f726d616c3d00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2aaeec",
+        "caller": "0x2aacd4",
+        "caller_end": "0x2ab650",
+        "register_flow": {
+          "decode_callsite": "0x2aaefc",
+          "wrapper": "0x2afb5c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2afeb4",
+    "data": "0x7abc58",
+    "length": 14,
+    "key": "0x1cdc31f65f3d5f1",
+    "wrappers": [
+      "0x2be050",
+      "0x2b0c20"
+    ],
+    "plaintext": " trustReason=",
+    "bytes": "207472757374526561736f6e3d00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2aaf10",
+        "caller": "0x2aacd4",
+        "caller_end": "0x2ab650",
+        "register_flow": {
+          "decode_callsite": "0x2aaf20",
+          "wrapper": "0x2b0c20"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2b1068",
+    "data": "0x7abc78",
+    "length": 16,
+    "key": "0xdfafb5419f490ddb",
+    "wrappers": [
+      "0x2be660",
+      "0x2b1e5c"
+    ],
+    "plaintext": " handlerModule=",
+    "bytes": "2068616e646c65724d6f64756c653d00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2ab10c",
+        "caller": "0x2aacd4",
+        "caller_end": "0x2ab650",
+        "register_flow": {
+          "decode_callsite": "0x2ab114",
+          "wrapper": "0x2b1e5c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2dbd80",
+    "data": "0x7abe30",
+    "length": 27,
+    "key": "0xe7bf0d27d93d3145",
+    "wrappers": [
+      "0x300b80",
+      "0x2dc9d8"
+    ],
+    "plaintext": "android/app/ActivityThread",
+    "bytes": "616e64726f69642f6170702f416374697669747954687265616400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2dba5c",
+        "caller": "0x2db974",
+        "caller_end": "0x2dbd80",
+        "register_flow": {
+          "decode_callsite": "0x2dba60",
+          "wrapper": "0x2dc9d8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2dd788",
+    "data": "0x7abe70",
+    "length": 22,
+    "key": "0xd993efbb19cfe32d",
+    "wrappers": [
+      "0x3015d4",
+      "0x2de92c"
+    ],
+    "plaintext": "currentActivityThread",
+    "bytes": "63757272656e74416374697669747954687265616400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2dba90",
+        "caller": "0x2db974",
+        "caller_end": "0x2dbd80",
+        "register_flow": {
+          "decode_callsite": "0x2dbaa0",
+          "wrapper": "0x2de92c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2ded98",
+    "data": "0x7abeb0",
+    "length": 31,
+    "key": "0x5f694973d3c78945",
+    "wrappers": [
+      "0x301a94",
+      "0x2dfc18"
+    ],
+    "plaintext": "()Landroid/app/ActivityThread;",
+    "bytes": "28294c616e64726f69642f6170702f41637469766974795468726561643b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2dbab0",
+        "caller": "0x2db974",
+        "caller_end": "0x2dbd80",
+        "register_flow": {
+          "decode_callsite": "0x2dbac0",
+          "wrapper": "0x2dfc18"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2e1468",
+    "data": "0x7abee0",
+    "length": 15,
+    "key": "0xffc3978bc98f5399",
+    "wrappers": [
+      "0x301fdc",
+      "0x2e2270"
+    ],
+    "plaintext": "getApplication",
+    "bytes": "6765744170706c69636174696f6e00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2dbb4c",
+        "caller": "0x2db974",
+        "caller_end": "0x2dbd80",
+        "register_flow": {
+          "decode_callsite": "0x2dbb5c",
+          "wrapper": "0x2e2270"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2e2614",
+    "data": "0x7abf10",
+    "length": 28,
+    "key": "0x9bd595af851d8be7",
+    "wrappers": [
+      "0x3024a4",
+      "0x2e3ae8"
+    ],
+    "plaintext": "()Landroid/app/Application;",
+    "bytes": "28294c616e64726f69642f6170702f4170706c69636174696f6e3b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2dbb70",
+        "caller": "0x2db974",
+        "caller_end": "0x2dbd80",
+        "register_flow": {
+          "decode_callsite": "0x2dbb80",
+          "wrapper": "0x2e3ae8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2e62b0",
+    "data": "0x7abf40",
+    "length": 15,
+    "key": "0xad7941110d6b2541",
+    "wrappers": [
+      "0x302ad0",
+      "0x2e6cd0"
+    ],
+    "plaintext": "getPackageName",
+    "bytes": "6765745061636b6167654e616d6500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e5d2c",
+        "caller": "0x2e5c18",
+        "caller_end": "0x2e5f94",
+        "register_flow": {
+          "decode_callsite": "0x2e5d34",
+          "wrapper": "0x2e6cd0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2e70e0",
+    "data": "0x7abf70",
+    "length": 21,
+    "key": "0x9d3fe36fdf390927",
+    "wrappers": [
+      "0x302ef8",
+      "0x2e8134"
+    ],
+    "plaintext": "()Ljava/lang/String;",
+    "bytes": "28294c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e5d44",
+        "caller": "0x2e5c18",
+        "caller_end": "0x2e5f94",
+        "register_flow": {
+          "decode_callsite": "0x2e5d54",
+          "wrapper": "0x2e8134"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2e9b10",
+    "data": "0x7abfb0",
+    "length": 18,
+    "key": "0x5ad23c3cb0b3da5",
+    "wrappers": [
+      "0x3034d0",
+      "0x2eac8c"
+    ],
+    "plaintext": "getPackageManager",
+    "bytes": "6765745061636b6167654d616e6167657200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e90c0",
+        "caller": "0x2e8e80",
+        "caller_end": "0x2e9730",
+        "register_flow": {
+          "decode_callsite": "0x2e90d0",
+          "wrapper": "0x2eac8c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2eafec",
+    "data": "0x7ac000",
+    "length": 38,
+    "key": "0xdfafb5419f490ddb",
+    "wrappers": [
+      "0x3039a8",
+      "0x2ec9dc"
+    ],
+    "plaintext": "()Landroid/content/pm/PackageManager;",
+    "bytes": "28294c616e64726f69642f636f6e74656e742f706d2f5061636b6167654d616e616765723b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e90e0",
+        "caller": "0x2e8e80",
+        "caller_end": "0x2e9730",
+        "register_flow": {
+          "decode_callsite": "0x2e90f0",
+          "wrapper": "0x2ec9dc"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2ecd78",
+    "data": "0x7ac050",
+    "length": 19,
+    "key": "0x7638735893bd55d",
+    "wrappers": [
+      "0x303eec",
+      "0x2ed920"
+    ],
+    "plaintext": "getApplicationInfo",
+    "bytes": "6765744170706c69636174696f6e496e666f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e919c",
+        "caller": "0x2e8e80",
+        "caller_end": "0x2e9730",
+        "register_flow": {
+          "decode_callsite": "0x2e91ac",
+          "wrapper": "0x2ed920"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2edc90",
+    "data": "0x7ac0b0",
+    "length": 58,
+    "key": "0x4fb7d5f3ab95cfbf",
+    "wrappers": [
+      "0x304464",
+      "0x2eeec0"
+    ],
+    "plaintext": "(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;",
+    "bytes": "284c6a6176612f6c616e672f537472696e673b49294c616e64726f69642f636f6e74656e742f706d2f4170706c69636174696f6e496e666f3b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e91c0",
+        "caller": "0x2e8e80",
+        "caller_end": "0x2e9730",
+        "register_flow": {
+          "decode_callsite": "0x2e91d0",
+          "wrapper": "0x2eeec0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2ef4ec",
+    "data": "0x7ac0f8",
+    "length": 10,
+    "key": "0x7fad1dcd7b5fc9bd",
+    "wrappers": [
+      "0x304a30",
+      "0x2efe44"
+    ],
+    "plaintext": "sourceDir",
+    "bytes": "736f7572636544697200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e92c0",
+        "caller": "0x2e8e80",
+        "caller_end": "0x2e9730",
+        "register_flow": {
+          "decode_callsite": "0x2e92d0",
+          "wrapper": "0x2efe44"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x2f0278",
+    "data": "0x7ac130",
+    "length": 19,
+    "key": "0x7393dc74711e7eb",
+    "wrappers": [
+      "0x304f18",
+      "0x2f0cec"
+    ],
+    "plaintext": "Ljava/lang/String;",
+    "bytes": "4c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x2e92e4",
+        "caller": "0x2e8e80",
+        "caller_end": "0x2e9730",
+        "register_flow": {
+          "decode_callsite": "0x2e92f4",
+          "wrapper": "0x2f0cec"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x308ccc",
+    "data": "0x7ac4b0",
+    "length": 18,
+    "key": "0x7fd3adb181e15bed",
+    "wrappers": [
+      "0x3194f4",
+      "0x309b14"
+    ],
+    "plaintext": "libminecraftpe.so",
+    "bytes": "6c69626d696e65637261667470652e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x308534",
+        "caller": "0x308150",
+        "caller_end": "0x308974",
+        "register_flow": {
+          "decode_callsite": "0x308538",
+          "wrapper": "0x309b14"
+        }
+      },
+      {
+        "writer_callsite": "0x30886c",
+        "caller": "0x308150",
+        "caller_end": "0x308974",
+        "register_flow": {
+          "decode_callsite": "0x308870",
+          "wrapper": "0x309b14"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x309e90",
+    "data": "0x7ac4f0",
+    "length": 18,
+    "key": "0xe7bf2d95a54b2d63",
+    "wrappers": [
+      "0x319b00",
+      "0x30ae34"
+    ],
+    "plaintext": "libminecraftpe.so",
+    "bytes": "6c69626d696e65637261667470652e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x308ac0",
+        "caller": "0x308974",
+        "caller_end": "0x308ccc",
+        "register_flow": {
+          "decode_callsite": "0x308ac4",
+          "wrapper": "0x30ae34"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x30cf1c",
+    "data": "0x7ac528",
+    "length": 5,
+    "key": "0xdb6bf7ad478bbd0b",
+    "wrappers": [
+      "0x31a480",
+      "0x30d99c"
+    ],
+    "plaintext": ".mcp",
+    "bytes": "2e6d637000",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x30b4f8",
+        "caller": "0x30b278",
+        "caller_end": "0x30bb2c",
+        "register_flow": {
+          "decode_callsite": "0x30b508",
+          "wrapper": "0x30d99c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x30f3e4",
+    "data": "0x7ac560",
+    "length": 21,
+    "key": "0x5d8743751dc5cf41",
+    "wrappers": [
+      "0x31a924",
+      "0x30ffe0"
+    ],
+    "plaintext": "/PrismSUNScripts.mcp",
+    "bytes": "2f507269736d53554e536372697074732e6d637000",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x30bce0",
+        "caller": "0x30bb2c",
+        "caller_end": "0x30c1f0",
+        "register_flow": {
+          "decode_callsite": "0x30bce4",
+          "wrapper": "0x30ffe0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x31c75c",
+    "data": "0x7ac730",
+    "length": 24,
+    "key": "0xffc3978bc98f5399",
+    "wrappers": [
+      "0x345874",
+      "0x31da9c"
+    ],
+    "plaintext": "android/content/Context",
+    "bytes": "616e64726f69642f636f6e74656e742f436f6e7465787400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31ba98",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31baa8",
+          "wrapper": "0x31da9c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x31defc",
+    "data": "0x7ac770",
+    "length": 22,
+    "key": "0x39e3c19bbb935373",
+    "wrappers": [
+      "0x345de4",
+      "0x31efe8"
+    ],
+    "plaintext": "ACCESSIBILITY_SERVICE",
+    "bytes": "4143434553534942494c4954595f5345525649434500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31baf0",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31baf8",
+          "wrapper": "0x31efe8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x31f4c4",
+    "data": "0x7ac7b0",
+    "length": 19,
+    "key": "0x971941d90d7fe737",
+    "wrappers": [
+      "0x346304",
+      "0x3204a0"
+    ],
+    "plaintext": "Ljava/lang/String;",
+    "bytes": "4c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bb08",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bb10",
+          "wrapper": "0x3204a0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x321258",
+    "data": "0x7ac7f0",
+    "length": 17,
+    "key": "0x7d0149afab056bdd",
+    "wrappers": [
+      "0x346648",
+      "0x3220c4"
+    ],
+    "plaintext": "getSystemService",
+    "bytes": "67657453797374656d5365727669636500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bb88",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bb98",
+          "wrapper": "0x3220c4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3224b4",
+    "data": "0x7ac840",
+    "length": 39,
+    "key": "0x8707dd23b1c9b5ef",
+    "wrappers": [
+      "0x346b9c",
+      "0x323f74"
+    ],
+    "plaintext": "(Ljava/lang/String;)Ljava/lang/Object;",
+    "bytes": "284c6a6176612f6c616e672f537472696e673b294c6a6176612f6c616e672f4f626a6563743b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bbb4",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bbc4",
+          "wrapper": "0x323f74"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x324394",
+    "data": "0x7ac8a0",
+    "length": 48,
+    "key": "0xc169d3a1093b4331",
+    "wrappers": [
+      "0x347238",
+      "0x326060"
+    ],
+    "plaintext": "android/view/accessibility/AccessibilityManager",
+    "bytes": "616e64726f69642f766965772f6163636573736962696c6974792f4163636573736962696c6974794d616e6167657200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bc8c",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bc9c",
+          "wrapper": "0x326060"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3264b4",
+    "data": "0x7ac900",
+    "length": 35,
+    "key": "0xe3912dfd25097b7b",
+    "wrappers": [
+      "0x347714",
+      "0x327444"
+    ],
+    "plaintext": "getEnabledAccessibilityServiceList",
+    "bytes": "676574456e61626c65644163636573736962696c697479536572766963654c69737400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bcec",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bcfc",
+          "wrapper": "0x327444"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x327824",
+    "data": "0x7ac950",
+    "length": 20,
+    "key": "0x57fb21ed7b6501a9",
+    "wrappers": [
+      "0x347c00",
+      "0x3288e0"
+    ],
+    "plaintext": "(I)Ljava/util/List;",
+    "bytes": "2849294c6a6176612f7574696c2f4c6973743b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bd18",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bd28",
+          "wrapper": "0x3288e0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x328c0c",
+    "data": "0x7ac978",
+    "length": 15,
+    "key": "0x1b07cd8f7599e56d",
+    "wrappers": [
+      "0x34821c",
+      "0x329a3c"
+    ],
+    "plaintext": "java/util/List",
+    "bytes": "6a6176612f7574696c2f4c69737400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bd8c",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bd94",
+          "wrapper": "0x329a3c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x32ac3c",
+    "data": "0x7ac9c0",
+    "length": 22,
+    "key": "0x810979618f4359cd",
+    "wrappers": [
+      "0x348be4",
+      "0x32be00"
+    ],
+    "plaintext": "(I)Ljava/lang/Object;",
+    "bytes": "2849294c6a6176612f6c616e672f4f626a6563743b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bdfc",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31be0c",
+          "wrapper": "0x32be00"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x32c1a4",
+    "data": "0x7ac9e0",
+    "length": 5,
+    "key": "0x3b7577db115f355b",
+    "wrappers": [
+      "0x3490a4",
+      "0x32cb0c"
+    ],
+    "plaintext": "size",
+    "bytes": "73697a6500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31be70",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31be80",
+          "wrapper": "0x32cb0c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x32dbcc",
+    "data": "0x7aca40",
+    "length": 54,
+    "key": "0xa12f2bb3e943fb13",
+    "wrappers": [
+      "0x349bd0",
+      "0x32fe2c"
+    ],
+    "plaintext": "android/accessibilityservice/AccessibilityServiceInfo",
+    "bytes": "616e64726f69642f6163636573736962696c697479736572766963652f4163636573736962696c69747953657276696365496e666f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bf08",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bf18",
+          "wrapper": "0x32fe2c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3301d4",
+    "data": "0x7aca80",
+    "length": 6,
+    "key": "0xedbd9b35dd55518f",
+    "wrappers": [
+      "0x34a14c",
+      "0x330b8c"
+    ],
+    "plaintext": "getId",
+    "bytes": "676574496400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bf58",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bf60",
+          "wrapper": "0x330b8c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x330fb0",
+    "data": "0x7acab0",
+    "length": 21,
+    "key": "0xdbaf4383c59f19cf",
+    "wrappers": [
+      "0x34a658",
+      "0x331b2c"
+    ],
+    "plaintext": "()Ljava/lang/String;",
+    "bytes": "28294c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x31bf74",
+        "caller": "0x31b73c",
+        "caller_end": "0x31c75c",
+        "register_flow": {
+          "decode_callsite": "0x31bf84",
+          "wrapper": "0x331b2c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x34be24",
+    "data": "0x7acef0",
+    "length": 24,
+    "key": "0xeb279b691ff3fb37",
+    "wrappers": [
+      "0x372a1c",
+      "0x34d100"
+    ],
+    "plaintext": "android/content/Context",
+    "bytes": "616e64726f69642f636f6e74656e742f436f6e7465787400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b134",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b13c",
+          "wrapper": "0x34d100"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x34d5d0",
+    "data": "0x7acf30",
+    "length": 21,
+    "key": "0xffc3978bc98f5399",
+    "wrappers": [
+      "0x372f68",
+      "0x34e1c8"
+    ],
+    "plaintext": "INPUT_METHOD_SERVICE",
+    "bytes": "494e5055545f4d4554484f445f5345525649434500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b184",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b194",
+          "wrapper": "0x34e1c8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x34e564",
+    "data": "0x7acf70",
+    "length": 19,
+    "key": "0x9bd595af851d8be7",
+    "wrappers": [
+      "0x373424",
+      "0x34f51c"
+    ],
+    "plaintext": "Ljava/lang/String;",
+    "bytes": "4c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b1a4",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b1b4",
+          "wrapper": "0x34f51c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x34f960",
+    "data": "0x7acfb0",
+    "length": 17,
+    "key": "0xc77f77236bad4799",
+    "wrappers": [
+      "0x3738e4",
+      "0x3509e0"
+    ],
+    "plaintext": "getSystemService",
+    "bytes": "67657453797374656d5365727669636500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b244",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b24c",
+          "wrapper": "0x3509e0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x350e40",
+    "data": "0x7ad000",
+    "length": 39,
+    "key": "0xc9771b45f9913b87",
+    "wrappers": [
+      "0x373ee8",
+      "0x3526d0"
+    ],
+    "plaintext": "(Ljava/lang/String;)Ljava/lang/Object;",
+    "bytes": "284c6a6176612f6c616e672f537472696e673b294c6a6176612f6c616e672f4f626a6563743b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b268",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b278",
+          "wrapper": "0x3526d0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x352a6c",
+    "data": "0x7ad060",
+    "length": 44,
+    "key": "0x194db9cd9b4dbd9f",
+    "wrappers": [
+      "0x37440c",
+      "0x353bd8"
+    ],
+    "plaintext": "android/view/inputmethod/InputMethodManager",
+    "bytes": "616e64726f69642f766965772f696e7075746d6574686f642f496e7075744d6574686f644d616e6167657200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b340",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b350",
+          "wrapper": "0x353bd8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3540b4",
+    "data": "0x7ad0b0",
+    "length": 19,
+    "key": "0x6f55cd957ba3590f",
+    "wrappers": [
+      "0x374954",
+      "0x355044"
+    ],
+    "plaintext": "getInputMethodList",
+    "bytes": "676574496e7075744d6574686f644c69737400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b398",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b3a8",
+          "wrapper": "0x355044"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x35547c",
+    "data": "0x7ad0f0",
+    "length": 19,
+    "key": "0xe3912dfd25097b7b",
+    "wrappers": [
+      "0x374cbc",
+      "0x356524"
+    ],
+    "plaintext": "()Ljava/util/List;",
+    "bytes": "28294c6a6176612f7574696c2f4c6973743b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b3c4",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b3d4",
+          "wrapper": "0x356524"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x356930",
+    "data": "0x7ad118",
+    "length": 15,
+    "key": "0xf14339ed95ff2fcf",
+    "wrappers": [
+      "0x375208",
+      "0x357910"
+    ],
+    "plaintext": "java/util/List",
+    "bytes": "6a6176612f7574696c2f4c69737400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b434",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b43c",
+          "wrapper": "0x357910"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x358bcc",
+    "data": "0x7ad160",
+    "length": 22,
+    "key": "0xfd4ff1bda37d1fd3",
+    "wrappers": [
+      "0x375c04",
+      "0x359da4"
+    ],
+    "plaintext": "(I)Ljava/lang/Object;",
+    "bytes": "2849294c6a6176612f6c616e672f4f626a6563743b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b4b8",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b4c8",
+          "wrapper": "0x359da4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x35a008",
+    "data": "0x7ad180",
+    "length": 5,
+    "key": "0x213fa5c5059bd715",
+    "wrappers": [
+      "0x376188",
+      "0x35a860"
+    ],
+    "plaintext": "size",
+    "bytes": "73697a6500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b52c",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b534",
+          "wrapper": "0x35a860"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x35b9e0",
+    "data": "0x7ad1d0",
+    "length": 41,
+    "key": "0x31070921874b0533",
+    "wrappers": [
+      "0x376be4",
+      "0x35d46c"
+    ],
+    "plaintext": "android/view/inputmethod/InputMethodInfo",
+    "bytes": "616e64726f69642f766965772f696e7075746d6574686f642f496e7075744d6574686f64496e666f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b5b4",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b5c4",
+          "wrapper": "0x35d46c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x35d848",
+    "data": "0x7ad210",
+    "length": 15,
+    "key": "0xcf8ffb89377b9db1",
+    "wrappers": [
+      "0x377230",
+      "0x35e968"
+    ],
+    "plaintext": "getServiceName",
+    "bytes": "676574536572766963654e616d6500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b60c",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b614",
+          "wrapper": "0x35e968"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x35ed40",
+    "data": "0x7ad240",
+    "length": 21,
+    "key": "0xedbd9b35dd55518f",
+    "wrappers": [
+      "0x377818",
+      "0x35fdb4"
+    ],
+    "plaintext": "()Ljava/lang/String;",
+    "bytes": "28294c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x34b628",
+        "caller": "0x34adcc",
+        "caller_end": "0x34be24",
+        "register_flow": {
+          "decode_callsite": "0x34b638",
+          "wrapper": "0x35fdb4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x378b5c",
+    "data": "0x7ad660",
+    "length": 7,
+    "key": "0x2967333707df99f9",
+    "wrappers": [
+      "0x3ac608",
+      "0x37942c"
+    ],
+    "plaintext": "FAIL_1",
+    "bytes": "4641494c5f3100",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x378598",
+        "caller": "0x37843c",
+        "caller_end": "0x378b5c",
+        "register_flow": {
+          "decode_callsite": "0x3785a0",
+          "wrapper": "0x37942c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x379920",
+    "data": "0x7ad678",
+    "length": 11,
+    "key": "0x213fa5c5059bd715",
+    "wrappers": [
+      "0x3acbd8",
+      "0x37a784"
+    ],
+    "plaintext": "/data/app/",
+    "bytes": "2f646174612f6170702f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x37861c",
+        "caller": "0x37843c",
+        "caller_end": "0x378b5c",
+        "register_flow": {
+          "decode_callsite": "0x37862c",
+          "wrapper": "0x37a784"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x37ab08",
+    "data": "0x7ad690",
+    "length": 7,
+    "key": "0x9d3fe36fdf390927",
+    "wrappers": [
+      "0x3ad11c",
+      "0x37b510"
+    ],
+    "plaintext": "FAIL_2",
+    "bytes": "4641494c5f3200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x378650",
+        "caller": "0x37843c",
+        "caller_end": "0x378b5c",
+        "register_flow": {
+          "decode_callsite": "0x378660",
+          "wrapper": "0x37b510"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x37ba34",
+    "data": "0x7ad6a0",
+    "length": 7,
+    "key": "0xc7d3dbfd570fc78f",
+    "wrappers": [
+      "0x3ad6b4",
+      "0x37c42c"
+    ],
+    "plaintext": "FAIL_3",
+    "bytes": "4641494c5f3300",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x378704",
+        "caller": "0x37843c",
+        "caller_end": "0x378b5c",
+        "register_flow": {
+          "decode_callsite": "0x378714",
+          "wrapper": "0x37c42c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x37cf30",
+    "data": "0x7ad6b0",
+    "length": 7,
+    "key": "0xa31121ed077965d7",
+    "wrappers": [
+      "0x3adc24",
+      "0x37d7f4"
+    ],
+    "plaintext": "FAIL_4",
+    "bytes": "4641494c5f3400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3787ac",
+        "caller": "0x37843c",
+        "caller_end": "0x378b5c",
+        "register_flow": {
+          "decode_callsite": "0x3787b4",
+          "wrapper": "0x37d7f4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x37db14",
+    "data": "0x7ad6c0",
+    "length": 7,
+    "key": "0x7393dc74711e7eb",
+    "wrappers": [
+      "0x3ae168",
+      "0x37e7b8"
+    ],
+    "plaintext": "FAIL_5",
+    "bytes": "4641494c5f3500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x378844",
+        "caller": "0x37843c",
+        "caller_end": "0x378b5c",
+        "register_flow": {
+          "decode_callsite": "0x37884c",
+          "wrapper": "0x37e7b8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x37ec14",
+    "data": "0x7ad6d0",
+    "length": 7,
+    "key": "0x9592b41c54dfb37",
+    "wrappers": [
+      "0x3ae72c",
+      "0x37f7c8"
+    ],
+    "plaintext": "FAIL_6",
+    "bytes": "4641494c5f3600",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3788ec",
+        "caller": "0x37843c",
+        "caller_end": "0x378b5c",
+        "register_flow": {
+          "decode_callsite": "0x3788f4",
+          "wrapper": "0x37f7c8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x38124c",
+    "data": "0x7ad700",
+    "length": 18,
+    "key": "0x331b5f3be9257109",
+    "wrappers": [
+      "0x3aeb94",
+      "0x382270"
+    ],
+    "plaintext": "getPackageManager",
+    "bytes": "6765745061636b6167654d616e6167657200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x37feec",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x37fef4",
+          "wrapper": "0x382270"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3826c4",
+    "data": "0x7ad750",
+    "length": 38,
+    "key": "0x695fdf51e51fa977",
+    "wrappers": [
+      "0x3aefbc",
+      "0x383e94"
+    ],
+    "plaintext": "()Landroid/content/pm/PackageManager;",
+    "bytes": "28294c616e64726f69642f636f6e74656e742f706d2f5061636b6167654d616e616765723b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x37ff04",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x37ff14",
+          "wrapper": "0x383e94"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x384214",
+    "data": "0x7ad788",
+    "length": 15,
+    "key": "0xc59f7d31b1dfcd87",
+    "wrappers": [
+      "0x3af620",
+      "0x3851b4"
+    ],
+    "plaintext": "getPackageInfo",
+    "bytes": "6765745061636b616765496e666f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x37ffd8",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x37ffe0",
+          "wrapper": "0x3851b4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x385604",
+    "data": "0x7ad7e0",
+    "length": 54,
+    "key": "0x13bfd92d2557e107",
+    "wrappers": [
+      "0x3afb6c",
+      "0x3876b8"
+    ],
+    "plaintext": "(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;",
+    "bytes": "284c6a6176612f6c616e672f537472696e673b49294c616e64726f69642f636f6e74656e742f706d2f5061636b616765496e666f3b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x37fff8",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x380000",
+          "wrapper": "0x3876b8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x387b14",
+    "data": "0x7ad828",
+    "length": 15,
+    "key": "0x769f7ebeb59dbd3",
+    "wrappers": [
+      "0x3b015c",
+      "0x3886cc"
+    ],
+    "plaintext": "getPackageName",
+    "bytes": "6765745061636b6167654e616d6500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x380064",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x380074",
+          "wrapper": "0x3886cc"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x388b94",
+    "data": "0x7ad860",
+    "length": 21,
+    "key": "0x8165c1cfa9fd3505",
+    "wrappers": [
+      "0x3b05b0",
+      "0x389b74"
+    ],
+    "plaintext": "()Ljava/lang/String;",
+    "bytes": "28294c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x380090",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x3800a0",
+          "wrapper": "0x389b74"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x38a04c",
+    "data": "0x7ad888",
+    "length": 11,
+    "key": "0x73c5e5572545d7f1",
+    "wrappers": [
+      "0x3b0c40",
+      "0x38ae54"
+    ],
+    "plaintext": "activities",
+    "bytes": "6163746976697469657300",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3801fc",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x380204",
+          "wrapper": "0x38ae54"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x38b2a8",
+    "data": "0x7ad8d0",
+    "length": 35,
+    "key": "0x1dcb7db75fa1fbe3",
+    "wrappers": [
+      "0x3b12dc",
+      "0x38c2c0"
+    ],
+    "plaintext": "[Landroid/content/pm/ActivityInfo;",
+    "bytes": "5b4c616e64726f69642f636f6e74656e742f706d2f4163746976697479496e666f3b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x380220",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x380230",
+          "wrapper": "0x38c2c0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x38c68c",
+    "data": "0x7ad920",
+    "length": 32,
+    "key": "0x1b901cb3db53f77",
+    "wrappers": [
+      "0x3b1914",
+      "0x38dc58"
+    ],
+    "plaintext": "android/content/pm/ActivityInfo",
+    "bytes": "616e64726f69642f636f6e74656e742f706d2f4163746976697479496e666f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x380294",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x38029c",
+          "wrapper": "0x38dc58"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x38e098",
+    "data": "0x7ad948",
+    "length": 5,
+    "key": "0x558bf9a58fbd6dbf",
+    "wrappers": [
+      "0x3b1df8",
+      "0x38ea94"
+    ],
+    "plaintext": "name",
+    "bytes": "6e616d6500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3802ec",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x3802f4",
+          "wrapper": "0x38ea94"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x38ee60",
+    "data": "0x7ad970",
+    "length": 19,
+    "key": "0x5d5373a54167492b",
+    "wrappers": [
+      "0x3b2378",
+      "0x38fe24"
+    ],
+    "plaintext": "Ljava/lang/String;",
+    "bytes": "4c6a6176612f6c616e672f537472696e673b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x380310",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x380318",
+          "wrapper": "0x38fe24"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x39130c",
+    "data": "0x7ad9b0",
+    "length": 23,
+    "key": "0x95db052fc5cb6335",
+    "wrappers": [
+      "0x3b27dc",
+      "0x391f94"
+    ],
+    "plaintext": ".wxapi.WXEntryActivity",
+    "bytes": "2e77786170692e5758456e747279416374697669747900",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x38063c",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x380644",
+          "wrapper": "0x391f94"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3922f8",
+    "data": "0x7ada00",
+    "length": 44,
+    "key": "0xb834d216d5367e7",
+    "wrappers": [
+      "0x3b2dc4",
+      "0x393db8"
+    ],
+    "plaintext": "com.netease.mpay.MpayLoginActionBarActivity",
+    "bytes": "636f6d2e6e6574656173652e6d7061792e4d7061794c6f67696e416374696f6e426172416374697669747900",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x380658",
+        "caller": "0x37fb88",
+        "caller_end": "0x38124c",
+        "register_flow": {
+          "decode_callsite": "0x380660",
+          "wrapper": "0x393db8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3b92a8",
+    "data": "0x7adf38",
+    "length": 6,
+    "key": "0xc169d3a1093b4331",
+    "wrappers": [
+      "0x3e3334",
+      "0x3b9bf0"
+    ],
+    "plaintext": "/maps",
+    "bytes": "2f6d61707300",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b3bdc",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b3be4",
+          "wrapper": "0x3b9bf0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3b9f9c",
+    "data": "0x7adf50",
+    "length": 11,
+    "key": "0xcd15890f1fef9f7d",
+    "wrappers": [
+      "0x3e38f4",
+      "0x3ba914"
+    ],
+    "plaintext": "/data/app/",
+    "bytes": "2f646174612f6170702f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b3c24",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b3c34",
+          "wrapper": "0x3ba914"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3badd8",
+    "data": "0x7adf68",
+    "length": 12,
+    "key": "0x6f55cd957ba3590f",
+    "wrappers": [
+      "0x3e3d1c",
+      "0x3bbacc"
+    ],
+    "plaintext": "/data/data/",
+    "bytes": "2f646174612f646174612f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b3c44",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b3c4c",
+          "wrapper": "0x3bbacc"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3bbef4",
+    "data": "0x7adf80",
+    "length": 12,
+    "key": "0xe3912dfd25097b7b",
+    "wrappers": [
+      "0x3e4354",
+      "0x3bc928"
+    ],
+    "plaintext": "/data/user/",
+    "bytes": "2f646174612f757365722f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b3c5c",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b3c64",
+          "wrapper": "0x3bc928"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3bcd30",
+    "data": "0x7adf98",
+    "length": 12,
+    "key": "0x57fb21ed7b6501a9",
+    "wrappers": [
+      "0x3e4818",
+      "0x3bd76c"
+    ],
+    "plaintext": "/packcache/",
+    "bytes": "2f7061636b63616368652f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b3c74",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b3c84",
+          "wrapper": "0x3bd76c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3bdaf0",
+    "data": "0x7adfb0",
+    "length": 5,
+    "key": "0x558bf9a58fbd6dbf",
+    "wrappers": [
+      "0x3b1df8",
+      "0x38ea94"
+    ],
+    "plaintext": "_.+xH",
+    "bytes": "5f2e2b7848",
+    "confidence": "candidate_parameter_match",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b3cb0",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": null
+      }
+    ]
+  },
+  {
+    "writer": "0x3bdaf0",
+    "data": "0x7adfb0",
+    "length": 5,
+    "key": "0xf14339ed95ff2fcf",
+    "wrappers": [
+      "0x3e4b7c",
+      "0x3be518"
+    ],
+    "plaintext": "/lib",
+    "bytes": "2f6c696200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b3cb0",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b3cb8",
+          "wrapper": "0x3be518"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3c35bc",
+    "data": "0x7ae000",
+    "length": 20,
+    "key": "0x8bbdb3af1b4949a3",
+    "wrappers": [
+      "0x3e6174",
+      "0x3c4344"
+    ],
+    "plaintext": "/dev/zero (deleted)",
+    "bytes": "2f6465762f7a65726f202864656c657465642900",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b8600",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b8610",
+          "wrapper": "0x3c4344"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x3c46b4",
+    "data": "0x7ae020",
+    "length": 7,
+    "key": "0x717f5d0f8b9d9be7",
+    "wrappers": [
+      "0x3e65dc",
+      "0x3c5158"
+    ],
+    "plaintext": "[anon:",
+    "bytes": "5b616e6f6e3a00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x3b862c",
+        "caller": "0x3b3860",
+        "caller_end": "0x3b8c40",
+        "register_flow": {
+          "decode_callsite": "0x3b863c",
+          "wrapper": "0x3c5158"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x4097a8",
+    "data": "0x7ae2f0",
+    "length": 8,
+    "key": "0x6f2bc9754bd1a9a9",
+    "wrappers": [
+      "0x42f8b8",
+      "0x40a42c"
+    ],
+    "plaintext": "/status",
+    "bytes": "2f73746174757300",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x406128",
+        "caller": "0x406068",
+        "caller_end": "0x4097a8",
+        "register_flow": {
+          "decode_callsite": "0x40612c",
+          "wrapper": "0x40a42c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x40b598",
+    "data": "0x7ae308",
+    "length": 11,
+    "key": "0xdbaf4383c59f19cf",
+    "wrappers": [
+      "0x42fca8",
+      "0x40c354"
+    ],
+    "plaintext": "TracerPid:",
+    "bytes": "5472616365725069643a00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x406a48",
+        "caller": "0x406068",
+        "caller_end": "0x4097a8",
+        "register_flow": {
+          "decode_callsite": "0x406a58",
+          "wrapper": "0x40c354"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x4118a8",
+    "data": "0x7ae320",
+    "length": 8,
+    "key": "0xe7bf2d95a54b2d63",
+    "wrappers": [
+      "0x431308",
+      "0x412444"
+    ],
+    "plaintext": "libc.so",
+    "bytes": "6c6962632e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x41001c",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x41002c",
+          "wrapper": "0x412444"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x412928",
+    "data": "0x7ae338",
+    "length": 15,
+    "key": "0x6f5d01851325072d",
+    "wrappers": [
+      "0x43185c",
+      "0x413448"
+    ],
+    "plaintext": "libmediandk.so",
+    "bytes": "6c69626d656469616e646b2e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4100e4",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x4100f4",
+          "wrapper": "0x413448"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x41392c",
+    "data": "0x7ae358",
+    "length": 14,
+    "key": "0x5d5373a54167492b",
+    "wrappers": [
+      "0x431c9c",
+      "0x41486c"
+    ],
+    "plaintext": "libandroid.so",
+    "bytes": "6c6962616e64726f69642e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x410198",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x4101a8",
+          "wrapper": "0x41486c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x414d34",
+    "data": "0x7ae378",
+    "length": 10,
+    "key": "0x33936bbb8fbf972b",
+    "wrappers": [
+      "0x4321f8",
+      "0x4157a8"
+    ],
+    "plaintext": "libart.so",
+    "bytes": "6c69626172742e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x410250",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x410260",
+          "wrapper": "0x4157a8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x416b80",
+    "data": "0x7ae398",
+    "length": 15,
+    "key": "0xbf7167c7934d83bf",
+    "wrappers": [
+      "0x436b00",
+      "0x417abc"
+    ],
+    "plaintext": "libmediandk.so",
+    "bytes": "6c69626d656469616e646b2e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4103dc",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x4103e4",
+          "wrapper": "0x417abc"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x418544",
+    "data": "0x7ae3b0",
+    "length": 8,
+    "key": "0x4971799d23e9f97b",
+    "wrappers": [
+      "0x4377dc",
+      "0x418fc4"
+    ],
+    "plaintext": "libc.so",
+    "bytes": "6c6962632e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x410490",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x4104a0",
+          "wrapper": "0x418fc4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x419480",
+    "data": "0x7ae3c8",
+    "length": 14,
+    "key": "0x13bdc327057fcd0d",
+    "wrappers": [
+      "0x437e60",
+      "0x419e4c"
+    ],
+    "plaintext": "libandroid.so",
+    "bytes": "6c6962616e64726f69642e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x410554",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x41055c",
+          "wrapper": "0x419e4c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x41a260",
+    "data": "0x7ae3e8",
+    "length": 10,
+    "key": "0x1dc3834d7537e95d",
+    "wrappers": [
+      "0x43838c",
+      "0x41af28"
+    ],
+    "plaintext": "libart.so",
+    "bytes": "6c69626172742e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x410614",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x41061c",
+          "wrapper": "0x41af28"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x41b1e4",
+    "data": "0x7ae400",
+    "length": 9,
+    "key": "0x652bf3a397759395",
+    "wrappers": [
+      "0x438844",
+      "0x41bdd4"
+    ],
+    "plaintext": "layer=%d",
+    "bytes": "6c617965723d256400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x410770",
+        "caller": "0x40fd54",
+        "caller_end": "0x410aec",
+        "register_flow": {
+          "decode_callsite": "0x410778",
+          "wrapper": "0x41bdd4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x41e3c8",
+    "data": "0x7ae460",
+    "length": 9,
+    "key": "0xc3477997bde72fdf",
+    "wrappers": [
+      "0x439b3c",
+      "0x41f030"
+    ],
+    "plaintext": "Not NEMC",
+    "bytes": "4e6f74204e454d4300",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x41dfac",
+        "caller": "0x41de58",
+        "caller_end": "0x41e3c8",
+        "register_flow": {
+          "decode_callsite": "0x41dfbc",
+          "wrapper": "0x41f030"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x44ed9c",
+    "data": "0x7ae7b8",
+    "length": 6,
+    "key": "0x7d0149afab056bdd",
+    "wrappers": [
+      "0x451294",
+      "0x44f838"
+    ],
+    "plaintext": "CRC32",
+    "bytes": "435243333200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x44c7f4",
+        "caller": "0x44c740",
+        "caller_end": "0x44cfa0",
+        "register_flow": {
+          "decode_callsite": "0x44c7f8",
+          "wrapper": "0x44f838"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x465a4c",
+    "data": "0x7ae810",
+    "length": 8,
+    "key": "0xcf8ffb89377b9db1",
+    "wrappers": [
+      "0x4a1fe4",
+      "0x46666c"
+    ],
+    "plaintext": "/status",
+    "bytes": "2f73746174757300",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x464ee8",
+        "caller": "0x464d9c",
+        "caller_end": "0x465a4c",
+        "register_flow": {
+          "decode_callsite": "0x464eec",
+          "wrapper": "0x46666c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x467abc",
+    "data": "0x7ae828",
+    "length": 9,
+    "key": "0x7dbd49499df19131",
+    "wrappers": [
+      "0x4a8ef8",
+      "0x4686a8"
+    ],
+    "plaintext": "Seccomp:",
+    "bytes": "536563636f6d703a00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x465788",
+        "caller": "0x464d9c",
+        "caller_end": "0x465a4c",
+        "register_flow": {
+          "decode_callsite": "0x465798",
+          "wrapper": "0x4686a8"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x46b814",
+    "data": "0x7ae860",
+    "length": 17,
+    "key": "0x8373ad4dbdc90b71",
+    "wrappers": [
+      "0x4a933c",
+      "0x46c310"
+    ],
+    "plaintext": "Seccomp_filters:",
+    "bytes": "536563636f6d705f66696c746572733a00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4657c0",
+        "caller": "0x464d9c",
+        "caller_end": "0x465a4c",
+        "register_flow": {
+          "decode_callsite": "0x4657d0",
+          "wrapper": "0x46c310"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x46c66c",
+    "data": "0x7ae880",
+    "length": 12,
+    "key": "0xf53e9eb1b253f8d",
+    "wrappers": [
+      "0x4a98ec",
+      "0x46d488"
+    ],
+    "plaintext": "NoNewPrivs:",
+    "bytes": "4e6f4e657750726976733a00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4657fc",
+        "caller": "0x464d9c",
+        "caller_end": "0x465a4c",
+        "register_flow": {
+          "decode_callsite": "0x46580c",
+          "wrapper": "0x46d488"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x470e1c",
+    "data": "0x7ae898",
+    "length": 8,
+    "key": "0x33936bbb8fbf972b",
+    "wrappers": [
+      "0x4b4c14",
+      "0x4718e0"
+    ],
+    "plaintext": "unknown",
+    "bytes": "756e6b6e6f776e00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x46e658",
+        "caller": "0x46dc28",
+        "caller_end": "0x46e824",
+        "register_flow": {
+          "decode_callsite": "0x46e668",
+          "wrapper": "0x4718e0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x474a54",
+    "data": "0x7ae8b0",
+    "length": 7,
+    "key": "0xabcb91c1b3e91597",
+    "wrappers": [
+      "0x4b51f4",
+      "0x475660"
+    ],
+    "plaintext": "/data/",
+    "bytes": "2f646174612f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x471e88",
+        "caller": "0x471c8c",
+        "caller_end": "0x474a54",
+        "register_flow": {
+          "decode_callsite": "0x471e8c",
+          "wrapper": "0x475660"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x47699c",
+    "data": "0x7ae8c8",
+    "length": 11,
+    "key": "0xd63bd2bbbbba1a7",
+    "wrappers": [
+      "0x4b5670",
+      "0x477514"
+    ],
+    "plaintext": "/data/app/",
+    "bytes": "2f646174612f6170702f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x472da4",
+        "caller": "0x471c8c",
+        "caller_end": "0x474a54",
+        "register_flow": {
+          "decode_callsite": "0x472da8",
+          "wrapper": "0x477514"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x478200",
+    "data": "0x7ae8e0",
+    "length": 12,
+    "key": "0xd792d4df72761dd",
+    "wrappers": [
+      "0x4b5bf8",
+      "0x478f98"
+    ],
+    "plaintext": "/data/data/",
+    "bytes": "2f646174612f646174612f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x47343c",
+        "caller": "0x471c8c",
+        "caller_end": "0x474a54",
+        "register_flow": {
+          "decode_callsite": "0x473444",
+          "wrapper": "0x478f98"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x479344",
+    "data": "0x7ae900",
+    "length": 14,
+    "key": "0x3137030b2137eb3b",
+    "wrappers": [
+      "0x4b5f48",
+      "0x47a0b0"
+    ],
+    "plaintext": "/data/user/0/",
+    "bytes": "2f646174612f757365722f302f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x473454",
+        "caller": "0x471c8c",
+        "caller_end": "0x474a54",
+        "register_flow": {
+          "decode_callsite": "0x473464",
+          "wrapper": "0x47a0b0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x48c9dc",
+    "data": "0x7ae940",
+    "length": 9,
+    "key": "0x5feb8129454d8351",
+    "wrappers": [
+      "0x48eb08",
+      "0x48d6f0"
+    ],
+    "plaintext": "/cmdline",
+    "bytes": "2f636d646c696e6500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x477954",
+        "caller": "0x4778bc",
+        "caller_end": "0x478200",
+        "register_flow": {
+          "decode_callsite": "0x477958",
+          "wrapper": "0x48d6f0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x4914c0",
+    "data": "0x7ae958",
+    "length": 11,
+    "key": "0x2b6d351965cda327",
+    "wrappers": [
+      "0x493298",
+      "0x4920ec"
+    ],
+    "plaintext": "/data/app/",
+    "bytes": "2f646174612f6170702f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x47aa78",
+        "caller": "0x47a44c",
+        "caller_end": "0x47cc00",
+        "register_flow": {
+          "decode_callsite": "0x47aa7c",
+          "wrapper": "0x4920ec"
+        }
+      },
+      {
+        "writer_callsite": "0x47baa8",
+        "caller": "0x47a44c",
+        "caller_end": "0x47cc00",
+        "register_flow": {
+          "decode_callsite": "0x47baac",
+          "wrapper": "0x4920ec"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x493bb0",
+    "data": "0x7ae970",
+    "length": 10,
+    "key": "0x1b75bd1119a31f5d",
+    "wrappers": [
+      "0x498ef8",
+      "0x494830"
+    ],
+    "plaintext": "/base.apk",
+    "bytes": "2f626173652e61706b00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x47cd20",
+        "caller": "0x47cc00",
+        "caller_end": "0x47df58",
+        "register_flow": {
+          "decode_callsite": "0x47cd24",
+          "wrapper": "0x494830"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x494c84",
+    "data": "0x7ae988",
+    "length": 11,
+    "key": "0x9376f3539351573",
+    "wrappers": [
+      "0x49a410",
+      "0x495af4"
+    ],
+    "plaintext": "/data/app/",
+    "bytes": "2f646174612f6170702f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x47cd64",
+        "caller": "0x47cc00",
+        "caller_end": "0x47df58",
+        "register_flow": {
+          "decode_callsite": "0x47cd74",
+          "wrapper": "0x495af4"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x495e70",
+    "data": "0x7ae9a0",
+    "length": 10,
+    "key": "0x136dbbaf5185477d",
+    "wrappers": [
+      "0x49be54",
+      "0x496c50"
+    ],
+    "plaintext": "/dev/null",
+    "bytes": "2f6465762f6e756c6c00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x47d5b8",
+        "caller": "0x47cc00",
+        "caller_end": "0x47df58",
+        "register_flow": {
+          "decode_callsite": "0x47d5c8",
+          "wrapper": "0x496c50"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x4c1108",
+    "data": "0x7aed50",
+    "length": 17,
+    "key": "0x29b373e58fe16903",
+    "wrappers": [
+      "0x4c3254",
+      "0x4c1cec"
+    ],
+    "plaintext": "APK Sig Block 42",
+    "bytes": "41504b2053696720426c6f636b20343200",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4c09cc",
+        "caller": "0x4c0718",
+        "caller_end": "0x4c0d54",
+        "register_flow": {
+          "decode_callsite": "0x4c09d0",
+          "wrapper": "0x4c1cec"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x4dbce0",
+    "data": "0x7aee30",
+    "length": 22,
+    "key": "0x3931d36781e57faf",
+    "wrappers": [
+      "0x56a738",
+      "0x4dcddc"
+    ],
+    "plaintext": "libandroid_runtime.so",
+    "bytes": "6c6962616e64726f69645f72756e74696d652e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4dba80",
+        "caller": "0x4db9cc",
+        "caller_end": "0x4dbce0",
+        "register_flow": {
+          "decode_callsite": "0x4dba84",
+          "wrapper": "0x4dcddc"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x4dd0cc",
+    "data": "0x7aee80",
+    "length": 40,
+    "key": "0xfbf191ffbdbb8d51",
+    "wrappers": [
+      "0x56ad2c",
+      "0x4deb74"
+    ],
+    "plaintext": "_ZN7android14AndroidRuntime9getJNIEnvEv",
+    "bytes": "5f5a4e37616e64726f69643134416e64726f696452756e74696d65396765744a4e49456e76457600",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x4dbb18",
+        "caller": "0x4db9cc",
+        "caller_end": "0x4dbce0",
+        "register_flow": {
+          "decode_callsite": "0x4dbb1c",
+          "wrapper": "0x4deb74"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x572a54",
+    "data": "0x7af040",
+    "length": 14,
+    "key": "0x67f7a945730d6b67",
+    "wrappers": [
+      "0x588910",
+      "0x573878"
+    ],
+    "plaintext": "HKDF(SHA-256)",
+    "bytes": "484b4446285348412d3235362900",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x56f6c4",
+        "caller": "0x56eae4",
+        "caller_end": "0x570514",
+        "register_flow": {
+          "decode_callsite": "0x56f6d4",
+          "wrapper": "0x573878"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5a858c",
+    "data": "0x7af180",
+    "length": 15,
+    "key": "0xc77f77236bad4799",
+    "wrappers": [
+      "0x5b5284",
+      "0x5a938c"
+    ],
+    "plaintext": "libmediandk.so",
+    "bytes": "6c69626d656469616e646b2e736f00",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7d18",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7d1c",
+          "wrapper": "0x5a938c"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5a984c",
+    "data": "0x7af1b0",
+    "length": 23,
+    "key": "0x8183fda96f799353",
+    "wrappers": [
+      "0x5b5800",
+      "0x5aaba0"
+    ],
+    "plaintext": "AMediaDrm_createByUUID",
+    "bytes": "414d6564696144726d5f63726561746542795555494400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7dac",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7db0",
+          "wrapper": "0x5aaba0"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5ab09c",
+    "data": "0x7af1f0",
+    "length": 31,
+    "key": "0x6f55cd957ba3590f",
+    "wrappers": [
+      "0x5b5cf8",
+      "0x5ac544"
+    ],
+    "plaintext": "AMediaDrm_getPropertyByteArray",
+    "bytes": "414d6564696144726d5f67657450726f706572747942797465417272617900",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7e5c",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7e60",
+          "wrapper": "0x5ac544"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5ac920",
+    "data": "0x7af230",
+    "length": 18,
+    "key": "0xf14339ed95ff2fcf",
+    "wrappers": [
+      "0x5b624c",
+      "0x5ada44"
+    ],
+    "plaintext": "AMediaDrm_release",
+    "bytes": "414d6564696144726d5f72656c6561736500",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5a7f0c",
+        "caller": "0x5a7be4",
+        "caller_end": "0x5a8148",
+        "register_flow": {
+          "decode_callsite": "0x5a7f10",
+          "wrapper": "0x5ada44"
+        }
+      }
+    ]
+  },
+  {
+    "writer": "0x5ae894",
+    "data": "0x7af278",
+    "length": 15,
+    "key": "0x991135b13b4b4b1b",
+    "wrappers": [
+      "0x5b6848",
+      "0x5af358"
+    ],
+    "plaintext": "deviceUniqueId",
+    "bytes": "646576696365556e69717565496400",
+    "confidence": "verified_direct_register_flow",
+    "caller_evidence": [
+      {
+        "writer_callsite": "0x5ae61c",
+        "caller": "0x5ae1d4",
+        "caller_end": "0x5ae894",
+        "register_flow": {
+          "decode_callsite": "0x5ae620",
+          "wrapper": "0x5af358"
+        }
+      }
+    ]
+  }
+]

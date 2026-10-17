@@ -1,0 +1,191 @@
+{
+  "addr": "0x6ab3d8",
+  "asm": {
+    "name": "sub_6AB3D8",
+    "start_ea": "0x6ab3d8",
+    "segment": ".text",
+    "lines": [
+      {
+        "addr": "6ab954",
+        "instruction": "NOP"
+      },
+      {
+        "addr": "6ab958",
+        "instruction": "ADR X9, sub_6AB3D8",
+        "refs": [
+          {
+            "addr": "0x6ab3d8",
+            "name": "sub_6AB3D8"
+          }
+        ]
+      },
+      {
+        "addr": "6ab95c",
+        "instruction": "LDR W9, [X9,#(loc_6AB3E0 - 0x6AB3D8)]",
+        "refs": [
+          {
+            "addr": "0x6ab3e0",
+            "name": "loc_6AB3E0"
+          }
+        ]
+      },
+      {
+        "addr": "6ab960",
+        "instruction": "LSR W9, W9, #0xA"
+      },
+      {
+        "addr": "6ab964",
+        "instruction": "MOV W10, #0x3587C0"
+      },
+      {
+        "addr": "6ab96c",
+        "instruction": "CMP W9, W10"
+      },
+      {
+        "addr": "6ab970",
+        "instruction": "CSET W9, EQ"
+      },
+      {
+        "addr": "6ab974",
+        "instruction": "ORR W8, W8, W9"
+      },
+      {
+        "addr": "6ab978",
+        "instruction": "TBNZ W8, #0, loc_6AB8C8",
+        "refs": [
+          {
+            "addr": "0x6ab8c8",
+            "name": "loc_6AB8C8"
+          }
+        ]
+      },
+      {
+        "addr": "6ab97c",
+        "instruction": "B loc_6AB410",
+        "refs": [
+          {
+            "addr": "0x6ab410",
+            "name": "loc_6AB410"
+          }
+        ]
+      },
+      {
+        "addr": "6ab980",
+        "instruction": "BL .__stack_chk_fail",
+        "label": "loc_6AB980",
+        "refs": [
+          {
+            "addr": "0x78a4d0",
+            "name": ".__stack_chk_fail"
+          }
+        ]
+      }
+    ],
+    "stack_frame": [
+      {
+        "name": "var_40",
+        "offset": "0x0",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_38",
+        "offset": "0x8",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_30",
+        "offset": "0x10",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_28",
+        "offset": "0x18",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_20",
+        "offset": "0x20",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_18",
+        "offset": "0x28",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_10",
+        "offset": "0x30",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_8",
+        "offset": "0x38",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s0",
+        "offset": "0x40",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s10",
+        "offset": "0x50",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s20",
+        "offset": "0x60",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s30",
+        "offset": "0x70",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s40",
+        "offset": "0x80",
+        "size": "0x8",
+        "type": "_QWORD"
+      },
+      {
+        "name": "var_s50",
+        "offset": "0x90",
+        "size": "0x8",
+        "type": "_QWORD"
+      }
+    ],
+    "return_type": "__int64",
+    "arguments": [
+      {
+        "name": "arg0",
+        "type": "__int64"
+      },
+      {
+        "name": "arg1",
+        "type": "__int64"
+      },
+      {
+        "name": "arg2",
+        "type": "__int64"
+      }
+    ]
+  },
+  "instruction_count": 11,
+  "total_instructions": 361,
+  "cursor": {
+    "done": true
+  }
+}

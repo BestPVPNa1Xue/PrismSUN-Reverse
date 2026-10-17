@@ -1,0 +1,63 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x22f96c\",\"code\":\"__int64 __fastcall sub_22F96C(__int64 a1, __int64 a2)\\n{\\n  bool v2; // zf\\n\\n  v2 = *(_DWORD *)sub_22F96C >> 26 == 5 || (*(_DWORD *)sub_22F96C & 0xFFE00000) == -736100352; /*0x22f990*/\\n  if ( v2 /*0x22fa4c*/\\n    || loc_22F970 >> 10 == 3508160\\n    || (loc_22F974 & 0xFFFFFC00) == 0xD61F0000\\n    || *(_DWORD *)sub_1C2F24 >> 26 == 5\\n    || (*(_DWORD *)sub_1C2F24 & 0xFFE00000) == 0xD4200000\\n    || (loc_1C2F28 & 0xFFFFFC00) == 0xD61F0000\\n    || (loc_1C2F2C & 0xFFFFFC00) == 0xD61F0000\\n    || a2 != a1\\n    && (*(_DWORD *)sub_1C3514 >> 26 == 5\\n     || (*(_DWORD *)sub_1C3514 & 0xFFE00000) == 0xD4200000\\n     || (loc_1C3518 & 0xFFFFFC00) == 0xD61F0000\\n     || (loc_1C351C & 0xFFFFFC00) == 0xD61F0000) )\\n  {\\n    abort(); /*0x22fa8c*/\\n  }\\n  return sub_22FB48();\\n}\",\"refs\":[{\"addr\":\"0x22f96c\",\"name\":\"sub_22F96C\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x22f970\",\"name\":\"loc_22F970\"},{\"addr\":\"0x22f974\",\"name\":\"loc_22F974\"},{\"addr\":\"0x1c2f24\",\"name\":\"sub_1C2F24\"},{\"addr\":\"0x1c2f28\",\"name\":\"loc_1C2F28\"},{\"addr\":\"0x1c2f2c\",\"name\":\"loc_1C2F2C\"},{\"addr\":\"0x1c3514\",\"name\":\"sub_1C3514\"},{\"addr\":\"0x1c3518\",\"name\":\"loc_1C3518\"},{\"addr\":\"0x1c351c\",\"name\":\"loc_1C351C\"},{\"addr\":\"0x22fb48\",\"name\":\"sub_22FB48\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x22f96c",
+      "code": "__int64 __fastcall sub_22F96C(__int64 a1, __int64 a2)\n{\n  bool v2; // zf\n\n  v2 = *(_DWORD *)sub_22F96C >> 26 == 5 || (*(_DWORD *)sub_22F96C & 0xFFE00000) == -736100352; /*0x22f990*/\n  if ( v2 /*0x22fa4c*/\n    || loc_22F970 >> 10 == 3508160\n    || (loc_22F974 & 0xFFFFFC00) == 0xD61F0000\n    || *(_DWORD *)sub_1C2F24 >> 26 == 5\n    || (*(_DWORD *)sub_1C2F24 & 0xFFE00000) == 0xD4200000\n    || (loc_1C2F28 & 0xFFFFFC00) == 0xD61F0000\n    || (loc_1C2F2C & 0xFFFFFC00) == 0xD61F0000\n    || a2 != a1\n    && (*(_DWORD *)sub_1C3514 >> 26 == 5\n     || (*(_DWORD *)sub_1C3514 & 0xFFE00000) == 0xD4200000\n     || (loc_1C3518 & 0xFFFFFC00) == 0xD61F0000\n     || (loc_1C351C & 0xFFFFFC00) == 0xD61F0000) )\n  {\n    abort(); /*0x22fa8c*/\n  }\n  return sub_22FB48();\n}",
+      "refs": [
+        {
+          "addr": "0x22f96c",
+          "name": "sub_22F96C"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x22f970",
+          "name": "loc_22F970"
+        },
+        {
+          "addr": "0x22f974",
+          "name": "loc_22F974"
+        },
+        {
+          "addr": "0x1c2f24",
+          "name": "sub_1C2F24"
+        },
+        {
+          "addr": "0x1c2f28",
+          "name": "loc_1C2F28"
+        },
+        {
+          "addr": "0x1c2f2c",
+          "name": "loc_1C2F2C"
+        },
+        {
+          "addr": "0x1c3514",
+          "name": "sub_1C3514"
+        },
+        {
+          "addr": "0x1c3518",
+          "name": "loc_1C3518"
+        },
+        {
+          "addr": "0x1c351c",
+          "name": "loc_1C351C"
+        },
+        {
+          "addr": "0x22fb48",
+          "name": "sub_22FB48"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

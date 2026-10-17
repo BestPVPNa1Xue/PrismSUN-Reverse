@@ -1,0 +1,1542 @@
+[
+  {
+    "wrapper": "0x2bc258",
+    "stop": "captured_decoder_entry",
+    "steps": 754
+  },
+  {
+    "wrapper": "0x2bcec4",
+    "stop": "captured_decoder_entry",
+    "steps": 1008
+  },
+  {
+    "wrapper": "0x2bd4f4",
+    "stop": "captured_decoder_entry",
+    "steps": 901
+  },
+  {
+    "wrapper": "0x2bdaec",
+    "stop": "captured_decoder_entry",
+    "steps": 804
+  },
+  {
+    "wrapper": "0x2be050",
+    "stop": "captured_decoder_entry",
+    "steps": 968
+  },
+  {
+    "wrapper": "0x2be660",
+    "stop": "captured_decoder_entry",
+    "steps": 610
+  },
+  {
+    "wrapper": "0x300b80",
+    "stop": "captured_decoder_entry",
+    "steps": 963
+  },
+  {
+    "wrapper": "0x3015d4",
+    "stop": "captured_decoder_entry",
+    "steps": 707
+  },
+  {
+    "wrapper": "0x301a94",
+    "stop": "captured_decoder_entry",
+    "steps": 937
+  },
+  {
+    "wrapper": "0x301fdc",
+    "stop": "captured_decoder_entry",
+    "steps": 732
+  },
+  {
+    "wrapper": "0x3024a4",
+    "stop": "captured_decoder_entry",
+    "steps": 1144
+  },
+  {
+    "wrapper": "0x302ad0",
+    "stop": "captured_decoder_entry",
+    "steps": 567
+  },
+  {
+    "wrapper": "0x302ef8",
+    "stop": "captured_decoder_entry",
+    "steps": 887
+  },
+  {
+    "wrapper": "0x3034d0",
+    "stop": "captured_decoder_entry",
+    "steps": 719
+  },
+  {
+    "wrapper": "0x3039a8",
+    "stop": "captured_decoder_entry",
+    "steps": 724
+  },
+  {
+    "wrapper": "0x303eec",
+    "stop": "captured_decoder_entry",
+    "steps": 746
+  },
+  {
+    "wrapper": "0x304464",
+    "stop": "captured_decoder_entry",
+    "steps": 943
+  },
+  {
+    "wrapper": "0x304a30",
+    "stop": "captured_decoder_entry",
+    "steps": 768
+  },
+  {
+    "wrapper": "0x304f18",
+    "stop": "captured_decoder_entry",
+    "steps": 250
+  },
+  {
+    "wrapper": "0x3194f4",
+    "stop": "captured_decoder_entry",
+    "steps": 1005
+  },
+  {
+    "wrapper": "0x319b00",
+    "stop": "captured_decoder_entry",
+    "steps": 317
+  },
+  {
+    "wrapper": "0x319fa4",
+    "stop": "captured_decoder_entry",
+    "steps": 722
+  },
+  {
+    "wrapper": "0x31a480",
+    "stop": "captured_decoder_entry",
+    "steps": 514
+  },
+  {
+    "wrapper": "0x31a924",
+    "stop": "captured_decoder_entry",
+    "steps": 220
+  },
+  {
+    "wrapper": "0x31ad44",
+    "stop": "captured_decoder_entry",
+    "steps": 641
+  },
+  {
+    "wrapper": "0x345874",
+    "stop": "captured_decoder_entry",
+    "steps": 759
+  },
+  {
+    "wrapper": "0x345de4",
+    "stop": "captured_decoder_entry",
+    "steps": 356
+  },
+  {
+    "wrapper": "0x346304",
+    "stop": "captured_decoder_entry",
+    "steps": 134
+  },
+  {
+    "wrapper": "0x346648",
+    "stop": "captured_decoder_entry",
+    "steps": 827
+  },
+  {
+    "wrapper": "0x346b9c",
+    "stop": "captured_decoder_entry",
+    "steps": 1287
+  },
+  {
+    "wrapper": "0x347238",
+    "stop": "captured_decoder_entry",
+    "steps": 637
+  },
+  {
+    "wrapper": "0x347714",
+    "stop": "captured_decoder_entry",
+    "steps": 769
+  },
+  {
+    "wrapper": "0x347c00",
+    "stop": "captured_decoder_entry",
+    "steps": 1109
+  },
+  {
+    "wrapper": "0x34821c",
+    "stop": "captured_decoder_entry",
+    "steps": 782
+  },
+  {
+    "wrapper": "0x34875c",
+    "stop": "captured_decoder_entry",
+    "steps": 265
+  },
+  {
+    "wrapper": "0x348be4",
+    "stop": "captured_decoder_entry",
+    "steps": 551
+  },
+  {
+    "wrapper": "0x3490a4",
+    "stop": "captured_decoder_entry",
+    "steps": 1269
+  },
+  {
+    "wrapper": "0x349710",
+    "stop": "captured_decoder_entry",
+    "steps": 291
+  },
+  {
+    "wrapper": "0x349bd0",
+    "stop": "captured_decoder_entry",
+    "steps": 765
+  },
+  {
+    "wrapper": "0x34a14c",
+    "stop": "captured_decoder_entry",
+    "steps": 285
+  },
+  {
+    "wrapper": "0x34a658",
+    "stop": "captured_decoder_entry",
+    "steps": 530
+  },
+  {
+    "wrapper": "0x372a1c",
+    "stop": "captured_decoder_entry",
+    "steps": 727
+  },
+  {
+    "wrapper": "0x372f68",
+    "stop": "captured_decoder_entry",
+    "steps": 627
+  },
+  {
+    "wrapper": "0x373424",
+    "stop": "captured_decoder_entry",
+    "steps": 552
+  },
+  {
+    "wrapper": "0x3738e4",
+    "stop": "captured_decoder_entry",
+    "steps": 1117
+  },
+  {
+    "wrapper": "0x373ee8",
+    "stop": "captured_decoder_entry",
+    "steps": 279
+  },
+  {
+    "wrapper": "0x37440c",
+    "stop": "captured_decoder_entry",
+    "steps": 389
+  },
+  {
+    "wrapper": "0x374954",
+    "stop": "captured_decoder_entry",
+    "steps": 190
+  },
+  {
+    "wrapper": "0x374cbc",
+    "stop": "captured_decoder_entry",
+    "steps": 837
+  },
+  {
+    "wrapper": "0x375208",
+    "stop": "captured_decoder_entry",
+    "steps": 390
+  },
+  {
+    "wrapper": "0x375738",
+    "stop": "captured_decoder_entry",
+    "steps": 662
+  },
+  {
+    "wrapper": "0x375c04",
+    "stop": "captured_decoder_entry",
+    "steps": 1052
+  },
+  {
+    "wrapper": "0x376188",
+    "stop": "captured_decoder_entry",
+    "steps": 841
+  },
+  {
+    "wrapper": "0x3766e8",
+    "stop": "captured_decoder_entry",
+    "steps": 723
+  },
+  {
+    "wrapper": "0x376be4",
+    "stop": "captured_decoder_entry",
+    "steps": 1157
+  },
+  {
+    "wrapper": "0x377230",
+    "stop": "captured_decoder_entry",
+    "steps": 1068
+  },
+  {
+    "wrapper": "0x377818",
+    "stop": "captured_decoder_entry",
+    "steps": 449
+  },
+  {
+    "wrapper": "0x3ac608",
+    "stop": "captured_decoder_entry",
+    "steps": 427
+  },
+  {
+    "wrapper": "0x3acbd8",
+    "stop": "captured_decoder_entry",
+    "steps": 226
+  },
+  {
+    "wrapper": "0x3ad11c",
+    "stop": "captured_decoder_entry",
+    "steps": 1085
+  },
+  {
+    "wrapper": "0x3ad6b4",
+    "stop": "captured_decoder_entry",
+    "steps": 740
+  },
+  {
+    "wrapper": "0x3adc24",
+    "stop": "captured_decoder_entry",
+    "steps": 731
+  },
+  {
+    "wrapper": "0x3ae168",
+    "stop": "captured_decoder_entry",
+    "steps": 843
+  },
+  {
+    "wrapper": "0x3ae72c",
+    "stop": "captured_decoder_entry",
+    "steps": 256
+  },
+  {
+    "wrapper": "0x3aeb94",
+    "stop": "captured_decoder_entry",
+    "steps": 529
+  },
+  {
+    "wrapper": "0x3aefbc",
+    "stop": "captured_decoder_entry",
+    "steps": 1317
+  },
+  {
+    "wrapper": "0x3af620",
+    "stop": "captured_decoder_entry",
+    "steps": 926
+  },
+  {
+    "wrapper": "0x3afb6c",
+    "stop": "captured_decoder_entry",
+    "steps": 1133
+  },
+  {
+    "wrapper": "0x3b015c",
+    "stop": "captured_decoder_entry",
+    "steps": 423
+  },
+  {
+    "wrapper": "0x3b05b0",
+    "stop": "captured_decoder_entry",
+    "steps": 1041
+  },
+  {
+    "wrapper": "0x3b0c40",
+    "stop": "captured_decoder_entry",
+    "steps": 1257
+  },
+  {
+    "wrapper": "0x3b12dc",
+    "stop": "captured_decoder_entry",
+    "steps": 1058
+  },
+  {
+    "wrapper": "0x3b1914",
+    "stop": "captured_decoder_entry",
+    "steps": 784
+  },
+  {
+    "wrapper": "0x3b1df8",
+    "stop": "captured_decoder_entry",
+    "steps": 903
+  },
+  {
+    "wrapper": "0x3b2378",
+    "stop": "captured_decoder_entry",
+    "steps": 235
+  },
+  {
+    "wrapper": "0x3b27dc",
+    "stop": "captured_decoder_entry",
+    "steps": 1072
+  },
+  {
+    "wrapper": "0x3b2dc4",
+    "stop": "captured_decoder_entry",
+    "steps": 933
+  },
+  {
+    "wrapper": "0x3e3334",
+    "stop": "captured_decoder_entry",
+    "steps": 1024
+  },
+  {
+    "wrapper": "0x3e38f4",
+    "stop": "captured_decoder_entry",
+    "steps": 301
+  },
+  {
+    "wrapper": "0x3e3d1c",
+    "stop": "captured_decoder_entry",
+    "steps": 1214
+  },
+  {
+    "wrapper": "0x3e4354",
+    "stop": "captured_decoder_entry",
+    "steps": 665
+  },
+  {
+    "wrapper": "0x3e4818",
+    "stop": "captured_decoder_entry",
+    "steps": 104
+  },
+  {
+    "wrapper": "0x3e4b7c",
+    "stop": "captured_decoder_entry",
+    "steps": 169
+  },
+  {
+    "wrapper": "0x3e5098",
+    "stop": "captured_decoder_entry",
+    "steps": 1009
+  },
+  {
+    "wrapper": "0x3e5698",
+    "stop": "captured_decoder_entry",
+    "steps": 1094
+  },
+  {
+    "wrapper": "0x3e5c60",
+    "stop": "captured_decoder_entry",
+    "steps": 300
+  },
+  {
+    "wrapper": "0x3e6174",
+    "stop": "captured_decoder_entry",
+    "steps": 547
+  },
+  {
+    "wrapper": "0x3e65dc",
+    "stop": "captured_decoder_entry",
+    "steps": 921
+  },
+  {
+    "wrapper": "0x42f8b8",
+    "stop": "captured_decoder_entry",
+    "steps": 134
+  },
+  {
+    "wrapper": "0x42fca8",
+    "stop": "captured_decoder_entry",
+    "steps": 1462
+  },
+  {
+    "wrapper": "0x431308",
+    "stop": "captured_decoder_entry",
+    "steps": 430
+  },
+  {
+    "wrapper": "0x43185c",
+    "stop": "captured_decoder_entry",
+    "steps": 547
+  },
+  {
+    "wrapper": "0x431c9c",
+    "stop": "captured_decoder_entry",
+    "steps": 657
+  },
+  {
+    "wrapper": "0x4321f8",
+    "stop": "captured_decoder_entry",
+    "steps": 610
+  },
+  {
+    "wrapper": "0x436b00",
+    "stop": "captured_decoder_entry",
+    "steps": 435
+  },
+  {
+    "wrapper": "0x4377dc",
+    "stop": "captured_decoder_entry",
+    "steps": 1341
+  },
+  {
+    "wrapper": "0x437e60",
+    "stop": "captured_decoder_entry",
+    "steps": 160
+  },
+  {
+    "wrapper": "0x43838c",
+    "stop": "captured_decoder_entry",
+    "steps": 612
+  },
+  {
+    "wrapper": "0x438844",
+    "stop": "captured_decoder_entry",
+    "steps": 230
+  },
+  {
+    "wrapper": "0x439b3c",
+    "stop": "captured_decoder_entry",
+    "steps": 705
+  },
+  {
+    "wrapper": "0x451294",
+    "stop": "captured_decoder_entry",
+    "steps": 942
+  },
+  {
+    "wrapper": "0x48eb08",
+    "stop": "captured_decoder_entry",
+    "steps": 1070
+  },
+  {
+    "wrapper": "0x493298",
+    "stop": "captured_decoder_entry",
+    "steps": 819
+  },
+  {
+    "wrapper": "0x498ef8",
+    "stop": "captured_decoder_entry",
+    "steps": 614
+  },
+  {
+    "wrapper": "0x49a410",
+    "stop": "captured_decoder_entry",
+    "steps": 951
+  },
+  {
+    "wrapper": "0x49be54",
+    "stop": "captured_decoder_entry",
+    "steps": 706
+  },
+  {
+    "wrapper": "0x4a1fe4",
+    "stop": "captured_decoder_entry",
+    "steps": 1030
+  },
+  {
+    "wrapper": "0x4a8ef8",
+    "stop": "captured_decoder_entry",
+    "steps": 549
+  },
+  {
+    "wrapper": "0x4a933c",
+    "stop": "captured_decoder_entry",
+    "steps": 275
+  },
+  {
+    "wrapper": "0x4a98ec",
+    "stop": "captured_decoder_entry",
+    "steps": 749
+  },
+  {
+    "wrapper": "0x4b4c14",
+    "stop": "captured_decoder_entry",
+    "steps": 992
+  },
+  {
+    "wrapper": "0x4b51f4",
+    "stop": "captured_decoder_entry",
+    "steps": 230
+  },
+  {
+    "wrapper": "0x4b5670",
+    "stop": "captured_decoder_entry",
+    "steps": 380
+  },
+  {
+    "wrapper": "0x4b5bf8",
+    "stop": "captured_decoder_entry",
+    "steps": 144
+  },
+  {
+    "wrapper": "0x4b5f48",
+    "stop": "captured_decoder_entry",
+    "steps": 392
+  },
+  {
+    "wrapper": "0x4c3254",
+    "stop": "captured_decoder_entry",
+    "steps": 216
+  },
+  {
+    "wrapper": "0x54e1d0",
+    "stop": "captured_decoder_entry",
+    "steps": 135
+  },
+  {
+    "wrapper": "0x54e678",
+    "stop": "captured_decoder_entry",
+    "steps": 791
+  },
+  {
+    "wrapper": "0x54ebbc",
+    "stop": "captured_decoder_entry",
+    "steps": 399
+  },
+  {
+    "wrapper": "0x56a738",
+    "stop": "captured_decoder_entry",
+    "steps": 939
+  },
+  {
+    "wrapper": "0x56ad2c",
+    "stop": "captured_decoder_entry",
+    "steps": 985
+  },
+  {
+    "wrapper": "0x588910",
+    "stop": "captured_decoder_entry",
+    "steps": 1024
+  },
+  {
+    "wrapper": "0x588f04",
+    "stop": "captured_decoder_entry",
+    "steps": 686
+  },
+  {
+    "wrapper": "0x5893f4",
+    "stop": "captured_decoder_entry",
+    "steps": 1075
+  },
+  {
+    "wrapper": "0x5b5284",
+    "stop": "captured_decoder_entry",
+    "steps": 847
+  },
+  {
+    "wrapper": "0x5b5800",
+    "stop": "captured_decoder_entry",
+    "steps": 281
+  },
+  {
+    "wrapper": "0x5b5cf8",
+    "stop": "captured_decoder_entry",
+    "steps": 814
+  },
+  {
+    "wrapper": "0x5b624c",
+    "stop": "captured_decoder_entry",
+    "steps": 994
+  },
+  {
+    "wrapper": "0x5b6848",
+    "stop": "captured_decoder_entry",
+    "steps": 1187
+  },
+  {
+    "wrapper": "0x5c433c",
+    "stop": "captured_decoder_entry",
+    "steps": 728
+  },
+  {
+    "wrapper": "0x5c4824",
+    "stop": "captured_decoder_entry",
+    "steps": 811
+  },
+  {
+    "wrapper": "0x5c4d6c",
+    "stop": "captured_decoder_entry",
+    "steps": 146
+  },
+  {
+    "wrapper": "0x5f4d50",
+    "stop": "captured_decoder_entry",
+    "steps": 1205
+  },
+  {
+    "wrapper": "0x5f53c8",
+    "stop": "captured_decoder_entry",
+    "steps": 371
+  },
+  {
+    "wrapper": "0x5f5900",
+    "stop": "captured_decoder_entry",
+    "steps": 945
+  },
+  {
+    "wrapper": "0x5f5eac",
+    "stop": "captured_decoder_entry",
+    "steps": 631
+  },
+  {
+    "wrapper": "0x5f895c",
+    "stop": "captured_decoder_entry",
+    "steps": 124
+  },
+  {
+    "wrapper": "0x5f8d44",
+    "stop": "captured_decoder_entry",
+    "steps": 414
+  },
+  {
+    "wrapper": "0x600c88",
+    "stop": "captured_decoder_entry",
+    "steps": 611
+  },
+  {
+    "wrapper": "0x634990",
+    "stop": "captured_decoder_entry",
+    "steps": 807
+  },
+  {
+    "wrapper": "0x6530e8",
+    "stop": "captured_decoder_entry",
+    "steps": 958
+  },
+  {
+    "wrapper": "0x670c90",
+    "stop": "captured_decoder_entry",
+    "steps": 651
+  },
+  {
+    "wrapper": "0x68f2b8",
+    "stop": "captured_decoder_entry",
+    "steps": 519
+  },
+  {
+    "wrapper": "0x6adcc8",
+    "stop": "captured_decoder_entry",
+    "steps": 440
+  },
+  {
+    "wrapper": "0x6b2094",
+    "stop": "captured_decoder_entry",
+    "steps": 1064
+  },
+  {
+    "wrapper": "0x6d2bc0",
+    "stop": "captured_decoder_entry",
+    "steps": 783
+  },
+  {
+    "wrapper": "0x6d61f8",
+    "stop": "captured_decoder_entry",
+    "steps": 931
+  },
+  {
+    "wrapper": "0x6d8c00",
+    "stop": "captured_decoder_entry",
+    "steps": 978
+  },
+  {
+    "wrapper": "0x6f7844",
+    "stop": "captured_decoder_entry",
+    "steps": 215
+  },
+  {
+    "wrapper": "0x717e70",
+    "stop": "captured_decoder_entry",
+    "steps": 386
+  },
+  {
+    "wrapper": "0x71db58",
+    "stop": "captured_decoder_entry",
+    "steps": 697
+  },
+  {
+    "wrapper": "0x71f338",
+    "stop": "captured_decoder_entry",
+    "steps": 964
+  },
+  {
+    "wrapper": "0x720b90",
+    "stop": "captured_decoder_entry",
+    "steps": 149
+  },
+  {
+    "wrapper": "0x73fdb4",
+    "stop": "captured_decoder_entry",
+    "steps": 175
+  },
+  {
+    "wrapper": "0x2ac2e0",
+    "stop": "captured_decoder_entry",
+    "steps": 889
+  },
+  {
+    "wrapper": "0x2ad244",
+    "stop": "captured_decoder_entry",
+    "steps": 1759
+  },
+  {
+    "wrapper": "0x2ae700",
+    "stop": "captured_decoder_entry",
+    "steps": 1529
+  },
+  {
+    "wrapper": "0x2afb5c",
+    "stop": "captured_decoder_entry",
+    "steps": 852
+  },
+  {
+    "wrapper": "0x2b0c20",
+    "stop": "captured_decoder_entry",
+    "steps": 1509
+  },
+  {
+    "wrapper": "0x2b1e5c",
+    "stop": "captured_decoder_entry",
+    "steps": 730
+  },
+  {
+    "wrapper": "0x2dc9d8",
+    "stop": "captured_decoder_entry",
+    "steps": 1547
+  },
+  {
+    "wrapper": "0x2de92c",
+    "stop": "captured_decoder_entry",
+    "steps": 1234
+  },
+  {
+    "wrapper": "0x2dfc18",
+    "stop": "captured_decoder_entry",
+    "steps": 1554
+  },
+  {
+    "wrapper": "0x2e2270",
+    "stop": "captured_decoder_entry",
+    "steps": 1134
+  },
+  {
+    "wrapper": "0x2e3ae8",
+    "stop": "captured_decoder_entry",
+    "steps": 1571
+  },
+  {
+    "wrapper": "0x2e6cd0",
+    "stop": "captured_decoder_entry",
+    "steps": 1031
+  },
+  {
+    "wrapper": "0x2e8134",
+    "stop": "captured_decoder_entry",
+    "steps": 1481
+  },
+  {
+    "wrapper": "0x2eac8c",
+    "stop": "captured_decoder_entry",
+    "steps": 747
+  },
+  {
+    "wrapper": "0x2ec9dc",
+    "stop": "captured_decoder_entry",
+    "steps": 809
+  },
+  {
+    "wrapper": "0x2ed920",
+    "stop": "captured_decoder_entry",
+    "steps": 816
+  },
+  {
+    "wrapper": "0x2eeec0",
+    "stop": "captured_decoder_entry",
+    "steps": 1203
+  },
+  {
+    "wrapper": "0x2efe44",
+    "stop": "captured_decoder_entry",
+    "steps": 1353
+  },
+  {
+    "wrapper": "0x2f0cec",
+    "stop": "captured_decoder_entry",
+    "steps": 309
+  },
+  {
+    "wrapper": "0x309b14",
+    "stop": "captured_decoder_entry",
+    "steps": 1374
+  },
+  {
+    "wrapper": "0x30ae34",
+    "stop": "captured_decoder_entry",
+    "steps": 734
+  },
+  {
+    "wrapper": "0x30cb5c",
+    "stop": "captured_decoder_entry",
+    "steps": 1272
+  },
+  {
+    "wrapper": "0x30d99c",
+    "stop": "captured_decoder_entry",
+    "steps": 928
+  },
+  {
+    "wrapper": "0x30ffe0",
+    "stop": "captured_decoder_entry",
+    "steps": 659
+  },
+  {
+    "wrapper": "0x310b88",
+    "stop": "captured_decoder_entry",
+    "steps": 1410
+  },
+  {
+    "wrapper": "0x31da9c",
+    "stop": "captured_decoder_entry",
+    "steps": 1475
+  },
+  {
+    "wrapper": "0x31efe8",
+    "stop": "captured_decoder_entry",
+    "steps": 939
+  },
+  {
+    "wrapper": "0x3204a0",
+    "stop": "captured_decoder_entry",
+    "steps": 874
+  },
+  {
+    "wrapper": "0x3220c4",
+    "stop": "captured_decoder_entry",
+    "steps": 917
+  },
+  {
+    "wrapper": "0x323f74",
+    "stop": "captured_decoder_entry",
+    "steps": 1925
+  },
+  {
+    "wrapper": "0x326060",
+    "stop": "captured_decoder_entry",
+    "steps": 1244
+  },
+  {
+    "wrapper": "0x327444",
+    "stop": "captured_decoder_entry",
+    "steps": 879
+  },
+  {
+    "wrapper": "0x3288e0",
+    "stop": "captured_decoder_entry",
+    "steps": 1506
+  },
+  {
+    "wrapper": "0x329a3c",
+    "stop": "captured_decoder_entry",
+    "steps": 1472
+  },
+  {
+    "wrapper": "0x32a808",
+    "stop": "captured_decoder_entry",
+    "steps": 681
+  },
+  {
+    "wrapper": "0x32be00",
+    "stop": "captured_decoder_entry",
+    "steps": 631
+  },
+  {
+    "wrapper": "0x32cb0c",
+    "stop": "captured_decoder_entry",
+    "steps": 1370
+  },
+  {
+    "wrapper": "0x32d77c",
+    "stop": "captured_decoder_entry",
+    "steps": 952
+  },
+  {
+    "wrapper": "0x32fe2c",
+    "stop": "captured_decoder_entry",
+    "steps": 1115
+  },
+  {
+    "wrapper": "0x330b8c",
+    "stop": "captured_decoder_entry",
+    "steps": 737
+  },
+  {
+    "wrapper": "0x331b2c",
+    "stop": "captured_decoder_entry",
+    "steps": 1222
+  },
+  {
+    "wrapper": "0x34d100",
+    "stop": "captured_decoder_entry",
+    "steps": 1473
+  },
+  {
+    "wrapper": "0x34e1c8",
+    "stop": "captured_decoder_entry",
+    "steps": 713
+  },
+  {
+    "wrapper": "0x34f51c",
+    "stop": "captured_decoder_entry",
+    "steps": 1057
+  },
+  {
+    "wrapper": "0x3509e0",
+    "stop": "captured_decoder_entry",
+    "steps": 1635
+  },
+  {
+    "wrapper": "0x3526d0",
+    "stop": "captured_decoder_entry",
+    "steps": 685
+  },
+  {
+    "wrapper": "0x353bd8",
+    "stop": "captured_decoder_entry",
+    "steps": 1174
+  },
+  {
+    "wrapper": "0x355044",
+    "stop": "captured_decoder_entry",
+    "steps": 351
+  },
+  {
+    "wrapper": "0x356524",
+    "stop": "captured_decoder_entry",
+    "steps": 892
+  },
+  {
+    "wrapper": "0x357910",
+    "stop": "captured_decoder_entry",
+    "steps": 496
+  },
+  {
+    "wrapper": "0x358774",
+    "stop": "captured_decoder_entry",
+    "steps": 1245
+  },
+  {
+    "wrapper": "0x359da4",
+    "stop": "captured_decoder_entry",
+    "steps": 1122
+  },
+  {
+    "wrapper": "0x35a860",
+    "stop": "captured_decoder_entry",
+    "steps": 1276
+  },
+  {
+    "wrapper": "0x35b660",
+    "stop": "captured_decoder_entry",
+    "steps": 1118
+  },
+  {
+    "wrapper": "0x35d46c",
+    "stop": "captured_decoder_entry",
+    "steps": 1610
+  },
+  {
+    "wrapper": "0x35e968",
+    "stop": "captured_decoder_entry",
+    "steps": 1522
+  },
+  {
+    "wrapper": "0x35fdb4",
+    "stop": "captured_decoder_entry",
+    "steps": 554
+  },
+  {
+    "wrapper": "0x37942c",
+    "stop": "captured_decoder_entry",
+    "steps": 1186
+  },
+  {
+    "wrapper": "0x37a784",
+    "stop": "captured_decoder_entry",
+    "steps": 605
+  },
+  {
+    "wrapper": "0x37b510",
+    "stop": "captured_decoder_entry",
+    "steps": 1168
+  },
+  {
+    "wrapper": "0x37c42c",
+    "stop": "captured_decoder_entry",
+    "steps": 1428
+  },
+  {
+    "wrapper": "0x37d7f4",
+    "stop": "captured_decoder_entry",
+    "steps": 1100
+  },
+  {
+    "wrapper": "0x37e7b8",
+    "stop": "captured_decoder_entry",
+    "steps": 1321
+  },
+  {
+    "wrapper": "0x37f7c8",
+    "stop": "captured_decoder_entry",
+    "steps": 670
+  },
+  {
+    "wrapper": "0x382270",
+    "stop": "captured_decoder_entry",
+    "steps": 1177
+  },
+  {
+    "wrapper": "0x383e94",
+    "stop": "captured_decoder_entry",
+    "steps": 1741
+  },
+  {
+    "wrapper": "0x3851b4",
+    "stop": "captured_decoder_entry",
+    "steps": 1586
+  },
+  {
+    "wrapper": "0x3876b8",
+    "stop": "captured_decoder_entry",
+    "steps": 1640
+  },
+  {
+    "wrapper": "0x3886cc",
+    "stop": "captured_decoder_entry",
+    "steps": 1161
+  },
+  {
+    "wrapper": "0x389b74",
+    "stop": "captured_decoder_entry",
+    "steps": 1800
+  },
+  {
+    "wrapper": "0x38ae54",
+    "stop": "captured_decoder_entry",
+    "steps": 1772
+  },
+  {
+    "wrapper": "0x38c2c0",
+    "stop": "captured_decoder_entry",
+    "steps": 1424
+  },
+  {
+    "wrapper": "0x38dc58",
+    "stop": "captured_decoder_entry",
+    "steps": 1383
+  },
+  {
+    "wrapper": "0x38ea94",
+    "stop": "captured_decoder_entry",
+    "steps": 1428
+  },
+  {
+    "wrapper": "0x38fe24",
+    "stop": "captured_decoder_entry",
+    "steps": 901
+  },
+  {
+    "wrapper": "0x391f94",
+    "stop": "captured_decoder_entry",
+    "steps": 1158
+  },
+  {
+    "wrapper": "0x393db8",
+    "stop": "captured_decoder_entry",
+    "steps": 1641
+  },
+  {
+    "wrapper": "0x3b9bf0",
+    "stop": "captured_decoder_entry",
+    "steps": 1486
+  },
+  {
+    "wrapper": "0x3ba914",
+    "stop": "captured_decoder_entry",
+    "steps": 1059
+  },
+  {
+    "wrapper": "0x3bbacc",
+    "stop": "captured_decoder_entry",
+    "steps": 1866
+  },
+  {
+    "wrapper": "0x3bc928",
+    "stop": "captured_decoder_entry",
+    "steps": 726
+  },
+  {
+    "wrapper": "0x3bd76c",
+    "stop": "captured_decoder_entry",
+    "steps": 229
+  },
+  {
+    "wrapper": "0x3be518",
+    "stop": "captured_decoder_entry",
+    "steps": 250
+  },
+  {
+    "wrapper": "0x3bf29c",
+    "stop": "captured_decoder_entry",
+    "steps": 1309
+  },
+  {
+    "wrapper": "0x3c06f8",
+    "stop": "captured_decoder_entry",
+    "steps": 1149
+  },
+  {
+    "wrapper": "0x3c163c",
+    "stop": "captured_decoder_entry",
+    "steps": 776
+  },
+  {
+    "wrapper": "0x3c4344",
+    "stop": "captured_decoder_entry",
+    "steps": 622
+  },
+  {
+    "wrapper": "0x3c5158",
+    "stop": "captured_decoder_entry",
+    "steps": 1661
+  },
+  {
+    "wrapper": "0x40a42c",
+    "stop": "captured_decoder_entry",
+    "steps": 295
+  },
+  {
+    "wrapper": "0x40c354",
+    "stop": "captured_decoder_entry",
+    "steps": 1912
+  },
+  {
+    "wrapper": "0x412444",
+    "stop": "captured_decoder_entry",
+    "steps": 1164
+  },
+  {
+    "wrapper": "0x413448",
+    "stop": "captured_decoder_entry",
+    "steps": 1370
+  },
+  {
+    "wrapper": "0x41486c",
+    "stop": "captured_decoder_entry",
+    "steps": 1471
+  },
+  {
+    "wrapper": "0x4157a8",
+    "stop": "captured_decoder_entry",
+    "steps": 695
+  },
+  {
+    "wrapper": "0x417abc",
+    "stop": "captured_decoder_entry",
+    "steps": 555
+  },
+  {
+    "wrapper": "0x418fc4",
+    "stop": "captured_decoder_entry",
+    "steps": 2001
+  },
+  {
+    "wrapper": "0x419e4c",
+    "stop": "captured_decoder_entry",
+    "steps": 246
+  },
+  {
+    "wrapper": "0x41af28",
+    "stop": "captured_decoder_entry",
+    "steps": 656
+  },
+  {
+    "wrapper": "0x41bdd4",
+    "stop": "captured_decoder_entry",
+    "steps": 1041
+  },
+  {
+    "wrapper": "0x41f030",
+    "stop": "captured_decoder_entry",
+    "steps": 753
+  },
+  {
+    "wrapper": "0x44f838",
+    "stop": "captured_decoder_entry",
+    "steps": 1451
+  },
+  {
+    "wrapper": "0x46666c",
+    "stop": "captured_decoder_entry",
+    "steps": 1542
+  },
+  {
+    "wrapper": "0x4686a8",
+    "stop": "captured_decoder_entry",
+    "steps": 1027
+  },
+  {
+    "wrapper": "0x46c310",
+    "stop": "captured_decoder_entry",
+    "steps": 400
+  },
+  {
+    "wrapper": "0x46d488",
+    "stop": "captured_decoder_entry",
+    "steps": 1140
+  },
+  {
+    "wrapper": "0x4718e0",
+    "stop": "captured_decoder_entry",
+    "steps": 1305
+  },
+  {
+    "wrapper": "0x475660",
+    "stop": "captured_decoder_entry",
+    "steps": 588
+  },
+  {
+    "wrapper": "0x477514",
+    "stop": "captured_decoder_entry",
+    "steps": 741
+  },
+  {
+    "wrapper": "0x478f98",
+    "stop": "captured_decoder_entry",
+    "steps": 561
+  },
+  {
+    "wrapper": "0x47a0b0",
+    "stop": "captured_decoder_entry",
+    "steps": 838
+  },
+  {
+    "wrapper": "0x48d6f0",
+    "stop": "captured_decoder_entry",
+    "steps": 1650
+  },
+  {
+    "wrapper": "0x4920ec",
+    "stop": "captured_decoder_entry",
+    "steps": 824
+  },
+  {
+    "wrapper": "0x494830",
+    "stop": "captured_decoder_entry",
+    "steps": 1221
+  },
+  {
+    "wrapper": "0x495af4",
+    "stop": "captured_decoder_entry",
+    "steps": 1086
+  },
+  {
+    "wrapper": "0x496c50",
+    "stop": "captured_decoder_entry",
+    "steps": 751
+  },
+  {
+    "wrapper": "0x4c1cec",
+    "stop": "captured_decoder_entry",
+    "steps": 981
+  },
+  {
+    "wrapper": "0x4cddfc",
+    "stop": "captured_decoder_entry",
+    "steps": 173
+  },
+  {
+    "wrapper": "0x4cef24",
+    "stop": "captured_decoder_entry",
+    "steps": 1231
+  },
+  {
+    "wrapper": "0x4d007c",
+    "stop": "captured_decoder_entry",
+    "steps": 464
+  },
+  {
+    "wrapper": "0x4dcddc",
+    "stop": "captured_decoder_entry",
+    "steps": 977
+  },
+  {
+    "wrapper": "0x4deb74",
+    "stop": "captured_decoder_entry",
+    "steps": 1574
+  },
+  {
+    "wrapper": "0x573878",
+    "stop": "captured_decoder_entry",
+    "steps": 1464
+  },
+  {
+    "wrapper": "0x574568",
+    "stop": "captured_decoder_entry",
+    "steps": 735
+  },
+  {
+    "wrapper": "0x574f5c",
+    "stop": "captured_decoder_entry",
+    "steps": 1507
+  },
+  {
+    "wrapper": "0x5a938c",
+    "stop": "captured_decoder_entry",
+    "steps": 1629
+  },
+  {
+    "wrapper": "0x5aaba0",
+    "stop": "captured_decoder_entry",
+    "steps": 1029
+  },
+  {
+    "wrapper": "0x5ac544",
+    "stop": "captured_decoder_entry",
+    "steps": 1331
+  },
+  {
+    "wrapper": "0x5ada44",
+    "stop": "captured_decoder_entry",
+    "steps": 1410
+  },
+  {
+    "wrapper": "0x5af358",
+    "stop": "captured_decoder_entry",
+    "steps": 1851
+  },
+  {
+    "wrapper": "0x5b9674",
+    "stop": "captured_decoder_entry",
+    "steps": 1156
+  },
+  {
+    "wrapper": "0x5bb4ac",
+    "stop": "captured_decoder_entry",
+    "steps": 896
+  },
+  {
+    "wrapper": "0x5bc98c",
+    "stop": "captured_decoder_entry",
+    "steps": 712
+  },
+  {
+    "wrapper": "0x5cd914",
+    "stop": "captured_decoder_entry",
+    "steps": 1243
+  },
+  {
+    "wrapper": "0x5ce9c0",
+    "stop": "captured_decoder_entry",
+    "steps": 1193
+  },
+  {
+    "wrapper": "0x5d07e0",
+    "stop": "captured_decoder_entry",
+    "steps": 1564
+  },
+  {
+    "wrapper": "0x5d143c",
+    "stop": "captured_decoder_entry",
+    "steps": 928
+  },
+  {
+    "wrapper": "0x5d7e90",
+    "stop": "captured_decoder_entry",
+    "steps": 147
+  },
+  {
+    "wrapper": "0x5da398",
+    "stop": "captured_decoder_entry",
+    "steps": 908
+  },
+  {
+    "wrapper": "0x5ff604",
+    "stop": "captured_decoder_entry",
+    "steps": 912
+  },
+  {
+    "wrapper": "0x6332b0",
+    "stop": "captured_decoder_entry",
+    "steps": 963
+  },
+  {
+    "wrapper": "0x6518b4",
+    "stop": "captured_decoder_entry",
+    "steps": 1630
+  },
+  {
+    "wrapper": "0x66f700",
+    "stop": "captured_decoder_entry",
+    "steps": 1318
+  },
+  {
+    "wrapper": "0x68ddd8",
+    "stop": "captured_decoder_entry",
+    "steps": 579
+  },
+  {
+    "wrapper": "0x6ac664",
+    "stop": "captured_decoder_entry",
+    "steps": 889
+  },
+  {
+    "wrapper": "0x6afc4c",
+    "stop": "captured_decoder_entry",
+    "steps": 1791
+  },
+  {
+    "wrapper": "0x6d14d4",
+    "stop": "captured_decoder_entry",
+    "steps": 1682
+  },
+  {
+    "wrapper": "0x6d3f78",
+    "stop": "captured_decoder_entry",
+    "steps": 992
+  },
+  {
+    "wrapper": "0x6d7108",
+    "stop": "captured_decoder_entry",
+    "steps": 1088
+  },
+  {
+    "wrapper": "0x6f614c",
+    "stop": "captured_decoder_entry",
+    "steps": 758
+  },
+  {
+    "wrapper": "0x716a70",
+    "stop": "captured_decoder_entry",
+    "steps": 492
+  },
+  {
+    "wrapper": "0x719668",
+    "stop": "captured_decoder_entry",
+    "steps": 1289
+  },
+  {
+    "wrapper": "0x71a890",
+    "stop": "captured_decoder_entry",
+    "steps": 1029
+  },
+  {
+    "wrapper": "0x71b870",
+    "stop": "captured_decoder_entry",
+    "steps": 489
+  },
+  {
+    "wrapper": "0x73e618",
+    "stop": "captured_decoder_entry",
+    "steps": 1117
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "scope": "Accessibility enumeration, byte-exact snapshot hash and event state machine; semantic reconstruction, not original ABI",
+  "host_compiler": "g++.exe (Rev5, Built by MSYS2 project) 16.1.0",
+  "android_compiler": "Android (12027248, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "android_target": "aarch64-linux-android24",
+  "sources_and_outputs": [
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_core.cpp",
+      "size": 4926,
+      "sha256": "85bc79751a0c0cde91ff9036ccbf099131c288e65ac090b0534048498b5b3e98"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.cpp",
+      "size": 9788,
+      "sha256": "13182c9aff93be233ec752bd2bdd34a32ec30d90c042b0a5484f7bb08d8117b1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_monitor.cpp",
+      "size": 1788,
+      "sha256": "ae2b86fbad8b0511988230c4afa1321b976b6fc049b775f78ba49e3254dc0f20"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.cpp",
+      "size": 985,
+      "sha256": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_demo.cpp",
+      "size": 645,
+      "sha256": "f99adcf4d5f77b3539fab462473333bd222da006e3cd73f0e021ae15ee42ad54"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_core.hpp",
+      "size": 2249,
+      "sha256": "b23e3d6efaf39ce310348aa8fb5738815a3333860f5d15f77c324da46bfadcd6"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.hpp",
+      "size": 1575,
+      "sha256": "f6f5c59d3f9c0007b5794510e33b375c64aa17ef636f18266c1deed33bee5ed8"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_monitor.hpp",
+      "size": 851,
+      "sha256": "4e652087a745496898b3a2a93cc0af2989113394106c9b8a2e22ca144b42bb20"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.hpp",
+      "size": 932,
+      "sha256": "f8a98511c594f39c03e29161f403fa17ef23ff6ececf0a580297262b3f10b312"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\host\\accessibility_core.dll",
+      "size": 653098,
+      "sha256": "5e990538af9010c2dd84389e98225dc05c45f4463676a8c4cb98675d2705e29d"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\host\\accessibility_demo.exe",
+      "size": 2937873,
+      "sha256": "8f4d986f75a747bb50602d24f0d83588edec0e2b00a4a64763456b0d9c8e1a21"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\android-arm64\\libaccessibility_reconstruction.so",
+      "size": 606936,
+      "sha256": "09db3feb69bec14532a93984c99051655f3228f15659c71142f84fd4ca372e6e"
+    }
+  ]
+}

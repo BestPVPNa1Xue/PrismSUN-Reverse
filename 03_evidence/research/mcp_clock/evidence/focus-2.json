@@ -1,0 +1,1 @@
+{"result":[{"target":"0xf4f9c","resolved_addr":"0xf4f9c","direction":"to","xref_type":"any","data":[{"direction":"to","addr":"0xf4fc0","from":"0xf4fc0","to":"0xf4f9c","type":"data","fn":{"addr":"0xf4f9c","name":"sub_F4F9C","size":"0x194"}},{"direction":"to","addr":"0x78ee70","from":"0x78ee70","to":"0xf4f9c","type":"data","fn":null}],"next_offset":null,"total":2,"error":null}]}

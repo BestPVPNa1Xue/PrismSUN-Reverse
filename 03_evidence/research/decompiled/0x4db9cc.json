@@ -1,0 +1,78 @@
+{
+  "addr": "0x4db9cc",
+  "code": "__int64 __fastcall sub_4DB9CC(__int64 a1)\n{\n  __int64 v2; // x0\n  unsigned int v3; // w20\n  __int64 *v4; // x21\n  __int64 v5; // x0\n  unsigned int v6; // w19\n  __int64 v7; // x0\n  __int64 v8; // x0\n  __int64 v9; // x0\n  __int64 v10; // x0\n  __int64 result; // x0\n  _BYTE v12[32]; // [xsp-F0h] [xbp-110h] BYREF\n  __int64 (*v13)(void); // [xsp-D0h] [xbp-F0h]\n  _QWORD v14[4]; // [xsp-C0h] [xbp-E0h] BYREF\n  int v15; // [xsp-A0h] [xbp-C0h]\n  __int64 v16; // [xsp-90h] [xbp-B0h] BYREF\n  _BYTE v17[32]; // [xsp-70h] [xbp-90h] BYREF\n  __int64 v18; // [xsp-50h] [xbp-70h]\n  __int64 v19; // [xsp-40h] [xbp-60h] BYREF\n  __int64 v20; // [xsp-30h] [xbp-50h]\n  __int64 v21; // [xsp-20h] [xbp-40h]\n  _QWORD v22[4]; // [xsp-10h] [xbp-30h] BYREF\n  __int64 *v23; // [xsp+10h] [xbp-10h]\n  __int64 v24; // [xsp+18h] [xbp-8h]\n\n  v24 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x4db9f4*/\n  if ( *(_DWORD *)sub_4DB9CC >> 26 == 5 /*0x4dbccc*/\n    || *(_DWORD *)sub_4DB9CC >> 21 == 1697\n    || loc_4DB9D0 >> 10 == 3508160\n    || loc_4DB9D4 >> 10 == 3508160 )\n  {\n    _ReadStatusReg(TPIDR_EL0); /*0x4dbc40*/\n    sub_56BF90(); /*0x4dbc54*/\n  }\n  v23 = v22; /*0x4dba08*/\n  v22[3] = &v16; /*0x4dba44*/\n  v21 = a1; /*0x4dba74*/\n  v2 = sub_56BF20(&v19); /*0x4dba80*/\n  v20 = ((__int64 (__fastcall *)(__int64))loc_4DCDDC)(v2); /*0x4dba88*/\n  v18 = sub_2A06DC(v20, 0); /*0x4dba98*/\n  if ( v18 ) /*0x4dbaa8*/\n  {\n    v5 = sub_56BF24(v14); /*0x4dbb18*/\n    v14[2] = ((__int64 (__fastcall *)(__int64))loc_4DEB74)(v5); /*0x4dbb20*/\n    v13 = (__int64 (*)(void))sub_2A0DE8(v18); /*0x4dbb34*/\n    if ( v13 ) /*0x4dbb44*/\n    {\n      v8 = v13(); /*0x4dbbb8*/\n      v9 = sub_56BF88(v8, a1); /*0x4dbbc0*/\n      v10 = sub_56BF8C(v9); /*0x4dbbc4*/\n      v4 = v23; /*0x4dbbc8*/\n      *v23 = v10; /*0x4dbbcc*/\n    }\n    else\n    {\n      v6 = sub_2B2208(0xFA7u); /*0x4dbb54*/\n      sub_C7BE8(v12, &byte_34073); /*0x4dbb64*/\n      v7 = sub_4C546C(v6, (__int64)v12); /*0x4dbb70*/\n      v4 = v23; /*0x4dbb7c*/\n      *v23 = v7; /*0x4dbb80*/\n      sub_56BF28(v12); /*0x4dbb88*/\n    }\n    v15 = 1; /*0x4dbb90*/\n  }\n  else\n  {\n    v3 = sub_2B2208(0xFA6u); /*0x4dbabc*/\n    sub_C7BE8(v17, &byte_34073); /*0x4dbacc*/\n    v4 = v23; /*0x4dbad0*/\n    *v4 = sub_4C546C(v3, (__int64)v17); /*0x4dbae4*/\n    sub_74539C(v17); /*0x4dbaec*/\n    v15 = 1; /*0x4dbaf4*/\n  }\n  result = *v4; /*0x4dbbdc*/\n  _ReadStatusReg(TPIDR_EL0); /*0x4dbbe0*/\n  return result; /*0x4dbc10*/\n}",
+  "refs": [
+    {
+      "addr": "0x56bf90",
+      "name": "sub_56BF90"
+    },
+    {
+      "addr": "0x4db9cc",
+      "name": "sub_4DB9CC"
+    },
+    {
+      "addr": "0x4db9d0",
+      "name": "loc_4DB9D0"
+    },
+    {
+      "addr": "0x4db9d4",
+      "name": "loc_4DB9D4"
+    },
+    {
+      "addr": "0x56bf20",
+      "name": "sub_56BF20"
+    },
+    {
+      "addr": "0x4dcddc",
+      "name": "loc_4DCDDC"
+    },
+    {
+      "addr": "0x2a06dc",
+      "name": "sub_2A06DC"
+    },
+    {
+      "addr": "0x56bf24",
+      "name": "sub_56BF24"
+    },
+    {
+      "addr": "0x4deb74",
+      "name": "loc_4DEB74"
+    },
+    {
+      "addr": "0x2a0de8",
+      "name": "sub_2A0DE8"
+    },
+    {
+      "addr": "0x56bf88",
+      "name": "sub_56BF88"
+    },
+    {
+      "addr": "0x56bf8c",
+      "name": "sub_56BF8C"
+    },
+    {
+      "addr": "0x2b2208",
+      "name": "sub_2B2208"
+    },
+    {
+      "addr": "0xc7be8",
+      "name": "sub_C7BE8"
+    },
+    {
+      "addr": "0x34073",
+      "name": "byte_34073"
+    },
+    {
+      "addr": "0x4c546c",
+      "name": "sub_4C546C"
+    },
+    {
+      "addr": "0x56bf28",
+      "name": "sub_56BF28"
+    },
+    {
+      "addr": "0x74539c",
+      "name": "sub_74539C"
+    }
+  ]
+}

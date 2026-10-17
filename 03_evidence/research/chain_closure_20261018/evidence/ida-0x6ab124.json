@@ -1,0 +1,4 @@
+{
+  "addr": "0x6ab124",
+  "code": "__int64 __fastcall sub_6AB124(__int64 a1)\n{\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6ab138*/\n  _ReadStatusReg(TPIDR_EL0); /*0x6ab22c*/\n  return 1; /*0x6ab24c*/\n}"
+}

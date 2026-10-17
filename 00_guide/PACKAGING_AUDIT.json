@@ -1,0 +1,92 @@
+{
+  "research_input_files": 1569,
+  "research_archived_originals": 1560,
+  "research_excluded_files": 9,
+  "research_inventory_complete": true,
+  "original_copy_hashes_checked": true,
+  "original_sample_sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+  "app_source_files": 143,
+  "app_source_commit": "c7c2c4ab600e32df694cb386cbe56925b370334e",
+  "app_source_matches_release_zip": true,
+  "quoted_cpp_includes_resolved": 49,
+  "report_hyperlinks_rewritten": 238,
+  "historical_unresolved_links_preserved_in_audit": 8,
+  "historical_manifest_results": [
+    {
+      "manifest": "research/chain_closure_20261018/manifest.json",
+      "counts": {
+        "match": 191
+      }
+    },
+    {
+      "manifest": "research/mcp_clock/manifest.json",
+      "counts": {
+        "match": 178,
+        "mismatch": 1
+      }
+    },
+    {
+      "manifest": "research/environment_memory/manifest.json",
+      "counts": {
+        "match": 77
+      }
+    },
+    {
+      "manifest": "research/device_identity/evidence/manifest.json",
+      "counts": {
+        "match": 517
+      }
+    }
+  ],
+  "category_totals_before_generated_indexes": {
+    "04_binaries": {
+      "files": 40,
+      "bytes": 30077557
+    },
+    "03_evidence": {
+      "files": 1337,
+      "bytes": 29579965
+    },
+    "01_source": {
+      "files": 124,
+      "bytes": 467552
+    },
+    "05_ida_databases": {
+      "files": 11,
+      "bytes": 1017891084
+    },
+    "08_history": {
+      "files": 57,
+      "bytes": 51445803
+    },
+    "06_samples": {
+      "files": 2,
+      "bytes": 10740768
+    },
+    "07_application": {
+      "files": 272,
+      "bytes": 13467304
+    },
+    "09_tools": {
+      "files": 3,
+      "bytes": 37864
+    },
+    "02_reports": {
+      "files": 24,
+      "bytes": 287667
+    },
+    "00_guide": {
+      "files": 10,
+      "bytes": 835921
+    },
+    "README.zh-CN.md": {
+      "files": 1,
+      "bytes": 2168
+    }
+  },
+  "sample_executed": false,
+  "reverse_engineering_tools_invoked": false,
+  "old_tests_rerun": false,
+  "original_research_conclusions_changed": false,
+  "published_to_github": false
+}

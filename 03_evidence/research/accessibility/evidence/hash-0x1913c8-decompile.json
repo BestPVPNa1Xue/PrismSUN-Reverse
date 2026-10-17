@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x1913c8\",\"code\":\"_QWORD *__fastcall sub_1913C8(_QWORD *result)\\n{\\n  bool v1; // zf\\n\\n  v1 = *(_DWORD *)sub_1913C8 >> 26 == 5 || (*(_DWORD *)sub_1913C8 & 0xFFE00000) == -736100352; /*0x1913e4*/\\n  if ( v1 || loc_1913CC >> 10 == 3508160 || (loc_1913D0 & 0xFFFFFC00) == 0xD61F0000 ) /*0x191410*/\\n    abort(); /*0x19142c*/\\n  *result += 24LL; /*0x19141c*/\\n  return result; /*0x191420*/\\n}\",\"refs\":[{\"addr\":\"0x1913c8\",\"name\":\"sub_1913C8\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x1913cc\",\"name\":\"loc_1913CC\"},{\"addr\":\"0x1913d0\",\"name\":\"loc_1913D0\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x1913c8",
+      "code": "_QWORD *__fastcall sub_1913C8(_QWORD *result)\n{\n  bool v1; // zf\n\n  v1 = *(_DWORD *)sub_1913C8 >> 26 == 5 || (*(_DWORD *)sub_1913C8 & 0xFFE00000) == -736100352; /*0x1913e4*/\n  if ( v1 || loc_1913CC >> 10 == 3508160 || (loc_1913D0 & 0xFFFFFC00) == 0xD61F0000 ) /*0x191410*/\n    abort(); /*0x19142c*/\n  *result += 24LL; /*0x19141c*/\n  return result; /*0x191420*/\n}",
+      "refs": [
+        {
+          "addr": "0x1913c8",
+          "name": "sub_1913C8"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x1913cc",
+          "name": "loc_1913CC"
+        },
+        {
+          "addr": "0x1913d0",
+          "name": "loc_1913D0"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

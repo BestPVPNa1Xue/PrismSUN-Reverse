@@ -1,0 +1,1676 @@
+{
+  "fde": {
+    "start": 7141992,
+    "end": 7143296,
+    "size": 1304
+  },
+  "define_code": {
+    "jsonrpc": "2.0",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"addr\":\"0x6cfa68\",\"ea\":\"0x6cfa68\",\"length\":4},{\"addr\":\"0x6cfa6c\",\"ea\":\"0x6cfa6c\",\"length\":4},{\"addr\":\"0x6cfa70\",\"ea\":\"0x6cfa70\",\"length\":4},{\"addr\":\"0x6cfa74\",\"ea\":\"0x6cfa74\",\"length\":4},{\"addr\":\"0x6cfa78\",\"ea\":\"0x6cfa78\",\"length\":4},{\"addr\":\"0x6cfa7c\",\"ea\":\"0x6cfa7c\",\"length\":4},{\"addr\":\"0x6cfa80\",\"ea\":\"0x6cfa80\",\"length\":4},{\"addr\":\"0x6cfa84\",\"ea\":\"0x6cfa84\",\"length\":8},{\"addr\":\"0x6cfa88\",\"ea\":\"0x6cfa88\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfa8c\",\"ea\":\"0x6cfa8c\",\"length\":4},{\"addr\":\"0x6cfa90\",\"ea\":\"0x6cfa90\",\"length\":8},{\"addr\":\"0x6cfa94\",\"ea\":\"0x6cfa94\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfa98\",\"ea\":\"0x6cfa98\",\"length\":4},{\"addr\":\"0x6cfa9c\",\"ea\":\"0x6cfa9c\",\"length\":4},{\"addr\":\"0x6cfaa0\",\"ea\":\"0x6cfaa0\",\"length\":4},{\"addr\":\"0x6cfaa4\",\"ea\":\"0x6cfaa4\",\"length\":4},{\"addr\":\"0x6cfaa8\",\"ea\":\"0x6cfaa8\",\"length\":8},{\"addr\":\"0x6cfaac\",\"ea\":\"0x6cfaac\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfab0\",\"ea\":\"0x6cfab0\",\"length\":4},{\"addr\":\"0x6cfab4\",\"ea\":\"0x6cfab4\",\"length\":4},{\"addr\":\"0x6cfab8\",\"ea\":\"0x6cfab8\",\"length\":4},{\"addr\":\"0x6cfabc\",\"ea\":\"0x6cfabc\",\"length\":8},{\"addr\":\"0x6cfac0\",\"ea\":\"0x6cfac0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfac4\",\"ea\":\"0x6cfac4\",\"length\":4},{\"addr\":\"0x6cfac8\",\"ea\":\"0x6cfac8\",\"length\":4},{\"addr\":\"0x6cfacc\",\"ea\":\"0x6cfacc\",\"length\":4},{\"addr\":\"0x6cfad0\",\"ea\":\"0x6cfad0\",\"length\":8},{\"addr\":\"0x6cfad4\",\"ea\":\"0x6cfad4\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfad8\",\"ea\":\"0x6cfad8\",\"length\":4},{\"addr\":\"0x6cfadc\",\"ea\":\"0x6cfadc\",\"length\":4},{\"addr\":\"0x6cfae0\",\"ea\":\"0x6cfae0\",\"length\":4},{\"addr\":\"0x6cfae4\",\"ea\":\"0x6cfae4\",\"length\":8},{\"addr\":\"0x6cfae8\",\"ea\":\"0x6cfae8\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfaec\",\"ea\":\"0x6cfaec\",\"length\":4},{\"addr\":\"0x6cfaf0\",\"ea\":\"0x6cfaf0\",\"length\":4},{\"addr\":\"0x6cfaf4\",\"ea\":\"0x6cfaf4\",\"length\":4},{\"addr\":\"0x6cfaf8\",\"ea\":\"0x6cfaf8\",\"length\":8},{\"addr\":\"0x6cfafc\",\"ea\":\"0x6cfafc\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb00\",\"ea\":\"0x6cfb00\",\"length\":4},{\"addr\":\"0x6cfb04\",\"ea\":\"0x6cfb04\",\"length\":4},{\"addr\":\"0x6cfb08\",\"ea\":\"0x6cfb08\",\"length\":4},{\"addr\":\"0x6cfb0c\",\"ea\":\"0x6cfb0c\",\"length\":8},{\"addr\":\"0x6cfb10\",\"ea\":\"0x6cfb10\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb14\",\"ea\":\"0x6cfb14\",\"length\":4},{\"addr\":\"0x6cfb18\",\"ea\":\"0x6cfb18\",\"length\":4},{\"addr\":\"0x6cfb1c\",\"ea\":\"0x6cfb1c\",\"length\":4},{\"addr\":\"0x6cfb20\",\"ea\":\"0x6cfb20\",\"length\":8},{\"addr\":\"0x6cfb24\",\"ea\":\"0x6cfb24\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb28\",\"ea\":\"0x6cfb28\",\"length\":4},{\"addr\":\"0x6cfb2c\",\"ea\":\"0x6cfb2c\",\"length\":4},{\"addr\":\"0x6cfb30\",\"ea\":\"0x6cfb30\",\"length\":4},{\"addr\":\"0x6cfb34\",\"ea\":\"0x6cfb34\",\"length\":8},{\"addr\":\"0x6cfb38\",\"ea\":\"0x6cfb38\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb3c\",\"ea\":\"0x6cfb3c\",\"length\":4},{\"addr\":\"0x6cfb40\",\"ea\":\"0x6cfb40\",\"length\":4},{\"addr\":\"0x6cfb44\",\"ea\":\"0x6cfb44\",\"length\":4},{\"addr\":\"0x6cfb48\",\"ea\":\"0x6cfb48\",\"length\":8},{\"addr\":\"0x6cfb4c\",\"ea\":\"0x6cfb4c\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb50\",\"ea\":\"0x6cfb50\",\"length\":4},{\"addr\":\"0x6cfb54\",\"ea\":\"0x6cfb54\",\"length\":4},{\"addr\":\"0x6cfb58\",\"ea\":\"0x6cfb58\",\"length\":4},{\"addr\":\"0x6cfb5c\",\"ea\":\"0x6cfb5c\",\"length\":8},{\"addr\":\"0x6cfb60\",\"ea\":\"0x6cfb60\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb64\",\"ea\":\"0x6cfb64\",\"length\":4},{\"addr\":\"0x6cfb68\",\"ea\":\"0x6cfb68\",\"length\":4},{\"addr\":\"0x6cfb6c\",\"ea\":\"0x6cfb6c\",\"length\":4},{\"addr\":\"0x6cfb70\",\"ea\":\"0x6cfb70\",\"length\":8},{\"addr\":\"0x6cfb74\",\"ea\":\"0x6cfb74\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb78\",\"ea\":\"0x6cfb78\",\"length\":4},{\"addr\":\"0x6cfb7c\",\"ea\":\"0x6cfb7c\",\"length\":4},{\"addr\":\"0x6cfb80\",\"ea\":\"0x6cfb80\",\"length\":4},{\"addr\":\"0x6cfb84\",\"ea\":\"0x6cfb84\",\"length\":8},{\"addr\":\"0x6cfb88\",\"ea\":\"0x6cfb88\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfb8c\",\"ea\":\"0x6cfb8c\",\"length\":4},{\"addr\":\"0x6cfb90\",\"ea\":\"0x6cfb90\",\"length\":4},{\"addr\":\"0x6cfb94\",\"ea\":\"0x6cfb94\",\"length\":4},{\"addr\":\"0x6cfb98\",\"ea\":\"0x6cfb98\",\"length\":8},{\"addr\":\"0x6cfb9c\",\"ea\":\"0x6cfb9c\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfba0\",\"ea\":\"0x6cfba0\",\"length\":4},{\"addr\":\"0x6cfba4\",\"ea\":\"0x6cfba4\",\"length\":4},{\"addr\":\"0x6cfba8\",\"ea\":\"0x6cfba8\",\"length\":4},{\"addr\":\"0x6cfbac\",\"ea\":\"0x6cfbac\",\"length\":8},{\"addr\":\"0x6cfbb0\",\"ea\":\"0x6cfbb0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfbb4\",\"ea\":\"0x6cfbb4\",\"length\":4},{\"addr\":\"0x6cfbb8\",\"ea\":\"0x6cfbb8\",\"length\":4},{\"addr\":\"0x6cfbbc\",\"ea\":\"0x6cfbbc\",\"length\":4},{\"addr\":\"0x6cfbc0\",\"ea\":\"0x6cfbc0\",\"length\":8},{\"addr\":\"0x6cfbc4\",\"ea\":\"0x6cfbc4\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfbc8\",\"ea\":\"0x6cfbc8\",\"length\":4},{\"addr\":\"0x6cfbcc\",\"ea\":\"0x6cfbcc\",\"length\":4},{\"addr\":\"0x6cfbd0\",\"ea\":\"0x6cfbd0\",\"length\":4},{\"addr\":\"0x6cfbd4\",\"ea\":\"0x6cfbd4\",\"length\":8},{\"addr\":\"0x6cfbd8\",\"ea\":\"0x6cfbd8\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfbdc\",\"ea\":\"0x6cfbdc\",\"length\":4},{\"addr\":\"0x6cfbe0\",\"ea\":\"0x6cfbe0\",\"length\":4},{\"addr\":\"0x6cfbe4\",\"ea\":\"0x6cfbe4\",\"length\":4},{\"addr\":\"0x6cfbe8\",\"ea\":\"0x6cfbe8\",\"length\":8},{\"addr\":\"0x6cfbec\",\"ea\":\"0x6cfbec\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfbf0\",\"ea\":\"0x6cfbf0\",\"length\":4},{\"addr\":\"0x6cfbf4\",\"ea\":\"0x6cfbf4\",\"length\":4},{\"addr\":\"0x6cfbf8\",\"ea\":\"0x6cfbf8\",\"length\":4},{\"addr\":\"0x6cfbfc\",\"ea\":\"0x6cfbfc\",\"length\":8},{\"addr\":\"0x6cfc00\",\"ea\":\"0x6cfc00\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc04\",\"ea\":\"0x6cfc04\",\"length\":4},{\"addr\":\"0x6cfc08\",\"ea\":\"0x6cfc08\",\"length\":4},{\"addr\":\"0x6cfc0c\",\"ea\":\"0x6cfc0c\",\"length\":4},{\"addr\":\"0x6cfc10\",\"ea\":\"0x6cfc10\",\"length\":8},{\"addr\":\"0x6cfc14\",\"ea\":\"0x6cfc14\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc18\",\"ea\":\"0x6cfc18\",\"length\":4},{\"addr\":\"0x6cfc1c\",\"ea\":\"0x6cfc1c\",\"length\":4},{\"addr\":\"0x6cfc20\",\"ea\":\"0x6cfc20\",\"length\":4},{\"addr\":\"0x6cfc24\",\"ea\":\"0x6cfc24\",\"length\":8},{\"addr\":\"0x6cfc28\",\"ea\":\"0x6cfc28\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc2c\",\"ea\":\"0x6cfc2c\",\"length\":4},{\"addr\":\"0x6cfc30\",\"ea\":\"0x6cfc30\",\"length\":4},{\"addr\":\"0x6cfc34\",\"ea\":\"0x6cfc34\",\"length\":4},{\"addr\":\"0x6cfc38\",\"ea\":\"0x6cfc38\",\"length\":4},{\"addr\":\"0x6cfc3c\",\"ea\":\"0x6cfc3c\",\"length\":4},{\"addr\":\"0x6cfc40\",\"ea\":\"0x6cfc40\",\"length\":8},{\"addr\":\"0x6cfc44\",\"ea\":\"0x6cfc44\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc48\",\"ea\":\"0x6cfc48\",\"length\":8},{\"addr\":\"0x6cfc4c\",\"ea\":\"0x6cfc4c\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc50\",\"ea\":\"0x6cfc50\",\"length\":8},{\"addr\":\"0x6cfc54\",\"ea\":\"0x6cfc54\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc58\",\"ea\":\"0x6cfc58\",\"length\":4},{\"addr\":\"0x6cfc5c\",\"ea\":\"0x6cfc5c\",\"length\":4},{\"addr\":\"0x6cfc60\",\"ea\":\"0x6cfc60\",\"length\":4},{\"addr\":\"0x6cfc64\",\"ea\":\"0x6cfc64\",\"length\":4},{\"addr\":\"0x6cfc68\",\"ea\":\"0x6cfc68\",\"length\":4},{\"addr\":\"0x6cfc6c\",\"ea\":\"0x6cfc6c\",\"length\":4},{\"addr\":\"0x6cfc70\",\"ea\":\"0x6cfc70\",\"length\":8},{\"addr\":\"0x6cfc74\",\"ea\":\"0x6cfc74\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc78\",\"ea\":\"0x6cfc78\",\"length\":4},{\"addr\":\"0x6cfc7c\",\"ea\":\"0x6cfc7c\",\"length\":4},{\"addr\":\"0x6cfc80\",\"ea\":\"0x6cfc80\",\"length\":4},{\"addr\":\"0x6cfc84\",\"ea\":\"0x6cfc84\",\"length\":8},{\"addr\":\"0x6cfc88\",\"ea\":\"0x6cfc88\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfc8c\",\"ea\":\"0x6cfc8c\",\"length\":4},{\"addr\":\"0x6cfc90\",\"ea\":\"0x6cfc90\",\"length\":4},{\"addr\":\"0x6cfc94\",\"ea\":\"0x6cfc94\",\"length\":4},{\"addr\":\"0x6cfc98\",\"ea\":\"0x6cfc98\",\"length\":8},{\"addr\":\"0x6cfc9c\",\"ea\":\"0x6cfc9c\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfca0\",\"ea\":\"0x6cfca0\",\"length\":4},{\"addr\":\"0x6cfca4\",\"ea\":\"0x6cfca4\",\"length\":4},{\"addr\":\"0x6cfca8\",\"ea\":\"0x6cfca8\",\"length\":4},{\"addr\":\"0x6cfcac\",\"ea\":\"0x6cfcac\",\"length\":4},{\"addr\":\"0x6cfcb0\",\"ea\":\"0x6cfcb0\",\"length\":4},{\"addr\":\"0x6cfcb4\",\"ea\":\"0x6cfcb4\",\"length\":4},{\"addr\":\"0x6cfcb8\",\"ea\":\"0x6cfcb8\",\"length\":4},{\"addr\":\"0x6cfcbc\",\"ea\":\"0x6cfcbc\",\"length\":4},{\"addr\":\"0x6cfcc0\",\"ea\":\"0x6cfcc0\",\"length\":4},{\"addr\":\"0x6cfcc4\",\"ea\":\"0x6cfcc4\",\"length\":4},{\"addr\":\"0x6cfcc8\",\"ea\":\"0x6cfcc8\",\"length\":4},{\"addr\":\"0x6cfccc\",\"ea\":\"0x6cfccc\",\"length\":4},{\"addr\":\"0x6cfcd0\",\"ea\":\"0x6cfcd0\",\"length\":4},{\"addr\":\"0x6cfcd4\",\"ea\":\"0x6cfcd4\",\"length\":4},{\"addr\":\"0x6cfcd8\",\"ea\":\"0x6cfcd8\",\"length\":4},{\"addr\":\"0x6cfcdc\",\"ea\":\"0x6cfcdc\",\"length\":8},{\"addr\":\"0x6cfce0\",\"ea\":\"0x6cfce0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfce4\",\"ea\":\"0x6cfce4\",\"length\":4},{\"addr\":\"0x6cfce8\",\"ea\":\"0x6cfce8\",\"length\":4},{\"addr\":\"0x6cfcec\",\"ea\":\"0x6cfcec\",\"length\":4},{\"addr\":\"0x6cfcf0\",\"ea\":\"0x6cfcf0\",\"length\":4},{\"addr\":\"0x6cfcf4\",\"ea\":\"0x6cfcf4\",\"length\":4},{\"addr\":\"0x6cfcf8\",\"ea\":\"0x6cfcf8\",\"length\":4},{\"addr\":\"0x6cfcfc\",\"ea\":\"0x6cfcfc\",\"length\":4},{\"addr\":\"0x6cfd00\",\"ea\":\"0x6cfd00\",\"length\":4},{\"addr\":\"0x6cfd04\",\"ea\":\"0x6cfd04\",\"length\":4},{\"addr\":\"0x6cfd08\",\"ea\":\"0x6cfd08\",\"length\":4},{\"addr\":\"0x6cfd0c\",\"ea\":\"0x6cfd0c\",\"length\":4},{\"addr\":\"0x6cfd10\",\"ea\":\"0x6cfd10\",\"length\":4},{\"addr\":\"0x6cfd14\",\"ea\":\"0x6cfd14\",\"length\":4},{\"addr\":\"0x6cfd18\",\"ea\":\"0x6cfd18\",\"length\":4},{\"addr\":\"0x6cfd1c\",\"ea\":\"0x6cfd1c\",\"length\":4},{\"addr\":\"0x6cfd20\",\"ea\":\"0x6cfd20\",\"length\":8},{\"addr\":\"0x6cfd24\",\"ea\":\"0x6cfd24\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfd28\",\"ea\":\"0x6cfd28\",\"length\":4},{\"addr\":\"0x6cfd2c\",\"ea\":\"0x6cfd2c\",\"length\":4},{\"addr\":\"0x6cfd30\",\"ea\":\"0x6cfd30\",\"length\":4},{\"addr\":\"0x6cfd34\",\"ea\":\"0x6cfd34\",\"length\":4},{\"addr\":\"0x6cfd38\",\"ea\":\"0x6cfd38\",\"length\":4},{\"addr\":\"0x6cfd3c\",\"ea\":\"0x6cfd3c\",\"length\":4},{\"addr\":\"0x6cfd40\",\"ea\":\"0x6cfd40\",\"length\":4},{\"addr\":\"0x6cfd44\",\"ea\":\"0x6cfd44\",\"length\":4},{\"addr\":\"0x6cfd48\",\"ea\":\"0x6cfd48\",\"length\":4},{\"addr\":\"0x6cfd4c\",\"ea\":\"0x6cfd4c\",\"length\":8},{\"addr\":\"0x6cfd50\",\"ea\":\"0x6cfd50\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfd54\",\"ea\":\"0x6cfd54\",\"length\":4},{\"addr\":\"0x6cfd58\",\"ea\":\"0x6cfd58\",\"length\":4},{\"addr\":\"0x6cfd5c\",\"ea\":\"0x6cfd5c\",\"length\":4},{\"addr\":\"0x6cfd60\",\"ea\":\"0x6cfd60\",\"length\":8},{\"addr\":\"0x6cfd64\",\"ea\":\"0x6cfd64\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfd68\",\"ea\":\"0x6cfd68\",\"length\":4},{\"addr\":\"0x6cfd6c\",\"ea\":\"0x6cfd6c\",\"length\":4},{\"addr\":\"0x6cfd70\",\"ea\":\"0x6cfd70\",\"length\":4},{\"addr\":\"0x6cfd74\",\"ea\":\"0x6cfd74\",\"length\":4},{\"addr\":\"0x6cfd78\",\"ea\":\"0x6cfd78\",\"length\":4},{\"addr\":\"0x6cfd7c\",\"ea\":\"0x6cfd7c\",\"length\":4},{\"addr\":\"0x6cfd80\",\"ea\":\"0x6cfd80\",\"length\":4},{\"addr\":\"0x6cfd84\",\"ea\":\"0x6cfd84\",\"length\":4},{\"addr\":\"0x6cfd88\",\"ea\":\"0x6cfd88\",\"length\":4},{\"addr\":\"0x6cfd8c\",\"ea\":\"0x6cfd8c\",\"length\":4},{\"addr\":\"0x6cfd90\",\"ea\":\"0x6cfd90\",\"length\":4},{\"addr\":\"0x6cfd94\",\"ea\":\"0x6cfd94\",\"length\":4},{\"addr\":\"0x6cfd98\",\"ea\":\"0x6cfd98\",\"length\":4},{\"addr\":\"0x6cfd9c\",\"ea\":\"0x6cfd9c\",\"length\":4},{\"addr\":\"0x6cfda0\",\"ea\":\"0x6cfda0\",\"length\":4},{\"addr\":\"0x6cfda4\",\"ea\":\"0x6cfda4\",\"length\":4},{\"addr\":\"0x6cfda8\",\"ea\":\"0x6cfda8\",\"length\":4},{\"addr\":\"0x6cfdac\",\"ea\":\"0x6cfdac\",\"length\":4},{\"addr\":\"0x6cfdb0\",\"ea\":\"0x6cfdb0\",\"length\":4},{\"addr\":\"0x6cfdb4\",\"ea\":\"0x6cfdb4\",\"length\":4},{\"addr\":\"0x6cfdb8\",\"ea\":\"0x6cfdb8\",\"length\":4},{\"addr\":\"0x6cfdbc\",\"ea\":\"0x6cfdbc\",\"length\":4},{\"addr\":\"0x6cfdc0\",\"ea\":\"0x6cfdc0\",\"length\":4},{\"addr\":\"0x6cfdc4\",\"ea\":\"0x6cfdc4\",\"length\":8},{\"addr\":\"0x6cfdc8\",\"ea\":\"0x6cfdc8\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfdcc\",\"ea\":\"0x6cfdcc\",\"length\":4},{\"addr\":\"0x6cfdd0\",\"ea\":\"0x6cfdd0\",\"length\":4},{\"addr\":\"0x6cfdd4\",\"ea\":\"0x6cfdd4\",\"length\":4},{\"addr\":\"0x6cfdd8\",\"ea\":\"0x6cfdd8\",\"length\":4},{\"addr\":\"0x6cfddc\",\"ea\":\"0x6cfddc\",\"length\":8},{\"addr\":\"0x6cfde0\",\"ea\":\"0x6cfde0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfde4\",\"ea\":\"0x6cfde4\",\"length\":8},{\"addr\":\"0x6cfde8\",\"ea\":\"0x6cfde8\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfdec\",\"ea\":\"0x6cfdec\",\"length\":4},{\"addr\":\"0x6cfdf0\",\"ea\":\"0x6cfdf0\",\"length\":4},{\"addr\":\"0x6cfdf4\",\"ea\":\"0x6cfdf4\",\"length\":4},{\"addr\":\"0x6cfdf8\",\"ea\":\"0x6cfdf8\",\"length\":4},{\"addr\":\"0x6cfdfc\",\"ea\":\"0x6cfdfc\",\"length\":4},{\"addr\":\"0x6cfe00\",\"ea\":\"0x6cfe00\",\"length\":4},{\"addr\":\"0x6cfe04\",\"ea\":\"0x6cfe04\",\"length\":8},{\"addr\":\"0x6cfe08\",\"ea\":\"0x6cfe08\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfe0c\",\"ea\":\"0x6cfe0c\",\"length\":4},{\"addr\":\"0x6cfe10\",\"ea\":\"0x6cfe10\",\"length\":4},{\"addr\":\"0x6cfe14\",\"ea\":\"0x6cfe14\",\"length\":4},{\"addr\":\"0x6cfe18\",\"ea\":\"0x6cfe18\",\"length\":4},{\"addr\":\"0x6cfe1c\",\"ea\":\"0x6cfe1c\",\"length\":4},{\"addr\":\"0x6cfe20\",\"ea\":\"0x6cfe20\",\"length\":4},{\"addr\":\"0x6cfe24\",\"ea\":\"0x6cfe24\",\"length\":8},{\"addr\":\"0x6cfe28\",\"ea\":\"0x6cfe28\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfe2c\",\"ea\":\"0x6cfe2c\",\"length\":4},{\"addr\":\"0x6cfe30\",\"ea\":\"0x6cfe30\",\"length\":4},{\"addr\":\"0x6cfe34\",\"ea\":\"0x6cfe34\",\"length\":4},{\"addr\":\"0x6cfe38\",\"ea\":\"0x6cfe38\",\"length\":4},{\"addr\":\"0x6cfe3c\",\"ea\":\"0x6cfe3c\",\"length\":4},{\"addr\":\"0x6cfe40\",\"ea\":\"0x6cfe40\",\"length\":4},{\"addr\":\"0x6cfe44\",\"ea\":\"0x6cfe44\",\"length\":8},{\"addr\":\"0x6cfe48\",\"ea\":\"0x6cfe48\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfe4c\",\"ea\":\"0x6cfe4c\",\"length\":4},{\"addr\":\"0x6cfe50\",\"ea\":\"0x6cfe50\",\"length\":4},{\"addr\":\"0x6cfe54\",\"ea\":\"0x6cfe54\",\"length\":4},{\"addr\":\"0x6cfe58\",\"ea\":\"0x6cfe58\",\"length\":4},{\"addr\":\"0x6cfe5c\",\"ea\":\"0x6cfe5c\",\"length\":4},{\"addr\":\"0x6cfe60\",\"ea\":\"0x6cfe60\",\"length\":4},{\"addr\":\"0x6cfe64\",\"ea\":\"0x6cfe64\",\"length\":4},{\"addr\":\"0x6cfe68\",\"ea\":\"0x6cfe68\",\"length\":4},{\"addr\":\"0x6cfe6c\",\"ea\":\"0x6cfe6c\",\"length\":4},{\"addr\":\"0x6cfe70\",\"ea\":\"0x6cfe70\",\"length\":4},{\"addr\":\"0x6cfe74\",\"ea\":\"0x6cfe74\",\"length\":4},{\"addr\":\"0x6cfe78\",\"ea\":\"0x6cfe78\",\"length\":4},{\"addr\":\"0x6cfe7c\",\"ea\":\"0x6cfe7c\",\"length\":4},{\"addr\":\"0x6cfe80\",\"ea\":\"0x6cfe80\",\"length\":4},{\"addr\":\"0x6cfe84\",\"ea\":\"0x6cfe84\",\"length\":8},{\"addr\":\"0x6cfe88\",\"ea\":\"0x6cfe88\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfe8c\",\"ea\":\"0x6cfe8c\",\"length\":4},{\"addr\":\"0x6cfe90\",\"ea\":\"0x6cfe90\",\"length\":4},{\"addr\":\"0x6cfe94\",\"ea\":\"0x6cfe94\",\"length\":4},{\"addr\":\"0x6cfe98\",\"ea\":\"0x6cfe98\",\"length\":4},{\"addr\":\"0x6cfe9c\",\"ea\":\"0x6cfe9c\",\"length\":8},{\"addr\":\"0x6cfea0\",\"ea\":\"0x6cfea0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfea4\",\"ea\":\"0x6cfea4\",\"length\":8},{\"addr\":\"0x6cfea8\",\"ea\":\"0x6cfea8\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfeac\",\"ea\":\"0x6cfeac\",\"length\":4},{\"addr\":\"0x6cfeb0\",\"ea\":\"0x6cfeb0\",\"length\":4},{\"addr\":\"0x6cfeb4\",\"ea\":\"0x6cfeb4\",\"length\":4},{\"addr\":\"0x6cfeb8\",\"ea\":\"0x6cfeb8\",\"length\":4},{\"addr\":\"0x6cfebc\",\"ea\":\"0x6cfebc\",\"length\":4},{\"addr\":\"0x6cfec0\",\"ea\":\"0x6cfec0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfec4\",\"ea\":\"0x6cfec4\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfec8\",\"ea\":\"0x6cfec8\",\"length\":4},{\"addr\":\"0x6cfecc\",\"ea\":\"0x6cfecc\",\"length\":8},{\"addr\":\"0x6cfed0\",\"ea\":\"0x6cfed0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfed4\",\"ea\":\"0x6cfed4\",\"length\":4},{\"addr\":\"0x6cfed8\",\"ea\":\"0x6cfed8\",\"length\":4},{\"addr\":\"0x6cfedc\",\"ea\":\"0x6cfedc\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfee0\",\"ea\":\"0x6cfee0\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cfee4\",\"ea\":\"0x6cfee4\",\"length\":4},{\"addr\":\"0x6cfee8\",\"ea\":\"0x6cfee8\",\"length\":4},{\"addr\":\"0x6cfeec\",\"ea\":\"0x6cfeec\",\"length\":4},{\"addr\":\"0x6cfef0\",\"ea\":\"0x6cfef0\",\"length\":4},{\"addr\":\"0x6cfef4\",\"ea\":\"0x6cfef4\",\"length\":4},{\"addr\":\"0x6cfef8\",\"ea\":\"0x6cfef8\",\"length\":4},{\"addr\":\"0x6cfefc\",\"ea\":\"0x6cfefc\",\"length\":4},{\"addr\":\"0x6cff00\",\"ea\":\"0x6cff00\",\"length\":4},{\"addr\":\"0x6cff04\",\"ea\":\"0x6cff04\",\"length\":4},{\"addr\":\"0x6cff08\",\"ea\":\"0x6cff08\",\"length\":4},{\"addr\":\"0x6cff0c\",\"ea\":\"0x6cff0c\",\"length\":4},{\"addr\":\"0x6cff10\",\"ea\":\"0x6cff10\",\"length\":8},{\"addr\":\"0x6cff14\",\"ea\":\"0x6cff14\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff18\",\"ea\":\"0x6cff18\",\"length\":4},{\"addr\":\"0x6cff1c\",\"ea\":\"0x6cff1c\",\"length\":4},{\"addr\":\"0x6cff20\",\"ea\":\"0x6cff20\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff24\",\"ea\":\"0x6cff24\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff28\",\"ea\":\"0x6cff28\",\"length\":4},{\"addr\":\"0x6cff2c\",\"ea\":\"0x6cff2c\",\"length\":4},{\"addr\":\"0x6cff30\",\"ea\":\"0x6cff30\",\"length\":4},{\"addr\":\"0x6cff34\",\"ea\":\"0x6cff34\",\"length\":4},{\"addr\":\"0x6cff38\",\"ea\":\"0x6cff38\",\"length\":4},{\"addr\":\"0x6cff3c\",\"ea\":\"0x6cff3c\",\"length\":4},{\"addr\":\"0x6cff40\",\"ea\":\"0x6cff40\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff44\",\"ea\":\"0x6cff44\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff48\",\"ea\":\"0x6cff48\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff4c\",\"ea\":\"0x6cff4c\",\"length\":4},{\"addr\":\"0x6cff50\",\"ea\":\"0x6cff50\",\"length\":8},{\"addr\":\"0x6cff54\",\"ea\":\"0x6cff54\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff58\",\"ea\":\"0x6cff58\",\"length\":4},{\"addr\":\"0x6cff5c\",\"ea\":\"0x6cff5c\",\"length\":4},{\"addr\":\"0x6cff60\",\"ea\":\"0x6cff60\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff64\",\"ea\":\"0x6cff64\",\"length\":4},{\"addr\":\"0x6cff68\",\"ea\":\"0x6cff68\",\"length\":4},{\"addr\":\"0x6cff6c\",\"ea\":\"0x6cff6c\",\"length\":8},{\"addr\":\"0x6cff70\",\"ea\":\"0x6cff70\",\"error\":\"Failed to create instruction\"},{\"addr\":\"0x6cff74\",\"ea\":\"0x6cff74\",\"length\":4},{\"addr\":\"0x6cff78\",\"ea\":\"0x6cff78\",\"length\":4},{\"addr\":\"0x6cff7c\",\"ea\":\"0x6cff7c\",\"length\":4}]"
+        }
+      ],
+      "structuredContent": {
+        "result": [
+          {
+            "addr": "0x6cfa68",
+            "ea": "0x6cfa68",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa6c",
+            "ea": "0x6cfa6c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa70",
+            "ea": "0x6cfa70",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa74",
+            "ea": "0x6cfa74",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa78",
+            "ea": "0x6cfa78",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa7c",
+            "ea": "0x6cfa7c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa80",
+            "ea": "0x6cfa80",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa84",
+            "ea": "0x6cfa84",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfa88",
+            "ea": "0x6cfa88",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfa8c",
+            "ea": "0x6cfa8c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa90",
+            "ea": "0x6cfa90",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfa94",
+            "ea": "0x6cfa94",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfa98",
+            "ea": "0x6cfa98",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfa9c",
+            "ea": "0x6cfa9c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfaa0",
+            "ea": "0x6cfaa0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfaa4",
+            "ea": "0x6cfaa4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfaa8",
+            "ea": "0x6cfaa8",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfaac",
+            "ea": "0x6cfaac",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfab0",
+            "ea": "0x6cfab0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfab4",
+            "ea": "0x6cfab4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfab8",
+            "ea": "0x6cfab8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfabc",
+            "ea": "0x6cfabc",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfac0",
+            "ea": "0x6cfac0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfac4",
+            "ea": "0x6cfac4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfac8",
+            "ea": "0x6cfac8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfacc",
+            "ea": "0x6cfacc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfad0",
+            "ea": "0x6cfad0",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfad4",
+            "ea": "0x6cfad4",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfad8",
+            "ea": "0x6cfad8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfadc",
+            "ea": "0x6cfadc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfae0",
+            "ea": "0x6cfae0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfae4",
+            "ea": "0x6cfae4",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfae8",
+            "ea": "0x6cfae8",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfaec",
+            "ea": "0x6cfaec",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfaf0",
+            "ea": "0x6cfaf0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfaf4",
+            "ea": "0x6cfaf4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfaf8",
+            "ea": "0x6cfaf8",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfafc",
+            "ea": "0x6cfafc",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb00",
+            "ea": "0x6cfb00",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb04",
+            "ea": "0x6cfb04",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb08",
+            "ea": "0x6cfb08",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb0c",
+            "ea": "0x6cfb0c",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb10",
+            "ea": "0x6cfb10",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb14",
+            "ea": "0x6cfb14",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb18",
+            "ea": "0x6cfb18",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb1c",
+            "ea": "0x6cfb1c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb20",
+            "ea": "0x6cfb20",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb24",
+            "ea": "0x6cfb24",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb28",
+            "ea": "0x6cfb28",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb2c",
+            "ea": "0x6cfb2c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb30",
+            "ea": "0x6cfb30",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb34",
+            "ea": "0x6cfb34",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb38",
+            "ea": "0x6cfb38",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb3c",
+            "ea": "0x6cfb3c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb40",
+            "ea": "0x6cfb40",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb44",
+            "ea": "0x6cfb44",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb48",
+            "ea": "0x6cfb48",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb4c",
+            "ea": "0x6cfb4c",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb50",
+            "ea": "0x6cfb50",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb54",
+            "ea": "0x6cfb54",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb58",
+            "ea": "0x6cfb58",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb5c",
+            "ea": "0x6cfb5c",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb60",
+            "ea": "0x6cfb60",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb64",
+            "ea": "0x6cfb64",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb68",
+            "ea": "0x6cfb68",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb6c",
+            "ea": "0x6cfb6c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb70",
+            "ea": "0x6cfb70",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb74",
+            "ea": "0x6cfb74",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb78",
+            "ea": "0x6cfb78",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb7c",
+            "ea": "0x6cfb7c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb80",
+            "ea": "0x6cfb80",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb84",
+            "ea": "0x6cfb84",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb88",
+            "ea": "0x6cfb88",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfb8c",
+            "ea": "0x6cfb8c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb90",
+            "ea": "0x6cfb90",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb94",
+            "ea": "0x6cfb94",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfb98",
+            "ea": "0x6cfb98",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfb9c",
+            "ea": "0x6cfb9c",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfba0",
+            "ea": "0x6cfba0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfba4",
+            "ea": "0x6cfba4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfba8",
+            "ea": "0x6cfba8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbac",
+            "ea": "0x6cfbac",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfbb0",
+            "ea": "0x6cfbb0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfbb4",
+            "ea": "0x6cfbb4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbb8",
+            "ea": "0x6cfbb8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbbc",
+            "ea": "0x6cfbbc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbc0",
+            "ea": "0x6cfbc0",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfbc4",
+            "ea": "0x6cfbc4",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfbc8",
+            "ea": "0x6cfbc8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbcc",
+            "ea": "0x6cfbcc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbd0",
+            "ea": "0x6cfbd0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbd4",
+            "ea": "0x6cfbd4",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfbd8",
+            "ea": "0x6cfbd8",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfbdc",
+            "ea": "0x6cfbdc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbe0",
+            "ea": "0x6cfbe0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbe4",
+            "ea": "0x6cfbe4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbe8",
+            "ea": "0x6cfbe8",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfbec",
+            "ea": "0x6cfbec",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfbf0",
+            "ea": "0x6cfbf0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbf4",
+            "ea": "0x6cfbf4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbf8",
+            "ea": "0x6cfbf8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfbfc",
+            "ea": "0x6cfbfc",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc00",
+            "ea": "0x6cfc00",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc04",
+            "ea": "0x6cfc04",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc08",
+            "ea": "0x6cfc08",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc0c",
+            "ea": "0x6cfc0c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc10",
+            "ea": "0x6cfc10",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc14",
+            "ea": "0x6cfc14",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc18",
+            "ea": "0x6cfc18",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc1c",
+            "ea": "0x6cfc1c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc20",
+            "ea": "0x6cfc20",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc24",
+            "ea": "0x6cfc24",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc28",
+            "ea": "0x6cfc28",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc2c",
+            "ea": "0x6cfc2c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc30",
+            "ea": "0x6cfc30",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc34",
+            "ea": "0x6cfc34",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc38",
+            "ea": "0x6cfc38",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc3c",
+            "ea": "0x6cfc3c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc40",
+            "ea": "0x6cfc40",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc44",
+            "ea": "0x6cfc44",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc48",
+            "ea": "0x6cfc48",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc4c",
+            "ea": "0x6cfc4c",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc50",
+            "ea": "0x6cfc50",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc54",
+            "ea": "0x6cfc54",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc58",
+            "ea": "0x6cfc58",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc5c",
+            "ea": "0x6cfc5c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc60",
+            "ea": "0x6cfc60",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc64",
+            "ea": "0x6cfc64",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc68",
+            "ea": "0x6cfc68",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc6c",
+            "ea": "0x6cfc6c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc70",
+            "ea": "0x6cfc70",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc74",
+            "ea": "0x6cfc74",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc78",
+            "ea": "0x6cfc78",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc7c",
+            "ea": "0x6cfc7c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc80",
+            "ea": "0x6cfc80",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc84",
+            "ea": "0x6cfc84",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc88",
+            "ea": "0x6cfc88",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfc8c",
+            "ea": "0x6cfc8c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc90",
+            "ea": "0x6cfc90",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc94",
+            "ea": "0x6cfc94",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfc98",
+            "ea": "0x6cfc98",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfc9c",
+            "ea": "0x6cfc9c",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfca0",
+            "ea": "0x6cfca0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfca4",
+            "ea": "0x6cfca4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfca8",
+            "ea": "0x6cfca8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcac",
+            "ea": "0x6cfcac",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcb0",
+            "ea": "0x6cfcb0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcb4",
+            "ea": "0x6cfcb4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcb8",
+            "ea": "0x6cfcb8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcbc",
+            "ea": "0x6cfcbc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcc0",
+            "ea": "0x6cfcc0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcc4",
+            "ea": "0x6cfcc4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcc8",
+            "ea": "0x6cfcc8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfccc",
+            "ea": "0x6cfccc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcd0",
+            "ea": "0x6cfcd0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcd4",
+            "ea": "0x6cfcd4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcd8",
+            "ea": "0x6cfcd8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcdc",
+            "ea": "0x6cfcdc",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfce0",
+            "ea": "0x6cfce0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfce4",
+            "ea": "0x6cfce4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfce8",
+            "ea": "0x6cfce8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcec",
+            "ea": "0x6cfcec",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcf0",
+            "ea": "0x6cfcf0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcf4",
+            "ea": "0x6cfcf4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcf8",
+            "ea": "0x6cfcf8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfcfc",
+            "ea": "0x6cfcfc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd00",
+            "ea": "0x6cfd00",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd04",
+            "ea": "0x6cfd04",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd08",
+            "ea": "0x6cfd08",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd0c",
+            "ea": "0x6cfd0c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd10",
+            "ea": "0x6cfd10",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd14",
+            "ea": "0x6cfd14",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd18",
+            "ea": "0x6cfd18",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd1c",
+            "ea": "0x6cfd1c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd20",
+            "ea": "0x6cfd20",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfd24",
+            "ea": "0x6cfd24",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfd28",
+            "ea": "0x6cfd28",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd2c",
+            "ea": "0x6cfd2c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd30",
+            "ea": "0x6cfd30",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd34",
+            "ea": "0x6cfd34",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd38",
+            "ea": "0x6cfd38",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd3c",
+            "ea": "0x6cfd3c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd40",
+            "ea": "0x6cfd40",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd44",
+            "ea": "0x6cfd44",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd48",
+            "ea": "0x6cfd48",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd4c",
+            "ea": "0x6cfd4c",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfd50",
+            "ea": "0x6cfd50",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfd54",
+            "ea": "0x6cfd54",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd58",
+            "ea": "0x6cfd58",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd5c",
+            "ea": "0x6cfd5c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd60",
+            "ea": "0x6cfd60",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfd64",
+            "ea": "0x6cfd64",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfd68",
+            "ea": "0x6cfd68",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd6c",
+            "ea": "0x6cfd6c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd70",
+            "ea": "0x6cfd70",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd74",
+            "ea": "0x6cfd74",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd78",
+            "ea": "0x6cfd78",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd7c",
+            "ea": "0x6cfd7c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd80",
+            "ea": "0x6cfd80",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd84",
+            "ea": "0x6cfd84",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd88",
+            "ea": "0x6cfd88",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd8c",
+            "ea": "0x6cfd8c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd90",
+            "ea": "0x6cfd90",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd94",
+            "ea": "0x6cfd94",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd98",
+            "ea": "0x6cfd98",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfd9c",
+            "ea": "0x6cfd9c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfda0",
+            "ea": "0x6cfda0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfda4",
+            "ea": "0x6cfda4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfda8",
+            "ea": "0x6cfda8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdac",
+            "ea": "0x6cfdac",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdb0",
+            "ea": "0x6cfdb0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdb4",
+            "ea": "0x6cfdb4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdb8",
+            "ea": "0x6cfdb8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdbc",
+            "ea": "0x6cfdbc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdc0",
+            "ea": "0x6cfdc0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdc4",
+            "ea": "0x6cfdc4",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfdc8",
+            "ea": "0x6cfdc8",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfdcc",
+            "ea": "0x6cfdcc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdd0",
+            "ea": "0x6cfdd0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdd4",
+            "ea": "0x6cfdd4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdd8",
+            "ea": "0x6cfdd8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfddc",
+            "ea": "0x6cfddc",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfde0",
+            "ea": "0x6cfde0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfde4",
+            "ea": "0x6cfde4",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfde8",
+            "ea": "0x6cfde8",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfdec",
+            "ea": "0x6cfdec",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdf0",
+            "ea": "0x6cfdf0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdf4",
+            "ea": "0x6cfdf4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdf8",
+            "ea": "0x6cfdf8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfdfc",
+            "ea": "0x6cfdfc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe00",
+            "ea": "0x6cfe00",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe04",
+            "ea": "0x6cfe04",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfe08",
+            "ea": "0x6cfe08",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfe0c",
+            "ea": "0x6cfe0c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe10",
+            "ea": "0x6cfe10",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe14",
+            "ea": "0x6cfe14",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe18",
+            "ea": "0x6cfe18",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe1c",
+            "ea": "0x6cfe1c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe20",
+            "ea": "0x6cfe20",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe24",
+            "ea": "0x6cfe24",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfe28",
+            "ea": "0x6cfe28",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfe2c",
+            "ea": "0x6cfe2c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe30",
+            "ea": "0x6cfe30",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe34",
+            "ea": "0x6cfe34",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe38",
+            "ea": "0x6cfe38",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe3c",
+            "ea": "0x6cfe3c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe40",
+            "ea": "0x6cfe40",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe44",
+            "ea": "0x6cfe44",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfe48",
+            "ea": "0x6cfe48",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfe4c",
+            "ea": "0x6cfe4c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe50",
+            "ea": "0x6cfe50",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe54",
+            "ea": "0x6cfe54",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe58",
+            "ea": "0x6cfe58",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe5c",
+            "ea": "0x6cfe5c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe60",
+            "ea": "0x6cfe60",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe64",
+            "ea": "0x6cfe64",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe68",
+            "ea": "0x6cfe68",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe6c",
+            "ea": "0x6cfe6c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe70",
+            "ea": "0x6cfe70",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe74",
+            "ea": "0x6cfe74",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe78",
+            "ea": "0x6cfe78",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe7c",
+            "ea": "0x6cfe7c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe80",
+            "ea": "0x6cfe80",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe84",
+            "ea": "0x6cfe84",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfe88",
+            "ea": "0x6cfe88",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfe8c",
+            "ea": "0x6cfe8c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe90",
+            "ea": "0x6cfe90",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe94",
+            "ea": "0x6cfe94",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe98",
+            "ea": "0x6cfe98",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfe9c",
+            "ea": "0x6cfe9c",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfea0",
+            "ea": "0x6cfea0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfea4",
+            "ea": "0x6cfea4",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfea8",
+            "ea": "0x6cfea8",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfeac",
+            "ea": "0x6cfeac",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfeb0",
+            "ea": "0x6cfeb0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfeb4",
+            "ea": "0x6cfeb4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfeb8",
+            "ea": "0x6cfeb8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfebc",
+            "ea": "0x6cfebc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfec0",
+            "ea": "0x6cfec0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfec4",
+            "ea": "0x6cfec4",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfec8",
+            "ea": "0x6cfec8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfecc",
+            "ea": "0x6cfecc",
+            "length": 8
+          },
+          {
+            "addr": "0x6cfed0",
+            "ea": "0x6cfed0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfed4",
+            "ea": "0x6cfed4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfed8",
+            "ea": "0x6cfed8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfedc",
+            "ea": "0x6cfedc",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfee0",
+            "ea": "0x6cfee0",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cfee4",
+            "ea": "0x6cfee4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfee8",
+            "ea": "0x6cfee8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfeec",
+            "ea": "0x6cfeec",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfef0",
+            "ea": "0x6cfef0",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfef4",
+            "ea": "0x6cfef4",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfef8",
+            "ea": "0x6cfef8",
+            "length": 4
+          },
+          {
+            "addr": "0x6cfefc",
+            "ea": "0x6cfefc",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff00",
+            "ea": "0x6cff00",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff04",
+            "ea": "0x6cff04",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff08",
+            "ea": "0x6cff08",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff0c",
+            "ea": "0x6cff0c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff10",
+            "ea": "0x6cff10",
+            "length": 8
+          },
+          {
+            "addr": "0x6cff14",
+            "ea": "0x6cff14",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff18",
+            "ea": "0x6cff18",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff1c",
+            "ea": "0x6cff1c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff20",
+            "ea": "0x6cff20",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff24",
+            "ea": "0x6cff24",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff28",
+            "ea": "0x6cff28",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff2c",
+            "ea": "0x6cff2c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff30",
+            "ea": "0x6cff30",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff34",
+            "ea": "0x6cff34",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff38",
+            "ea": "0x6cff38",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff3c",
+            "ea": "0x6cff3c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff40",
+            "ea": "0x6cff40",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff44",
+            "ea": "0x6cff44",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff48",
+            "ea": "0x6cff48",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff4c",
+            "ea": "0x6cff4c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff50",
+            "ea": "0x6cff50",
+            "length": 8
+          },
+          {
+            "addr": "0x6cff54",
+            "ea": "0x6cff54",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff58",
+            "ea": "0x6cff58",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff5c",
+            "ea": "0x6cff5c",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff60",
+            "ea": "0x6cff60",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff64",
+            "ea": "0x6cff64",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff68",
+            "ea": "0x6cff68",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff6c",
+            "ea": "0x6cff6c",
+            "length": 8
+          },
+          {
+            "addr": "0x6cff70",
+            "ea": "0x6cff70",
+            "error": "Failed to create instruction"
+          },
+          {
+            "addr": "0x6cff74",
+            "ea": "0x6cff74",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff78",
+            "ea": "0x6cff78",
+            "length": 4
+          },
+          {
+            "addr": "0x6cff7c",
+            "ea": "0x6cff7c",
+            "length": 4
+          }
+        ]
+      },
+      "isError": false
+    },
+    "id": 1
+  },
+  "define_func": {
+    "jsonrpc": "2.0",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"addr\":\"0x6cfa68\",\"start\":\"0x6cfa68\",\"end\":\"0x6cff80\"}]"
+        }
+      ],
+      "structuredContent": {
+        "result": [
+          {
+            "addr": "0x6cfa68",
+            "start": "0x6cfa68",
+            "end": "0x6cff80"
+          }
+        ]
+      },
+      "isError": false
+    },
+    "id": 1
+  }
+}

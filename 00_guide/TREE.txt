@@ -1,0 +1,2111 @@
+PrismSUN-research-20261018-r1/
+├── 00_guide/
+│   ├── ARCHITECTURE.zh-CN.md
+│   ├── BUILD_AND_RESTORE.zh-CN.md
+│   ├── CURRENT_STATUS.zh-CN.md
+│   ├── EXCLUSIONS.json
+│   ├── FILE_INDEX.csv
+│   ├── HISTORICAL_MANIFEST_AUDIT.zh-CN.md
+│   ├── MODULE_MAP.zh-CN.md
+│   ├── PACKAGING_AUDIT.json
+│   ├── PORTABLE_LINK_CHECK.json
+│   ├── TREE.txt
+│   ├── historical-manifest-audit.json
+│   ├── report-link-audit.json
+│   └── source-include-check.json
+├── 01_source/
+│   └── research/
+│       ├── accessibility/
+│       │   ├── scripts/
+│       │   │   ├── build.ps1
+│       │   │   ├── capture-chain.py
+│       │   │   ├── consumer_original.py
+│       │   │   ├── hash_crc_table.py
+│       │   │   ├── hash_original.py
+│       │   │   ├── hash_scheduling.py
+│       │   │   ├── jni-build.ps1
+│       │   │   ├── jni-capture.py
+│       │   │   ├── jni-env-build.ps1
+│       │   │   ├── jni-env-scope-emulation.py
+│       │   │   ├── jni-query.py
+│       │   │   ├── jni-short-strings.py
+│       │   │   └── verify-deliverables.py
+│       │   ├── src/
+│       │   │   ├── accessibility_core.cpp
+│       │   │   ├── accessibility_core.hpp
+│       │   │   ├── accessibility_demo.cpp
+│       │   │   ├── accessibility_env.cpp
+│       │   │   ├── accessibility_env.hpp
+│       │   │   ├── accessibility_jni.cpp
+│       │   │   ├── accessibility_jni.hpp
+│       │   │   ├── accessibility_monitor.cpp
+│       │   │   └── accessibility_monitor.hpp
+│       │   ├── tests/
+│       │   │   ├── jni_adapter_tests.cpp
+│       │   │   ├── jni_env_tests.cpp
+│       │   │   ├── test_core.py
+│       │   │   └── test_hash.py
+│       │   └── CMakeLists.txt
+│       ├── aggregate/
+│       │   └── CMakeLists.txt
+│       ├── chain_closure_20261018/
+│       │   ├── scripts/
+│       │   │   ├── build.ps1
+│       │   │   ├── check_idb_header.py
+│       │   │   ├── decode_strings.py
+│       │   │   ├── evidence_view.py
+│       │   │   └── verify.py
+│       │   ├── src/
+│       │   │   ├── android_collectors.cpp
+│       │   │   ├── android_collectors.hpp
+│       │   │   ├── classes_jni.cpp
+│       │   │   ├── classes_jni.hpp
+│       │   │   ├── detection_chains.cpp
+│       │   │   └── detection_chains.hpp
+│       │   └── tests/
+│       │       ├── jni_tests.cpp
+│       │       └── unit_tests.cpp
+│       ├── device_identity/
+│       │   ├── scripts/
+│       │   │   ├── activity_original.py
+│       │   │   ├── apk_original.py
+│       │   │   ├── apk_wrapper_original.py
+│       │   │   ├── build.ps1
+│       │   │   ├── collectors_original.py
+│       │   │   ├── device_fixture.py
+│       │   │   ├── event_boundaries_original.py
+│       │   │   ├── event_original.py
+│       │   │   ├── finalize_artifacts.py
+│       │   │   ├── ida_capture.py
+│       │   │   ├── packet_original.py
+│       │   │   ├── pipeline_original.py
+│       │   │   ├── registration_original.py
+│       │   │   ├── ring_original.py
+│       │   │   ├── session_original.py
+│       │   │   └── static_probe.py
+│       │   ├── src/
+│       │   │   ├── android_adapter.cpp
+│       │   │   ├── android_adapter.hpp
+│       │   │   ├── crypto.cpp
+│       │   │   ├── identity.cpp
+│       │   │   ├── identity.hpp
+│       │   │   └── main.cpp
+│       │   ├── tests/
+│       │   │   ├── unit_tests.cpp
+│       │   │   └── verify.py
+│       │   ├── .clang-format
+│       │   └── CMakeLists.txt
+│       ├── environment_memory/
+│       │   ├── scripts/
+│       │   │   ├── build.ps1
+│       │   │   ├── generate_saved_vectors.py
+│       │   │   └── verify_delivery.py
+│       │   ├── src/
+│       │   │   ├── environment_memory.cpp
+│       │   │   ├── environment_memory.hpp
+│       │   │   ├── input_methods_jni.cpp
+│       │   │   ├── input_methods_jni.hpp
+│       │   │   └── main.cpp
+│       │   ├── tests/
+│       │   │   ├── jni_adapter_tests.cpp
+│       │   │   ├── saved_digest_vectors.inc
+│       │   │   ├── test_ime_hash.py
+│       │   │   ├── test_integrity_digest.py
+│       │   │   └── unit_tests.cpp
+│       │   └── CMakeLists.txt
+│       ├── mcp_clock/
+│       │   ├── scripts/
+│       │   │   ├── build.ps1
+│       │   │   ├── generate_sha_constants.py
+│       │   │   └── verify_delivery.py
+│       │   ├── src/
+│       │   │   ├── clock_chain.cpp
+│       │   │   ├── clock_chain.hpp
+│       │   │   ├── crypto.cpp
+│       │   │   ├── main.cpp
+│       │   │   ├── mcp_chain.cpp
+│       │   │   ├── mcp_chain.hpp
+│       │   │   └── sha_constants.inc
+│       │   ├── tests/
+│       │   │   ├── oracle_tests.py
+│       │   │   └── unit_tests.cpp
+│       │   └── CMakeLists.txt
+│       ├── scripts/
+│       │   ├── bounded_arm64.py
+│       │   ├── build_all_detections.ps1
+│       │   ├── build_class_probe.ps1
+│       │   ├── build_helpers.ps1
+│       │   ├── build_observed_models.ps1
+│       │   ├── build_shared_ring.ps1
+│       │   ├── capture_arm64_range.py
+│       │   ├── decode_prefixes.py
+│       │   ├── decode_stage2.py
+│       │   ├── elf_inventory.py
+│       │   ├── index_stage2_calls.py
+│       │   ├── package_source.ps1
+│       │   ├── retry_differential.py
+│       │   ├── test_class_probe.py
+│       │   ├── test_differential.py
+│       │   ├── test_filter_policy.py
+│       │   ├── test_observed_models.py
+│       │   ├── test_shared_ring.py
+│       │   ├── trace_state_offsets.py
+│       │   └── verify_digest_decode.py
+│       └── src/
+│           ├── class_probe_model.cpp
+│           ├── class_probe_model.h
+│           ├── jni_layout_check.cpp
+│           ├── observed_models.cpp
+│           ├── observed_models.h
+│           ├── shared_ring_model.cpp
+│           ├── shared_ring_model.h
+│           ├── test_helpers.cpp
+│           ├── verified_helpers.cpp
+│           └── verified_helpers.h
+├── 02_reports/
+│   └── research/
+│       ├── accessibility/
+│       │   ├── notes/
+│       │   │   ├── accessibility-jni.md
+│       │   │   ├── hash.md
+│       │   │   └── scheduling.md
+│       │   ├── README.zh-CN.md
+│       │   └── REPORT.zh-CN.md
+│       ├── chain_closure_20261018/
+│       │   ├── evidence/
+│       │   │   └── PROGRESS.before.md
+│       │   ├── CHAIN_NOTES.zh-CN.md
+│       │   ├── README.md
+│       │   └── REPORT.zh-CN.md
+│       ├── coverage_audit_20261018/
+│       │   └── REPORT.zh-CN.md
+│       ├── debug_apk_assessment_20261018/
+│       │   └── REPORT.zh-CN.md
+│       ├── detection_inventory/
+│       │   └── README.zh-CN.md
+│       ├── device_identity/
+│       │   ├── evidence/
+│       │   │   └── INDEX.md
+│       │   ├── README.md
+│       │   └── REPORT.zh-CN.md
+│       ├── environment_memory/
+│       │   ├── evidence/
+│       │   │   └── INDEX.md
+│       │   ├── README.md
+│       │   └── REPORT.zh-CN.md
+│       ├── mcp_clock/
+│       │   ├── evidence/
+│       │   │   └── INDEX.md
+│       │   ├── README.md
+│       │   └── REPORT.zh-CN.md
+│       ├── PROGRESS.md
+│       ├── README.md
+│       └── REPORT.zh-CN.md
+├── 03_evidence/
+│   ├── original_documents/
+│   │   └── research/
+│   │       ├── accessibility/
+│   │       │   ├── notes/
+│   │       │   │   ├── accessibility-jni.md
+│   │       │   │   ├── hash.md
+│   │       │   │   └── scheduling.md
+│   │       │   ├── README.zh-CN.md
+│   │       │   └── REPORT.zh-CN.md
+│   │       ├── chain_closure_20261018/
+│   │       │   ├── evidence/
+│   │       │   │   └── PROGRESS.before.md
+│   │       │   ├── CHAIN_NOTES.zh-CN.md
+│   │       │   ├── README.md
+│   │       │   └── REPORT.zh-CN.md
+│   │       ├── coverage_audit_20261018/
+│   │       │   └── REPORT.zh-CN.md
+│   │       ├── debug_apk_assessment_20261018/
+│   │       │   └── REPORT.zh-CN.md
+│   │       ├── detection_inventory/
+│   │       │   └── README.zh-CN.md
+│   │       ├── device_identity/
+│   │       │   ├── evidence/
+│   │       │   │   └── INDEX.md
+│   │       │   ├── README.md
+│   │       │   └── REPORT.zh-CN.md
+│   │       ├── environment_memory/
+│   │       │   ├── evidence/
+│   │       │   │   └── INDEX.md
+│   │       │   ├── README.md
+│   │       │   └── REPORT.zh-CN.md
+│   │       ├── mcp_clock/
+│   │       │   ├── evidence/
+│   │       │   │   └── INDEX.md
+│   │       │   ├── README.md
+│   │       │   └── REPORT.zh-CN.md
+│   │       ├── PROGRESS.md
+│   │       ├── README.md
+│   │       └── REPORT.zh-CN.md
+│   └── research/
+│       ├── accessibility/
+│       │   ├── decompiled/
+│       │   │   ├── 0x2a7fec.c
+│       │   │   ├── 0x2a7fec.json
+│       │   │   ├── 0x2a8048.c
+│       │   │   ├── 0x2a8048.json
+│       │   │   ├── 0x2a829c.c
+│       │   │   ├── 0x2a829c.json
+│       │   │   ├── 0x2a8358.c
+│       │   │   ├── 0x2a8358.json
+│       │   │   ├── 0x2b2208.c
+│       │   │   ├── 0x2b2208.json
+│       │   │   ├── 0x2bfd70.c
+│       │   │   ├── 0x2bfd70.json
+│       │   │   ├── 0x3b8c40.c
+│       │   │   ├── 0x3b8c40.json
+│       │   │   ├── 0x3da558.json
+│       │   │   ├── 0x40593c.c
+│       │   │   ├── 0x40593c.json
+│       │   │   ├── 0x405940.c
+│       │   │   ├── 0x405940.json
+│       │   │   ├── 0x417dd0.c
+│       │   │   ├── 0x417dd0.json
+│       │   │   ├── 0x4181a0.c
+│       │   │   ├── 0x4181a0.json
+│       │   │   ├── 0x42f1d8.c
+│       │   │   ├── 0x42f1d8.json
+│       │   │   ├── 0x4370b0.c
+│       │   │   ├── 0x4370b0.json
+│       │   │   ├── 0x4498cc.c
+│       │   │   ├── 0x4498cc.json
+│       │   │   ├── 0x4daa54.c
+│       │   │   ├── 0x4daa54.json
+│       │   │   ├── 0x4db0c4.c
+│       │   │   ├── 0x4db0c4.json
+│       │   │   ├── 0x591164.c
+│       │   │   ├── 0x591164.json
+│       │   │   ├── 0x591620.c
+│       │   │   ├── 0x591620.json
+│       │   │   ├── 0x592f20.c
+│       │   │   ├── 0x592f20.json
+│       │   │   ├── 0x635514.c
+│       │   │   ├── 0x635514.json
+│       │   │   ├── 0x6b00fc.c
+│       │   │   ├── 0x6b00fc.json
+│       │   │   ├── 0x6cc8d0.json
+│       │   │   ├── 0x6cccf4.c
+│       │   │   ├── 0x6cccf4.json
+│       │   │   ├── 0x6cce80.json
+│       │   │   ├── 0x6cced8.c
+│       │   │   ├── 0x6cced8.json
+│       │   │   ├── 0x6cd3cc.c
+│       │   │   ├── 0x6cd3cc.json
+│       │   │   ├── 0x6cd77c.json
+│       │   │   ├── 0x6cdb6c.json
+│       │   │   ├── 0x6cdbec.json
+│       │   │   ├── 0x6cdfb4.json
+│       │   │   ├── 0x6ce3b4.json
+│       │   │   ├── 0x6ce3ec.json
+│       │   │   ├── 0x6ce7ec.json
+│       │   │   ├── 0x6ce880.json
+│       │   │   ├── 0x6ced50.json
+│       │   │   ├── 0x6cf0c8.c
+│       │   │   ├── 0x6cf0c8.json
+│       │   │   ├── 0x6cf6d4.json
+│       │   │   ├── 0x6cfa68.json
+│       │   │   ├── 0x6d4374.c
+│       │   │   ├── 0x6d4374.json
+│       │   │   ├── 0x6d49a8.c
+│       │   │   ├── 0x6d49a8.json
+│       │   │   ├── 0x6dd874.c
+│       │   │   ├── 0x6dd874.json
+│       │   │   ├── 0x6dd8b0.c
+│       │   │   ├── 0x6dd8b0.json
+│       │   │   ├── 0x6dd8b4.c
+│       │   │   ├── 0x6dd8b4.json
+│       │   │   ├── 0x6dd8c4.c
+│       │   │   ├── 0x6dd8c4.json
+│       │   │   ├── 0x6dd8cc.c
+│       │   │   ├── 0x6dd8cc.json
+│       │   │   ├── 0x6dd8d0.c
+│       │   │   ├── 0x6dd8d0.json
+│       │   │   ├── 0x6dd92c.c
+│       │   │   └── 0x6dd92c.json
+│       │   ├── evidence/
+│       │   │   ├── rea/
+│       │   │   │   ├── analyze_function.json
+│       │   │   │   ├── analyze_function_0x31b73c.json
+│       │   │   │   ├── analyze_function_0x6cf0c8.json
+│       │   │   │   ├── analyze_function_0x6d4374.json
+│       │   │   │   ├── binary_session.json
+│       │   │   │   ├── binary_session_after_close.json
+│       │   │   │   ├── catalog.json
+│       │   │   │   ├── close_binary.json
+│       │   │   │   ├── open_binary.json
+│       │   │   │   ├── stderr.log
+│       │   │   │   └── summary.json
+│       │   │   ├── before.json
+│       │   │   ├── build.json
+│       │   │   ├── consumer-raw.json
+│       │   │   ├── core-differential.json
+│       │   │   ├── core-final-replay.json
+│       │   │   ├── database-save.json
+│       │   │   ├── final-verification.json
+│       │   │   ├── hash-0x1053a8-decompile.json
+│       │   │   ├── hash-0x106128-decompile.json
+│       │   │   ├── hash-0x109f10-decompile.json
+│       │   │   ├── hash-0x10a218-decompile.json
+│       │   │   ├── hash-0x11a3bc-decompile.json
+│       │   │   ├── hash-0x12d0d4-decompile.json
+│       │   │   ├── hash-0x189c08-decompile.json
+│       │   │   ├── hash-0x189c64-decompile.json
+│       │   │   ├── hash-0x189d50-decompile.json
+│       │   │   ├── hash-0x191368-decompile.json
+│       │   │   ├── hash-0x1913c8-decompile.json
+│       │   │   ├── hash-0x195f58-decompile.json
+│       │   │   ├── hash-0x19c47c-decompile.json
+│       │   │   ├── hash-0x1d615c-decompile.json
+│       │   │   ├── hash-0x22f6d0-decompile.json
+│       │   │   ├── hash-0x22f96c-decompile.json
+│       │   │   ├── hash-0x22fb48-decompile.json
+│       │   │   ├── hash-0x230088-decompile.json
+│       │   │   ├── hash-0x6d4374-decompile.json
+│       │   │   ├── hash-0x6d680c-decompile.json
+│       │   │   ├── hash-0x6d7108-decompile.json
+│       │   │   ├── hash-0x6d7678-decompile.json
+│       │   │   ├── hash-0x6d8c00-decompile.json
+│       │   │   ├── hash-0x785874-decompile.json
+│       │   │   ├── hash-0xb6704-decompile.json
+│       │   │   ├── hash-0xd038c-decompile.json
+│       │   │   ├── hash-0xd456c-decompile.json
+│       │   │   ├── hash-22f618.asm
+│       │   │   ├── hash-6d4374-decompile.json
+│       │   │   ├── hash-6d4374.asm
+│       │   │   ├── hash-6d680c.asm
+│       │   │   ├── hash-6d7108.asm
+│       │   │   ├── hash-algorithm-unicorn.json
+│       │   │   ├── hash-code-definition.json
+│       │   │   ├── hash-cpp-differential.json
+│       │   │   ├── hash-crc-table.json
+│       │   │   ├── hash-differential-initial.json
+│       │   │   ├── hash-differential.json
+│       │   │   ├── hash-first-complete.json
+│       │   │   ├── hash-upstream-0x1a3848.json
+│       │   │   ├── hash-upstream-0x240b88.json
+│       │   │   ├── hash-upstream-0x4ea8b8.json
+│       │   │   ├── hash-upstream-0x601c58.json
+│       │   │   ├── hash-upstream-0x631408.json
+│       │   │   ├── hash-upstream-0x63a1e0.json
+│       │   │   ├── hash-upstream-0x6b6a78.json
+│       │   │   ├── hash-upstream-0x6b7340.json
+│       │   │   ├── hash-upstream-0x6b7508.json
+│       │   │   ├── hash-upstream-0x6b7928.json
+│       │   │   ├── hash-upstream-0x6b827c.json
+│       │   │   ├── hash-upstream-0x6b98a4.json
+│       │   │   ├── hash-upstream-0x6bb444.json
+│       │   │   ├── hash-upstream-0x6c05b4.json
+│       │   │   ├── hash-upstream-0x6c80e0.json
+│       │   │   ├── hash-upstream-0x6caf5c.json
+│       │   │   ├── hash-upstream-0x6cb328.json
+│       │   │   ├── hash-upstream-0x6cbc50.json
+│       │   │   ├── hash-upstream-0x6cc6b0.json
+│       │   │   ├── hash-upstream-0x6cc8d0.json
+│       │   │   ├── hash-upstream-0x6ccab0.json
+│       │   │   ├── hash-upstream-0x6ccb14.json
+│       │   │   ├── hash-upstream-0x6cced8.json
+│       │   │   ├── hash-upstream-0x6cd77c.json
+│       │   │   ├── hash-upstream-0x6cdbec.json
+│       │   │   ├── hash-upstream-0x6cdfb4.json
+│       │   │   ├── hash-upstream-0x6ce3ec.json
+│       │   │   ├── hash-upstream-0x6ce880.json
+│       │   │   ├── hash-upstream-0x6ced50.json
+│       │   │   ├── hash-upstream-0x6cf6d4.json
+│       │   │   ├── hash-upstream-0x6cfa68.json
+│       │   │   ├── hash-upstream-0x6dd5c8.json
+│       │   │   ├── hash-upstream-0x6dd5cc.json
+│       │   │   ├── hash-upstream-0x6dd5dc.json
+│       │   │   ├── hash-upstream-631408.asm
+│       │   │   ├── hash-upstream-6cbc50.asm
+│       │   │   ├── hash-upstream-6cfa68.asm
+│       │   │   ├── hash-upstream-constant-methods.json
+│       │   │   ├── hash-upstream-define-6cc6b0.json
+│       │   │   ├── hash-upstream-define-6cd77c.json
+│       │   │   ├── hash-upstream-define-6cdbec.json
+│       │   │   ├── hash-upstream-define-6cdfb4.json
+│       │   │   ├── hash-upstream-define-6ce3ec.json
+│       │   │   ├── hash-upstream-define-6ce880.json
+│       │   │   ├── hash-upstream-define-6ced50.json
+│       │   │   ├── hash-upstream-define-6cf6d4.json
+│       │   │   ├── hash-upstream-define-6cfa68.json
+│       │   │   ├── hash-upstream-factory-chain.json
+│       │   │   ├── hash-upstream-factory-constructors.json
+│       │   │   ├── hash-upstream-factory-vtable.json
+│       │   │   ├── hash-upstream-name-emulation.json
+│       │   │   ├── hash-upstream-registration-chain.json
+│       │   │   ├── hash-upstream-registration-chain2.json
+│       │   │   ├── hash-upstream-registration-parent.json
+│       │   │   ├── hash-upstream-registry-xrefs.json
+│       │   │   ├── hash-upstream-scheduling-emulation.json
+│       │   │   ├── hash-upstream-xrefs.json
+│       │   │   ├── hash-virtual-table.json
+│       │   │   ├── jni-build-verification.json
+│       │   │   ├── jni-decompile-0x2db974.c
+│       │   │   ├── jni-decompile-0x2db974.json
+│       │   │   ├── jni-decompile-0x2e00cc.c
+│       │   │   ├── jni-decompile-0x2e00cc.json
+│       │   │   ├── jni-decompile-0x2e0a2c.c
+│       │   │   ├── jni-decompile-0x2e0a2c.json
+│       │   │   ├── jni-decompile-0x2e3e98.c
+│       │   │   ├── jni-decompile-0x2e3e98.json
+│       │   │   ├── jni-decompile-0x2e4448.c
+│       │   │   ├── jni-decompile-0x2e4448.json
+│       │   │   ├── jni-decompile-0x2e5024.c
+│       │   │   ├── jni-decompile-0x2e5024.json
+│       │   │   ├── jni-decompile-0x2e5254.c
+│       │   │   ├── jni-decompile-0x2e5254.json
+│       │   │   ├── jni-decompile-0x2e579c.c
+│       │   │   ├── jni-decompile-0x2e579c.json
+│       │   │   ├── jni-decompile-0x301194.c
+│       │   │   ├── jni-decompile-0x301194.json
+│       │   │   ├── jni-decompile-0x306404.json
+│       │   │   ├── jni-decompile-0x306930.json
+│       │   │   ├── jni-decompile-0x3073fc.json
+│       │   │   ├── jni-decompile-0x3078cc.c
+│       │   │   ├── jni-decompile-0x3078cc.json
+│       │   │   ├── jni-decompile-0x320984.c
+│       │   │   ├── jni-decompile-0x320984.json
+│       │   │   ├── jni-decompile-0x320d04.c
+│       │   │   ├── jni-decompile-0x320d04.json
+│       │   │   ├── jni-decompile-0x331f98.c
+│       │   │   ├── jni-decompile-0x331f98.json
+│       │   │   ├── jni-decompile-0x332358.c
+│       │   │   ├── jni-decompile-0x332358.json
+│       │   │   ├── jni-env-build-verification.json
+│       │   │   ├── jni-env-scope-emulation.json
+│       │   │   ├── jni-raw-wrappers.json
+│       │   │   ├── jni-raw-wrappers.txt
+│       │   │   ├── jni-short-strings.json
+│       │   │   └── state-init.json
+│       │   └── CHECKPOINT.json
+│       ├── chain_closure_20261018/
+│       │   ├── evidence/
+│       │   │   ├── asm-0x3b3860.json
+│       │   │   ├── asm-0x464d9c-closure.json
+│       │   │   ├── asm-0x468a48-closure.json
+│       │   │   ├── asm-0x46dc28.json
+│       │   │   ├── asm-0x471c8c.json
+│       │   │   ├── asm-0x47a44c.json
+│       │   │   ├── asm-0x47cc00.json
+│       │   │   ├── asm-0x496f38.json
+│       │   │   ├── asm-0x593864-closure.json
+│       │   │   ├── asm-0x5cc630.json
+│       │   │   ├── asm-0x5ce9c0-closure.json
+│       │   │   ├── asm-0x5f4d50-closure.json
+│       │   │   ├── asm-0x5f53c8-closure.json
+│       │   │   ├── asm-0x5f5900-closure.json
+│       │   │   ├── asm-0x5f5eac-closure.json
+│       │   │   ├── asm-0x5f917c.json
+│       │   │   ├── asm-0x5fb6b0.json
+│       │   │   ├── asm-0x600c88-closure.json
+│       │   │   ├── asm-0x6951fc-final.json
+│       │   │   ├── asm-0x6971b8-final.json
+│       │   │   ├── asm-0x6a9794-final.json
+│       │   │   ├── build.json
+│       │   │   ├── historical-idb-header-check.json
+│       │   │   ├── historical-idb-session.json
+│       │   │   ├── host-tests.json
+│       │   │   ├── ida-0x141054.json
+│       │   │   ├── ida-0x18b3bc.json
+│       │   │   ├── ida-0x2379ec-closure.json
+│       │   │   ├── ida-0x2a6598.json
+│       │   │   ├── ida-0x2a665c.json
+│       │   │   ├── ida-0x2a7e24.json
+│       │   │   ├── ida-0x2a88b4-fixed.json
+│       │   │   ├── ida-0x2a88b4-full.json
+│       │   │   ├── ida-0x2a88b4-recovered.json
+│       │   │   ├── ida-0x2a88b4-typed.json
+│       │   │   ├── ida-0x2a88b4.json
+│       │   │   ├── ida-0x2aacd4-full.json
+│       │   │   ├── ida-0x3c563c-closure.json
+│       │   │   ├── ida-0x3c5f54.json
+│       │   │   ├── ida-0x3d764c-closure.json
+│       │   │   ├── ida-0x4058a4.json
+│       │   │   ├── ida-0x4058ac.json
+│       │   │   ├── ida-0x4058c0.json
+│       │   │   ├── ida-0x40593c-closure.json
+│       │   │   ├── ida-0x405a34.json
+│       │   │   ├── ida-0x41de58-state-review.json
+│       │   │   ├── ida-0x422e20.json
+│       │   │   ├── ida-0x42334c.json
+│       │   │   ├── ida-0x449030.json
+│       │   │   ├── ida-0x449034.json
+│       │   │   ├── ida-0x44970c.json
+│       │   │   ├── ida-0x464d9c-closure.json
+│       │   │   ├── ida-0x466bb4-closure.json
+│       │   │   ├── ida-0x46d830-closure.json
+│       │   │   ├── ida-0x46dc28-closure.json
+│       │   │   ├── ida-0x474a54.json
+│       │   │   ├── ida-0x475660.json
+│       │   │   ├── ida-0x4778bc.json
+│       │   │   ├── ida-0x47a44c-fixed.json
+│       │   │   ├── ida-0x47a44c.json
+│       │   │   ├── ida-0x47cc00.json
+│       │   │   ├── ida-0x47e398.json
+│       │   │   ├── ida-0x47fafc.json
+│       │   │   ├── ida-0x496f38-fixed.json
+│       │   │   ├── ida-0x496f38.json
+│       │   │   ├── ida-0x4a6c7c-closure.json
+│       │   │   ├── ida-0x4b51f4.json
+│       │   │   ├── ida-0x4b64a4.json
+│       │   │   ├── ida-0x4b66c8-closure.json
+│       │   │   ├── ida-0x4b66c8.json
+│       │   │   ├── ida-0x4b6aac-follow.json
+│       │   │   ├── ida-0x4b9c1c-closure.json
+│       │   │   ├── ida-0x4ba304-closure.json
+│       │   │   ├── ida-0x4ba308-closure.json
+│       │   │   ├── ida-0x4bab9c-closure.json
+│       │   │   ├── ida-0x4bdea0.json
+│       │   │   ├── ida-0x4bded4.json
+│       │   │   ├── ida-0x4bded8.json
+│       │   │   ├── ida-0x4bdedc.json
+│       │   │   ├── ida-0x4be7e0.json
+│       │   │   ├── ida-0x4be7e4.json
+│       │   │   ├── ida-0x4be7e8.json
+│       │   │   ├── ida-0x4be84c.json
+│       │   │   ├── ida-0x4be850.json
+│       │   │   ├── ida-0x4be854.json
+│       │   │   ├── ida-0x4be8b8.json
+│       │   │   ├── ida-0x4c0248.json
+│       │   │   ├── ida-0x4c02c0.json
+│       │   │   ├── ida-0x4c4ae0-state-review.json
+│       │   │   ├── ida-0x4c9d30-closure.json
+│       │   │   ├── ida-0x4c9d30-state-review.json
+│       │   │   ├── ida-0x4cb88c-closure.json
+│       │   │   ├── ida-0x4d3aac-closure.json
+│       │   │   ├── ida-0x4ec864-closure.json
+│       │   │   ├── ida-0x58c5b0-closure.json
+│       │   │   ├── ida-0x58cd1c-closure.json
+│       │   │   ├── ida-0x593864-recovered.json
+│       │   │   ├── ida-0x596e90-closure.json
+│       │   │   ├── ida-0x597284-closure.json
+│       │   │   ├── ida-0x5cd0e4-full.json
+│       │   │   ├── ida-0x5cd914-follow.json
+│       │   │   ├── ida-0x5cdc88-full.json
+│       │   │   ├── ida-0x5ce9c0-follow.json
+│       │   │   ├── ida-0x5cf3cc-full.json
+│       │   │   ├── ida-0x5d07e0-closure.json
+│       │   │   ├── ida-0x5d07e0-defined.json
+│       │   │   ├── ida-0x5d0c44-full.json
+│       │   │   ├── ida-0x5d143c-follow.json
+│       │   │   ├── ida-0x5f4d50-closure.json
+│       │   │   ├── ida-0x5f4d50-defined.json
+│       │   │   ├── ida-0x5f5eac-defined.json
+│       │   │   ├── ida-0x5f9170-follow.json
+│       │   │   ├── ida-0x5f917c-final.json
+│       │   │   ├── ida-0x5fb6ac.json
+│       │   │   ├── ida-0x5fdbe0.json
+│       │   │   ├── ida-0x5fdc64.json
+│       │   │   ├── ida-0x5fe6c4.json
+│       │   │   ├── ida-0x5fea58.json
+│       │   │   ├── ida-0x5feca8.json
+│       │   │   ├── ida-0x5fedc0-follow.json
+│       │   │   ├── ida-0x5ff604-closure.json
+│       │   │   ├── ida-0x5ff914-defined.json
+│       │   │   ├── ida-0x6008c8-closure.json
+│       │   │   ├── ida-0x6318b4.json
+│       │   │   ├── ida-0x631c44.json
+│       │   │   ├── ida-0x694c84-final.json
+│       │   │   ├── ida-0x694e5c-final.json
+│       │   │   ├── ida-0x6951fc-final.json
+│       │   │   ├── ida-0x6956d4-final.json
+│       │   │   ├── ida-0x695a3c-final.json
+│       │   │   ├── ida-0x6971b8-final.json
+│       │   │   ├── ida-0x698f10-final.json
+│       │   │   ├── ida-0x6a7cf4-final.json
+│       │   │   ├── ida-0x6a8154-final.json
+│       │   │   ├── ida-0x6a893c-final.json
+│       │   │   ├── ida-0x6a94a0-final.json
+│       │   │   ├── ida-0x6a9bcc.json
+│       │   │   ├── ida-0x6aa3ec-follow.json
+│       │   │   ├── ida-0x6aa91c-follow.json
+│       │   │   ├── ida-0x6ab124-follow.json
+│       │   │   ├── ida-0x6ab124.json
+│       │   │   ├── ida-0x6b6954.json
+│       │   │   ├── ida-0x6b6958.json
+│       │   │   ├── ida-0x6b695c.json
+│       │   │   ├── ida-0x6b6960.json
+│       │   │   ├── ida-0x6b6964.json
+│       │   │   ├── ida-0x6b6968.json
+│       │   │   ├── ida-0x6b696c.json
+│       │   │   ├── ida-0x6b6970.json
+│       │   │   ├── ida-0x6b698c.json
+│       │   │   ├── ida-0xb6704.json
+│       │   │   ├── ida-0xc9164-fixed.json
+│       │   │   ├── ida-0xc9164.json
+│       │   │   ├── ida-0xcb11c.json
+│       │   │   ├── jni-tests.json
+│       │   │   ├── protected-after.json
+│       │   │   ├── protected-before.json
+│       │   │   ├── reason-asm-0.json
+│       │   │   ├── state-offset16-search.json
+│       │   │   ├── string-static-decode.json
+│       │   │   ├── task35-factory-final.json
+│       │   │   ├── undefined-code-candidates.json
+│       │   │   └── verification.json
+│       │   └── manifest.json
+│       ├── coverage_audit_20261018/
+│       │   └── evidence/
+│       │       ├── ida-audit-initial.json
+│       │       ├── ida-audit.json
+│       │       ├── protected-after.json
+│       │       ├── protected-before.json
+│       │       ├── task-map.json
+│       │       └── verification.json
+│       ├── debug_apk_assessment_20261018/
+│       │   ├── ida-spot-check.json
+│       │   └── verification.json
+│       ├── decompiled/
+│       │   ├── 0x119f34.json
+│       │   ├── 0x11da20.json
+│       │   ├── 0x130b00.json
+│       │   ├── 0x140c9c.json
+│       │   ├── 0x2a067c.json
+│       │   ├── 0x2a63c8.json
+│       │   ├── 0x2aacd4.json
+│       │   ├── 0x2ab650.json
+│       │   ├── 0x2ac2e0.json
+│       │   ├── 0x2b2208.json
+│       │   ├── 0x2b2630.json
+│       │   ├── 0x2b2834.json
+│       │   ├── 0x2b2c7c.json
+│       │   ├── 0x2b3110.json
+│       │   ├── 0x2b47f8.json
+│       │   ├── 0x2b4b08.json
+│       │   ├── 0x2b58a8.json
+│       │   ├── 0x2bba34.json
+│       │   ├── 0x2bc258.json
+│       │   ├── 0x2bc7b0.json
+│       │   ├── 0x2bfd70.json
+│       │   ├── 0x2d9160.json
+│       │   ├── 0x2db470.json
+│       │   ├── 0x2db59c.json
+│       │   ├── 0x2db5a0.json
+│       │   ├── 0x2dce08.json
+│       │   ├── 0x301194.json
+│       │   ├── 0x305790.json
+│       │   ├── 0x306df0.json
+│       │   ├── 0x3071a8.json
+│       │   ├── 0x3079bc.json
+│       │   ├── 0x307d30.json
+│       │   ├── 0x31b73c.json
+│       │   ├── 0x34adcc.json
+│       │   ├── 0x3780ec.json
+│       │   ├── 0x37843c.json
+│       │   ├── 0x3b3860.json
+│       │   ├── 0x3b8c40.json
+│       │   ├── 0x3d764c.json
+│       │   ├── 0x3d832c.json
+│       │   ├── 0x3e250c.json
+│       │   ├── 0x406068.json
+│       │   ├── 0x40fd54.json
+│       │   ├── 0x417dd0.json
+│       │   ├── 0x4181a0.json
+│       │   ├── 0x418544.json
+│       │   ├── 0x419480.json
+│       │   ├── 0x41a260.json
+│       │   ├── 0x41de58.json
+│       │   ├── 0x4292f8.json
+│       │   ├── 0x42a4f8.json
+│       │   ├── 0x42b7dc.json
+│       │   ├── 0x449030.json
+│       │   ├── 0x449034.json
+│       │   ├── 0x44970c.json
+│       │   ├── 0x4497e0.json
+│       │   ├── 0x44d0b8.json
+│       │   ├── 0x464d9c.json
+│       │   ├── 0x466a00.json
+│       │   ├── 0x468a48.json
+│       │   ├── 0x46d830.json
+│       │   ├── 0x46dc28.json
+│       │   ├── 0x46e824.json
+│       │   ├── 0x471c8c.json
+│       │   ├── 0x47df58.json
+│       │   ├── 0x47f2c8.json
+│       │   ├── 0x47fafc.json
+│       │   ├── 0x4b9b6c.json
+│       │   ├── 0x4c02b4.json
+│       │   ├── 0x4c0718.json
+│       │   ├── 0x4c3778.json
+│       │   ├── 0x4c3f38.json
+│       │   ├── 0x4c40e0.json
+│       │   ├── 0x4c4214.json
+│       │   ├── 0x4c49ac.json
+│       │   ├── 0x4c4ae0.json
+│       │   ├── 0x4c4f88.json
+│       │   ├── 0x4c546c.json
+│       │   ├── 0x4c89cc.json
+│       │   ├── 0x4cb88c.json
+│       │   ├── 0x4daa54.json
+│       │   ├── 0x4dae04.json
+│       │   ├── 0x4db0c4.json
+│       │   ├── 0x4db9cc.json
+│       │   ├── 0x4df3c8.json
+│       │   ├── 0x4e0374.json
+│       │   ├── 0x4e0f04.json
+│       │   ├── 0x51f85c.json
+│       │   ├── 0x51fc30.json
+│       │   ├── 0x56b300.json
+│       │   ├── 0x56b304.json
+│       │   ├── 0x56b334.json
+│       │   ├── 0x56b348.json
+│       │   ├── 0x56b3cc.json
+│       │   ├── 0x56b7ec.json
+│       │   ├── 0x591164.json
+│       │   ├── 0x591620.json
+│       │   ├── 0x591e24.json
+│       │   ├── 0x59240c.json
+│       │   ├── 0x59383c.json
+│       │   ├── 0x593840.json
+│       │   ├── 0x5a7be4.json
+│       │   ├── 0x5ae1d4.json
+│       │   ├── 0x5b6ff4.json
+│       │   ├── 0x5b6ff8.json
+│       │   ├── 0x5b8524.json
+│       │   ├── 0x5b8a10.json
+│       │   ├── 0x5b9674.json
+│       │   ├── 0x5b9df4.json
+│       │   ├── 0x5c433c.json
+│       │   ├── 0x5cc270.json
+│       │   ├── 0x5cc27c.json
+│       │   ├── 0x5cc298.json
+│       │   ├── 0x5cc29c.json
+│       │   ├── 0x5cc2a0.json
+│       │   ├── 0x5cc540.json
+│       │   ├── 0x632054.json
+│       │   ├── 0x634e84.json
+│       │   ├── 0x635514.json
+│       │   ├── 0x63a238.json
+│       │   ├── 0x63a23c.json
+│       │   ├── 0x63a240.json
+│       │   ├── 0x63a244.json
+│       │   ├── 0x650898.json
+│       │   ├── 0x66e838.json
+│       │   ├── 0x68cbe0.json
+│       │   ├── 0x6ab3d8.json
+│       │   ├── 0x6ae288.json
+│       │   ├── 0x6b0660.json
+│       │   ├── 0x6b0998.json
+│       │   ├── 0x6cf0c8.json
+│       │   ├── 0x6f4218.json
+│       │   ├── 0x7153a8.json
+│       │   ├── 0x725854.json
+│       │   ├── 0x725858.json
+│       │   ├── 0x72585c.json
+│       │   ├── 0x725860.json
+│       │   ├── 0x744750.json
+│       │   ├── 0x7457ac.json
+│       │   ├── 0xb6704.json
+│       │   ├── 0xcf83c.json
+│       │   ├── 0xf5198.json
+│       │   ├── getSharedMemory.json
+│       │   └── startParadise.json
+│       ├── detection_inventory/
+│       │   └── evidence.json
+│       ├── device_identity/
+│       │   ├── decompiled/
+│       │   │   ├── 0x121fd0.c
+│       │   │   ├── 0x121fd0.json
+│       │   │   ├── 0x2a6598.c
+│       │   │   ├── 0x2a6598.json
+│       │   │   ├── 0x2a7e24.c
+│       │   │   ├── 0x2a7e24.json
+│       │   │   ├── 0x2e5c18.c
+│       │   │   ├── 0x2e5c18.json
+│       │   │   ├── 0x3780ec.c
+│       │   │   ├── 0x3780ec.json
+│       │   │   ├── 0x37843c.c
+│       │   │   ├── 0x37843c.json
+│       │   │   ├── 0x37fb88.json
+│       │   │   ├── 0x4c0718.c
+│       │   │   ├── 0x4c0718.json
+│       │   │   ├── 0x4c4ae0.c
+│       │   │   ├── 0x4c4ae0.json
+│       │   │   ├── 0x4c87e8.c
+│       │   │   ├── 0x4c87e8.json
+│       │   │   ├── 0x4c9d30.c
+│       │   │   ├── 0x4c9d30.json
+│       │   │   ├── 0x4ce0f4.c
+│       │   │   ├── 0x4ce0f4.json
+│       │   │   ├── 0x4d1f14.c
+│       │   │   ├── 0x4d1f14.json
+│       │   │   ├── 0x4d92b4.c
+│       │   │   ├── 0x4d92b4.json
+│       │   │   ├── 0x4df3c8.c
+│       │   │   ├── 0x4df3c8.json
+│       │   │   ├── 0x4dfc3c.c
+│       │   │   ├── 0x4dfc3c.json
+│       │   │   ├── 0x51e9c4.c
+│       │   │   ├── 0x51e9c4.json
+│       │   │   ├── 0x51f85c.c
+│       │   │   ├── 0x51f85c.json
+│       │   │   ├── 0x56b7ec.c
+│       │   │   ├── 0x56b7ec.json
+│       │   │   ├── 0x56b900.c
+│       │   │   ├── 0x56b900.json
+│       │   │   ├── 0x56b96c.c
+│       │   │   ├── 0x56b96c.json
+│       │   │   ├── 0x56b990.c
+│       │   │   ├── 0x56b990.json
+│       │   │   ├── 0x56eae4.c
+│       │   │   ├── 0x56eae4.json
+│       │   │   ├── 0x58c5b0.c
+│       │   │   ├── 0x58c5b0.json
+│       │   │   ├── 0x58cd1c.c
+│       │   │   ├── 0x58cd1c.json
+│       │   │   ├── 0x58fac8.c
+│       │   │   ├── 0x58fac8.json
+│       │   │   ├── 0x591b70.c
+│       │   │   ├── 0x591b70.json
+│       │   │   ├── 0x593830.c
+│       │   │   ├── 0x593830.json
+│       │   │   ├── 0x593864.c
+│       │   │   ├── 0x593864.json
+│       │   │   ├── 0x59417c.c
+│       │   │   ├── 0x59417c.json
+│       │   │   ├── 0x5959c8.c
+│       │   │   ├── 0x5959c8.json
+│       │   │   ├── 0x596028.c
+│       │   │   ├── 0x596028.json
+│       │   │   ├── 0x596b58.c
+│       │   │   ├── 0x596b58.json
+│       │   │   ├── 0x596e90.c
+│       │   │   ├── 0x596e90.json
+│       │   │   ├── 0x597284.c
+│       │   │   ├── 0x597284.json
+│       │   │   ├── 0x5a79e0.c
+│       │   │   ├── 0x5a79e0.json
+│       │   │   ├── 0x5a79e4.c
+│       │   │   ├── 0x5a79e4.json
+│       │   │   ├── 0x5a7be4.c
+│       │   │   ├── 0x5a7be4.json
+│       │   │   ├── 0x5a8148.json
+│       │   │   ├── 0x5ae1d4.c
+│       │   │   ├── 0x5ae1d4.json
+│       │   │   ├── 0x5b77d8.c
+│       │   │   ├── 0x5b77d8.json
+│       │   │   ├── 0x5b7cd0.c
+│       │   │   ├── 0x5b7cd0.json
+│       │   │   ├── 0x5b7cd4.c
+│       │   │   ├── 0x5b7cd4.json
+│       │   │   ├── 0x5b9df4.c
+│       │   │   ├── 0x5b9df4.json
+│       │   │   ├── 0x5ba370.c
+│       │   │   ├── 0x5ba370.json
+│       │   │   ├── 0x5ba690.c
+│       │   │   ├── 0x5ba690.json
+│       │   │   ├── 0x5bb788.c
+│       │   │   ├── 0x5bb788.json
+│       │   │   ├── 0x5bcdd8.c
+│       │   │   ├── 0x5bcdd8.json
+│       │   │   ├── 0x5bd9d8.c
+│       │   │   ├── 0x5bd9d8.json
+│       │   │   ├── 0x5c4824.json
+│       │   │   ├── 0x5cc2c0.c
+│       │   │   ├── 0x5cc2c0.json
+│       │   │   ├── 0x5cc2c8.c
+│       │   │   ├── 0x5cc2c8.json
+│       │   │   ├── 0x5cc2cc.c
+│       │   │   ├── 0x5cc2cc.json
+│       │   │   ├── 0x5cc2f0.c
+│       │   │   ├── 0x5cc2f0.json
+│       │   │   ├── 0x5cc300.c
+│       │   │   ├── 0x5cc300.json
+│       │   │   ├── 0x5d8330.c
+│       │   │   ├── 0x5d8330.json
+│       │   │   ├── 0x5d8e44.c
+│       │   │   ├── 0x5d8e44.json
+│       │   │   ├── 0x5da398.c
+│       │   │   ├── 0x5da398.json
+│       │   │   ├── 0x6b0998.c
+│       │   │   ├── 0x6b0998.json
+│       │   │   ├── 0x7133e8.c
+│       │   │   ├── 0x7133e8.json
+│       │   │   ├── 0x713778.c
+│       │   │   ├── 0x713778.json
+│       │   │   ├── 0x713bd8.c
+│       │   │   ├── 0x713bd8.json
+│       │   │   ├── 0x7144a0.c
+│       │   │   ├── 0x7144a0.json
+│       │   │   ├── 0x7149d8.c
+│       │   │   ├── 0x7149d8.json
+│       │   │   ├── 0x714d58.c
+│       │   │   ├── 0x714d58.json
+│       │   │   ├── 0x715038.c
+│       │   │   ├── 0x715038.json
+│       │   │   ├── 0x7153a8.c
+│       │   │   ├── 0x7153a8.json
+│       │   │   ├── 0x718418.c
+│       │   │   ├── 0x718418.json
+│       │   │   ├── 0x719668.c
+│       │   │   ├── 0x719668.json
+│       │   │   ├── 0x71bbb4.c
+│       │   │   ├── 0x71bbb4.json
+│       │   │   ├── 0x71c078.c
+│       │   │   ├── 0x71c078.json
+│       │   │   ├── 0x71c4d8.c
+│       │   │   ├── 0x71c4d8.json
+│       │   │   ├── 0x721004.c
+│       │   │   ├── 0x721004.json
+│       │   │   ├── 0x721360.c
+│       │   │   ├── 0x721360.json
+│       │   │   ├── 0x72583c.c
+│       │   │   ├── 0x72583c.json
+│       │   │   ├── 0x725840.c
+│       │   │   ├── 0x725840.json
+│       │   │   ├── 0x725844.c
+│       │   │   ├── 0x725844.json
+│       │   │   ├── 0x725934.c
+│       │   │   ├── 0x725934.json
+│       │   │   ├── 0x725938.c
+│       │   │   ├── 0x725938.json
+│       │   │   ├── 0x725948.c
+│       │   │   ├── 0x725948.json
+│       │   │   ├── 0x725950.c
+│       │   │   ├── 0x725950.json
+│       │   │   ├── 0x725b28.c
+│       │   │   ├── 0x725b28.json
+│       │   │   ├── 0x725b48.c
+│       │   │   ├── 0x725b48.json
+│       │   │   ├── 0x785b94.c
+│       │   │   ├── 0x785b94.json
+│       │   │   ├── 0x7861c8.c
+│       │   │   ├── 0x7861c8.json
+│       │   │   ├── 0xf6a1c.c
+│       │   │   ├── 0xf6a1c.json
+│       │   │   ├── 0xf7fac.c
+│       │   │   └── 0xf7fac.json
+│       │   └── evidence/
+│       │       ├── activity-original.json
+│       │       ├── after.json
+│       │       ├── apk-original.json
+│       │       ├── apk-wrapper-original.json
+│       │       ├── asm-0x121fd0.json
+│       │       ├── asm-0x121fd0.txt
+│       │       ├── asm-0x2a6598.json
+│       │       ├── asm-0x2a6598.txt
+│       │       ├── asm-0x2a7e24.json
+│       │       ├── asm-0x2a7e24.txt
+│       │       ├── asm-0x2aacd4.json
+│       │       ├── asm-0x2aacd4.txt
+│       │       ├── asm-0x2e5c18.json
+│       │       ├── asm-0x2e5c18.txt
+│       │       ├── asm-0x3780ec.json
+│       │       ├── asm-0x3780ec.txt
+│       │       ├── asm-0x37843c.json
+│       │       ├── asm-0x37843c.txt
+│       │       ├── asm-0x37fb88.json
+│       │       ├── asm-0x37fb88.txt
+│       │       ├── asm-0x3dc58.json
+│       │       ├── asm-0x3dc58.txt
+│       │       ├── asm-0x4c0718.json
+│       │       ├── asm-0x4c0718.txt
+│       │       ├── asm-0x4c4ae0.json
+│       │       ├── asm-0x4c4ae0.txt
+│       │       ├── asm-0x4c87e8.json
+│       │       ├── asm-0x4c87e8.txt
+│       │       ├── asm-0x4c9d30.json
+│       │       ├── asm-0x4c9d30.txt
+│       │       ├── asm-0x4cb88c.json
+│       │       ├── asm-0x4cb88c.txt
+│       │       ├── asm-0x4ce0f4.json
+│       │       ├── asm-0x4ce0f4.txt
+│       │       ├── asm-0x4d1f14.json
+│       │       ├── asm-0x4d1f14.txt
+│       │       ├── asm-0x4d92b4.json
+│       │       ├── asm-0x4d92b4.txt
+│       │       ├── asm-0x4df3c8.json
+│       │       ├── asm-0x4df3c8.txt
+│       │       ├── asm-0x4dfc3c.json
+│       │       ├── asm-0x4dfc3c.txt
+│       │       ├── asm-0x51e9c4.json
+│       │       ├── asm-0x51e9c4.txt
+│       │       ├── asm-0x51f85c.json
+│       │       ├── asm-0x51f85c.txt
+│       │       ├── asm-0x56b7ec.json
+│       │       ├── asm-0x56b7ec.txt
+│       │       ├── asm-0x56b900.json
+│       │       ├── asm-0x56b900.txt
+│       │       ├── asm-0x56b96c.json
+│       │       ├── asm-0x56b96c.txt
+│       │       ├── asm-0x56b990.json
+│       │       ├── asm-0x56b990.txt
+│       │       ├── asm-0x56eae4.json
+│       │       ├── asm-0x56eae4.txt
+│       │       ├── asm-0x58c5b0.json
+│       │       ├── asm-0x58c5b0.txt
+│       │       ├── asm-0x58cd1c.json
+│       │       ├── asm-0x58cd1c.txt
+│       │       ├── asm-0x58fac8.json
+│       │       ├── asm-0x58fac8.txt
+│       │       ├── asm-0x591b70.json
+│       │       ├── asm-0x591b70.txt
+│       │       ├── asm-0x593830.json
+│       │       ├── asm-0x593830.txt
+│       │       ├── asm-0x593864.json
+│       │       ├── asm-0x593864.txt
+│       │       ├── asm-0x59417c.json
+│       │       ├── asm-0x59417c.txt
+│       │       ├── asm-0x5959c8.json
+│       │       ├── asm-0x5959c8.txt
+│       │       ├── asm-0x596028.json
+│       │       ├── asm-0x596028.txt
+│       │       ├── asm-0x596b58.json
+│       │       ├── asm-0x596b58.txt
+│       │       ├── asm-0x596e90.json
+│       │       ├── asm-0x596e90.txt
+│       │       ├── asm-0x597284.json
+│       │       ├── asm-0x597284.txt
+│       │       ├── asm-0x5a79e0.json
+│       │       ├── asm-0x5a79e0.txt
+│       │       ├── asm-0x5a79e4.json
+│       │       ├── asm-0x5a79e4.txt
+│       │       ├── asm-0x5a7be4.json
+│       │       ├── asm-0x5a7be4.txt
+│       │       ├── asm-0x5a8148.json
+│       │       ├── asm-0x5a8148.txt
+│       │       ├── asm-0x5ae1d4.json
+│       │       ├── asm-0x5ae1d4.txt
+│       │       ├── asm-0x5b77d8.json
+│       │       ├── asm-0x5b77d8.txt
+│       │       ├── asm-0x5b7cd0.json
+│       │       ├── asm-0x5b7cd0.txt
+│       │       ├── asm-0x5b7cd4.json
+│       │       ├── asm-0x5b7cd4.txt
+│       │       ├── asm-0x5b9df4.json
+│       │       ├── asm-0x5b9df4.txt
+│       │       ├── asm-0x5ba370.json
+│       │       ├── asm-0x5ba370.txt
+│       │       ├── asm-0x5ba690.json
+│       │       ├── asm-0x5ba690.txt
+│       │       ├── asm-0x5bb4ac.json
+│       │       ├── asm-0x5bb4ac.txt
+│       │       ├── asm-0x5bb788.json
+│       │       ├── asm-0x5bb788.txt
+│       │       ├── asm-0x5bcdd8.json
+│       │       ├── asm-0x5bcdd8.txt
+│       │       ├── asm-0x5bd9d8.json
+│       │       ├── asm-0x5bd9d8.txt
+│       │       ├── asm-0x5c4824.json
+│       │       ├── asm-0x5c4824.txt
+│       │       ├── asm-0x5cc2bc.json
+│       │       ├── asm-0x5cc2bc.txt
+│       │       ├── asm-0x5cc2c0.json
+│       │       ├── asm-0x5cc2c0.txt
+│       │       ├── asm-0x5cc2c8.json
+│       │       ├── asm-0x5cc2c8.txt
+│       │       ├── asm-0x5cc2cc.json
+│       │       ├── asm-0x5cc2cc.txt
+│       │       ├── asm-0x5cc2f0.json
+│       │       ├── asm-0x5cc2f0.txt
+│       │       ├── asm-0x5cc300.json
+│       │       ├── asm-0x5cc300.txt
+│       │       ├── asm-0x5d8330.json
+│       │       ├── asm-0x5d8330.txt
+│       │       ├── asm-0x5d8e44.json
+│       │       ├── asm-0x5d8e44.txt
+│       │       ├── asm-0x5da398.json
+│       │       ├── asm-0x5da398.txt
+│       │       ├── asm-0x5fe42c.json
+│       │       ├── asm-0x5fe42c.txt
+│       │       ├── asm-0x5fe430.json
+│       │       ├── asm-0x5fe430.txt
+│       │       ├── asm-0x634e84.json
+│       │       ├── asm-0x634e84.txt
+│       │       ├── asm-0x6b0998.json
+│       │       ├── asm-0x6b0998.txt
+│       │       ├── asm-0x712154.json
+│       │       ├── asm-0x712154.txt
+│       │       ├── asm-0x712978.json
+│       │       ├── asm-0x712978.txt
+│       │       ├── asm-0x7133e8.json
+│       │       ├── asm-0x7133e8.txt
+│       │       ├── asm-0x713778.json
+│       │       ├── asm-0x713778.txt
+│       │       ├── asm-0x713bd8.json
+│       │       ├── asm-0x713bd8.txt
+│       │       ├── asm-0x7144a0.json
+│       │       ├── asm-0x7144a0.txt
+│       │       ├── asm-0x7149d8.json
+│       │       ├── asm-0x7149d8.txt
+│       │       ├── asm-0x714d58.json
+│       │       ├── asm-0x714d58.txt
+│       │       ├── asm-0x715038.json
+│       │       ├── asm-0x715038.txt
+│       │       ├── asm-0x7153a8.json
+│       │       ├── asm-0x7153a8.txt
+│       │       ├── asm-0x718418.json
+│       │       ├── asm-0x718418.txt
+│       │       ├── asm-0x719668.json
+│       │       ├── asm-0x719668.txt
+│       │       ├── asm-0x71ab84.json
+│       │       ├── asm-0x71ab84.txt
+│       │       ├── asm-0x71bbb4.json
+│       │       ├── asm-0x71bbb4.txt
+│       │       ├── asm-0x71c078.json
+│       │       ├── asm-0x71c078.txt
+│       │       ├── asm-0x71c4d8.json
+│       │       ├── asm-0x71c4d8.txt
+│       │       ├── asm-0x721004.json
+│       │       ├── asm-0x721004.txt
+│       │       ├── asm-0x721360.json
+│       │       ├── asm-0x721360.txt
+│       │       ├── asm-0x72583c.json
+│       │       ├── asm-0x72583c.txt
+│       │       ├── asm-0x725840.json
+│       │       ├── asm-0x725840.txt
+│       │       ├── asm-0x725844.json
+│       │       ├── asm-0x725844.txt
+│       │       ├── asm-0x725868.json
+│       │       ├── asm-0x725868.txt
+│       │       ├── asm-0x725934.json
+│       │       ├── asm-0x725934.txt
+│       │       ├── asm-0x725938.json
+│       │       ├── asm-0x725938.txt
+│       │       ├── asm-0x725948.json
+│       │       ├── asm-0x725948.txt
+│       │       ├── asm-0x725950.json
+│       │       ├── asm-0x725950.txt
+│       │       ├── asm-0x725b28.json
+│       │       ├── asm-0x725b28.txt
+│       │       ├── asm-0x725b40.json
+│       │       ├── asm-0x725b40.txt
+│       │       ├── asm-0x725b44.json
+│       │       ├── asm-0x725b44.txt
+│       │       ├── asm-0x763c54.json
+│       │       ├── asm-0x763c54.txt
+│       │       ├── asm-0x785b94.json
+│       │       ├── asm-0x785b94.txt
+│       │       ├── asm-0x7861c8.json
+│       │       ├── asm-0x7861c8.txt
+│       │       ├── asm-0x793fb0.json
+│       │       ├── asm-0x793fb0.txt
+│       │       ├── asm-0x793fc0.json
+│       │       ├── asm-0x793fc0.txt
+│       │       ├── asm-0x793ff0.json
+│       │       ├── asm-0x793ff0.txt
+│       │       ├── asm-0x7c06ac.json
+│       │       ├── asm-0x7c06ac.txt
+│       │       ├── asm-0xf6a1c.json
+│       │       ├── asm-0xf6a1c.txt
+│       │       ├── asm-0xf7fac.json
+│       │       ├── asm-0xf7fac.txt
+│       │       ├── before.json
+│       │       ├── build.json
+│       │       ├── collectors-original.json
+│       │       ├── constants-original.json
+│       │       ├── define-0x121fd0.json
+│       │       ├── define-0x2e5c18.json
+│       │       ├── define-0x3780ec.json
+│       │       ├── define-0x37843c.json
+│       │       ├── define-0x37fb88.json
+│       │       ├── define-0x4c0718.json
+│       │       ├── define-0x4c4ae0.json
+│       │       ├── define-0x4c87e8.json
+│       │       ├── define-0x4c9d30.json
+│       │       ├── define-0x4ce0f4.json
+│       │       ├── define-0x4d1f14.json
+│       │       ├── define-0x51e9c4.json
+│       │       ├── define-0x51f85c.json
+│       │       ├── define-0x56b7ec.json
+│       │       ├── define-0x56eae4.json
+│       │       ├── define-0x58c5b0.json
+│       │       ├── define-0x58cd1c.json
+│       │       ├── define-0x58fac8.json
+│       │       ├── define-0x591b70.json
+│       │       ├── define-0x593830.json
+│       │       ├── define-0x593864.json
+│       │       ├── define-0x59417c.json
+│       │       ├── define-0x5959c8.json
+│       │       ├── define-0x596028.json
+│       │       ├── define-0x596b58.json
+│       │       ├── define-0x596e90.json
+│       │       ├── define-0x597284.json
+│       │       ├── define-0x5a7be4.json
+│       │       ├── define-0x5a8148.json
+│       │       ├── define-0x5b77d8.json
+│       │       ├── define-0x5b7cd4.json
+│       │       ├── define-0x5ba690.json
+│       │       ├── define-0x5bb788.json
+│       │       ├── define-0x5bcdd8.json
+│       │       ├── define-0x5bd9d8.json
+│       │       ├── define-0x5c4824.json
+│       │       ├── define-0x5d8e44.json
+│       │       ├── define-0x5da398.json
+│       │       ├── define-0x7133e8.json
+│       │       ├── define-0x713778.json
+│       │       ├── define-0x713bd8.json
+│       │       ├── define-0x7144a0.json
+│       │       ├── define-0x7149d8.json
+│       │       ├── define-0x714d58.json
+│       │       ├── define-0x715038.json
+│       │       ├── define-0x718418.json
+│       │       ├── define-0x719668.json
+│       │       ├── define-0x71c4d8.json
+│       │       ├── define-0x721004.json
+│       │       ├── define-0x721360.json
+│       │       ├── define-0x785b94.json
+│       │       ├── define-0x7861c8.json
+│       │       ├── define-0xf6a1c.json
+│       │       ├── define-0xf7fac.json
+│       │       ├── delivery.json
+│       │       ├── digests-initial-blocked.json
+│       │       ├── digests-original.json
+│       │       ├── event-boundaries-original.json
+│       │       ├── event-original.json
+│       │       ├── hmac-original.json
+│       │       ├── ida-annotations.json
+│       │       ├── ida-health-latest.json
+│       │       ├── ida-restored-definitions.json
+│       │       ├── manifest.json
+│       │       ├── output-ring.bin
+│       │       ├── packet-original.json
+│       │       ├── pipeline-original.json
+│       │       ├── rea-evidence.json
+│       │       ├── rea-final-evidence.json
+│       │       ├── rea-session-install.json
+│       │       ├── registration-original.json
+│       │       ├── ring-0.bin
+│       │       ├── ring-1.bin
+│       │       ├── ring-2.bin
+│       │       ├── ring-3.bin
+│       │       ├── ring-4.bin
+│       │       ├── ring-5.bin
+│       │       ├── ring-6.bin
+│       │       ├── ring-7.bin
+│       │       ├── ring-8.bin
+│       │       ├── ring-original.json
+│       │       ├── session-original.json
+│       │       ├── string-leads.json
+│       │       ├── verification.json
+│       │       ├── xrefs_to-0x3dc58.json
+│       │       ├── xrefs_to-0x4cb88c.json
+│       │       ├── xrefs_to-0x634e84.json
+│       │       ├── xrefs_to-0x71236c.json
+│       │       ├── xrefs_to-0x712978.json
+│       │       ├── xrefs_to-0x7133e8.json
+│       │       ├── xrefs_to-0x713778.json
+│       │       ├── xrefs_to-0x713bd8.json
+│       │       ├── xrefs_to-0x7153a8.json
+│       │       ├── xrefs_to-0x71ab84.json
+│       │       ├── xrefs_to-0x793fb0.json
+│       │       ├── xrefs_to-0x793ff0.json
+│       │       └── xrefs_to-0x7c06ac.json
+│       ├── environment_memory/
+│       │   ├── evidence/
+│       │   │   ├── build.json
+│       │   │   ├── digest-differential.json
+│       │   │   ├── host-tests.json
+│       │   │   ├── ida-0x18b190.json
+│       │   │   ├── ida-0x26b1f0.json
+│       │   │   ├── ida-0x34adcc.json
+│       │   │   ├── ida-0x40fd54.json
+│       │   │   ├── ida-0x449dd0.json
+│       │   │   ├── ida-0x44a5c0-recovered.json
+│       │   │   ├── ida-0x44a5c0.json
+│       │   │   ├── ida-0x44b0f4-recovered.json
+│       │   │   ├── ida-0x44c594.json
+│       │   │   ├── ida-0x44d0b8.json
+│       │   │   ├── ida-0x4572c8.json
+│       │   │   ├── ida-0x4572e8.json
+│       │   │   ├── ida-0x457318.json
+│       │   │   ├── ida-0x471c8c.json
+│       │   │   ├── ida-0x47df58.json
+│       │   │   ├── ida-0x5cc630.json
+│       │   │   ├── ida-0x5cd914-recovered.json
+│       │   │   ├── ida-0x5cd914.json
+│       │   │   ├── ida-0x5ce9c0-recovered.json
+│       │   │   ├── ida-0x5ce9c0.json
+│       │   │   ├── ida-0x5f9170.json
+│       │   │   ├── ida-0x5f917c-recovered.json
+│       │   │   ├── ida-0x5f917c.json
+│       │   │   ├── ida-0x5fb6ac.json
+│       │   │   ├── ida-0x5fb6b0-recovered.json
+│       │   │   ├── ida-0x5fb6b0.json
+│       │   │   ├── ida-0x5fdbe0.json
+│       │   │   ├── ida-0x650898.json
+│       │   │   ├── ida-0x66e838.json
+│       │   │   ├── ida-0x68cbe0.json
+│       │   │   ├── ida-0x6ab3d8.json
+│       │   │   ├── ida-0x6ae288.json
+│       │   │   ├── ida-0x6b0998.json
+│       │   │   ├── ida-0x6b695c.json
+│       │   │   ├── ida-0x6f4218.json
+│       │   │   ├── ida-0xcb11c.json
+│       │   │   ├── ida-bounded-string-search.json
+│       │   │   ├── ida-maps-asm.json
+│       │   │   ├── ida-path-test-asm.json
+│       │   │   ├── ime-hash-differential.json
+│       │   │   ├── inherited-string-evidence.json
+│       │   │   ├── jni-tests.json
+│       │   │   ├── offline-baseline.json
+│       │   │   ├── rea-evidence-2026-10-16.json
+│       │   │   ├── resume-after.json
+│       │   │   ├── resume-before.json
+│       │   │   └── verification.json
+│       │   └── manifest.json
+│       ├── evidence/
+│       │   ├── 0x4c3778_asm_0.json
+│       │   ├── 0x5c433c_asm_0.json
+│       │   ├── allstrings1.json
+│       │   ├── allstrings2.json
+│       │   ├── build_class_probe.json
+│       │   ├── build_helpers.json
+│       │   ├── build_models.json
+│       │   ├── build_shared_ring.json
+│       │   ├── class_probe_asm_0.json
+│       │   ├── class_probe_asm_350.json
+│       │   ├── clock_ids.json
+│       │   ├── core_decoded_strings.json
+│       │   ├── core_prefix_decode.json
+│       │   ├── core_prefix_decode.partial.json
+│       │   ├── core_prefix_decode_summary.json
+│       │   ├── crc32_table_identity.json
+│       │   ├── decoded_strings.json
+│       │   ├── differential_class_probe.json
+│       │   ├── differential_helpers.json
+│       │   ├── differential_initial.json
+│       │   ├── differential_models.json
+│       │   ├── differential_policy.json
+│       │   ├── differential_shared_ring.json
+│       │   ├── digest_decode.json
+│       │   ├── digest_decode_emulation.json
+│       │   ├── elf_inventory.json
+│       │   ├── environment_asm.json
+│       │   ├── environment_asm_0.json
+│       │   ├── environment_asm_256.json
+│       │   ├── environment_asm_512.json
+│       │   ├── handler_classifier_calls.json
+│       │   ├── ida_functions.json
+│       │   ├── ida_functions_full.json
+│       │   ├── integrity_baseline_call_44a200.json
+│       │   ├── integrity_botan_mcp.json
+│       │   ├── integrity_botan_wrappers_4502a8.json
+│       │   ├── integrity_digest_range_44c740.json
+│       │   ├── integrity_wrappers_44ed9c.json
+│       │   ├── jni_find_class_asm.json
+│       │   ├── prefix_candidates.json
+│       │   ├── prefix_decode.json
+│       │   ├── prefix_decode.partial.json
+│       │   ├── prefix_decode_summary.json
+│       │   ├── result_constructor_asm.json
+│       │   ├── seccomp_policy_asm_0.json
+│       │   ├── seccomp_policy_asm_256.json
+│       │   ├── seccomp_reason_asm.json
+│       │   ├── shared_reader_asm_0.json
+│       │   ├── shared_reader_asm_200.json
+│       │   ├── sigsys_syscall_asm.json
+│       │   ├── stage2_attempts.json
+│       │   ├── stage2_candidates.json
+│       │   ├── stage2_keys.json
+│       │   ├── stage2_keys.partial.json
+│       │   ├── stage2_strings.json
+│       │   ├── state_offset_candidates.json
+│       │   ├── strings.json
+│       │   ├── survey.json
+│       │   ├── termination_syscall_sites.json
+│       │   ├── tracer_asm_0.json
+│       │   ├── tracer_asm_1024.json
+│       │   ├── tracer_asm_1536.json
+│       │   ├── tracer_asm_2048.json
+│       │   ├── tracer_asm_2560.json
+│       │   └── tracer_asm_512.json
+│       └── mcp_clock/
+│           ├── evidence/
+│           │   ├── prior/
+│           │   │   ├── clock_ids.json
+│           │   │   ├── decomp-0x140c9c.json
+│           │   │   ├── decomp-0x30bb2c.json
+│           │   │   ├── decomp-0x744750.json
+│           │   │   ├── ida-0x30b278.json
+│           │   │   ├── ida-0x30e700.json
+│           │   │   └── ida-0xf5198.json
+│           │   ├── prior-fresh/
+│           │   │   ├── dec-0x147280.json
+│           │   │   ├── dec-0x1473b8.json
+│           │   │   ├── dec-0x18a478.json
+│           │   │   ├── dec-0x19c47c.json
+│           │   │   ├── dec-0x19c598.json
+│           │   │   ├── dec-0x1db574.json
+│           │   │   ├── dec-0x228640.json
+│           │   │   ├── dec-0x228860.json
+│           │   │   ├── dec-0x237c04.json
+│           │   │   ├── dec-0x23f268.json
+│           │   │   ├── dec-0x30c1f0.json
+│           │   │   ├── dec-0x30cb5c.json
+│           │   │   ├── dec-0x31038c.json
+│           │   │   ├── dec-0x313da8.json
+│           │   │   ├── dec-0x31685c.json
+│           │   │   ├── dec-0x319fa4.json
+│           │   │   ├── dec-0x31b324.json
+│           │   │   ├── dec-0x31b450.json
+│           │   │   ├── dec-0x31b694.json
+│           │   │   ├── dec-0x5fe6c4.json
+│           │   │   ├── dec-0x5fea58.json
+│           │   │   ├── dec-0x5feca8.json
+│           │   │   ├── dec-0x632054.json
+│           │   │   ├── dec-0xcfd4c.json
+│           │   │   ├── dec-0xd038c.json
+│           │   │   ├── dec-0xf44d8.json
+│           │   │   ├── dec-0xf4768.json
+│           │   │   ├── fde-define.json
+│           │   │   └── vtables-and-string-bytes.json
+│           │   ├── asm-0x1a3d60.json
+│           │   ├── asm-0x1d6994.json
+│           │   ├── asm-0x30b278.json
+│           │   ├── asm-0x30bb2c.json
+│           │   ├── asm-0x30c1f0.json
+│           │   ├── asm-0x30e700.json
+│           │   ├── asm-0x31038c.json
+│           │   ├── asm-0x319fa4.json
+│           │   ├── asm-0x5fedc0.json
+│           │   ├── asm-0x600c88.json
+│           │   ├── asm-0xf5198.json
+│           │   ├── b-0x78fa40.json
+│           │   ├── b-0x7a0728.json
+│           │   ├── b-0x7a0868.json
+│           │   ├── build.json
+│           │   ├── d-0x228740.json
+│           │   ├── d-0x228960.json
+│           │   ├── d-0x30ddd8.json
+│           │   ├── d-0x5fedc0.json
+│           │   ├── d-0x745934.json
+│           │   ├── dec-0x13430c.json
+│           │   ├── dec-0x1344e8.json
+│           │   ├── dec-0x134920.json
+│           │   ├── dec-0x1352b0.json
+│           │   ├── dec-0x1357ec.json
+│           │   ├── dec-0x135c30.json
+│           │   ├── dec-0x140c9c.json
+│           │   ├── dec-0x140f44.json
+│           │   ├── dec-0x14716c.json
+│           │   ├── dec-0x147280.json
+│           │   ├── dec-0x1473b8.json
+│           │   ├── dec-0x147678.json
+│           │   ├── dec-0x184994.json
+│           │   ├── dec-0x184df0.json
+│           │   ├── dec-0x185168.json
+│           │   ├── dec-0x185788.json
+│           │   ├── dec-0x1940f4.json
+│           │   ├── dec-0x1987b4.json
+│           │   ├── dec-0x19b244.json
+│           │   ├── dec-0x1a3c38.json
+│           │   ├── dec-0x1a3d60.json
+│           │   ├── dec-0x1d579c.json
+│           │   ├── dec-0x1d680c.json
+│           │   ├── dec-0x1d6994.json
+│           │   ├── dec-0x1d726c.json
+│           │   ├── dec-0x1d7400.json
+│           │   ├── dec-0x21f710.json
+│           │   ├── dec-0x228640.json
+│           │   ├── dec-0x228860.json
+│           │   ├── dec-0x2379ec.json
+│           │   ├── dec-0x237b0c.json
+│           │   ├── dec-0x237c04.json
+│           │   ├── dec-0x24b5a8.json
+│           │   ├── dec-0x24b6bc.json
+│           │   ├── dec-0x30c1f0.json
+│           │   ├── dec-0x30e5b0.json
+│           │   ├── dec-0x30ecf4.json
+│           │   ├── dec-0x31038c.json
+│           │   ├── dec-0x310b88.json
+│           │   ├── dec-0x311058.json
+│           │   ├── dec-0x3111d0.json
+│           │   ├── dec-0x313da8.json
+│           │   ├── dec-0x315254.json
+│           │   ├── dec-0x316ff8.json
+│           │   ├── dec-0x319fa4.json
+│           │   ├── dec-0x31b324.json
+│           │   ├── dec-0x31b450.json
+│           │   ├── dec-0x31b520.json
+│           │   ├── dec-0x31b670.json
+│           │   ├── dec-0x31b694.json
+│           │   ├── dec-0x5fe6c4.json
+│           │   ├── dec-0x5fea58.json
+│           │   ├── dec-0x5feca8.json
+│           │   ├── dec-0x5fedc0.json
+│           │   ├── dec-0x6307f4.json
+│           │   ├── dec-0x630c60.json
+│           │   ├── dec-0x632054.json
+│           │   ├── dec-0x744750.json
+│           │   ├── dec-0xc7a40.json
+│           │   ├── dec-0xf3aa4.json
+│           │   ├── dec-0xf4388.json
+│           │   ├── dec-0xf48b8.json
+│           │   ├── dec-0xf49c4.json
+│           │   ├── dec-0xf4b04.json
+│           │   ├── dec-0xf4cf0.json
+│           │   ├── decoded-constants.json
+│           │   ├── focus-0.json
+│           │   ├── focus-1.json
+│           │   ├── focus-2.json
+│           │   ├── focus-3.json
+│           │   ├── focus-4.json
+│           │   ├── follow-0.json
+│           │   ├── follow-1.json
+│           │   ├── follow-2.json
+│           │   ├── follow-3.json
+│           │   ├── follow-4.json
+│           │   ├── follow-5.json
+│           │   ├── ida-annotations.json
+│           │   ├── ida-comment-repair.json
+│           │   ├── more-1.json
+│           │   ├── more-2.json
+│           │   ├── more-3.json
+│           │   ├── more-4.json
+│           │   ├── more-5.json
+│           │   ├── more-6.json
+│           │   ├── oracle-tests.json
+│           │   ├── protected-after.json
+│           │   ├── protected-before.json
+│           │   ├── rng-caller-1.json
+│           │   ├── rng-caller-2.json
+│           │   ├── rng-caller-3.json
+│           │   ├── rtti.json
+│           │   ├── separators.json
+│           │   ├── stage2-selected-strings.json
+│           │   ├── unit-tests.txt
+│           │   ├── verification.json
+│           │   ├── verify-2.json
+│           │   ├── verify-3.json
+│           │   ├── verify-4.json
+│           │   └── xrefs-roots.json
+│           ├── delivery.json
+│           └── manifest.json
+├── 04_binaries/
+│   └── research/
+│       ├── accessibility/
+│       │   └── build/
+│       │       ├── android-arm64/
+│       │       │   └── libaccessibility_reconstruction.so
+│       │       ├── host/
+│       │       │   ├── accessibility_core.dll
+│       │       │   └── accessibility_demo.exe
+│       │       ├── accessibility_env.o
+│       │       ├── accessibility_jni.o
+│       │       ├── jni_adapter_tests.exe
+│       │       └── jni_env_tests.exe
+│       ├── build/
+│       │   ├── aggregate-android-arm64/
+│       │   │   ├── build-manifest.json
+│       │   │   └── libprismsun_reconstruction.so
+│       │   ├── android-arm64/
+│       │   │   ├── jni_layout_check.o
+│       │   │   ├── libprism_class_probe.so
+│       │   │   ├── libprism_helpers.so
+│       │   │   ├── libprism_observed_models.so
+│       │   │   └── libprism_shared_ring.so
+│       │   └── host/
+│       │       ├── prism_class_probe.dll
+│       │       ├── prism_helpers.dll
+│       │       ├── prism_observed_models.dll
+│       │       ├── prism_shared_ring.dll
+│       │       └── test_helpers.exe
+│       ├── chain_closure_20261018/
+│       │   └── build/
+│       │       ├── android-arm64/
+│       │       │   ├── jni_tests
+│       │       │   ├── libprism_chains.so
+│       │       │   └── unit_tests
+│       │       └── host/
+│       │           ├── jni_tests.exe
+│       │           └── unit_tests.exe
+│       ├── device_identity/
+│       │   └── build/
+│       │       ├── android-arm64/
+│       │       │   ├── libprism_identity.so
+│       │       │   └── prism_identity
+│       │       └── host/
+│       │           ├── prism_identity.exe
+│       │           └── unit_tests.exe
+│       ├── environment_memory/
+│       │   └── build/
+│       │       ├── android-arm64/
+│       │       │   ├── libprism_environment.so
+│       │       │   └── prism_environment
+│       │       └── host/
+│       │           ├── jni_adapter_tests.exe
+│       │           ├── prism_environment.dll
+│       │           ├── prism_environment.exe
+│       │           └── unit_tests.exe
+│       └── mcp_clock/
+│           └── build/
+│               ├── android-arm64/
+│               │   ├── libprism_clock_chain.so
+│               │   ├── libprism_mcp_chain.so
+│               │   ├── prism_mcp_clock
+│               │   └── unit_tests
+│               └── host/
+│                   ├── prism_mcp_clock.exe
+│                   └── unit_tests.exe
+├── 05_ida_databases/
+│   ├── application_reference/
+│   │   └── PrismDetector/
+│   │       └── evidence/
+│   │           └── reference/
+│   │               └── base-classes.dex.i64
+│   ├── original/
+│   │   └── libprism-sun.so.i64
+│   └── research/
+│       ├── accessibility/
+│       │   └── prism-accessibility.i64
+│       ├── chain_closure_20261018/
+│       │   ├── prism-chain-closure.i64
+│       │   └── prism-chain-closure.snapshot.i64
+│       ├── coverage_audit_20261018/
+│       │   └── prism-coverage-audit.i64
+│       ├── device_identity/
+│       │   └── prism-device-identity.i64
+│       ├── environment_memory/
+│       │   ├── prism-environment-inspect-copy.i64
+│       │   └── prism-environment-memory.i64
+│       ├── mcp_clock/
+│       │   └── prism-mcp-clock.i64
+│       └── prism-analysis.i64
+├── 06_samples/
+│   ├── application_reference/
+│   │   └── PrismDetector/
+│   │       └── evidence/
+│   │           └── reference/
+│   │               └── base-classes.dex
+│   └── libprism-sun.so
+├── 07_application/
+│   └── PrismDetector/
+│       ├── evidence/
+│       │   ├── minecraft-reference/
+│       │   │   ├── apksigner.txt
+│       │   │   ├── badging.txt
+│       │   │   ├── reference.json
+│       │   │   ├── signer-1.der
+│       │   │   └── signer-1.pem
+│       │   ├── reference/
+│       │   │   ├── base-badging.txt
+│       │   │   ├── base-manifest.txt
+│       │   │   ├── base-resources.txt
+│       │   │   ├── inputs.json
+│       │   │   ├── keymapper-badging.txt
+│       │   │   ├── keymapper-manifest.txt
+│       │   │   ├── keymapper-resources.txt
+│       │   │   └── reference-ui.png
+│       │   ├── ruru-migration/
+│       │   │   ├── 01-default.json
+│       │   │   ├── 02-keymapper-a11y-enabled.json
+│       │   │   ├── 03-unchanged.json
+│       │   │   ├── 04-keymapper-removed.json
+│       │   │   ├── 05-minecraft-signature-mismatch.json
+│       │   │   ├── 06-restored.json
+│       │   │   ├── CONTRACT.zh-CN.md
+│       │   │   ├── VALIDATION.zh-CN.md
+│       │   │   ├── a11y-danger-expanded.png
+│       │   │   ├── a11y-danger-expanded.xml
+│       │   │   ├── about.png
+│       │   │   ├── about.xml
+│       │   │   ├── apk-native-verification.json
+│       │   │   ├── apksigner.txt
+│       │   │   ├── certificate-expanded.png
+│       │   │   ├── certificate-expanded.xml
+│       │   │   ├── cleanup.json
+│       │   │   ├── current-report.json
+│       │   │   ├── dark.png
+│       │   │   ├── dark.xml
+│       │   │   ├── export-menu.png
+│       │   │   ├── export-menu.xml
+│       │   │   ├── export-picker.png
+│       │   │   ├── export-picker.xml
+│       │   │   ├── exported-report.json
+│       │   │   ├── final-home.png
+│       │   │   ├── final-home.xml
+│       │   │   ├── final-report.json
+│       │   │   ├── finish-test.txt
+│       │   │   ├── finish-validation.json
+│       │   │   ├── home.png
+│       │   │   ├── home.xml
+│       │   │   ├── ime-details-verified.png
+│       │   │   ├── ime-details-verified.xml
+│       │   │   ├── ime-expanded.png
+│       │   │   ├── ime-expanded.xml
+│       │   │   ├── ime-suspicious-expanded.png
+│       │   │   ├── ime-suspicious-expanded.xml
+│       │   │   ├── landscape.png
+│       │   │   ├── landscape.xml
+│       │   │   ├── launcher-icon-app-info.png
+│       │   │   ├── launcher-icon-app-info.xml
+│       │   │   ├── lint-results-release.xml
+│       │   │   ├── lint-wrapper.txt
+│       │   │   ├── logcat.txt
+│       │   │   ├── original-ruru-ui.png
+│       │   │   ├── preview.png
+│       │   │   ├── rules-test.txt
+│       │   │   ├── settings.png
+│       │   │   ├── settings.xml
+│       │   │   ├── source-input.json
+│       │   │   ├── ui-provenance.json
+│       │   │   ├── verification.json
+│       │   │   └── wrapper-version.txt
+│       │   ├── v1.2.0/
+│       │   │   ├── 01-default.json
+│       │   │   ├── 02-keymapper-installed.json
+│       │   │   ├── VALIDATION.zh-CN.md
+│       │   │   ├── about.png
+│       │   │   ├── about.xml
+│       │   │   ├── apksigner.txt
+│       │   │   ├── cleanup.json
+│       │   │   ├── dark.png
+│       │   │   ├── dark.xml
+│       │   │   ├── final-home.png
+│       │   │   ├── final-home.xml
+│       │   │   ├── final-primary-bottom.png
+│       │   │   ├── home.png
+│       │   │   ├── home.xml
+│       │   │   ├── keymapper-danger.png
+│       │   │   ├── keymapper-danger.xml
+│       │   │   ├── landscape.png
+│       │   │   ├── landscape.xml
+│       │   │   ├── logcat.txt
+│       │   │   ├── preview.png
+│       │   │   ├── primary-bottom.png
+│       │   │   ├── primary-bottom.xml
+│       │   │   ├── publication.json
+│       │   │   ├── repository-link.txt
+│       │   │   ├── secondary-bottom.png
+│       │   │   ├── secondary-bottom.xml
+│       │   │   ├── ui-test.txt
+│       │   │   └── verification.json
+│       │   ├── validation/
+│       │   │   ├── 01-keymapper-installed-disabled.json
+│       │   │   ├── 02-keymapper-enabled.json
+│       │   │   ├── 03-unchanged.json
+│       │   │   ├── 04-keymapper-removed.json
+│       │   │   ├── 05-synthetic-small-minecraft-package.json
+│       │   │   ├── 06-network-time-unavailable.json
+│       │   │   ├── 07-class-config-network-disabled.json
+│       │   │   ├── 08-restored-defaults.json
+│       │   │   ├── VALIDATION.zh-CN.md
+│       │   │   ├── apksigner.txt
+│       │   │   ├── arm64-elf-program-headers.txt
+│       │   │   ├── current-report.json
+│       │   │   ├── details-ui.png
+│       │   │   ├── export-dialog.xml
+│       │   │   ├── exported-report.json
+│       │   │   ├── final-report.json
+│       │   │   ├── final-ui.png
+│       │   │   ├── final-ui.xml
+│       │   │   ├── initial-ui.png
+│       │   │   ├── landscape-ui.png
+│       │   │   ├── logcat.txt
+│       │   │   ├── recovered-chain-tests.json
+│       │   │   ├── recovered-identity-tests.txt
+│       │   │   ├── rules-test.txt
+│       │   │   ├── save-dialog.xml
+│       │   │   └── verification.json
+│       │   └── source-provenance.json
+│       ├── local_notes/
+│       │   ├── README.zh-CN.md
+│       │   └── build-1.2.0-log.txt
+│       ├── release-1.2.0/
+│       │   ├── PrismDetector-1.2.0-source.zip
+│       │   ├── PrismDetector-1.2.0.apk
+│       │   ├── SHA256SUMS.txt
+│       │   ├── build-manifest-1.2.0.json
+│       │   └── build-manifest.json
+│       └── source/
+│           ├── app/
+│           │   ├── src/
+│           │   │   └── main/
+│           │   │       ├── cpp/
+│           │   │       │   ├── vendor/
+│           │   │       │   │   └── research/
+│           │   │       │   │       ├── accessibility/
+│           │   │       │   │       │   └── src/
+│           │   │       │   │       │       ├── accessibility_core.cpp
+│           │   │       │   │       │       ├── accessibility_core.hpp
+│           │   │       │   │       │       ├── accessibility_env.cpp
+│           │   │       │   │       │       ├── accessibility_env.hpp
+│           │   │       │   │       │       ├── accessibility_jni.cpp
+│           │   │       │   │       │       ├── accessibility_jni.hpp
+│           │   │       │   │       │       ├── accessibility_monitor.cpp
+│           │   │       │   │       │       └── accessibility_monitor.hpp
+│           │   │       │   │       ├── chain_closure_20261018/
+│           │   │       │   │       │   └── src/
+│           │   │       │   │       │       ├── android_collectors.cpp
+│           │   │       │   │       │       ├── android_collectors.hpp
+│           │   │       │   │       │       ├── classes_jni.cpp
+│           │   │       │   │       │       ├── classes_jni.hpp
+│           │   │       │   │       │       ├── detection_chains.cpp
+│           │   │       │   │       │       └── detection_chains.hpp
+│           │   │       │   │       ├── device_identity/
+│           │   │       │   │       │   └── src/
+│           │   │       │   │       │       ├── android_adapter.cpp
+│           │   │       │   │       │       ├── android_adapter.hpp
+│           │   │       │   │       │       ├── crypto.cpp
+│           │   │       │   │       │       ├── identity.cpp
+│           │   │       │   │       │       └── identity.hpp
+│           │   │       │   │       ├── environment_memory/
+│           │   │       │   │       │   └── src/
+│           │   │       │   │       │       ├── environment_memory.cpp
+│           │   │       │   │       │       ├── environment_memory.hpp
+│           │   │       │   │       │       ├── input_methods_jni.cpp
+│           │   │       │   │       │       └── input_methods_jni.hpp
+│           │   │       │   │       └── src/
+│           │   │       │   │           ├── observed_models.cpp
+│           │   │       │   │           ├── observed_models.h
+│           │   │       │   │           ├── verified_helpers.cpp
+│           │   │       │   │           └── verified_helpers.h
+│           │   │       │   ├── CMakeLists.txt
+│           │   │       │   ├── certificate_baseline.hpp
+│           │   │       │   ├── detector.cpp
+│           │   │       │   ├── network_time.cpp
+│           │   │       │   ├── portable_collectors.cpp
+│           │   │       │   ├── rules.cpp
+│           │   │       │   └── rules.hpp
+│           │   │       ├── java/
+│           │   │       │   ├── icu/
+│           │   │       │   │   └── nullptr/
+│           │   │       │   │       └── applistdetector/
+│           │   │       │   │           ├── component/
+│           │   │       │   │           │   ├── CheckCard.kt
+│           │   │       │   │           │   ├── IconHintCard.kt
+│           │   │       │   │           │   └── SecondaryChecksToggle.kt
+│           │   │       │   │           ├── theme/
+│           │   │       │   │           │   ├── Theme.kt
+│           │   │       │   │           │   └── Type.kt
+│           │   │       │   │           ├── IDetector.kt
+│           │   │       │   │           └── MainPage.kt
+│           │   │       │   └── na1xue/
+│           │   │       │       └── prism/
+│           │   │       │           └── detector/
+│           │   │       │               ├── DetectorStore.kt
+│           │   │       │               ├── MainActivity.kt
+│           │   │       │               ├── NativeBridge.java
+│           │   │       │               ├── Platform.java
+│           │   │       │               └── ReportProvider.java
+│           │   │       ├── res/
+│           │   │       │   ├── drawable/
+│           │   │       │   │   └── launcher_foreground.xml
+│           │   │       │   ├── drawable-nodpi/
+│           │   │       │   │   └── cover.jpg
+│           │   │       │   ├── mipmap-anydpi-v26/
+│           │   │       │   │   ├── ic_launcher.xml
+│           │   │       │   │   └── ic_launcher_round.xml
+│           │   │       │   ├── mipmap-hdpi/
+│           │   │       │   │   ├── ic_launcher.png
+│           │   │       │   │   └── ic_launcher_round.png
+│           │   │       │   ├── mipmap-mdpi/
+│           │   │       │   │   ├── ic_launcher.png
+│           │   │       │   │   └── ic_launcher_round.png
+│           │   │       │   ├── mipmap-xhdpi/
+│           │   │       │   │   ├── ic_launcher.png
+│           │   │       │   │   └── ic_launcher_round.png
+│           │   │       │   ├── mipmap-xxhdpi/
+│           │   │       │   │   ├── ic_launcher.png
+│           │   │       │   │   └── ic_launcher_round.png
+│           │   │       │   ├── mipmap-xxxhdpi/
+│           │   │       │   │   ├── ic_launcher.png
+│           │   │       │   │   └── ic_launcher_round.png
+│           │   │       │   └── values/
+│           │   │       │       └── strings.xml
+│           │   │       └── AndroidManifest.xml
+│           │   ├── build.gradle
+│           │   └── proguard-rules.pro
+│           ├── gradle/
+│           │   └── wrapper/
+│           │       ├── gradle-wrapper.jar
+│           │       └── gradle-wrapper.properties
+│           ├── releases/
+│           │   └── v1.2.0.json
+│           ├── tests/
+│           │   ├── rules_test.cpp
+│           │   └── ui_1_2_validation.py
+│           ├── vendor-ui/
+│           │   └── Ruru-1.1.1/
+│           │       ├── app/
+│           │       │   ├── src/
+│           │       │   │   └── main/
+│           │       │   │       ├── java/
+│           │       │   │       │   ├── com/
+│           │       │   │       │   │   └── byxiaorun/
+│           │       │   │       │   │       └── detector/
+│           │       │   │       │   │           ├── MainActivity.kt
+│           │       │   │       │   │           └── MyApplication.kt
+│           │       │   │       │   └── icu/
+│           │       │   │       │       └── nullptr/
+│           │       │   │       │           └── applistdetector/
+│           │       │   │       │               ├── component/
+│           │       │   │       │               │   ├── CheckCard.kt
+│           │       │   │       │               │   ├── CheckCard2.kt
+│           │       │   │       │               │   └── IconHintCard.kt
+│           │       │   │       │               ├── theme/
+│           │       │   │       │               │   ├── Theme.kt
+│           │       │   │       │               │   └── Type.kt
+│           │       │   │       │               └── MainPage.kt
+│           │       │   │       ├── res/
+│           │       │   │       │   ├── drawable/
+│           │       │   │       │   │   ├── ic_launcher_background.xml
+│           │       │   │       │   │   └── ic_launcher_foreground.xml
+│           │       │   │       │   ├── mipmap-anydpi-v26/
+│           │       │   │       │   │   ├── ic_launcher.xml
+│           │       │   │       │   │   └── ic_launcher_round.xml
+│           │       │   │       │   ├── mipmap-hdpi/
+│           │       │   │       │   │   ├── ic_launcher.png
+│           │       │   │       │   │   └── ic_launcher_round.png
+│           │       │   │       │   ├── mipmap-mdpi/
+│           │       │   │       │   │   ├── ic_launcher.png
+│           │       │   │       │   │   └── ic_launcher_round.png
+│           │       │   │       │   ├── mipmap-xhdpi/
+│           │       │   │       │   │   ├── ic_launcher.png
+│           │       │   │       │   │   └── ic_launcher_round.png
+│           │       │   │       │   ├── mipmap-xxhdpi/
+│           │       │   │       │   │   ├── ic_launcher.png
+│           │       │   │       │   │   └── ic_launcher_round.png
+│           │       │   │       │   ├── mipmap-xxxhdpi/
+│           │       │   │       │   │   ├── ic_launcher.png
+│           │       │   │       │   │   └── ic_launcher_round.png
+│           │       │   │       │   ├── values/
+│           │       │   │       │   │   └── strings.xml
+│           │       │   │       │   ├── values-zh/
+│           │       │   │       │   │   └── strings.xml
+│           │       │   │       │   └── values-zh-rTW/
+│           │       │   │       │       └── strings.xml
+│           │       │   │       ├── AndroidManifest.xml
+│           │       │   │       └── ic_launcher-playstore.png
+│           │       │   ├── .gitignore
+│           │       │   └── build.gradle.kts
+│           │       ├── gradle/
+│           │       │   └── wrapper/
+│           │       │       ├── gradle-wrapper.jar
+│           │       │       └── gradle-wrapper.properties
+│           │       ├── library/
+│           │       │   ├── src/
+│           │       │   │   └── main/
+│           │       │   │       ├── cpp/
+│           │       │   │       │   ├── src/
+│           │       │   │       │   │   ├── environment.cpp
+│           │       │   │       │   │   └── file_detection.cpp
+│           │       │   │       │   ├── Android.mk
+│           │       │   │       │   └── Application.mk
+│           │       │   │       ├── java/
+│           │       │   │       │   └── icu/
+│           │       │   │       │       └── nullptr/
+│           │       │   │       │           └── applistdetector/
+│           │       │   │       │               ├── AbnormalEnvironment.kt
+│           │       │   │       │               ├── Accessibility.kt
+│           │       │   │       │               ├── Account.kt
+│           │       │   │       │               ├── FileDetection.kt
+│           │       │   │       │               ├── IDetector.kt
+│           │       │   │       │               ├── MagiskApp.kt
+│           │       │   │       │               ├── PMCommand.kt
+│           │       │   │       │               ├── PMConventionalAPIs.kt
+│           │       │   │       │               ├── PMQueryIntentActivities.kt
+│           │       │   │       │               ├── PMSundryAPIs.kt
+│           │       │   │       │               ├── SettingProp.kt
+│           │       │   │       │               └── XposedModules.kt
+│           │       │   │       └── AndroidManifest.xml
+│           │       │   ├── .gitignore
+│           │       │   ├── build.gradle.kts
+│           │       │   └── proguard-rules.pro
+│           │       ├── .gitignore
+│           │       ├── .gitmodules
+│           │       ├── LICENSE.md
+│           │       ├── README.md
+│           │       ├── build.gradle.kts
+│           │       ├── gradle.properties
+│           │       ├── gradlew
+│           │       ├── gradlew.bat
+│           │       └── settings.gradle.kts
+│           ├── .gitattributes
+│           ├── .gitignore
+│           ├── AGENTS.md
+│           ├── CHANGELOG.md
+│           ├── LICENSE-Ruru.md
+│           ├── NOTICE.md
+│           ├── README.md
+│           ├── build.gradle
+│           ├── build.py
+│           ├── gradle.properties
+│           ├── gradlew
+│           ├── gradlew.bat
+│           ├── package_source.py
+│           └── settings.gradle
+├── 08_history/
+│   ├── application_releases/
+│   │   ├── PrismDetector-1.0.0-source.zip
+│   │   ├── PrismDetector-1.0.0.apk
+│   │   ├── PrismDetector-1.0.0.apk.idsig
+│   │   ├── PrismDetector-1.1.0-source.zip
+│   │   ├── PrismDetector-1.1.0.apk
+│   │   └── build-manifest-1.1.0.json
+│   ├── legacy_tooling/
+│   │   └── research/
+│   │       └── tooling/
+│   │           └── rea/
+│   │               ├── evidence/
+│   │               │   ├── mcp-smoke/
+│   │               │   │   ├── analyze_function.json
+│   │               │   │   ├── binary_session.json
+│   │               │   │   ├── binary_session_after_close.json
+│   │               │   │   ├── catalog.json
+│   │               │   │   ├── close_binary.json
+│   │               │   │   ├── open_binary.json
+│   │               │   │   ├── stderr.log
+│   │               │   │   └── summary.json
+│   │               │   ├── target-diagnostic/
+│   │               │   │   ├── 000-idb_open.json
+│   │               │   │   ├── 001-idb_list.json
+│   │               │   │   ├── 002-server_health.json
+│   │               │   │   ├── 003-server_health.json
+│   │               │   │   ├── 004-lookup_funcs.json
+│   │               │   │   ├── 005-idb_close.json
+│   │               │   │   ├── 006-idb_list.json
+│   │               │   │   └── report.txt
+│   │               │   ├── target-smoke/
+│   │               │   │   ├── analyze_function.json
+│   │               │   │   ├── binary_session.json
+│   │               │   │   ├── binary_session_after_close.json
+│   │               │   │   ├── catalog.json
+│   │               │   │   ├── close_binary.json
+│   │               │   │   ├── open_binary.json
+│   │               │   │   ├── stderr.log
+│   │               │   │   └── summary.json
+│   │               │   ├── target-smoke-initial/
+│   │               │   │   ├── analyze_function.json
+│   │               │   │   ├── binary_session.json
+│   │               │   │   ├── catalog.json
+│   │               │   │   ├── close_binary.json
+│   │               │   │   ├── open_binary.json
+│   │               │   │   ├── stderr.log
+│   │               │   │   └── summary.json
+│   │               │   ├── adb-client.json
+│   │               │   ├── after.json
+│   │               │   ├── before.json
+│   │               │   ├── cli-decompile-initial.json
+│   │               │   ├── cli-decompile.json
+│   │               │   ├── doctor-final.json
+│   │               │   ├── doctor-ida-before.json
+│   │               │   ├── ida-bridge-source.json
+│   │               │   ├── ida-diagnostic.txt
+│   │               │   ├── mcp-doctor.json
+│   │               │   ├── npm-release.json
+│   │               │   ├── setup-applied.json
+│   │               │   ├── setup-plan.json
+│   │               │   ├── target-diagnostic-progress.log
+│   │               │   └── verification.json
+│   │               └── README.zh-CN.md
+│   └── previous_archives/
+│       ├── research/
+│       │   ├── device_identity/
+│       │   │   ├── prism-device-identity-deliverables.zip
+│       │   │   └── prism-devicecheck.zip
+│       │   └── mcp_clock/
+│       │       └── prism-mcp-clock-deliverables.zip
+│       └── PrismSUN-reconstruction-source.zip
+├── 09_tools/
+│   ├── package_prism_research.py
+│   ├── restore_workspace.py
+│   └── verify_bundle.py
+├── PACKAGE-MANIFEST.json
+├── README.zh-CN.md
+└── SHA256SUMS.txt

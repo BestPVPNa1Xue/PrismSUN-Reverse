@@ -1,0 +1,39 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x3078cc\",\"code\":\"__int64 __fastcall sub_3078CC(__int64 result)\\n{\\n  if ( *(_DWORD *)sub_3078CC >> 26 == 5 /*0x3079ac*/\\n    || *(_DWORD *)sub_3078CC >> 21 == 1697\\n    || loc_3078D0 >> 10 == 3508160\\n    || loc_3078D4 >> 10 == 3508160 )\\n  {\\n    abort(); /*0x307938*/\\n  }\\n  if ( (*(_BYTE *)(result + 16) & 1) != 0 ) /*0x3078ec*/\\n  {\\n    if ( *(_QWORD *)result ) /*0x3078f4*/\\n      return ((__int64 (__fastcall *)(_QWORD))loc_3073FC)(*(_QWORD *)result); /*0x307910*/\\n  }\\n  return result; /*0x30792c*/\\n}\",\"refs\":[{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x3078cc\",\"name\":\"sub_3078CC\"},{\"addr\":\"0x3078d0\",\"name\":\"loc_3078D0\"},{\"addr\":\"0x3078d4\",\"name\":\"loc_3078D4\"},{\"addr\":\"0x3073fc\",\"name\":\"loc_3073FC\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x3078cc",
+      "code": "__int64 __fastcall sub_3078CC(__int64 result)\n{\n  if ( *(_DWORD *)sub_3078CC >> 26 == 5 /*0x3079ac*/\n    || *(_DWORD *)sub_3078CC >> 21 == 1697\n    || loc_3078D0 >> 10 == 3508160\n    || loc_3078D4 >> 10 == 3508160 )\n  {\n    abort(); /*0x307938*/\n  }\n  if ( (*(_BYTE *)(result + 16) & 1) != 0 ) /*0x3078ec*/\n  {\n    if ( *(_QWORD *)result ) /*0x3078f4*/\n      return ((__int64 (__fastcall *)(_QWORD))loc_3073FC)(*(_QWORD *)result); /*0x307910*/\n  }\n  return result; /*0x30792c*/\n}",
+      "refs": [
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x3078cc",
+          "name": "sub_3078CC"
+        },
+        {
+          "addr": "0x3078d0",
+          "name": "loc_3078D0"
+        },
+        {
+          "addr": "0x3078d4",
+          "name": "loc_3078D4"
+        },
+        {
+          "addr": "0x3073fc",
+          "name": "loc_3073FC"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

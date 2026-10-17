@@ -1,0 +1,10 @@
+{
+  "addr": "0x6b6970",
+  "code": "void __noreturn sub_6B6970()\n{\n  abort(); /*0x6b6974*/\n}",
+  "refs": [
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    }
+  ]
+}

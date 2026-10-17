@@ -1,0 +1,47 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6c80e0\",\"code\":\"__int64 __fastcall sub_6C80E0(_QWORD *a1, __int64 a2, __int64 a3)\\n{\\n  _QWORD *v7; // [xsp-10h] [xbp-10h]\\n\\n  if ( *(_DWORD *)sub_6C80E0 >> 26 == 5 /*0x6c8218*/\\n    || *(_DWORD *)sub_6C80E0 >> 21 == 1697\\n    || loc_6C80E4 >> 10 == 3508160\\n    || loc_6C80E8 >> 10 == 3508160 )\\n  {\\n    sub_6DD7D0(); /*0x6c81a8*/\\n  }\\n  v7 = a1; /*0x6c812c*/\\n  ((void (__fastcall *)(_QWORD *))loc_61B5C8)(a1); /*0x6c8140*/\\n  *a1 = &off_793DA0; /*0x6c8154*/\\n  return ((__int64 (__fastcall *)(_QWORD *, __int64, __int64))loc_6C8228)(a1 + 1, a2, a3); /*0x6c8188*/\\n}\",\"refs\":[{\"addr\":\"0x6dd7d0\",\"name\":\"sub_6DD7D0\"},{\"addr\":\"0x6c80e0\",\"name\":\"sub_6C80E0\"},{\"addr\":\"0x6c80e4\",\"name\":\"loc_6C80E4\"},{\"addr\":\"0x6c80e8\",\"name\":\"loc_6C80E8\"},{\"addr\":\"0x61b5c8\",\"name\":\"loc_61B5C8\"},{\"addr\":\"0x793da0\",\"name\":\"off_793DA0\"},{\"addr\":\"0x6c8228\",\"name\":\"loc_6C8228\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6c80e0",
+      "code": "__int64 __fastcall sub_6C80E0(_QWORD *a1, __int64 a2, __int64 a3)\n{\n  _QWORD *v7; // [xsp-10h] [xbp-10h]\n\n  if ( *(_DWORD *)sub_6C80E0 >> 26 == 5 /*0x6c8218*/\n    || *(_DWORD *)sub_6C80E0 >> 21 == 1697\n    || loc_6C80E4 >> 10 == 3508160\n    || loc_6C80E8 >> 10 == 3508160 )\n  {\n    sub_6DD7D0(); /*0x6c81a8*/\n  }\n  v7 = a1; /*0x6c812c*/\n  ((void (__fastcall *)(_QWORD *))loc_61B5C8)(a1); /*0x6c8140*/\n  *a1 = &off_793DA0; /*0x6c8154*/\n  return ((__int64 (__fastcall *)(_QWORD *, __int64, __int64))loc_6C8228)(a1 + 1, a2, a3); /*0x6c8188*/\n}",
+      "refs": [
+        {
+          "addr": "0x6dd7d0",
+          "name": "sub_6DD7D0"
+        },
+        {
+          "addr": "0x6c80e0",
+          "name": "sub_6C80E0"
+        },
+        {
+          "addr": "0x6c80e4",
+          "name": "loc_6C80E4"
+        },
+        {
+          "addr": "0x6c80e8",
+          "name": "loc_6C80E8"
+        },
+        {
+          "addr": "0x61b5c8",
+          "name": "loc_61B5C8"
+        },
+        {
+          "addr": "0x793da0",
+          "name": "off_793DA0"
+        },
+        {
+          "addr": "0x6c8228",
+          "name": "loc_6C8228"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

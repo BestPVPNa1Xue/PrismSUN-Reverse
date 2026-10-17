@@ -1,0 +1,4 @@
+{
+  "addr": "0x596e90",
+  "code": "__int64 __fastcall sub_596E90(unsigned __int8 *a1)\n{\n  __int64 result; // x0\n  unsigned __int8 v2; // [xsp+14h] [xbp-Ch]\n  int savedregs; // [xsp+20h] [xbp+0h]\n  int savedregs_4; // [xsp+24h] [xbp+4h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x596ea4*/\n  savedregs_4 = -702208379; /*0x596eb0*/\n  while ( savedregs_4 != -1773450272 ) /*0x596ecc*/\n  {\n    if ( savedregs_4 == -1505691076 ) /*0x596ee0*/\n    {\n      savedregs = (int)a1; /*0x597020*/\n      v2 = *a1; /*0x59702c*/\n      savedregs_4 = -1773450272; /*0x59703c*/\n    }\n    else\n    {\n      savedregs_4 = -1505691076; /*0x597010*/\n    }\n  }\n  result = v2; /*0x597044*/\n  _ReadStatusReg(TPIDR_EL0); /*0x597048*/\n  return result; /*0x597064*/\n}"
+}

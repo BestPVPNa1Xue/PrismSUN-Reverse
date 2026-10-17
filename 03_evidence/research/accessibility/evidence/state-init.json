@@ -1,0 +1,25 @@
+{
+  "scope": "Original field constructors called with zero at 0x3d79a4 and 0x3d79b0, unrelated singleton fields not executed",
+  "results": [
+    {
+      "entry": "0x3da558",
+      "reason": "returned",
+      "steps": 2531,
+      "return": 822083584,
+      "pc": "0x32000000",
+      "calls": [],
+      "data_hex": "00000000cccccccccccccccccccccccc",
+      "pass": true
+    },
+    {
+      "entry": "0x2bfd70",
+      "reason": "returned",
+      "steps": 2676,
+      "return": 822083584,
+      "pc": "0x32000000",
+      "calls": [],
+      "data_hex": "00cccccccccccccccccccccccccccccc",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,962 @@
+{
+  "scope": "final snapshot; excludes manifest itself, verification, active IDB and live IDA working files; immutable .snapshot.i64 included",
+  "files": [
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\jni_tests",
+      "size": 1282800,
+      "sha256": "5b868fac04a77f16a5467cee3d073b026590773716671b1eb2a6df6920e08007"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\libprism_chains.so",
+      "size": 1439888,
+      "sha256": "246334d49a0666910be21006f210832ea97b0566209a4493f00e9b0ffbb402c3"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\android-arm64\\unit_tests",
+      "size": 1322528,
+      "sha256": "c6d9295a020eb9d48959234dba4cfb02afbdafa6515827593020bf3d548c5e85"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\host\\jni_tests.exe",
+      "size": 453688,
+      "sha256": "ce64f77f3a07b7dd644fe5f9bcf5555249c2c100b631ec70d236731c6a81cb9a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\build\\host\\unit_tests.exe",
+      "size": 495858,
+      "sha256": "b7f237b25aded9fbfa31f8130c57472505e6148a50ee68bd4e5e0a69103fbbe9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\CHAIN_NOTES.zh-CN.md",
+      "size": 11498,
+      "sha256": "5f2cb11131f4fc5208d9577116d23bfad692ea001298f56c50af268731faeb8f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x3b3860.json",
+      "size": 587046,
+      "sha256": "556d8d0708d651cf5bba4babc28a47b96af68c10fb057b2f87d8be4cd788367b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x464d9c-closure.json",
+      "size": 92975,
+      "sha256": "4eea7c315d8354e4146e2ad380e48cb7590401263e708fbbd2fae310ec6d8fa5"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x468a48-closure.json",
+      "size": 302089,
+      "sha256": "9c2a91f184a628b6e6e7a6e98c1d1adced2ac7c7d40b102a25d424e784fe1f0b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x46dc28.json",
+      "size": 87971,
+      "sha256": "9b63a06f74f9a5eb55a9ed0565ac3b79feb059560f042f6bde3108d52ff6ad77"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x471c8c.json",
+      "size": 315592,
+      "sha256": "d302229cd54768a147c55cd706e6daaf611b3a67a6486f14c59eae9acddc0e74"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x47a44c.json",
+      "size": 259219,
+      "sha256": "e2bef307c92b746219f66e1218d1d5194d69b389c2b5a09f246ef1b99c2bea3a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x47cc00.json",
+      "size": 139325,
+      "sha256": "0ed1df2210043c1357bdfb1132faa542f4bb65d8400814dbf25375866498c2d2"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x496f38.json",
+      "size": 50341,
+      "sha256": "a3aee18364a8a71ea58b88d22401a3f934f0636e5e5b05997b35270e3a2da057"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x593864-closure.json",
+      "size": 44533,
+      "sha256": "efb4632334a0c3dd257b75d96b0327b15d9f5d87c18b793f5ac611dff6a87e81"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5cc630.json",
+      "size": 75723,
+      "sha256": "139295508cddbd004bb6ad7a0826f98430cdffc74432ceb049ae1b1e7f249e3d"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5ce9c0-closure.json",
+      "size": 31794,
+      "sha256": "1e10fdb3b954b90b07a64b4e65907a215443adb3868725e9d309ba4a3014965f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5f4d50-closure.json",
+      "size": 42184,
+      "sha256": "047bf6292c4f8d6ab44c69332f90565892c749e7daf2741d4d743cb06b0c614b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5f53c8-closure.json",
+      "size": 33656,
+      "sha256": "46686ae8d97222c0040648cb24f2b88d1d23ae357954b121c0f12517628bbf77"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5f5900-closure.json",
+      "size": 36248,
+      "sha256": "2323aaf8c487af76fbd02ca5b36ecdf57cc18e1a510a50be7ca01baed1fb2949"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5f5eac-closure.json",
+      "size": 30847,
+      "sha256": "a459904f41703d7a86a6373ebfc548446e935937316769d335581acb8356261d"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5f917c.json",
+      "size": 223138,
+      "sha256": "c36dd157f7cd42e4aad8f5c5025e6af0a051c02ca8ddaa804371edde7231c286"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x5fb6b0.json",
+      "size": 223156,
+      "sha256": "948e55e28c2480cb6743b8df8e438b8e1f18fff8706caa3035b31d90c2ea2211"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x600c88-closure.json",
+      "size": 34909,
+      "sha256": "0093705aa18e82ebd4ba381a7c734fe850925913c44a7beffc00ce8c4496cf69"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x6951fc-final.json",
+      "size": 31132,
+      "sha256": "fe03b88f57c27123faf1ef21db34bbae34a291d6a5a60c842a5dbaeb27a0f7af"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x6971b8-final.json",
+      "size": 12134,
+      "sha256": "832e306852264e7379599708283d28be5b83a79fcdda3ba860d7aa1bbe059177"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\asm-0x6a9794-final.json",
+      "size": 28193,
+      "sha256": "f8f9ddc26051b6c94719b65ba521db51bb79c50dc32b7556d688e4f683acca0e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\build.json",
+      "size": 1391,
+      "sha256": "c592cfce4f0e32df84ceed04597b8c431a48b71cc5f0fc8c81a704f2feb91c82"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\historical-idb-header-check.json",
+      "size": 342,
+      "sha256": "c58df7086c4544a4ef2a6a0c2a30f060b76449dfa873d4b9085ae7082a27790a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\historical-idb-session.json",
+      "size": 1706,
+      "sha256": "e9231a0fa08d4d54e7bc12ac63db2649c40794570636a00b8843b0bb2c414853"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\host-tests.json",
+      "size": 121,
+      "sha256": "a9fbb263561fb110139765bfb0618563845ab3bb89404b27b86dc88186b39ff3"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x141054.json",
+      "size": 710,
+      "sha256": "90459e4caf243ac480aaac20adaf9a6ab62944aa0a366f87844b5026949c4cb8"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x18b3bc.json",
+      "size": 965,
+      "sha256": "a7cf09f5b8d6ea9878839f42c08150b1559efded2db3366d88ba6b88352782b0"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2379ec-closure.json",
+      "size": 1251,
+      "sha256": "6f306e1a8c48dea29af24cf90a87953d142f7a46c8fdbff283f3c38f4408185b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a6598.json",
+      "size": 1255,
+      "sha256": "66e68fe8d24534d970460dc97afde7b92a96fd6e986ea21a1ca408daa9e4592c"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a665c.json",
+      "size": 745,
+      "sha256": "c0f4f9aa0d318591101ea17091cabd016ef8b4f4a86efb208ba95e72d93863b5"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a7e24.json",
+      "size": 966,
+      "sha256": "67e34ee6b3a97bcaa20aa5fcda0a13610d5705f607232c6e8973f1254e61df1f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a88b4-fixed.json",
+      "size": 922,
+      "sha256": "2fd1028bf4b1e9a727f26e1d606362a47ae99a76413902e3bf6ffe37fe6e976f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a88b4-full.json",
+      "size": 97,
+      "sha256": "f94ae2017ae85f25043e5137abf954c90f35ae8e8ab77e446cf02824cd1d387e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a88b4-recovered.json",
+      "size": 88,
+      "sha256": "d1bb6cbe83a25b220a4db195f8e01db8ceeae52552baab7ff797adcc7f34aadb"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a88b4-typed.json",
+      "size": 900,
+      "sha256": "67aa5661052ee6352081bf2db146c64fcb16ec1e5e369859bb3c5b26eb271fca"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2a88b4.json",
+      "size": 88,
+      "sha256": "d1bb6cbe83a25b220a4db195f8e01db8ceeae52552baab7ff797adcc7f34aadb"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x2aacd4-full.json",
+      "size": 10619,
+      "sha256": "bd35f1ce7af5da79ae53e8d38c1003ca698ae6f1b37d70901e904fc474228104"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x3c563c-closure.json",
+      "size": 4314,
+      "sha256": "8cf489f0156703bde39fed0086355ff2fb7935ab9fcb9c3cac74d5fb9f807ddc"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x3c5f54.json",
+      "size": 3099,
+      "sha256": "f25ca579c98336d55c9cf36b9dde9b995a51993c8af4b201d2cd4dbd6f89bd26"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x3d764c-closure.json",
+      "size": 7422,
+      "sha256": "ac4cfad24422c49fffb9f07800be963cc1baaa42b77ba65c7b7ffe2bf5b2ad3a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4058a4.json",
+      "size": 130,
+      "sha256": "85a455a307fbc475c46959a26990852e3f25fe3040b7fbf2a4ae3d0441bb1165"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4058ac.json",
+      "size": 224,
+      "sha256": "962973015fc73fcc2d23255771dda8ff794cc816b5582a8d44e532b099959362"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4058c0.json",
+      "size": 130,
+      "sha256": "c79631d25f2f5e724103421bf911d07adf79512f245f2ba58853fe7d33d8b055"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x40593c-closure.json",
+      "size": 236,
+      "sha256": "1b287585760335e762f6696e13ba8c7a5027782bcb9e06c0791599ce02534d66"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x405a34.json",
+      "size": 130,
+      "sha256": "a825e62bc09d38cb33527658477f3354f803a9551af4ea69429d3aa7fa9d7b92"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x41de58-state-review.json",
+      "size": 6369,
+      "sha256": "03e7118e3eb0ed2abb42bf85a8e6ef4c268cc0341faa5cda7736dda9d65d2829"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x422e20.json",
+      "size": 5467,
+      "sha256": "e3fe5ea19f4f9b701e159797aebe278abd7402e6b61b88f4455adf574f8cd1f0"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x42334c.json",
+      "size": 1752,
+      "sha256": "2044581d2dbbb4e4c481b409308cb61a7886ac65bdc4c79e4d9f62961ce465a2"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x449030.json",
+      "size": 248,
+      "sha256": "46490c128acb243d2d3d62688f63d6989c151d67f14f41c7b25cf1b4777ff2e0"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x449034.json",
+      "size": 216,
+      "sha256": "1e307809afd57184553ab7f7c6fc8428fee8c520155c95be6ffd86b672d90dd5"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x44970c.json",
+      "size": 130,
+      "sha256": "8d13c8d5c374744d79db25988d448dfdfcfb6847faf5b7be6f7a0c2a0d70b97f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x464d9c-closure.json",
+      "size": 12545,
+      "sha256": "32a326b71d597557ece0712e7094fe9691cfc65a914952401794268c62f76a95"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x466bb4-closure.json",
+      "size": 88,
+      "sha256": "1ddeff8327f655dbc1797843d0c4453ff668e006b1ec5f4a6f2418298ebe71e8"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x46d830-closure.json",
+      "size": 1556,
+      "sha256": "f35d496d1a2cf30d26c6976ddeb6d1527d424a2ff9b7af553708814a7c69c9fe"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x46dc28-closure.json",
+      "size": 11254,
+      "sha256": "2337a56584730519d04f6dff03e77b5b0afdfc599643df0299b7bf94b6e1cd95"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x474a54.json",
+      "size": 10262,
+      "sha256": "25003f01ced6235dca22d650ae71070cfbc8a827d255b1934eb80a8d06be1fb5"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x475660.json",
+      "size": 2560,
+      "sha256": "d5e8652465d41be7f2c391caf1579cdff7b089c43204cf9004db875e21cc73fb"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4778bc.json",
+      "size": 7837,
+      "sha256": "9c4ca1d91e0b0682669fad287cbb7cc5d8327b77f334e26f80649774a026c41e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x47a44c-fixed.json",
+      "size": 28488,
+      "sha256": "ed39744db5e42645eb0abb885a126bdc4cde461a15a1a28b25ed082296eb8d91"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x47a44c.json",
+      "size": 268,
+      "sha256": "bb9b8b68e7dd837efb45e0a8652d2fbd60663e774ce0caddafb362651f34da6d"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x47cc00.json",
+      "size": 19531,
+      "sha256": "da78ff921d4ae2bd2308e4cc52b1cbc9a90168b95e352c790098e3d5dbe9a7f2"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x47e398.json",
+      "size": 3679,
+      "sha256": "b3d4671ed281ad7b24e80df3634e48fef1d078fd4cc36803d91488787b6cb4ae"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x47fafc.json",
+      "size": 7999,
+      "sha256": "f5a3abfcbf9a767f7c4d7485c610aecc03a65d73fb35dc9ab8138095e147a25e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x496f38-fixed.json",
+      "size": 713,
+      "sha256": "c72cd8a897a188fcc268222d014d3bb701bc9c250d74b9dc34442b9d84426431"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x496f38.json",
+      "size": 713,
+      "sha256": "d5dfae9574e4b3d25b543e1e2d388b6b0f1d97d406b0a68e1685399046892d4b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4a6c7c-closure.json",
+      "size": 4508,
+      "sha256": "4f2584576f06437371e5da832642d7b06e9689e3c5369b8f4d4977b9736c0390"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4b51f4.json",
+      "size": 108,
+      "sha256": "459a5d92e9d65f5f81b2f7d699054c6a6426ef6f89e7f84f33e2aca34ac2cf08"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4b64a4.json",
+      "size": 455,
+      "sha256": "383630b7ff162f14766e7090803abb3d2ee6646953703f098cda164a9c6ca3c6"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4b66c8-closure.json",
+      "size": 3233,
+      "sha256": "28bc6e298f8f4d619364703bdb0d147dfdd9dd7fa8d7fae06b19f4ddea225b21"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4b66c8.json",
+      "size": 3233,
+      "sha256": "a54c120a17467b4575efbf8c75b5695f962047d851ddb8d18761f68f021641b1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4b6aac-follow.json",
+      "size": 3275,
+      "sha256": "055100f9483b65c59e06393e97557284742de851ba29eee4cf9b8fb9fe234ab2"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4b9c1c-closure.json",
+      "size": 6378,
+      "sha256": "d58443bfa4cf934b407243d979037c6f8980b0f9708e4329567c8493e7cd4dd1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4ba304-closure.json",
+      "size": 119,
+      "sha256": "29c582ea4ce1459ae660dafef4f882d59f74b51ca2aee2a9af9d55951b0577e9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4ba308-closure.json",
+      "size": 9008,
+      "sha256": "e46c1a33797ee396e0f1c2cea0b0b2b408feb2b90e7d2e7a663a25907c833dba"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4bab9c-closure.json",
+      "size": 119,
+      "sha256": "ac8329463dff450c19118ef307617bd57ef1a94750f331da77e37328971f7095"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4bdea0.json",
+      "size": 193,
+      "sha256": "cfeac76ca0d83f2e23877c63b1984d998d60e1754d27361f2812d860aa3a8a1e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4bded4.json",
+      "size": 210,
+      "sha256": "3b0ffdcdcb21cddcee92836ffc2b6154523ad19bbf0d697837539506e656fc3a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4bded8.json",
+      "size": 119,
+      "sha256": "ec6713e81ddcb7ef35a1b1d38289d7054a9839e5743681c895e68d7daa92f6ab"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4bdedc.json",
+      "size": 6756,
+      "sha256": "8d525fa8db6687e0a34d19d506421f39e8d345f3ad398755366fa13ff37cb4e7"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4be7e0.json",
+      "size": 119,
+      "sha256": "7bf0e5ef4492ccd366293187c578988bff4302d9373bc2c4844b3118201056c8"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4be7e4.json",
+      "size": 210,
+      "sha256": "79a6e69fa41ad0a8bdb58319852f74c52f3e305c983b76fb73fdf1a6b1a77568"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4be7e8.json",
+      "size": 119,
+      "sha256": "e1df3eb8bd89b60cfeba9b96a87dc25373749dfa6f17f34c3b0e0c4ea6614ec9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4be84c.json",
+      "size": 216,
+      "sha256": "c10b27d8c45b5c6f06742f60abc93861123ab76a69f72f30d2e8c4b7b0c30285"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4be850.json",
+      "size": 216,
+      "sha256": "ff6588f96e36bc880b4610c5ca77e2d8c6525d1a1c8ecf2d13b407fac6170d21"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4be854.json",
+      "size": 216,
+      "sha256": "f8a5996388dbfced6ff1a7c2e9ff1a8d8563135d804bb30fcc1ce39f80c0beeb"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4be8b8.json",
+      "size": 119,
+      "sha256": "09fdd902edddf8301d7f9663e098875c5d025eae36060a33fd8497a31db275d9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4c0248.json",
+      "size": 244,
+      "sha256": "d548a36213809a4428bc28ca46e46c2933d2c829c3fd8b82bc7e3c6b2ab851dd"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4c02c0.json",
+      "size": 130,
+      "sha256": "3862c89281e5c28552f30bc9b5895339f19a40c488c7bbe965ea3d7a81bbfdd9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4c4ae0-state-review.json",
+      "size": 6400,
+      "sha256": "4bfb81aa028fe62372758b8e39bccc757a1ceb977043ab1fd6c5d20df0ee149c"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4c9d30-closure.json",
+      "size": 15272,
+      "sha256": "a7951846071f42efbb81a45e60c817f634eeed3513ec350c65252047d5718681"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4c9d30-state-review.json",
+      "size": 15272,
+      "sha256": "a7951846071f42efbb81a45e60c817f634eeed3513ec350c65252047d5718681"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4cb88c-closure.json",
+      "size": 13125,
+      "sha256": "d94de0b79e7d24ed0e50d138b7747c37907fc14b21b76704de2a194296288898"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4d3aac-closure.json",
+      "size": 4709,
+      "sha256": "0065b03befcb88941eb7bd1c2f7e189620fdd6c01ad6d1e8382fb22a744cf9be"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x4ec864-closure.json",
+      "size": 3213,
+      "sha256": "cf2c4adf9137126804f9f07831dc5c6a19d0b39eee98aedd7293e38cfa3351d8"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x58c5b0-closure.json",
+      "size": 9287,
+      "sha256": "3d538bc78cf569def3804518effff64582c7ad9166f3806ae91888e336868633"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x58cd1c-closure.json",
+      "size": 3478,
+      "sha256": "415dba6361065d03a738dc290060d1880664bdd432443adf8c2092ba42e867c3"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x593864-recovered.json",
+      "size": 906,
+      "sha256": "e00e76463011d1a318cbc0cb58148e1be1ccb52bf46085d77d230ade9089ddc6"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x596e90-closure.json",
+      "size": 833,
+      "sha256": "5b9437b6abcb5811e0b60ee589a3485a7cafb01ba1e245693e5dfdf0e13781ff"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x597284-closure.json",
+      "size": 3326,
+      "sha256": "360c3d29c8bd4d856b9d060ed2087f7ef6d32ed871a10adafa18ac87242783c8"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5cd0e4-full.json",
+      "size": 2284,
+      "sha256": "da2caadb1f2d666abc41a4b2968f0c43f989e52707235105af3cd59145f7ae27"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5cd914-follow.json",
+      "size": 345,
+      "sha256": "f813bb33b2dfa6fdaf99b59b94f3f8e25133b69be5dafaed77b75af0aa5b1e8c"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5cdc88-full.json",
+      "size": 8584,
+      "sha256": "990e85d11f415ce99d07797d013c2dcc35ce7a381133455b3c76f8703774d0ee"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5ce9c0-follow.json",
+      "size": 2728,
+      "sha256": "c82e645f5215309dce8de4dafc0cceb35cfcc1be801a64685e2392e68cb1b94b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5cf3cc-full.json",
+      "size": 12296,
+      "sha256": "6c5972f8d2a27247e4139c7bba68a155acfa451a436f9bd1bd13aeffc3349ce3"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5d07e0-closure.json",
+      "size": 88,
+      "sha256": "4171b1c2c796dc5ef203f11d86c52785e327307dda8440b237963e7ca63585cd"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5d07e0-defined.json",
+      "size": 3170,
+      "sha256": "5de2523203985045be277d6e612b7f6daf0ef5c36351b244d1d754e3af3ca18e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5d0c44-full.json",
+      "size": 9346,
+      "sha256": "77a486f8f26e467a1c17c2a19fa144c64b2e9ef108509479eefc58a84f37b0e9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5d143c-follow.json",
+      "size": 2077,
+      "sha256": "7a74287affb2785e1c25b6e0959c5c7a5f574048eae796befd6aaa63796f8b7f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5f4d50-closure.json",
+      "size": 88,
+      "sha256": "2dcf8d19bc3cfe6a9a605223e01cc8e3effb2aa27bda46d502120027457ff7bf"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5f4d50-defined.json",
+      "size": 108,
+      "sha256": "89871169d18d57cdb65cd640b4a71dfcf0b0b8ef9edfb7abdbe0ddc8611ba70e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5f5eac-defined.json",
+      "size": 108,
+      "sha256": "6da3b74a1a6a6280b0aa0baa24403ac66e6d3ca72acdf3527d8cf504447c2e1f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5f9170-follow.json",
+      "size": 119,
+      "sha256": "ac2553eb76d20611bab4cac0dd2e0f7fafdfa74b20e28fae2ab272b48b5ae73e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5f917c-final.json",
+      "size": 27832,
+      "sha256": "e37d25da15b6cf9509bf72b096046d41cffd99c5c0309f2514cd21d8556e772a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5fb6ac.json",
+      "size": 130,
+      "sha256": "14645b609663a09e2f1c3c8443b7850aeeb102158a49b7eefaf97c97224741bf"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5fdbe0.json",
+      "size": 130,
+      "sha256": "96a4e1298464e294e58c09057056b98a5d57d690d62ae56134d1666f89fd3ba2"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5fdc64.json",
+      "size": 88,
+      "sha256": "c38210d888731d6cdf9816ecfa013d730a6824eaf21c1454bfe881b82ddcd00a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5fe6c4.json",
+      "size": 740,
+      "sha256": "74f193ffc421c9c1d89ec55708eba5debecc7ab086c98cd53a372c3a6139887a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5fea58.json",
+      "size": 1988,
+      "sha256": "2c924c7e761f7321f3fd7d24d0cb5917d26e79d7900ed96db5ac0c56ace51764"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5feca8.json",
+      "size": 884,
+      "sha256": "9c89ba48f0edea2062588b52d47a101a6d6228bc0a469e4790f57f761593b5ba"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5fedc0-follow.json",
+      "size": 6990,
+      "sha256": "31f99b206c10c47b52ddb4523fb73e3a8cf96ba355197233781b12bf090e5f0b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5ff604-closure.json",
+      "size": 2207,
+      "sha256": "fbd773ae2cbf29eba2cac76ba1dc33c1f2f2bb30d6ccf189f4780349accc26ed"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x5ff914-defined.json",
+      "size": 9740,
+      "sha256": "aef8e4c15bf7bf8b80fa4d5e8c201c008cf4ba2b8769259d5fd254effe9e330f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6008c8-closure.json",
+      "size": 3345,
+      "sha256": "c50389ed045fe7b93025d30bf9eb7134a8c8e29460e04365ad223b86c85d1fc1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6318b4.json",
+      "size": 3344,
+      "sha256": "99e6ad24dd5a2fafe3f56adb401b65675a4a0a45fa880b5e534d1834e75b7758"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x631c44.json",
+      "size": 3669,
+      "sha256": "47aa279fe9e1647ff398b25b3f8dee5048d4a838731637dbe20ad987dd67b84c"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x694c84-final.json",
+      "size": 1921,
+      "sha256": "3a9d2a99fca87626deef28a3ea29bf3d4eda65a9db58fe9f8edcca8b669a36cb"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x694e5c-final.json",
+      "size": 3015,
+      "sha256": "d14069f5e82f64b07f3c828801b0b041e827652880a9763f9cc88d4a267cefd7"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6951fc-final.json",
+      "size": 108,
+      "sha256": "c89ef2114f1280fa822e34b76917db2dd01035ef870b7768218239e17ef57e85"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6956d4-final.json",
+      "size": 670,
+      "sha256": "037c30833f650acedb748da141c882b659abdc1fb6c44dd6e32710a97b980124"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x695a3c-final.json",
+      "size": 5986,
+      "sha256": "23fdef48cb5e56829b685406f1de253c97d8f17d6c0112951d996900a8138699"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6971b8-final.json",
+      "size": 591,
+      "sha256": "dbb3cf8b98d30830c0d1ba7f42adf8d3a3eec1d0888473871ff5127ad009b4c1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x698f10-final.json",
+      "size": 3025,
+      "sha256": "bbe12b72e7fd89139eab9199ce286800b757f1b4177798da6c4a94cef0906ddf"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6a7cf4-final.json",
+      "size": 3815,
+      "sha256": "63e9c75c4b498714c751feacc51d3c2c6c5689c8df9f308361ac545cba737831"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6a8154-final.json",
+      "size": 1282,
+      "sha256": "6548071171c42e148d04925dd6f51a21b7ce03ee4c6fe39eb6e002285369728f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6a893c-final.json",
+      "size": 5014,
+      "sha256": "c26f56a0d99f36414cac76a6c2339a4cc5d9c7aef307b033a4d268604fc9ef60"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6a94a0-final.json",
+      "size": 937,
+      "sha256": "3515cf99b54a38ae7aac3829517028fa2b72ed3761cf5948b1cd0739f75d2204"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6a9bcc.json",
+      "size": 1087,
+      "sha256": "80eab96a0e2394d8f1a0d73dd7dc0f085193978e43e484cbaaa67984230c173a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6aa3ec-follow.json",
+      "size": 5366,
+      "sha256": "67bea963db1ab20f290b39da00485c9d61a5cc19cce5a9416db4a374a232cc92"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6aa91c-follow.json",
+      "size": 578,
+      "sha256": "be81a34cd5a9a38a78f51c0df60c92e25197dde8cd667419efc37b1312e8b546"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6ab124-follow.json",
+      "size": 278,
+      "sha256": "7c20d9a754d383742dcfb0ad750a616f9ed5d0ecbdcc96951384cd0ebe9fadb1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6ab124.json",
+      "size": 278,
+      "sha256": "7c20d9a754d383742dcfb0ad750a616f9ed5d0ecbdcc96951384cd0ebe9fadb1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b6954.json",
+      "size": 216,
+      "sha256": "f57724da8436901176f9e9c1587c287ec7829eeb79d1dc58169720d938177071"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b6958.json",
+      "size": 240,
+      "sha256": "f47e7d5de5d8e325b80559216f8ec41c9c8aa43a192c39065c6a5421431a0333"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b695c.json",
+      "size": 130,
+      "sha256": "efc227fe13234695b562c9726e81872cdafe58b0d70ca8b4709fc7826f91d8b2"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b6960.json",
+      "size": 130,
+      "sha256": "d7e8197476cd6d9d28ffeef745e6500696c284c3fd9512303e96cf83dcffb795"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b6964.json",
+      "size": 232,
+      "sha256": "93609a04bcb28d9d3d3064eefa3e326d3f084cf66674445351b42c6199c8fa26"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b6968.json",
+      "size": 216,
+      "sha256": "b6bec3b2c4b27a8ea44777c3d261b8f68cceeaf8f9ed92a87f83636c540284e3"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b696c.json",
+      "size": 235,
+      "sha256": "b7baeb302c72a431a8e7e32e4bab065452c4256de4b6bf6553f18330d7fe464f"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b6970.json",
+      "size": 176,
+      "sha256": "c174334aff625b98cf4177bc0ceb7c89c71a56197743742d1c3b4129523295bb"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0x6b698c.json",
+      "size": 216,
+      "sha256": "059e8dc3e35bb67f198d117186d74789f4ad2f0167eb6a624386f05dcd216db4"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0xb6704.json",
+      "size": 2007,
+      "sha256": "8e7aef56e38a8a2d85f0a6f45c43d2e9fd4043c33a20fa92d2e9529292fa6640"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0xc9164-fixed.json",
+      "size": 953,
+      "sha256": "f3b3f0a22e2e0517865aad8e0db0f5e2490f89c1c7f21bda48df780540e90766"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0xc9164.json",
+      "size": 86,
+      "sha256": "a0e85b0e04ce25997f117bc71f2bf5114663484d121091cf4a95ce364072c6b3"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\ida-0xcb11c.json",
+      "size": 1348,
+      "sha256": "f5918e66ab36e4d57d9e12fa69ad5071dd6e926d7dab350e0912c05f150d91a7"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\jni-tests.json",
+      "size": 101,
+      "sha256": "de2be37a0f048d42414dee984605c6811990f88b8d5cddf8b9f11ef9946c6da6"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\PROGRESS.before.md",
+      "size": 22108,
+      "sha256": "38966206474c6fc868296922f9395a89c0fd5063eaf56fbc8b416e5ee91a17f7"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\protected-after.json",
+      "size": 1039,
+      "sha256": "43446cf25d9733be0accc8473e323bca6924546d567de7c325f3444e2645c948"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\protected-before.json",
+      "size": 918,
+      "sha256": "4b280b9b7640c60111773cc0cb2580f8371a790930fa995ab687340f533bff72"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\reason-asm-0.json",
+      "size": 40880,
+      "sha256": "9d5a7fe5cf8dae5d9907c2295e4fa8d49999208bca7e7e0cae7134673c8dc43e"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\state-offset16-search.json",
+      "size": 9849,
+      "sha256": "93c7116106090b6610d614dec78516d02704d6b81203954a2dcd445645fbd548"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\string-static-decode.json",
+      "size": 1566,
+      "sha256": "301894f9a3c55315b0a90bb40e25b285f7860252adc2c6522e15acc28400668c"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\task35-factory-final.json",
+      "size": 1428,
+      "sha256": "c9ff1a316b9fed32f64968566f20709e937e99edd418ea94d7414b7992d070b0"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\evidence\\undefined-code-candidates.json",
+      "size": 34403,
+      "sha256": "63a8693320705d7ebaaf2b41a3d02f785536e5386e3b4be872bebe2397d016ef"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\prism-chain-closure.snapshot.i64",
+      "size": 83004548,
+      "sha256": "54aafe7dfe2607b63f5de896db5cb7b0f38c5da30409b395692e5415ba377017"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\README.md",
+      "size": 2255,
+      "sha256": "56f44dc5a0c9a6bd5e649bd524292aaaf78ec24ef2f2d5fdf088d0a519b215c8"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\REPORT.zh-CN.md",
+      "size": 9859,
+      "sha256": "c5867e4a5f9723a0a3c260aae05533ffd592a7f33bfa48e31004ade6315ee3a1"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\scripts\\build.ps1",
+      "size": 3288,
+      "sha256": "f6f49fcca0df6a2a79faff166aed1014381df57923017af621ece8fe4c3163b4"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\scripts\\check_idb_header.py",
+      "size": 1371,
+      "sha256": "3ff4080461220269dc9890cc09f593ed20f9b109bac03377dbb6bfd4c00b01e6"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\scripts\\decode_strings.py",
+      "size": 1520,
+      "sha256": "78d170cc7b5adb86f53af7a45bdf5fc5dc07b81451bf5c67db1bbd402bc6476d"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\scripts\\evidence_view.py",
+      "size": 989,
+      "sha256": "47e968991dd43146aff62c0ba55f5370c6df8fb4b2964de9cd9a2170154a4d73"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\scripts\\verify.py",
+      "size": 4858,
+      "sha256": "f41d98c535960134fbf4e6994bda29258b669224ae6089f5c73223e2755c1753"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\android_collectors.cpp",
+      "size": 5897,
+      "sha256": "094777819e496026872a08228a653cc0cbd8a4d661fa71c4d7a775260de3769a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\android_collectors.hpp",
+      "size": 1253,
+      "sha256": "5ccad60275e86336ead417686acf7c96238f747776747466941ad3c0e90283f9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\classes_jni.cpp",
+      "size": 899,
+      "sha256": "a059ca63013e2d6f60aa8f5603fa0dee89613f6c792da29e92eaacc807f57d95"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\classes_jni.hpp",
+      "size": 813,
+      "sha256": "925facc926fb711bfe126439ee57570e59ca13a2e49d8c18f32fdb2539c5c683"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\detection_chains.cpp",
+      "size": 12305,
+      "sha256": "3185734379acb9672db36bed767c1b40f68d7a51490d39d29f3b5bc7abe35172"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\src\\detection_chains.hpp",
+      "size": 6566,
+      "sha256": "34cf5bc36d02ae6ac33693e957dd43ab3bcd9390058e95dffaf95cac15206203"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\tests\\jni_tests.cpp",
+      "size": 3755,
+      "sha256": "97b45bd6c4779d54e9d1ec9f6ec1b4467b85e760130a82aa6b7613b2e9600ed0"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\chain_closure_20261018\\tests\\unit_tests.cpp",
+      "size": 17101,
+      "sha256": "7b5f0d7cfddae0af3eb32aa197d128485c44e0aad830974689c92aed16bb10b2"
+    }
+  ],
+  "reused_source_dependencies": [
+    {
+      "path": "D:\\PrismSUN\\research\\environment_memory\\src\\environment_memory.hpp",
+      "size": 7206,
+      "sha256": "121b00b5355f13006e010401af1b03b551638e42cff8916684b90241b49d64e9"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\environment_memory\\src\\environment_memory.cpp",
+      "size": 16465,
+      "sha256": "ab436d6eedebeb24115f098f2f739a8a59ced271a2d6e5d0e598bc90ec67936b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\src\\observed_models.h",
+      "size": 1152,
+      "sha256": "1c2f09ee2971bb3e8126072c58dcdd2b78343c3bd694022daff94d26252d3245"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\src\\observed_models.cpp",
+      "size": 1570,
+      "sha256": "7980f9118b2bb2ddbbf97ea13d039b638416895f713e83d4f1aa4024942c3777"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.hpp",
+      "size": 932,
+      "sha256": "f8a98511c594f39c03e29161f403fa17ef23ff6ececf0a580297262b3f10b312"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_env.cpp",
+      "size": 985,
+      "sha256": "fadad80ecca8877dd55e48da4eec57a0e657582ca5ce1aa8c92940d07a10b235"
+    }
+  ]
+}

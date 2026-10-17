@@ -1,0 +1,10 @@
+{
+  "start": "0x5cc2c8",
+  "end": "0x5cc2cc",
+  "fde": {
+    "start": 6079176,
+    "end": 6079180,
+    "size": 4
+  },
+  "asm": "0x5cc2c8: b #0x19c47c"
+}

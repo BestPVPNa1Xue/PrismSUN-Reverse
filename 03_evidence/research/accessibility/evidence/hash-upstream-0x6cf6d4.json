@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6cf6d4\",\"code\":\"__int64 __fastcall sub_6CF6D4(__int64 a1, __int64 a2)\\n{\\n  __int64 result; // x0\\n  int v3; // w9\\n  int v4; // w9\\n  bool v5; // [xsp+1Fh] [xbp-1h]\\n  __int64 savedregs; // [xsp+20h] [xbp+0h]\\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\\n\\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6cf6e8*/\\n  savedregs = 0x76EF612E3AE03AA5LL; /*0x6cf6f4*/\\n  while ( 1 ) /*0x6cf7d0*/\\n  {\\n    while ( 1 ) /*0x6cf7a8*/\\n    {\\n      while ( 1 ) /*0x6cf780*/\\n      {\\n        while ( 1 ) /*0x6cf758*/\\n        {\\n          while ( 1 ) /*0x6cf744*/\\n          {\\n            while ( 1 ) /*0x6cf71c*/\\n            {\\n              while ( HIDWORD(savedregs) == -2059292922 ) /*0x6cf71c*/\\n                HIDWORD(savedregs) = -758450770; /*0x6cf8e8*/\\n              if ( HIDWORD(savedregs) != -1165307539 ) /*0x6cf744*/\\n                break; /*0x6cf744*/\\n              v5 = loc_6CF6D8 >> 10 == 3508160 || loc_6CF6DC >> 10 == 3508160; /*0x6cf9c4*/\\n              HIDWORD(savedregs) = 1739510625; /*0x6cf9d4*/\\n            }\\n            if ( HIDWORD(savedregs) != -1068826232 ) /*0x6cf758*/\\n              break; /*0x6cf758*/\\n            HIDWORD(savedregs) = -1165307539; /*0x6cf974*/\\n          }\\n          if ( HIDWORD(savedregs) == -758450770 ) /*0x6cf76c*/\\n          {\\n            _ReadStatusReg(TPIDR_EL0); /*0x6cf8f0*/\\n            abort(); /*0x6cf904*/\\n          }\\n          if ( HIDWORD(savedregs) != -421755398 ) /*0x6cf780*/\\n            break; /*0x6cf780*/\\n          HIDWORD(savedregs) = 708941401; /*0x6cf868*/\\n        }\\n        if ( HIDWORD(savedregs) != 146075677 ) /*0x6cf7a8*/\\n          break; /*0x6cf7a8*/\\n        if ( *(_DWORD *)sub_6CF6D4 >> 26 == 5 || *(_DWORD *)sub_6CF6D4 >> 21 == 1697 ) /*0x6cf954*/\\n          v3 = -2059292922; /*0x6cf958*/\\n        else\\n          v3 = -1068826232; /*0x6cf958*/\\n        HIDWORD(savedregs) = v3; /*0x6cf960*/\\n      }\\n      if ( HIDWORD(savedregs) != 708941401 ) /*0x6cf7d0*/\\n        break; /*0x6cf7d0*/\\n      HIDWORD(savedregs) = 146075677; /*0x6cf87c*/\\n    }\\n    if ( HIDWORD(savedregs) == 881089651 ) /*0x6cf7e4*/\\n      break; /*0x6cf7e4*/\\n    if ( HIDWORD(savedregs) == 1739510625 ) /*0x6cf80c*/\\n    {\\n      if ( v5 ) /*0x6cf9e0*/\\n        v4 = -2059292922; /*0x6cf9f8*/\\n      else\\n        v4 = 881089651; /*0x6cf9f8*/\\n      HIDWORD(savedregs) = v4; /*0x6cfa00*/\\n    }\\n    else\\n    {\\n      HIDWORD(savedregs) = -421755398; /*0x6cf854*/\\n    }\\n  }\\n  result = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)a1 + 64LL))(a1, a2); /*0x6cf8b8*/\\n  _ReadStatusReg(TPIDR_EL0); /*0x6cf8bc*/\\n  return result; /*0x6cf8d8*/\\n}\",\"refs\":[{\"addr\":\"0x6cf6d8\",\"name\":\"loc_6CF6D8\"},{\"addr\":\"0x6cf6dc\",\"name\":\"loc_6CF6DC\"},{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x6cf6d4\",\"name\":\"sub_6CF6D4\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6cf6d4",
+      "code": "__int64 __fastcall sub_6CF6D4(__int64 a1, __int64 a2)\n{\n  __int64 result; // x0\n  int v3; // w9\n  int v4; // w9\n  bool v5; // [xsp+1Fh] [xbp-1h]\n  __int64 savedregs; // [xsp+20h] [xbp+0h]\n  __int64 savedregs_8; // [xsp+28h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6cf6e8*/\n  savedregs = 0x76EF612E3AE03AA5LL; /*0x6cf6f4*/\n  while ( 1 ) /*0x6cf7d0*/\n  {\n    while ( 1 ) /*0x6cf7a8*/\n    {\n      while ( 1 ) /*0x6cf780*/\n      {\n        while ( 1 ) /*0x6cf758*/\n        {\n          while ( 1 ) /*0x6cf744*/\n          {\n            while ( 1 ) /*0x6cf71c*/\n            {\n              while ( HIDWORD(savedregs) == -2059292922 ) /*0x6cf71c*/\n                HIDWORD(savedregs) = -758450770; /*0x6cf8e8*/\n              if ( HIDWORD(savedregs) != -1165307539 ) /*0x6cf744*/\n                break; /*0x6cf744*/\n              v5 = loc_6CF6D8 >> 10 == 3508160 || loc_6CF6DC >> 10 == 3508160; /*0x6cf9c4*/\n              HIDWORD(savedregs) = 1739510625; /*0x6cf9d4*/\n            }\n            if ( HIDWORD(savedregs) != -1068826232 ) /*0x6cf758*/\n              break; /*0x6cf758*/\n            HIDWORD(savedregs) = -1165307539; /*0x6cf974*/\n          }\n          if ( HIDWORD(savedregs) == -758450770 ) /*0x6cf76c*/\n          {\n            _ReadStatusReg(TPIDR_EL0); /*0x6cf8f0*/\n            abort(); /*0x6cf904*/\n          }\n          if ( HIDWORD(savedregs) != -421755398 ) /*0x6cf780*/\n            break; /*0x6cf780*/\n          HIDWORD(savedregs) = 708941401; /*0x6cf868*/\n        }\n        if ( HIDWORD(savedregs) != 146075677 ) /*0x6cf7a8*/\n          break; /*0x6cf7a8*/\n        if ( *(_DWORD *)sub_6CF6D4 >> 26 == 5 || *(_DWORD *)sub_6CF6D4 >> 21 == 1697 ) /*0x6cf954*/\n          v3 = -2059292922; /*0x6cf958*/\n        else\n          v3 = -1068826232; /*0x6cf958*/\n        HIDWORD(savedregs) = v3; /*0x6cf960*/\n      }\n      if ( HIDWORD(savedregs) != 708941401 ) /*0x6cf7d0*/\n        break; /*0x6cf7d0*/\n      HIDWORD(savedregs) = 146075677; /*0x6cf87c*/\n    }\n    if ( HIDWORD(savedregs) == 881089651 ) /*0x6cf7e4*/\n      break; /*0x6cf7e4*/\n    if ( HIDWORD(savedregs) == 1739510625 ) /*0x6cf80c*/\n    {\n      if ( v5 ) /*0x6cf9e0*/\n        v4 = -2059292922; /*0x6cf9f8*/\n      else\n        v4 = 881089651; /*0x6cf9f8*/\n      HIDWORD(savedregs) = v4; /*0x6cfa00*/\n    }\n    else\n    {\n      HIDWORD(savedregs) = -421755398; /*0x6cf854*/\n    }\n  }\n  result = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)a1 + 64LL))(a1, a2); /*0x6cf8b8*/\n  _ReadStatusReg(TPIDR_EL0); /*0x6cf8bc*/\n  return result; /*0x6cf8d8*/\n}",
+      "refs": [
+        {
+          "addr": "0x6cf6d8",
+          "name": "loc_6CF6D8"
+        },
+        {
+          "addr": "0x6cf6dc",
+          "name": "loc_6CF6DC"
+        },
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x6cf6d4",
+          "name": "sub_6CF6D4"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

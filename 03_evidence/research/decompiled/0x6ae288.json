@@ -1,0 +1,14 @@
+{
+  "addr": "0x6ae288",
+  "code": "bool __fastcall sub_6AE288(_QWORD *a1)\n{\n  int v1; // w8\n  _QWORD *v2; // x19\n  int v3; // w8\n  int v4; // w8\n  _QWORD *v5; // x19\n  int v6; // w8\n  bool v8; // [xsp+2Bh] [xbp-5h]\n  bool v9; // [xsp+2Ch] [xbp-4h]\n  bool v10; // [xsp+2Eh] [xbp-2h]\n  bool v11; // [xsp+2Fh] [xbp-1h]\n  _QWORD *v12; // [xsp+30h] [xbp+0h]\n  int v13; // [xsp+44h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x6ae298*/\n  v13 = 1503099090; /*0x6ae2ac*/\n  while ( v13 != -835477862 ) /*0x6ae318*/\n  {\n    switch ( v13 ) /*0x6ae340*/\n    {\n      case -582982732: /*0x6ae340*/\n        v2 = a1; /*0x6ae4dc*/\n        v3 = ((__int64 (__fastcall *)(_QWORD))dword_2A88B4)(*v12); /*0x6ae4e8*/\n        a1 = v2; /*0x6ae4ec*/\n        v10 = v3 != 0; /*0x6ae4fc*/\n        v13 = 639544418; /*0x6ae50c*/\n        break;\n      case 186680880: /*0x6ae340*/\n        v12 = a1; /*0x6ae460*/\n        v11 = *a1 != 0; /*0x6ae478*/\n        v13 = 1261019759; /*0x6ae488*/\n        break;\n      case 576998729: /*0x6ae340*/\n        v13 = -582982732; /*0x6ae4cc*/\n        break;\n      case 639544418: /*0x6ae340*/\n        if ( v10 ) /*0x6ae518*/\n          v4 = 1320357092; /*0x6ae530*/\n        else\n          v4 = 1895512457; /*0x6ae530*/\n        v13 = v4; /*0x6ae538*/\n        v9 = 0; /*0x6ae53c*/\n        break;\n      case 1261019759: /*0x6ae340*/\n        if ( v11 ) /*0x6ae494*/\n          v1 = 576998729; /*0x6ae4ac*/\n        else\n          v1 = 1895512457; /*0x6ae4ac*/\n        v13 = v1; /*0x6ae4b4*/\n        v9 = 0; /*0x6ae4b8*/\n        break;\n      case 1320357092: /*0x6ae340*/\n        v5 = a1; /*0x6ae54c*/\n        v6 = sub_6B698C(*v12); /*0x6ae558*/\n        a1 = v5; /*0x6ae55c*/\n        v13 = 1895512457; /*0x6ae574*/\n        v9 = v6 > 0; /*0x6ae57c*/\n        break;\n      case 1503099090: /*0x6ae340*/\n        v13 = 186680880; /*0x6ae448*/\n        break;\n      case 1895512457: /*0x6ae340*/\n        v8 = v9; /*0x6ae590*/\n        v13 = 1921246354; /*0x6ae5a0*/\n        break;\n      default:\n        v13 = -835477862; /*0x6ae5b4*/\n        break;\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x6ae5c4*/\n  return v8; /*0x6ae5e8*/\n}",
+  "refs": [
+    {
+      "addr": "0x2a88b4",
+      "name": "dword_2A88B4"
+    },
+    {
+      "addr": "0x6b698c",
+      "name": "sub_6B698C"
+    }
+  ]
+}

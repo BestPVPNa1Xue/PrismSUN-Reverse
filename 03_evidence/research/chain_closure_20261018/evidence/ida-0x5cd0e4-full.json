@@ -1,0 +1,42 @@
+{
+  "addr": "0x5cd0e4",
+  "code": "void sub_5CD0E4()\n{\n  unsigned int v0; // w8\n  int v1; // w8\n  bool v2; // [xsp+5Fh] [xbp+1Fh]\n  unsigned __int64 savedregs; // [xsp+60h] [xbp+20h]\n  __int64 savedregs_8; // [xsp+68h] [xbp+28h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x5cd100*/\n  savedregs = 0xAA165787978CF716LL; /*0x5cd10c*/\n  while ( 1 ) /*0x5cd184*/\n  {\n    while ( 1 ) /*0x5cd134*/\n    {\n      while ( HIDWORD(savedregs) == -2139720058 ) /*0x5cd134*/\n      {\n        v0 = atomic_load(&dword_7D071C[146]); /*0x5cd34c*/\n        v2 = v0 == 0; /*0x5cd35c*/\n        HIDWORD(savedregs) = 1548724623; /*0x5cd36c*/\n      }\n      if ( HIDWORD(savedregs) != -1441376377 ) /*0x5cd184*/\n        break; /*0x5cd184*/\n      HIDWORD(savedregs) = -2139720058; /*0x5cd33c*/\n    }\n    if ( HIDWORD(savedregs) == -652777321 ) /*0x5cd1ac*/\n    {\n      LOBYTE(dword_7AF4F0) = byte_7AF4E8 ^ 0x1F; /*0x5cd3bc*/\n      BYTE1(dword_7AF4F0) = ~byte_7AF4E9 & 0x9B | byte_7AF4E9 & 0x64; /*0x5cd3fc*/\n      BYTE2(dword_7AF4F0) = (~byte_7AF4EA | 0xCE) & ~(~byte_7AF4EA & 0xCE); /*0x5cd46c*/\n      HIBYTE(dword_7AF4F0) = byte_7AF4EB ^ 0xFE; /*0x5cd48c*/\n      LOBYTE(word_7AF4F4) = byte_7AF4EC ^ 0xF0; /*0x5cd4ac*/\n      HIBYTE(word_7AF4F4) = byte_7AF4ED ^ 0xBE; /*0x5cd4d0*/\n      HIDWORD(savedregs) = 327447228; /*0x5cd4e0*/\n    }\n    else\n    {\n      if ( HIDWORD(savedregs) == 327447228 ) /*0x5cd210*/\n        JUMPOUT(0x5CD4EC); /*0x5cd4ec*/\n      if ( v2 ) /*0x5cd378*/\n        v1 = -652777321; /*0x5cd390*/\n      else\n        v1 = 327447228; /*0x5cd390*/\n      HIDWORD(savedregs) = v1; /*0x5cd398*/\n    }\n  }\n}",
+  "refs": [
+    {
+      "addr": "0x7d071c",
+      "name": "dword_7D071C"
+    },
+    {
+      "addr": "0x7af4f0",
+      "name": "dword_7AF4F0"
+    },
+    {
+      "addr": "0x7af4e8",
+      "name": "byte_7AF4E8"
+    },
+    {
+      "addr": "0x7af4e9",
+      "name": "byte_7AF4E9"
+    },
+    {
+      "addr": "0x7af4ea",
+      "name": "byte_7AF4EA"
+    },
+    {
+      "addr": "0x7af4eb",
+      "name": "byte_7AF4EB"
+    },
+    {
+      "addr": "0x7af4f4",
+      "name": "word_7AF4F4"
+    },
+    {
+      "addr": "0x7af4ec",
+      "name": "byte_7AF4EC"
+    },
+    {
+      "addr": "0x7af4ed",
+      "name": "byte_7AF4ED"
+    }
+  ]
+}

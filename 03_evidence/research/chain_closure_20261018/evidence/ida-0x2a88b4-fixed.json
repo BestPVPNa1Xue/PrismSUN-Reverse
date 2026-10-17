@@ -1,0 +1,22 @@
+{
+  "addr": "0x2a88b4",
+  "code": "void __fastcall sub_2A88B4(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9)\n{\n  __int64 v9; // x29\n  __int64 v10; // x30\n  bool v11; // zf\n\n  v11 = *(_DWORD *)sub_2A88B4 >> 26 == 5 || (*(_DWORD *)sub_2A88B4 & 0xFFE00000) == -736100352; /*0x2a88d0*/\n  if ( v11 || loc_2A88B8 >> 10 == 3508160 || (loc_2A88BC & 0xFFFFFC00) == 0xD61F0000 ) /*0x2a88fc*/\n  {\n    *(&a9 - 2) = v9; /*0x2a8914*/\n    *(&a9 - 1) = v10; /*0x2a8914*/\n    abort(); /*0x2a891c*/\n  }\n}",
+  "refs": [
+    {
+      "addr": "0x2a88b4",
+      "name": "sub_2A88B4"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x2a88b8",
+      "name": "loc_2A88B8"
+    },
+    {
+      "addr": "0x2a88bc",
+      "name": "loc_2A88BC"
+    }
+  ]
+}

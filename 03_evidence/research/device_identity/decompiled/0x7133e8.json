@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x7133e8\",\"code\":\"__int64 __usercall sub_7133E8@<X0>(__int64 result@<X0>, __int64 a2@<X8>)\\n{\\n  __int64 v2; // x19\\n  __int64 v3; // x20\\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\\n\\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x713400*/\\n  HIDWORD(savedregs[2]) = -560029350; /*0x71340c*/\\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x713414*/\\n  while ( HIDWORD(savedregs[2]) != -2010581162 ) /*0x71343c*/\\n  {\\n    if ( HIDWORD(savedregs[2]) == -929810920 ) /*0x71348c*/\\n    {\\n      LODWORD(savedregs[2]) = result; /*0x71354c*/\\n      v2 = a2; /*0x713550*/\\n      v3 = result; /*0x713558*/\\n      sub_713778(a2); /*0x71355c*/\\n      a2 = v2; /*0x713560*/\\n      result = v3; /*0x713564*/\\n      HIDWORD(savedregs[2]) = -2010581162; /*0x713574*/\\n    }\\n    else\\n    {\\n      HIDWORD(savedregs[2]) = -929810920; /*0x713530*/\\n    }\\n  }\\n  _ReadStatusReg(TPIDR_EL0); /*0x71357c*/\\n  return result; /*0x71359c*/\\n}\",\"refs\":[{\"addr\":\"0x713778\",\"name\":\"sub_713778\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x7133e8",
+      "code": "__int64 __usercall sub_7133E8@<X0>(__int64 result@<X0>, __int64 a2@<X8>)\n{\n  __int64 v2; // x19\n  __int64 v3; // x20\n  _QWORD savedregs[4]; // [xsp+20h] [xbp+0h] BYREF\n\n  savedregs[3] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x713400*/\n  HIDWORD(savedregs[2]) = -560029350; /*0x71340c*/\n  savedregs[1] = (char *)&savedregs[2] + 4; /*0x713414*/\n  while ( HIDWORD(savedregs[2]) != -2010581162 ) /*0x71343c*/\n  {\n    if ( HIDWORD(savedregs[2]) == -929810920 ) /*0x71348c*/\n    {\n      LODWORD(savedregs[2]) = result; /*0x71354c*/\n      v2 = a2; /*0x713550*/\n      v3 = result; /*0x713558*/\n      sub_713778(a2); /*0x71355c*/\n      a2 = v2; /*0x713560*/\n      result = v3; /*0x713564*/\n      HIDWORD(savedregs[2]) = -2010581162; /*0x713574*/\n    }\n    else\n    {\n      HIDWORD(savedregs[2]) = -929810920; /*0x713530*/\n    }\n  }\n  _ReadStatusReg(TPIDR_EL0); /*0x71357c*/\n  return result; /*0x71359c*/\n}",
+      "refs": [
+        {
+          "addr": "0x713778",
+          "name": "sub_713778"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

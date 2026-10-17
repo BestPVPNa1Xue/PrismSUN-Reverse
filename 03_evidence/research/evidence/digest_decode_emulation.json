@@ -1,0 +1,56 @@
+{
+  "scope": "digest-name decoder only; no JNI or digest body execution",
+  "raw_source": "0x7af3cc",
+  "raw": "1f25bbb6fb331b16",
+  "masks": "8342050e243f6ee7",
+  "intermediate": "9c67beb8df0c75f1",
+  "decoder": "0x5c433c",
+  "key": "0xf14339ed95ff2fcf",
+  "algorithm": "SHA-256",
+  "total": 3,
+  "passed": 3,
+  "cases": [
+    {
+      "flag": 1,
+      "passed": true,
+      "trace": {
+        "entry": "0x5c433c",
+        "reason": "returned",
+        "steps": 6529,
+        "return": 822083584,
+        "pc": "0x32000000",
+        "calls": []
+      },
+      "observed": "5348412d3235360000a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+      "expected": "5348412d3235360000a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+    },
+    {
+      "flag": 3,
+      "passed": true,
+      "trace": {
+        "entry": "0x5c433c",
+        "reason": "returned",
+        "steps": 6529,
+        "return": 822083584,
+        "pc": "0x32000000",
+        "calls": []
+      },
+      "observed": "5348412d3235360000a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+      "expected": "5348412d3235360000a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+    },
+    {
+      "flag": 0,
+      "passed": true,
+      "trace": {
+        "entry": "0x5c433c",
+        "reason": "returned",
+        "steps": 712,
+        "return": 822083584,
+        "pc": "0x32000000",
+        "calls": []
+      },
+      "observed": "9c67beb8df0c75f100a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+      "expected": "9c67beb8df0c75f100a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+    }
+  ]
+}

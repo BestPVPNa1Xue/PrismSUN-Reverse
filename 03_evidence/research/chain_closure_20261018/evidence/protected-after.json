@@ -1,0 +1,32 @@
+[
+  {
+    "path": "D:\\PrismSUN\\libprism-sun.so",
+    "size": 8030488,
+    "sha256": "92e7d4adda7e222aa9dce389009a186adabb2602b80d618d417e0f6d509adaf4",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\PrismSUN\\libprism-sun.so.i64",
+    "size": 76474118,
+    "sha256": "49df5f9196afd707e6112c564b0e8290a3445d13dfc23175f2ed61a8a5a296b4",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\PrismSUN\\research\\prism-analysis.i64",
+    "size": 82848571,
+    "sha256": "0ed633061d5887589a01075d4efd7ce7ae7b6c25fa5b2e00079547e02c7f7b70",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\PrismSUN\\research\\environment_memory\\prism-environment-memory.i64",
+    "size": 80890951,
+    "sha256": "9b42703d07151e07bcc1a8346885cb900975637332a83e3afd985021375abf20",
+    "unchanged": false
+  },
+  {
+    "path": "D:\\PrismSUN\\research\\coverage_audit_20261018\\prism-coverage-audit.i64",
+    "size": 83536466,
+    "sha256": "05f4bc155071317c96cac13877ad1e1b9f26d84f7c6177dc40701b40786d1fac",
+    "unchanged": true
+  }
+]

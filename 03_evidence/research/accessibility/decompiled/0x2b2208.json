@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x2b2208\",\"code\":\"__int64 __fastcall sub_2B2208(unsigned int a1)\\n{\\n  __int64 result; // x0\\n  int v2; // w8\\n  int v3; // w8\\n  bool v4; // [xsp+1Dh] [xbp-15h]\\n  unsigned int v5; // [xsp+1Eh] [xbp-14h]\\n  int v6; // [xsp+26h] [xbp-Ch]\\n\\n  _ReadStatusReg(TPIDR_EL0); /*0x2b2214*/\\n  v6 = 1411777090; /*0x2b2234*/\\n  while ( 1 ) /*0x2b2250*/\\n  {\\n    while ( v6 == -1950832798 ) /*0x2b2250*/\\n    {\\n      v4 = loc_2B220C >> 10 == 3508160 || loc_2B2210 >> 10 == 3508160; /*0x2b255c*/\\n      v6 = -315610317; /*0x2b256c*/\\n    }\\n    if ( v6 == -1726425730 ) /*0x2b2264*/\\n      break; /*0x2b2264*/\\n    switch ( v6 ) /*0x2b228c*/\\n    {\\n      case -1040867082: /*0x2b228c*/\\n        _ReadStatusReg(TPIDR_EL0); /*0x2b2468*/\\n        sub_2DB4B8(); /*0x2b247c*/\\n      case -403195354: /*0x2b228c*/\\n        v6 = 960680196; /*0x2b23d8*/\\n        break;\\n      case -338524785: /*0x2b228c*/\\n        if ( ((((((*(_DWORD *)sub_2B2208 >> 26 == 5) << 31 >> 31) /*0x2b24f0*/\\n               + (((*(_DWORD *)sub_2B2208 >> 26 == 5) ^ (*(_DWORD *)sub_2B2208 >> 21 == 1697)) << 31 >> 31)) << 31 >> 31)\\n             - (((*(_DWORD *)sub_2B2208 >> 26 == 5) & (unsigned __int8)(*(_DWORD *)sub_2B2208 >> 21 != 1697)) << 31 >> 31))\\n            & 1) != 0 )\\n          v2 = 32254784; /*0x2b24f0*/\\n        else\\n          v2 = 385637750; /*0x2b24f0*/\\n        v6 = v2; /*0x2b24f8*/\\n        break;\\n      case -315610317: /*0x2b228c*/\\n        if ( v4 ) /*0x2b2578*/\\n          v3 = 32254784; /*0x2b2590*/\\n        else\\n          v3 = 1090317175; /*0x2b2590*/\\n        v6 = v3; /*0x2b2598*/\\n        break;\\n      case 32254784: /*0x2b228c*/\\n        v6 = -1040867082; /*0x2b2460*/\\n        break;\\n      case 385637750: /*0x2b228c*/\\n        v6 = -1950832798; /*0x2b250c*/\\n        break;\\n      case 960680196: /*0x2b228c*/\\n        v6 = -338524785; /*0x2b23ec*/\\n        break;\\n      case 1090317175: /*0x2b228c*/\\n        v6 = 1505041366; /*0x2b2400*/\\n        break;\\n      case 1411777090: /*0x2b228c*/\\n        v6 = -403195354; /*0x2b23c4*/\\n        break;\\n      default:\\n        v5 = a1; /*0x2b2418*/\\n        v6 = -1726425730; /*0x2b2428*/\\n        break;\\n    }\\n  }\\n  result = v5; /*0x2b2430*/\\n  _ReadStatusReg(TPIDR_EL0); /*0x2b2434*/\\n  return result; /*0x2b2450*/\\n}\",\"refs\":[{\"addr\":\"0x2b220c\",\"name\":\"loc_2B220C\"},{\"addr\":\"0x2b2210\",\"name\":\"loc_2B2210\"},{\"addr\":\"0x2db4b8\",\"name\":\"sub_2DB4B8\"},{\"addr\":\"0x2b2208\",\"name\":\"sub_2B2208\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x2b2208",
+      "code": "__int64 __fastcall sub_2B2208(unsigned int a1)\n{\n  __int64 result; // x0\n  int v2; // w8\n  int v3; // w8\n  bool v4; // [xsp+1Dh] [xbp-15h]\n  unsigned int v5; // [xsp+1Eh] [xbp-14h]\n  int v6; // [xsp+26h] [xbp-Ch]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x2b2214*/\n  v6 = 1411777090; /*0x2b2234*/\n  while ( 1 ) /*0x2b2250*/\n  {\n    while ( v6 == -1950832798 ) /*0x2b2250*/\n    {\n      v4 = loc_2B220C >> 10 == 3508160 || loc_2B2210 >> 10 == 3508160; /*0x2b255c*/\n      v6 = -315610317; /*0x2b256c*/\n    }\n    if ( v6 == -1726425730 ) /*0x2b2264*/\n      break; /*0x2b2264*/\n    switch ( v6 ) /*0x2b228c*/\n    {\n      case -1040867082: /*0x2b228c*/\n        _ReadStatusReg(TPIDR_EL0); /*0x2b2468*/\n        sub_2DB4B8(); /*0x2b247c*/\n      case -403195354: /*0x2b228c*/\n        v6 = 960680196; /*0x2b23d8*/\n        break;\n      case -338524785: /*0x2b228c*/\n        if ( ((((((*(_DWORD *)sub_2B2208 >> 26 == 5) << 31 >> 31) /*0x2b24f0*/\n               + (((*(_DWORD *)sub_2B2208 >> 26 == 5) ^ (*(_DWORD *)sub_2B2208 >> 21 == 1697)) << 31 >> 31)) << 31 >> 31)\n             - (((*(_DWORD *)sub_2B2208 >> 26 == 5) & (unsigned __int8)(*(_DWORD *)sub_2B2208 >> 21 != 1697)) << 31 >> 31))\n            & 1) != 0 )\n          v2 = 32254784; /*0x2b24f0*/\n        else\n          v2 = 385637750; /*0x2b24f0*/\n        v6 = v2; /*0x2b24f8*/\n        break;\n      case -315610317: /*0x2b228c*/\n        if ( v4 ) /*0x2b2578*/\n          v3 = 32254784; /*0x2b2590*/\n        else\n          v3 = 1090317175; /*0x2b2590*/\n        v6 = v3; /*0x2b2598*/\n        break;\n      case 32254784: /*0x2b228c*/\n        v6 = -1040867082; /*0x2b2460*/\n        break;\n      case 385637750: /*0x2b228c*/\n        v6 = -1950832798; /*0x2b250c*/\n        break;\n      case 960680196: /*0x2b228c*/\n        v6 = -338524785; /*0x2b23ec*/\n        break;\n      case 1090317175: /*0x2b228c*/\n        v6 = 1505041366; /*0x2b2400*/\n        break;\n      case 1411777090: /*0x2b228c*/\n        v6 = -403195354; /*0x2b23c4*/\n        break;\n      default:\n        v5 = a1; /*0x2b2418*/\n        v6 = -1726425730; /*0x2b2428*/\n        break;\n    }\n  }\n  result = v5; /*0x2b2430*/\n  _ReadStatusReg(TPIDR_EL0); /*0x2b2434*/\n  return result; /*0x2b2450*/\n}",
+      "refs": [
+        {
+          "addr": "0x2b220c",
+          "name": "loc_2B220C"
+        },
+        {
+          "addr": "0x2b2210",
+          "name": "loc_2B2210"
+        },
+        {
+          "addr": "0x2db4b8",
+          "name": "sub_2DB4B8"
+        },
+        {
+          "addr": "0x2b2208",
+          "name": "sub_2B2208"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

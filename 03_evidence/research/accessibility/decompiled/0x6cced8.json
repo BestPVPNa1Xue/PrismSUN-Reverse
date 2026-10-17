@@ -1,0 +1,43 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x6cced8\",\"code\":\"__int64 __fastcall sub_6CCED8(_QWORD *a1)\\n{\\n  __int64 result; // x0\\n  int v3; // w8\\n  int v4; // w8\\n  bool v5; // [xsp+2Fh] [xbp+Fh]\\n  int i; // [xsp+34h] [xbp+14h]\\n\\n  _ReadStatusReg(TPIDR_EL0); /*0x6ccee8*/\\n  for ( i = -316822184; ; i = -1686821343 ) /*0x6ccf08*/\\n  {\\n    while ( 1 ) /*0x6ccfc4*/\\n    {\\n      while ( 1 ) /*0x6ccfb0*/\\n      {\\n        while ( 1 ) /*0x6ccf9c*/\\n        {\\n          while ( 1 ) /*0x6ccf60*/\\n          {\\n            while ( 1 ) /*0x6ccf4c*/\\n            {\\n              while ( 1 ) /*0x6ccf38*/\\n              {\\n                while ( 1 ) /*0x6ccf14*/\\n                {\\n                  if ( i == -1686821343 ) /*0x6ccf24*/\\n                  {\\n                    _ReadStatusReg(TPIDR_EL0); /*0x6cd0f0*/\\n                    abort(); /*0x6cd104*/\\n                  }\\n                  if ( i != -1367455102 ) /*0x6ccf38*/\\n                    break; /*0x6ccf38*/\\n                  v5 = loc_6CCEDC >> 10 == 3508160 || loc_6CCEE0 >> 10 == 3508160; /*0x6cd1c4*/\\n                  i = -209147672; /*0x6cd1d4*/\\n                }\\n                if ( i != -1170364904 ) /*0x6ccf4c*/\\n                  break; /*0x6ccf4c*/\\n                i = -1367455102; /*0x6cd174*/\\n              }\\n              if ( i != -1049796097 ) /*0x6ccf60*/\\n                break; /*0x6ccf60*/\\n              i = 843223095; /*0x6cd084*/\\n            }\\n            if ( i != -452375418 ) /*0x6ccf9c*/\\n              break; /*0x6ccf9c*/\\n            i = -1049796097; /*0x6cd070*/\\n          }\\n          if ( i != -316822184 ) /*0x6ccfb0*/\\n            break; /*0x6ccfb0*/\\n          i = -452375418; /*0x6cd05c*/\\n        }\\n        if ( i != -209147672 ) /*0x6ccfc4*/\\n          break; /*0x6ccfc4*/\\n        if ( v5 ) /*0x6cd1e0*/\\n          v4 = 1153607117; /*0x6cd1f8*/\\n        else\\n          v4 = 1236086502; /*0x6cd1f8*/\\n        i = v4; /*0x6cd200*/\\n      }\\n      if ( i != 843223095 ) /*0x6cd000*/\\n        break; /*0x6cd000*/\\n      if ( *(_DWORD *)sub_6CCED8 >> 26 == 5 || *(_DWORD *)sub_6CCED8 >> 21 == 1697 ) /*0x6cd154*/\\n        v3 = 1153607117; /*0x6cd158*/\\n      else\\n        v3 = -1170364904; /*0x6cd158*/\\n      i = v3; /*0x6cd160*/\\n    }\\n    if ( i != 1153607117 ) /*0x6cd014*/\\n      break; /*0x6cd014*/\\n  }\\n  result = ((__int64 (__fastcall *)(_QWORD *))loc_6CD3CC)(a1); /*0x6cd0a0*/\\n  *a1 = &off_793DE8; /*0x6cd0b4*/\\n  _ReadStatusReg(TPIDR_EL0); /*0x6cd0b8*/\\n  return result; /*0x6cd0d8*/\\n}\",\"refs\":[{\"addr\":\"0x78a4c0\",\"name\":\".abort\"},{\"addr\":\"0x6ccedc\",\"name\":\"loc_6CCEDC\"},{\"addr\":\"0x6ccee0\",\"name\":\"loc_6CCEE0\"},{\"addr\":\"0x6cced8\",\"name\":\"sub_6CCED8\"},{\"addr\":\"0x6cd3cc\",\"name\":\"loc_6CD3CC\"},{\"addr\":\"0x793de8\",\"name\":\"off_793DE8\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x6cced8",
+      "code": "__int64 __fastcall sub_6CCED8(_QWORD *a1)\n{\n  __int64 result; // x0\n  int v3; // w8\n  int v4; // w8\n  bool v5; // [xsp+2Fh] [xbp+Fh]\n  int i; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x6ccee8*/\n  for ( i = -316822184; ; i = -1686821343 ) /*0x6ccf08*/\n  {\n    while ( 1 ) /*0x6ccfc4*/\n    {\n      while ( 1 ) /*0x6ccfb0*/\n      {\n        while ( 1 ) /*0x6ccf9c*/\n        {\n          while ( 1 ) /*0x6ccf60*/\n          {\n            while ( 1 ) /*0x6ccf4c*/\n            {\n              while ( 1 ) /*0x6ccf38*/\n              {\n                while ( 1 ) /*0x6ccf14*/\n                {\n                  if ( i == -1686821343 ) /*0x6ccf24*/\n                  {\n                    _ReadStatusReg(TPIDR_EL0); /*0x6cd0f0*/\n                    abort(); /*0x6cd104*/\n                  }\n                  if ( i != -1367455102 ) /*0x6ccf38*/\n                    break; /*0x6ccf38*/\n                  v5 = loc_6CCEDC >> 10 == 3508160 || loc_6CCEE0 >> 10 == 3508160; /*0x6cd1c4*/\n                  i = -209147672; /*0x6cd1d4*/\n                }\n                if ( i != -1170364904 ) /*0x6ccf4c*/\n                  break; /*0x6ccf4c*/\n                i = -1367455102; /*0x6cd174*/\n              }\n              if ( i != -1049796097 ) /*0x6ccf60*/\n                break; /*0x6ccf60*/\n              i = 843223095; /*0x6cd084*/\n            }\n            if ( i != -452375418 ) /*0x6ccf9c*/\n              break; /*0x6ccf9c*/\n            i = -1049796097; /*0x6cd070*/\n          }\n          if ( i != -316822184 ) /*0x6ccfb0*/\n            break; /*0x6ccfb0*/\n          i = -452375418; /*0x6cd05c*/\n        }\n        if ( i != -209147672 ) /*0x6ccfc4*/\n          break; /*0x6ccfc4*/\n        if ( v5 ) /*0x6cd1e0*/\n          v4 = 1153607117; /*0x6cd1f8*/\n        else\n          v4 = 1236086502; /*0x6cd1f8*/\n        i = v4; /*0x6cd200*/\n      }\n      if ( i != 843223095 ) /*0x6cd000*/\n        break; /*0x6cd000*/\n      if ( *(_DWORD *)sub_6CCED8 >> 26 == 5 || *(_DWORD *)sub_6CCED8 >> 21 == 1697 ) /*0x6cd154*/\n        v3 = 1153607117; /*0x6cd158*/\n      else\n        v3 = -1170364904; /*0x6cd158*/\n      i = v3; /*0x6cd160*/\n    }\n    if ( i != 1153607117 ) /*0x6cd014*/\n      break; /*0x6cd014*/\n  }\n  result = ((__int64 (__fastcall *)(_QWORD *))loc_6CD3CC)(a1); /*0x6cd0a0*/\n  *a1 = &off_793DE8; /*0x6cd0b4*/\n  _ReadStatusReg(TPIDR_EL0); /*0x6cd0b8*/\n  return result; /*0x6cd0d8*/\n}",
+      "refs": [
+        {
+          "addr": "0x78a4c0",
+          "name": ".abort"
+        },
+        {
+          "addr": "0x6ccedc",
+          "name": "loc_6CCEDC"
+        },
+        {
+          "addr": "0x6ccee0",
+          "name": "loc_6CCEE0"
+        },
+        {
+          "addr": "0x6cced8",
+          "name": "sub_6CCED8"
+        },
+        {
+          "addr": "0x6cd3cc",
+          "name": "loc_6CD3CC"
+        },
+        {
+          "addr": "0x793de8",
+          "name": "off_793DE8"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "id": 1
+}

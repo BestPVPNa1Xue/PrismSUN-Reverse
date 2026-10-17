@@ -1,0 +1,35 @@
+{
+  "scope": "JNI accessibility adapter: host fake-JNIEnv tests and Android compilation; no device runtime claim",
+  "host_compiler": "clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)",
+  "android_compiler": "Android (12027248, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "android_target": "aarch64-linux-android24",
+  "tests": "PASS: 8 JNI adapter scenarios; signatures, mask, ordering, cleanup, pending exception",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.cpp",
+      "sha256": "13182c9aff93be233ec752bd2bdd34a32ec30d90c042b0a5484f7bb08d8117b1",
+      "size": 9788
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\src\\accessibility_jni.hpp",
+      "sha256": "f6f5c59d3f9c0007b5794510e33b375c64aa17ef636f18266c1deed33bee5ed8",
+      "size": 1575
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\tests\\jni_adapter_tests.cpp",
+      "sha256": "33da855f54d2ce62eabfbec64f4944463c19f3ac0c9ff3c6200709082aa6a3c8",
+      "size": 8029
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\jni_adapter_tests.exe",
+      "sha256": "462646c7c7fbf99132aefafb62bf680d21146a6337c1f2db47ad89a9a0906216",
+      "size": 212235
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\accessibility\\build\\accessibility_jni.o",
+      "sha256": "5dcbf0e9cc90252079e15b2b7694aeca1562efcf7b4adecdc6af6673107e3cfe",
+      "size": 31512
+    }
+  ]
+}

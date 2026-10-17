@@ -1,0 +1,712 @@
+{
+  "result": [
+    {
+      "kind": "strings",
+      "data": [
+        {
+          "kind": "string",
+          "addr": "0x20c",
+          "text": "Android",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1051",
+          "text": "__cxa_finalize",
+          "length": 14,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1060",
+          "text": "__cxa_atexit",
+          "length": 12,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x106d",
+          "text": "__register_atfork",
+          "length": 17,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x107f",
+          "text": "abort",
+          "length": 5,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1085",
+          "text": "__stack_chk_fail",
+          "length": 16,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1096",
+          "text": "strlen",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x109d",
+          "text": "getpid",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10a4",
+          "text": "memmove",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10ac",
+          "text": "memcpy",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10b3",
+          "text": "memset",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10ba",
+          "text": "getauxval",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10c4",
+          "text": "clock_gettime",
+          "length": 13,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10d2",
+          "text": "getenv",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10d9",
+          "text": "getuid",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10e0",
+          "text": "geteuid",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10e8",
+          "text": "getgid",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10ef",
+          "text": "getegid",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x10f7",
+          "text": "__memset_chk",
+          "length": 12,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1104",
+          "text": "sigemptyset",
+          "length": 11,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1110",
+          "text": "sigaction",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x111a",
+          "text": "sigsetjmp",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1124",
+          "text": "__errno",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x112c",
+          "text": "siglongjmp",
+          "length": 10,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1137",
+          "text": "calloc",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1143",
+          "text": "closedir",
+          "length": 8,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x114c",
+          "text": "readdir",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1154",
+          "text": "memcmp",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x115b",
+          "text": "arc4random_buf",
+          "length": 14,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x116a",
+          "text": "memchr",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1171",
+          "text": "__memcpy_chk",
+          "length": 12,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x117e",
+          "text": "__memmove_chk",
+          "length": 13,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x118c",
+          "text": "dlclose",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1194",
+          "text": "strdup",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x119b",
+          "text": "strcmp",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11a2",
+          "text": "__open_2",
+          "length": 8,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11ab",
+          "text": "fstat",
+          "length": 5,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11b1",
+          "text": "close",
+          "length": 5,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11b7",
+          "text": "__strlen_chk",
+          "length": 12,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11c4",
+          "text": "__vsnprintf_chk",
+          "length": 15,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11d4",
+          "text": "lseek",
+          "length": 5,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11da",
+          "text": "malloc",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11e1",
+          "text": "__read_chk",
+          "length": 10,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11ec",
+          "text": "dl_iterate_phdr",
+          "length": 15,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x11fc",
+          "text": "fclose",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1203",
+          "text": "fgets",
+          "length": 5,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1209",
+          "text": "sscanf",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1210",
+          "text": "__strchr_chk",
+          "length": 12,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x121d",
+          "text": "strlcpy",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1225",
+          "text": "rewind",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x122c",
+          "text": "fopen",
+          "length": 5,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1232",
+          "text": "__fgets_chk",
+          "length": 11,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x123e",
+          "text": "strchr",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1245",
+          "text": "__strlcpy_chk",
+          "length": 13,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1253",
+          "text": "pthread_mutex_lock",
+          "length": 18,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1266",
+          "text": "pthread_mutex_unlock",
+          "length": 20,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x127b",
+          "text": "dlopen",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1282",
+          "text": "realloc",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x128f",
+          "text": "__system_property_get",
+          "length": 21,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12a5",
+          "text": "__vsprintf_chk",
+          "length": 14,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12b4",
+          "text": "strcpy",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12bb",
+          "text": "__strcpy_chk",
+          "length": 12,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12c8",
+          "text": "strncmp",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12d0",
+          "text": "strtod",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12d7",
+          "text": "startParadise",
+          "length": 13,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12e5",
+          "text": "getSharedMemory",
+          "length": 15,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12f5",
+          "text": "shmFence",
+          "length": 8,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x12fe",
+          "text": "fdopendir",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1308",
+          "text": "pthread_create",
+          "length": 14,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1317",
+          "text": "pthread_setspecific",
+          "length": 19,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x132b",
+          "text": "getline",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1333",
+          "text": "fdopen",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x133a",
+          "text": "wcslen",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1341",
+          "text": "wmemchr",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1349",
+          "text": "strtoul",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1351",
+          "text": "strtof",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1358",
+          "text": "snprintf",
+          "length": 8,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1361",
+          "text": "strerror_r",
+          "length": 10,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x136c",
+          "text": "pthread_cond_destroy",
+          "length": 20,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1381",
+          "text": "pthread_cond_signal",
+          "length": 19,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1395",
+          "text": "pthread_cond_broadcast",
+          "length": 22,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x13ac",
+          "text": "pthread_cond_wait",
+          "length": 17,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x13be",
+          "text": "pthread_getspecific",
+          "length": 19,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x13d2",
+          "text": "pthread_mutex_destroy",
+          "length": 21,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x13e8",
+          "text": "pthread_mutexattr_init",
+          "length": 22,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x13ff",
+          "text": "pthread_mutexattr_settype",
+          "length": 25,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1419",
+          "text": "pthread_mutex_init",
+          "length": 18,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x142c",
+          "text": "pthread_mutexattr_destroy",
+          "length": 25,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1446",
+          "text": "pthread_detach",
+          "length": 14,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1455",
+          "text": "nanosleep",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x145f",
+          "text": "pthread_key_create",
+          "length": 18,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1472",
+          "text": "fwrite",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1479",
+          "text": "fflush",
+          "length": 6,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1480",
+          "text": "newlocale",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x148a",
+          "text": "uselocale",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x1494",
+          "text": "vsscanf",
+          "length": 7,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x149c",
+          "text": "vsnprintf",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x14a6",
+          "text": "strftime_l",
+          "length": 10,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x14b1",
+          "text": "mbsrtowcs",
+          "length": 9,
+          "segment": "LOAD"
+        },
+        {
+          "kind": "string",
+          "addr": "0x14bb",
+          "text": "vasprintf",
+          "length": 9,
+          "segment": "LOAD"
+        }
+      ],
+      "next_offset": 100,
+      "total": 671,
+      "error": null
+    }
+  ]
+}

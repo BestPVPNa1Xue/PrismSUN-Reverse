@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"addr\":\"0x3da558\",\"code\":null,\"error\":\"Decompilation failed at 0x3da558\"}"
+      }
+    ],
+    "structuredContent": {
+      "addr": "0x3da558",
+      "code": null,
+      "error": "Decompilation failed at 0x3da558"
+    },
+    "isError": false
+  },
+  "id": 1
+}

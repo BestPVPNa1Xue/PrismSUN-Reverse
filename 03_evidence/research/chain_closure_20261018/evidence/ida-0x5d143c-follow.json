@@ -1,0 +1,26 @@
+{
+  "addr": "0x5d143c",
+  "code": "__int64 __fastcall sub_5D143C(__int64 a1)\n{\n  int v3; // w8\n  int v4; // w8\n  int v5; // [xsp+34h] [xbp+14h]\n\n  _ReadStatusReg(TPIDR_EL0); /*0x5d144c*/\n  v5 = 2015057074; /*0x5d146c*/\n  while ( v5 != -2015042785 ) /*0x5d1488*/\n  {\n    switch ( v5 ) /*0x5d14b0*/\n    {\n      case -939648497: /*0x5d14b0*/\n        if ( (*(_DWORD *)sub_5D143C >> 26 == 5 && *(_DWORD *)sub_5D143C >> 21 == 1697) /*0x5d1674*/\n           | (*(_DWORD *)sub_5D143C >> 26 == 5) ^ (*(_DWORD *)sub_5D143C >> 21 == 1697) )\n        {\n          v3 = -656749035; /*0x5d1678*/\n        }\n        else\n        {\n          v3 = 1327393324; /*0x5d1678*/\n        }\n        v5 = v3; /*0x5d1680*/\n        break;\n      case -656749035: /*0x5d14b0*/\n        v5 = 858872097; /*0x5d1600*/\n        break;\n      case -187903169: /*0x5d14b0*/\n        v5 = -939648497; /*0x5d15ac*/\n        break;\n      case 858872097: /*0x5d14b0*/\n        _ReadStatusReg(TPIDR_EL0); /*0x5d1608*/\n        abort(); /*0x5d161c*/\n      case 1327393324: /*0x5d14b0*/\n        if ( (loc_5D1440 >> 10 == 3508160 && loc_5D1444 >> 10 == 3508160) /*0x5d16e4*/\n           | (loc_5D1440 >> 10 == 3508160) ^ (loc_5D1444 >> 10 == 3508160) )\n        {\n          v4 = -656749035; /*0x5d16e8*/\n        }\n        else\n        {\n          v4 = -2015042785; /*0x5d16e8*/\n        }\n        v5 = v4; /*0x5d16f0*/\n        break;\n      case 1373504678: /*0x5d14b0*/\n        v5 = -187903169; /*0x5d1598*/\n        break;\n      default:\n        v5 = 1373504678; /*0x5d1584*/\n        break;\n    }\n  }\n  ((void (__fastcall *)(__int64))loc_5F5EAC)(a1); /*0x5d15c8*/\n  _ReadStatusReg(TPIDR_EL0); /*0x5d15cc*/\n  return a1; /*0x5d15f0*/\n}",
+  "refs": [
+    {
+      "addr": "0x5d143c",
+      "name": "sub_5D143C"
+    },
+    {
+      "addr": "0x78a4c0",
+      "name": ".abort"
+    },
+    {
+      "addr": "0x5d1440",
+      "name": "loc_5D1440"
+    },
+    {
+      "addr": "0x5d1444",
+      "name": "loc_5D1444"
+    },
+    {
+      "addr": "0x5f5eac",
+      "name": "loc_5F5EAC"
+    }
+  ]
+}

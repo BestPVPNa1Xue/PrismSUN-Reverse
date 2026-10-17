@@ -1,0 +1,44 @@
+{
+  "scope": "Event 22 class-list selection control flow with external JNI and container dependencies",
+  "host_compiler": "clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)",
+  "android_compiler": "Android (12027248, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "android_target": "aarch64-linux-android24",
+  "jni_offsets": {
+    "FindClass": 48,
+    "ExceptionCheck": 1824,
+    "ExceptionClear": 136,
+    "DeleteLocalRef": 184
+  },
+  "files": [
+    {
+      "path": "D:\\PrismSUN\\research\\src\\class_probe_model.cpp",
+      "size": 863,
+      "sha256": "767191c70b0dcb648508f1ec26fb693140de6b5352eab044f06e5bc4c346097a"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\src\\class_probe_model.h",
+      "size": 879,
+      "sha256": "f5de02f4e5d1c050b3217bda002917231514343a84f65d214b3079de7906b5dd"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\src\\jni_layout_check.cpp",
+      "size": 341,
+      "sha256": "a23d6038bd06b3dcbf0f099668fe20624ef54fb71ddba8433526b9805c42ff6b"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\host\\prism_class_probe.dll",
+      "size": 95277,
+      "sha256": "774e139a5e06c6e604c68264dd750af04fa0fcdc105cc36a947bccaac6bda084"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\android-arm64\\libprism_class_probe.so",
+      "size": 5360,
+      "sha256": "2ac07cf2005a8c909b30b4a2320d53bea37156d96f74cb8dfa37bc83df3e3850"
+    },
+    {
+      "path": "D:\\PrismSUN\\research\\build\\android-arm64\\jni_layout_check.o",
+      "size": 760,
+      "sha256": "a4d43c80650a2bbad9b1b4a333630e715a12be1aaf6344f84e577b3e5a0100e8"
+    }
+  ]
+}

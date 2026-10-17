@@ -1,0 +1,4 @@
+{
+  "addr": "0x6b0660",
+  "code": "__int64 __fastcall sub_6B0660(__int64 a1)\n{\n  __int64 result; // x0\n  __int64 v2; // [xsp+20h] [xbp-10h]\n  int savedregs; // [xsp+30h] [xbp+0h]\n  int i; // [xsp+34h] [xbp+4h]\n  __int64 savedregs_8; // [xsp+38h] [xbp+8h]\n\n  savedregs_8 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x6b0674*/\n  for ( i = -1686042615; ; i = -434454370 ) /*0x6b0680*/\n  {\n    while ( i == -1686042615 ) /*0x6b06b0*/\n      i = -362047056; /*0x6b07a4*/\n    if ( i == -434454370 ) /*0x6b0700*/\n      break; /*0x6b0700*/\n    savedregs = a1; /*0x6b07b4*/\n    v2 = *(_QWORD *)(a1 + 8); /*0x6b07c0*/\n  }\n  result = v2; /*0x6b07d8*/\n  _ReadStatusReg(TPIDR_EL0); /*0x6b07dc*/\n  return result; /*0x6b07f8*/\n}"
+}

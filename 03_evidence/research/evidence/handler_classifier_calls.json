@@ -1,0 +1,249 @@
+{
+  "result": [
+    {
+      "query": {
+        "mnem": "bl",
+        "op0": null,
+        "op1": null,
+        "op2": null,
+        "op_any": null,
+        "func": "0x471c8c",
+        "segment": null,
+        "start": null,
+        "end": null,
+        "offset": 0,
+        "count": 128,
+        "max_scan_insns": 5000,
+        "allow_broad": false
+      },
+      "ranges": [
+        {
+          "start": "0x471c8c",
+          "end": "0x474a54"
+        }
+      ],
+      "matches": [
+        {
+          "addr": "0x471e64",
+          "disasm": "BL sub_4BDED4"
+        },
+        {
+          "addr": "0x471e88",
+          "disasm": "BL sub_4BDED8"
+        },
+        {
+          "addr": "0x471e8c",
+          "disasm": "BL sub_475660"
+        },
+        {
+          "addr": "0x471e9c",
+          "disasm": "BL sub_141054"
+        },
+        {
+          "addr": "0x47231c",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x4724a8",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x472b38",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x472da4",
+          "disasm": "BL loc_47699C"
+        },
+        {
+          "addr": "0x472da8",
+          "disasm": "BL loc_477514"
+        },
+        {
+          "addr": "0x472db8",
+          "disasm": "BL sub_141054"
+        },
+        {
+          "addr": "0x473238",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x4733fc",
+          "disasm": "BL sub_4BE7E0"
+        },
+        {
+          "addr": "0x473424",
+          "disasm": "BL loc_4778BC"
+        },
+        {
+          "addr": "0x47342c",
+          "disasm": "BL sub_4BE7E4"
+        },
+        {
+          "addr": "0x47343c",
+          "disasm": "BL sub_4BE7E8"
+        },
+        {
+          "addr": "0x473444",
+          "disasm": "BL loc_478F98"
+        },
+        {
+          "addr": "0x473454",
+          "disasm": "BL loc_479344"
+        },
+        {
+          "addr": "0x473464",
+          "disasm": "BL loc_47A0B0"
+        },
+        {
+          "addr": "0x47347c",
+          "disasm": "BL sub_C7BE8"
+        },
+        {
+          "addr": "0x473498",
+          "disasm": "BL sub_141B58"
+        },
+        {
+          "addr": "0x4734b8",
+          "disasm": "BL sub_C7D8C"
+        },
+        {
+          "addr": "0x4734c4",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x4734cc",
+          "disasm": "BL sub_4BE7EC"
+        },
+        {
+          "addr": "0x4734dc",
+          "disasm": "BL sub_C7BE8"
+        },
+        {
+          "addr": "0x4734f0",
+          "disasm": "BL sub_141B58"
+        },
+        {
+          "addr": "0x473508",
+          "disasm": "BL sub_C7D8C"
+        },
+        {
+          "addr": "0x473518",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x473520",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x47352c",
+          "disasm": "BL sub_4BE84C"
+        },
+        {
+          "addr": "0x47353c",
+          "disasm": "BL sub_141054"
+        },
+        {
+          "addr": "0x473548",
+          "disasm": "BL sub_141DBC"
+        },
+        {
+          "addr": "0x473ba4",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x473da8",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x473e00",
+          "disasm": "BL sub_4BE850"
+        },
+        {
+          "addr": "0x473e10",
+          "disasm": "BL sub_4BE854"
+        },
+        {
+          "addr": "0x473e1c",
+          "disasm": "BL sub_141DBC"
+        },
+        {
+          "addr": "0x474478",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x4746d0",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x4746d8",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x474744",
+          "disasm": "BL sub_4BE858"
+        },
+        {
+          "addr": "0x474750",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x47479c",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x4747a8",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x4747b4",
+          "disasm": "BL sub_74539C"
+        },
+        {
+          "addr": "0x47481c",
+          "disasm": "BL loc_47A44C"
+        },
+        {
+          "addr": "0x4748a4",
+          "disasm": "BL sub_4BE8B8"
+        },
+        {
+          "addr": "0x4748f0",
+          "disasm": "BL sub_4BE8BC"
+        },
+        {
+          "addr": "0x474918",
+          "disasm": "BL sub_4BE91C"
+        },
+        {
+          "addr": "0x474930",
+          "disasm": "BL sub_4BE97C"
+        },
+        {
+          "addr": "0x474940",
+          "disasm": "BL sub_4BE9DC"
+        },
+        {
+          "addr": "0x4749ac",
+          "disasm": "BL sub_7865DC"
+        },
+        {
+          "addr": "0x4749c8",
+          "disasm": "BL .abort"
+        },
+        {
+          "addr": "0x474a50",
+          "disasm": "BL .__stack_chk_fail"
+        }
+      ],
+      "count": 53,
+      "cursor": {
+        "done": true
+      },
+      "scanned": 2415,
+      "truncated": false,
+      "next_start": null,
+      "error": null
+    }
+  ]
+}
