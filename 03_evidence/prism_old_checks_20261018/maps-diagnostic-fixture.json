@@ -1,0 +1,19 @@
+{
+  "getter": {
+    "function": "0x2d8a4c",
+    "reason": "return",
+    "steps": 4855,
+    "pc": "0x32000000",
+    "result": "0x31000100"
+  },
+  "construct": {
+    "function": "0x2dea08",
+    "reason": "return",
+    "steps": 5104,
+    "pc": "0x32000000",
+    "result": "0x31130000"
+  },
+  "decrypted": "3829000000000000",
+  "object": "043829000000000000000000000000000000000000000000",
+  "text": "8)"
+}

@@ -1,0 +1,5247 @@
+[
+  {
+    "content": "TracerPid:\t0\n",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 16088,
+      "pc": "0x32000000",
+      "result": "0x0"
+    },
+    "consumed": 13,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "TracerPid:\t0\n",
+        "result": 0
+      },
+      {
+        "substr_start": 11,
+        "value": "0\n"
+      },
+      {
+        "stoi": "0\n",
+        "value": 0
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3140c8",
+        "target": "0xcae18",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0xb",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x3140e4",
+        "target": "0x334f58",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb70",
+          "0x200ffb60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 537918320
+      },
+      {
+        "site": "0x3140fc",
+        "target": "0x5df824",
+        "resolved": "0x5df824",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314120",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x3"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "TracerPid:\t123\n",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 18286,
+      "pc": "0x32000000",
+      "result": "0x7b"
+    },
+    "consumed": 15,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "TracerPid:\t123\n",
+        "result": 0
+      },
+      {
+        "substr_start": 11,
+        "value": "123\n"
+      },
+      {
+        "stoi": "123\n",
+        "value": 123
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3140c8",
+        "target": "0xcae18",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0xb",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x3140e4",
+        "target": "0x334f58",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb70",
+          "0x200ffb60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 537918320
+      },
+      {
+        "site": "0x3140fc",
+        "target": "0x5df824",
+        "resolved": "0x5df824",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 123
+      },
+      {
+        "site": "0x314120",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x3"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "State:\tt (tracing stop)\nTracerPid:\t9\n",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 44088,
+      "pc": "0x32000000",
+      "result": "0x9"
+    },
+    "consumed": 37,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "State:\tt (tracing stop)\n",
+        "result": -1
+      },
+      {
+        "find": "State:",
+        "line": "State:\tt (tracing stop)\n",
+        "result": 0
+      },
+      {
+        "substr_start": 7,
+        "value": "t (tracing stop)\n"
+      },
+      {
+        "equal": [
+          "t (tracing stop)\n",
+          "t"
+        ],
+        "value": false
+      },
+      {
+        "equal": [
+          "t (tracing stop)\n",
+          "(tracing stop)"
+        ],
+        "value": false
+      },
+      {
+        "find": "TracerPid:",
+        "line": "TracerPid:\t9\n",
+        "result": 0
+      },
+      {
+        "substr_start": 11,
+        "value": "9\n"
+      },
+      {
+        "stoi": "9\n",
+        "value": 9
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": -1
+      },
+      {
+        "site": "0x3141c4",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31101000",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3141f0",
+        "target": "0x334f5c",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0x7",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x314210",
+        "target": "0x334f60",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb20",
+          "0x200ffb10",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 537918240
+      },
+      {
+        "site": "0x314224",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x31423c",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbc0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x31428c",
+        "target": "0x334f64",
+        "resolved": "0x334f64",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3140c8",
+        "target": "0xcae18",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0xb",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823140352
+      },
+      {
+        "site": "0x3140e4",
+        "target": "0x334f58",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb70",
+          "0x200ffb60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 537918320
+      },
+      {
+        "site": "0x3140fc",
+        "target": "0x5df824",
+        "resolved": "0x5df824",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 9
+      },
+      {
+        "site": "0x314120",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x3"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "State:\tt\nTracerPid:\t9\n",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 27603,
+      "pc": "0x32000000",
+      "result": "0x9"
+    },
+    "consumed": 22,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "State:\tt\n",
+        "result": -1
+      },
+      {
+        "find": "State:",
+        "line": "State:\tt\n",
+        "result": 0
+      },
+      {
+        "substr_start": 7,
+        "value": "t\n"
+      },
+      {
+        "equal": [
+          "t\n",
+          "t"
+        ],
+        "value": false
+      },
+      {
+        "equal": [
+          "t\n",
+          "(tracing stop)"
+        ],
+        "value": false
+      },
+      {
+        "find": "TracerPid:",
+        "line": "TracerPid:\t9\n",
+        "result": 0
+      },
+      {
+        "substr_start": 11,
+        "value": "9\n"
+      },
+      {
+        "stoi": "9\n",
+        "value": 9
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": -1
+      },
+      {
+        "site": "0x3141c4",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31101000",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3141f0",
+        "target": "0x334f5c",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0x7",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x314210",
+        "target": "0x334f60",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb20",
+          "0x200ffb10",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 537918240
+      },
+      {
+        "site": "0x314224",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x31423c",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbc0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x31428c",
+        "target": "0x334f64",
+        "resolved": "0x334f64",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3140c8",
+        "target": "0xcae18",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0xb",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823140352
+      },
+      {
+        "site": "0x3140e4",
+        "target": "0x334f58",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb70",
+          "0x200ffb60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 537918320
+      },
+      {
+        "site": "0x3140fc",
+        "target": "0x5df824",
+        "resolved": "0x5df824",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 9
+      },
+      {
+        "site": "0x314120",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x3"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "State:\tt",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 11729,
+      "pc": "0x32000000",
+      "result": "0x6"
+    },
+    "consumed": 8,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "State:\tt",
+        "result": -1
+      },
+      {
+        "find": "State:",
+        "line": "State:\tt",
+        "result": 0
+      },
+      {
+        "substr_start": 7,
+        "value": "t"
+      },
+      {
+        "equal": [
+          "t",
+          "t"
+        ],
+        "value": true
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": -1
+      },
+      {
+        "site": "0x3141c4",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31101000",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3141f0",
+        "target": "0x334f5c",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0x7",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x314210",
+        "target": "0x334f60",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb20",
+          "0x200ffb10",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 537918240
+      },
+      {
+        "site": "0x314224",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 1
+      },
+      {
+        "site": "0x31428c",
+        "target": "0x334f64",
+        "resolved": "0x334f64",
+        "args": [
+          "0x200ffb20",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x3"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "State:\t(tracing stop)",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 26021,
+      "pc": "0x32000000",
+      "result": "0x6"
+    },
+    "consumed": 21,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "State:\t(tracing stop)",
+        "result": -1
+      },
+      {
+        "find": "State:",
+        "line": "State:\t(tracing stop)",
+        "result": 0
+      },
+      {
+        "substr_start": 7,
+        "value": "(tracing stop)"
+      },
+      {
+        "equal": [
+          "(tracing stop)",
+          "t"
+        ],
+        "value": false
+      },
+      {
+        "equal": [
+          "(tracing stop)",
+          "(tracing stop)"
+        ],
+        "value": true
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": -1
+      },
+      {
+        "site": "0x3141c4",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31101000",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3141f0",
+        "target": "0x334f5c",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0x7",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x314210",
+        "target": "0x334f60",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb20",
+          "0x200ffb10",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 537918240
+      },
+      {
+        "site": "0x314224",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x31423c",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbc0"
+        ],
+        "result": 1
+      },
+      {
+        "site": "0x31428c",
+        "target": "0x334f64",
+        "resolved": "0x334f64",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x3"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "State:\tS (sleeping)\n",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 26375,
+      "pc": "0x32000000",
+      "result": "0xffffffff"
+    },
+    "consumed": 20,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "State:\tS (sleeping)\n",
+        "result": -1
+      },
+      {
+        "find": "State:",
+        "line": "State:\tS (sleeping)\n",
+        "result": 0
+      },
+      {
+        "substr_start": 7,
+        "value": "S (sleeping)\n"
+      },
+      {
+        "equal": [
+          "S (sleeping)\n",
+          "t"
+        ],
+        "value": false
+      },
+      {
+        "equal": [
+          "S (sleeping)\n",
+          "(tracing stop)"
+        ],
+        "value": false
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": -1
+      },
+      {
+        "site": "0x3141c4",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31101000",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3141f0",
+        "target": "0x334f5c",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0x7",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x314210",
+        "target": "0x334f60",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb20",
+          "0x200ffb10",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 537918240
+      },
+      {
+        "site": "0x314224",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101400",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x31423c",
+        "target": "0xcc4d0",
+        "resolved": "0xcc4d0",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbc0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x31428c",
+        "target": "0x334f64",
+        "resolved": "0x334f64",
+        "args": [
+          "0x200ffb20",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x31101800",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "return",
+      "steps": 2771,
+      "pc": "0x32000000",
+      "result": "0xffffffff"
+    },
+    "consumed": 0,
+    "decisions": [],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314304",
+        "target": "0x623880",
+        "resolved": "0x623880",
+        "args": [
+          "0x310c0000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc50"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x314320",
+        "target": "0x5de580",
+        "resolved": "0x5de580",
+        "args": [
+          "0x200ffeb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "",
+    "fd": 0,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "abnormal_handler",
+      "steps": 139,
+      "pc": "0x3137a8",
+      "result": "0x0"
+    },
+    "consumed": 0,
+    "decisions": [
+      {
+        "abnormal": 5
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3137a4",
+        "target": "0x3ee9fc",
+        "resolved": "0x3ee9fc",
+        "args": [
+          "0x5",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "",
+    "fd": -1,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "abnormal_handler",
+      "steps": 139,
+      "pc": "0x3137a8",
+      "result": "0x0"
+    },
+    "consumed": 0,
+    "decisions": [
+      {
+        "abnormal": 5
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": -1
+      },
+      {
+        "site": "0x3137a4",
+        "target": "0x3ee9fc",
+        "resolved": "0x3ee9fc",
+        "args": [
+          "0x5",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "xxTracerPid:\t9\n",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "modeled_stoi_invalid_argument",
+      "steps": 18246,
+      "pc": "0x314100",
+      "result": "0x0"
+    },
+    "consumed": 15,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "xxTracerPid:\t9\n",
+        "result": 2
+      },
+      {
+        "substr_start": 11,
+        "value": ":\t9\n"
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 2
+      },
+      {
+        "site": "0x3140c8",
+        "target": "0xcae18",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0xb",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x3140e4",
+        "target": "0x334f58",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb70",
+          "0x200ffb60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 537918320
+      },
+      {
+        "site": "0x3140fc",
+        "target": "0x5df824",
+        "resolved": "0x5df824",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "content": "TracerPid:\tbad\n",
+    "fd": 5,
+    "execution": {
+      "function": "0x3135e0",
+      "reason": "modeled_stoi_invalid_argument",
+      "steps": 18246,
+      "pc": "0x314100",
+      "result": "0x0"
+    },
+    "consumed": 15,
+    "decisions": [
+      {
+        "find": "TracerPid:",
+        "line": "TracerPid:\tbad\n",
+        "result": 0
+      },
+      {
+        "substr_start": 11,
+        "value": "bad\n"
+      }
+    ],
+    "calls": [
+      {
+        "site": "0x313730",
+        "target": "0x334ee4",
+        "resolved": "0x314460",
+        "args": [
+          "0x200ffed0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313734",
+        "target": "0x2339ac",
+        "resolved": "0x2339ac",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb10"
+        ],
+        "result": 823132160
+      },
+      {
+        "site": "0x313740",
+        "target": "0x5da2d8",
+        "resolved": "0x5da2d8",
+        "args": [
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffe90"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313750",
+        "target": "0xc86f4",
+        "resolved": "0xc86f4",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 537919120
+      },
+      {
+        "site": "0x313760",
+        "target": "0x334ee8",
+        "resolved": "0x334ee8",
+        "args": [
+          "0x200ffe90",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x313768",
+        "target": "0x12d684",
+        "resolved": "0x12d684",
+        "args": [
+          "0x200ffeb0",
+          "0x31100000",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 823133184
+      },
+      {
+        "site": "0x313774",
+        "target": "0x314994",
+        "resolved": "0x314994",
+        "args": [
+          "0x31100400",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffeb0"
+        ],
+        "result": 5
+      },
+      {
+        "site": "0x3137e8",
+        "target": "0x314db4",
+        "resolved": "0x314db4",
+        "args": [
+          "0x200ffc40",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x3137f8",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 823134208
+      },
+      {
+        "site": "0x313810",
+        "target": "0x334f48",
+        "resolved": "0x623980",
+        "args": [
+          "0x5",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": 822870016
+      },
+      {
+        "site": "0x31382c",
+        "target": "0x334f4c",
+        "resolved": "0x3153ec",
+        "args": [
+          "0x200ffc10",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x31383c",
+        "target": "0x2cc4c8",
+        "resolved": "0x2cc4c8",
+        "args": [
+          "0x31100c00",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0xffffffff"
+        ],
+        "result": 823135232
+      },
+      {
+        "site": "0x313850",
+        "target": "0x315b14",
+        "resolved": "0x315b14",
+        "args": [
+          "0x200ffbf0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313860",
+        "target": "0x271f64",
+        "resolved": "0x271f64",
+        "args": [
+          "0x31101000",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 823136256
+      },
+      {
+        "site": "0x313874",
+        "target": "0x334f50",
+        "resolved": "0x316254",
+        "args": [
+          "0x200ffbd0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x31387c",
+        "target": "0x269a3c",
+        "resolved": "0x269a3c",
+        "args": [
+          "0x31101400",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc00"
+        ],
+        "result": 823137280
+      },
+      {
+        "site": "0x313890",
+        "target": "0x334f54",
+        "resolved": "0x31697c",
+        "args": [
+          "0x200ffbb0",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x3138a0",
+        "target": "0x29280c",
+        "resolved": "0x29280c",
+        "args": [
+          "0x31101800",
+          "0x31100800",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffbe0"
+        ],
+        "result": 823138304
+      },
+      {
+        "site": "0x314084",
+        "target": "0xc8a6c",
+        "resolved": "0xc8a6c",
+        "args": [
+          "0x200ffba0",
+          "0x200ffc60",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 537918368
+      },
+      {
+        "site": "0x314098",
+        "target": "0x317a40",
+        "resolved": "0x317a40",
+        "args": [
+          "0x200ffba0",
+          "0x31100c00",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffc20"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x3140c8",
+        "target": "0xcae18",
+        "resolved": "0xcae18",
+        "args": [
+          "0x200ffba0",
+          "0xb",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x1"
+        ],
+        "result": 823139328
+      },
+      {
+        "site": "0x3140e4",
+        "target": "0x334f58",
+        "resolved": "0xca4a4",
+        "args": [
+          "0x200ffb70",
+          "0x200ffb60",
+          "0xffffffffffffffff",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 537918320
+      },
+      {
+        "site": "0x3140fc",
+        "target": "0x5df824",
+        "resolved": "0x5df824",
+        "args": [
+          "0x200ffb70",
+          "0x0",
+          "0xa",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200ffb60"
+        ],
+        "result": 0
+      }
+    ]
+  }
+]

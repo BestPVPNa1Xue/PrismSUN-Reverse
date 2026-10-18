@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tag": "prism-old-2026-10-18-r1",
+  "archive": "Prism-old-checks-20261018-r1.zip",
+  "archive_bytes": 17671995,
+  "archive_sha256": "469e5a6e1fcb6b0338980e763c2bafe6ed1f92b8191a797e8f5aac365cb08b1e",
+  "verified_payload_files": 233,
+  "zip_entries": 234,
+  "zip_crc": "PASS",
+  "all_entry_sizes_and_sha256": "PASS",
+  "core_assertion_groups": 38,
+  "jni_cpp_scenarios": 12,
+  "original_string_pairs": 83,
+  "android": "cross-compiled ARM64/API24 only",
+  "protected_original_files": "four hashes unchanged",
+  "current_idb_sha256": "3a456b2f9d03acf07d1edf7499cb447fdbc9b0ab383f31b25afb69d4b53fe6fa"
+}

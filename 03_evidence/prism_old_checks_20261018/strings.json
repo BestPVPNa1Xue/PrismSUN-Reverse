@@ -1,0 +1,1414 @@
+[
+  {
+    "getter": {
+      "function": "0x26498c",
+      "reason": "return",
+      "steps": 19907,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x238568",
+      "reason": "return",
+      "steps": 18056,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/VMClassLoader"
+  },
+  {
+    "getter": {
+      "function": "0x265074",
+      "reason": "return",
+      "steps": 20299,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22da30",
+      "reason": "return",
+      "steps": 13460,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "findLoadedClass"
+  },
+  {
+    "getter": {
+      "function": "0x26571c",
+      "reason": "return",
+      "steps": 72541,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x265cd8",
+      "reason": "return",
+      "steps": 42292,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;"
+  },
+  {
+    "getter": {
+      "function": "0x269464",
+      "reason": "return",
+      "steps": 5354,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x269a3c",
+      "reason": "return",
+      "steps": 5228,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "Z"
+  },
+  {
+    "getter": {
+      "function": "0x26ca14",
+      "reason": "return",
+      "steps": 37669,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x26bf68",
+      "reason": "return",
+      "steps": 22565,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "me/weishu/epic/art2/EpicBridge"
+  },
+  {
+    "getter": {
+      "function": "0x26cfe0",
+      "reason": "return",
+      "steps": 46455,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x26d530",
+      "reason": "return",
+      "steps": 27215,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "de/robv/android/xposed/DexposedBridge"
+  },
+  {
+    "getter": {
+      "function": "0x26d9e0",
+      "reason": "return",
+      "steps": 28466,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2645d4",
+      "reason": "return",
+      "steps": 25701,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "de/robv/android/xposed/XposedBridge"
+  },
+  {
+    "getter": {
+      "function": "0x270b04",
+      "reason": "return",
+      "steps": 27537,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x231ae8",
+      "reason": "return",
+      "steps": 14523,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/util/HashMap"
+  },
+  {
+    "getter": {
+      "function": "0x270fb4",
+      "reason": "return",
+      "steps": 9476,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2339ac",
+      "reason": "return",
+      "steps": 7548,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "isEmpty"
+  },
+  {
+    "getter": {
+      "function": "0x271498",
+      "reason": "return",
+      "steps": 8212,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x230fdc",
+      "reason": "return",
+      "steps": 5791,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Z"
+  },
+  {
+    "getter": {
+      "function": "0x2719a8",
+      "reason": "return",
+      "steps": 11872,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x271f64",
+      "reason": "return",
+      "steps": 6780,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "values"
+  },
+  {
+    "getter": {
+      "function": "0x27234c",
+      "reason": "return",
+      "steps": 8506,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22f89c",
+      "reason": "return",
+      "steps": 18988,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/util/Collection;"
+  },
+  {
+    "getter": {
+      "function": "0x272a00",
+      "reason": "return",
+      "steps": 21152,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x23252c",
+      "reason": "return",
+      "steps": 16270,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/util/Collection"
+  },
+  {
+    "getter": {
+      "function": "0x27302c",
+      "reason": "return",
+      "steps": 12935,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x27360c",
+      "reason": "return",
+      "steps": 8144,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "iterator"
+  },
+  {
+    "getter": {
+      "function": "0x27391c",
+      "reason": "return",
+      "steps": 28155,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x273ed4",
+      "reason": "return",
+      "steps": 17338,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/util/Iterator;"
+  },
+  {
+    "getter": {
+      "function": "0x2742c0",
+      "reason": "return",
+      "steps": 15031,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22e3f0",
+      "reason": "return",
+      "steps": 14964,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/util/Iterator"
+  },
+  {
+    "getter": {
+      "function": "0x2749cc",
+      "reason": "return",
+      "steps": 9126,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2339ac",
+      "reason": "return",
+      "steps": 7548,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "hasNext"
+  },
+  {
+    "getter": {
+      "function": "0x274e50",
+      "reason": "return",
+      "steps": 8496,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x230fdc",
+      "reason": "return",
+      "steps": 5791,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Z"
+  },
+  {
+    "getter": {
+      "function": "0x275350",
+      "reason": "return",
+      "steps": 10687,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x275a60",
+      "reason": "return",
+      "steps": 6231,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "next"
+  },
+  {
+    "getter": {
+      "function": "0x275e98",
+      "reason": "return",
+      "steps": 21336,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x23252c",
+      "reason": "return",
+      "steps": 16270,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/lang/Object;"
+  },
+  {
+    "getter": {
+      "function": "0x2765f0",
+      "reason": "return",
+      "steps": 25859,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2349c8",
+      "reason": "return",
+      "steps": 14350,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/Object"
+  },
+  {
+    "getter": {
+      "function": "0x276c48",
+      "reason": "return",
+      "steps": 30301,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x228028",
+      "reason": "return",
+      "steps": 15638,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "[Ljava/lang/Object;"
+  },
+  {
+    "getter": {
+      "function": "0x2d57bc",
+      "reason": "return",
+      "steps": 11433,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2b775c",
+      "reason": "return",
+      "steps": 7601,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/maps"
+  },
+  {
+    "getter": {
+      "function": "0x2d5ed8",
+      "reason": "return",
+      "steps": 12793,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2cc4c8",
+      "reason": "return",
+      "steps": 10644,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/data/app/"
+  },
+  {
+    "getter": {
+      "function": "0x307e30",
+      "reason": "return",
+      "steps": 22110,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2a3c14",
+      "reason": "return",
+      "steps": 11118,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/data/data/"
+  },
+  {
+    "getter": {
+      "function": "0x2d6b60",
+      "reason": "return",
+      "steps": 22095,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2a3c14",
+      "reason": "return",
+      "steps": 11118,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/data/user/"
+  },
+  {
+    "getter": {
+      "function": "0x2d722c",
+      "reason": "return",
+      "steps": 22328,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x307e34",
+      "reason": "return",
+      "steps": 11119,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/packcache/"
+  },
+  {
+    "getter": {
+      "function": "0x2d7904",
+      "reason": "return",
+      "steps": 9931,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x307e38",
+      "reason": "return",
+      "steps": 6232,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/lib"
+  },
+  {
+    "getter": {
+      "function": "0x2d8fd0",
+      "reason": "return",
+      "steps": 5924,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x307ea0",
+      "reason": "return",
+      "steps": 5229,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "r"
+  },
+  {
+    "getter": {
+      "function": "0x2d9b98",
+      "reason": "return",
+      "steps": 43579,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x307ea8",
+      "reason": "return",
+      "steps": 23185,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "%lx-%lx %4s %lx %x:%x %lu %n%*s"
+  },
+  {
+    "getter": {
+      "function": "0x2db558",
+      "reason": "return",
+      "steps": 30300,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x228028",
+      "reason": "return",
+      "steps": 15638,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/dev/zero (deleted)"
+  },
+  {
+    "getter": {
+      "function": "0x2dbba8",
+      "reason": "return",
+      "steps": 11980,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x271f64",
+      "reason": "return",
+      "steps": 6780,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "[anon:"
+  },
+  {
+    "getter": {
+      "function": "0x334ee4",
+      "reason": "return",
+      "steps": 9235,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2339ac",
+      "reason": "return",
+      "steps": 7548,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/status"
+  },
+  {
+    "getter": {
+      "function": "0x314db4",
+      "reason": "return",
+      "steps": 5669,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x269a3c",
+      "reason": "return",
+      "steps": 5228,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "r"
+  },
+  {
+    "getter": {
+      "function": "0x334f4c",
+      "reason": "return",
+      "steps": 12820,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2cc4c8",
+      "reason": "return",
+      "steps": 10644,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "TracerPid:"
+  },
+  {
+    "getter": {
+      "function": "0x315b14",
+      "reason": "return",
+      "steps": 12355,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x271f64",
+      "reason": "return",
+      "steps": 6780,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "State:"
+  },
+  {
+    "getter": {
+      "function": "0x334f50",
+      "reason": "return",
+      "steps": 5781,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x269a3c",
+      "reason": "return",
+      "steps": 5228,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "t"
+  },
+  {
+    "getter": {
+      "function": "0x334f54",
+      "reason": "return",
+      "steps": 22035,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x29280c",
+      "reason": "return",
+      "steps": 12787,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "(tracing stop)"
+  },
+  {
+    "getter": {
+      "function": "0x277334",
+      "reason": "return",
+      "steps": 20174,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x282f60",
+      "reason": "return",
+      "steps": 13461,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "Ljava/util/Map;"
+  },
+  {
+    "getter": {
+      "function": "0x2779cc",
+      "reason": "return",
+      "steps": 28517,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x282f64",
+      "reason": "return",
+      "steps": 17339,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "sHookedMethodCallbacks"
+  },
+  {
+    "getter": {
+      "function": "0x227a00",
+      "reason": "return",
+      "steps": 30182,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x228028",
+      "reason": "return",
+      "steps": 15638,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "[Ljava/lang/Object;"
+  },
+  {
+    "getter": {
+      "function": "0x24db30",
+      "reason": "return",
+      "steps": 16364,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22abdc",
+      "reason": "return",
+      "steps": 12110,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/util/Map"
+  },
+  {
+    "getter": {
+      "function": "0x236564",
+      "reason": "return",
+      "steps": 20056,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22da30",
+      "reason": "return",
+      "steps": 13460,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/Class"
+  },
+  {
+    "getter": {
+      "function": "0x236b14",
+      "reason": "return",
+      "steps": 28554,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x231ae8",
+      "reason": "return",
+      "steps": 14523,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getDeclaredFields"
+  },
+  {
+    "getter": {
+      "function": "0x23722c",
+      "reason": "return",
+      "steps": 31956,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2378e0",
+      "reason": "return",
+      "steps": 21046,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()[Ljava/lang/reflect/Field;"
+  },
+  {
+    "getter": {
+      "function": "0x237db4",
+      "reason": "return",
+      "steps": 20396,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x238568",
+      "reason": "return",
+      "steps": 18056,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/reflect/Field"
+  },
+  {
+    "getter": {
+      "function": "0x238904",
+      "reason": "return",
+      "steps": 9028,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x230498",
+      "reason": "return",
+      "steps": 11359,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getModifiers"
+  },
+  {
+    "getter": {
+      "function": "0x238dd4",
+      "reason": "return",
+      "steps": 9367,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x230fdc",
+      "reason": "return",
+      "steps": 5791,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()I"
+  },
+  {
+    "getter": {
+      "function": "0x239554",
+      "reason": "return",
+      "steps": 9958,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2339ac",
+      "reason": "return",
+      "steps": 7548,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getType"
+  },
+  {
+    "getter": {
+      "function": "0x239c68",
+      "reason": "return",
+      "steps": 30199,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x228028",
+      "reason": "return",
+      "steps": 15638,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/lang/Class;"
+  },
+  {
+    "getter": {
+      "function": "0x23a298",
+      "reason": "return",
+      "steps": 9794,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2339ac",
+      "reason": "return",
+      "steps": 7548,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getName"
+  },
+  {
+    "getter": {
+      "function": "0x23a834",
+      "reason": "return",
+      "steps": 21027,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x23252c",
+      "reason": "return",
+      "steps": 16270,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/lang/String;"
+  },
+  {
+    "getter": {
+      "function": "0x22d4ec",
+      "reason": "return",
+      "steps": 19557,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db54",
+      "reason": "return",
+      "steps": 13461,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/Class"
+  },
+  {
+    "getter": {
+      "function": "0x24db58",
+      "reason": "return",
+      "steps": 14485,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22e3f0",
+      "reason": "return",
+      "steps": 14964,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getDeclaredMethods"
+  },
+  {
+    "getter": {
+      "function": "0x22e768",
+      "reason": "return",
+      "steps": 15640,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22edac",
+      "reason": "return",
+      "steps": 21847,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()[Ljava/lang/reflect/Method;"
+  },
+  {
+    "getter": {
+      "function": "0x22f0c0",
+      "reason": "return",
+      "steps": 8939,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db5c",
+      "reason": "return",
+      "steps": 18989,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/reflect/Method"
+  },
+  {
+    "getter": {
+      "function": "0x24db60",
+      "reason": "return",
+      "steps": 10183,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db64",
+      "reason": "return",
+      "steps": 11360,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getModifiers"
+  },
+  {
+    "getter": {
+      "function": "0x230908",
+      "reason": "return",
+      "steps": 9203,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db68",
+      "reason": "return",
+      "steps": 5792,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()I"
+  },
+  {
+    "getter": {
+      "function": "0x231430",
+      "reason": "return",
+      "steps": 27824,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db6c",
+      "reason": "return",
+      "steps": 14524,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getParameterTypes"
+  },
+  {
+    "getter": {
+      "function": "0x231eb8",
+      "reason": "return",
+      "steps": 21054,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db70",
+      "reason": "return",
+      "steps": 16271,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()[Ljava/lang/Class;"
+  },
+  {
+    "getter": {
+      "function": "0x24db74",
+      "reason": "return",
+      "steps": 15794,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22abdc",
+      "reason": "return",
+      "steps": 12110,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getReturnType"
+  },
+  {
+    "getter": {
+      "function": "0x232d8c",
+      "reason": "return",
+      "steps": 29618,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x228028",
+      "reason": "return",
+      "steps": 15638,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/lang/Class;"
+  },
+  {
+    "getter": {
+      "function": "0x24db78",
+      "reason": "return",
+      "steps": 9804,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2339ac",
+      "reason": "return",
+      "steps": 7548,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getName"
+  },
+  {
+    "getter": {
+      "function": "0x233df0",
+      "reason": "return",
+      "steps": 20823,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db7c",
+      "reason": "return",
+      "steps": 16271,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/lang/String;"
+  },
+  {
+    "getter": {
+      "function": "0x2343f0",
+      "reason": "return",
+      "steps": 25725,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2349c8",
+      "reason": "return",
+      "steps": 14350,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/String"
+  },
+  {
+    "getter": {
+      "function": "0x282d5c",
+      "reason": "return",
+      "steps": 25869,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x2349c8",
+      "reason": "return",
+      "steps": 14350,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/Thread"
+  },
+  {
+    "getter": {
+      "function": "0x282d60",
+      "reason": "return",
+      "steps": 16320,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22abdc",
+      "reason": "return",
+      "steps": 12110,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "currentThread"
+  },
+  {
+    "getter": {
+      "function": "0x282d64",
+      "reason": "return",
+      "steps": 20886,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x282d68",
+      "reason": "return",
+      "steps": 16271,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/lang/Thread;"
+  },
+  {
+    "getter": {
+      "function": "0x282d6c",
+      "reason": "return",
+      "steps": 16837,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x22abdc",
+      "reason": "return",
+      "steps": 12110,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getStackTrace"
+  },
+  {
+    "getter": {
+      "function": "0x2608ec",
+      "reason": "return",
+      "steps": 36542,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x282d70",
+      "reason": "return",
+      "steps": 23263,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()[Ljava/lang/StackTraceElement;"
+  },
+  {
+    "getter": {
+      "function": "0x260f74",
+      "reason": "return",
+      "steps": 55080,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x261640",
+      "reason": "return",
+      "steps": 20664,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "java/lang/StackTraceElement"
+  },
+  {
+    "getter": {
+      "function": "0x282d74",
+      "reason": "return",
+      "steps": 9685,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x282d78",
+      "reason": "return",
+      "steps": 11360,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "getClassName"
+  },
+  {
+    "getter": {
+      "function": "0x262064",
+      "reason": "return",
+      "steps": 20665,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x23252c",
+      "reason": "return",
+      "steps": 16270,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "()Ljava/lang/String;"
+  },
+  {
+    "getter": {
+      "function": "0x262754",
+      "reason": "return",
+      "steps": 35942,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x282d7c",
+      "reason": "return",
+      "steps": 26631,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "de.robv.android.xposed.XC_MethodHook"
+  },
+  {
+    "getter": {
+      "function": "0x268ed0",
+      "reason": "return",
+      "steps": 8922,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x230498",
+      "reason": "return",
+      "steps": 11359,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "disableHooks"
+  },
+  {
+    "getter": {
+      "function": "0x30c720",
+      "reason": "return",
+      "steps": 9710,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x230498",
+      "reason": "return",
+      "steps": 11359,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/guestOSInfo"
+  },
+  {
+    "getter": {
+      "function": "0x30ce08",
+      "reason": "return",
+      "steps": 36936,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x21676c",
+      "reason": "return",
+      "steps": 23262,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/system/priv-app/vmos-pro-intent"
+  },
+  {
+    "getter": {
+      "function": "0x30d418",
+      "reason": "return",
+      "steps": 28702,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x273ed4",
+      "reason": "return",
+      "steps": 17338,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/system/priv-app/romex"
+  },
+  {
+    "getter": {
+      "function": "0x3126ec",
+      "reason": "return",
+      "steps": 21411,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x23252c",
+      "reason": "return",
+      "steps": 16270,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/sdcard/vphone_space"
+  },
+  {
+    "getter": {
+      "function": "0x30e310",
+      "reason": "return",
+      "steps": 25964,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x290ff8",
+      "reason": "return",
+      "steps": 17187,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/system/app/Superuser"
+  },
+  {
+    "getter": {
+      "function": "0x30ea78",
+      "reason": "return",
+      "steps": 20048,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x28ff90",
+      "reason": "return",
+      "steps": 20974,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/system/priv-app/Superuser"
+  },
+  {
+    "getter": {
+      "function": "0x30ef88",
+      "reason": "return",
+      "steps": 26297,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x3126f4",
+      "reason": "return",
+      "steps": 19747,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "text": "/data/app/VPhoneQuickHelp"
+  },
+  {
+    "getter": {
+      "function": "0x234dfc",
+      "reason": "return",
+      "steps": 20229,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "converter": {
+      "function": "0x24db80",
+      "reason": "return",
+      "steps": 16271,
+      "pc": "0x32000000",
+      "result": "0x31000100"
+    },
+    "raw": "28294c6a6176612f6c616e672f537472696e673b",
+    "text": "()Ljava/lang/String;"
+  }
+]

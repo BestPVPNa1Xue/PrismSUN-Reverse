@@ -19,5 +19,12 @@
     "KeyMapper component/package classification",
     "Minecraft package size and certificate baseline",
     "Beijing SNTP comparison"
+  ],
+  "additional_research_releases": [
+    {
+      "tag": "prism-old-2026-10-18-r1",
+      "scope": "old small sample: Xposed/Epic, seven paths, maps, status",
+      "integrated_into_pinned_application": false
+    }
   ]
 }

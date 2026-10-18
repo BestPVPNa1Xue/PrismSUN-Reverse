@@ -1,0 +1,2257 @@
+[
+  {
+    "root": "0x2275cc",
+    "config": {
+      "members": [
+        {
+          "name": "staticWrong",
+          "flags": 8,
+          "type": "[Ljava/lang/Object;"
+        },
+        {
+          "name": "objects",
+          "flags": 0,
+          "type": "[Ljava/lang/Object;"
+        }
+      ]
+    },
+    "execution": {
+      "function": "0x2275cc",
+      "reason": "return",
+      "steps": 10402,
+      "pc": "0x32000000",
+      "result": "0x31000c00"
+    },
+    "text": "objects",
+    "global_state": 0,
+    "trace": [
+      {
+        "site": "0x227748",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000000",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "[Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x228be4",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000100",
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Class"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getDeclaredFields",
+        "signature": "()[Ljava/lang/reflect/Field;"
+      },
+      {
+        "site": "0x228c3c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Class"
+          ],
+          "0x31000200",
+          "0x31000300",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getDeclaredFields",
+          "()[Ljava/lang/reflect/Field;"
+        ]
+      },
+      {
+        "site": "0x228c74",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000400",
+          "0x31000200",
+          "0x31000300",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/reflect/Field"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getModifiers",
+        "signature": "()I"
+      },
+      {
+        "site": "0x228ccc",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x31000500",
+          "0x31000600",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getModifiers",
+          "()I"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getType",
+        "signature": "()Ljava/lang/Class;"
+      },
+      {
+        "site": "0x228d24",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x31000700",
+          "0x31000800",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getType",
+          "()Ljava/lang/Class;"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "site": "0x228d7c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x31000900",
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getName",
+          "()Ljava/lang/String;"
+        ]
+      },
+      {
+        "site": "0x228db4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixture"
+          ],
+          [
+            "member",
+            "getDeclaredFields",
+            "()[Ljava/lang/reflect/Field;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "list",
+          [
+            4168,
+            4176
+          ]
+        ]
+      },
+      {
+        "site": "0x228de0",
+        "slot": 1368,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          [
+            "member",
+            "getDeclaredFields",
+            "()[Ljava/lang/reflect/Field;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": 2
+      },
+      {
+        "site": "0x228f8c",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "field",
+          {
+            "name": "staticWrong",
+            "flags": 8,
+            "type": "[Ljava/lang/Object;"
+          }
+        ]
+      },
+      {
+        "site": "0x228fc0",
+        "slot": 392,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "staticWrong",
+              "flags": 8,
+              "type": "[Ljava/lang/Object;"
+            }
+          ],
+          [
+            "member",
+            "getModifiers",
+            "()I"
+          ],
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 8
+      },
+      {
+        "site": "0x229240",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "staticWrong",
+              "flags": 8,
+              "type": "[Ljava/lang/Object;"
+            }
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x228f8c",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          "0x1",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "field",
+          {
+            "name": "objects",
+            "flags": 0,
+            "type": "[Ljava/lang/Object;"
+          }
+        ]
+      },
+      {
+        "site": "0x228fc0",
+        "slot": 392,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "objects",
+              "flags": 0,
+              "type": "[Ljava/lang/Object;"
+            }
+          ],
+          [
+            "member",
+            "getModifiers",
+            "()I"
+          ],
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229088",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "objects",
+              "flags": 0,
+              "type": "[Ljava/lang/Object;"
+            }
+          ],
+          [
+            "member",
+            "getType",
+            "()Ljava/lang/Class;"
+          ],
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "[Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x229098",
+        "slot": 192,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "site": "0x229124",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "objects",
+              "flags": 0,
+              "type": "[Ljava/lang/Object;"
+            }
+          ],
+          [
+            "member",
+            "getName",
+            "()Ljava/lang/String;"
+          ],
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "string",
+          "objects"
+        ]
+      },
+      {
+        "site": "0x229154",
+        "slot": 1352,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "objects"
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 822086400
+      },
+      {
+        "site": "0x22919c",
+        "slot": 1360,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "objects"
+          ],
+          "0x31000b00",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x2291c0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "objects"
+          ],
+          "0x31000b00",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229240",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "objects",
+              "flags": 0,
+              "type": "[Ljava/lang/Object;"
+            }
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229550",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229574",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229598",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Class"
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22777c",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0",
+          [
+            "class",
+            "[Ljava/lang/Object;"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x229f44",
+    "config": {
+      "members": [
+        {
+          "name": "hash",
+          "flags": 8,
+          "type": "java/util/HashMap"
+        },
+        {
+          "name": "callbacks",
+          "flags": 8,
+          "type": "java/util/Map"
+        }
+      ]
+    },
+    "execution": {
+      "function": "0x229f44",
+      "reason": "return",
+      "steps": 11205,
+      "pc": "0x32000000",
+      "result": "0x31000c00"
+    },
+    "text": "callbacks",
+    "global_state": 0,
+    "trace": [
+      {
+        "site": "0x22a1b0",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000000",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Map"
+        ]
+      },
+      {
+        "site": "0x228be4",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000100",
+          "0x8",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Class"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getDeclaredFields",
+        "signature": "()[Ljava/lang/reflect/Field;"
+      },
+      {
+        "site": "0x228c3c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Class"
+          ],
+          "0x31000200",
+          "0x31000300",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getDeclaredFields",
+          "()[Ljava/lang/reflect/Field;"
+        ]
+      },
+      {
+        "site": "0x228c74",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000400",
+          "0x31000200",
+          "0x31000300",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/reflect/Field"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getModifiers",
+        "signature": "()I"
+      },
+      {
+        "site": "0x228ccc",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x31000500",
+          "0x31000600",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getModifiers",
+          "()I"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getType",
+        "signature": "()Ljava/lang/Class;"
+      },
+      {
+        "site": "0x228d24",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x31000700",
+          "0x31000800",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getType",
+          "()Ljava/lang/Class;"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "site": "0x228d7c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x31000900",
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getName",
+          "()Ljava/lang/String;"
+        ]
+      },
+      {
+        "site": "0x228db4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixture"
+          ],
+          [
+            "member",
+            "getDeclaredFields",
+            "()[Ljava/lang/reflect/Field;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "list",
+          [
+            4168,
+            4176
+          ]
+        ]
+      },
+      {
+        "site": "0x228de0",
+        "slot": 1368,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          [
+            "member",
+            "getDeclaredFields",
+            "()[Ljava/lang/reflect/Field;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": 2
+      },
+      {
+        "site": "0x228f8c",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          "0x0",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "field",
+          {
+            "name": "hash",
+            "flags": 8,
+            "type": "java/util/HashMap"
+          }
+        ]
+      },
+      {
+        "site": "0x228fc0",
+        "slot": 392,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "hash",
+              "flags": 8,
+              "type": "java/util/HashMap"
+            }
+          ],
+          [
+            "member",
+            "getModifiers",
+            "()I"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 8
+      },
+      {
+        "site": "0x229088",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "hash",
+              "flags": 8,
+              "type": "java/util/HashMap"
+            }
+          ],
+          [
+            "member",
+            "getType",
+            "()Ljava/lang/Class;"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/HashMap"
+        ]
+      },
+      {
+        "site": "0x229098",
+        "slot": 192,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229240",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "hash",
+              "flags": 8,
+              "type": "java/util/HashMap"
+            }
+          ],
+          "0x8",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x228f8c",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          "0x1",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "field",
+          {
+            "name": "callbacks",
+            "flags": 8,
+            "type": "java/util/Map"
+          }
+        ]
+      },
+      {
+        "site": "0x228fc0",
+        "slot": 392,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "callbacks",
+              "flags": 8,
+              "type": "java/util/Map"
+            }
+          ],
+          [
+            "member",
+            "getModifiers",
+            "()I"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 8
+      },
+      {
+        "site": "0x229088",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "callbacks",
+              "flags": 8,
+              "type": "java/util/Map"
+            }
+          ],
+          [
+            "member",
+            "getType",
+            "()Ljava/lang/Class;"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Map"
+        ]
+      },
+      {
+        "site": "0x229098",
+        "slot": 192,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "site": "0x229124",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "callbacks",
+              "flags": 8,
+              "type": "java/util/Map"
+            }
+          ],
+          [
+            "member",
+            "getName",
+            "()Ljava/lang/String;"
+          ],
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "string",
+          "callbacks"
+        ]
+      },
+      {
+        "site": "0x229154",
+        "slot": 1352,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "callbacks"
+          ],
+          "0x0",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 822086400
+      },
+      {
+        "site": "0x22919c",
+        "slot": 1360,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "callbacks"
+          ],
+          "0x31000b00",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x2291c0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "callbacks"
+          ],
+          "0x31000b00",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229240",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "field",
+            {
+              "name": "callbacks",
+              "flags": 8,
+              "type": "java/util/Map"
+            }
+          ],
+          "0x8",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229550",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4168,
+              4176
+            ]
+          ],
+          "0x8",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229574",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Field"
+          ],
+          "0x8",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x229598",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Class"
+          ],
+          "0x8",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22a1e4",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x8",
+          [
+            "class",
+            "java/util/Map"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x22b0d4",
+    "config": {
+      "members": [
+        {
+          "name": "native",
+          "flags": 264,
+          "type": "java/lang/String"
+        },
+        {
+          "name": "owner",
+          "flags": 8,
+          "type": "java/lang/String"
+        }
+      ],
+      "descriptor": "Lexample.CallbackOwner;"
+    },
+    "execution": {
+      "function": "0x22b0d4",
+      "reason": "return",
+      "steps": 67590,
+      "pc": "0x32000000",
+      "result": "0x31001000"
+    },
+    "text": "example.CallbackOwner",
+    "global_state": 0,
+    "trace": [
+      {
+        "site": "0x22bae0",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000000",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Class"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getDeclaredMethods",
+        "signature": "()[Ljava/lang/reflect/Method;"
+      },
+      {
+        "site": "0x22bb38",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Class"
+          ],
+          "0x31000100",
+          "0x31000200",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getDeclaredMethods",
+          "()[Ljava/lang/reflect/Method;"
+        ]
+      },
+      {
+        "site": "0x22bb70",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000300",
+          "0x31000100",
+          "0x31000200",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/reflect/Method"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getModifiers",
+        "signature": "()I"
+      },
+      {
+        "site": "0x22bbc8",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Method"
+          ],
+          "0x31000400",
+          "0x31000500",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getModifiers",
+          "()I"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getParameterTypes",
+        "signature": "()[Ljava/lang/Class;"
+      },
+      {
+        "site": "0x22bc24",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Method"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getParameterTypes",
+          "()[Ljava/lang/Class;"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getReturnType",
+        "signature": "()Ljava/lang/Class;"
+      },
+      {
+        "site": "0x22bc84",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Method"
+          ],
+          "0x31000800",
+          "0x31000900",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getReturnType",
+          "()Ljava/lang/Class;"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "site": "0x22bce4",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Method"
+          ],
+          "0x31000a00",
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getName",
+          "()Ljava/lang/String;"
+        ]
+      },
+      {
+        "site": "0x22bd20",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000c00",
+          "0x31000a00",
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/String"
+        ]
+      },
+      {
+        "site": "0x22bd54",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixture"
+          ],
+          [
+            "member",
+            "getDeclaredMethods",
+            "()[Ljava/lang/reflect/Method;"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "list",
+          [
+            4176,
+            4184
+          ]
+        ]
+      },
+      {
+        "site": "0x22bd80",
+        "slot": 1368,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4176,
+              4184
+            ]
+          ],
+          [
+            "member",
+            "getDeclaredMethods",
+            "()[Ljava/lang/reflect/Method;"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": 2
+      },
+      {
+        "site": "0x22be64",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4176,
+              4184
+            ]
+          ],
+          "0x0",
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "method",
+          {
+            "name": "native",
+            "flags": 264,
+            "type": "java/lang/String"
+          }
+        ]
+      },
+      {
+        "site": "0x22be98",
+        "slot": 392,
+        "args": [
+          "0x31100000",
+          [
+            "method",
+            {
+              "name": "native",
+              "flags": 264,
+              "type": "java/lang/String"
+            }
+          ],
+          [
+            "member",
+            "getModifiers",
+            "()I"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": 264
+      },
+      {
+        "site": "0x22c4f0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "method",
+            {
+              "name": "native",
+              "flags": 264,
+              "type": "java/lang/String"
+            }
+          ],
+          [
+            "member",
+            "getModifiers",
+            "()I"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22be64",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4176,
+              4184
+            ]
+          ],
+          "0x1",
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "method",
+          {
+            "name": "owner",
+            "flags": 8,
+            "type": "java/lang/String"
+          }
+        ]
+      },
+      {
+        "site": "0x22be98",
+        "slot": 392,
+        "args": [
+          "0x31100000",
+          [
+            "method",
+            {
+              "name": "owner",
+              "flags": 8,
+              "type": "java/lang/String"
+            }
+          ],
+          [
+            "member",
+            "getModifiers",
+            "()I"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": 8
+      },
+      {
+        "site": "0x22bf2c",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "method",
+            {
+              "name": "owner",
+              "flags": 8,
+              "type": "java/lang/String"
+            }
+          ],
+          [
+            "member",
+            "getParameterTypes",
+            "()[Ljava/lang/Class;"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "list",
+          []
+        ]
+      },
+      {
+        "site": "0x22bf38",
+        "slot": 1368,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            []
+          ],
+          [
+            "member",
+            "getParameterTypes",
+            "()[Ljava/lang/Class;"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22bfe8",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "method",
+            {
+              "name": "owner",
+              "flags": 8,
+              "type": "java/lang/String"
+            }
+          ],
+          [
+            "member",
+            "getReturnType",
+            "()Ljava/lang/Class;"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/String"
+        ]
+      },
+      {
+        "site": "0x22bff8",
+        "slot": 192,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/String"
+          ],
+          [
+            "class",
+            "java/lang/String"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "site": "0x22c090",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "method",
+            {
+              "name": "owner",
+              "flags": 8,
+              "type": "java/lang/String"
+            }
+          ],
+          [
+            "member",
+            "getName",
+            "()Ljava/lang/String;"
+          ],
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": [
+          "string",
+          "owner"
+        ]
+      },
+      {
+        "site": "0x22c0c0",
+        "slot": 1352,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "owner"
+          ],
+          "0x0",
+          "0x31000b00",
+          "0x0"
+        ],
+        "result": 822086912
+      },
+      {
+        "lookup": 904,
+        "name": "owner",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "site": "0x22c110",
+        "slot": 904,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixture"
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "owner",
+          "()Ljava/lang/String;"
+        ]
+      },
+      {
+        "site": "0x22c144",
+        "slot": 912,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixture"
+          ],
+          [
+            "member",
+            "owner",
+            "()Ljava/lang/String;"
+          ],
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": [
+          "string",
+          "Lexample.CallbackOwner;"
+        ]
+      },
+      {
+        "site": "0x22c168",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixture"
+          ],
+          [
+            "member",
+            "owner",
+            "()Ljava/lang/String;"
+          ],
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c2c0",
+        "slot": 1352,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "Lexample.CallbackOwner;"
+          ],
+          "0x0",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 822087424
+      },
+      {
+        "site": "0x22c3e0",
+        "slot": 1360,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "Lexample.CallbackOwner;"
+          ],
+          "0x31000f00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c404",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "Lexample.CallbackOwner;"
+          ],
+          "0x31000f00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c46c",
+        "slot": 1360,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "owner"
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c490",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "owner"
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c4f0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "method",
+            {
+              "name": "owner",
+              "flags": 8,
+              "type": "java/lang/String"
+            }
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c880",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4176,
+              4184
+            ]
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c8a4",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/String"
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c8c8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/reflect/Method"
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x22c8ec",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Class"
+          ],
+          "0x31000d00",
+          "0x31000e00",
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x25dc1c",
+    "config": {
+      "stack": [
+        "normal.Frame",
+        "de.robv.android.xposed.XC_MethodHookExtra"
+      ]
+    },
+    "execution": {
+      "function": "0x25dc1c",
+      "reason": "return",
+      "steps": 6305,
+      "pc": "0x32000000",
+      "result": "0x0"
+    },
+    "text": null,
+    "global_state": 3,
+    "trace": [
+      {
+        "site": "0x25e258",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000000",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Thread"
+        ]
+      },
+      {
+        "lookup": 904,
+        "name": "currentThread",
+        "signature": "()Ljava/lang/Thread;"
+      },
+      {
+        "site": "0x25e2b0",
+        "slot": 904,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Thread"
+          ],
+          "0x31000100",
+          "0x31000200",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "currentThread",
+          "()Ljava/lang/Thread;"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getStackTrace",
+        "signature": "()[Ljava/lang/StackTraceElement;"
+      },
+      {
+        "site": "0x25e308",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Thread"
+          ],
+          "0x31000300",
+          "0x31000400",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getStackTrace",
+          "()[Ljava/lang/StackTraceElement;"
+        ]
+      },
+      {
+        "site": "0x25e340",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000500",
+          "0x31000300",
+          "0x31000400",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/StackTraceElement"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "getClassName",
+        "signature": "()Ljava/lang/String;"
+      },
+      {
+        "site": "0x25e398",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/StackTraceElement"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "getClassName",
+          "()Ljava/lang/String;"
+        ]
+      },
+      {
+        "site": "0x25e3cc",
+        "slot": 912,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/Thread"
+          ],
+          [
+            "member",
+            "currentThread",
+            "()Ljava/lang/Thread;"
+          ],
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "thread"
+        ]
+      },
+      {
+        "site": "0x25e400",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "thread"
+          ],
+          [
+            "member",
+            "getStackTrace",
+            "()[Ljava/lang/StackTraceElement;"
+          ],
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "list",
+          [
+            4160,
+            4168
+          ]
+        ]
+      },
+      {
+        "site": "0x25e42c",
+        "slot": 1368,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4160,
+              4168
+            ]
+          ],
+          [
+            "member",
+            "getStackTrace",
+            "()[Ljava/lang/StackTraceElement;"
+          ],
+          "0x31000700",
+          "0x0"
+        ],
+        "result": 2
+      },
+      {
+        "site": "0x25e548",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4160,
+              4168
+            ]
+          ],
+          "0x0",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "frame",
+          "normal.Frame"
+        ]
+      },
+      {
+        "site": "0x25e57c",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "frame",
+            "normal.Frame"
+          ],
+          [
+            "member",
+            "getClassName",
+            "()Ljava/lang/String;"
+          ],
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "string",
+          "normal.Frame"
+        ]
+      },
+      {
+        "site": "0x25e5ac",
+        "slot": 1352,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "normal.Frame"
+          ],
+          "0x0",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": 822085888
+      },
+      {
+        "site": "0x25e6b8",
+        "slot": 1360,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "normal.Frame"
+          ],
+          "0x31000900",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x25e548",
+        "slot": 1384,
+        "args": [
+          "0x31100000",
+          [
+            "list",
+            [
+              4160,
+              4168
+            ]
+          ],
+          "0x1",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "frame",
+          "de.robv.android.xposed.XC_MethodHookExtra"
+        ]
+      },
+      {
+        "site": "0x25e57c",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "frame",
+            "de.robv.android.xposed.XC_MethodHookExtra"
+          ],
+          [
+            "member",
+            "getClassName",
+            "()Ljava/lang/String;"
+          ],
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "string",
+          "de.robv.android.xposed.XC_MethodHookExtra"
+        ]
+      },
+      {
+        "site": "0x25e5ac",
+        "slot": 1352,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "de.robv.android.xposed.XC_MethodHookExtra"
+          ],
+          "0x0",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": 822086144
+      },
+      {
+        "site": "0x25e6b8",
+        "slot": 1360,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "de.robv.android.xposed.XC_MethodHookExtra"
+          ],
+          "0x31000a00",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  }
+]

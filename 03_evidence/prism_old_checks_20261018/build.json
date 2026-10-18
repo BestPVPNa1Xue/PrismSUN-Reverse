@@ -1,0 +1,34 @@
+{
+  "outputs": [
+    {
+      "Path": "D:\\PrismSUN\\PrismSUN-Reverse-public\\01_source\\research\\prism_old_checks_20261018\\build\\core-tests.json",
+      "Hash": "DAE40C617201B3208475974FC3ECD83FBA2F77AB78F24F3A1FE5EF3B7BA7B8D4"
+    },
+    {
+      "Path": "D:\\PrismSUN\\PrismSUN-Reverse-public\\01_source\\research\\prism_old_checks_20261018\\build\\core.exe",
+      "Hash": "501F84C4E10EE55FDE92DB1B49FED684321CF1B22B231BBED712DBAC8BCA4C61"
+    },
+    {
+      "Path": "D:\\PrismSUN\\PrismSUN-Reverse-public\\01_source\\research\\prism_old_checks_20261018\\build\\jni-tests.json",
+      "Hash": "47FB1972390F7E6D54A8FF2FC63779D05B5B0428CFF652195A0FC3A16E7B9ACD"
+    },
+    {
+      "Path": "D:\\PrismSUN\\PrismSUN-Reverse-public\\01_source\\research\\prism_old_checks_20261018\\build\\jni.exe",
+      "Hash": "A927B279E6B73624543ACE83582C5B6F7FDBE186B74F1A7BD6D186EC64EC53E1"
+    },
+    {
+      "Path": "D:\\PrismSUN\\PrismSUN-Reverse-public\\01_source\\research\\prism_old_checks_20261018\\build\\libprism_old_checks.so",
+      "Hash": "766A8331328A5978CCFE0C8B543F49BB25133A51547754C3002CDC8FA5C304E8"
+    }
+  ],
+  "android": "aarch64-linux-android24 cross compilation only",
+  "host": "core and synthetic JNI executed",
+  "status": "PASS",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ]
+}

@@ -1,0 +1,1171 @@
+{
+  "schema": 1,
+  "tag": "prism-old-2026-10-18-r1",
+  "files": [
+    {
+      "path": "01_source/research/prism_old_checks_20261018/.gitignore",
+      "bytes": 8,
+      "sha256": "231603bda32a6de12ecd228babd9d1809207d80b633e9fae814b8f32194d8ab1"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/include/prism_old.hpp",
+      "bytes": 1510,
+      "sha256": "8575c10227ed16ceced786fd395152928c39feda522a2a0e92bb7924451a0207"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/include/xposed.hpp",
+      "bytes": 850,
+      "sha256": "c040b40851cbe08bfbea39edb2df88e18de994a3398edfe760c68eeba4034ce7"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/README.md",
+      "bytes": 952,
+      "sha256": "862d441b317cdafe6c45a524fed3ced1e96477d6dd20c52d31d7ef8c2b53242c"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/scripts/build.ps1",
+      "bytes": 1653,
+      "sha256": "978ca33fa10e65efe82d8bb7565f3d13771f18fd4470c176f08002db4606e988"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/src/checks.cpp",
+      "bytes": 3174,
+      "sha256": "1873afab74f4d88ee8979ceee0069d245cd38aa8a7c6b61bb837aad5276e8641"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/src/native.cpp",
+      "bytes": 1385,
+      "sha256": "f581c739d28f318827404ecea9e2f17897a42d11d61cb2c1922d9de9d0fa9dbd"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/src/xposed.cpp",
+      "bytes": 8671,
+      "sha256": "41144168247e0e3658155a0f0537f8378a37e34070512c8b600761f965b5fcd9"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/tests/core.cpp",
+      "bytes": 4077,
+      "sha256": "4c6c994966f347a8cb5dfc2f1b919a172e2727dda607bc93935167fa9bba9137"
+    },
+    {
+      "path": "01_source/research/prism_old_checks_20261018/tests/jni.cpp",
+      "bytes": 7359,
+      "sha256": "4a6eeedd728f6b21330b36f16ffe0e682ab895d8f657b8acc5229bb43aa9a46c"
+    },
+    {
+      "path": "02_reports/research/prism_old_checks_20261018/REPORT.zh-CN.md",
+      "bytes": 14094,
+      "sha256": "336dfa7db0fbf9a1f6de9d9fc515a41dd2f94c2184e912236691b4299883445b"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/build.json",
+      "bytes": 1369,
+      "sha256": "70c3c077339473a6802cff836cd3eb9def738a51d1828840c9f2da700be6dd0b"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/core-tests.json",
+      "bytes": 46,
+      "sha256": "dae40c617201b3208475974fc3ecd83fba2f77ab78f24f3a1fe5ef3b7ba7b8d4"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/debug-fixtures.json",
+      "bytes": 107234,
+      "sha256": "3a86da7fde9e906c412af0b67eedf86db10751c0f31ca07869f18abf0fe124a9"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/fixture-ranges.json",
+      "bytes": 804,
+      "sha256": "f8b5754a6be2a61dbc5d1b41e9dcf751fe415773c6edebbf4a23bc5f2e9347b1"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/ida-assembly.json",
+      "bytes": 1015007,
+      "sha256": "892e3fb6b00c628faf7035b5ed144c976086690b0c10ec716ef64543c186a4b3"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/ida-functions.json",
+      "bytes": 302500,
+      "sha256": "d321c8a2c77e22dc53bbf6eda36e246e7eb36ea5eddd58068b245b1027d00c0b"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/jni-fixtures.json",
+      "bytes": 68188,
+      "sha256": "0de8b5f89ec9c6d975018b976291be2852e23aba074b74a166f63939f0161d47"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/jni-tests.json",
+      "bytes": 38,
+      "sha256": "47fb1972390f7e6d54a8ff2fc63779d05b5b0428cff652195a0fc3a16e7b9acd"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/maps-diagnostic-fixture.json",
+      "bytes": 420,
+      "sha256": "c52ec40353537e719bdda04a4c95de75c01cdd6b4e49fc1b62f9c857567e272b"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/maps-fixtures.json",
+      "bytes": 187236,
+      "sha256": "2ebcb2be7fb92ad7d167840eccdaca75be0b1a64202a85397f4aa87a8ba6510a"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/protected-after.json",
+      "bytes": 881,
+      "sha256": "26f0f63e4d1f14f3d70e8ae83ca65188e622ad54cac7e333227ab68d05d467e3"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/protected-before.json",
+      "bytes": 785,
+      "sha256": "364e17b929b5599d8b354f6fcd4e2cae4a661658512072a53c579d6747b092af"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/README.md",
+      "bytes": 1730,
+      "sha256": "19c61404987e25b97edaf69f705e971f11f988761d96c09ea5a2166560931bc4"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/reflection-fixtures.json",
+      "bytes": 45254,
+      "sha256": "f24a24c833dca52d30761737fbe6e8358adee4040e7fa1507fcc86ad300a0ae9"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/reproduction.json",
+      "bytes": 374,
+      "sha256": "cfd0458aafc76fe96d2d72bdf8f5b47327a489d663eb50827b5ec121a3303be4"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/stat-fixtures.json",
+      "bytes": 1138,
+      "sha256": "71dfa02f2b1963a1836b69cdda0ab5cf6ab2008aeb781730e92992b86795f4fc"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/strings.json",
+      "bytes": 30922,
+      "sha256": "f2ff87a81a1e424689330c586f2aaa7eec39577ce3267ca6b402e1a38fa19433"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/bounded_strings.py",
+      "bytes": 3656,
+      "sha256": "4b678179560d09c575d5126ab26f54a4dc37e8e825d8b109c74de0dadf31a400"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/debug_fixture.py",
+      "bytes": 2898,
+      "sha256": "f49d1bb2062ce6a74e9eac49b866582c553afe434afb12bec55876e7d17a6a32"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/direct_fixture.py",
+      "bytes": 1160,
+      "sha256": "1b49b5b907c2a29e5876322d0bdef84dd809a93260f1d9a0b9156f1d00d14f94"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/jni_fixture.py",
+      "bytes": 4718,
+      "sha256": "0f1658bcc349504b0d191c33de88fd26a96f0d3c3f534c4ab06f052435655026"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/maps_fixture.py",
+      "bytes": 3943,
+      "sha256": "ff67b10d80c115cd57931807b83fc13a41ec184e9a6c174d9d5ce5702034156a"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/reflection_fixture.py",
+      "bytes": 2712,
+      "sha256": "15a53371f0bbb182585ed4dc497b00144a5d837d7929f89c14ac309a0a6757d8"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/verify_misc.py",
+      "bytes": 765,
+      "sha256": "59448b3aafcb881205405e52a81be5d5ae14f2484e0026db32bcf57a34d1e955"
+    },
+    {
+      "path": "03_evidence/prism_old_checks_20261018/verification/verify_strings.py",
+      "bytes": 598,
+      "sha256": "e3b8c11b82900b38e57fd4981cac99471085e94fefd4c1daa1e0457e731c5afe"
+    },
+    {
+      "path": "04_binaries/prism_old/libprism_old_checks.so",
+      "bytes": 593928,
+      "sha256": "766a8331328a5978ccfe0c8b543f49bb25133a51547754c3002cdc8fa5c304e8"
+    },
+    {
+      "path": "05_ida_databases/prism_old/prism-old-checks.i64",
+      "bytes": 63327599,
+      "sha256": "3a456b2f9d03acf07d1edf7499cb447fdbc9b0ab383f31b25afb69d4b53fe6fa"
+    },
+    {
+      "path": "06_samples/prism_old/libprism-old-small.unpacked.so",
+      "bytes": 6574528,
+      "sha256": "ba9ad43bd1c80b46f87f8162f55ca18c0310d64aaaa67c62bb05b69cdecc0d0a"
+    },
+    {
+      "path": "06_samples/prism_old/libprism-sun-2.so",
+      "bytes": 2232444,
+      "sha256": "4e8f95ba601f27465a566dae63b71948e48704b5a1bc249db7e6c67a87e3b88d"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x112870.json",
+      "bytes": 3012,
+      "sha256": "aec4e1c690663be967798a3247900faf77a61b4d68a7f3cab9a8cac2a8263b47"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x12b1c8.json",
+      "bytes": 704,
+      "sha256": "c7fe5bf5edd53279b14ab71d975cfda5f282614315fb15ef0ca243e79c3d3ba2"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x21abb0-repaired.json",
+      "bytes": 5830,
+      "sha256": "bd7b93de8845557130c60c8230e0175d1cc0ca9c254b16c216135871f374ebeb"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x21abb0.json",
+      "bytes": 88,
+      "sha256": "66941a407c9d6e777ea38f8769b0a88827e0ceb286caa8f8918d0ed571fb0d2f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x25bcb4.json",
+      "bytes": 1652,
+      "sha256": "29f72d35d08f3216640d5329f411dc48c56952dc52d9e5d69c8dbb8bb1c0993f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x25be88.json",
+      "bytes": 3151,
+      "sha256": "12ca0b9c09a5e828825d4617771d8948239a822020321e2d5035de731b685b4b"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x25c1bc-full.json",
+      "bytes": 9583,
+      "sha256": "f2402ac07f8db599d9c4bd2edfb9e52bc638728be9f271eb708a600cfd38516c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x25c1bc-latest.json",
+      "bytes": 140,
+      "sha256": "df0ea83502503ac324478bab5c4bdeef289be01ef5cad309f9af247490e66e9c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x25cdfc.json",
+      "bytes": 13631,
+      "sha256": "25826015229c76476920d0708aff2a3904f62d6e55da47a25bb57812652ad595"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x263228.json",
+      "bytes": 88,
+      "sha256": "a029b55ca50251e37010f14e9288df01683922c8272f7f5b7178790b0387b76d"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x26c370.json",
+      "bytes": 88,
+      "sha256": "12ce3dcf8d49e2827ba8ef34a7f21537e2d1af67d23364379e3c28d823910d10"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2830d0-final.json",
+      "bytes": 88,
+      "sha256": "d24500b2d6bf92cf10e3a92f29aa910afed0d82da6f53c999a5ec11b5e22348b"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2830d0.json",
+      "bytes": 88,
+      "sha256": "d24500b2d6bf92cf10e3a92f29aa910afed0d82da6f53c999a5ec11b5e22348b"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x29280c.json",
+      "bytes": 2817,
+      "sha256": "94d2344d6192f087407be3cbbf0f1dee87b182644a79d62e80416c504bfc429d"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x29b1c4.json",
+      "bytes": 8845,
+      "sha256": "d7370fb1fc02172807a37cc81b3177f3462d32d7c7ee889b4a3424cf726e4851"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x29f360.json",
+      "bytes": 5216,
+      "sha256": "cf3a36ff40ae6dc946ce672a51ca8c60fac935650da2c3668c436d189347f529"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2a2700-final.json",
+      "bytes": 7433,
+      "sha256": "89be12c3b749f35e2fea8dc86761afa6bbd803b61857751aa0d7bdb214d5a684"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2a3fb0.json",
+      "bytes": 9517,
+      "sha256": "982ac4c0ee9012d0a901e0182b398a2351e3b45df3d8b9afeb4b27110d3d02aa"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2a5b20-final.json",
+      "bytes": 4541,
+      "sha256": "77c44b42b940f997cd1d3e7e4b68b4f068621f006975ed150eead55d6878bca9"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2a7cd4.json",
+      "bytes": 7857,
+      "sha256": "476e4d653b91fbb4afc30e8cc93df0392462885063c116f8b20107cc04b122bb"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2a9770.json",
+      "bytes": 1646,
+      "sha256": "7eeba7cfc2b8d95d00e58426c7eb18d1a9b930832f4bfc9012f7983d59c73741"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2af70c.json",
+      "bytes": 15443,
+      "sha256": "fdeff0c85efbd2b34f1dc13e7cf26e64c83061971d3f8608792b84f2a9cdbeb9"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2b2cbc.json",
+      "bytes": 6663,
+      "sha256": "1b5c3ba4ddc497313ef3a74468aa4747d403182ddbd506628ce8f3ce15e4454d"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2b35dc.json",
+      "bytes": 7254,
+      "sha256": "edeadc2acdcba7f9c587c2a468a67506a89e2aaa7057a0ae138c20749e104baa"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2b3ce8.json",
+      "bytes": 3227,
+      "sha256": "f15b3945fde9681f6124411ed2f10643f75caab31d81ad47b83f39b5ed7fdeb4"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2ba8b4.json",
+      "bytes": 5536,
+      "sha256": "77b810f2af0984ddba96f7b56b674959ddab2ed701fbb10d675e99290c8c9a71"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2bed14.json",
+      "bytes": 1618,
+      "sha256": "ab2866f16db97a3eef356ce9a9e7bb824635de239229e147cb2dab00b8d7b2f0"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2bffcc.json",
+      "bytes": 15178,
+      "sha256": "c0530d54a43e5a268ea26d61f170bba65de90af4eb099b1136d62a247b7b1d74"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2c3248.json",
+      "bytes": 4842,
+      "sha256": "ea1e230404a059aa2e682cce9c905be206899c756ec02ce4b43c11ae169fad43"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2ccbd8-final.json",
+      "bytes": 7896,
+      "sha256": "b8edca64df1b2cdafb34ba272acff30384eba9416d0f3276b97a2810a94d24da"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x2d46ec.json",
+      "bytes": 20471,
+      "sha256": "44a1da611402ebb5e7485c4c9516888f1e13851b1f5d5ca0f43522b24f3e2dcd"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x308838.json",
+      "bytes": 88,
+      "sha256": "4557bc14ffb8212f922ad85d5f0ba09261a9aefb209e8a950ba4aed68b1b0f1c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x30a0f4.json",
+      "bytes": 88,
+      "sha256": "e480e8e376381de20c9eeca4fdbaf4e8483afb14ea452258ed6e6afdcfcc7a9f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x30aeb8.json",
+      "bytes": 941,
+      "sha256": "f8cb0ac9d58b53d965ea8e6492c84e37fefa1b373345668686f09ebd32761b34"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x30c03c.json",
+      "bytes": 8384,
+      "sha256": "2f46923e939e98260351d60043fb33bba9d656456f8a203f960ce36041984955"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x30f590-latest.json",
+      "bytes": 88,
+      "sha256": "fe43bcebbfd3733352d395d4e0ab94b34663e84b66e08d1e0137a7f847933eb9"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x30f590.json",
+      "bytes": 88,
+      "sha256": "fe43bcebbfd3733352d395d4e0ab94b34663e84b66e08d1e0137a7f847933eb9"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x311970.json",
+      "bytes": 968,
+      "sha256": "e3a66e2e8e11b82177ef256285314316e941d4deaf371fac731867863c802295"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x3135e0.json",
+      "bytes": 14894,
+      "sha256": "8c41586ea58ea71ca9cf507572eddda824240d209104f1992a39d1d6b0490750"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x317ef4.json",
+      "bytes": 10029,
+      "sha256": "a8721e2abe29419b39c03fd395bb8f1062e5389224028fde0ed37f3d91d9ec70"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x335340-check.json",
+      "bytes": 88,
+      "sha256": "d0572efd5050eb652dda0db5e647d166eabc0175c84587e75fac05f1e91bd50d"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x335340-final.json",
+      "bytes": 8598,
+      "sha256": "b7e088db85572d6422d5774c29dc9bb8d0679f7338314322d54b5297baf8b43a"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x335b30-final.json",
+      "bytes": 88,
+      "sha256": "546185a16a8bbd6797407216a2a93f43333bbde8b9d9a0ef8f55fe341b06b34f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x338cd0-final.json",
+      "bytes": 6743,
+      "sha256": "da9e53208fc3772f62fb301cf1fe9ae4d2e9e598c96a77f8bbc928b938344939"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x34247c-full.json",
+      "bytes": 8839,
+      "sha256": "3cdc13b9e354dc1cae8d3e4abcdd82f82dd6f7ab6039e75ef380b97ce43b690f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x34247c-latest.json",
+      "bytes": 140,
+      "sha256": "a7411845f99cfc9c8f276154f5929b1caa2472d0185daf2a6a645b6324f5b166"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x34247c.json",
+      "bytes": 140,
+      "sha256": "a7411845f99cfc9c8f276154f5929b1caa2472d0185daf2a6a645b6324f5b166"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x34449c.json",
+      "bytes": 1427,
+      "sha256": "8ceac7537db08b37f41a185cfb397790ec67ec741891651fdb722fc296c8a5fc"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x344648.json",
+      "bytes": 88,
+      "sha256": "49638724173c061f49fde0bbbe5ca44b958d8a53192b7a20cdd5afe179b8ce85"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x344c20.json",
+      "bytes": 140,
+      "sha256": "6bbb4bfad2c0638feb4f23bcaeda4327a9e8ed105001553beb1e8e3dbb3784b5"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x346b4c.json",
+      "bytes": 88,
+      "sha256": "67bb05112d67819ce2f712c6b49a5060eed3babf5b419f7f1b455636c411950a"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x3ee9fc-check.json",
+      "bytes": 88,
+      "sha256": "e18291af796742320f40fe9ba05405936d36e3e8cb5221c247ab6d427d79877e"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x3f2064.json",
+      "bytes": 88,
+      "sha256": "c8016dc2741d4224a0f13a2ccabd8db38d6757e77fcc5e65f04e86f46fd8f0fe"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x3f56c4-full.json",
+      "bytes": 2772,
+      "sha256": "306863ec156f635c942441086d06125a07aebd32bee86405161842873072bd7c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x3f56c4-repaired.json",
+      "bytes": 97,
+      "sha256": "574a225543accaad45bb49302bb347ead7955183eeca554a807092774a6e1a96"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x3f56c4.json",
+      "bytes": 1887,
+      "sha256": "53ab08d4892a2abb0f81ad3a7d933ae74197660975362aa67ce4174c191c78f1"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x3f5e64.json",
+      "bytes": 2544,
+      "sha256": "a8ad5b4512e09d9910c9f20c555c983964fee76acd12f8db77abbc18052c0cc7"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x4083c4-final.json",
+      "bytes": 108,
+      "sha256": "cafdcded15ee5bd2679985800c105c8a19a484d6c13c0da343a32ffe78e3b43f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x4083c4-full.json",
+      "bytes": 97,
+      "sha256": "33d441d58a2f50ac1099964785b3afeeb042e1f4ecb6b879b859e26b8089888e"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x4083c4-repaired.json",
+      "bytes": 97,
+      "sha256": "33d441d58a2f50ac1099964785b3afeeb042e1f4ecb6b879b859e26b8089888e"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x4083c4-typed.json",
+      "bytes": 10694,
+      "sha256": "86c021b5a5c40eff6f4bf4f4aa2477d3947fe5a7fa581151126ff77a5fbc3c40"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x4083c4.json",
+      "bytes": 140,
+      "sha256": "ee6b1aa7c17bee512c3b06eda6ad6bd63f0c40f9a869f9b2ac6234c0cccb1302"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x409a58.json",
+      "bytes": 1336,
+      "sha256": "239f373193b65f159a3ffd5055d23035efd962193e4144e5ae6c52b762839769"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x409ba0.json",
+      "bytes": 5495,
+      "sha256": "2a8905f7f15123705fdb2cff868affe69e8a4e067ad007914739cb0649ae821e"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x40df60-latest.json",
+      "bytes": 4137,
+      "sha256": "37285b99e2c81a4613df4ca05343e0d52eead9ef54f603ff3418ebd6822c5eee"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x40f7e8-latest.json",
+      "bytes": 2312,
+      "sha256": "937f371c30e99dced5b572a8bed0b2016bf0b199054b7fe115e627efef3af2b9"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x41011c-full.json",
+      "bytes": 5023,
+      "sha256": "821eaac03ad053786b4a44db4fa60b0319217c1d466082197546c0ff49b7df2c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x41011c-latest.json",
+      "bytes": 140,
+      "sha256": "f14eff71e0c86688baf206ab2254b260aadef134aaa6ef5135ac79537a5c5071"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x411c00-latest.json",
+      "bytes": 3175,
+      "sha256": "adf15c0e7b4d61d150baece3dc917886fa10836591eea864fc3f141ed2bd348e"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x411e88.json",
+      "bytes": 8867,
+      "sha256": "4383ced920384b42a12b283a2ba57c80e3c0f75e3fdde88b0ed97128ebffe316"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x41281c.json",
+      "bytes": 6369,
+      "sha256": "cf551273f77f6e6e869790b762575acf784e094fcab5e8b97605ae4166b6fcfb"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x412d00.json",
+      "bytes": 6103,
+      "sha256": "49b8b2bd26c70ab2576c8cd19c195d93ce87a43bf1eb60c7de851e8dd5635f49"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x4131a8-latest.json",
+      "bytes": 3353,
+      "sha256": "b6cf4e7416a12a58cd56bd25cc58cec18351f6c7346c471c8263bc879fc8bb2f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x47f234.json",
+      "bytes": 225,
+      "sha256": "3988c11b965aacf811d22fabae545c6071189096aafadb45cae13909cadbeac2"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x47f24c.json",
+      "bytes": 225,
+      "sha256": "e493a807aa97d237310d2db834b3ef4db0ccde3ab0426488097396ce49f42728"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x481098.json",
+      "bytes": 29093,
+      "sha256": "edb8dd7a1a6b61e685a39b50b47f171d2e324e64fdf642d2141156c494b2a6d4"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x556664-repaired.json",
+      "bytes": 5946,
+      "sha256": "d892797c72a8438db333a30979889023e43f8f378a5e6627e8939b231b82903a"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x557470.json",
+      "bytes": 7175,
+      "sha256": "1d7c152cfec3ca0b95ad9b37d28cb2b4e2badbf3627d385f7b0ab3eb05e7fed4"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x59db2c-final.json",
+      "bytes": 7087,
+      "sha256": "94eccefbf76b56d662f0c2ee353b6f996a5e8b4108297abfd0338a310b60b934"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x59db2c.json",
+      "bytes": 7087,
+      "sha256": "94eccefbf76b56d662f0c2ee353b6f996a5e8b4108297abfd0338a310b60b934"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x59ed70.json",
+      "bytes": 3716,
+      "sha256": "fc8dd858e2d87e0702d42cceab05fff515d7d64bccbee9a8523862453ee3bc16"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x59f0d0.json",
+      "bytes": 5368,
+      "sha256": "49bdba162b3ae7d605833663a2dda381fc39437adafcca4690579fae570e50c5"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5a5984.json",
+      "bytes": 906,
+      "sha256": "e17cd3ce9dd699774d047f1fd90fba54bcb01424c90b2dda5404f994643db2e9"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5a5da0.json",
+      "bytes": 4360,
+      "sha256": "e2e54821f8608f86fec62401c41d39b4eb2b6be95cb1d9e6676d78aedc3aa81c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5a6318.json",
+      "bytes": 3749,
+      "sha256": "1c4b2be778dee6adf93c61e26e47a7c0cd01d291f51f6209dde054758c7afed1"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5a676c-repaired.json",
+      "bytes": 5936,
+      "sha256": "1598c0402e4b3e8ec070035279d2a7b6d608968a2047cde9523893c0a1e3fc42"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5a676c.json",
+      "bytes": 88,
+      "sha256": "73316d7c47c8f64573325d4f61fe2974f433589c39667f7c0e30197dbd81796e"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5a714c.json",
+      "bytes": 33114,
+      "sha256": "e28b326bb957fab0eaf84d2393f76ac579556ea29fe372431653b8ddf5fd1f4f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5a9c24-latest.json",
+      "bytes": 88,
+      "sha256": "ff3405b7869a8960a180a11e03a83e8b1204b76dac301753a60ac84989885c9c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5aa7bc.json",
+      "bytes": 6890,
+      "sha256": "3eafb40bcbf6657bb03862a1eb5528d4f9ba79cfd80886598f6b77b3c8962d96"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5aafa8.json",
+      "bytes": 7322,
+      "sha256": "4b302d3a4ae089df031982ada982e7ed7b82ae23b7f790f7b932c1bb651e8316"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5abacc.json",
+      "bytes": 29253,
+      "sha256": "ef80778f83337a52e5a3e22ea05bdec53df24c1364d28d92d48187721b570d87"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5c61ec-full.json",
+      "bytes": 1143,
+      "sha256": "e268bae862735c38588fc80af8240332598216802d2aec24da58fef14a525456"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5c64d0.json",
+      "bytes": 2774,
+      "sha256": "248a92236a367fb6a1aab1eeb24ca27dd6b43aba729753ce30e0d03da567906a"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5c6770.json",
+      "bytes": 4622,
+      "sha256": "86fd9ae4692e1308ece4abcd858186944d13624a1986fdcd35a14e875599bbcf"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5deff8-check.json",
+      "bytes": 929,
+      "sha256": "c35720e5e9520c775446074c86ae95f9191a87dc5d61961d14f059e43767572c"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0x5df268-check.json",
+      "bytes": 371,
+      "sha256": "6004a4ef83660492fc3554db8e5eb35c039b636b2af654af1efa7d47d4f26a4f"
+    },
+    {
+      "path": "08_history/prism_old_overview/decompiled/0xca1fc.json",
+      "bytes": 2287,
+      "sha256": "700aac5079f08a52921be8c14bf76b5fe7aa76d128402fc7b0716f025d9da5d8"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/bind-fixture-confirmed.json",
+      "bytes": 4495,
+      "sha256": "7bc3ef06d3714396d0149dbd70b935bbb018a0f07c7ae20ea24d6566a557a337"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/bind-fixture.json",
+      "bytes": 2455,
+      "sha256": "e557a01913bea0f4530187b220fc8f1d65dc14bb56f49745397375e97e0d7c7d"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/bind-success-prefix-fixture.json",
+      "bytes": 3641,
+      "sha256": "61789a41072751b06458e931d3a8e26d8c0578d87f3ab91435ce945e752a61a1"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/boot-read-disasm.json",
+      "bytes": 22275,
+      "sha256": "e4c4242bc9b4d884362f943a9ab7cd069cb08dbb49d7a022c55eed582df3f10a"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/boot-termination-fixture.json",
+      "bytes": 2509,
+      "sha256": "7516e50806fd6b047815ba203a8c556dbb68a15962d25f3a7a5bc647ac1f27c8"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/collector-xrefs.json",
+      "bytes": 6089,
+      "sha256": "1c7e179f2131d817aaa8226943ed218fa2ecc9e65436c520ff903a6b5b9cba4b"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/crib-candidates.json",
+      "bytes": 4063,
+      "sha256": "5b6ad35e9b4468b792ba69a0a61fe54e30b7a90bc557b5b874796e7248a5a059"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/device-event-disasm.txt",
+      "bytes": 17269,
+      "sha256": "ceac900eb82b41fd734608762fd82e0523aab284cce85b486fa1df133270eb33"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/direct_calls.json",
+      "bytes": 2431065,
+      "sha256": "46a53eb472360a14f34fbdf18a063d79aa2efba6f7d5c2fce725e1894f5dfd9f"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x25c1bc.json",
+      "bytes": 3168,
+      "sha256": "59950fdc149545c7cb1ec44acc3910c810b0143e6e9e5bad81a86e15710d41d3"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x263228.json",
+      "bytes": 76641,
+      "sha256": "13096add30ca2826e161b009c3a3abff92c4dd476db77181234e6bdf3e16795f"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x26c370.json",
+      "bytes": 37063,
+      "sha256": "a5ef886c787d11b50b63b647d1f623c2e6b3cb23b3698c53a373f1d8b7c15ec7"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x308838.json",
+      "bytes": 52464,
+      "sha256": "599a5baf2081344f044e0b127bd21264ecbfbb62a784436a442da0ab30b26e61"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x30f590.json",
+      "bytes": 26068,
+      "sha256": "d8f16566263d209e8f63939ce893bc884765aa4a2145441b9f550102afa80b2e"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x335340.json",
+      "bytes": 42869,
+      "sha256": "740855b4adf90f3c5bfafd75a3f92db8f823cfabea2495e5571c91ea10415934"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x34247c.json",
+      "bytes": 2433,
+      "sha256": "0b7626958b65063f97f353c8d7fa8cc8dc31c4e26d3d835917162fa4522b8495"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x344648.json",
+      "bytes": 32248,
+      "sha256": "58a4a0dfbf8ad7fd919b1a10bb77262ce45aa60a0010b0d6117d32304a48e6af"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x3ee9fc.json",
+      "bytes": 62680,
+      "sha256": "08cc67ceaeecd06a8393d553dff9c993c310d2b6678fad2b04404849665dbfab"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x41011c.json",
+      "bytes": 2663,
+      "sha256": "e2c672b7bc12ea93ba5416635ea921e132d8b2aa6d868b0ea4eba75956287374"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/disasm-0x5a9c24.json",
+      "bytes": 43081,
+      "sha256": "68ab8f1b970ef881c8038c768c79968e44800759b01aadfbf8f411a7d1ee0bbe"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/dispatch-fixtures.json",
+      "bytes": 13131,
+      "sha256": "966ca179347c6c847c6ea1731f53fce397b047ef3471f56910e19ea51b23fb7b"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/environment-string-fixtures.json",
+      "bytes": 3386,
+      "sha256": "0da0ca910b2f446b2c90327ebd91bb6226b23d74ab25ab78f3b588fc8be1547b"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/extra-string-fixtures.json",
+      "bytes": 6280,
+      "sha256": "b453fc4af40420e5c8ce4e19405371778297fe0445313056f1e59e1b312e084e"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-annotations-followup.json",
+      "bytes": 364,
+      "sha256": "2e4271a428e155b378f8a6f576d169e32e9eee0e81a18274451419f5df238fed"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-annotations.json",
+      "bytes": 5696,
+      "sha256": "c15ab8fcbc5d84bc8c330a74c8dc3722df449c8f18388a5d8c204c4141be12ed"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-comments.json",
+      "bytes": 3825,
+      "sha256": "ab589670c7386063c95fe0388ba60feb90a80880c839887c44a8cf0832a19235"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-entry-child-0.json",
+      "bytes": 197,
+      "sha256": "4b21ccd0211ff9fd3ff0c2d29ebdc761845f3a1aaea6a85ea1c4e87ee0a6bb82"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-entry-child-1.json",
+      "bytes": 5044,
+      "sha256": "ca3fc460024486713e7900ed348742d2bf946a0122bff43adcb3aaefdceb2c1e"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-entry.json",
+      "bytes": 2660,
+      "sha256": "7b2400f3c081781023f6f10e0b58c3ba17acfb219cd48e258ce0047a626be1f3"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-final-health.json",
+      "bytes": 434,
+      "sha256": "ab97a818d8e66040c5553d234794997e8a6eeb38823694e8416855fdfda3fe36"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-keywords.json",
+      "bytes": 1080,
+      "sha256": "1e99085d048ef7b3575866b6bc8d3ccfe38f76650f7a9b4b20d2cf0ec0fdc8fc"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-startParadise-initial.json",
+      "bytes": 23868,
+      "sha256": "e5a6acfc19490d4a16f7f6a18340db637148e1a2b83b86f068077d3beb93f985"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-startParadise.json",
+      "bytes": 6489,
+      "sha256": "427db90b6c65001227b891350dc1f3136c6ea2c32ebefd8ec64d1c69469785d3"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-survey.json",
+      "bytes": 24605,
+      "sha256": "969efbb1b7126a03201e5668608f3e306bf1de8cea13d0dae5e9f2ac82fceadc"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-unpack-stub.json",
+      "bytes": 5585,
+      "sha256": "7b6a248ccf26c7d689557d2fafb4321f394f1fc8b212e45b422fc6e5abdc4cd0"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/ida-unpacked-survey.json",
+      "bytes": 3322,
+      "sha256": "283cc3cd18439962989ad5c9d86e9bb22cc4df1be1aac2278fb0750d0b98daf5"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/integrity-checksum-fixtures.json",
+      "bytes": 4269,
+      "sha256": "9348b745d992b67e12035edcc382dc7afb2b6432f4e51243cba56aab238260d1"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/integrity-checksum-verified.json",
+      "bytes": 2824,
+      "sha256": "2316bb7648c2e91c6682c1a85f4c934d0fd9a80ce250c5dc92e26ad587eef923"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/libprism-old-small.unpacked-inventory.json",
+      "bytes": 1529731,
+      "sha256": "7e4b0386edc0bd760b416a9a976c46c51e4b975c6245a7baf380c8fb196b3e07"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/libprism-sun-1-inventory.json",
+      "bytes": 1005968,
+      "sha256": "22cfba68b216a93170aad1810392e7ce3d0f64336394c572f618ccf2a97b7758"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/libprism-sun-2-inventory.json",
+      "bytes": 1696637,
+      "sha256": "e89d1b464cf15ffea85c86b83a39ee3d006cfe98ed60d39f18c4bce7daf23a4b"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/library-mcp-string-fixtures.json",
+      "bytes": 1559,
+      "sha256": "db6800f88a6b520cef747b12a481c7cf9e1d652a449bda9e7506360b6dfd5015"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/old1-inventory-summary.txt",
+      "bytes": 10406,
+      "sha256": "760532000ebda42be6cd6e04fa3dccfb7130a33a4f10cdadee92988796a83553"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/prefix_decode.json",
+      "bytes": 331660,
+      "sha256": "32c92a62be46a2d888b8bf65f2a7c746b7be9d5111acbdcf4964515a89efb327"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/prefix_decode_summary.json",
+      "bytes": 400,
+      "sha256": "3d3f5f3ce1541c81d36ee7cf9db3d32383c229ebcc146c04b7f3f5f70e2ed0c9"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/prop-collector.json",
+      "bytes": 17998,
+      "sha256": "6fc09e9eafd417335d0b1fbff92ba9461e4b889e95873d66b4871496ba4889d2"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/protected-before.json",
+      "bytes": 872,
+      "sha256": "be3108b313e1b56febac756e9cea6e99722429583b2a287a3bd474f06106513d"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x25c1bc.asm.txt",
+      "bytes": 35270,
+      "sha256": "ab6d3d2067ba7b2e8c1ea55079017fb7bd96078fb5464fd99c1d01cab2e694c3"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x263228.asm.txt",
+      "bytes": 39796,
+      "sha256": "0e576d8bebcc441a387a981d391a0fe234231cb3da07488ba08f20400b4af400"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x2830d0.asm.txt",
+      "bytes": 19421,
+      "sha256": "0bc49a3ff904cf1467e50f29e8762f9865b69cbb4eb4a77485533081651d2751"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x308838.asm.txt",
+      "bytes": 58011,
+      "sha256": "955c23fe6d1e294835bf07b3cdea29c7679d065131c0148779b90d80b0099d55"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x3135e0.asm.txt",
+      "bytes": 41348,
+      "sha256": "0bd6df2ec182610cd06a455de1093807322eba46464655199ed726f30c27fa9b"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x335340.asm.txt",
+      "bytes": 23253,
+      "sha256": "4d18d85d032add76fc4e6ecc8a2f6a1df20c5787dd60ff835e621f404967283f"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x335b30.asm.txt",
+      "bytes": 45166,
+      "sha256": "4892d51a5a9b3891530df4940316a91dacebbd4d9dc002f6ffe95ef51282922d"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x338cd0.asm.txt",
+      "bytes": 17820,
+      "sha256": "46e30084781e4b4f5b68151358f416e366af5036271da34230d275321849b3df"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x34247c.asm.txt",
+      "bytes": 20636,
+      "sha256": "dfe84b5e49edd058fe956c207adfb43cdb43c995be97bfe930c0d7d578f3a167"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x344c20.asm.txt",
+      "bytes": 55271,
+      "sha256": "68918ba46238acdaf727d6433a7a5066497c0a12a66e8bf992cdad2f8ea3ac52"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x3f1d28.asm.txt",
+      "bytes": 8997,
+      "sha256": "1256388ec4f40545d2048d3c44553b1eaa028754959977ecf7d3f5f8891ab791"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x3f2064.asm.txt",
+      "bytes": 32382,
+      "sha256": "bbd1b3f1150f41387eb06ccca3b536e0a690fb4d654335e9c2202ee55934ab46"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x4083c4.asm.txt",
+      "bytes": 28185,
+      "sha256": "836a502edc06a6dfa2611b40ff1301c85698e80b45580528d186d32d1e4bc2d5"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x41281c.asm.txt",
+      "bytes": 13624,
+      "sha256": "3ef435ba4d1beba7e71999be6dc55feadf0cfcbeabffd89e05d9acd0f3757e14"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x412d00.asm.txt",
+      "bytes": 12883,
+      "sha256": "245187b4d6fc41ff1ab9e6c18efbd1f2e825fbd7b063ec6f6e83065224b8cb9d"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x5a9c24.asm.txt",
+      "bytes": 21120,
+      "sha256": "da45c11a38e07527c54c880839bcaab24751739968177bc9f96263cdb077ac46"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x5aa7bc.asm.txt",
+      "bytes": 15747,
+      "sha256": "6cbc049b014ebe6a99a36efa656aa216738f898a4c090f9a2646c2855ec8bf5b"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x5aafa8.asm.txt",
+      "bytes": 15887,
+      "sha256": "16f4919a56620714770f22546441cd2be161ee70df5db54793cc5898b7689b84"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/raw-0x5c64d0.asm.txt",
+      "bytes": 7216,
+      "sha256": "6bbf3f8479206346e9a6b42a9b114c720c9c7d0ee1ba524a9422386d49108dc4"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/scheduling.json",
+      "bytes": 7192,
+      "sha256": "178941032bd6cb9a2b684b67310a94af2983e345ce959178367dd1d32baae608"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/startup-check.json",
+      "bytes": 4318,
+      "sha256": "533ec63bc9befb900062f3a9868a5af2195abca20d1c7a05f2949ec408ca7e61"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/string-original-instructions-initial.json",
+      "bytes": 3263,
+      "sha256": "f8f03e5898473b2c6aed3af4e86e143a983f5bf2d4129a0d9e983803a31b0f76"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/string-original-instructions.json",
+      "bytes": 4254,
+      "sha256": "3c6c5e6d1adb48b32dfb36cff6265aa8d895629dbcc27614f249c63712347b3c"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/target-string-xrefs.json",
+      "bytes": 4184,
+      "sha256": "d7f36811f593d6143530cf11d7530513049fcdf01f48f45983475b2f98f06e7d"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/tool-versions.json",
+      "bytes": 308,
+      "sha256": "72e8c7e1c751ce67f1ca3aff774fd8a00e204d2404358168ae042076d221f207"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/unpacked-inventory-summary.txt",
+      "bytes": 10409,
+      "sha256": "b8ee5b5bbe0b5b40231f529f0144303794a6e7452d0d25e0011b080956022030"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/upx-test.txt",
+      "bytes": 262,
+      "sha256": "1437f2712ef044537362151aba54d1918359ca9d8b54921a39e27eace60fd150"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/upx-unpack.txt",
+      "bytes": 408,
+      "sha256": "24b703d062a5d2806c7e4503f22f3d846a8872756fc474a77a2c1fabd5d68e26"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/vector-size-fixtures.json",
+      "bytes": 922,
+      "sha256": "8eb43b718e8d237b7d301734d9f2e7547a2c4e714e1f7b5bd070f16c0d8e94bd"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/verification.json",
+      "bytes": 1792,
+      "sha256": "f10aa1135220afe7b465458ec612eebac522d8d82cfb5dc622a9d252d9db8a52"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/xor-string-candidates.json",
+      "bytes": 47588,
+      "sha256": "f5821a34a765e9df35c946c2aa3564cf88f069b12dea1f4b3522d60028b1f1c8"
+    },
+    {
+      "path": "08_history/prism_old_overview/evidence/xor-strings-maximal.json",
+      "bytes": 17260,
+      "sha256": "fbf6441c637abf8b1031d72cfab04cc0e7544eb8fe7c29392e6c0ffedb3b1f0f"
+    },
+    {
+      "path": "08_history/prism_old_overview/EVIDENCE.zh-CN.md",
+      "bytes": 4220,
+      "sha256": "fe89cfdecc32f90b63c8be4f184d9b4a66369af36efcdb03b2c1425c29691856"
+    },
+    {
+      "path": "08_history/prism_old_overview/FUNCTIONS.zh-CN.md",
+      "bytes": 2192,
+      "sha256": "6d0305d3e3c94ab1af40dd9b653923163163e598cfbd629517fbe1264bd10193"
+    },
+    {
+      "path": "08_history/prism_old_overview/manifest.json",
+      "bytes": 34213,
+      "sha256": "7a2e31f2615d31ce58df86d9eefb329303636f6166dc831052797ef4318447fd"
+    },
+    {
+      "path": "08_history/prism_old_overview/README.zh-CN.md",
+      "bytes": 3297,
+      "sha256": "9d7b0c4cd708eaff5a0938e53c225388f6b809255fd9b0dccf9966f96eca90ff"
+    },
+    {
+      "path": "08_history/prism_old_overview/REPORT.zh-CN.md",
+      "bytes": 24835,
+      "sha256": "b872da134a7e839dc87fcfc4ed67cbd4379f800426b67b0a9bc7d8b858dd9bd4"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/bounded_strings.py",
+      "bytes": 5018,
+      "sha256": "d4616cd1a3fca8ca9deb79a5902a2e855ef734ad1e2ef01a09e188e11b2a43e2"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/crib_scan.py",
+      "bytes": 1879,
+      "sha256": "e23acaba087e37a8e58b4933ec56b724a15be772ad987858e84761ebb919414d"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/export_raw_evidence.py",
+      "bytes": 1289,
+      "sha256": "3aeb1b7481d28958ab8412f4d2559b74185d5891935134fa0674994f04fabe50"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/finalize_delivery.py",
+      "bytes": 2015,
+      "sha256": "8f63d1390fe175df5a2f344633bdc7efab5b473e69f12c4f92caed4aa0583aca"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/inventory.py",
+      "bytes": 2058,
+      "sha256": "a082e57ee81d690de836163897f8793537aa0cfcfabe7b38f1cdab5ab3f957dd"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/prefix_decode.py",
+      "bytes": 3952,
+      "sha256": "aab70b93fe9bf0c916706cb19e4011dd803a742972e6a522baa386609d1b30fb"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/verify_checksum.py",
+      "bytes": 922,
+      "sha256": "8bc6f5d47a87396d0871420d9d68ca6c97b88001c06d46f1cd193595357ad262"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/verify_environment.py",
+      "bytes": 3516,
+      "sha256": "0bc105aa6b50b7c7d4e1b12261daee2baa88bfd97716c4c84821d746161b94b8"
+    },
+    {
+      "path": "08_history/prism_old_overview/scripts/verify_semantics.py",
+      "bytes": 3146,
+      "sha256": "db2b81f6011060d27f993c2b4c032cf71f39322a4ba525981756a03f58d566bc"
+    },
+    {
+      "path": "BUNDLE.json",
+      "bytes": 754,
+      "sha256": "eef599f43b11c31ba63ff2e325dab8d567d23157c041950bc82f35cafc44dba0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 853,
+      "sha256": "c8a128bfc03e826a5bade1bae2a835785657033b96256e3ea2a0ef7819fef044"
+    }
+  ]
+}

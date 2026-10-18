@@ -1,0 +1,3529 @@
+[
+  {
+    "root": "0x263228",
+    "config": {},
+    "execution": {
+      "function": "0x263228",
+      "reason": "return",
+      "steps": 3920,
+      "pc": "0x32000000",
+      "result": "0x5000"
+    },
+    "trace": [
+      {
+        "site": "0x2637b4",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000100",
+          "0x31000000",
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/VMClassLoader"
+        ]
+      },
+      {
+        "site": "0x2637d8",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x31000100",
+          "0x31000000",
+          "0x0",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "lookup": 904,
+        "name": "findLoadedClass",
+        "signature": "(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;"
+      },
+      {
+        "site": "0x263950",
+        "slot": 904,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/VMClassLoader"
+          ],
+          "0x31000200",
+          "0x31000300",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "findLoadedClass",
+          "(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;"
+        ]
+      },
+      {
+        "site": "0x263974",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/VMClassLoader"
+          ],
+          "0x31000200",
+          "0x31000300",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x263a58",
+        "slot": 1336,
+        "args": [
+          "0x31100000",
+          "0x31000000",
+          "0x31000200",
+          "0x31000300",
+          "0x0"
+        ],
+        "result": [
+          "string",
+          "de/robv/android/xposed/XposedBridge"
+        ]
+      },
+      {
+        "site": "0x263a9c",
+        "slot": 912,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/VMClassLoader"
+          ],
+          [
+            "member",
+            "findLoadedClass",
+            "(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;"
+          ],
+          "0x5000",
+          [
+            "string",
+            "de/robv/android/xposed/XposedBridge"
+          ]
+        ],
+        "result": 20480
+      },
+      {
+        "site": "0x263ac0",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/VMClassLoader"
+          ],
+          [
+            "member",
+            "findLoadedClass",
+            "(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;"
+          ],
+          "0x5000",
+          [
+            "string",
+            "de/robv/android/xposed/XposedBridge"
+          ]
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x263b78",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "string",
+            "de/robv/android/xposed/XposedBridge"
+          ],
+          [
+            "member",
+            "findLoadedClass",
+            "(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;"
+          ],
+          "0x5000",
+          [
+            "string",
+            "de/robv/android/xposed/XposedBridge"
+          ]
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x263bd8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/lang/VMClassLoader"
+          ],
+          [
+            "member",
+            "findLoadedClass",
+            "(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;"
+          ],
+          "0x5000",
+          [
+            "string",
+            "de/robv/android/xposed/XposedBridge"
+          ]
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x25c1bc",
+    "config": {},
+    "execution": {
+      "function": "0x25c1bc",
+      "reason": "return",
+      "steps": 2521,
+      "pc": "0x32000000",
+      "result": "0x1"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "disableHooks",
+        "signature": "Z"
+      },
+      {
+        "site": "0x25c650",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000100",
+          "0x31000200",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "disableHooks",
+          "Z"
+        ]
+      },
+      {
+        "site": "0x25c674",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000100",
+          "0x31000200",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x25c7c0",
+        "slot": 1240,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          [
+            "member",
+            "disableHooks",
+            "Z"
+          ],
+          "0x1",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x25c7dc",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          [
+            "member",
+            "disableHooks",
+            "Z"
+          ],
+          "0x1",
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x25c1bc",
+    "config": {
+      "missing": [
+        "disableHooks"
+      ]
+    },
+    "execution": {
+      "function": "0x25c1bc",
+      "reason": "return",
+      "steps": 1864,
+      "pc": "0x32000000",
+      "result": "0x0"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "disableHooks",
+        "signature": "Z"
+      },
+      {
+        "site": "0x25c650",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000100",
+          "0x31000200",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x25c674",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000100",
+          "0x31000200",
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x270110",
+    "config": {},
+    "execution": {
+      "function": "0x270110",
+      "reason": "return",
+      "steps": 1574,
+      "pc": "0x32000000",
+      "result": "0x1008"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "sHookedMethodCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270564",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "sHookedMethodCallbacks",
+          "Ljava/util/Map;"
+        ]
+      },
+      {
+        "site": "0x270588",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x270110",
+    "config": {
+      "missing": [
+        "sHookedMethodCallbacks"
+      ]
+    },
+    "execution": {
+      "function": "0x270110",
+      "reason": "return",
+      "steps": 2111,
+      "pc": "0x32000000",
+      "result": "0x1008"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "sHookedMethodCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270564",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x270588",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "helper": "0x229f44",
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100"
+        ],
+        "result": 822084352
+      },
+      {
+        "lookup": 1152,
+        "name": "renamedCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270764",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000300",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "renamedCallbacks",
+          "Ljava/util/Map;"
+        ]
+      }
+    ]
+  },
+  {
+    "root": "0x26f654",
+    "config": {},
+    "execution": {
+      "function": "0x26f654",
+      "reason": "return",
+      "steps": 2244,
+      "pc": "0x32000000",
+      "result": "0x1"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "sHookedMethodCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270564",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "sHookedMethodCallbacks",
+          "Ljava/util/Map;"
+        ]
+      },
+      {
+        "site": "0x270588",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26f87c",
+        "slot": 1160,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "map"
+        ]
+      },
+      {
+        "site": "0x26f8ac",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000300",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/HashMap"
+        ]
+      },
+      {
+        "site": "0x26f8f0",
+        "slot": 256,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "lookup": 264,
+        "name": "isEmpty",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26f964",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000400",
+          "0x31000500",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "isEmpty",
+          "()Z"
+        ]
+      },
+      {
+        "site": "0x26f98c",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x31000500",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "lookup": 264,
+        "name": "values",
+        "signature": "()Ljava/util/Collection;"
+      },
+      {
+        "site": "0x26fa3c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "values",
+          "()Ljava/util/Collection;"
+        ]
+      },
+      {
+        "site": "0x26fabc",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "site": "0x26fad0",
+        "slot": 512,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "collection"
+        ]
+      },
+      {
+        "site": "0x26fb00",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000800",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Collection"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "iterator",
+        "signature": "()Ljava/util/Iterator;"
+      },
+      {
+        "site": "0x26fb4c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          "0x31000900",
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "iterator",
+          "()Ljava/util/Iterator;"
+        ]
+      },
+      {
+        "site": "0x26fb6c",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "iterator"
+        ]
+      },
+      {
+        "site": "0x26fb98",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000b00",
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Iterator"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "hasNext",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26fbe0",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000c00",
+          "0x31000d00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "hasNext",
+          "()Z"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "next",
+        "signature": "()Ljava/lang/Object;"
+      },
+      {
+        "site": "0x26fc2c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "next",
+          "()Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x26fc5c",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31001000",
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Object"
+        ]
+      },
+      {
+        "site": "0x26fc84",
+        "slot": 1376,
+        "args": [
+          "0x31100000",
+          "0x0",
+          [
+            "class",
+            "java/lang/Object"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "array",
+          0
+        ]
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": true
+      },
+      {
+        "site": "0x26fcf4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "callback",
+          1
+        ]
+      },
+      {
+        "site": "0x26fd44",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "helper": "0x2275cc",
+        "args": [
+          "0x31100000",
+          "0x1088",
+          "0x1068",
+          "0x0"
+        ],
+        "result": 822087936
+      },
+      {
+        "lookup": 752,
+        "name": "elements",
+        "signature": "[Ljava/lang/Object;"
+      },
+      {
+        "site": "0x26fdf0",
+        "slot": 752,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          "0x31001100",
+          "0x31001200",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "elements",
+          "[Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x26fe18",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          "0x31001100",
+          "0x31001200",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe64",
+        "slot": 832,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe78",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fef8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": true
+      },
+      {
+        "site": "0x26fcf4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": [
+          "callback",
+          2
+        ]
+      },
+      {
+        "site": "0x26fe64",
+        "slot": 832,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe78",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fef8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": false
+      },
+      {
+        "site": "0x26ff58",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff70",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff88",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffa0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffb8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffd4",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x26f654",
+    "config": {
+      "empty": true
+    },
+    "execution": {
+      "function": "0x26f654",
+      "reason": "return",
+      "steps": 2262,
+      "pc": "0x32000000",
+      "result": "0x1"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "sHookedMethodCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270564",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "sHookedMethodCallbacks",
+          "Ljava/util/Map;"
+        ]
+      },
+      {
+        "site": "0x270588",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26f87c",
+        "slot": 1160,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "map"
+        ]
+      },
+      {
+        "site": "0x26f8ac",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000300",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/HashMap"
+        ]
+      },
+      {
+        "site": "0x26f8f0",
+        "slot": 256,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "lookup": 264,
+        "name": "isEmpty",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26f964",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000400",
+          "0x31000500",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "isEmpty",
+          "()Z"
+        ]
+      },
+      {
+        "site": "0x26f98c",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x31000500",
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "site": "0x26f9d8",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x31000500",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "site": "0x26f9f0",
+        "slot": 536,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "lookup": 264,
+        "name": "values",
+        "signature": "()Ljava/util/Collection;"
+      },
+      {
+        "site": "0x26fa3c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "values",
+          "()Ljava/util/Collection;"
+        ]
+      },
+      {
+        "site": "0x26fabc",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "site": "0x26fad0",
+        "slot": 512,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "collection"
+        ]
+      },
+      {
+        "site": "0x26fb00",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000800",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Collection"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "iterator",
+        "signature": "()Ljava/util/Iterator;"
+      },
+      {
+        "site": "0x26fb4c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          "0x31000900",
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "iterator",
+          "()Ljava/util/Iterator;"
+        ]
+      },
+      {
+        "site": "0x26fb6c",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "iterator"
+        ]
+      },
+      {
+        "site": "0x26fb98",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000b00",
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Iterator"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "hasNext",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26fbe0",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000c00",
+          "0x31000d00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "hasNext",
+          "()Z"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "next",
+        "signature": "()Ljava/lang/Object;"
+      },
+      {
+        "site": "0x26fc2c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "next",
+          "()Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x26fc5c",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31001000",
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Object"
+        ]
+      },
+      {
+        "site": "0x26fc84",
+        "slot": 1376,
+        "args": [
+          "0x31100000",
+          "0x0",
+          [
+            "class",
+            "java/lang/Object"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "array",
+          0
+        ]
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": true
+      },
+      {
+        "site": "0x26fcf4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "callback",
+          1
+        ]
+      },
+      {
+        "site": "0x26fd44",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "helper": "0x2275cc",
+        "args": [
+          "0x31100000",
+          "0x1090",
+          "0x1070",
+          "0x0"
+        ],
+        "result": 822087936
+      },
+      {
+        "lookup": 752,
+        "name": "elements",
+        "signature": "[Ljava/lang/Object;"
+      },
+      {
+        "site": "0x26fdf0",
+        "slot": 752,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          "0x31001100",
+          "0x31001200",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "elements",
+          "[Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x26fe18",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          "0x31001100",
+          "0x31001200",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe64",
+        "slot": 832,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe78",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fef8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": true
+      },
+      {
+        "site": "0x26fcf4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": [
+          "callback",
+          2
+        ]
+      },
+      {
+        "site": "0x26fe64",
+        "slot": 832,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe78",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fef8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": false
+      },
+      {
+        "site": "0x26ff58",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff70",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff88",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffa0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffb8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffd4",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x26f654",
+    "config": {
+      "empty": true,
+      "nonvirtual_empty": true
+    },
+    "execution": {
+      "function": "0x26f654",
+      "reason": "return",
+      "steps": 2255,
+      "pc": "0x32000000",
+      "result": "0x1"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "sHookedMethodCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270564",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "sHookedMethodCallbacks",
+          "Ljava/util/Map;"
+        ]
+      },
+      {
+        "site": "0x270588",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26f87c",
+        "slot": 1160,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "map"
+        ]
+      },
+      {
+        "site": "0x26f8ac",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000300",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/HashMap"
+        ]
+      },
+      {
+        "site": "0x26f8f0",
+        "slot": 256,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "lookup": 264,
+        "name": "isEmpty",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26f964",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000400",
+          "0x31000500",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "isEmpty",
+          "()Z"
+        ]
+      },
+      {
+        "site": "0x26f98c",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x31000500",
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "site": "0x26f9d8",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x31000500",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "site": "0x26f9f0",
+        "slot": 536,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "lookup": 264,
+        "name": "values",
+        "signature": "()Ljava/util/Collection;"
+      },
+      {
+        "site": "0x26fa3c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "values",
+          "()Ljava/util/Collection;"
+        ]
+      },
+      {
+        "site": "0x26fa80",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "collection"
+        ]
+      },
+      {
+        "site": "0x26fb00",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000800",
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Collection"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "iterator",
+        "signature": "()Ljava/util/Iterator;"
+      },
+      {
+        "site": "0x26fb4c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          "0x31000900",
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "iterator",
+          "()Ljava/util/Iterator;"
+        ]
+      },
+      {
+        "site": "0x26fb6c",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "iterator"
+        ]
+      },
+      {
+        "site": "0x26fb98",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000b00",
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Iterator"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "hasNext",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26fbe0",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000c00",
+          "0x31000d00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "hasNext",
+          "()Z"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "next",
+        "signature": "()Ljava/lang/Object;"
+      },
+      {
+        "site": "0x26fc2c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "next",
+          "()Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x26fc5c",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31001000",
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Object"
+        ]
+      },
+      {
+        "site": "0x26fc84",
+        "slot": 1376,
+        "args": [
+          "0x31100000",
+          "0x0",
+          [
+            "class",
+            "java/lang/Object"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "array",
+          0
+        ]
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": true
+      },
+      {
+        "site": "0x26fcf4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "callback",
+          1
+        ]
+      },
+      {
+        "site": "0x26fd44",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "helper": "0x2275cc",
+        "args": [
+          "0x31100000",
+          "0x1088",
+          "0x1068",
+          "0x0"
+        ],
+        "result": 822087936
+      },
+      {
+        "lookup": 752,
+        "name": "elements",
+        "signature": "[Ljava/lang/Object;"
+      },
+      {
+        "site": "0x26fdf0",
+        "slot": 752,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          "0x31001100",
+          "0x31001200",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "elements",
+          "[Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x26fe18",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          "0x31001100",
+          "0x31001200",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe64",
+        "slot": 832,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe78",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fef8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            1
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": true
+      },
+      {
+        "site": "0x26fcf4",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "next",
+            "()Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": [
+          "callback",
+          2
+        ]
+      },
+      {
+        "site": "0x26fe64",
+        "slot": 832,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fe78",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fef8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "callback",
+            2
+          ],
+          [
+            "member",
+            "elements",
+            "[Ljava/lang/Object;"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": false
+      },
+      {
+        "site": "0x26ff58",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff70",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff88",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffa0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffb8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffd4",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          [
+            "array",
+            0
+          ],
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x26f654",
+    "config": {
+      "hashmap": 0
+    },
+    "execution": {
+      "function": "0x26f654",
+      "reason": "return",
+      "steps": 1804,
+      "pc": "0x32000000",
+      "result": "0x0"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "sHookedMethodCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270564",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "sHookedMethodCallbacks",
+          "Ljava/util/Map;"
+        ]
+      },
+      {
+        "site": "0x270588",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26f87c",
+        "slot": 1160,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "map"
+        ]
+      },
+      {
+        "site": "0x26f8ac",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000300",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/HashMap"
+        ]
+      },
+      {
+        "site": "0x26f8f0",
+        "slot": 256,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "root": "0x26f654",
+    "config": {
+      "values": 0
+    },
+    "execution": {
+      "function": "0x26f654",
+      "reason": "return",
+      "steps": 2041,
+      "pc": "0x32000000",
+      "result": "0x0"
+    },
+    "trace": [
+      {
+        "lookup": 1152,
+        "name": "sHookedMethodCallbacks",
+        "signature": "Ljava/util/Map;"
+      },
+      {
+        "site": "0x270564",
+        "slot": 1152,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "sHookedMethodCallbacks",
+          "Ljava/util/Map;"
+        ]
+      },
+      {
+        "site": "0x270588",
+        "slot": 1824,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          "0x31000200",
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26f87c",
+        "slot": 1160,
+        "args": [
+          "0x31100000",
+          "0x5000",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "map"
+        ]
+      },
+      {
+        "site": "0x26f8ac",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000300",
+          [
+            "member",
+            "sHookedMethodCallbacks",
+            "Ljava/util/Map;"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/HashMap"
+        ]
+      },
+      {
+        "site": "0x26f8f0",
+        "slot": 256,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000100",
+          "0x0"
+        ],
+        "result": 1
+      },
+      {
+        "lookup": 264,
+        "name": "isEmpty",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26f964",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000400",
+          "0x31000500",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "isEmpty",
+          "()Z"
+        ]
+      },
+      {
+        "site": "0x26f98c",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "isEmpty",
+            "()Z"
+          ],
+          "0x31000500",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "lookup": 264,
+        "name": "values",
+        "signature": "()Ljava/util/Collection;"
+      },
+      {
+        "site": "0x26fa3c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "values",
+          "()Ljava/util/Collection;"
+        ]
+      },
+      {
+        "site": "0x26fabc",
+        "slot": 248,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          "0x31000600",
+          "0x31000700",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "fixtureValue"
+        ]
+      },
+      {
+        "site": "0x26fad0",
+        "slot": 512,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "collection"
+        ]
+      },
+      {
+        "site": "0x26fb00",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000800",
+          [
+            "class",
+            "fixtureValue"
+          ],
+          [
+            "member",
+            "values",
+            "()Ljava/util/Collection;"
+          ],
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Collection"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "iterator",
+        "signature": "()Ljava/util/Iterator;"
+      },
+      {
+        "site": "0x26fb4c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          "0x31000900",
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "iterator",
+          "()Ljava/util/Iterator;"
+        ]
+      },
+      {
+        "site": "0x26fb6c",
+        "slot": 272,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "iterator"
+        ]
+      },
+      {
+        "site": "0x26fb98",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31000b00",
+          [
+            "member",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ],
+          "0x31000a00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/util/Iterator"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "hasNext",
+        "signature": "()Z"
+      },
+      {
+        "site": "0x26fbe0",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000c00",
+          "0x31000d00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "hasNext",
+          "()Z"
+        ]
+      },
+      {
+        "lookup": 264,
+        "name": "next",
+        "signature": "()Ljava/lang/Object;"
+      },
+      {
+        "site": "0x26fc2c",
+        "slot": 264,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "member",
+          "next",
+          "()Ljava/lang/Object;"
+        ]
+      },
+      {
+        "site": "0x26fc5c",
+        "slot": 48,
+        "args": [
+          "0x31100000",
+          "0x31001000",
+          "0x31000e00",
+          "0x31000f00",
+          "0x0"
+        ],
+        "result": [
+          "class",
+          "java/lang/Object"
+        ]
+      },
+      {
+        "site": "0x26fc84",
+        "slot": 1376,
+        "args": [
+          "0x31100000",
+          "0x0",
+          [
+            "class",
+            "java/lang/Object"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": [
+          "array",
+          0
+        ]
+      },
+      {
+        "site": "0x26fcc4",
+        "slot": 296,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": false
+      },
+      {
+        "site": "0x26ff58",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff70",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "iterator"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ff88",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/Collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffa0",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "collection"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffb8",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "class",
+            "java/util/HashMap"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": 0
+      },
+      {
+        "site": "0x26ffd4",
+        "slot": 184,
+        "args": [
+          "0x31100000",
+          [
+            "map"
+          ],
+          [
+            "member",
+            "hasNext",
+            "()Z"
+          ],
+          "0x0",
+          "0x0"
+        ],
+        "result": 0
+      }
+    ]
+  }
+]

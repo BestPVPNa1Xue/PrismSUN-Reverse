@@ -1,0 +1,60 @@
+[
+  {
+    "returned": 0,
+    "execution": {
+      "function": "0x30f590",
+      "reason": "return",
+      "steps": 660,
+      "pc": "0x32000000",
+      "result": "0x0"
+    },
+    "calls": [
+      {
+        "site": "0x30f7c4",
+        "target": "0x312748",
+        "resolved": "0x311970",
+        "args": [
+          "0xffffff9c",
+          "0x31100000",
+          "0x31100100",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200fffb0"
+        ],
+        "result": 0
+      }
+    ]
+  },
+  {
+    "returned": -1,
+    "execution": {
+      "function": "0x30f590",
+      "reason": "return",
+      "steps": 660,
+      "pc": "0x32000000",
+      "result": "0xffffffff"
+    },
+    "calls": [
+      {
+        "site": "0x30f7c4",
+        "target": "0x312748",
+        "resolved": "0x311970",
+        "args": [
+          "0xffffff9c",
+          "0x31100000",
+          "0x31100100",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x200fffb0"
+        ],
+        "result": -1
+      }
+    ]
+  }
+]

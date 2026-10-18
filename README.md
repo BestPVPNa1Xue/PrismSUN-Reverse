@@ -2,7 +2,17 @@
 
 EaseCation 棱镜反作弊部分检测点的逆向产物、报告和基于已有证据重建的 C++ 代码。**这不是 PrismSUN 原始源码，也没有声称覆盖所有检查点。**
 
-当前研究快照：**2026-10-18 r1**。最新四链包括 TracerPid、seccomp/SIGSYS、maps 与四库组合、event22；其他专项包括无障碍、输入法、设备身份、MCP 文件与 RNG 时钟支持。
+现版研究快照：**2026-10-18 r1**。最新四链包括 TracerPid、seccomp/SIGSYS、maps 与四库组合、event22；其他专项包括无障碍、输入法、设备身份、MCP 文件与 RNG 时钟支持。
+
+## 旧版小样本专项（新增）
+
+**PSR_20250811.531a9c4** 的 Xposed/Epic、七条虚拟环境/Superuser 路径、maps 和调试检查已单独整理：
+
+- [深度报告](02_reports/research/prism_old_checks_20261018/REPORT.zh-CN.md) · [独立 C++ 源码与测试](01_source/research/prism_old_checks_20261018/) · [IDA 证据与原指令验证](03_evidence/prism_old_checks_20261018/)
+- [完整专题 Release](https://github.com/BestPVPNa1Xue/PrismSUN-Reverse/releases/tag/prism-old-2026-10-18-r1)：16.85 MiB，含一个最新 IDB、所选样本、报告和旧件历史证据。
+- 38组核心断言、12个JNI场景、83对原始字符串解码验证通过；Android ARM64/API24产物仅交叉编译。ART枚举输入、maps外部基线等边界见报告。
+
+本专题没有更新 PrismDetector APK。下方现版研究 r1 归档仍是独立的历史快照。
 
 ## 关联应用
 

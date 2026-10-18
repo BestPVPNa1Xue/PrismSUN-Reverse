@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "strings_original_getter_converter_pairs": 83,
+  "core_assertion_groups": 38,
+  "jni_cpp_scenarios": 12,
+  "original_instruction_fixtures": [
+    "debug",
+    "maps",
+    "JNI",
+    "reflection",
+    "fstatat wrapper",
+    "maps diagnostic 8)"
+  ],
+  "android_runtime_executed": false,
+  "android_target": "aarch64-linux-android24"
+}
